@@ -1,0 +1,37 @@
+package I;
+import java.sql.*;
+
+/**
+ * SQL Query
+ *
+ * 
+ **/
+public class StaffUserNamePwQuery
+{
+  private Connection c;
+  private String sid,password;
+  private boolean entry;
+
+  public StaffUserNamePwQuery(String staffID, String pw)
+  {      
+
+    c = MyConnection.C;
+    sid = staffID;
+    password = pw;
+  }
+
+  public boolean exeQuery()
+  {
+    try 
+    {
+
+      
+    } 
+    catch (SQLException e) 
+    {
+      System.out.println( "An exception occurred in UpdateCDEntryQuery. " + e);
+    }
+        
+    return(entry);
+  }
+}

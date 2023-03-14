@@ -1,0 +1,45 @@
+-- Final Year Project
+-- By David Clarke
+-- Created 12_12_2000
+-- Updated 20_12_2000
+Library IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE WORK.MATRIX_PACKAGE.ALL; -- USING MY NEW PACKAGE
+--
+ENTITY ASM_CONFIG_2 IS
+PORT (CLK, RESET      : IN ONE_BIT; 
+      DATA_SELECT     : OUT INTEGER range 1 downto 0;
+      MEM_SEL_OUT     : OUT ONE_BIT);
+END ENTITY ASM_CONFIG_2;
+--
+ARCHITECTURE STATE_MACHINE OF ASM_CONFIG_2 IS
+type STATE_TYPE is (S0);  
+signal CURRENT_STATE, NEXT_STATE : STATE_TYPE;
+
+BEGIN
+    next_state_logic: PROCESS (current_state) IS
+         Begin   
+              CASE current_state IS           
+                   WHEN S0 => next_state <= S0;
+              END CASE;
+         End Process next_state_logic;
+        
+    state_update : PROCESS (next_state, RESET, CLK) IS
+         Begin
+	      IF RESET = '1' THEN current_state <= S0;
+	      ELSIF rising_edge(clk) THEN
+                 current_state <= next_state;
+              END IF;
+         End PROCESS state_update;
+         
+   output_logic : PROCESS (current_state)
+        Begin
+             CASE current_state IS
+                  WHEN S0 =>    Data_Select <= 1; 
+                  		MEM_SEL_OUT <= '1';
+   
+             END CASE;
+        END PROCESS output_logic;     
+                   
+END ARCHITECTURE STATE_MACHINE;
+    

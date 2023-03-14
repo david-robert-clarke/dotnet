@@ -1,0 +1,76 @@
+[project]
+name=test
+netlist=test
+contents=
+date=01/23/01
+time=20:54:02
+version=3.1.5.00.33
+Type=F21i
+top_level=VHDL
+HDL netlist format=Auto
+generics=MAX
+pdf_dir=c:\fndtn\active\projects\
+sim_mode=FUNC
+lib_order=1011 133 155
+
+[libraries]
+1011=
+133=c:\fndtn\active\syslib\simprims
+155=c:\fndtn\active\syslib\xc4000x
+
+[xilinx]
+libraries=unified
+family=2
+xfam=XC4000XL
+xact9=On
+
+[OPEN32]
+nMaxFile=10000
+lpstrFile=
+lpstrFilter=HDL (*.VHD;*.VER;*.VE;*.V)|*.vhd;*.ver;*.ve;*.v|Schematic (*.SCH)|*.sch|FSM (*.ASF)|*.asf|Xnf Sources (*.XNF)|*.xnf|Edif Sources (*.EDF;*.EDN;*.EDO)|*.edf;*.edn;*.edo|All Files (*.*)|*.*||
+lpstrInitialDir=C:\FNDTN\ACTIVE\PROJECTS\TEST
+lpstrTitle=Add Document
+nFilterIndex=0
+Flags=530964
+HelpID=10380
+HelpFileName=C:\FNDTN\ACTIVE\EXE\PCM.HLP
+cmdLine=-h 2744 -hp 616 -m PCM_OPEN_32_MESSAGE -f C:\FNDTN\ACTIVE\PROJECTS\current.pdf
+
+[Top Doc]
+WEE.vhd=21
+
+[hdl_sheets]
+WEE.vhd=
+
+[implement_XIE]
+version=ver1
+revision=rev1
+
+[device]
+part=4010XLPC84-09
+xilinx=4010XLPC84-09
+
+[implement_HDL]
+family=2
+xfam=XC4000XL
+part=4010XLPC84-09
+xilinx=4010XLPC84-09
+functional=ver1
+optimized=ver1-Optimized
+design=gsr_test,c:\fndtn\active\projects\test\wee.vhd
+
+[netlist]
+external=FALSE
+
+[Log]
+netlist.log=Simulator Netlist Log
+
+[APP_95]
+oid=0
+lid=0
+format=19
+source=c:\fndtn\active\projects\test\wee.vhd
+server_hwnd=1664
+
+[OpenDoc]
+hde/WEE=2116,1,44,44,812,581,wee.vhd

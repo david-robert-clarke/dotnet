@@ -1,0 +1,19 @@
+import java.io.*;
+
+class Mess
+{
+	public static void main (String[] args)
+	{
+		// read in a line from a specified file
+		System.out.println("Hello: ");
+		String line = reader.readLine();
+		int lineLength = line.length();
+		char[] lineArray = new char[100];
+		line.getChars(0, lineLength, lineArray, 0);
+		
+		for (int n = 0, n != lineLength, n++)
+		{
+			System.out.print(lineArray[n] + "\n");
+		}
+	}
+}

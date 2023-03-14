@@ -1,0 +1,276 @@
+#VRML V2.0 utf8
+#David Clarke 490973
+
+NavigationInfo {
+   type "FLY"
+   avatarSize [1, 1.6, 0.75]
+
+}
+
+PROTO theArenaFloor[]
+{
+DEF arenaFloor Group{
+children[
+        DEF palm Transform{ #palm trees to the right of the track
+	translation 100 4 200
+	scale 4 4 4
+	children[
+		DEF PALMTREE Billboard {
+		children [
+			Shape {
+ 			appearance Appearance {
+ 			texture ImageTexture {
+ 			url "tree.png"
+        		}
+        		}
+ 			geometry Box {
+			size 1 4 0.0001
+        		}
+        		}
+		]
+		}
+	]
+	}
+
+	Transform{
+	translation -10 0 10
+	children USE palm
+	}
+	Transform{
+	translation -20 0 0
+	children USE palm
+	}
+	Transform{
+	translation -30 0 20
+	children USE palm
+	}
+	Transform{
+	translation -40 0 30
+	children USE palm
+	}
+	Transform{
+	translation -10 0 -250
+	children USE palm
+	}
+	Transform{
+	translation -30 0 -270
+	children USE palm
+	}
+	Transform{
+	translation 0 0 -260
+	children USE palm
+	}
+	Transform{
+	translation -10 0 -390
+	children USE palm
+	}
+	Transform{
+	translation -30 0 -350
+	children USE palm
+	}
+	Transform{
+	translation -20 0 -400
+	children USE palm
+	}
+	Transform{
+	translation 0 0 -410
+	children USE palm
+	}
+	Transform{
+	translation -10 0 -200
+	children USE palm
+	}
+
+	Transform{   #palm trees to the left of the track
+	translation -290 0 10
+	children USE palm
+	}
+	Transform{
+	translation -280 0 0
+	children USE palm
+	}
+	Transform{
+	translation -270 0 20
+	children USE palm
+	}
+	Transform{
+	translation -260 0 30
+	children USE palm
+	}
+	Transform{
+	translation -290 0 -250
+	children USE palm
+	}
+	Transform{
+	translation -270 0 -270
+	children USE palm
+	}
+	Transform{
+	translation -300 0 -260
+	children USE palm
+	}
+	Transform{
+	translation -290 0 -390
+	children USE palm
+	}
+	Transform{
+	translation -270 0 -350
+	children USE palm
+	}
+	Transform{
+	translation -280 0 -400
+	children USE palm
+	}
+	Transform{
+	translation 0 0 -410
+	children USE palm
+	}
+	Transform{
+	translation -10 0 -200
+	children USE palm
+	}
+
+	DEF sand Transform{
+        translation -215 0 -250
+	children[
+		Shape{
+		appearance Appearance{
+		texture ImageTexture {
+      		url "sand.jpg"
+   		}
+        	}
+        	geometry ElevationGrid {# the arena surface
+        	xDimension 18
+            	zDimension 25
+            	xSpacing 20.0
+            	zSpacing 20.0
+            	solid FALSE
+            	height [
+            	        0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+            	        0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+            	        0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+            	        0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+            	        0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+            	        0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+            	        0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+            	        0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+            	        0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+            	        0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+            	        0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+            	        0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+            	        0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+            	        0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+            	        0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+            	        0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+            	        0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+            	        0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+            	        0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+            	        0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+            	        0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+            	        0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+            	        0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+            	        0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+            	        0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+            		]
+         		}
+        		}
+        	]
+        	}
+
+        DEF road Transform{
+        translation 125 0.2 0
+        children[
+        	DEF straight1 Transform{
+        	children[
+        		Shape{
+        		appearance Appearance{
+			material Material{
+			diffuseColor 0.5 0.5 0.5
+			}
+			}
+        		geometry ElevationGrid {# the arena surface
+        		xDimension 2
+            		zDimension 2
+            		xSpacing 100.0
+            		zSpacing 25.0
+            		solid FALSE
+            		height [
+            			0.0, 0.0
+            			0.0, 0.0
+            			]
+            		}
+            		}
+            		]
+            		}
+            	DEF straight2 Transform{
+            	translation 0 0 205
+            	children USE straight1
+            	}
+            	DEF straight3 Transform{
+            	translation 0 0 -250
+            	children USE straight1
+            	}
+            	DEF straightFrontStand Transform{
+            	translation 0 0 -250
+        	children[
+        		Shape{
+        		appearance Appearance{
+			material Material{
+			diffuseColor 0.5 0.5 0.5
+			}
+			}
+        		geometry ElevationGrid {# the arena surface
+        		xDimension 2
+            		zDimension 2
+            		xSpacing 25.0
+            		zSpacing 480.0
+            		solid FALSE
+            		height [
+            			0.0, 0.0
+            			0.0, 0.0
+            			]
+            		}
+            		}
+            	]
+            	}
+          ]
+          }
+          DEF grass Transform{
+          translation 0 0.25 0
+          children[
+          	DEF topGrassyKnoll Transform{
+          	translation 150 0 -225
+          	children[
+          		Shape{
+        		appearance Appearance{
+			texture ImageTexture {
+      			url "floor.jpg"
+   			}
+			}
+        		geometry ElevationGrid {# the arena surface
+        		xDimension 2
+            		zDimension 2
+            		xSpacing 75.0
+            		zSpacing 225.0
+            		solid FALSE
+            		height [
+            			0.0, 0.0
+            			0.0, 0.0
+            			]
+            		}
+            		}
+          	]
+          	}
+          	DEF bottomGrassyKnoll Transform{
+          	scale 1 1 0.8
+          	translation 0 0 205
+          	children USE topGrassyKnoll
+          	}
+          ]
+          }
+
+]
+}#THE END
+}
+
+theArenaFloor{}

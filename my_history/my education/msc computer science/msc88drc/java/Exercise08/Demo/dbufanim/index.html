@@ -1,0 +1,109 @@
+<HTML>
+
+<HEAD>
+<TITLE>Java Double-buffering</TITLE>
+</HEAD>
+
+<BODY BGCOLOR=#000000 TEXT=#AAAAAA LINK=#FFBB00 VLINK=#AA7700 ALINK=FFFF88>
+
+<!-- ##
+     ##  (c) 2000 by Mike Linkovich
+     ##  e: mikemaz@interlog.com
+     ##  -->
+
+<DIV ALIGN=CENTER><CENTER>
+
+<TABLE WIDTH=80%>
+<TR>
+<TD>
+
+<P ALIGN=RIGHT>
+<FONT FACE="impact,arial,helvetica" SIZE=+3>double-buffered Java animation<BR></FONT>
+<IMG SRC="reddot.gif" WIDTH=100% HEIGHT=1>
+<BR>
+</P>
+
+<P ALIGN=CENTER>
+<APPLET CODE="DBufAnim.class" WIDTH=320 HEIGHT=240></APPLET>
+<BR>
+<BR>
+<FONT FACE="verdana,arial,helvetica" SIZE=-1>
+[<I>click the applet to re-init the ball</I>]
+</FONT>
+</P>
+
+<P ALIGN=LEFT>
+<FONT FACE="verdana,arial,helvetica" SIZE=-1>
+<B>This Java applet demonstrates the following:</B>
+<BR>
+<BR>
+<B>Double buffering</b>. That is, composing the image off-screen
+and then drawing that final image to the screen.  This technique avoids
+annoying flicker that results from drawing and erasing everything on-screen.
+<BR>
+<BR>
+<B>Scaling by time</b>. Rather than moving the ball a fixed number of
+pixels per frame, the ball's position and velocity are stored as floating
+point values.  Motion is calculated by moving the ball a distance scaled by
+the amount of time <i>elapsed</i> since the previous frame.  This technique
+provides the user with what appears to be the exact same motion speed from
+one computer to the next, regardless of the framerate that their PC/browser
+is capable of.  It also allows the applet to run as fast as possible, so
+faster computers will display <i>smoother</i> animation, rather than a
+faster-moving ball.
+<BR>
+<BR>
+<B>Timer averaging</B>. Java's timer is notoriously erratic.  In general I
+have found that calling System.currentTimeMillis() is accurate to roughly
+50ms intervals.  What that means is that if you call the function more than
+once within a 50ms time interval, you will not get a properly updated time.
+Since 50ms is good for only 20 frames per second, and since the applet will
+generally run at faster rates than that on fast computers, scaling by time
+becomes choppy and inaccurate.  What this applet does is records the time
+intervals for <I>the last 8 frames</I> in order to estimate a far more
+accurate elapsed-time for each frame.
+<BR>
+<BR>
+<B>Threading techniques</B>.  If you come from a C, BASIC, or ASM background,
+Java's intrinsic multithreading may seem a little wierd.  This applet should
+explain how to get a stable main loop up and running, and hopefully help you
+to avoid the pitfalls associated with fragile Java implementations prevalent
+in most web browsers.
+<BR>
+</FONT>
+</P>
+
+<IMG SRC="reddot.gif" WIDTH=100% HEIGHT=1>
+
+<P ALIGN=CENTER>
+<FONT FACE="arial,helvetica" SIZE=-1><I>
+tutorial &copy; 1999-2000 - <A HREF="mailto:link@spacejack.org">Mike Linkovich</A>
+<BR>
+last updated: Dec 26 2000
+</I></FONT>
+</P>
+
+</TD>
+</TR>
+</TABLE>
+</P>
+
+</CENTER>
+
+</DIV>
+
+<P ALIGN=CENTER>
+<FONT FACE="impact,arial,helvetica">
+<FONT SIZE=+3>
+<A HREF="dbufanim.zip">download</A> | </FONT>
+<A HREF="DBufAnim.java">view source</A> |
+<A HREF="http://spacejack.org/games/resources.html">resources</A> |
+<A HREF="http://spacejack.org/">SpaceJack.org</A>
+<BR>
+</FONT>
+<BR>
+</P>
+
+</BODY>
+
+</HTML>

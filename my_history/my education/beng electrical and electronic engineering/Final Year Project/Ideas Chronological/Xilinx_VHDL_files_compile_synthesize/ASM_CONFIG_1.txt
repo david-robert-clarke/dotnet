@@ -1,0 +1,70 @@
+-- Final Year Project
+-- By David Clarke
+-- Created 12_12_2000
+Library IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+--
+ENTITY ASM_CONFIG_1 IS
+PORT (CLK, CLR        : IN STD_LOGIC;
+      DATA_SELECT     : OUT INTEGER range 3 downto 0;
+      LATCH_MEM       : OUT STD_LOGIC_VECTOR (3 downto 0));
+END ENTITY ASM_CONFIG_1;
+--
+ARCHITECTURE STATE_MACHINE OF ASM_CONFIG_1 IS
+    type STATE_TYPE is (S0, S1, S2, S3, S4, S5, S6, S7);
+    signal CURRENT_STATE, NEXT_STATE : STATE_TYPE;
+    
+BEGIN
+  
+    next_state_logic: PROCESS (current_state) IS
+         Begin                
+              CASE current_state IS           
+                   WHEN S0 => next_state <= S1;
+                   WHEN S1 => next_state <= S2;
+                   WHEN S2 => next_state <= S3;
+                   WHEN S3 => next_state <= S4;
+                   WHEN S4 => next_state <= S5;
+                   WHEN S5 => next_state <= S6;
+                   WHEN S6 => next_state <= S7;
+                   WHEN S7 => next_state <= S7;
+              END CASE;
+         End Process next_state_logic;
+        
+    state_update : PROCESS (next_state, CLR, CLK) IS
+         Begin
+              IF CLR = '1' THEN current_state <= S0;
+              ELSIF rising_edge(clk) THEN current_state <= next_state;
+              END IF;
+         End PROCESS state_update;
+         
+   output_logic : PROCESS (current_state)
+        Begin
+             CASE current_state IS
+                  WHEN S0 =>		Data_Select <= 3; 
+                  			Latch_Mem   <= "0000";
+                  
+                  WHEN S1 =>            Data_Select <= 3;
+                  			Latch_Mem   <= "1000";
+                  
+                  WHEN S2 =>		Data_Select <= 2;
+                  			Latch_Mem   <= "0000";
+                  			
+                  WHEN S3 =>		Data_Select <= 2;
+                  			Latch_Mem   <= "0100";    
+                  			
+                  WHEN S4 =>		Data_Select <= 1;
+                  			Latch_Mem   <= "0000";
+                  			
+                  WHEN S5 =>		Data_Select <= 1;
+                  			Latch_Mem   <= "0010"; 
+                  			
+                  WHEN S6 =>		Data_Select <= 0;
+                  			Latch_Mem   <= "0000";
+                  			
+                  WHEN S7 =>		Data_Select <= 0;
+                  			Latch_Mem   <= "0001";   
+             END CASE;
+        END PROCESS output_logic;     
+                   
+END ARCHITECTURE STATE_MACHINE;
+    

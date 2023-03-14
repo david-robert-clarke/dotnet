@@ -1,0 +1,74 @@
+#:C29    
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 C.22
+#Design Path Name:
+#:N   matmul.ncd
+#Current Working Directory:
+#:D   C:\Fndtn\Active\Projects\MatmuL\xproj\ver1\rev1
+#Part Type:
+#:P  Xilinx xc4010xl pc84 -09
+#Date/Time:
+#:T   Thu Dec 21 19:18:23 2000
+#------------------------------
+	#1
+setattr main edit-mode read-only
+	#2
+setattr main disable_draw on
+	#3
+setattr layer switch_boxes view on
+	#4
+setattr main disable_draw off
+	#Hint: change the visiblity of more than one layer at a time by clicking on the apply button, clicking two or more layer buttons, and then clicking on the apply button again.
+	#5
+setattr main disable_draw on
+	#6
+setattr layer switch_boxes view off
+	#7
+setattr main disable_draw off
+	#8
+setattr main disable_draw on
+	#9
+setattr layer switch_boxes view on
+	#10
+setattr main disable_draw off
+	#11
+setattr main disable_draw on
+	#12
+setattr layer switch_boxes view off
+	#13
+setattr main disable_draw off
+	#14
+setattr main disable_draw on
+	#15
+setattr layer pips view on
+	#16
+setattr main disable_draw off
+	#17
+setattr main disable_draw on
+	#18
+setattr layer pinwires view on
+	#19
+setattr main disable_draw off
+	#20
+setattr main disable_draw on
+	#21
+setattr layer pinwires view off
+	#22
+setattr main disable_draw off
+	#23
+setattr main disable_draw on
+	#24
+setattr layer pips view off
+	#25
+setattr main disable_draw off
+	#26
+select -k comp "FIREDUP"
+	#27
+unselect comp "FIREDUP"
+	#28
+select -k comp "MATRIX_PROD<0>"
+	#29
+unselect comp "MATRIX_PROD<0>"
+	#30
+select -k comp "MATRIX_PROD<10>"

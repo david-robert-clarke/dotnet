@@ -1,0 +1,101 @@
+--------------------------------------------------------------------------------
+Xilinx TRACE, Version C.22
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Design file:              rs232_st.ncd
+Physical constraint file: rs232_st.pcf
+Device,speed:             xc4010xl,-09 (C 1.1.2.2 PRELIMINARY)
+Report level:             error report
+--------------------------------------------------------------------------------
+
+WARNING:Timing:181 - No timing constraints found, doing default enumeration.
+
+================================================================================
+Timing constraint: Default period analysis
+ 1314 items analyzed, 0 timing errors detected.
+ Minimum period is  20.943ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: Default net enumeration
+ 127 items analyzed, 0 timing errors detected.
+ Maximum net delay is   7.501ns.
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CLR
+---------------+------------+------------+
+               |  Setup to  |  Hold to   |
+Source Pad     | clk (edge) | clk (edge) |
+---------------+------------+------------+
+RS232_input    |  -12.033(R)|   13.132(R)|
+---------------+------------+------------+
+
+Setup/Hold to clock CLK
+---------------+------------+------------+
+               |  Setup to  |  Hold to   |
+Source Pad     | clk (edge) | clk (edge) |
+---------------+------------+------------+
+RS232_input    |    4.670(R)|    0.000(R)|
+---------------+------------+------------+
+
+Clock CLR to Pad
+---------------+------------+
+               | clk (edge) |
+Destination Pad|   to PAD   |
+---------------+------------+
+EVEN           |   24.388(R)|
+ODD            |   25.013(R)|
+S0             |   23.466(R)|
+S1             |   22.993(R)|
+S2             |   22.860(R)|
+S3             |   23.584(R)|
+S4             |   24.181(R)|
+S5             |   23.128(R)|
+S6             |   24.242(R)|
+---------------+------------+
+
+Clock to Setup on destination clock CLR
+---------------+---------+---------+---------+---------+
+               | Src/Dest| Src/Dest| Src/Dest| Src/Dest|
+Source Clock   |Rise/Rise|Fall/Rise|Rise/Fall|Fall/Fall|
+---------------+---------+---------+---------+---------+
+CLR            |   16.362|    0.323|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src/Dest| Src/Dest| Src/Dest| Src/Dest|
+Source Clock   |Rise/Rise|Fall/Rise|Rise/Fall|Fall/Fall|
+---------------+---------+---------+---------+---------+
+CLR            |   13.026|   13.026|         |         |
+CLK            |   20.837|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 1314 paths, 127 nets, and 466 connections (100.0% coverage)
+
+Design statistics:
+   Minimum period:  20.943ns (Maximum frequency:  47.749MHz)
+   Maximum net delay:   7.501ns
+
+WARNING:Timing:33 - Clock nets using non-dedicated resources were found in this
+   design. Clock skew on these resources will not be automatically addressed
+   during path analysis. To create a timing report that analyzes clock skew for
+   these paths, run trce with the '-skew' option.
+
+Analysis completed Sun Dec 03 20:14:29 2000
+--------------------------------------------------------------------------------
+

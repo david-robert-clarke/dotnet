@@ -1,0 +1,79 @@
+import java.util.*;
+
+public class Time
+{
+  private Calendar cal;
+  private int year;
+  private int day;
+  
+
+  public Time()
+  {
+
+  }
+  
+  public String getTodaysDate(String subtractDate)
+  {
+    cal = new GregorianCalendar();
+    
+    year = cal.get(Calendar.YEAR);          
+    month = cal.get(Calendar.MONTH); 
+    String stringMonth = "";
+    day = cal.get(Calendar.DAY_OF_MONTH);
+    
+    if(subtractDate.equals("1 day"))//first day
+    {
+      if(day == 1)//first day of month
+      {
+	if(month == 1)//first month of the year
+	{
+	  Calendar cal2 = new GregorianCalendar(year, month, 12);
+	  day = cal2.getActualMaximum(Calendar.DAY_OF_MONTH);	  
+	}
+	else
+	{
+	  //is not the first month of the year
+	  month -= 1;
+	  Calendar cal2 = new GregorianCalendar(year, month, 1);
+	  day = cal2.getActualMaximum(Calendar.DAY_OF_MONTH);
+	}	
+
+      }
+      else 
+      {
+	//is not the first day of the month
+	day -= 1;
+      }    
+    }
+    
+    else if(subtractDate.equals("1 week"))
+    {
+      if((day-7) < 1)//today minus a week is into last month
+      {
+	if(month == 1)//first month of the year
+	{
+	}
+	
+	else //is not the first month of the 
+	{
+	}	
+      }	
+    }
+    else if(subtractDate.equals("1 month"))
+    {
+    }
+    else if(subtractDate.equals("6 months"))
+    {
+    }
+    else if(subtractDate.equals("1 year"))
+    {
+    }
+    
+    String blank ="";
+
+    System.out.println(year +" "+month +" "+day);
+      
+    return(blank);//DATE_FORMAT);
+  }
+}
+

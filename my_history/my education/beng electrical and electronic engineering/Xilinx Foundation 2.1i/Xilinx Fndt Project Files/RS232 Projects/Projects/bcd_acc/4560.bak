@@ -1,0 +1,15 @@
+module 4560 (A, B, C0, S, C4) ;
+
+input [3:0] A ;
+input [3:0] B ;
+input C0 ;
+output [3:0] S ;
+output C4 ;
+
+// add your declarations here
+assign
+  {C4,S}=A+B+C0;
+
+// add your code here
+
+endmodule 

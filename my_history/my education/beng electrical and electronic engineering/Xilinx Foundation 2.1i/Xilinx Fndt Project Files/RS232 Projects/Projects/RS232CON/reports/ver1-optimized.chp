@@ -1,0 +1,218 @@
+
+===================
+Chip ver1-Optimized
+===================
+
+Summary Information:
+--------------------
+Type: Optimized implementation
+Source: ver1, up to date
+Status: 0 errors, 56 warnings, 0 messages
+Export: exported after last optimization
+
+Target Information:
+-------------------
+Vendor: Xilinx
+Family: XC4000XL
+Device: 4010XLPC84
+Speed: xl-09
+
+Chip Parameters:
+----------------
+Optimize for: Speed
+Optimization effort: Low
+Frequency: 50 MHz
+Is module: No
+Keep io pads: No
+Number of flip-flops: 19
+Number of latches: 28
+
+Chip Design Hierarchy:
+----------------------
+wholesystem: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\wholesystem.vhd
+  CONTROLBEAST: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CONTROLBEAST.XNF
+    FDR_0: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CONTROLBEAST.XNF
+      FD_0: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\FDR.XNF
+    FDR_1: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CONTROLBEAST.XNF
+      FD_0: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\FDR.XNF
+    FDR_2: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CONTROLBEAST.XNF
+      FD_0: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\FDR.XNF
+  CB16CLED: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+    FTCLEX_0: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+      M2_1_0: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\FTCLEX.XNF
+    FTCLEX_1: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+      M2_1_0: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\FTCLEX.XNF
+    FTCLEX_2: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+      M2_1_0: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\FTCLEX.XNF
+    FTCLEX_3: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+      M2_1_0: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\FTCLEX.XNF
+    FTCLEX_4: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+      M2_1_0: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\FTCLEX.XNF
+    FTCLEX_5: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+      M2_1_0: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\FTCLEX.XNF
+    FTCLEX_6: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+      M2_1_0: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\FTCLEX.XNF
+    FTCLEX_7: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+      M2_1_0: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\FTCLEX.XNF
+    FTCLEX_8: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+      M2_1_0: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\FTCLEX.XNF
+    FTCLEX_9: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+      M2_1_0: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\FTCLEX.XNF
+    FTCLEX_10: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+      M2_1_0: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\FTCLEX.XNF
+    FTCLEX_11: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+      M2_1_0: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\FTCLEX.XNF
+    FTCLEX_12: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+      M2_1_0: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\FTCLEX.XNF
+    FTCLEX_13: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+      M2_1_0: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\FTCLEX.XNF
+    FTCLEX_14: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+      M2_1_0: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\FTCLEX.XNF
+    FTCLEX_15: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+      M2_1_0: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\FTCLEX.XNF
+    M2_1B1_0: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+    M2_1_1: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+    M2_1_2: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+    M2_1_3: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+    M2_1_4: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+    M2_1_5: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+    M2_1_6: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+    M2_1_7: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+    M2_1_8: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+    M2_1_9: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+    M2_1_10: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+    M2_1_11: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+    M2_1_12: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+    M2_1_13: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+    M2_1_14: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+    M2_1_15: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\CB16CLED.XNF
+
+Primitive reference count:
+--------------------------
+BUFG          8
+DFF          19
+FMAP        146
+HMAP         13
+IBUF          2
+LD_1         28
+OBUF         21
+
+Clocks:
+-------
+                           Required  Estimated                       
+Period   Rise     Fall     Freq      Freq       Signal               
+(ns)     (ns)     (ns)     (MHz)     (MHz)                           
+...............................................................
+ 20        0       10       50.00     -1.00     default              
+ -1       -1       -1      -1000.00   17.46     X36_NET00030_X95     
+ -1       -1       -1      -1000.00  100.00     X36_NET00007_X95     
+ -1       -1       -1      -1000.00  100.00     X36_NET00029_X95     
+ -1       -1       -1      -1000.00  100.00     U4/N65               
+
+Timing Groups:
+--------------
+                                                              
+                                                              
+Name                 Description                              
+............................................................
+(I)                  Input ports                              
+(O)                  Output ports                             
+(RC,X36_NET00030_X95)Clocked by rising edge of X36_NET00030_X9
+(HL,X36_NET00007_X95)Latched by high-value of X36_NET00007_X95
+(HL,X36_NET00029_X95)Latched by high-value of X36_NET00029_X95
+(LL,U4/N65)          Latched by low-value of U4/N65           
+
+Timing Path Groups:
+-------------------
+                                          Required   Estimated  
+                                          Delay      Delay      
+From                 To                   (ns)       (ns)       
+............................................................
+(I)                  (RC,X36_NET00030_X95) 20.00      17.33     
+(RC,X36_NET00030_X95)(O)                   20.00       8.84     
+(RC,X36_NET00030_X95)(RC,X36_NET00030_X95) 20.00      57.26     
+(HL,X36_NET00007_X95)(O)                   10.00       8.02     
+(HL,X36_NET00029_X95)(O)                   10.00       8.02     
+(HL,X36_NET00029_X95)(RC,X36_NET00030_X95) 10.00       6.74     
+(LL,U4/N65)          (O)                   20.00       8.02     
+
+Input Port Timing:
+------------------
+                     Required   Estimated                       
+Port                 Delay      Slack                           
+Name                 (ns)       (ns)       To-Group             
+............................................................
+X36_NET00028_X95       2.67       2.67     (RC,X36_NET00030_X95)
+X36_NET00029_X95       9.60       9.60     (RC,X36_NET00030_X95)
+X36_NET00030_X95      17.36      17.36     (RC,X36_NET00030_X95)
+
+Output Port Timing:
+-------------------
+                     Required   Estimated                       
+Port                 Delay      Slack                           
+Name                 (ns)       (ns)       From-Group           
+............................................................
+Q<15>                 20.00      11.16     (RC,X36_NET00030_X95)
+Q<14>                 20.00      11.16     (RC,X36_NET00030_X95)
+Q<13>                 20.00      11.16     (RC,X36_NET00030_X95)
+Q<12>                 20.00      11.16     (RC,X36_NET00030_X95)
+Q<11>                 20.00      11.16     (RC,X36_NET00030_X95)
+Q<10>                 20.00      11.16     (RC,X36_NET00030_X95)
+Q<9>                  20.00      11.16     (RC,X36_NET00030_X95)
+Q<8>                  20.00      11.16     (RC,X36_NET00030_X95)
+Q<7>                  20.00      11.16     (RC,X36_NET00030_X95)
+Q<6>                  20.00      11.16     (RC,X36_NET00030_X95)
+Q<5>                  20.00      11.16     (RC,X36_NET00030_X95)
+Q<4>                  20.00      11.16     (RC,X36_NET00030_X95)
+Q<3>                  20.00      11.16     (RC,X36_NET00030_X95)
+Q<2>                  20.00      11.16     (RC,X36_NET00030_X95)
+Q<1>                  20.00      11.16     (RC,X36_NET00030_X95)
+Q<0>                  20.00      11.16     (RC,X36_NET00030_X95)
+X36_NET00031_X95      10.00       1.98     (RC,X36_NET00030_X95)
+X36_NET00032_X95      10.00       1.98     (RC,X36_NET00030_X95)
+X36_NET00002_X95      20.00      11.98     (RC,X36_NET00030_X95)
+X36_NET00003_X95      20.00      11.98     (RC,X36_NET00030_X95)
+X36_NET00004_X95      20.00      11.98     (RC,X36_NET00030_X95)
+
+Critical Path Timing:
+---------------------
+           Arrival    Required                                
+Cell       Time       Time       Fanout                       
+Type       (ns)       (ns)       Count   Pin-Name             
+.........................................................
+DFF         57.26      20.00      19     /ver1-Optimized/H1/U3
+DFF         57.26      20.00       1     /ver1-Optimized/H1/U3
+EQN         55.14      17.88       1     /ver1-Optimized/H1/U3
+EQN         53.84      16.58       1     /ver1-Optimized/H1/U3
+EQN         51.72      14.46       1     /ver1-Optimized/H1/U1
+EQN         50.82      13.56       1     /ver1-Optimized/H1/U1
+EQN         48.70      11.44       1     /ver1-Optimized/H1/U1
+EQN         47.40      10.14       1     /ver1-Optimized/H1/U1
+EQN         45.28       8.02       1     /ver1-Optimized/H1/C4
+EQN         43.98       6.72       1     /ver1-Optimized/H1/C4
+EQN         41.86       4.60       1     /ver1-Optimized/X36_I
+EQN         40.56       3.30       1     /ver1-Optimized/X36_I
+EQN         38.44       1.18       1     /ver1-Optimized/X36_I
+EQN         37.14      -0.12       1     /ver1-Optimized/X36_I
+EQN         35.02      -2.24       1     /ver1-Optimized/X36_I
+EQN         34.12      -3.14       1     /ver1-Optimized/X36_I
+EQN         32.00      -5.26       1     /ver1-Optimized/X36_I
+EQN         30.70      -6.56       9     /ver1-Optimized/X36_I
+EQN         28.58      -8.68       9     /ver1-Optimized/X36_I
+EQN         27.28      -9.98       1     /ver1-Optimized/X36_I
+EQN         25.16     -12.10       1     /ver1-Optimized/X36_I
+EQN         24.26     -13.00       1     /ver1-Optimized/X36_I
+EQN         22.14     -15.12       1     /ver1-Optimized/X36_I
+EQN         20.84     -16.42       9     /ver1-Optimized/X36_I
+EQN         18.72     -18.54       9     /ver1-Optimized/X36_I
+EQN         17.42     -19.84       1     /ver1-Optimized/X36_I
+EQN         15.30     -21.96       1     /ver1-Optimized/X36_I
+EQN         14.40     -22.86       1     /ver1-Optimized/X36_I
+EQN         12.28     -24.98       1     /ver1-Optimized/X36_I
+EQN         10.98     -26.28       9     /ver1-Optimized/X36_I
+EQN          8.86     -28.40       9     /ver1-Optimized/X36_I
+EQN          7.56     -29.70       1     /ver1-Optimized/X36_I
+EQN          5.44     -31.82       1     /ver1-Optimized/X36_I
+EQN          4.14     -33.12       4     /ver1-Optimized/X36_I
+DFF          1.60     -35.66       4     /ver1-Optimized/X36_I
+DFF          0.00     -37.26      19     /ver1-Optimized/X36_I

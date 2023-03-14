@@ -1,0 +1,482 @@
+PAR: Xilinx Place And Route C.16.
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+Sat Feb 10 22:17:45 2001
+
+Xilinx PAD Specification File
+*****************************
+
+Input file:       map.ncd
+Output file:      proj_3x3.ncd
+Part type:        xc4010xl
+Speed grade:      -09
+Package:          pq208
+
+Sat Feb 10 22:17:45 2001
+
+Pinout by Pin Name:
++------------------------------------------------+-----------+--------------+
+|                    Pin Name                    | Direction |  Pin Number  |
++------------------------------------------------+-----------+--------------+
+| ANSWER<0>                                      |  OUTPUT   | P192         |
+| ANSWER<10>                                     |  OUTPUT   | P57          |
+| ANSWER<11>                                     |  OUTPUT   | P201         |
+| ANSWER<12>                                     |  OUTPUT   | P116         |
+| ANSWER<13>                                     |  OUTPUT   | P20          |
+| ANSWER<14>                                     |  OUTPUT   | P80          |
+| ANSWER<15>                                     |  OUTPUT   | P113         |
+| ANSWER<16>                                     |  OUTPUT   | P145         |
+| ANSWER<17>                                     |  OUTPUT   | P15          |
+| ANSWER<18>                                     |  OUTPUT   | P28          |
+| ANSWER<19>                                     |  OUTPUT   | P128         |
+| ANSWER<1>                                      |  OUTPUT   | P72          |
+| ANSWER<20>                                     |  OUTPUT   | P163         |
+| ANSWER<21>                                     |  OUTPUT   | P41          |
+| ANSWER<22>                                     |  OUTPUT   | P60          |
+| ANSWER<23>                                     |  OUTPUT   | P170         |
+| ANSWER<24>                                     |  OUTPUT   | P87          |
+| ANSWER<25>                                     |  OUTPUT   | P35          |
+| ANSWER<26>                                     |  OUTPUT   | P5           |
+| ANSWER<27>                                     |  OUTPUT   | P140         |
+| ANSWER<28>                                     |  OUTPUT   | P202         |
+| ANSWER<29>                                     |  OUTPUT   | P31          |
+| ANSWER<2>                                      |  OUTPUT   | P95          |
+| ANSWER<30>                                     |  OUTPUT   | P89          |
+| ANSWER<31>                                     |  OUTPUT   | P169         |
+| ANSWER<32>                                     |  OUTPUT   | P62          |
+| ANSWER<33>                                     |  OUTPUT   | P39          |
+| ANSWER<34>                                     |  OUTPUT   | P151         |
+| ANSWER<35>                                     |  OUTPUT   | P134         |
+| ANSWER<36>                                     |  OUTPUT   | P29          |
+| ANSWER<37>                                     |  OUTPUT   | P12          |
+| ANSWER<38>                                     |  OUTPUT   | P149         |
+| ANSWER<39>                                     |  OUTPUT   | P115         |
+| ANSWER<3>                                      |  OUTPUT   | P164         |
+| ANSWER<40>                                     |  OUTPUT   | P82          |
+| ANSWER<41>                                     |  OUTPUT   | P18          |
+| ANSWER<42>                                     |  OUTPUT   | P120         |
+| ANSWER<43>                                     |  OUTPUT   | P196         |
+| ANSWER<44>                                     |  OUTPUT   | P58          |
+| ANSWER<4>                                      |  OUTPUT   | P184         |
+| ANSWER<5>                                      |  OUTPUT   | P181         |
+| ANSWER<6>                                      |  OUTPUT   | P162         |
+| ANSWER<7>                                      |  OUTPUT   | P96          |
+| ANSWER<8>                                      |  OUTPUT   | P73          |
+| ANSWER<9>                                      |  OUTPUT   | P193         |
+| CLK                                            |  INPUT    | P4           |
+| EN                                             |  INPUT    | P152         |
+| INPUT<0>                                       |  INPUT    | P199         |
+| INPUT<10>                                      |  INPUT    | P47          |
+| INPUT<11>                                      |  INPUT    | P198         |
+| INPUT<12>                                      |  INPUT    | P117         |
+| INPUT<13>                                      |  INPUT    | P21          |
+| INPUT<14>                                      |  INPUT    | P77          |
+| INPUT<15>                                      |  INPUT    | P112         |
+| INPUT<16>                                      |  INPUT    | P147         |
+| INPUT<17>                                      |  INPUT    | P9           |
+| INPUT<18>                                      |  INPUT    | P24          |
+| INPUT<19>                                      |  INPUT    | P132         |
+| INPUT<1>                                       |  INPUT    | P75          |
+| INPUT<20>                                      |  INPUT    | P148         |
+| INPUT<21>                                      |  INPUT    | P40          |
+| INPUT<22>                                      |  INPUT    | P61          |
+| INPUT<23>                                      |  INPUT    | P172         |
+| INPUT<24>                                      |  INPUT    | P93          |
+| INPUT<25>                                      |  INPUT    | P33          |
+| INPUT<26>                                      |  INPUT    | P6           |
+| INPUT<27>                                      |  INPUT    | P139         |
+| INPUT<28>                                      |  INPUT    | P204         |
+| INPUT<29>                                      |  INPUT    | P32          |
+| INPUT<2>                                       |  INPUT    | P94          |
+| INPUT<30>                                      |  INPUT    | P91          |
+| INPUT<31>                                      |  INPUT    | P168         |
+| INPUT<32>                                      |  INPUT    | P63          |
+| INPUT<33>                                      |  INPUT    | P38          |
+| INPUT<34>                                      |  INPUT    | P150         |
+| INPUT<35>                                      |  INPUT    | P129         |
+| INPUT<36>                                      |  INPUT    | P27          |
+| INPUT<37>                                      |  INPUT    | P11          |
+| INPUT<38>                                      |  INPUT    | P146         |
+| INPUT<39>                                      |  INPUT    | P114         |
+| INPUT<3>                                       |  INPUT    | P165         |
+| INPUT<40>                                      |  INPUT    | P81          |
+| INPUT<41>                                      |  INPUT    | P19          |
+| INPUT<42>                                      |  INPUT    | P118         |
+| INPUT<43>                                      |  INPUT    | P195         |
+| INPUT<44>                                      |  INPUT    | P45          |
+| INPUT<4>                                       |  INPUT    | P186         |
+| INPUT<5>                                       |  INPUT    | P185         |
+| INPUT<6>                                       |  INPUT    | P167         |
+| INPUT<7>                                       |  INPUT    | P97          |
+| INPUT<8>                                       |  INPUT    | P74          |
+| INPUT<9>                                       |  INPUT    | P197         |
+| RESET                                          |  INPUT    | P100         |
++------------------------------------------------+-----------+--------------+
+|                Dedicated or Special Pin Name               |  Pin Number  |
++------------------------------------------------------------+--------------+
+| /PROG                                                      | P108         |
+| CCLK                                                       | P153         |
+| DONE                                                       | P103         |
+| GND                                                        | P67          |
+| GND                                                        | P131         |
+| GND                                                        | P182         |
+| GND                                                        | P171         |
+| GND                                                        | P160         |
+| GND                                                        | P14          |
+| GND                                                        | P37          |
+| GND                                                        | P25          |
+| GND                                                        | P119         |
+| GND                                                        | P2           |
+| GND                                                        | P101         |
+| GND                                                        | P90          |
+| GND                                                        | P79          |
+| GND                                                        | P49          |
+| GND                                                        | P142         |
+| GND                                                        | P194         |
+| M0                                                         | P50          |
+| M1                                                         | P48          |
+| M2                                                         | P56          |
+| N.C.                                                       | P208         |
+| N.C.                                                       | P158         |
+| N.C.                                                       | P157         |
+| N.C.                                                       | P102         |
+| N.C.                                                       | P3           |
+| N.C.                                                       | P52          |
+| N.C.                                                       | P206         |
+| N.C.                                                       | P107         |
+| N.C.                                                       | P105         |
+| N.C.                                                       | P54          |
+| N.C.                                                       | P156         |
+| N.C.                                                       | P53          |
+| N.C.                                                       | P155         |
+| N.C.                                                       | P51          |
+| N.C.                                                       | P1           |
+| N.C.                                                       | P207         |
+| N.C.                                                       | P104         |
+| TDO                                                        | P159         |
+| TDO                                                        | TDO          |
+| VCC                                                        | P154         |
+| VCC                                                        | P78          |
+| VCC                                                        | P183         |
+| VCC                                                        | P106         |
+| VCC                                                        | P205         |
+| VCC                                                        | P130         |
+| VCC                                                        | P55          |
+| VCC                                                        | P26          |
++------------------------------------------------------------+--------------+
+
+Pinout by Pin Number:
++--------------+-----------------------------------+-----------+------------+
+|  Pin Number  |            Pin Name               | Direction | Constraint |
++--------------+-----------------------------------+-----------+------------+
+| P1           | (N.C.)                            |           |            |
+| P2           | (GND)                             |           |            |
+| P3           | (N.C.)                            |           |            |
+| P4           | CLK                               |  INPUT    |            |
+| P5           | ANSWER<26>                        |  OUTPUT   |            |
+| P6           | INPUT<26>                         |  INPUT    |            |
+| P7           | ---                               |  UNUSED   |            |
+| P8           | ---                               |  UNUSED   |            |
+| P9           | INPUT<17>                         |  INPUT    |            |
+| P10          | ---                               |  UNUSED   |            |
+| P11          | INPUT<37>                         |  INPUT    |            |
+| P12          | ANSWER<37>                        |  OUTPUT   |            |
+| P13          | ---                               |  UNUSED   |            |
+| P14          | (GND)                             |           |            |
+| P15          | ANSWER<17>                        |  OUTPUT   |            |
+| P16          | ---                               |  UNUSED   |            |
+| P17          | ---                               |  UNUSED   |            |
+| P18          | ANSWER<41>                        |  OUTPUT   |            |
+| P19          | INPUT<41>                         |  INPUT    |            |
+| P20          | ANSWER<13>                        |  OUTPUT   |            |
+| P21          | INPUT<13>                         |  INPUT    |            |
+| P22          | ---                               |  UNUSED   |            |
+| P23          | ---                               |  UNUSED   |            |
+| P24          | INPUT<18>                         |  INPUT    |            |
+| P25          | (GND)                             |           |            |
+| P26          | (VCC)                             |           |            |
+| P27          | INPUT<36>                         |  INPUT    |            |
+| P28          | ANSWER<18>                        |  OUTPUT   |            |
+| P29          | ANSWER<36>                        |  OUTPUT   |            |
+| P30          | ---                               |  UNUSED   |            |
+| P31          | ANSWER<29>                        |  OUTPUT   |            |
+| P32          | INPUT<29>                         |  INPUT    |            |
+| P33          | INPUT<25>                         |  INPUT    |            |
+| P34          | ---                               |  UNUSED   |            |
+| P35          | ANSWER<25>                        |  OUTPUT   |            |
+| P36          | ---                               |  UNUSED   |            |
+| P37          | (GND)                             |           |            |
+| P38          | INPUT<33>                         |  INPUT    |            |
+| P39          | ANSWER<33>                        |  OUTPUT   |            |
+| P40          | INPUT<21>                         |  INPUT    |            |
+| P41          | ANSWER<21>                        |  OUTPUT   |            |
+| P42          | ---                               |  UNUSED   |            |
+| P43          | ---                               |  UNUSED   |            |
+| P44          | ---                               |  UNUSED   |            |
+| P45          | INPUT<44>                         |  INPUT    |            |
+| P46          | ---                               |  UNUSED   |            |
+| P47          | INPUT<10>                         |  INPUT    |            |
+| P48          | (M1)                              |           |            |
+| P49          | (GND)                             |           |            |
+| P50          | (M0)                              |           |            |
+| P51          | (N.C.)                            |           |            |
+| P52          | (N.C.)                            |           |            |
+| P53          | (N.C.)                            |           |            |
+| P54          | (N.C.)                            |           |            |
+| P55          | (VCC)                             |           |            |
+| P56          | (M2)                              |           |            |
+| P57          | ANSWER<10>                        |  OUTPUT   |            |
+| P58          | ANSWER<44>                        |  OUTPUT   |            |
+| P59          | ---                               |  UNUSED   |            |
+| P60          | ANSWER<22>                        |  OUTPUT   |            |
+| P61          | INPUT<22>                         |  INPUT    |            |
+| P62          | ANSWER<32>                        |  OUTPUT   |            |
+| P63          | INPUT<32>                         |  INPUT    |            |
+| P64          | ---                               |  UNUSED   |            |
+| P65          | ---                               |  UNUSED   |            |
+| P66          | ---                               |  UNUSED   |            |
+| P67          | (GND)                             |           |            |
+| P68          | ---                               |  UNUSED   |            |
+| P69          | ---                               |  UNUSED   |            |
+| P70          | ---                               |  UNUSED   |            |
+| P71          | ---                               |  UNUSED   |            |
+| P72          | ANSWER<1>                         |  OUTPUT   |            |
+| P73          | ANSWER<8>                         |  OUTPUT   |            |
+| P74          | INPUT<8>                          |  INPUT    |            |
+| P75          | INPUT<1>                          |  INPUT    |            |
+| P76          | ---                               |  UNUSED   |            |
+| P77          | INPUT<14>                         |  INPUT    |            |
+| P78          | (VCC)                             |           |            |
+| P79          | (GND)                             |           |            |
+| P80          | ANSWER<14>                        |  OUTPUT   |            |
+| P81          | INPUT<40>                         |  INPUT    |            |
+| P82          | ANSWER<40>                        |  OUTPUT   |            |
+| P83          | ---                               |  UNUSED   |            |
+| P84          | ---                               |  UNUSED   |            |
+| P85          | ---                               |  UNUSED   |            |
+| P86          | ---                               |  UNUSED   |            |
+| P87          | ANSWER<24>                        |  OUTPUT   |            |
+| P88          | ---                               |  UNUSED   |            |
+| P89          | ANSWER<30>                        |  OUTPUT   |            |
+| P90          | (GND)                             |           |            |
+| P91          | INPUT<30>                         |  INPUT    |            |
+| P92          | ---                               |  UNUSED   |            |
+| P93          | INPUT<24>                         |  INPUT    |            |
+| P94          | INPUT<2>                          |  INPUT    |            |
+| P95          | ANSWER<2>                         |  OUTPUT   |            |
+| P96          | ANSWER<7>                         |  OUTPUT   |            |
+| P97          | INPUT<7>                          |  INPUT    |            |
+| P98          | ---                               |  UNUSED   |            |
+| P99          | ---                               |  UNUSED   |            |
+| P100         | RESET                             |  INPUT    |            |
+| P101         | (GND)                             |           |            |
+| P102         | (N.C.)                            |           |            |
+| P103         | (DONE)                            |           |            |
+| P104         | (N.C.)                            |           |            |
+| P105         | (N.C.)                            |           |            |
+| P106         | (VCC)                             |           |            |
+| P107         | (N.C.)                            |           |            |
+| P108         | (/PROG)                           |           |            |
+| P109         | ---                               |  UNUSED   |            |
+| P110         | ---                               |  UNUSED   |            |
+| P111         | ---                               |  UNUSED   |            |
+| P112         | INPUT<15>                         |  INPUT    |            |
+| P113         | ANSWER<15>                        |  OUTPUT   |            |
+| P114         | INPUT<39>                         |  INPUT    |            |
+| P115         | ANSWER<39>                        |  OUTPUT   |            |
+| P116         | ANSWER<12>                        |  OUTPUT   |            |
+| P117         | INPUT<12>                         |  INPUT    |            |
+| P118         | INPUT<42>                         |  INPUT    |            |
+| P119         | (GND)                             |           |            |
+| P120         | ANSWER<42>                        |  OUTPUT   |            |
+| P121         | ---                               |  UNUSED   |            |
+| P122         | ---                               |  UNUSED   |            |
+| P123         | ---                               |  UNUSED   |            |
+| P124         | ---                               |  UNUSED   |            |
+| P125         | ---                               |  UNUSED   |            |
+| P126         | ---                               |  UNUSED   |            |
+| P127         | ---                               |  UNUSED   |            |
+| P128         | ANSWER<19>                        |  OUTPUT   |            |
+| P129         | INPUT<35>                         |  INPUT    |            |
+| P130         | (VCC)                             |           |            |
+| P131         | (GND)                             |           |            |
+| P132         | INPUT<19>                         |  INPUT    |            |
+| P133         | ---                               |  UNUSED   |            |
+| P134         | ANSWER<35>                        |  OUTPUT   |            |
+| P135         | ---                               |  UNUSED   |            |
+| P136         | ---                               |  UNUSED   |            |
+| P137         | ---                               |  UNUSED   |            |
+| P138         | ---                               |  UNUSED   |            |
+| P139         | INPUT<27>                         |  INPUT    |            |
+| P140         | ANSWER<27>                        |  OUTPUT   |            |
+| P141         | ---                               |  UNUSED   |            |
+| P142         | (GND)                             |           |            |
+| P143         | ---                               |  UNUSED   |            |
+| P144         | ---                               |  UNUSED   |            |
+| P145         | ANSWER<16>                        |  OUTPUT   |            |
+| P146         | INPUT<38>                         |  INPUT    |            |
+| P147         | INPUT<16>                         |  INPUT    |            |
+| P148         | INPUT<20>                         |  INPUT    |            |
+| P149         | ANSWER<38>                        |  OUTPUT   |            |
+| P150         | INPUT<34>                         |  INPUT    |            |
+| P151         | ANSWER<34>                        |  OUTPUT   |            |
+| P152         | EN                                |  INPUT    |            |
+| P153         | (CCLK)                            |           |            |
+| P154         | (VCC)                             |           |            |
+| P155         | (N.C.)                            |           |            |
+| P156         | (N.C.)                            |           |            |
+| P157         | (N.C.)                            |           |            |
+| P158         | (N.C.)                            |           |            |
+| P159         | (TDO)                             |           |            |
+| P160         | (GND)                             |           |            |
+| P161         | ---                               |  UNUSED   |            |
+| P162         | ANSWER<6>                         |  OUTPUT   |            |
+| P163         | ANSWER<20>                        |  OUTPUT   |            |
+| P164         | ANSWER<3>                         |  OUTPUT   |            |
+| P165         | INPUT<3>                          |  INPUT    |            |
+| P166         | ---                               |  UNUSED   |            |
+| P167         | INPUT<6>                          |  INPUT    |            |
+| P168         | INPUT<31>                         |  INPUT    |            |
+| P169         | ANSWER<31>                        |  OUTPUT   |            |
+| P170         | ANSWER<23>                        |  OUTPUT   |            |
+| P171         | (GND)                             |           |            |
+| P172         | INPUT<23>                         |  INPUT    |            |
+| P173         | ---                               |  UNUSED   |            |
+| P174         | ---                               |  UNUSED   |            |
+| P175         | ---                               |  UNUSED   |            |
+| P176         | ---                               |  UNUSED   |            |
+| P177         | ---                               |  UNUSED   |            |
+| P178         | ---                               |  UNUSED   |            |
+| P179         | ---                               |  UNUSED   |            |
+| P180         | ---                               |  UNUSED   |            |
+| P181         | ANSWER<5>                         |  OUTPUT   |            |
+| P182         | (GND)                             |           |            |
+| P183         | (VCC)                             |           |            |
+| P184         | ANSWER<4>                         |  OUTPUT   |            |
+| P185         | INPUT<5>                          |  INPUT    |            |
+| P186         | INPUT<4>                          |  INPUT    |            |
+| P187         | ---                               |  UNUSED   |            |
+| P188         | ---                               |  UNUSED   |            |
+| P189         | ---                               |  UNUSED   |            |
+| P190         | ---                               |  UNUSED   |            |
+| P191         | ---                               |  UNUSED   |            |
+| P192         | ANSWER<0>                         |  OUTPUT   |            |
+| P193         | ANSWER<9>                         |  OUTPUT   |            |
+| P194         | (GND)                             |           |            |
+| P195         | INPUT<43>                         |  INPUT    |            |
+| P196         | ANSWER<43>                        |  OUTPUT   |            |
+| P197         | INPUT<9>                          |  INPUT    |            |
+| P198         | INPUT<11>                         |  INPUT    |            |
+| P199         | INPUT<0>                          |  INPUT    |            |
+| P200         | ---                               |  UNUSED   |            |
+| P201         | ANSWER<11>                        |  OUTPUT   |            |
+| P202         | ANSWER<28>                        |  OUTPUT   |            |
+| P203         | ---                               |  UNUSED   |            |
+| P204         | INPUT<28>                         |  INPUT    |            |
+| P205         | (VCC)                             |           |            |
+| P206         | (N.C.)                            |           |            |
+| P207         | (N.C.)                            |           |            |
+| P208         | (N.C.)                            |           |            |
+| TDO          | (TDO)                             |           |            |
++--------------+-----------------------------------+-----------+------------+
+
+#
+# To preserve the pinout above for future design iterations,
+# simply run "Lock Pins..." from the Design Manager's Design 
+# menu, or invoke PIN2UCF from the command line. The location constraints
+# above will be written into your specified UCF file. (The constraints
+# listed below are in PCF format and cannot be directly used in the UCF file).
+#
+COMP "ANSWER<0>" LOCATE = SITE "P192" ; 
+COMP "ANSWER<10>" LOCATE = SITE "P57" ; 
+COMP "ANSWER<11>" LOCATE = SITE "P201" ; 
+COMP "ANSWER<12>" LOCATE = SITE "P116" ; 
+COMP "ANSWER<13>" LOCATE = SITE "P20" ; 
+COMP "ANSWER<14>" LOCATE = SITE "P80" ; 
+COMP "ANSWER<15>" LOCATE = SITE "P113" ; 
+COMP "ANSWER<16>" LOCATE = SITE "P145" ; 
+COMP "ANSWER<17>" LOCATE = SITE "P15" ; 
+COMP "ANSWER<18>" LOCATE = SITE "P28" ; 
+COMP "ANSWER<19>" LOCATE = SITE "P128" ; 
+COMP "ANSWER<1>" LOCATE = SITE "P72" ; 
+COMP "ANSWER<20>" LOCATE = SITE "P163" ; 
+COMP "ANSWER<21>" LOCATE = SITE "P41" ; 
+COMP "ANSWER<22>" LOCATE = SITE "P60" ; 
+COMP "ANSWER<23>" LOCATE = SITE "P170" ; 
+COMP "ANSWER<24>" LOCATE = SITE "P87" ; 
+COMP "ANSWER<25>" LOCATE = SITE "P35" ; 
+COMP "ANSWER<26>" LOCATE = SITE "P5" ; 
+COMP "ANSWER<27>" LOCATE = SITE "P140" ; 
+COMP "ANSWER<28>" LOCATE = SITE "P202" ; 
+COMP "ANSWER<29>" LOCATE = SITE "P31" ; 
+COMP "ANSWER<2>" LOCATE = SITE "P95" ; 
+COMP "ANSWER<30>" LOCATE = SITE "P89" ; 
+COMP "ANSWER<31>" LOCATE = SITE "P169" ; 
+COMP "ANSWER<32>" LOCATE = SITE "P62" ; 
+COMP "ANSWER<33>" LOCATE = SITE "P39" ; 
+COMP "ANSWER<34>" LOCATE = SITE "P151" ; 
+COMP "ANSWER<35>" LOCATE = SITE "P134" ; 
+COMP "ANSWER<36>" LOCATE = SITE "P29" ; 
+COMP "ANSWER<37>" LOCATE = SITE "P12" ; 
+COMP "ANSWER<38>" LOCATE = SITE "P149" ; 
+COMP "ANSWER<39>" LOCATE = SITE "P115" ; 
+COMP "ANSWER<3>" LOCATE = SITE "P164" ; 
+COMP "ANSWER<40>" LOCATE = SITE "P82" ; 
+COMP "ANSWER<41>" LOCATE = SITE "P18" ; 
+COMP "ANSWER<42>" LOCATE = SITE "P120" ; 
+COMP "ANSWER<43>" LOCATE = SITE "P196" ; 
+COMP "ANSWER<44>" LOCATE = SITE "P58" ; 
+COMP "ANSWER<4>" LOCATE = SITE "P184" ; 
+COMP "ANSWER<5>" LOCATE = SITE "P181" ; 
+COMP "ANSWER<6>" LOCATE = SITE "P162" ; 
+COMP "ANSWER<7>" LOCATE = SITE "P96" ; 
+COMP "ANSWER<8>" LOCATE = SITE "P73" ; 
+COMP "ANSWER<9>" LOCATE = SITE "P193" ; 
+COMP "CLK" LOCATE = SITE "P4" ; 
+COMP "EN" LOCATE = SITE "P152" ; 
+COMP "INPUT<0>" LOCATE = SITE "P199" ; 
+COMP "INPUT<10>" LOCATE = SITE "P47" ; 
+COMP "INPUT<11>" LOCATE = SITE "P198" ; 
+COMP "INPUT<12>" LOCATE = SITE "P117" ; 
+COMP "INPUT<13>" LOCATE = SITE "P21" ; 
+COMP "INPUT<14>" LOCATE = SITE "P77" ; 
+COMP "INPUT<15>" LOCATE = SITE "P112" ; 
+COMP "INPUT<16>" LOCATE = SITE "P147" ; 
+COMP "INPUT<17>" LOCATE = SITE "P9" ; 
+COMP "INPUT<18>" LOCATE = SITE "P24" ; 
+COMP "INPUT<19>" LOCATE = SITE "P132" ; 
+COMP "INPUT<1>" LOCATE = SITE "P75" ; 
+COMP "INPUT<20>" LOCATE = SITE "P148" ; 
+COMP "INPUT<21>" LOCATE = SITE "P40" ; 
+COMP "INPUT<22>" LOCATE = SITE "P61" ; 
+COMP "INPUT<23>" LOCATE = SITE "P172" ; 
+COMP "INPUT<24>" LOCATE = SITE "P93" ; 
+COMP "INPUT<25>" LOCATE = SITE "P33" ; 
+COMP "INPUT<26>" LOCATE = SITE "P6" ; 
+COMP "INPUT<27>" LOCATE = SITE "P139" ; 
+COMP "INPUT<28>" LOCATE = SITE "P204" ; 
+COMP "INPUT<29>" LOCATE = SITE "P32" ; 
+COMP "INPUT<2>" LOCATE = SITE "P94" ; 
+COMP "INPUT<30>" LOCATE = SITE "P91" ; 
+COMP "INPUT<31>" LOCATE = SITE "P168" ; 
+COMP "INPUT<32>" LOCATE = SITE "P63" ; 
+COMP "INPUT<33>" LOCATE = SITE "P38" ; 
+COMP "INPUT<34>" LOCATE = SITE "P150" ; 
+COMP "INPUT<35>" LOCATE = SITE "P129" ; 
+COMP "INPUT<36>" LOCATE = SITE "P27" ; 
+COMP "INPUT<37>" LOCATE = SITE "P11" ; 
+COMP "INPUT<38>" LOCATE = SITE "P146" ; 
+COMP "INPUT<39>" LOCATE = SITE "P114" ; 
+COMP "INPUT<3>" LOCATE = SITE "P165" ; 
+COMP "INPUT<40>" LOCATE = SITE "P81" ; 
+COMP "INPUT<41>" LOCATE = SITE "P19" ; 
+COMP "INPUT<42>" LOCATE = SITE "P118" ; 
+COMP "INPUT<43>" LOCATE = SITE "P195" ; 
+COMP "INPUT<44>" LOCATE = SITE "P45" ; 
+COMP "INPUT<4>" LOCATE = SITE "P186" ; 
+COMP "INPUT<5>" LOCATE = SITE "P185" ; 
+COMP "INPUT<6>" LOCATE = SITE "P167" ; 
+COMP "INPUT<7>" LOCATE = SITE "P97" ; 
+COMP "INPUT<8>" LOCATE = SITE "P74" ; 
+COMP "INPUT<9>" LOCATE = SITE "P197" ; 
+COMP "RESET" LOCATE = SITE "P100" ; 
+#

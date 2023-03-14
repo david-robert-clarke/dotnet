@@ -1,0 +1,176 @@
+import java.awt.*;
+import java.lang.Math;
+
+public class Ball
+{    
+    //instance variables
+    private int x;
+    private int y;
+    float temp1 = (float)(Math.random() * 20);
+    private int xStep = Math.round(temp1);
+    float temp2 = (float)(Math.random() * 20);
+    private int yStep = Math.round(temp2);
+    private int pauseXStep, pauseYStep; 
+    private Color color;
+    private int radius;
+
+    /**
+     * Default constructor which sets up a white Ball that has a radius of 5
+     **/
+    public Ball(int x1, int y1)
+    {
+        x = x1;
+        y = y1;
+        pauseXStep = 0;
+        pauseYStep = 0;
+        color = Color.white;
+        radius = 5;
+    }
+    
+    //**********SET METHODS***********
+       
+    /**
+     * Set the x-position of the Ball
+     *
+     * @param x the current x-position   
+     **/
+        public void setX(int x1)
+    {
+        x = x1;
+    }
+    
+    /**
+     * Set the y-position of the Ball
+     *
+     * @param y the current y-position  
+     **/
+    public void  setY(int y1)
+    {
+        y = y1;
+    }
+
+    /**
+     * Set the x step size parameter
+     *
+     * @param xStep the step size in the x direction 
+     **/
+    public void setXStep(int xStep1)
+    {
+        xStep = xStep1;
+    }
+
+    /**
+     * Set the y step size parameter
+     *
+     * @param yStep the step size in the y direction 
+     **/
+    public void setYStep(int yStep1)
+    {
+        yStep = yStep1;
+    }
+
+    /**
+     * Set the paused x-step size parameter
+     *
+     * @param xStep the step size in the x direction 
+     **/
+    public void setPauseXStep(int pauseX)
+    {
+        pauseXStep = pauseX;
+    }
+
+    /**
+     * Set the paused y-step size parameter
+     *
+     * @param yStep the step size in the y direction 
+     **/
+    public void setPauseYStep(int pauseY)
+    {
+        pauseYStep = pauseY;
+    }
+
+    //*******GET METHODS********    
+
+    /**
+     * Get the x-position of the Ball
+     *
+     * @return x the current x-position as an integer.    
+     **/
+        public int getX()
+    {
+        return x;
+    }
+    
+    /**
+     * Get the y-position of the Ball
+     *
+     * @return y the current y-position as an integer.    
+     **/
+    public int getY()
+    {
+        return y;
+    }
+
+    /**
+     * Get the x-step size parameter
+     *
+     * @return xStep the size of the step in the x direction as an integer.  
+     **/
+    public int getXStep()
+    {
+        return xStep;
+    }
+    
+    /**
+     * Get the y-step size parameter
+     *
+     * @return yStep the size of the step in the y direction as an integer.  
+     **/
+    public int getYStep()
+    {
+        return yStep;
+    }
+
+    /**
+     * Get the paused x-step size parameter
+     *
+     * @return  xStep the step size in the x direction as an Integer
+     **/
+    public int getPauseXStep()
+    {
+        return pauseXStep;
+    }
+
+    /**
+     * Get the paused y-step size parameter
+     *
+     * @return  yStep the step size in the y direction as an Integer
+     **/
+    public int getPauseYStep()
+    {
+        return pauseYStep;
+    }
+
+    //calculates the the next position of the ball 
+    public void nextStep()
+    {
+      if (x < 0 || x >= BouncingBall.width)
+          {
+              xStep *= -1;
+          }
+      if (y < 0 || y >= BouncingBall.height)
+          {
+              yStep *= -1;
+          }
+	
+      x += xStep;
+      y += yStep;
+    }
+      
+    //creates a graphical representation of a ball
+    public void paint(Graphics g)
+    {
+        g.setColor(color);
+        g.fillOval(x, y, 2*radius, 2*radius);
+    }
+}

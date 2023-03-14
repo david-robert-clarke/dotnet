@@ -1,0 +1,17 @@
+import word.*;
+import java.io.*;
+
+
+class TestWordBook
+{
+  public static void main (String[] args) throws IOException
+  {
+      // System.out.println("I'm here!");
+    WordBook myWordBook = new WordBook();
+    //System.out.println("I'm here2!");
+    myWordBook.load("AlphaCount4.txt");
+    myWordBook.bubbleSort();
+    myWordBook.count();
+  }
+}
+

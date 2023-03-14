@@ -1,0 +1,237 @@
+PAR: Xilinx Place And Route C.22.
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+Thu Dec 21 19:17:31 2000
+
+Xilinx PAD Specification File
+*****************************
+
+Input file:       map.ncd
+Output file:      matmul.ncd
+Part type:        xc4010xl
+Speed grade:      -09
+Package:          pc84
+
+Thu Dec 21 19:17:31 2000
+
+Pinout by Pin Name:
++------------------------------------------------+-----------+--------------+
+|                    Pin Name                    | Direction |  Pin Number  |
++------------------------------------------------+-----------+--------------+
+| CLK                                            |  INPUT    | P13          |
+| MATRIX_PROD<0>                                 |  OUTPUT   | P69          |
+| MATRIX_PROD<10>                                |  OUTPUT   | P45          |
+| MATRIX_PROD<11>                                |  OUTPUT   | P29          |
+| MATRIX_PROD<12>                                |  OUTPUT   | P36          |
+| MATRIX_PROD<13>                                |  OUTPUT   | P41          |
+| MATRIX_PROD<14>                                |  OUTPUT   | P48          |
+| MATRIX_PROD<15>                                |  OUTPUT   | P3           |
+| MATRIX_PROD<16>                                |  OUTPUT   | P8           |
+| MATRIX_PROD<17>                                |  OUTPUT   | P7           |
+| MATRIX_PROD<18>                                |  OUTPUT   | P84          |
+| MATRIX_PROD<19>                                |  OUTPUT   | P77          |
+| MATRIX_PROD<1>                                 |  OUTPUT   | P68          |
+| MATRIX_PROD<2>                                 |  OUTPUT   | P65          |
+| MATRIX_PROD<3>                                 |  OUTPUT   | P59          |
+| MATRIX_PROD<4>                                 |  OUTPUT   | P60          |
+| MATRIX_PROD<5>                                 |  OUTPUT   | P58          |
+| MATRIX_PROD<6>                                 |  OUTPUT   | P67          |
+| MATRIX_PROD<7>                                 |  OUTPUT   | P78          |
+| MATRIX_PROD<8>                                 |  OUTPUT   | P71          |
+| MATRIX_PROD<9>                                 |  OUTPUT   | P49          |
+| MEMORY_SEL<0>                                  |  INPUT    | P50          |
+| MEMORY_SEL<1>                                  |  INPUT    | P37          |
+| MEMORY_SEL<2>                                  |  INPUT    | P82          |
+| RESET                                          |  INPUT    | P51          |
+| SOP_IN<0>                                      |  INPUT    | P70          |
+| SOP_IN<10>                                     |  INPUT    | P40          |
+| SOP_IN<11>                                     |  INPUT    | P35          |
+| SOP_IN<12>                                     |  INPUT    | P28          |
+| SOP_IN<13>                                     |  INPUT    | P44          |
+| SOP_IN<14>                                     |  INPUT    | P46          |
+| SOP_IN<15>                                     |  INPUT    | P5           |
+| SOP_IN<16>                                     |  INPUT    | P14          |
+| SOP_IN<17>                                     |  INPUT    | P9           |
+| SOP_IN<18>                                     |  INPUT    | P4           |
+| SOP_IN<19>                                     |  INPUT    | P72          |
+| SOP_IN<1>                                      |  INPUT    | P79          |
+| SOP_IN<2>                                      |  INPUT    | P62          |
+| SOP_IN<3>                                      |  INPUT    | P57          |
+| SOP_IN<4>                                      |  INPUT    | P61          |
+| SOP_IN<5>                                      |  INPUT    | P56          |
+| SOP_IN<6>                                      |  INPUT    | P66          |
+| SOP_IN<7>                                      |  INPUT    | P80          |
+| SOP_IN<8>                                      |  INPUT    | P81          |
+| SOP_IN<9>                                      |  INPUT    | P47          |
++------------------------------------------------+-----------+--------------+
+|                Dedicated or Special Pin Name               |  Pin Number  |
++------------------------------------------------------------+--------------+
+| /PROG                                                      | P55          |
+| CCLK                                                       | P73          |
+| DONE                                                       | P53          |
+| GND                                                        | P76          |
+| GND                                                        | P43          |
+| GND                                                        | P52          |
+| GND                                                        | P12          |
+| GND                                                        | P64          |
+| GND                                                        | P21          |
+| GND                                                        | P1           |
+| GND                                                        | P31          |
+| M0                                                         | P32          |
+| M1                                                         | P30          |
+| M2                                                         | P34          |
+| TDO                                                        | P75          |
+| TDO                                                        | TDO          |
+| VCC                                                        | P11          |
+| VCC                                                        | P42          |
+| VCC                                                        | P22          |
+| VCC                                                        | P63          |
+| VCC                                                        | P74          |
+| VCC                                                        | P2           |
+| VCC                                                        | P33          |
+| VCC                                                        | P54          |
++------------------------------------------------------------+--------------+
+
+Pinout by Pin Number:
++--------------+-----------------------------------+-----------+------------+
+|  Pin Number  |            Pin Name               | Direction | Constraint |
++--------------+-----------------------------------+-----------+------------+
+| P1           | (GND)                             |           |            |
+| P2           | (VCC)                             |           |            |
+| P3           | MATRIX_PROD<15>                   |  OUTPUT   |            |
+| P4           | SOP_IN<18>                        |  INPUT    |            |
+| P5           | SOP_IN<15>                        |  INPUT    |            |
+| P6           | ---                               |  UNUSED   |            |
+| P7           | MATRIX_PROD<17>                   |  OUTPUT   |            |
+| P8           | MATRIX_PROD<16>                   |  OUTPUT   |            |
+| P9           | SOP_IN<17>                        |  INPUT    |            |
+| P10          | ---                               |  UNUSED   |            |
+| P11          | (VCC)                             |           |            |
+| P12          | (GND)                             |           |            |
+| P13          | CLK                               |  INPUT    |            |
+| P14          | SOP_IN<16>                        |  INPUT    |            |
+| P15          | ---                               |  UNUSED   |            |
+| P16          | ---                               |  UNUSED   |            |
+| P17          | ---                               |  UNUSED   |            |
+| P18          | ---                               |  UNUSED   |            |
+| P19          | ---                               |  UNUSED   |            |
+| P20          | ---                               |  UNUSED   |            |
+| P21          | (GND)                             |           |            |
+| P22          | (VCC)                             |           |            |
+| P23          | ---                               |  UNUSED   |            |
+| P24          | ---                               |  UNUSED   |            |
+| P25          | ---                               |  UNUSED   |            |
+| P26          | ---                               |  UNUSED   |            |
+| P27          | ---                               |  UNUSED   |            |
+| P28          | SOP_IN<12>                        |  INPUT    |            |
+| P29          | MATRIX_PROD<11>                   |  OUTPUT   |            |
+| P30          | (M1)                              |           |            |
+| P31          | (GND)                             |           |            |
+| P32          | (M0)                              |           |            |
+| P33          | (VCC)                             |           |            |
+| P34          | (M2)                              |           |            |
+| P35          | SOP_IN<11>                        |  INPUT    |            |
+| P36          | MATRIX_PROD<12>                   |  OUTPUT   |            |
+| P37          | MEMORY_SEL<1>                     |  INPUT    |            |
+| P38          | ---                               |  UNUSED   |            |
+| P39          | ---                               |  UNUSED   |            |
+| P40          | SOP_IN<10>                        |  INPUT    |            |
+| P41          | MATRIX_PROD<13>                   |  OUTPUT   |            |
+| P42          | (VCC)                             |           |            |
+| P43          | (GND)                             |           |            |
+| P44          | SOP_IN<13>                        |  INPUT    |            |
+| P45          | MATRIX_PROD<10>                   |  OUTPUT   |            |
+| P46          | SOP_IN<14>                        |  INPUT    |            |
+| P47          | SOP_IN<9>                         |  INPUT    |            |
+| P48          | MATRIX_PROD<14>                   |  OUTPUT   |            |
+| P49          | MATRIX_PROD<9>                    |  OUTPUT   |            |
+| P50          | MEMORY_SEL<0>                     |  INPUT    |            |
+| P51          | RESET                             |  INPUT    |            |
+| P52          | (GND)                             |           |            |
+| P53          | (DONE)                            |           |            |
+| P54          | (VCC)                             |           |            |
+| P55          | (/PROG)                           |           |            |
+| P56          | SOP_IN<5>                         |  INPUT    |            |
+| P57          | SOP_IN<3>                         |  INPUT    |            |
+| P58          | MATRIX_PROD<5>                    |  OUTPUT   |            |
+| P59          | MATRIX_PROD<3>                    |  OUTPUT   |            |
+| P60          | MATRIX_PROD<4>                    |  OUTPUT   |            |
+| P61          | SOP_IN<4>                         |  INPUT    |            |
+| P62          | SOP_IN<2>                         |  INPUT    |            |
+| P63          | (VCC)                             |           |            |
+| P64          | (GND)                             |           |            |
+| P65          | MATRIX_PROD<2>                    |  OUTPUT   |            |
+| P66          | SOP_IN<6>                         |  INPUT    |            |
+| P67          | MATRIX_PROD<6>                    |  OUTPUT   |            |
+| P68          | MATRIX_PROD<1>                    |  OUTPUT   |            |
+| P69          | MATRIX_PROD<0>                    |  OUTPUT   |            |
+| P70          | SOP_IN<0>                         |  INPUT    |            |
+| P71          | MATRIX_PROD<8>                    |  OUTPUT   |            |
+| P72          | SOP_IN<19>                        |  INPUT    |            |
+| P73          | (CCLK)                            |           |            |
+| P74          | (VCC)                             |           |            |
+| P75          | (TDO)                             |           |            |
+| P76          | (GND)                             |           |            |
+| P77          | MATRIX_PROD<19>                   |  OUTPUT   |            |
+| P78          | MATRIX_PROD<7>                    |  OUTPUT   |            |
+| P79          | SOP_IN<1>                         |  INPUT    |            |
+| P80          | SOP_IN<7>                         |  INPUT    |            |
+| P81          | SOP_IN<8>                         |  INPUT    |            |
+| P82          | MEMORY_SEL<2>                     |  INPUT    |            |
+| P83          | ---                               |  UNUSED   |            |
+| P84          | MATRIX_PROD<18>                   |  OUTPUT   |            |
+| TDO          | (TDO)                             |           |            |
++--------------+-----------------------------------+-----------+------------+
+
+#
+# To preserve the pinout above for future design iterations,
+# simply run "Lock Pins..." from the Design Manager's Design 
+# menu, or invoke PIN2UCF from the command line. The location constraints
+# above will be written into your specified UCF file. (The constraints
+# listed below are in PCF format and cannot be directly used in the UCF file).
+#
+COMP "CLK" LOCATE = SITE "P13" ; 
+COMP "MATRIX_PROD<0>" LOCATE = SITE "P69" ; 
+COMP "MATRIX_PROD<10>" LOCATE = SITE "P45" ; 
+COMP "MATRIX_PROD<11>" LOCATE = SITE "P29" ; 
+COMP "MATRIX_PROD<12>" LOCATE = SITE "P36" ; 
+COMP "MATRIX_PROD<13>" LOCATE = SITE "P41" ; 
+COMP "MATRIX_PROD<14>" LOCATE = SITE "P48" ; 
+COMP "MATRIX_PROD<15>" LOCATE = SITE "P3" ; 
+COMP "MATRIX_PROD<16>" LOCATE = SITE "P8" ; 
+COMP "MATRIX_PROD<17>" LOCATE = SITE "P7" ; 
+COMP "MATRIX_PROD<18>" LOCATE = SITE "P84" ; 
+COMP "MATRIX_PROD<19>" LOCATE = SITE "P77" ; 
+COMP "MATRIX_PROD<1>" LOCATE = SITE "P68" ; 
+COMP "MATRIX_PROD<2>" LOCATE = SITE "P65" ; 
+COMP "MATRIX_PROD<3>" LOCATE = SITE "P59" ; 
+COMP "MATRIX_PROD<4>" LOCATE = SITE "P60" ; 
+COMP "MATRIX_PROD<5>" LOCATE = SITE "P58" ; 
+COMP "MATRIX_PROD<6>" LOCATE = SITE "P67" ; 
+COMP "MATRIX_PROD<7>" LOCATE = SITE "P78" ; 
+COMP "MATRIX_PROD<8>" LOCATE = SITE "P71" ; 
+COMP "MATRIX_PROD<9>" LOCATE = SITE "P49" ; 
+COMP "MEMORY_SEL<0>" LOCATE = SITE "P50" ; 
+COMP "MEMORY_SEL<1>" LOCATE = SITE "P37" ; 
+COMP "MEMORY_SEL<2>" LOCATE = SITE "P82" ; 
+COMP "RESET" LOCATE = SITE "P51" ; 
+COMP "SOP_IN<0>" LOCATE = SITE "P70" ; 
+COMP "SOP_IN<10>" LOCATE = SITE "P40" ; 
+COMP "SOP_IN<11>" LOCATE = SITE "P35" ; 
+COMP "SOP_IN<12>" LOCATE = SITE "P28" ; 
+COMP "SOP_IN<13>" LOCATE = SITE "P44" ; 
+COMP "SOP_IN<14>" LOCATE = SITE "P46" ; 
+COMP "SOP_IN<15>" LOCATE = SITE "P5" ; 
+COMP "SOP_IN<16>" LOCATE = SITE "P14" ; 
+COMP "SOP_IN<17>" LOCATE = SITE "P9" ; 
+COMP "SOP_IN<18>" LOCATE = SITE "P4" ; 
+COMP "SOP_IN<19>" LOCATE = SITE "P72" ; 
+COMP "SOP_IN<1>" LOCATE = SITE "P79" ; 
+COMP "SOP_IN<2>" LOCATE = SITE "P62" ; 
+COMP "SOP_IN<3>" LOCATE = SITE "P57" ; 
+COMP "SOP_IN<4>" LOCATE = SITE "P61" ; 
+COMP "SOP_IN<5>" LOCATE = SITE "P56" ; 
+COMP "SOP_IN<6>" LOCATE = SITE "P66" ; 
+COMP "SOP_IN<7>" LOCATE = SITE "P80" ; 
+COMP "SOP_IN<8>" LOCATE = SITE "P81" ; 
+COMP "SOP_IN<9>" LOCATE = SITE "P47" ; 
+#

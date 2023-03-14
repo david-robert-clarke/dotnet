@@ -1,0 +1,2391 @@
+********************************************************************************
+                           Tony Hawk's Pro Skater 3
+                           For the playstation 2
+                           Version 2.50
+                           Started on February 8, 2002
+                           Last updated on February 12, 2002
+                           By GheddonLN
+********************************************************************************
+
+
+================================================================================
+                                VERSION HISTORY
+================================================================================
+
+------------
+Version 00.1
+------------
+
+- This is what I'll call "beta" version in my future guides. It has the
+walkthrough, what comes next..., [this] and the copyright information. In the
+future versions, I'll start adding tips, basics, and intro, etc, etc.
+
+------------
+Version 1.27
+------------
+
+- Updated the whole guide, which includes adding a basic sections, updating the
+walkthrough, adding this and that... etc, etc.
+
+------------
+Version 2.09
+------------
+
+- The FAQ/Walkthrough is finally complete!. Next version I'll finish this guide
+finally!.
+
+---------------
+Version FINAL
+---------------
+
+-  I noticed that this could be very well the FINAL version of the guide as
+everything required to beat the game has been completed.
+
+---------------
+Version 2.50
+---------------
+
+- Removed the trick listing as well as the gap list(unnecessary, in-a-friend's-
+opinion).
+
+================================================================================
+                              COPYRIGHT NOTICE
+================================================================================
+
+This document property of "GheddonLN". All rights reserved. Copyright  2002 by
+José Felipe Vargas. This document may not be reproduced in any way, shape or
+form without written permission from the document's copyright holder, and may
+not be uploaded, downloaded, or transferred to your hard drive unless from the
+following sites permissible:
+
+gamefaqs.com
+neoseeker.com
+psxcodez.com
+
+Failure to abide by this legal contract will result in a lawsuit in which you
+may be sentenced to serve a term in prison for copyright infringement as well as
+paying out compensation to the document's owner. This document may not be edited
+in whole or part, unless given permission by the document's copyright owner.
+This legal notification applies to international copyright laws and will be
+extremely well carried out by the authorities, copyright holder, and citizens.
+
+================================================================================
+                                 CREDITS
+================================================================================
+
+---To activision/O2
+Fro creating this game.
+
+---To THayes guide
+For taking me through  some levels.
+
+---To Tom Hayes
+For letting me use his character guide
+
+---Ice Flamethrower III
+For letting me use his explicit copyright notice.
+
+---To me
+For typing up this guide.
+
+================================================================================
+                                 INTRODUCTION
+================================================================================
+
+Welcome to another FAQ by me, GheddonLN. My last project(FFIX) sent me into the
+most profilic contributors list, but that doesn't means I'll stop writing. There
+are still a lot of PS2 games I want to make guides for(such as Dave Mirra 2,
+Shaun Plamer Pro Snowboarder, Ephemeral Phantasia, Devil May cry...). But at
+least, I can say I'm profilic.
+
+Tony Hawk Pro skater, third part of the epic skating series, is probably one of
+the most satisfying games of the year. Not as good as GTA3, freedom-wise, but
+still, a solid game. Unlike previous materials, this game graphics are smooth,
+clean, and wonderful. Controls haven't changed a bit and that's good, because
+THP controls have always been superb. You'll still tackle through levels, while
+pulling off tricks and completing objectives.
+
+Considering that each skater has an slightly different adventure from the other
+ones, and that you have a lot to find, explore and snag in each level, I can
+consider THPS3 as one of the most long lasting games I've ever seen. I bought
+this game a long time ago, and I'm still enjoying it. Even if you're not a fan
+of skateboards, you should pick this wonderful game if you can. Its pick-up-and-
+play style will make it an all-ages-friendly game, so don't worry. You ain't
+wasting your money.
+
+================================================================================
+                                CONTROLS
+================================================================================
+
+
+1. Quick control rundown
+------------------------
+
+D-pad          = Used to move character.
+Left stick     = Used to move character.
+Right stick    = Used to move the camera.
+R2/L2          = Used to do a revert(is specially useful when landing on a ramp)
+START          = Pause game
+Circle         = Used to do grab tricks.
+Triangle       = Used to grind rails(and other things too).
+Square         = Used to do flip tricks(try to do these in the air).
+X              = Used to accelerate and to do ollies.
+
+2. In depth
+-----------
+
+For the R2/L2 buttons, these are used to do reverts. Reverts are used to chain
+tricks to other tricks. For example, you do an eggplant on a ramp, and then you
+do an revert(press either button as the snowboard touches the floor). Then, you
+could do a manual, and reach a grind, and start grinding. Then, you stop
+grinding, do a manual, look for a jump, use it and do two flips, you land, and
+then manual again. See?. The revert serves as a connecting between all of these
+tricks. If you press either one of these buttons while snowboarding normally,
+you'll make character do a pointless revert.
+
+The letter buttons located on the right part of the control are used to do
+tricks, and only tricks. Using the square button, you'll do flips, which are
+tricks that involve flipping and doing twists. These are pretty long, so try do
+them when you have enough air. The grab tricks(use the circle button) are a lot
+easier to do, as you can pull them out anywhere easily. Also, if you do a grab
+trick, and keep the grab button pressed, you'll increase your score. Linking
+this with a 180º/360º/540º... motion on your stick can earn you a lot of points.
+
+Lastly, we have the grind button, triangle. Grinds are a vital part of this
+game, as they are normally worth a lot of points, and they serve as links
+between more advanced and point-full tricks. To do a grind, press triangle next
+to a rail. The character you are using will do a grind. If you just pressed
+triangle, he'll do a basic grind, but if you did a motion on the left stick and
+then pressed the button, you'll do a more advanced grind, which is worth more
+points.
+
+================================================================================
+                             GAME OVERVIEW
+================================================================================
+
+----[Saving your game]----------------------------------------------------------
+
+Each time you complete an objective on a level, you'll be asked if you want to
+save your game. But that's not the only way. You could also end the run, and
+you'll get the option to save your game(click on "SAVE GAME") even if you didn't
+complete an objective. In the skate shop, you can go to the options menu and
+save your game too. The requires memory slots are few, so you should have no
+problem to save your game.
+
+----[Game modes]----------------------------------------------------------------
+
+There are several game modes. The first one, is the career mode. IN career mode,
+you'll visit levels and you'll complete objectives. You'll also be able to get
+new decks and stat points. The more the objectives you have, the more the levels
+you can play on. The second one is free skate, where you simply enter a level,
+and skate freely, doing points and practicing tricks. We also have single
+session, where you can show yourself what you got. And lastly, there is a
+tutorial mode, for those who are new in this world.
+
+---[Goal completion]------------------------------------------------------------
+
+Each level has about 8 goals(not the exact number though). Each goal vary from
+other goals. In some levels, you'll have to help somebody out, or destroy
+something so another something will start working. Other goals include
+collecting the letters S, K, A, T & E, getting the secret tape, and accumulating
+certain amount of points(the amount increases as you advance through the game).
+Depending if you are using a vert or street skater, you may get a different goal
+which involves doing a trick across a gap.
+
+---[Level unlocking]------------------------------------------------------------
+
+Each level requires a certain amount of goals, or medals, in order to be
+unlocked. Some levels require more objectives/medals than others. Normally, if
+you complete all objectives in a level, you'll unlock the next one, and if in
+this level you complete all objectives, you'll unlock next one, and
+successively. Try to complete all objectives from all levels to unlock other
+levels fast and easy.
+
+---[Stat Points]----------------------------------------------------------------
+
+Each level has a certain amount of stat points. Their location vary depending on
+what skater you are using. Stat points represent once circle on your character's
+status bar. Each time you get an stat points, you'll be able to edit your stats.
+You'll be able to add points to each status bar, thus increasing each characters
+performance. But, as stated before: stat points represent one circle on your
+character's status bar. So, you can remove points from one status bar, and add
+it to another bar. Simple, eh?.
+
+---[Decks]----------------------------------------------------------------------
+
+Decks are items you get just for fun, as they do not affect your performance on
+the game. Decks are the lower part of your skateboard. There are images cooler
+than others, but all in all, they're just gotten to goof around. Like the stat
+points, each deck is located on a different place, regardless what character are
+you using.
+
+---[Pedestrians]----------------------------------------------------------------
+
+Each level has a healthy amount of peds. Some of them are cool, some bad, but
+all in all, they serve for one purpose, only: to get you bonus points. Each time
+you do a trick that reaches the thousand or so points, and if a ped is near,
+you'll get an spectator bonus, or ped props. These increase your points, and x##
+numeral. There are some peds who can just be rammed without having to worry, but
+some of them will punch you as you approach them. Either way, try to impress
+them with your tricks to get some bonus points.
+
+---[Gaps]-----------------------------------------------------------------------
+
+Gaps are special tricks which only appear on your trick bar when you do
+something special. Gaps are not only spaces between ramps, half pipes, etc. For
+instance, in certain level, grinding from one rail to another is considered a
+gap(rail hop, to be exact). Gaps serve as point boosters, and some of them give
+away more points than others(there is a gap section in this FAQ which can help
+you out). Always to try to link gaps with your tricks. For instance, In
+suburbia, doing a one foot japan+"between the ramps" gap+revert+manual is 50.000
+or so points(depending on how much time you holded the one foot japan, how many
+degrees you rotated it, and how much time you were on manual stance).
+
+---[Grind tricks]---------------------------------------------------------------
+
+Grinds are a vital part of this game, and(in my case) they're the most important
+parts when trying to get a lot of points. Grinding is very easy. Just get near a
+rail, and press triangle. You'll do the basic grind(FS 50-50 I believe). If you
+do a combo(like UP+T) you'll do another kind of grinding. All in all, grindings
+are simple. You can grind almost anywhere: a set of stairs, a rail, a wooden
+bridge, a log, a fence, etc, etc, etc. Doing boardslides and noselides while
+grinding helps, specially if you are wanting to get a huge score.
+
+---[Grab trick]-----------------------------------------------------------------
+
+The grab tricks are performed by making a motion on your stick/d-pad and then
+pressing the circle button(keep in mind that you can only do grabs if you press
+a button on the d-pad, or move the stick. Otherwise, you won't do a thing. If
+you keep the circle button pressed, the total points you'll get from the trick
+will increase drastically. If you do a <<<put degree amount here>>> and hold the
+grab, you'll also increase your points.
+
+---[Flip tricks]----------------------------------------------------------------
+
+Flip tricks are the simplest kind of tricks. They are easy to perform(you can do
+a lot of them if you have enough air) can be done while grinding or while
+skating normally. To do a flip trick, move the stick or jiggle on the d-pad, and
+the character will do a flip trick. Flips aren't worth a lot of tricks, but
+because they can be easily combined with grinds, they are useful to get points.
+
+---[Scoring points]-------------------------------------------------------------
+
+Each trick you perform has a certain value. Each time you do that trick, its
+value will be added to your point meter. Each time you repeat a trick, you'll
+get less points. Performing an Airwalk once will grant you 400 points, and
+twice, 350 points. To get a lot of points easily, link tricks with other tricks
+by using grinds, reverts and manuals. If you do a combo of more than one trick,
+the value of the combo will be multiplied with the number of tricks you pulled
+out. If you did a one foot japan+nose manual, you'll get <<<put points here>>> x
+2. You can pull out x50, x98(but is pretty hard)... you'll be always worrying
+about scoring, as all levels have a goal which involves scoring.
+
+--> Scoring tips
+----------------
+
+
+---Do a lot of grinds!. And while grinding, jump, then grind, jump then
+grind(you could also jump and then do boardslides and noselides) to increment
+your x## value, therefore increasing the points you get as you end your tricks.
+
+---Manual a lot too!. When you feel like going out of a grind, because there is
+not way to continue, or you're just tired, follow the last grind with a manual.
+As you manual, jump, manual, jump, manual, jump, manual... until you reach a
+grind, and then grind, and then repeat. Lotsa points at the end.
+
+---Revert as you land after an air trick, or after you do an invert. When you do
+a one foot japan, and then land with a revert, you'll increase your x## meter,
+and you'll also get more points. Right after you revert, you could manual, and
+then reach a rail, and grind it up!.
+
+---Do a lot of inverts!. Every tome you find a ramp, do an invert on it, and
+then start the whole revert+manual+manual+grind... Don't forget that inverts are
+also a lot of points. If you can keep your balance for about ten seconds while
+doing a gymnast plant, you could get about 10.000 points, x2(revert) about
+30.000+manual+manual+manual+grind+grind+grind+manual+grind...(unlimited) about
+100.000/800.000 points.
+
+---When doing grab tricks, hold them up!. Do not neglect the fact that you can
+rack up more points than normal by holding up the circle button. If you pull out
+a one foot japan or one del mar indy, and you have enough air, and you holde
+them up, you could get as much as 5.000 points in one trick. Combine this with a
+gap or a revert, and then a manual, and those 5.000 could transform into 50.000
+or 500.000.
+
+---While grinding, do flips!. That way, you'll get a lot more points, and you'll
+boost out your x## meter. Flips can be done by doing an ollie while grinding(be
+sure you have enough speed) and then do a flip trick combination. Use them if
+you're serious about getting a lot of points in just one combo.
+
+================================================================================
+                                 CHARACTERS
+================================================================================
+
+---------------------------------------------------------------------
+Steve Caballero
+---------------------------------------------------------------------
+
+----------
+Statistics
+----------
+
+Air                     - | | | | |
+Hangtime                - | | | | | |
+Ollie                   - | | | | |
+Speed                   - | | | |
+Spin                    - | | | | |
+Switch                  - | | | |
+Rail Balance            - | | | | | |
+Lip Balance             - | | | | |
+Manual Balance          - | | | | |
+
+Trick Style             - Street
+Stance                  - Goofy
+Push Style              - Never Mongo
+
+--------
+Specials
+--------
+
+Kickflip Superman       - Right, Up + Square
+FS 540                  - Left, Down + Circle
+Hang Ten Nosegrind      - Down, Up + Triangle
+Handstand 360 Hand Flip - Left, Up + Triangle
+
+---------------------------------------------------------------------
+Kareem Campbell
+---------------------------------------------------------------------
+
+----------
+Statistics
+----------
+
+Air                - | | | | | |
+Hangtime           - | | |
+Ollie              - | | | | | |
+Speed              - | | | | |
+Spin               - | | | | | | |
+Switch             - | | | | |
+Rail Balance       - | | | | | | |
+Lip Balance        - | |
+Manual Balance     - | | | |
+
+Trick Style        - Street
+Stance             - Regular
+Push Style         - Never Mongo
+
+--------
+Specials
+--------
+
+Ghetto Bird        - Up, Right + Square
+Kickflip Backflip  - Left, Down + Circle
+Reemo Slide        - Down, Left + Triangle
+Nosegrind to Pivot - Down, Up + Triangle
+
+---------------------------------------------------------------------
+Rune Gilfberg
+---------------------------------------------------------------------
+
+----------
+Statistics
+----------
+
+Air                     - | | | | | | |
+Hangtime                - | | | | | | |
+Ollie                   - | | | | |
+Speed                   - | | | |
+Spin                    - | | | | |
+Switch                  - | | | | | |
+Rail Balance            - | | | |
+Lip Balance             - | | | | |
+Manual Balance          - | |
+
+Trick Style             - Vert
+Stance                  - Regular
+Push Style              - Never Mongo
+
+--------
+Specials
+--------
+
+Double Kickflip Madonna - Right, Up + Square
+Christ Air              - Left, Right + Circle
+Crail Slide             - Right, Down + Triangle
+One Foot Blunt          - Left, Right + Triangle
+
+---------------------------------------------------------------------
+Tony Hawk
+---------------------------------------------------------------------
+
+----------
+Statistics
+----------
+
+Air                  - | | | | | | |
+Hangtime             - | | | | |
+Ollie                - | | |
+Speed                - | | | | |
+Spin                 - | | | | | | | |
+Switch               - | | | |
+Rail Balance         - | | | | |
+Lip Balance          - | | | | |
+Manual Balance       - | | |
+
+Trick Style          - Vert
+Stance               - Goofy
+Push Style           - Never Mongo
+
+--------
+Specials
+--------
+
+5-0 Overturn         - Right, Left + Triangle
+1-2-3-4              - Left, Right + Circle
+The 900              - Right, Down + Circle
+Double Kickflip Indy - Left, Down + Square
+
+---------------------------------------------------------------------
+Eric Koston
+---------------------------------------------------------------------
+
+----------
+Statistics
+----------
+
+Air                - | | | |
+Hangtime           - | | |
+Ollie              - | | | | | | |
+Speed              - | | | |
+Spin               - | | | |
+Switch             - | | | | | | |
+Rail Balance       - | | | | | | |
+Lip Balance        - | | |
+Manual Balance     - | | | | | |
+
+Trick Style        - Street
+Stance             - Goofy
+Push Style         - Mongo on Switch
+
+--------
+Specials
+--------
+
+Fandangle          - Up, Right + Triangle
+Slamma Jamma       - Right, Left + Square
+Stalefish BackFlip - Down, Right + Square
+Pizza Guy          - Right, Up + Circle
+
+---------------------------------------------------------------------
+Bucky Lasek
+---------------------------------------------------------------------
+
+----------
+Statistics
+----------
+
+Air                - | | | | | | |
+Hangtime           - | | | | | | |
+Ollie              - | | |
+Speed              - | | | | |
+Spin               - | | | | | | |
+Switch             - | | | | |
+Rail Balance       - | | |
+Lip Balance        - | | | | | |
+Manual Balance     - | |
+
+Trick Style        - Vert
+Stance             - Regular
+Push Style         - Never Mongo
+
+--------
+Specials
+--------
+
+Big Hitter II      - Up, Left + Triangle
+Fingerflip Airwalk - Left, Right + Circle
+Misty Flip         - Right, Down + Circle
+FS 540 HeelFlip    - Left, Down + Square
+
+---------------------------------------------------------------------
+Bam Margera
+---------------------------------------------------------------------
+
+----------
+Statistics
+----------
+
+Air              - | | | |
+Hangtime         - | | | |
+Ollie            - | | | | | |
+Speed            - | | | | | |
+Spin             - | | | | |
+Switch           - | | | | | |
+Rail Balance     - | | | | | | |
+Lip Balance      - | | |
+Manual Balance   - | | | |
+
+Trick Style      - Street
+Stance           - Goofy
+Push Style       - Never Mongo
+
+--------
+Specials
+--------
+
+540 TailWhip     - Up, Left + Square
+The Jackass      - Down, Up + Square
+Human Dart       - Up, Down + Triangle
+Russian Boneless - Left, Right + Triangle
+
+---------------------------------------------------------------------
+Rodney Mullen
+---------------------------------------------------------------------
+
+----------
+Statistics
+----------
+
+Air                   - | |
+Hangtime              - | |
+Ollie                 - | | | | | |
+Speed                 - | | |
+Spin                  - | | | | | | | |
+Switch                - | | | | | | | |
+Rail Balance          - | | | | | |
+Lip Balance           - | |
+Manual Balance        - | | | | | | | |
+
+Trick Style           - Street
+Stance                - Regular
+Push Style            - Never Mongo
+
+--------
+Specials
+--------
+
+Gazelle Underflip     - Up, Down + Square
+Truckstand            - Left, Down + Triangle
+Anti Casper           - Right, Left + Triangle
+HandStand Double Flip - Right, Down + Triangle
+
+---------------------------------------------------------------------
+Chad Muska
+---------------------------------------------------------------------
+
+----------
+Statistics
+----------
+
+Air             - | | | |
+Hangtime        - | | | |
+Ollie           - | | | | | | | |
+Speed           - | | | | |
+Spin            - | | | | |
+Switch          - | | | | |
+Rail Balance    - | | | | | | | |
+Lip Balance     - | | |
+Manual Balance  - | | |
+
+Trick Style     - Street
+Stance          - Regular
+Push Style      - Never Mongo
+
+--------
+Specials
+--------
+
+Handstand 50-50 - Right, Down + Triangle
+BS Nose Comply  - Right, Left + Triangle
+Tailblock Slide - Left, Down + Triangle
+Ghetto Blastin  - Down, Up + Triangle
+
+---------------------------------------------------------------------
+Andrew Reynolds
+---------------------------------------------------------------------
+
+----------
+Statistics
+----------
+
+Air                - | | | |
+Hangtime           - | |
+Ollie              - | | | | | | | |
+Speed              - | | | |
+Spin               - | | | | |
+Switch             - | | | | | | |
+Rail Balance       - | | | | | | | |
+Lip Balance        - | | | |
+Manual Balance     - | | |
+
+Trick Style        - Street
+Stance             - Regular
+Push Style         - Never Mongo
+
+--------
+Specials
+--------
+
+Dark Disaster      - Left, Right + Triangle
+Hardflip Late Flip - Left, Right + Square
+Noseslide Lipslide - Right, Down + Triangle
+Quad Heelflip      - Up, Right + Square
+
+---------------------------------------------------------------------
+Geoff Rowley
+---------------------------------------------------------------------
+
+----------
+Statistics
+----------
+
+Air                  - | | | | | |
+Hangtime             - | |
+Ollie                - | | | | | | |
+Speed                - | | | |
+Spin                 - | | |
+Switch               - | | | | |
+Rail Balance         - | | | | | | | |
+Lip Balance          - | | | | | | |
+Manual Balance       - | | |
+
+Trick Style          - Street
+Stance               - Regular
+Push Style           - Never Mongo
+
+--------
+Specials
+--------
+
+Rowley Darkslide     - Up, Right + Triangle
+Casper Flip 360 Flip - Down, Right + Square
+The H Teeth Sweeper  - Left, Right + Triangle
+Sproing              - Up, Down + Triangle
+
+---------------------------------------------------------------------
+Elissa Steamer
+---------------------------------------------------------------------
+
+----------
+Statistics
+----------
+
+Air                  - | | | | |
+Hangtime             - | | | | |
+Ollie                - | | | | |
+Speed                - | | | |
+Spin                 - | | | | |
+Switch               - | | | | |
+Rail Balance         - | | | | | |
+Lip Balance          - | | | | |
+Manual Balance       - | | | | |
+
+Trick Style          - Street
+Stance               - Regular
+Push Style           - Never Mongo
+
+--------
+Specials
+--------
+
+Coffin               - Up, Left + Triangle
+Primo                - Down, Right + Triangle
+Bigspin Flip to Tail - Right, Left + Triangle
+Judo Madonna         - Left, Right + Circle
+
+---------------------------------------------------------------------
+Jamie Thomas
+---------------------------------------------------------------------
+
+----------
+Statistics
+----------
+
+Air                  - | | | |
+Hangtime             - | | | |
+Ollie                - | | | | | | |
+Speed                - | | | | |
+Spin                 - | | | |
+Switch               - | | | |
+Rail Balance         - | | | | | | | |
+Lip Balance          - | | | |
+Manual Balance       - | | | | |
+
+Trick Style          - Street
+Stance               - Goofy
+Push Style           - Never Mongo
+
+--------
+Specials
+--------
+
+Crook Bigspin Crook  - Right, Down + Triangle
+One Wheel Nosemanual - Down, Up + Triangle
+360 Hardflip         - Left, Up + Square
+Layback Sparks       - Left, Right + Triangle
+
+=====================================================================
+
+Secret Characters
+
+=====================================================================
+
+---------------------------------------------------------------------
+Darth Maul
+---------------------------------------------------------------------
+
+----------
+Statistics
+----------
+
+Air             - | | | | |
+Hangtime        - | | | | |
+Ollie           - | | | |
+Speed           - | | | | |
+Spin            - | | | | | | |
+Switch          - | | | |
+Rail Balance    - | | | | | |
+Lip Balance     - | | | | |
+Manual Balance  - | | | |
+
+Trick Style     - Vert
+Stance          - Regular
+Push Style      - Never Mongo
+
+--------
+Specials
+--------
+
+Force Grab      - Left, Right + Circle
+Sith Saber Spin - Left, Right + Triangle
+Dark Jedi Grind - Right, Left + Triangle
+
+---------------------------------------------------------------------
+Wolverine
+---------------------------------------------------------------------
+
+----------
+Statistics
+----------
+
+Air            - | | | | | | |
+Hangtime       - | | | | | | |
+Ollie          - | | |
+Speed          - | | | | | | |
+Spin           - | | | | | | |
+Switch         - | | |
+Rail Balance   - | | |
+Lip Balance    - | | |
+Manual Balance - | | | | |
+
+Trick Style    - Street
+Stance         - Regular
+Push Style     - Mongo on Switch
+
+--------
+Specials
+--------
+
+Claw Punch    - Left, Right + Square
+The Claw Drag - Down, Up + Triangle
+The Berzerker - Up, Down + Circle
+
+---------------------------------------------------------------------
+Officer Dick
+---------------------------------------------------------------------
+
+----------
+Statistics
+----------
+
+Air                    - | | | | | |
+Hangtime               - | | | | | |
+Ollie                  - | | | |
+Speed                  - | | | |
+Spin                   - | | | | |
+Switch                 - | | | |
+Rail Balance           - | | | | |
+Lip Balance            - | | | | |
+Manual Balance         - | | | | | |
+
+Trick Style            - Street
+Stance                 - Goofy
+Push Style             - Always Mongo
+
+--------
+Specials
+--------
+
+Sobriety Grind         - Left, Right + Triangle
+Lazy Ass Manual        - Up, Down + Triangle
+Assume The Position II - Down, Right + Circle
+
+---------------------------------------------------------------------
+Private Carrera
+---------------------------------------------------------------------
+
+----------
+Statistics
+----------
+
+Air               - | | | | | |
+Hangtime          - | | | | |
+Ollie             - | | | | | |
+Speed             - | | | |
+Spin              - | | | | |
+Switch            - | | | | |
+Rail Balance      - | | | |
+Lip Balance       - | | | | | |
+Manual Balance    - | | | |
+
+Trick Style       - Street
+Stance            - Regular
+Push Style        - Never Mongo
+
+--------
+Specials
+--------
+
+Handspring Layout - Up, Down + Circle
+Ho Ho Sad Plant   - Left, Right + Triangle
+Ahhh yeahhh!      - Right, Left + Triangle
+
+---------------------------------------------------------------------
+Ollie the Magic Bum
+---------------------------------------------------------------------
+
+----------
+Statistics
+----------
+
+Air            - | | |
+Hangtime       - | | |
+Ollie          - | | | | | | | |
+Speed          - | | | |
+Spin           - | | | | | | | |
+Switch         - | | | | |
+Rail Balance   - | | | |
+Lip Balance    - | | |
+Manual Balance - | | | | | | |
+
+Trick Style    - Street
+Stance         - Regular
+Push Style     - Always Mongo
+
+--------
+Specials
+--------
+
+S.U.I. Grind   - Left, Right + Triangle
+ZZZZ Manual    - Up, Down + Triangle
+Panhandling    - Up, Down + Circle
+
+---------------------------------------------------------------------
+Kelly Slater
+---------------------------------------------------------------------
+
+----------
+Statistics
+----------
+
+Air                    - | | | | | | | |
+Hangtime               - | | | | | | | |
+Ollie                  - | | |
+Speed                  - | | | | | |
+Spin                   - | | | | |
+Switch                 - | | | | | |
+Rail Balance           - | | |
+Lip Balance            - | | |
+Manual Balance         - | | |
+
+Trick Style            - Street
+Stance                 - Regular
+Push Style             - Never Mongo
+
+--------
+Specials
+--------
+
+Duck Dive Shark Attack - Down, Up + Triangle
+Rodeo Clown            - Left, Down + Circle
+Paddle Out Grind       - Left, Right + Triangle
+
+---------------------------------------------------------------------
+Demoness
+---------------------------------------------------------------------
+
+----------
+Statistics
+----------
+
+Air            - | | | | | | | | | |
+Hangtime       - | | | | | | | | | |
+Ollie          - | | | | | | | | | |
+Speed          - | | | | | | | | | |
+Spin           - | | | | | | | | | |
+Switch         - | | | | | | | | | |
+Rail Balance   - | | | | | | | | | |
+Lip Balance    - | | | | | | | | | |
+Manual Balance - | | | | | | | | | |
+
+Trick Style    - Street
+Stance         - Regular
+Push Style     - Mongo on Switch
+
+--------
+Specials
+--------
+
+AC Air         - Right, Left + Circle
+The Summoner   - Left, Right + Triangle
+Visiting Home  - Up, Down + Triangle
+
+---------------------------------------------------------------------
+Neversoft Eyeball
+---------------------------------------------------------------------
+
+----------
+Statistics
+----------
+
+Air             - |
+Hangtime        - |
+Ollie           - |
+Speed           - |
+Spin            - |
+Switch          - |
+Rail Balance    - |
+Lip Balance     - |
+Manual Balance  - |
+
+Trick Style     - Vert
+Stance          - Goofy
+Push Style      - Always Mongo
+
+--------
+Specials
+--------
+
+Super Hand Clap - Left, Right + Circle
+
+================================================================================
+                                 WALKTHROUGH
+================================================================================
+
+`+´+`+´+`+´+`+´+`+´+`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´
+                               THE FOUNDRY
+`+´+`+´+`+´+`+´+`+´+`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´
+
+********************************************************************************
+Objective checklist(summarized)
+********************************************************************************
+
+- Get 10.000 points
+- Get 30.000 points
+- Get 60.000 points
+  * Do inverts on the half pipe(and link them up with a revert)
+  * Do special grinds(handstand)
+  * Manual a lot too.
+- Get the secret tape
+  * This one is floating on a wide rail in the roof of the level.
+- Cannonball over the halfpipe
+  * Do a cannonball and clear the half pipe
+- 50-50 TC rail
+  * In the middle part of the level is a green rail. Do a 50-50 on it.
+- Um Jam 5 valves
+  * On the right side of the slope you start on.
+  * On the left side of the slope you start on.
+  * On the right side of the rails at the north part of the level.
+  * On the left side of the rails at the north part of the level.
+  * On the are where the pool is
+- Grind the molten bucket
+  * Grind the little rails of the bucket to complete this level.
+- Soak the forearm
+  * Grind the rail behind the forearm that is in the pool area.
+- Collect SKATE
+  * See walkthrough below
+
+********************************************************************************
+Area analysis
+********************************************************************************
+
+This level is pretty short, but has a lot of spots to do tricks on. I really
+like the fact that there are a lot of grinds and rails. You can put out a lot of
+grind tricks and flip tricks at the same time on them. Grind around the yellow
+grinds near the molten bucket, then jump, and start grinding on the grind below
+the yellow grinds. The half pipe in the first quarter of the level can help you
+to pull out high-points tricks. Do an invert on the pipe's lip, and then revert
+as you land. Do a manual, and then start grinding on the half pipe's lip. As you
+grind, jump(hold and release X) move the left stick 180º and then start grinding
+again. This combo is worth a lot of points.
+
+Right in the middle of the level(where the K is when playing as Kareem for
+example) is a green platform, which raises as the molten bucket pours lava in
+the lava pool. When it raises, you'll see two grinds, and a hole. If you grind
+from one rail to the other(by jumping the hole) you can score medium points. The
+catwalks high in this level are very hard to navigate, and you need to skate
+through them in order to get the secret tape. Lastly, do a lot of grab tricks on
+the ramps(a 540 One Foot Japan is easily pulled out by jumping from the
+catwalks).
+
+********************************************************************************
+Objective checklist
+********************************************************************************
+
+********************************************************************************
+Get 10.000/30.000/60.000 Points
+********************************************************************************
+
+I found out while playing as Emma that getting 200.000 points in this level
+ain't that hard. First off, put in your special slots some grind specials like
+the darkslide and handstand 50-50. Also, put some of your best lips like the
+gymnast plant with combos like Up + T so you can pull out them quickly. Now,
+listen up. Go down the slope at the start of the level, and do a couple of
+tricks there to burst out your special bar. Then, manual your way out of the
+half pipe, and search for a rail. Go seizure!. Jiggle the d-pad and press the
+triangle button while olling. You'll start to do noselides and bluntsides, and
+with any luck, and special or two may come out. When a rail ends, manual your
+way to another one. I've gotten a max of 180.000 points from this kind of
+combos(at the ends of the run I had ~500.000 points).
+
+********************************************************************************
+Cannonball over the half pipe(vert skaters)
+********************************************************************************
+
+Using a vert skater, go down the slope at the start of the level, and skate to
+the half pipe. As you are near the edge, release the X button to jump, and do a
+cannonball. If you land other side, you'll complete this objective.
+
+********************************************************************************
+50-50 Tc's rail(street skaters)
+********************************************************************************
+
+As you advance towards the north part of the level, you'll sport two set of two-
+grinds to the left(four grinds in total). Select either one of them, and do a
+50-50 grind until the name "tc rail" appears in blue. Then, jump out from the
+grind. You'll have this objective completed then.
+
+********************************************************************************
+Get the secret tape
+********************************************************************************
+
+From the start, look at the ramps to the left and to the right of the slope
+leading to the half pipe. Use either one of them to launch yourself and do your
+best to land on the catwalk. Skate to the right, and head towards the glass
+square. In there, you'll see a ramp. Use it to jump to the grindable(and thin)
+path where the tape is on. Grind towards it.
+
+********************************************************************************
+Soak the Foreman
+********************************************************************************
+
+From the start of the level, go down the slope, and head to the right. Take the
+path to the right of the half pipe, and head forwards. You'll see a slope. Go up
+it, and head to the left. You'll see the foreman, and a crane behind him. Grind
+along the grind where the crane is on to complete this objective.
+
+********************************************************************************
+Um-Jam 5 valves
+********************************************************************************
+
+There are five valves on this level, and all they have a little rail on them. In
+order to um-jam them, you must grind the little white rail.
+
+1 Valve - Go down the slope at the start of the level, and turn right. There is
+a valve there.
+
+2 Valve - Go down the slope at the start of the level, and turn left. There is a
+valve there.
+
+3 Valve - Head forwards from the second valve, and go up the slope into the pool
+area. There is a valve here.
+
+4 Valve - This one is across the 3 valve.
+
+5 Valve - From the fourth valve, head forwards and go around the semi circle
+shaped path. Other side you'll find this valve.
+
+********************************************************************************
+Collect Skate
+********************************************************************************
+
+This is the whole possible skate locations:
+
+- There is one floating in the green press.
+
+- From the start of the level, turn around and you'll see a letter.
+
+- Go down the slope at the start, and look for this letter on one of the ramps.
+
+- On the furnace left of the green press(south part)
+
+- In the same furnace left of the green press, in the north part.
+
+* Second set
+************
+
+- This letter is floating above the middle half pipe
+
+- Turn around from the start of the level and you'll see this letter
+
+- Floating above the lava pool at the end of the level
+
+- Floating above the green press.
+
+- On a rail left of the green press.
+
+* Third set
+************
+
+- Floating above the pool of water
+
+- Floating above the press box kink, which is next to the green press
+
+- On one of the ramps down the slope at the start of the level
+
+- On the circular rail at the end of the level
+
+- Floating above the tub of lava.
+
+********************************************************************************
+Grind the Molten Bucket
+********************************************************************************
+
+To the north of the level, you'll see a bucket which occasionally pours lava
+into a pool. There is also a control panel by the pool. Wait the bucket to start
+pouring, and skate towards it. Use the ramps on the pool, and jump and grind the
+little rails to the left/right of the bucket. You've finished this level.
+
+`+´+`+´+`+´+`+´+`+´+`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´
+                               CANADA
+`+´+`+´+`+´+`+´+`+´+`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´
+
+********************************************************************************
+Objective checklist(summarized)
+********************************************************************************
+
+- Get 30.000 points
+- Get 70.000 points
+- Get 120.000 points.
+  * Go forwards towards the little half pipe. Do a invert on it, and then a
+    revert.
+  * Then, look for a grind, and do a couple of grinds
+  * Do some special grinds too.
+  * Do manuals to link grinds.
+- Get the secret tape
+  * Floating on the mine rail in the pine area of the level.
+- Melon grab over the blade
+  * As you start the level, turn around. You'll see the blade
+  * Do a melon grab over it.
+- Nosegrind around the horn
+  * From where you start, go around and throw yourself into the lake.
+  * Above, advance forwards until you see a drop.
+  * Nosegrind the horn then.
+- Get chuck unstuck
+  * Chuck is to the other side of the left fence(from the starting position).
+  * Skate through chuck to unstuck him.
+- Bury that bully
+  * As you start, turn around, and jump yourself into the snowy tree.
+- Impress the skaters.
+  * This one is one the fence to the right from where you start.
+  * In the pool area(jump the fence to the right) advance north. There is one to
+    the far left.
+  * There are two high rails in the north part of the pool area. There is one lo
+    -cated on one of them.
+  * There is one across the second skater, above a ramp).
+  * There is one to the far east part of the pool area, above a half pipe.
+- Collect skate
+  * See walkthrough below.
+
+********************************************************************************
+Area analysis
+********************************************************************************
+
+This level has a few areas to do tricks. The area with trees and ramps is good
+to get tricks and points if you're a pro with grab and flip tricks. Grind can
+also be used here, along with inverts. But the best trick point is the area
+directly north of the start. Also, there is a pipe park to the right of where
+you entrance(you'll have to ollie above a fence. There a lot of rails where you
+can grind, and the pools here are also useful to do grabs and inverts(which can
+be easily combined with grinds and manuals).
+
+If you turn around after you start, you'll reach the tree area of the level. To
+the west is a circular tree-room where you can pull out a lot of tricks like
+inverts and grab/flip tricks. To the north is the ramp area(passing the river).
+To the far, far north, you'll come to a half pipe, which can be raised by
+grinding the rail with a machine on it(the left rail, from south to north). I
+really don't like skating around this place, unless when I need to get the
+secret tape.
+
+********************************************************************************
+Objective Checklist
+********************************************************************************
+
+********************************************************************************
+Get 35.000/70.000/120.000
+********************************************************************************
+
+To get high scores in this level, put the same specials listed above, and grind
+your way towards the half pipe north from where you start. Do an invert trick,
+and as you land, revert, and then manual. Then, grind the rail here, and grind
+your way down by doing darkslides and handstands. At the bottom, do an invert
+trick on the half pipe, then a revert, then a manual, and then grind your way to
+the top. There, repeat. The other day, I linked up all tricks about three times,
+and at the end, I got about 350.000 points from that single combo.
+
+********************************************************************************
+Get Chuck Unstuck
+********************************************************************************
+
+Forn where you start, ollie over the rail to the left. You'll see a man with his
+tongue stick on a bar. Skate "through" him, and you'll complete this objective.
+
+********************************************************************************
+Bury that Bully!
+********************************************************************************
+
+This is another simple objective. From where you start, go down the [ramp] and
+head forwards a bit. Then, turn around. Skate towards the [ramp] and then jump
+towards the snow-filled tree. You'll bury the bully.
+
+********************************************************************************
+Melon grab over the blade(vert skaters)
+********************************************************************************
+
+From where you start, go down the [ramp] head forwards, and then turn around.
+You'll see the [ramp] as well as two [blades] to the left and to the right of
+this [ramp]. Skate to either the left or right blade, take air, melon grab over
+the [ramp] and land on the other blade:
+
+********************************************************************************
+Nosegrind around the horn(street skaters)
+********************************************************************************
+
+From the start, head to [your] left, and skate through the short path to the
+right of the right blade, Drive forwards and throw yourself onto the lake(yes,
+I'm being serious). You'll respawn in the ramp above. Drive forwards to the
+ramp's edge, and nosegrind the "wire" to the right. Wait until the word "around
+the horn appears, and then jump.
+
+********************************************************************************
+Get the secret tape
+********************************************************************************
+
+This is a tricky one. From where you start, turn around and head north. Skate
+through the logs above the lake, and head forwards. You'll see a ramp, and a
+halfpipe. In a rail near these is a box. Grind the rail with this box, and the
+half pipe will raise. Use the ramp to throw yourself into the half pipe above.
+Then, throw yourself into the half pipe above(yes, another one). Now, grind on
+the left rail of the half pipe you are currently on and throw yourself into the
+half log. Then, grind along the mine cart rail, and get the secret tape.
+
+********************************************************************************
+Impress the skaters
+********************************************************************************
+
+1 Skater - From where you start, head a bit north, and you'll see a skater from
+afar. Grind the rail her(do a couple of boardslides and handstands) to impress
+him.
+
+2 Skater - Jump the fence to the right from where you start, and look for a ramp
+to east. Do an invert trick on it to impress the skater on it.
+
+3 Skater - Head into the pool area, the same one from above, and advance to the
+north, until you see two twin rails. There is a skater on of them. Do an invert
+trick on in front of him.
+
+4 Skater - In the same area above,  head into the north part of it, and look to
+the far left. There is a skater there. Do an invert trick in front of him to
+impress him.
+
+5 Skater - From where the last skater is, head forwards and look for the skater
+here. Ignore him from now, and drop yourself from where he is. Then, turn
+around. You'll see he is above a half pipe. Do an invert trick in front of him
+to complete this objective.
+
+********************************************************************************
+Collect Skate
+********************************************************************************
+
+- Floating on the rail left from where you start
+
+- Use a snow ramp next to the lake to launch yourself into a house rooftop.
+
+- Throw yourself into the lake, and as you respawn, grind the log in front if
+you.
+
+- Grind the log which comes after the one above
+
+- From the last letter, head forwards and use the ramp to take air and get this.
+
+* Second Set
+************
+
+- This one is floating on the fence right from where you start
+
+- On the pool area, skate along the left side to get this letter
+
+- This one is on the opposite side of the letter above
+
+- Around where the second letter is
+
+- Floating on totems hand which is to the east part of the pool area.
+
+* Third set
+************
+
+- This one is floating above two cars which are in the middle of two ramps.
+
+- This one is floating at the half pipe north from where you start
+
+- Turn right from the half pipe mentioned above, and use the left rail to go
+down. You'll get this letter as you descend
+
+- At the bottom, take air from the half pipe to get this letter
+
+- This one is floating above a banner. Use the half pipe mentioned above to
+grind your way towards this letter.
+
+`+´+`+´+`+´+`+´+`+´+`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´
+                                RIO RUCKUS
+`+´+`+´+`+´+`+´+`+´+`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´
+
+********************************************************************************
+Area analysis
+********************************************************************************
+
+No area analysis required(unless somebody asks me).
+
+================================================================================
+
+This level is an skating competition. You have three runs, and each one is one
+minute long. You have to do tricks to get points. The higher your points, the
+higher your "grades". Bailing(falling, crashing, losing balance in a
+grind/invert) hurts your grade. Lastly, only the higher scores you get will be
+accumulated. Example, you get an 80.0, an 70.00, an 90.00, an 60.00 and an
+50.000. Three scores, which are 80.00, 70.00 and 90.000(highest score) will be
+accumulated.
+
+-->Rule rundown
+---------------
+
+- One minute long(each run; three minute long in total)
+- Higher points = higher grades
+- Bailing hurts score
+- Only the highest grades will be accumulated.
+
+********************************************************************************
+Strategy
+********************************************************************************
+
+From where you start, you'll see two green rails, which are located on the left
+and right. Grind the one to the left, and as you are about to reach its ledge,
+jump, and do an airwalk. As you land, head forwards onto the bus stomp, and
+start grinding. Jump onto the quarter-circle rail(lower part) and then grind
+into the higher part). Head forwards(grind the platform) onto the next quarter
+circle. Grind the lower part, and then the higher part. Then, jump into the
+higher part of the spectator box. Do a couple of grinds, and jump onto the rail
+below, and grind onto the next quarter-circle rail. Do the same, and jump onto
+the straight wall(which serves as a grind). Just keep grinding, and at the end,
+you should have 90.000 points(specially if you used special grinds such as
+handstand and darkslides and you link tricks with manuals).
+
+`+´+`+´+`+´+`+´+`+´+`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´
+                                 SUBURBIA
+`+´+`+´+`+´+`+´+`+´+`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´
+
+********************************************************************************
+Objective checklist(summarized)
+********************************************************************************
+
+- Get 55.000 points
+- get 110.000 points
+- Get 200.000 points
+* This is very hard. Go to the half pipe area, and do an invert, then a revert,
+* Manual your way towards a grind, and do a handstand+darkslide on it.
+* Manual your way to another grind, and repeat. You should have enough points to
+  clear the first objective. Then, repeat and repeat...
+- Get the secret tape
+  * This one is inside the haunted house, floating on a rail.
+- Help the thin man out.
+  * Get the axe that is on the construction site.
+  * Take it to the thin man standing outside the haunted house.
+- Squash 5 pumpkins
+  * This is one is located in the house north from where you start.
+  * On the frontyard, next to a car, to be more exact.
+  -----------------------------------------------------------------
+  * Behind the house above, look for a ramp. The pumpkins is on it.
+  * Look for this one which is one the half pipe area.
+  * On the west part of the haunted house frontyard.
+  * Use the pool on the construction site to launch yourself to a rail where
+    this pumpkin is.
+- Restore the power to the dish
+  * Grind the cables connecting two houses.
+- Heelflip the trailer's hop
+  * Heelflip across the blue trailer's hop located on the half pipe area.
+- Nosgrab between the ramps
+  * There are two ramps in the halfpipe area, and a space between them.
+  * Do a nosegrab across the space to complete this objective.
+- Collect skate
+  * See walkthrough.
+
+********************************************************************************
+Area analysis
+********************************************************************************
+
+This is a level I don't like a lot. There aren't a lot of areas where you can
+pull out tricks, and the level is pretty small. The trailer area is the best
+area to get points. Do a couple of grind between trailer and trailer, and then
+do grabs by using the ramps, and also inverts+reverse+manual+grind+grind+grind.
+These kind of combo is  worth a lot of points. There is an empty pool north from
+where you start(in the backyard of a house) and another to the east from where
+you start.
+
+The creepy house can also be used to get points, as there are a lot of ramps
+where you can pull out tricks and do inverts, reverts and manuals. To enter this
+place you must complete a certain objective though. By using the cables located
+in the roof next to the trailers you can reach the rooftop of another
+house(these cables are also useful to pull out tricks). The construction area
+has a lot of rails where you can grind and go flips and grabs.
+
+********************************************************************************
+Objective checklist
+********************************************************************************
+
+********************************************************************************
+55.000/110.000/200.000
+********************************************************************************
+
+In this level, getting this score [could] be a bit hard. From the start, do an
+airwalk to do a bit of warm up. Then, head into the halfpipe(trailer) area, do
+an invert, then do a revert, a manual, then start grinding. When you think you
+are about to fall, stop grinding, and do a manual [again]. Look for a rail,
+grind, and then do a [manual again]. This may take a lot of practice, but if you
+can keep the grind+manual thingie, you should be able to get about 500.000
+points.
+
+********************************************************************************
+Help the thin man out
+********************************************************************************
+
+From where you start, head to the right. You'll see the construction site. There
+are workers here. Go to where the workers are, and head to the right. You'll see
+to rails. One of them has an axe. Grind the one with the axe to get it. Then,
+skate towards the creepy house, and get near the thin man. You'll hand over the
+axe, and this objective will be completed.
+
+********************************************************************************
+Get the secret tape
+********************************************************************************
+
+After you help the thin man out, go through the door he opens for you, and head
+forwards. Use the ramp here to jump to the other side(you'll do the "I have a
+bad feeling about this" gap). In here, drive forwards and take the first right
+you can. You'll see a ramp which takes you to a window. Use this ramp, crash
+into the window, and head forwards into the next window. Crash it, and get the
+secret tape(Spooky drop).
+
+********************************************************************************
+Nosegrab between the ramps(vert skaters)
+********************************************************************************
+
+From the start of the level, head to the left into the trailer area. In here,
+look for a red trailer with a ramp on it. There is another ramp next to this
+one. And there is an space between both ramps. Use either one of the ramps, do a
+nosegrab in the space between the ramps and land on the other ramp. You know
+what I mean.
+
+********************************************************************************
+Heelflip the trailer's hop(street skaters)
+********************************************************************************
+
+From where you start, go to the left into the trailer area. In here, head north,
+and look for a blue trailer. What you must do is to heelflip across it. Take air
+by using the ramp on the back of the trailer, do a heelflip, and pray so you'll
+land on the other side. If you do, you'll complete this objective.
+
+********************************************************************************
+Squash 5 pumpkins
+********************************************************************************
+
+Spread throughout this level are 5 pumpkins which you must squash. From the
+start, head north to a house's font yard. There is a pumpkin on a rail. Grind
+the rail to squash this one. Then, go through this house's alley into the
+backyard(the one with the pool) and skate towards the ramps here. There is a
+pumpkin on one of them. Squash it, and go out this house.
+
+In the main street, head forwards to the trailer area. Look for a pimpkin on one
+of the ramps, and squash it. Then, enter the creepy house front yard, and head
+to the left. You'll see a ramp. There is a pumpkin there. Squash it then. Now,
+go out the creepy house, and skate to the construction site. In here, you'll see
+a pool. Use it to take air and land on the rail where the last pumpkin is.
+
+********************************************************************************
+Restore the power to the dish
+********************************************************************************
+
+From where you start, go down the slope, and head forwards into a house
+backyard. In here, you'll see two ramps leading to this house's roof. Use them
+to get there. If you took the one to the left, turn around. You'll see a wire.
+Grind it all the way to another's house roof. If you took the right ramp, head a
+bit to the left, and look for the wire next to a ramp. Grind it to another's
+house roof. In here, look for a higher wire, and grind it, all the way back to
+the first house roof. You'll have this objective completed then.
+
+********************************************************************************
+Collect Skate
+********************************************************************************
+
+* First set
+************
+
+- This one is floating above the fence north from where you start
+
+- Enter the backyard of the house north from where you start, and use the slopes
+next to where you got the last letter to get up to the house's roof. This letter
+is floating above a ramp
+
+- On the picnic area on the trailer area
+
+- This one is on a rail outside the haunted house
+
+- This one is floating around the construction site, right from where you start.
+
+* Second Set
+************
+
+- This is one is floating above a car north from where you start
+
+- Advance a little forwards from where you start, and turn left. You'll see a
+couple of muddy ramps. Use them to get air and get this letter
+
+- This one is floating on the same rail where the last pumpkin is
+
+- On the house with the dish roof/backyard.
+
+- Floating on the trailer area, on the "washing area"(Like in Tom guide yes. I
+have no better way to describe it =(
+
+* Third set
+************
+
+- Floating in the same rail where the last pumpkin(use the pool in the
+construction site to launch yourself into this rail)
+
+- This is one is floating above a ramp next to the fire truck, which is near the
+construction site.
+
+- This is floating on the quarter pipe outside the haunted house
+
+- Floating between two ramps in the trailer area
+
+- On top of the red trailer, which is next to the house north from where you
+start.
+
+`+´+`+´+`+´+`+´+`+´+`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´
+                            THE AIRPORT
+`+´+`+´+`+´+`+´+`+´+`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´
+
+********************************************************************************
+Objective checklist(summarized)
+********************************************************************************
+
+- Get 75.000 points
+- Get 150.000 points
+- Get 300.000 points
+  * These are very easy.
+  * Grind your way towards the area after the escalator, doing special grinds
+and manuals on your way.
+  * Once you reach the area here, look for a ramp and do an invert, then a
+manual.
+  * Then, look for a rail, and start going grinds and manuals. You could also
+mix this up with invert tricks.
+- Get the secret tape
+  * Right after you reach the area beyond the escalator, head to the right until
+you reach a ramp. Use a little ramp to launch yourself into the rail above, and
+grind your way towards the secret tape.
+- Stop the pickpockets
+  * There is one to the right from where you start.
+  * There is also one to the left.
+  * In the area beyond the first escalator, enter the bathroom to the right.
+There are two pickpockets here.
+  * Right in the are beyond the escalator, head to the right where the last
+pickpocket is.
+- Airwalk over an escalator
+  * In the area beyond the escalator, turn to the right.
+  * In there, Airwalk over an escalator.
+- Crooked grind around the baggage claim
+  * In the same area where you completed the objective above is a baggage claim.
+  * Do a crooked grind(diagonal(upper left)+T) all around it.
+- Visit 10 countries
+  * On the are beyond the last escalator, turn to the right, and grind around
+the circular rail, destroying the flags.
+  * Do the same as above on the left side.
+- Take the tickets to your skater buddy.
+  * From where you start, grind the left rail.
+  * Take the tickets to your skater buddy, which is beyond the last escalator.
+- Collect skate
+  * See walkthrough.
+
+********************************************************************************
+Area analysis
+********************************************************************************
+
+This level is pretty straightforward. You'll always finish on the same part of
+this level(unless you waste your time goofing around) which is the area filled
+with people looking for their flights. On your way there, there a lot of grinds,
+so racking up points shouldn't be hard. Grind the rails outside bathrooms, and
+the ones inside them is worth a lot of points. Transferring from an escalator to
+another also gives out a lot of points. The level, as stated before, is very
+straightforward, so no further analysis is required.
+
+********************************************************************************
+Objective checklist
+********************************************************************************
+
+********************************************************************************
+Get 75.000/150.000/300.000
+********************************************************************************
+
+For this one, I suggest you to put a manual special on your special slots. I
+would also recommend a point-full special, as well as experience with manuals,
+grinds, and specials. Ok, listen up. From where you start, grind the rail to the
+left, and enter the bathroom. Grind the rails here, and exit the bathroom. You
+should have your special bar filled up. Do a manual special, and keep your
+balance until you reach the escalator going down, and grind it down. Halfway
+down, do an 180 escalator hop, and when you land, do the manual special again.
+
+Look for a rail as soon as you can, and then grind a nearby rail. Go through the
+security door, and manual your way to the escalator leading down. Do the same
+you did above, and when you land, do the manual, and skate towards either the
+ramp to the left or right, and do an invert. As you land, do a manual special
+for a while, then stop, do an invert, do a manual special, etc, etc. This took
+me a lot of time to master, but I got about 780.000 points(total).
+
+********************************************************************************
+Take the tickets to your skate buddy
+********************************************************************************
+
+From where you start, grind the rail to the left, and then head towards the area
+where the people are waiting for their flights. On your way there, you'll come
+across the security doors. Evade them by using the ramp right of them(or else
+you'll lose your tickets). In the are where people are waiting for their
+flights(the one which is after the last escalator) head to the left. Look for a
+man with a skate and a woman next to him. Skate near him to complete this
+objective.
+
+********************************************************************************
+Stop the pickpockets
+********************************************************************************
+
+There are five pickpockets her in the airport who are causing madness. As soon
+as you get near them, they'll steal the nearest person's wallet, and start
+running, showing off that they stole. There are two directly in front of the
+starting point, to the right, and to the left. To stop them, skate through them.
+After you've finished with both thefts, go down the escalator here, and enter
+the bathroom to the right, where you'll see two thefts. The people who'll run
+scared may send you flying, so watch out. Ram out both thefts.
+
+Once you reach the area beyond the last escalator, skate to the right. You'll
+see the last theft here. This one is the most intelligent, as if you miss the
+first try, he'll run down to the underground part of the airport. If he does so,
+follow him and skate through him to show him a lesson. Once the last one falls,
+is mission complete.
+
+********************************************************************************
+Get the secret tape
+********************************************************************************
+
+To get this one, go to the area beyond the last escalator(this is getting old
+you know) and head to the right, until you reach the spiral staircase. Don't go
+down it though, and look for a little ramp next to the spiral staircase. Use it
+to take air, and grind the highest rail. Keep grinding and you'll snag the
+secret tape.
+
+********************************************************************************
+Airwalk over the escalator(vert skaters)
+********************************************************************************
+
+Go down the first escaltor, and turn to the right. There, head forwards, and
+you'll see two escalators. There is a big ramp between both of them, and two
+small ramps to the right and left(right for the left escaltor, and right for the
+right escalator). Use either the big/small ramp to take air, do an airwalk, and
+land on the other side.
+
+********************************************************************************
+Crooked grind around the baggage claim(street skaters
+********************************************************************************
+
+In the same area where you complete the objective listed above, is a circular
+baggage claim. Do a crooked grind around it. From where you start, to where you
+start(there is a trajectory in here, physic-wise). Non stop. If you're bad with
+keeping your balance this may be a little tough.
+
+********************************************************************************
+Collect Skate
+********************************************************************************
+
+* First set
+************
+
+- This one is floating in the level first walkway.
+
+- Right after the first escalator, you'll see two half-pipe shaped terminals.
+Use them to get this letter.
+
+- This one is across the last escalator, floating above a ramp.
+
+- To the south side of the letter above, go down the spiral staircase.
+
+- To the north side of the letter above, go down the staircase and look for this
+letter.
+
+* Second set
+************
+
+- This one is floating around the first bathroom you come on.
+
+- After the first escalator, enter the bathroom to the right where this letter
+is.
+
+- This one is floating above the last escalator of the level.
+
+- In the are beyond the last escalator, turn left, and use the ramp here to get
+this letter
+
+- Use an staircase in the are beyond the escalator on go to the warehouse of the
+airport. Then, look for the E which is floating above a sack of crates.
+
+* Third set
+************
+
+- Use the phone booth near the first walkway to get this letter, floating on a
+light above
+
+- Use the phone booth near the second walkway you come across(after the first
+escalator) to launch yourself into the lights where this letter is
+
+- This one is floating on a rail on the last escalator of the level.
+
+- In the are after the last escalator, turn right, and look for a thin ramp with
+a C on it. Use this to get this letter.
+
+- Use the ramp next to the ramp listed above to get this.
+
+********************************************************************************
+Visit 10 countries
+********************************************************************************
+
+In the area beyond the last escalator(getting _old_) head either to the left or
+to the right, and grind around the red rails(the bottom ones). Grind through the
+flags in order to destroy them(each flag destroyed is worth a gap). There are
+five to the left, and five to the right. Once you destroy 10 flags, you'll
+complete this objective, and you'll be done with this level.
+
+`+´+`+´+`+´+`+´+`+´+`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´
+                               SKATER ISLAND
+`+´+`+´+`+´+`+´+`+´+`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´
+
+In this level, you'll have to do the same you did in Brazil: get points. To get
+in the first place, you'll have to score around 60.000 points, which shouldn't
+be that hard. From where you start, skate towards the fun box, do a melon(you'll
+do a gap) and head forwards the nearest grind. Do grinding with flips and 180
+board slides/noselides. Grind your way towards the half pipes(bowls) and do a
+couple of inverts, mixed with the revert and manual specials. Try to link in the
+grinds you do(from a bowl to nearby grind). 360 One foot japans and Del Mar
+Indys are also worth a lot of points, but rely on grindings and inverts, and
+manual special. Doing specials are also useful to get points.
+
+`+´+`+´+`+´+`+´+`+´+`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´
+                               LOS ANGELES
+`+´+`+´+`+´+`+´+`+´+`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´
+
+********************************************************************************
+Objective Checklist(summarized)
+********************************************************************************
+
+- Get 100.000 points
+- Get 190.000 points
+- Get 400.000 points
+  * Do an invert on the ramps in the central park
+  * Then, do a manual special(one wheel nosemanual)
+  * Look for a grind, and start doing Darkslides and Hanstands.
+  * Then, manual your way to the ramps and repeat.
+- Get the secret tape
+  * Floating on a rail in the central park(earthquake must have been started)
+- Stop the police chase
+  * Earthquake must have been started
+  * Grind the rail with the car on the broken bridge
+- Start the earthquake
+  * Grind the rail north from the start, inside a passage(the one leading to the
+street)
+  * Grind the rail leading downtown to the right from where you start
+  * As you end grinding the first rail, turn right and grind the rail here
+  * As you finish grind the last rail, turn around and skate through the skate
+to the metal fence at the end. Then, turn left, and grind the rightmost rail.
+- One Foot Japan the tower poppin!
+  * Do a one foot japan across the tower poppin'! gap.
+- Varial Kickflip the tower rail gap
+  * Do a varial kickflip across the tower rail gap
+- Free Ballin!
+  * In the park are two balls. Jump onto them.
+- Collect Skate
+  * See walkthrough.
+
+********************************************************************************
+Area analysis
+********************************************************************************
+
+This level is very big, but it also lacks on rails, but it is ramp full, so
+you'll have to rely on air specials, inverts and special manuals. Cars also
+drive around her, and they normally ramp anything on their path. The police
+chase is specially dangerous, as you don't stand a chance against it. There few
+interactive objects, until you start the earthquake, which widens the options a
+little bit. You can enter a few buildings too.
+
+********************************************************************************
+Objective checklist
+********************************************************************************
+
+********************************************************************************
+Get 100.000 points/190.000 points/400.000 points
+********************************************************************************
+
+As stated before, you can't rely on grinds in this level, so put a few air
+specials on your special slots, as well as manual specials. Skate to the central
+park, and look for a set of twin ramps(purple). Do an invert, and then do a
+manual special. Then, keep the balance, and look for a nearby grind. Grind for a
+while, and when you fall, start another kind of manual special(don't repeat the
+same one, or else its value will start decreasing) and head back to the twin
+ramps. Stop the manual, and do an invert, and then repeat. This also takes a lot
+of time to do, but it is worth it.
+
+********************************************************************************
+One foot japan tower poppin' transfer(vert skater)
+********************************************************************************
+
+From where you start, go down the set of stairs here(bunker gap) and skate down
+the streets to the fountain. You'll see two ramps next to this fountain. Use
+either one of them, do a one foot japan and land on the floor above. If you can,
+take air by using a ramp in the tower above, do a one foot japan, and land on
+the ramp below. Either way, this is an easy objective.
+
+********************************************************************************
+Varial kickflip the tower rail gap(street skater)
+********************************************************************************
+
+From the start of the level, go down the set of stairs, and go down the street.
+Go through the windows which can be smashed, and use a ramp to get to an area
+with grates. Look for a rail, grind it, and halfway is a gap. Do a varial
+kickflip in the gap, and then hold triangle to start grinding again. This make
+take a while(is pretty tough) but you'll do it sometime.
+
+********************************************************************************
+Get the secret tape
+********************************************************************************
+
+To get the secret tape, you must first have completed the earthquake objective.
+Once you do so, go down the stairs from the start of the level, and go down the
+street. Then, turn to the left, and head towards the area with the car wash. Use
+the ramps next to the bucket with fire to launch yourself onto the car wash
+roof. Then, jump onto the broken bridge. Skate forwards a wooden ramp at the end
+of the bridge, and use it to launch yourself into a balcony. In this balcony,
+skate towards the next balcony, and throw yourself into it. You'll see a rail.
+Grind it up and get the secret tape.
+
+********************************************************************************
+Start the earthquake
+********************************************************************************
+
+To start the earthquake you must grind certain rails spread throughout the
+level. For the first one, go down the set of stairs north from where you start,
+and enter the little tunnel there. Grind he leftmost rail down. As you land,
+head to the left, and you'll see two rails. Grind the right one. Then, return to
+the main streets, and grind the rails directly north from the rail you grinded
+last time. After you grind the last one, turn around, and grind the rail north
+from the fountain. Earthquake!.
+
+********************************************************************************
+Free ballin'
+********************************************************************************
+
+In the main park, there are two balls. Jump onto them, or do a flip trick in
+front of them, and you'll send them flying. Problem solved pal.
+
+********************************************************************************
+Stop the police chase
+********************************************************************************
+
+To complete this objective, you must have completed the earthquake objective.
+Afterwards, from the start of the level, go down the staircase, and skate down
+the road, and then skate to the left, to the car wash. Use the ramps here in
+order to get to the car wash rooftop. In here, jump onto the broken bridge
+rooftop. You'll see car about to fall. Grind the rail where the car is, and
+it'll fall down, blocking the police chase. Objective completed then.
+
+********************************************************************************
+Collect Skate
+********************************************************************************
+
+* First set
+************
+
+- From the start of the level, turn left, and look for this letter, which can be
+reached by olling.
+
+- To the left side of the cinema is a ramp, which should be used to get this
+letter.
+
+- On the half pipe above the car wash.
+
+- On the fire truck's ladder, next to the car wash.
+
+- Near a store which is behind the car wash(big discounts I believe is named)
+
+* Second set
+************
+
+- Go down the stairs in front of you after you start, and turn right. You'll see
+this letter floating above a rail(this is the S letter)
+
+- This one is located on a ramp north of the letter above.
+
+- Floating around the are with steaming grates.
+
+- Floating on the rail which leads to the kiosk, next to the car wash.
+
+- On top a yellow wall on the central park
+
+* Third set
+************
+
+- This one is floating on the same side it was floating before(this is the S
+letter)
+
+- Right after you finish grinding(from the rail mentioned above), advance
+forwards to get this letter.
+
+- After you get this letter, advance towards the right street(next to the
+central park). You should spot this letter as you skate.
+
+- In the central park is a, eh, purple wall. This letter is floating above it.
+
+- Directly across from the purple wall listed above is little block with ramps
+inside it. Use them to get this letter.
+
+`+´+`+´+`+´+`+´+`+´+`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´
+                                   TOKYO
+`+´+`+´+`+´+`+´+`+´+`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´
+
+This is probably the easiest competition. First off, put in your special slots
+some manual specials and inverts. From the start, go down the slope, and do a
+one foot japan over the fun box, and skate to the ramp. Do an invert, and as you
+land, do a manual special, and then grind the rail near here. AS you land, skate
+to the nearest ramp, do an invert, and as you land, do a manual, and then grind
+the rail here, and then repeat. Keep doing this and you should have about
+350.000 points at the end. Other competitors only rack up about 90.000 points,
+so you should get the second(or even the first) place easily.
+
+`+´+`+´+`+´+`+´+`+´+`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´
+                               CRUISE SHIP
+`+´+`+´+`+´+`+´+`+´+`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´`+´
+
+********************************************************************************
+Objective checklist(summarized)
+********************************************************************************
+
+- Get 180.000 points
+- Get 220.000 points
+- Get 500.000 points
+  * Do some manuals and inverts on the empty pool
+  * Grind a lot, and link all the tricks with reverts and manuals.
+- Get the secret tape
+  * Floating above the big red pillar north from the starting point.
+- Trash the museum
+  * Grind the rail inside the museum with two cables linked to it.
+- Invert the high wires
+  * After you drain the pool(see walkthrough) take air and invert the high wires
+- Noseblunt an awning
+  * Noseblunt in awning on the place where the life boats are
+- Raise the Ferry
+  * Do a wall ride on the pan next to the un-raised ferry.
+- Impress the NeverSoft girls
+  * Standing next to the pool
+  * Inside the autrium
+  * In the area beyond the museum(smash the window)
+  * Drop yourself one deck from where the girl above is.
+  * In the part area(one deck north from where you start) are two girls
+  * In the are where the life boats are
+- Collect Skate
+  * See walkthrough
+
+********************************************************************************
+Area analysis
+********************************************************************************
+
+Man, this level is really huge!. Just to tell you, from the start of the leve,
+you can drop yourself two decks below, and explore. The upper deck is the one
+with the pool, the women, the heliport. The middle deck is the one with the
+atrium, museum, and the stores awnings. The lower level is conformed by the life
+boat area, which is where the stores area. Apart from these, there is the
+museum, where you can pull out a couple of simple grinds which are easily
+combined with broken windows gaps. There is also the party area, which is reach
+by throwing yourself from the pit behind from where you start. Here, you'll see
+cake, a pool, and women.
+
+********************************************************************************
+Get 150.000 points/225.000 points/500.000 points
+********************************************************************************
+
+For this objective, I like to drain the pool first(see the "invert high wires
+objective") and there, do an invert, then a manual, then a grind, then a manual,
+then a grind, then a manual, then an invert. This little nasty combo is worth a
+lot of points. If you can manual for about 20 seconds, you'll get a helluva lot
+of points, specially if you combine a long lasting manual with a long lasting
+grind, as well as a long lasting invert. You could also, from the star of the
+level, jump over the rail to the right of the pool, land on the atrium, and do
+flips+grinds there for some easy points(about 70.000 if you're skill full
+enough.
+
+********************************************************************************
+Raise the ferry
+********************************************************************************
+
+To raise the ferry, from where you start, head to the left(left side of the
+pool) and drop yourself two decks down. Look for the un raised ferry. There will
+be a man near the ferry, with a panel near him. Wallride the panel, and you'll
+raise the ferry, completing this objective.
+
+********************************************************************************
+Invert the high wires(vert skaters)
+********************************************************************************
+
+For this one, go down the ramps at the start of the level, and go around the
+pool, towards the big red & white pillar. To the right of this pillar is a rail
+with a valve. Grind this rail, and you'll drain the pool, leaving it skate-able.
+Get into it, and gain enough speed, so you can reach the high wires above the
+pool, and do an invert on it.
+
+********************************************************************************
+Noseblunt an awning(street skaters)
+********************************************************************************
+
+From where you start, go down the ramps here, and then head to the left, and
+drop yourself two decks, to the area where the life boats and the stores are. In
+here, you'll see each store's roofs, which are considered awnings. Grind a rail,
+and jump into an awning, and then into the other one. Then land on the floor. If
+done correctly, you'll complete this level(summary: grind the south part of the
+rails around the stores, and jump into the awnings).
+
+********************************************************************************
+Impress the neversoft girls
+********************************************************************************
+
+To impress this girl with half-boobs on the air, do couple of tricks which score
+around 1.000 points. Because the level is extremely big, and there are seven of
+them, this could be pretty hard.
+
+1 girl - Wandering around the left side of the pool.
+
+2 girl - From where you start, head forwards and go around the pool, and drop
+one deck, by jumping the rail behind the big red pillar. There is a girl south
+of the pool here.
+
+3 - Inside the atrium.
+
+4 - In the right side of the pool in the mid deck(where the cake is).
+
+5 - In the south part of the bottom deck.
+
+6 - In the north part of the bottom deck.
+
+7 - In the museum, smash your way through the big windows, and you'll see the
+last neversoft girl which needs to be impressed.
+
+********************************************************************************
+Trash the museum
+********************************************************************************
+
+To trash the museum, go down the a ramp in front of you at the start of the
+level, and turn 90º degrees. You'll see a short path with a rail on it leading
+down. Use to enter the museum. In here, grind the rail with the windows to broke
+the cables holding an propeller. Once you do, the propeller will go out the
+museum, and land in front a ped. The ped will go out the ship then, and the
+safety net will appear.
+
+********************************************************************************
+Get the secret tape
+********************************************************************************
+
+The secret tape in this level is a little tricky. Before going down the ramps in
+front of you, turn around. You'll see two wires, low and high, and a ramp. Use
+the quarter pipe to the right, and take air, and then move slightly to the left.
+As the gap name appears, press triangle to start grinding. This grind will take
+you to the top of the big red pillar here. Use the ramps here to take air and
+get the secret tap which is floating in the air.
+
+********************************************************************************
+Collect Skate
+********************************************************************************
+
+* First set
+************
+
+- Floating on one of the high wires(the same ones used to complete the "invert
+the high wires" objective).
+
+- Floating on the red pillar(use the ramps there to get it)
+
+- Grind the cables connected to the red pillars all the way down where this
+letter is.
+
+- This one is near the cake which is one deck down north from where you start.
+
+- Around the are with the letter listed above.
+
+* Second set
+************
+
+- Turn as you start the level, and grind the rail here. On your way down, you'll
+get this.
+
+- On the bow of the ship, look for a set of quarter pipes
+
+- Around the area with the atrium
+
+- This one is north of the cake, one deck north from where you start.
+
+- This one is floating inside the atrium
+
+* Third set
+************
+
+- This one is floating around the safety net(you must trash the museum first)
+
+- Floating above the Ferry which can be raised(launch yourself into it by using
+an awning)
+
+- This one is floating on a rail to the right from where you start
+
+- Floating on one of the life boats in the life boat area
+
+- On the back of the ship(ahhhhh... I'm lazy!).
+
+
+================================================================================
+                              SHAUN PALMERS DEMO
+================================================================================
+
+This game is very, very similar to tony hawk's pro skater. I currently own the
+original, full version, and I must say I love it. You'll play the Aspen level on
+the demo. The walkthrough below is based on the Aspen level found in the
+original, full version.
+
+*********************************
+Aspen - Quick objective checklist
+*********************************
+
+- High score                                 *COMPLETE*
+- Pro score                                  *COMPLETE*
+- Sick score                                 *COMPLETE*
+- Get the Aspen logos                        *COMPLETE*
+- Demolish the coffee stands                 *INCOMPLETE*
+- Bonk the gondola                           *INCOMPLETE*
+- Show the yuppies the bottom of your board  *INCOMPLETE*
+- Get the secret sponsor                     *INCOMPLETE*
+- Finish before 1:25 with over 30.000 points *COMPLETE*
+
+************************************
+Aspen - In depth objective checklist
+************************************
+
+- High score/Pro score/Sick score
+---------------------------------
+
+As you start, jump, and do a kickflip(a Misty 5 or a Rodeo), and as you land,
+manual. When you reach another edge, do two flips and hold a melancholy(you can
+also pull out a 1080 melancholy here; really!). Then, do manual, and grind the
+tree to the rooftop. Grind your way towards the rooftops edge, and drop yourself
+while doing a grab. Then manual a bit, and let the combo go. Look for a ramp
+around here, and repeat. It should be easy to rack up the necessary points you
+need.
+
+- Get the Aspen Logos
+---------------------
+
+1 - From where you start, skate along the left side, and launch yourself into
+the house rooftop. Then, grab the logo which is floating here.
+
+2 - This logo is located on a tank, which is accessed by jumping off from a
+house(the one with a yuppie on it).
+
+3 - This one is floating on a house(which holds the spider sabich air gap) next
+to a coffee stand.
+
+4 - At the end of the level, grind the rails on the lounge area, and get this
+logo which is floating on the air.
+
+- Demolish the coffee stands
+----------------------------
+
+1 - This one is located to the left of the house north from where you start on.
+
+2 - Skate to the left after you demolish the first stand, and you should see
+this one next to a chairlift.
+
+3 - Next to the house where you found the third logo.
+
+4 - At the end of the level, skate to the left. You should see this coffee stand
+around here.
+
+5 - ????
+
+- Bonk the Gondola
+------------------
+
+Skate along the right side of the level until you reach the area with a tree,
+and a gondola station. Use the tree to launch yourself into the station
+rooftops, and then, throw yourself throughout the breakable floor on the roof.
+You'll see the gondola here. Bonk it up(note: I haven't tested this out yet. I
+just suppose is here, judging from the cinemas. Sorry =(
+
+- Show the yuppies the bottom of your board
+-------------------------------------------
+
+There are about five yuppies spread throughout the whole level. You'll know you
+have found a yuppie when you see a funny looking man screaming at you and waving
+his/her hands on the air. When you find one, olli across him(show him the bottom
+of your board). Look for the throughout the level, and show them what you got.
+I'll add their locations as I explore the level with more patience and time.
+
+- Get the secret sponsor
+------------------------
+
+To get this one, skate along the right side of the level until you reach a
+house(to the right of the first house you see(the one north from where you
+start)). Launch yourself into its roof, and grind along the cable which is
+connected to the house(it is on the far end of the roof). You should get the
+secret sponsor while grinding.
+
+- Finish off before 125 with over 30.000 points
+-----------------------------------------------
+
+As you start, jump, and do a kickflip(a Misty 5 or a Rodeo), and as you land,
+manual. When you reach another edge, do two flips and hold a melancholy(you can
+also pull out a 1080 melancholy here; really!). Then, do manual, and grind the
+tree to the rooftop. Grind your way towards the rooftops edge, and drop yourself
+while doing a grab. Then manual a bit, and let the combo go. Repeat once again,
+and then rush your way towards the level finishing line.
+
+================================================================================
+                               PARK EDITOR
+================================================================================
+
+The park editor you can use In this game is far more complex than the ones found
+in the previous games(not as complex as Dave Mirra 2, in my opinion). You know
+have a crapload of items which you can use, and that are listed below, right
+after the controls section:
+
+********************************************************************************
+
+CONTROLS
+
+********************************************************************************
+
+D-pad - Used to select a piece and to change piece categories.
+
+Left stick - Used to move the piece around the field.
+
+Right stick - Used to move the camera around
+
+L2 - Used to lower a piece.
+
+L1 - Used to increment a piece height.
+
+R1 - Zoom camera out
+
+R2 - Zoom camera in
+
+Square - Rotates a piece
+
+Circle - Rotates a piece
+
+Triangle - Used to delete a piece
+
+Start - Used to access the park editor menu.
+
+********************************************************************************
+
+PARK EDITOR MENU
+
+********************************************************************************
+
+Continue - You'll be able to continue the creation of your park
+
+Test skate - Used to test out the map you're currently working on.
+
+Switch theme - You can switch the park them(school, beach, indoor & outdoor).
+
+Clear map - You'll clear your map(and you'll be able to select another map size)
+
+Pre made parks - You'll be able to play(and tweak) pre made parks.
+
+Save - You'll be able to save your park
+
+Load - You'll be able to load your park.
+
+================================================================================
+                              SECRETS
+================================================================================
+
+Coming son!.
+
+================================================================================
+                               WHAT COMES NEXT?
+================================================================================
+
+- In next version(1.0) I'll add the introduction, credits, basics section,
+control, character guide(only normal characters), gap list for the first three
+levels, s-k-a-t-e letters for the first three levels(excluding Rio), park
+editor, shaun palmer demo, and tricks guide.
+
+- In the next version, I'll add more gaps, the s-k-a-t-e lettering for at least
+one level, park editor, and Shaun Palmer's demo.
+
+- In the next version, I'll finish the gaps list and I'll also add the skate
+locations to the main walkthrough(this will be the first complete version of the
+guide). I'll also finish and tweak up another sections.
+
+- Finish the secret section and the shaun palmer demo section, and add the gaps
+for the secret levels.
+
+- More information will be added...
+
+================================================================================
+                               COPYRIGHT NOTICE
+================================================================================
+
+This document property of "GheddonLN". All rights reserved. Copyright  2002 by
+José Felipe Vargas. This document may not be reproduced in any way, shape or
+form without written permission from the document's copyright holder, and may
+not be uploaded, downloaded, or transferred to your hard drive unless from the
+following sites permissible:
+
+gamefaqs.com
+neoseeker.com
+psxcodez.com
+
+Failure to abide by this legal contract will result in a lawsuit in which you
+may be sentenced to serve a term in prison for copyright infringement as well as
+paying out compensation to the document's owner. This document may not be edited
+in whole or part, unless given permission by the document's copyright owner.
+This legal notification applies to international copyright laws and will be
+extremely well carried out by the authorities, copyright holder, and citizens.
+
+********************************************************************************
+
+=-EOD-=
+
+
+
+

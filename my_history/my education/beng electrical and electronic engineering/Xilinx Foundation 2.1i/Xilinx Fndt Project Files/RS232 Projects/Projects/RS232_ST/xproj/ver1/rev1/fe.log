@@ -1,0 +1,306 @@
+ngdbuild -p xc4010xl-09-pc84 -uc rs232_st.ucf -dd .. c:\fndtn\active\projects\rs232_st\rs232_st.xnf rs232_st.ngd
+ngdbuild:  version C.22
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -p xc4010xl-09-pc84 -uc rs232_st.ucf -dd ..
+c:\fndtn\active\projects\rs232_st\rs232_st.xnf rs232_st.ngd 
+
+Launcher: Executing xnf2ngd -p xc4000xl -u
+"c:\fndtn\active\projects\rs232_st\rs232_st.xnf"
+"C:\Fndtn\Active\Projects\RS232_ST\xproj\ver1\rs232_st.ngo"
+xnf2ngd:  version C.22
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+   using XNF gate model
+   reading XNF file "c:/fndtn/active/projects/rs232_st/rs232_st.xnf" ...
+   Writing NGO file "C:/Fndtn/Active/Projects/RS232_ST/xproj/ver1/rs232_st.ngo"
+...
+Reading NGO file "C:/Fndtn/Active/Projects/RS232_ST/xproj/ver1/rs232_st.ngo"
+...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "rs232_st.ucf" ...
+
+Checking timing specifications ...
+
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "rs232_st.ngd" ...
+
+Writing NGDBUILD log file "rs232_st.bld"...
+
+NGDBUILD done.
+
+==================================================
+
+map -p xc4010xl-09-pc84 -o map.ncd rs232_st.ngd rs232_st.pcf
+map:  version C.22
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+Reading NGD file "rs232_st.ngd"...
+Using target part "4010xlpc84-09".
+MAP xc4000xl directives:
+   Partname = "xc4010xl-09-pc84".
+   Covermode = "area".
+   Pack Unrelated Logic into CLBs targeting 100% of CLB resources.
+Processing logical timing constraints...
+Verifying F/HMAP validity based on pre-trimmed logic...
+Removing unused logic...
+Packing logic in CLBs...
+   Running cover...
+   Undirected packing...
+Running physical design DRC...
+
+Design Summary:
+   Number of errors:        0
+   Number of warnings:      1
+   Number of CLBs:             58 out of   400   14%
+      CLB Flip Flops:      19
+      CLB Latches:         30
+      4 input LUTs:       106
+      3 input LUTs:        18
+   Number of bonded IOBs:      12 out of    65   18%
+      IOB Flops:            0
+      IOB Latches:          0
+   Number of clock IOB pads:    1 out of    12    8%
+   Number of BUFGLSs:           8 out of     8  100%
+Total equivalent gate count for design: 981
+Additional JTAG gate count for IOBs:    576
+Writing design file "map.ncd"...
+
+Removed Logic Summary:
+   5 block(s) optimized away
+
+Mapping completed.
+See MAP report file "map.mrp" for details.
+
+==================================================
+
+par  -w -ol 2 -d 0 map.ncd rs232_st.ncd rs232_st.pcf
+PAR: Xilinx Place And Route C.22.
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+
+
+Constraints file: rs232_st.pcf
+
+Loading device database for application par from file "map.ncd".
+   "rs232_st" is an NCD, version 2.28, device xc4010xl, package pc84, speed -09
+Loading device for application par from file '4010xl.nph' in environment
+C:/Fndtn.
+Device speed data version:  C 1.1.2.2 PRELIMINARY.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            11 out of 61     18%
+      Flops:                           0
+      Latches:                         0
+   Number of Global Buffer IOBs        1 out of 8      12%
+      Flops:                           0
+      Latches:                         0
+
+   Number of CLBs                     58 out of 400    14%
+      Total Latches:                  30 out of 800     3%
+      Total CLB Flops:                19 out of 800     2%
+      4 input LUTs:                  106 out of 800    13%
+      3 input LUTs:                   18 out of 400     4%
+
+   Number of BUFGLSs                   8 out of 8     100%
+
+
+
+Overall effort level (-ol):   2 (set by user)
+Placer effort level (-pl):    2 (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    2 (set by user)
+
+Starting initial Placement phase.  REAL time: 6 secs 
+Finished initial Placement phase.  REAL time: 6 secs 
+
+Starting Constructive Placer.  REAL time: 6 secs 
+Placer score = 44760
+Placer score = 35250
+Placer score = 29040
+Placer score = 28350
+Placer score = 26640
+Placer score = 26370
+Placer score = 26190
+Placer score = 23550
+Placer score = 21720
+Placer score = 19770
+Placer score = 18810
+Placer score = 18120
+Placer score = 18000
+Placer score = 17880
+Placer score = 17700
+Placer score = 17070
+Placer score = 16710
+Placer score = 16470
+Finished Constructive Placer.  REAL time: 10 secs 
+
+Writing design to file "rs232_st.ncd".
+
+Starting Optimizing Placer.  REAL time: 10 secs 
+Optimizing  
+Swapped 16 comps.
+Xilinx Placer [1]   15900   REAL time: 11 secs 
+
+Finished Optimizing Placer.  REAL time: 11 secs 
+
+Writing design to file "rs232_st.ncd".
+
+Total REAL time to Placer completion: 12 secs 
+Total CPU time to Placer completion: 11 secs 
+
+0 connection(s) routed; 466 unrouted.
+Starting router resource preassignment
+Completed router resource preassignment. REAL time: 14 secs 
+Starting iterative routing. 
+Routing active signals.
+End of iteration 1 
+466 successful; 0 unrouted; (0) REAL time: 15 secs 
+Constraints are met. 
+Routing PWR/GND nets.
+Power and ground nets completely routed. 
+Writing design to file "rs232_st.ncd".
+Starting cleanup 
+Improving routing.
+End of cleanup iteration 1 
+466 successful; 0 unrouted; (0) REAL time: 18 secs 
+Writing design to file "rs232_st.ncd".
+Total REAL time: 18 secs 
+Total CPU  time: 17 secs 
+End of route.  466 routed (100.00%); 0 unrouted.
+No errors found. 
+Completely routed. 
+
+This design was run without timing constraints.  It is likely that much better
+circuit performance can be obtained by trying either or both of the following:
+
+  - Enabling the Delay Based Cleanup router pass, if not already enabled
+  - Supplying timing constraints in the input design
+
+
+Total REAL time to Router completion: 18 secs 
+Total CPU time to Router completion: 17 secs 
+
+Generating PAR statistics.
+Writing design to file "rs232_st.ncd".
+
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 19 secs 
+Total CPU time to PAR completion: 18 secs 
+
+PAR done.
+
+==================================================
+
+trce rs232_st.ncd rs232_st.pcf -e 3 -o rs232_st.twr
+Xilinx TRACE, Version C.22
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+
+Loading device database for application trce from file "rs232_st.ncd".
+   "rs232_st" is an NCD, version 2.28, device xc4010xl, package pc84, speed -09
+Loading device for application trce from file '4010xl.nph' in environment
+C:/Fndtn.
+--------------------------------------------------------------------------------
+Xilinx TRACE, Version C.22
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Design file:              rs232_st.ncd
+Physical constraint file: rs232_st.pcf
+Device,speed:             xc4010xl,-09 (C 1.1.2.2 PRELIMINARY)
+Report level:             error report
+--------------------------------------------------------------------------------
+
+WARNING:Timing:181 - No timing constraints found, doing default enumeration.
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 1314 paths, 127 nets, and 466 connections (100.0% coverage)
+
+Design statistics:
+   Minimum period:  20.943ns (Maximum frequency:  47.749MHz)
+   Maximum net delay:   7.501ns
+
+WARNING:Timing:33 - Clock nets using non-dedicated resources were found in this
+   design. Clock skew on these resources will not be automatically addressed
+   during path analysis. To create a timing report that analyzes clock skew for
+   these paths, run trce with the '-skew' option.
+
+Analysis completed Sun Dec 03 20:14:29 2000
+--------------------------------------------------------------------------------
+
+Total time: 5 secs 
+
+==================================================
+
+ngdanno rs232_st.ncd map.ngm 
+ngdanno:  version C.22
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Loading device database for application ngdanno from file "rs232_st.ncd".
+   "rs232_st" is an NCD, version 2.28, device xc4010xl, package pc84, speed -09
+Loading device for application ngdanno from file '4010xl.nph' in environment
+C:/Fndtn.
+Reading .ngm file "map.ngm"...
+Building NGA image...
+Annotating NGA image...
+Distributing delays...
+Writing .nga file "rs232_st.nga"...
+   78 logical models annotated
+
+==================================================
+
+ngd2edif -w -v fndtn rs232_st.nga time_sim.edn
+ngd2edif:  version C.22
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+   writing only delay properties to EDIF file
+   dedicated signals will be given global scope
+   running NGD DRC ...
+   writing  EDIF file to 'time_sim.edn' ...
+
+==================================================
+
+xcpy time_sim.edn c:\fndtn\active\projects\rs232_st\time_sim.edn
+
+==================================================
+
+bitgen rs232_st.ncd  -l -w -f bitgen.ut
+BITGEN: Xilinx Bitstream Generator C.22
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Loading device database for application Bitgen from file "rs232_st.ncd".
+   "rs232_st" is an NCD, version 2.28, device xc4010xl, package pc84, speed -09
+Loading device for application Bitgen from file '4010xl.nph' in environment
+C:/Fndtn.
+Opened constraints file rs232_st.pcf.
+
+Sun Dec 03 20:14:51 2000
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Saving ll file in "rs232_st.ll".
+Creating bit map...
+Saving bit stream in "rs232_st.bit".
+
+==================================================
+
+xcpy rs232_st.bit c:\fndtn\active\projects\rs232_st\rs232_st.bit
+
+==================================================
+
+xcpy rs232_st.ll c:\fndtn\active\projects\rs232_st\rs232_st.ll

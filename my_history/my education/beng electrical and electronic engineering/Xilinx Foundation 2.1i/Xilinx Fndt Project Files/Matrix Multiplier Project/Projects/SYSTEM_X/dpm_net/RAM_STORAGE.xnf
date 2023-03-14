@@ -1,0 +1,2328 @@
+LCANET, 6
+PROG, Synopsys, UNKNOWN, v3.2, Build 3.2.0.4201
+PART, 4085XL-PG559-09
+SYM, DATA_MEM_reg<22><0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<22><0>, , 
+PIN, D, I, N_DATA_IN<4>, , 
+PIN, G, I, N1973_BUFGed, , 
+END
+SYM, DATA_MEM_reg<3><1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<3><1>, , 
+PIN, D, I, N_DATA_IN<7>, , 
+PIN, G, I, N1974_BUFGed, , 
+END
+SYM, DATA_OUT_reg<44>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<44>, , 
+PIN, D, I, C54_N3, , 
+PIN, G, I, N1972_BUFGed, , 
+END
+SYM, DATA_OUT_reg<5>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<5>, , 
+PIN, D, I, C128_N3, , 
+PIN, G, I, N1971_BUFGed, , 
+END
+SYM, DATA_OUT_reg<54>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<54>, , 
+PIN, D, I, C36_N3, , 
+PIN, G, I, R_W_BUFGed, , 
+END
+SYM, DATA_MEM_reg<27><1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<27><1>, , 
+PIN, D, I, N_DATA_IN<7>, , 
+PIN, G, I, N1975_BUFGed, , 
+END
+SYM, DATA_MEM_reg<6><0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<6><0>, , 
+PIN, D, I, N_DATA_IN<4>, , 
+PIN, G, I, N1976_BUFGed, , 
+END
+SYM, DATA_OUT_reg<40>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<40>, , 
+PIN, D, I, C62_N3, , 
+PIN, G, I, N1971_BUFGed, , 
+END
+SYM, DATA_OUT_reg<59>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<59>, , 
+PIN, D, I, C26_N3, , 
+PIN, G, I, N1972_BUFGed, , 
+END
+SYM, DATA_OUT_reg<8>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<8>, , 
+PIN, D, I, C121_N3, , 
+PIN, G, I, N1971_BUFGed, , 
+END
+SYM, DATA_MEM_reg<14><1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<14><1>, , 
+PIN, D, I, N_DATA_IN<5>, , 
+PIN, G, I, N1898, , 
+END
+SYM, DATA_MEM_reg<29><1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<29><1>, , 
+PIN, D, I, N_DATA_IN<3>, , 
+PIN, G, I, N1977_BUFGed, , 
+END
+SYM, DATA_MEM_reg<11><0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<11><0>, , 
+PIN, D, I, N_DATA_IN<6>, , 
+PIN, G, I, N1902, , 
+END
+SYM, DATA_OUT_reg<49>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<49>, , 
+PIN, D, I, C43_N3, , 
+PIN, G, I, N1971_BUFGed, , 
+END
+SYM, DATA_OUT_reg<50>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<50>, , 
+PIN, D, I, C41_N3, , 
+PIN, G, I, N1972_BUFGed, , 
+END
+SYM, DATA_OUT_reg<63>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<63>, , 
+PIN, D, I, C22_N3, , 
+PIN, G, I, R_W_BUFGed, , 
+END
+SYM, DATA_MEM_reg<8><0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<8><0>, , 
+PIN, D, I, N_DATA_IN<0>, , 
+PIN, G, I, N1902, , 
+END
+SYM, DATA_OUT_reg<1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<1>, , 
+PIN, D, I, C136_N3, , 
+PIN, G, I, N1971_BUFGed, , 
+END
+SYM, DATA_OUT_reg<52>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<52>, , 
+PIN, D, I, C38_N3, , 
+PIN, G, I, R_W_BUFGed, , 
+END
+SYM, DATA_OUT_reg<3>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<3>, , 
+PIN, D, I, C132_N3, , 
+PIN, G, I, N1971_BUFGed, , 
+END
+SYM, DATA_OUT_reg<61>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<61>, , 
+PIN, D, I, C24_N3, , 
+PIN, G, I, R_W_BUFGed, , 
+END
+SYM, DATA_MEM_reg<15><0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<15><0>, , 
+PIN, D, I, N_DATA_IN<6>, , 
+PIN, G, I, N1898, , 
+END
+SYM, DATA_MEM_reg<9><1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<9><1>, , 
+PIN, D, I, N_DATA_IN<3>, , 
+PIN, G, I, N1902, , 
+END
+SYM, DATA_MEM_reg<10><1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<10><1>, , 
+PIN, D, I, N_DATA_IN<5>, , 
+PIN, G, I, N1902, , 
+END
+SYM, DATA_OUT_reg<42>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<42>, , 
+PIN, D, I, C58_N3, , 
+PIN, G, I, N1972_BUFGed, , 
+END
+SYM, DATA_MEM_reg<28><0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<28><0>, , 
+PIN, D, I, N_DATA_IN<0>, , 
+PIN, G, I, N1977_BUFGed, , 
+END
+SYM, DATA_MEM_reg<2><0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<2><0>, , 
+PIN, D, I, N_DATA_IN<4>, , 
+PIN, G, I, N1974_BUFGed, , 
+END
+SYM, DATA_OUT_reg<7>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<7>, , 
+PIN, D, I, C123_N3, , 
+PIN, G, I, N1971_BUFGed, , 
+END
+SYM, DATA_MEM_reg<23><1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<23><1>, , 
+PIN, D, I, N_DATA_IN<7>, , 
+PIN, G, I, N1973_BUFGed, , 
+END
+SYM, DATA_OUT_reg<56>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<56>, , 
+PIN, D, I, C33_N3, , 
+PIN, G, I, N1971_BUFGed, , 
+END
+SYM, DATA_MEM_reg<7><1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<7><1>, , 
+PIN, D, I, N_DATA_IN<7>, , 
+PIN, G, I, N1976_BUFGed, , 
+END
+SYM, DATA_OUT_reg<46>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<46>, , 
+PIN, D, I, C50_N3, , 
+PIN, G, I, N1972_BUFGed, , 
+END
+SYM, DATA_MEM_reg<26><0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<26><0>, , 
+PIN, D, I, N_DATA_IN<4>, , 
+PIN, G, I, N1975_BUFGed, , 
+END
+SYM, DATA_OUT_reg<10>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<10>, , 
+PIN, D, I, C117_N3, , 
+PIN, G, I, N1972_BUFGed, , 
+END
+SYM, DATA_MEM_reg<31><1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<31><1>, , 
+PIN, D, I, N_DATA_IN<7>, , 
+PIN, G, I, N1977_BUFGed, , 
+END
+SYM, DATA_OUT_reg<23>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<23>, , 
+PIN, D, I, C94_N3, , 
+PIN, G, I, R_W_BUFGed, , 
+END
+SYM, DATA_MEM_reg<16><1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<16><1>, , 
+PIN, D, I, N_DATA_IN<1>, , 
+PIN, G, I, N1895, , 
+END
+SYM, DATA_MEM_reg<13><0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<13><0>, , 
+PIN, D, I, N_DATA_IN<2>, , 
+PIN, G, I, N1898, , 
+END
+SYM, DATA_OUT_reg<19>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<19>, , 
+PIN, D, I, C98_N3, , 
+PIN, G, I, N1972_BUFGed, , 
+END
+SYM, DATA_OUT_reg<33>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<33>, , 
+PIN, D, I, C77_N3, , 
+PIN, G, I, N1971_BUFGed, , 
+END
+SYM, DATA_MEM_reg<1><1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<1><1>, , 
+PIN, D, I, N_DATA_IN<3>, , 
+PIN, G, I, N1974_BUFGed, , 
+END
+SYM, DATA_MEM_reg<18><1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<18><1>, , 
+PIN, D, I, N_DATA_IN<5>, , 
+PIN, G, I, N1895, , 
+END
+SYM, DATA_MEM_reg<20><0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<20><0>, , 
+PIN, D, I, N_DATA_IN<0>, , 
+PIN, G, I, N1973_BUFGed, , 
+END
+SYM, DATA_OUT_reg<14>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<14>, , 
+PIN, D, I, C109_N3, , 
+PIN, G, I, N1972_BUFGed, , 
+END
+SYM, DATA_OUT_reg<27>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<27>, , 
+PIN, D, I, C85_N3, , 
+PIN, G, I, N1972_BUFGed, , 
+END
+SYM, DATA_OUT_reg<37>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<37>, , 
+PIN, D, I, C68_N3, , 
+PIN, G, I, N1971_BUFGed, , 
+END
+SYM, DATA_MEM_reg<4><0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<4><0>, , 
+PIN, D, I, N_DATA_IN<0>, , 
+PIN, G, I, N1976_BUFGed, , 
+END
+SYM, DATA_MEM_reg<25><1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<25><1>, , 
+PIN, D, I, N_DATA_IN<3>, , 
+PIN, G, I, N1975_BUFGed, , 
+END
+SYM, DATA_OUT_reg<35>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<35>, , 
+PIN, D, I, C73_N3, , 
+PIN, G, I, N1971_BUFGed, , 
+END
+SYM, DATA_MEM_reg<0><0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<0><0>, , 
+PIN, D, I, N_DATA_IN<0>, , 
+PIN, G, I, N1974_BUFGed, , 
+END
+SYM, DATA_MEM_reg<21><1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<21><1>, , 
+PIN, D, I, N_DATA_IN<3>, , 
+PIN, G, I, N1973_BUFGed, , 
+END
+SYM, DATA_MEM_reg<19><0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<19><0>, , 
+PIN, D, I, N_DATA_IN<6>, , 
+PIN, G, I, N1895, , 
+END
+SYM, DATA_OUT_reg<16>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<16>, , 
+PIN, D, I, C105_N3, , 
+PIN, G, I, N1971_BUFGed, , 
+END
+SYM, DATA_OUT_reg<25>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<25>, , 
+PIN, D, I, C90_N3, , 
+PIN, G, I, N1971_BUFGed, , 
+END
+SYM, DATA_MEM_reg<24><0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<24><0>, , 
+PIN, D, I, N_DATA_IN<0>, , 
+PIN, G, I, N1975_BUFGed, , 
+END
+SYM, DATA_MEM_reg<5><1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<5><1>, , 
+PIN, D, I, N_DATA_IN<3>, , 
+PIN, G, I, N1976_BUFGed, , 
+END
+SYM, DATA_OUT_reg<28>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<28>, , 
+PIN, D, I, C84_N3, , 
+PIN, G, I, R_W_BUFGed, , 
+END
+SYM, DATA_OUT_reg<31>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<31>, , 
+PIN, D, I, C81_N3, , 
+PIN, G, I, R_W_BUFGed, , 
+END
+SYM, DATA_MEM_reg<17><0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<17><0>, , 
+PIN, D, I, N_DATA_IN<2>, , 
+PIN, G, I, N1895, , 
+END
+SYM, DATA_MEM_reg<30><0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<30><0>, , 
+PIN, D, I, N_DATA_IN<4>, , 
+PIN, G, I, N1977_BUFGed, , 
+END
+SYM, DATA_OUT_reg<12>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<12>, , 
+PIN, D, I, C113_N3, , 
+PIN, G, I, N1972_BUFGed, , 
+END
+SYM, DATA_OUT_reg<21>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<21>, , 
+PIN, D, I, C96_N3, , 
+PIN, G, I, R_W_BUFGed, , 
+END
+SYM, DATA_OUT_reg<38>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<38>, , 
+PIN, D, I, C66_N3, , 
+PIN, G, I, N1971_BUFGed, , 
+END
+SYM, DATA_MEM_reg<12><1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<12><1>, , 
+PIN, D, I, N_DATA_IN<1>, , 
+PIN, G, I, N1898, , 
+END
+SYM, DATA_OUT_reg<29>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<29>, , 
+PIN, D, I, C83_N3, , 
+PIN, G, I, R_W_BUFGed, , 
+END
+SYM, DATA_OUT_reg<30>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<30>, , 
+PIN, D, I, C82_N3, , 
+PIN, G, I, R_W_BUFGed, , 
+END
+SYM, DATA_MEM_reg<17><1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<17><1>, , 
+PIN, D, I, N_DATA_IN<3>, , 
+PIN, G, I, N1895, , 
+END
+SYM, DATA_MEM_reg<30><1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<30><1>, , 
+PIN, D, I, N_DATA_IN<5>, , 
+PIN, G, I, N1977_BUFGed, , 
+END
+SYM, DATA_OUT_reg<13>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<13>, , 
+PIN, D, I, C111_N3, , 
+PIN, G, I, N1972_BUFGed, , 
+END
+SYM, DATA_OUT_reg<20>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<20>, , 
+PIN, D, I, C97_N3, , 
+PIN, G, I, R_W_BUFGed, , 
+END
+SYM, DATA_OUT_reg<39>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<39>, , 
+PIN, D, I, C64_N3, , 
+PIN, G, I, N1971_BUFGed, , 
+END
+SYM, DATA_MEM_reg<12><0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<12><0>, , 
+PIN, D, I, N_DATA_IN<0>, , 
+PIN, G, I, N1898, , 
+END
+SYM, DATA_MEM_reg<21><0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<21><0>, , 
+PIN, D, I, N_DATA_IN<2>, , 
+PIN, G, I, N1973_BUFGed, , 
+END
+SYM, DATA_MEM_reg<19><1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<19><1>, , 
+PIN, D, I, N_DATA_IN<7>, , 
+PIN, G, I, N1895, , 
+END
+SYM, DATA_OUT_reg<34>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<34>, , 
+PIN, D, I, C75_N3, , 
+PIN, G, I, N1971_BUFGed, , 
+END
+SYM, DATA_MEM_reg<0><1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<0><1>, , 
+PIN, D, I, N_DATA_IN<1>, , 
+PIN, G, I, N1974_BUFGed, , 
+END
+SYM, DATA_OUT_reg<17>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<17>, , 
+PIN, D, I, C102_N3, , 
+PIN, G, I, N1971_BUFGed, , 
+END
+SYM, DATA_OUT_reg<24>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<24>, , 
+PIN, D, I, C92_N3, , 
+PIN, G, I, N1971_BUFGed, , 
+END
+SYM, DATA_MEM_reg<24><1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<24><1>, , 
+PIN, D, I, N_DATA_IN<1>, , 
+PIN, G, I, N1975_BUFGed, , 
+END
+SYM, DATA_MEM_reg<1><0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<1><0>, , 
+PIN, D, I, N_DATA_IN<2>, , 
+PIN, G, I, N1974_BUFGed, , 
+END
+SYM, DATA_MEM_reg<5><0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<5><0>, , 
+PIN, D, I, N_DATA_IN<2>, , 
+PIN, G, I, N1976_BUFGed, , 
+END
+SYM, DATA_MEM_reg<18><0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<18><0>, , 
+PIN, D, I, N_DATA_IN<4>, , 
+PIN, G, I, N1895, , 
+END
+SYM, DATA_MEM_reg<20><1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<20><1>, , 
+PIN, D, I, N_DATA_IN<1>, , 
+PIN, G, I, N1973_BUFGed, , 
+END
+SYM, DATA_OUT_reg<15>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<15>, , 
+PIN, D, I, C107_N3, , 
+PIN, G, I, N1972_BUFGed, , 
+END
+SYM, DATA_OUT_reg<26>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<26>, , 
+PIN, D, I, C88_N3, , 
+PIN, G, I, N1972_BUFGed, , 
+END
+SYM, DATA_MEM_reg<4><1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<4><1>, , 
+PIN, D, I, N_DATA_IN<1>, , 
+PIN, G, I, N1976_BUFGed, , 
+END
+SYM, DATA_OUT_reg<36>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<36>, , 
+PIN, D, I, C71_N3, , 
+PIN, G, I, N1971_BUFGed, , 
+END
+SYM, DATA_MEM_reg<25><0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<25><0>, , 
+PIN, D, I, N_DATA_IN<2>, , 
+PIN, G, I, N1975_BUFGed, , 
+END
+SYM, DATA_OUT_reg<11>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<11>, , 
+PIN, D, I, C115_N3, , 
+PIN, G, I, N1972_BUFGed, , 
+END
+SYM, DATA_MEM_reg<31><0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<31><0>, , 
+PIN, D, I, N_DATA_IN<6>, , 
+PIN, G, I, N1977_BUFGed, , 
+END
+SYM, DATA_OUT_reg<22>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<22>, , 
+PIN, D, I, C95_N3, , 
+PIN, G, I, R_W_BUFGed, , 
+END
+SYM, DATA_OUT_reg<18>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<18>, , 
+PIN, D, I, C100_N3, , 
+PIN, G, I, N1972_BUFGed, , 
+END
+SYM, DATA_OUT_reg<32>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<32>, , 
+PIN, D, I, C79_N3, , 
+PIN, G, I, N1971_BUFGed, , 
+END
+SYM, DATA_MEM_reg<2><1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<2><1>, , 
+PIN, D, I, N_DATA_IN<5>, , 
+PIN, G, I, N1974_BUFGed, , 
+END
+SYM, DATA_OUT_reg<6>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<6>, , 
+PIN, D, I, C126_N3, , 
+PIN, G, I, N1971_BUFGed, , 
+END
+SYM, DATA_MEM_reg<23><0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<23><0>, , 
+PIN, D, I, N_DATA_IN<6>, , 
+PIN, G, I, N1973_BUFGed, , 
+END
+SYM, DATA_OUT_reg<57>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<57>, , 
+PIN, D, I, C30_N3, , 
+PIN, G, I, N1971_BUFGed, , 
+END
+SYM, DATA_MEM_reg<7><0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<7><0>, , 
+PIN, D, I, N_DATA_IN<6>, , 
+PIN, G, I, N1976_BUFGed, , 
+END
+SYM, DATA_OUT_reg<47>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<47>, , 
+PIN, D, I, C47_N3, , 
+PIN, G, I, N1972_BUFGed, , 
+END
+SYM, DATA_MEM_reg<26><1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<26><1>, , 
+PIN, D, I, N_DATA_IN<5>, , 
+PIN, G, I, N1975_BUFGed, , 
+END
+SYM, DATA_OUT_reg<53>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<53>, , 
+PIN, D, I, C37_N3, , 
+PIN, G, I, R_W_BUFGed, , 
+END
+SYM, DATA_OUT_reg<60>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<60>, , 
+PIN, D, I, C25_N3, , 
+PIN, G, I, R_W_BUFGed, , 
+END
+SYM, DATA_MEM_reg<15><1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<15><1>, , 
+PIN, D, I, N_DATA_IN<7>, , 
+PIN, G, I, N1898, , 
+END
+SYM, DATA_OUT_reg<2>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<2>, , 
+PIN, D, I, C134_N3, , 
+PIN, G, I, N1971_BUFGed, , 
+END
+SYM, DATA_MEM_reg<10><0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<10><0>, , 
+PIN, D, I, N_DATA_IN<4>, , 
+PIN, G, I, N1902, , 
+END
+SYM, DATA_MEM_reg<9><0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<9><0>, , 
+PIN, D, I, N_DATA_IN<2>, , 
+PIN, G, I, N1902, , 
+END
+SYM, DATA_OUT_reg<43>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<43>, , 
+PIN, D, I, C56_N3, , 
+PIN, G, I, N1972_BUFGed, , 
+END
+SYM, DATA_MEM_reg<28><1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<28><1>, , 
+PIN, D, I, N_DATA_IN<1>, , 
+PIN, G, I, N1977_BUFGed, , 
+END
+SYM, DATA_OUT_reg<41>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<41>, , 
+PIN, D, I, C60_N3, , 
+PIN, G, I, N1971_BUFGed, , 
+END
+SYM, DATA_OUT_reg<58>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<58>, , 
+PIN, D, I, C28_N3, , 
+PIN, G, I, N1972_BUFGed, , 
+END
+SYM, DATA_OUT_reg<9>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<9>, , 
+PIN, D, I, C119_N3, , 
+PIN, G, I, N1971_BUFGed, , 
+END
+SYM, DATA_OUT_reg<48>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<48>, , 
+PIN, D, I, C45_N3, , 
+PIN, G, I, N1971_BUFGed, , 
+END
+SYM, DATA_OUT_reg<51>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<51>, , 
+PIN, D, I, C39_N3, , 
+PIN, G, I, N1972_BUFGed, , 
+END
+SYM, DATA_OUT_reg<62>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<62>, , 
+PIN, D, I, C23_N3, , 
+PIN, G, I, R_W_BUFGed, , 
+END
+SYM, DATA_OUT_reg<0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<0>, , 
+PIN, D, I, C138_N3, , 
+PIN, G, I, N1971_BUFGed, , 
+END
+SYM, DATA_MEM_reg<22><1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<22><1>, , 
+PIN, D, I, N_DATA_IN<5>, , 
+PIN, G, I, N1973_BUFGed, , 
+END
+SYM, DATA_OUT_reg<45>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<45>, , 
+PIN, D, I, C52_N3, , 
+PIN, G, I, N1972_BUFGed, , 
+END
+SYM, DATA_MEM_reg<3><0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<3><0>, , 
+PIN, D, I, N_DATA_IN<6>, , 
+PIN, G, I, N1974_BUFGed, , 
+END
+SYM, DATA_OUT_reg<4>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<4>, , 
+PIN, D, I, C130_N3, , 
+PIN, G, I, N1971_BUFGed, , 
+END
+SYM, DATA_OUT_reg<55>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, N_DATA_OUT<55>, , 
+PIN, D, I, C35_N3, , 
+PIN, G, I, R_W_BUFGed, , 
+END
+SYM, C2798, IBUF, LIBVER=2.0.0
+PIN, O, O, N_SEL_IN<2>, , 
+PIN, I, I, SEL_IN<2>, , 
+END
+SYM, C2799, IBUF, LIBVER=2.0.0
+PIN, O, O, N_SEL_IN<1>, , 
+PIN, I, I, SEL_IN<1>, , 
+END
+SYM, C2800, IBUF, LIBVER=2.0.0
+PIN, O, O, N_SEL_IN<0>, , 
+PIN, I, I, SEL_IN<0>, , 
+END
+SYM, DATA_MEM_reg<11><1>, ILD, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<11><1>, , 
+PIN, D, I, DATA_IN<7>, , 
+PIN, G, I, C140_N204, , , INV
+END
+SYM, C2803, IBUF, LIBVER=2.0.0
+PIN, O, O, N_DATA_IN<7>, , 
+PIN, I, I, DATA_IN<7>, , 
+END
+SYM, DATA_MEM_reg<27><0>, ILD, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<27><0>, , 
+PIN, D, I, DATA_IN<6>, , 
+PIN, G, I, C140_N49, , , INV
+END
+SYM, C2806, IBUF, LIBVER=2.0.0
+PIN, O, O, N_DATA_IN<6>, , 
+PIN, I, I, DATA_IN<6>, , 
+END
+SYM, DATA_MEM_reg<6><1>, ILD, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<6><1>, , 
+PIN, D, I, DATA_IN<5>, , 
+PIN, G, I, C140_N254, , , INV
+END
+SYM, C2809, IBUF, LIBVER=2.0.0
+PIN, O, O, N_DATA_IN<5>, , 
+PIN, I, I, DATA_IN<5>, , 
+END
+SYM, DATA_MEM_reg<14><0>, ILD, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<14><0>, , 
+PIN, D, I, DATA_IN<4>, , 
+PIN, G, I, C140_N179, , , INV
+END
+SYM, C2812, IBUF, LIBVER=2.0.0
+PIN, O, O, N_DATA_IN<4>, , 
+PIN, I, I, DATA_IN<4>, , 
+END
+SYM, DATA_MEM_reg<13><1>, ILD, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<13><1>, , 
+PIN, D, I, DATA_IN<3>, , 
+PIN, G, I, C140_N179, , , INV
+END
+SYM, C2815, IBUF, LIBVER=2.0.0
+PIN, O, O, N_DATA_IN<3>, , 
+PIN, I, I, DATA_IN<3>, , 
+END
+SYM, DATA_MEM_reg<29><0>, ILD, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<29><0>, , 
+PIN, D, I, DATA_IN<2>, , 
+PIN, G, I, C140_N29, , , INV
+END
+SYM, C2818, IBUF, LIBVER=2.0.0
+PIN, O, O, N_DATA_IN<2>, , 
+PIN, I, I, DATA_IN<2>, , 
+END
+SYM, DATA_MEM_reg<8><1>, ILD, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<8><1>, , 
+PIN, D, I, DATA_IN<1>, , 
+PIN, G, I, C140_N204, , , INV
+END
+SYM, C2821, IBUF, LIBVER=2.0.0
+PIN, O, O, N_DATA_IN<1>, , 
+PIN, I, I, DATA_IN<1>, , 
+END
+SYM, DATA_MEM_reg<16><0>, ILD, LIBVER=2.0.0
+PIN, Q, O, DATA_MEM<16><0>, , 
+PIN, D, I, DATA_IN<0>, , 
+PIN, G, I, C140_N159, , , INV
+END
+SYM, C2824, IBUF, LIBVER=2.0.0
+PIN, O, O, N_DATA_IN<0>, , 
+PIN, I, I, DATA_IN<0>, , 
+END
+SYM, C2825, IBUF, LIBVER=2.0.0
+PIN, O, O, N_ADDRESS<1>, , 
+PIN, I, I, ADDRESS<1>, , 
+END
+SYM, C2826, IBUF, LIBVER=2.0.0
+PIN, O, O, N_ADDRESS<0>, , 
+PIN, I, I, ADDRESS<0>, , 
+END
+SYM, C2827, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<63>, , 
+PIN, I, I, N_DATA_OUT<63>, , 
+END
+SYM, C2828, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<62>, , 
+PIN, I, I, N_DATA_OUT<62>, , 
+END
+SYM, C2829, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<61>, , 
+PIN, I, I, N_DATA_OUT<61>, , 
+END
+SYM, C2830, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<60>, , 
+PIN, I, I, N_DATA_OUT<60>, , 
+END
+SYM, C2831, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<59>, , 
+PIN, I, I, N_DATA_OUT<59>, , 
+END
+SYM, C2832, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<58>, , 
+PIN, I, I, N_DATA_OUT<58>, , 
+END
+SYM, C2833, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<57>, , 
+PIN, I, I, N_DATA_OUT<57>, , 
+END
+SYM, C2834, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<56>, , 
+PIN, I, I, N_DATA_OUT<56>, , 
+END
+SYM, C2835, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<55>, , 
+PIN, I, I, N_DATA_OUT<55>, , 
+END
+SYM, C2836, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<54>, , 
+PIN, I, I, N_DATA_OUT<54>, , 
+END
+SYM, C2837, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<53>, , 
+PIN, I, I, N_DATA_OUT<53>, , 
+END
+SYM, C2838, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<52>, , 
+PIN, I, I, N_DATA_OUT<52>, , 
+END
+SYM, C2839, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<51>, , 
+PIN, I, I, N_DATA_OUT<51>, , 
+END
+SYM, C2840, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<50>, , 
+PIN, I, I, N_DATA_OUT<50>, , 
+END
+SYM, C2841, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<49>, , 
+PIN, I, I, N_DATA_OUT<49>, , 
+END
+SYM, C2842, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<48>, , 
+PIN, I, I, N_DATA_OUT<48>, , 
+END
+SYM, C2843, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<47>, , 
+PIN, I, I, N_DATA_OUT<47>, , 
+END
+SYM, C2844, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<46>, , 
+PIN, I, I, N_DATA_OUT<46>, , 
+END
+SYM, C2845, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<45>, , 
+PIN, I, I, N_DATA_OUT<45>, , 
+END
+SYM, C2846, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<44>, , 
+PIN, I, I, N_DATA_OUT<44>, , 
+END
+SYM, C2847, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<43>, , 
+PIN, I, I, N_DATA_OUT<43>, , 
+END
+SYM, C2848, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<42>, , 
+PIN, I, I, N_DATA_OUT<42>, , 
+END
+SYM, C2849, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<41>, , 
+PIN, I, I, N_DATA_OUT<41>, , 
+END
+SYM, C2850, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<40>, , 
+PIN, I, I, N_DATA_OUT<40>, , 
+END
+SYM, C2851, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<39>, , 
+PIN, I, I, N_DATA_OUT<39>, , 
+END
+SYM, C2852, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<38>, , 
+PIN, I, I, N_DATA_OUT<38>, , 
+END
+SYM, C2853, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<37>, , 
+PIN, I, I, N_DATA_OUT<37>, , 
+END
+SYM, C2854, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<36>, , 
+PIN, I, I, N_DATA_OUT<36>, , 
+END
+SYM, C2855, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<35>, , 
+PIN, I, I, N_DATA_OUT<35>, , 
+END
+SYM, C2856, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<34>, , 
+PIN, I, I, N_DATA_OUT<34>, , 
+END
+SYM, C2857, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<33>, , 
+PIN, I, I, N_DATA_OUT<33>, , 
+END
+SYM, C2858, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<32>, , 
+PIN, I, I, N_DATA_OUT<32>, , 
+END
+SYM, C2859, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<31>, , 
+PIN, I, I, N_DATA_OUT<31>, , 
+END
+SYM, C2860, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<30>, , 
+PIN, I, I, N_DATA_OUT<30>, , 
+END
+SYM, C2861, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<29>, , 
+PIN, I, I, N_DATA_OUT<29>, , 
+END
+SYM, C2862, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<28>, , 
+PIN, I, I, N_DATA_OUT<28>, , 
+END
+SYM, C2863, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<27>, , 
+PIN, I, I, N_DATA_OUT<27>, , 
+END
+SYM, C2864, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<26>, , 
+PIN, I, I, N_DATA_OUT<26>, , 
+END
+SYM, C2865, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<25>, , 
+PIN, I, I, N_DATA_OUT<25>, , 
+END
+SYM, C2866, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<24>, , 
+PIN, I, I, N_DATA_OUT<24>, , 
+END
+SYM, C2867, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<23>, , 
+PIN, I, I, N_DATA_OUT<23>, , 
+END
+SYM, C2868, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<22>, , 
+PIN, I, I, N_DATA_OUT<22>, , 
+END
+SYM, C2869, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<21>, , 
+PIN, I, I, N_DATA_OUT<21>, , 
+END
+SYM, C2870, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<20>, , 
+PIN, I, I, N_DATA_OUT<20>, , 
+END
+SYM, C2871, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<19>, , 
+PIN, I, I, N_DATA_OUT<19>, , 
+END
+SYM, C2872, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<18>, , 
+PIN, I, I, N_DATA_OUT<18>, , 
+END
+SYM, C2873, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<17>, , 
+PIN, I, I, N_DATA_OUT<17>, , 
+END
+SYM, C2874, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<16>, , 
+PIN, I, I, N_DATA_OUT<16>, , 
+END
+SYM, C2875, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<15>, , 
+PIN, I, I, N_DATA_OUT<15>, , 
+END
+SYM, C2876, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<14>, , 
+PIN, I, I, N_DATA_OUT<14>, , 
+END
+SYM, C2877, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<13>, , 
+PIN, I, I, N_DATA_OUT<13>, , 
+END
+SYM, C2878, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<12>, , 
+PIN, I, I, N_DATA_OUT<12>, , 
+END
+SYM, C2879, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<11>, , 
+PIN, I, I, N_DATA_OUT<11>, , 
+END
+SYM, C2880, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<10>, , 
+PIN, I, I, N_DATA_OUT<10>, , 
+END
+SYM, C2881, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<9>, , 
+PIN, I, I, N_DATA_OUT<9>, , 
+END
+SYM, C2882, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<8>, , 
+PIN, I, I, N_DATA_OUT<8>, , 
+END
+SYM, C2883, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<7>, , 
+PIN, I, I, N_DATA_OUT<7>, , 
+END
+SYM, C2884, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<6>, , 
+PIN, I, I, N_DATA_OUT<6>, , 
+END
+SYM, C2885, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<5>, , 
+PIN, I, I, N_DATA_OUT<5>, , 
+END
+SYM, C2886, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<4>, , 
+PIN, I, I, N_DATA_OUT<4>, , 
+END
+SYM, C2887, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<3>, , 
+PIN, I, I, N_DATA_OUT<3>, , 
+END
+SYM, C2888, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<2>, , 
+PIN, I, I, N_DATA_OUT<2>, , 
+END
+SYM, C2889, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<1>, , 
+PIN, I, I, N_DATA_OUT<1>, , 
+END
+SYM, C2890, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, DATA_OUT<0>, , 
+PIN, I, I, N_DATA_OUT<0>, , 
+END
+SYM, c2995_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c2995_n0, , , INV
+PIN, O, O, C140_N159, , , INV
+END
+SYM, c2995_c1, AND, LIBVER=2.0.0
+PIN, I0, I, R_W_BUFGed, , 
+PIN, I1, I, N_SEL_IN<0>, , , INV
+PIN, I2, I, N_SEL_IN<2>, , 
+PIN, I3, I, N_SEL_IN<1>, , , INV
+PIN, O, O, c2995_n0, , 
+END
+SYM, FMAP_0, FMAP, LIBVER=2.0.0
+PIN, I1, I, R_W_BUFGed, , 
+PIN, I2, I, N_SEL_IN<0>, , 
+PIN, I3, I, N_SEL_IN<2>, , 
+PIN, I4, I, N_SEL_IN<1>, , 
+PIN, O, I, C140_N159, , 
+END
+SYM, c2996_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c2996_n0, , , INV
+PIN, O, O, C140_N29, , , INV
+END
+SYM, c2996_c1, AND, LIBVER=2.0.0
+PIN, I0, I, R_W_BUFGed, , 
+PIN, I1, I, N_SEL_IN<0>, , 
+PIN, I2, I, N_SEL_IN<2>, , 
+PIN, I3, I, N_SEL_IN<1>, , 
+PIN, O, O, c2996_n0, , 
+END
+SYM, FMAP_1, FMAP, LIBVER=2.0.0
+PIN, I1, I, R_W_BUFGed, , 
+PIN, I2, I, N_SEL_IN<0>, , 
+PIN, I3, I, N_SEL_IN<2>, , 
+PIN, I4, I, N_SEL_IN<1>, , 
+PIN, O, I, C140_N29, , 
+END
+SYM, c2997_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c2997_n0, , , INV
+PIN, O, O, C140_N179, , , INV
+END
+SYM, c2997_c1, AND, LIBVER=2.0.0
+PIN, I0, I, R_W_BUFGed, , 
+PIN, I1, I, N_SEL_IN<0>, , 
+PIN, I2, I, N_SEL_IN<2>, , , INV
+PIN, I3, I, N_SEL_IN<1>, , 
+PIN, O, O, c2997_n0, , 
+END
+SYM, FMAP_2, FMAP, LIBVER=2.0.0
+PIN, I1, I, R_W_BUFGed, , 
+PIN, I2, I, N_SEL_IN<0>, , 
+PIN, I3, I, N_SEL_IN<2>, , 
+PIN, I4, I, N_SEL_IN<1>, , 
+PIN, O, I, C140_N179, , 
+END
+SYM, c2998_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c2998_n0, , , INV
+PIN, O, O, C140_N254, , , INV
+END
+SYM, c2998_c1, AND, LIBVER=2.0.0
+PIN, I0, I, R_W_BUFGed, , 
+PIN, I1, I, N_SEL_IN<0>, , 
+PIN, I2, I, N_SEL_IN<2>, , , INV
+PIN, I3, I, N_SEL_IN<1>, , , INV
+PIN, O, O, c2998_n0, , 
+END
+SYM, FMAP_3, FMAP, LIBVER=2.0.0
+PIN, I1, I, R_W_BUFGed, , 
+PIN, I2, I, N_SEL_IN<0>, , 
+PIN, I3, I, N_SEL_IN<2>, , 
+PIN, I4, I, N_SEL_IN<1>, , 
+PIN, O, I, C140_N254, , 
+END
+SYM, c2999_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c2999_n0, , , INV
+PIN, O, O, C140_N49, , , INV
+END
+SYM, c2999_c1, AND, LIBVER=2.0.0
+PIN, I0, I, R_W_BUFGed, , 
+PIN, I1, I, N_SEL_IN<0>, , , INV
+PIN, I2, I, N_SEL_IN<2>, , 
+PIN, I3, I, N_SEL_IN<1>, , 
+PIN, O, O, c2999_n0, , 
+END
+SYM, FMAP_4, FMAP, LIBVER=2.0.0
+PIN, I1, I, R_W_BUFGed, , 
+PIN, I2, I, N_SEL_IN<0>, , 
+PIN, I3, I, N_SEL_IN<2>, , 
+PIN, I4, I, N_SEL_IN<1>, , 
+PIN, O, I, C140_N49, , 
+END
+SYM, c3000_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3000_n0, , , INV
+PIN, O, O, C140_N204, , , INV
+END
+SYM, c3000_c1, AND, LIBVER=2.0.0
+PIN, I0, I, R_W_BUFGed, , 
+PIN, I1, I, N_SEL_IN<0>, , , INV
+PIN, I2, I, N_SEL_IN<2>, , , INV
+PIN, I3, I, N_SEL_IN<1>, , 
+PIN, O, O, c3000_n0, , 
+END
+SYM, FMAP_5, FMAP, LIBVER=2.0.0
+PIN, I1, I, R_W_BUFGed, , 
+PIN, I2, I, N_SEL_IN<0>, , 
+PIN, I3, I, N_SEL_IN<2>, , 
+PIN, I4, I, N_SEL_IN<1>, , 
+PIN, O, I, C140_N204, , 
+END
+SYM, c3001_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c3001_n0, , , INV
+PIN, I1, I, c3001_n1, , , INV
+PIN, O, O, C35_N3, , , INV
+END
+SYM, c3001_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<27><1>, , 
+PIN, O, O, c3001_n0, , 
+END
+SYM, c3001_c2, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<0>, , 
+PIN, I1, I, DATA_MEM<27><1>, , 
+PIN, O, O, c3001_n1, , 
+END
+SYM, FMAP_6, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, N_ADDRESS<0>, , 
+PIN, I3, I, DATA_MEM<27><1>, , 
+PIN, O, I, C35_N3, , 
+END
+SYM, c3002_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3002_n0, , , INV
+PIN, O, O, C130_N3, , , INV
+END
+SYM, c3002_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<2><0>, , 
+PIN, O, O, c3002_n0, , 
+END
+SYM, FMAP_7, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<2><0>, , 
+PIN, O, I, C130_N3, , 
+END
+SYM, c3003_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3003_n0, , , INV
+PIN, O, O, C52_N3, , , INV
+END
+SYM, c3003_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<22><1>, , 
+PIN, O, O, c3003_n0, , 
+END
+SYM, FMAP_8, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<22><1>, , 
+PIN, O, I, C52_N3, , 
+END
+SYM, c3004_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3004_n0, , , INV
+PIN, O, O, C138_N3, , , INV
+END
+SYM, c3004_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<0><0>, , 
+PIN, O, O, c3004_n0, , 
+END
+SYM, FMAP_9, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<0><0>, , 
+PIN, O, I, C138_N3, , 
+END
+SYM, c3005_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c3005_n0, , , INV
+PIN, I1, I, c3005_n1, , , INV
+PIN, O, O, C23_N3, , , INV
+END
+SYM, c3005_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<31><0>, , 
+PIN, O, O, c3005_n0, , 
+END
+SYM, c3005_c2, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<0>, , 
+PIN, I1, I, DATA_MEM<31><0>, , 
+PIN, O, O, c3005_n1, , 
+END
+SYM, FMAP_10, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, N_ADDRESS<0>, , 
+PIN, I3, I, DATA_MEM<31><0>, , 
+PIN, O, I, C23_N3, , 
+END
+SYM, c3006_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3006_n0, , , INV
+PIN, O, O, C39_N3, , , INV
+END
+SYM, c3006_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<25><1>, , 
+PIN, O, O, c3006_n0, , 
+END
+SYM, FMAP_11, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<25><1>, , 
+PIN, O, I, C39_N3, , 
+END
+SYM, c3007_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3007_n0, , , INV
+PIN, O, O, C45_N3, , , INV
+END
+SYM, c3007_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<24><0>, , 
+PIN, O, O, c3007_n0, , 
+END
+SYM, FMAP_12, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<24><0>, , 
+PIN, O, I, C45_N3, , 
+END
+SYM, c3008_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3008_n0, , , INV
+PIN, O, O, C119_N3, , , INV
+END
+SYM, c3008_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<4><1>, , 
+PIN, O, O, c3008_n0, , 
+END
+SYM, FMAP_13, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<4><1>, , 
+PIN, O, I, C119_N3, , 
+END
+SYM, c3009_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3009_n0, , , INV
+PIN, O, O, C28_N3, , , INV
+END
+SYM, c3009_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<29><0>, , 
+PIN, O, O, c3009_n0, , 
+END
+SYM, FMAP_14, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<29><0>, , 
+PIN, O, I, C28_N3, , 
+END
+SYM, c3010_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3010_n0, , , INV
+PIN, O, O, C60_N3, , , INV
+END
+SYM, c3010_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<20><1>, , 
+PIN, O, O, c3010_n0, , 
+END
+SYM, FMAP_15, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<20><1>, , 
+PIN, O, I, C60_N3, , 
+END
+SYM, c3011_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3011_n0, , , INV
+PIN, O, O, C56_N3, , , INV
+END
+SYM, c3011_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<21><1>, , 
+PIN, O, O, c3011_n0, , 
+END
+SYM, FMAP_16, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<21><1>, , 
+PIN, O, I, C56_N3, , 
+END
+SYM, c3012_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3012_n0, , , INV
+PIN, O, O, C134_N3, , , INV
+END
+SYM, c3012_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<1><0>, , 
+PIN, O, O, c3012_n0, , 
+END
+SYM, FMAP_17, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<1><0>, , 
+PIN, O, I, C134_N3, , 
+END
+SYM, c3013_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c3013_n0, , , INV
+PIN, I1, I, c3013_n1, , , INV
+PIN, O, O, C25_N3, , , INV
+END
+SYM, c3013_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<30><0>, , 
+PIN, O, O, c3013_n0, , 
+END
+SYM, c3013_c2, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<0>, , 
+PIN, I1, I, DATA_MEM<30><0>, , 
+PIN, O, O, c3013_n1, , 
+END
+SYM, FMAP_18, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, N_ADDRESS<0>, , 
+PIN, I3, I, DATA_MEM<30><0>, , 
+PIN, O, I, C25_N3, , 
+END
+SYM, c3014_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c3014_n0, , , INV
+PIN, I1, I, c3014_n1, , , INV
+PIN, O, O, C37_N3, , , INV
+END
+SYM, c3014_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<26><1>, , 
+PIN, O, O, c3014_n0, , 
+END
+SYM, c3014_c2, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<0>, , 
+PIN, I1, I, DATA_MEM<26><1>, , 
+PIN, O, O, c3014_n1, , 
+END
+SYM, FMAP_19, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, N_ADDRESS<0>, , 
+PIN, I3, I, DATA_MEM<26><1>, , 
+PIN, O, I, C37_N3, , 
+END
+SYM, c3015_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3015_n0, , , INV
+PIN, O, O, C47_N3, , , INV
+END
+SYM, c3015_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<23><1>, , 
+PIN, O, O, c3015_n0, , 
+END
+SYM, FMAP_20, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<23><1>, , 
+PIN, O, I, C47_N3, , 
+END
+SYM, c3016_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3016_n0, , , INV
+PIN, O, O, C30_N3, , , INV
+END
+SYM, c3016_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<28><1>, , 
+PIN, O, O, c3016_n0, , 
+END
+SYM, FMAP_21, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<28><1>, , 
+PIN, O, I, C30_N3, , 
+END
+SYM, c3017_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3017_n0, , , INV
+PIN, O, O, C126_N3, , , INV
+END
+SYM, c3017_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<3><0>, , 
+PIN, O, O, c3017_n0, , 
+END
+SYM, FMAP_22, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<3><0>, , 
+PIN, O, I, C126_N3, , 
+END
+SYM, c3018_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3018_n0, , , INV
+PIN, O, O, C79_N3, , , INV
+END
+SYM, c3018_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<16><0>, , 
+PIN, O, O, c3018_n0, , 
+END
+SYM, FMAP_23, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<16><0>, , 
+PIN, O, I, C79_N3, , 
+END
+SYM, c3019_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3019_n0, , , INV
+PIN, O, O, C100_N3, , , INV
+END
+SYM, c3019_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<9><0>, , 
+PIN, O, O, c3019_n0, , 
+END
+SYM, FMAP_24, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<9><0>, , 
+PIN, O, I, C100_N3, , 
+END
+SYM, c3020_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c3020_n0, , , INV
+PIN, I1, I, c3020_n1, , , INV
+PIN, O, O, C95_N3, , , INV
+END
+SYM, c3020_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<11><0>, , 
+PIN, O, O, c3020_n0, , 
+END
+SYM, c3020_c2, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<0>, , 
+PIN, I1, I, DATA_MEM<11><0>, , 
+PIN, O, O, c3020_n1, , 
+END
+SYM, FMAP_25, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, N_ADDRESS<0>, , 
+PIN, I3, I, DATA_MEM<11><0>, , 
+PIN, O, I, C95_N3, , 
+END
+SYM, c3021_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3021_n0, , , INV
+PIN, O, O, C115_N3, , , INV
+END
+SYM, c3021_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<5><1>, , 
+PIN, O, O, c3021_n0, , 
+END
+SYM, FMAP_26, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<5><1>, , 
+PIN, O, I, C115_N3, , 
+END
+SYM, c3022_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3022_n0, , , INV
+PIN, O, O, C71_N3, , , INV
+END
+SYM, c3022_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<18><0>, , 
+PIN, O, O, c3022_n0, , 
+END
+SYM, FMAP_27, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<18><0>, , 
+PIN, O, I, C71_N3, , 
+END
+SYM, c3023_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3023_n0, , , INV
+PIN, O, O, C88_N3, , , INV
+END
+SYM, c3023_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<13><0>, , 
+PIN, O, O, c3023_n0, , 
+END
+SYM, FMAP_28, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<13><0>, , 
+PIN, O, I, C88_N3, , 
+END
+SYM, c3024_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3024_n0, , , INV
+PIN, O, O, C107_N3, , , INV
+END
+SYM, c3024_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<7><1>, , 
+PIN, O, O, c3024_n0, , 
+END
+SYM, FMAP_29, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<7><1>, , 
+PIN, O, I, C107_N3, , 
+END
+SYM, c3025_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3025_n0, , , INV
+PIN, O, O, C92_N3, , , INV
+END
+SYM, c3025_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<12><0>, , 
+PIN, O, O, c3025_n0, , 
+END
+SYM, FMAP_30, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<12><0>, , 
+PIN, O, I, C92_N3, , 
+END
+SYM, c3026_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3026_n0, , , INV
+PIN, O, O, C102_N3, , , INV
+END
+SYM, c3026_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<8><1>, , 
+PIN, O, O, c3026_n0, , 
+END
+SYM, FMAP_31, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<8><1>, , 
+PIN, O, I, C102_N3, , 
+END
+SYM, c3027_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3027_n0, , , INV
+PIN, O, O, C75_N3, , , INV
+END
+SYM, c3027_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<17><0>, , 
+PIN, O, O, c3027_n0, , 
+END
+SYM, FMAP_32, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<17><0>, , 
+PIN, O, I, C75_N3, , 
+END
+SYM, c3028_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3028_n0, , , INV
+PIN, O, O, C64_N3, , , INV
+END
+SYM, c3028_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<19><1>, , 
+PIN, O, O, c3028_n0, , 
+END
+SYM, FMAP_33, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<19><1>, , 
+PIN, O, I, C64_N3, , 
+END
+SYM, c3029_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c3029_n0, , , INV
+PIN, I1, I, c3029_n1, , , INV
+PIN, O, O, C97_N3, , , INV
+END
+SYM, c3029_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<10><0>, , 
+PIN, O, O, c3029_n0, , 
+END
+SYM, c3029_c2, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<0>, , 
+PIN, I1, I, DATA_MEM<10><0>, , 
+PIN, O, O, c3029_n1, , 
+END
+SYM, FMAP_34, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, N_ADDRESS<0>, , 
+PIN, I3, I, DATA_MEM<10><0>, , 
+PIN, O, I, C97_N3, , 
+END
+SYM, c3030_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3030_n0, , , INV
+PIN, O, O, C111_N3, , , INV
+END
+SYM, c3030_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<6><1>, , 
+PIN, O, O, c3030_n0, , 
+END
+SYM, FMAP_35, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<6><1>, , 
+PIN, O, I, C111_N3, , 
+END
+SYM, c3031_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c3031_n0, , , INV
+PIN, I1, I, c3031_n1, , , INV
+PIN, O, O, C82_N3, , , INV
+END
+SYM, c3031_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<15><0>, , 
+PIN, O, O, c3031_n0, , 
+END
+SYM, c3031_c2, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<0>, , 
+PIN, I1, I, DATA_MEM<15><0>, , 
+PIN, O, O, c3031_n1, , 
+END
+SYM, FMAP_36, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, N_ADDRESS<0>, , 
+PIN, I3, I, DATA_MEM<15><0>, , 
+PIN, O, I, C82_N3, , 
+END
+SYM, c3032_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c3032_n0, , , INV
+PIN, I1, I, c3032_n1, , , INV
+PIN, O, O, C83_N3, , , INV
+END
+SYM, c3032_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<14><1>, , 
+PIN, O, O, c3032_n0, , 
+END
+SYM, c3032_c2, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<0>, , 
+PIN, I1, I, DATA_MEM<14><1>, , 
+PIN, O, O, c3032_n1, , 
+END
+SYM, FMAP_37, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, N_ADDRESS<0>, , 
+PIN, I3, I, DATA_MEM<14><1>, , 
+PIN, O, I, C83_N3, , 
+END
+SYM, c3033_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3033_n0, , , INV
+PIN, O, O, C66_N3, , , INV
+END
+SYM, c3033_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<19><0>, , 
+PIN, O, O, c3033_n0, , 
+END
+SYM, FMAP_38, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<19><0>, , 
+PIN, O, I, C66_N3, , 
+END
+SYM, c3034_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c3034_n0, , , INV
+PIN, I1, I, c3034_n1, , , INV
+PIN, O, O, C96_N3, , , INV
+END
+SYM, c3034_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<10><1>, , 
+PIN, O, O, c3034_n0, , 
+END
+SYM, c3034_c2, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<0>, , 
+PIN, I1, I, DATA_MEM<10><1>, , 
+PIN, O, O, c3034_n1, , 
+END
+SYM, FMAP_39, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, N_ADDRESS<0>, , 
+PIN, I3, I, DATA_MEM<10><1>, , 
+PIN, O, I, C96_N3, , 
+END
+SYM, c3035_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3035_n0, , , INV
+PIN, O, O, C113_N3, , , INV
+END
+SYM, c3035_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<6><0>, , 
+PIN, O, O, c3035_n0, , 
+END
+SYM, FMAP_40, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<6><0>, , 
+PIN, O, I, C113_N3, , 
+END
+SYM, c3036_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c3036_n0, , , INV
+PIN, I1, I, c3036_n1, , , INV
+PIN, O, O, C81_N3, , , INV
+END
+SYM, c3036_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<15><1>, , 
+PIN, O, O, c3036_n0, , 
+END
+SYM, c3036_c2, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<0>, , 
+PIN, I1, I, DATA_MEM<15><1>, , 
+PIN, O, O, c3036_n1, , 
+END
+SYM, FMAP_41, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, N_ADDRESS<0>, , 
+PIN, I3, I, DATA_MEM<15><1>, , 
+PIN, O, I, C81_N3, , 
+END
+SYM, c3037_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c3037_n0, , , INV
+PIN, I1, I, c3037_n1, , , INV
+PIN, O, O, C84_N3, , , INV
+END
+SYM, c3037_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<14><0>, , 
+PIN, O, O, c3037_n0, , 
+END
+SYM, c3037_c2, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<0>, , 
+PIN, I1, I, DATA_MEM<14><0>, , 
+PIN, O, O, c3037_n1, , 
+END
+SYM, FMAP_42, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, N_ADDRESS<0>, , 
+PIN, I3, I, DATA_MEM<14><0>, , 
+PIN, O, I, C84_N3, , 
+END
+SYM, c3038_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3038_n0, , , INV
+PIN, O, O, C90_N3, , , INV
+END
+SYM, c3038_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<12><1>, , 
+PIN, O, O, c3038_n0, , 
+END
+SYM, FMAP_43, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<12><1>, , 
+PIN, O, I, C90_N3, , 
+END
+SYM, c3039_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3039_n0, , , INV
+PIN, O, O, C105_N3, , , INV
+END
+SYM, c3039_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<8><0>, , 
+PIN, O, O, c3039_n0, , 
+END
+SYM, FMAP_44, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<8><0>, , 
+PIN, O, I, C105_N3, , 
+END
+SYM, c3040_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3040_n0, , , INV
+PIN, O, O, C73_N3, , , INV
+END
+SYM, c3040_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<17><1>, , 
+PIN, O, O, c3040_n0, , 
+END
+SYM, FMAP_45, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<17><1>, , 
+PIN, O, I, C73_N3, , 
+END
+SYM, c3041_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3041_n0, , , INV
+PIN, O, O, C68_N3, , , INV
+END
+SYM, c3041_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<18><1>, , 
+PIN, O, O, c3041_n0, , 
+END
+SYM, FMAP_46, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<18><1>, , 
+PIN, O, I, C68_N3, , 
+END
+SYM, c3042_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3042_n0, , , INV
+PIN, O, O, C85_N3, , , INV
+END
+SYM, c3042_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<13><1>, , 
+PIN, O, O, c3042_n0, , 
+END
+SYM, FMAP_47, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<13><1>, , 
+PIN, O, I, C85_N3, , 
+END
+SYM, c3043_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3043_n0, , , INV
+PIN, O, O, C109_N3, , , INV
+END
+SYM, c3043_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<7><0>, , 
+PIN, O, O, c3043_n0, , 
+END
+SYM, FMAP_48, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<7><0>, , 
+PIN, O, I, C109_N3, , 
+END
+SYM, c3044_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3044_n0, , , INV
+PIN, O, O, C77_N3, , , INV
+END
+SYM, c3044_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<16><1>, , 
+PIN, O, O, c3044_n0, , 
+END
+SYM, FMAP_49, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<16><1>, , 
+PIN, O, I, C77_N3, , 
+END
+SYM, c3045_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3045_n0, , , INV
+PIN, O, O, C98_N3, , , INV
+END
+SYM, c3045_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<9><1>, , 
+PIN, O, O, c3045_n0, , 
+END
+SYM, FMAP_50, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<9><1>, , 
+PIN, O, I, C98_N3, , 
+END
+SYM, c3046_c0, AND, LIBVER=2.0.0
+PIN, I0, I, R_W_BUFGed, , 
+PIN, I1, I, N_SEL_IN<0>, , , INV
+PIN, I2, I, N_SEL_IN<2>, , 
+PIN, I3, I, N_SEL_IN<1>, , , INV
+PIN, O, O, N1895, , , INV
+END
+SYM, FMAP_51, FMAP, LIBVER=2.0.0
+PIN, I1, I, R_W_BUFGed, , 
+PIN, I2, I, N_SEL_IN<0>, , 
+PIN, I3, I, N_SEL_IN<2>, , 
+PIN, I4, I, N_SEL_IN<1>, , 
+PIN, O, I, N1895, , 
+END
+SYM, c3047_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c3047_n0, , , INV
+PIN, I1, I, c3047_n1, , , INV
+PIN, O, O, C94_N3, , , INV
+END
+SYM, c3047_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<11><1>, , 
+PIN, O, O, c3047_n0, , 
+END
+SYM, c3047_c2, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<0>, , 
+PIN, I1, I, DATA_MEM<11><1>, , 
+PIN, O, O, c3047_n1, , 
+END
+SYM, FMAP_52, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, N_ADDRESS<0>, , 
+PIN, I3, I, DATA_MEM<11><1>, , 
+PIN, O, I, C94_N3, , 
+END
+SYM, c3048_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3048_n0, , , INV
+PIN, O, O, C117_N3, , , INV
+END
+SYM, c3048_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<5><0>, , 
+PIN, O, O, c3048_n0, , 
+END
+SYM, FMAP_53, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<5><0>, , 
+PIN, O, I, C117_N3, , 
+END
+SYM, c3049_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3049_n0, , , INV
+PIN, O, O, C50_N3, , , INV
+END
+SYM, c3049_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<23><0>, , 
+PIN, O, O, c3049_n0, , 
+END
+SYM, FMAP_54, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<23><0>, , 
+PIN, O, I, C50_N3, , 
+END
+SYM, c3050_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3050_n0, , , INV
+PIN, O, O, C33_N3, , , INV
+END
+SYM, c3050_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<28><0>, , 
+PIN, O, O, c3050_n0, , 
+END
+SYM, FMAP_55, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<28><0>, , 
+PIN, O, I, C33_N3, , 
+END
+SYM, c3051_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3051_n0, , , INV
+PIN, O, O, C123_N3, , , INV
+END
+SYM, c3051_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<3><1>, , 
+PIN, O, O, c3051_n0, , 
+END
+SYM, FMAP_56, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<3><1>, , 
+PIN, O, I, C123_N3, , 
+END
+SYM, c3052_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3052_n0, , , INV
+PIN, O, O, C58_N3, , , INV
+END
+SYM, c3052_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<21><0>, , 
+PIN, O, O, c3052_n0, , 
+END
+SYM, FMAP_57, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<21><0>, , 
+PIN, O, I, C58_N3, , 
+END
+SYM, c3053_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c3053_n0, , , INV
+PIN, I1, I, c3053_n1, , , INV
+PIN, O, O, C24_N3, , , INV
+END
+SYM, c3053_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<30><1>, , 
+PIN, O, O, c3053_n0, , 
+END
+SYM, c3053_c2, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<0>, , 
+PIN, I1, I, DATA_MEM<30><1>, , 
+PIN, O, O, c3053_n1, , 
+END
+SYM, FMAP_58, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, N_ADDRESS<0>, , 
+PIN, I3, I, DATA_MEM<30><1>, , 
+PIN, O, I, C24_N3, , 
+END
+SYM, c3054_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3054_n0, , , INV
+PIN, O, O, C132_N3, , , INV
+END
+SYM, c3054_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<1><1>, , 
+PIN, O, O, c3054_n0, , 
+END
+SYM, FMAP_59, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<1><1>, , 
+PIN, O, I, C132_N3, , 
+END
+SYM, c3055_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c3055_n0, , , INV
+PIN, I1, I, c3055_n1, , , INV
+PIN, O, O, C38_N3, , , INV
+END
+SYM, c3055_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<26><0>, , 
+PIN, O, O, c3055_n0, , 
+END
+SYM, c3055_c2, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<0>, , 
+PIN, I1, I, DATA_MEM<26><0>, , 
+PIN, O, O, c3055_n1, , 
+END
+SYM, FMAP_60, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, N_ADDRESS<0>, , 
+PIN, I3, I, DATA_MEM<26><0>, , 
+PIN, O, I, C38_N3, , 
+END
+SYM, c3056_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3056_n0, , , INV
+PIN, O, O, C136_N3, , , INV
+END
+SYM, c3056_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<0><1>, , 
+PIN, O, O, c3056_n0, , 
+END
+SYM, FMAP_61, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<0><1>, , 
+PIN, O, I, C136_N3, , 
+END
+SYM, c3057_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c3057_n0, , , INV
+PIN, I1, I, c3057_n1, , , INV
+PIN, O, O, C22_N3, , , INV
+END
+SYM, c3057_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<31><1>, , 
+PIN, O, O, c3057_n0, , 
+END
+SYM, c3057_c2, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<0>, , 
+PIN, I1, I, DATA_MEM<31><1>, , 
+PIN, O, O, c3057_n1, , 
+END
+SYM, FMAP_62, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, N_ADDRESS<0>, , 
+PIN, I3, I, DATA_MEM<31><1>, , 
+PIN, O, I, C22_N3, , 
+END
+SYM, c3058_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3058_n0, , , INV
+PIN, O, O, C41_N3, , , INV
+END
+SYM, c3058_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<25><0>, , 
+PIN, O, O, c3058_n0, , 
+END
+SYM, FMAP_63, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<25><0>, , 
+PIN, O, I, C41_N3, , 
+END
+SYM, c3059_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3059_n0, , , INV
+PIN, O, O, C43_N3, , , INV
+END
+SYM, c3059_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<24><1>, , 
+PIN, O, O, c3059_n0, , 
+END
+SYM, FMAP_64, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<24><1>, , 
+PIN, O, I, C43_N3, , 
+END
+SYM, c3060_c0, AND, LIBVER=2.0.0
+PIN, I0, I, R_W_BUFGed, , 
+PIN, I1, I, N_SEL_IN<0>, , , INV
+PIN, I2, I, N_SEL_IN<2>, , , INV
+PIN, I3, I, N_SEL_IN<1>, , 
+PIN, O, O, N1902, , , INV
+END
+SYM, FMAP_65, FMAP, LIBVER=2.0.0
+PIN, I1, I, R_W_BUFGed, , 
+PIN, I2, I, N_SEL_IN<0>, , 
+PIN, I3, I, N_SEL_IN<2>, , 
+PIN, I4, I, N_SEL_IN<1>, , 
+PIN, O, I, N1902, , 
+END
+SYM, c3061_c0, AND, LIBVER=2.0.0
+PIN, I0, I, R_W_BUFGed, , 
+PIN, I1, I, N_SEL_IN<0>, , 
+PIN, I2, I, N_SEL_IN<2>, , 
+PIN, I3, I, N_SEL_IN<1>, , 
+PIN, O, O, N1977, , , INV
+END
+SYM, FMAP_66, FMAP, LIBVER=2.0.0
+PIN, I1, I, R_W_BUFGed, , 
+PIN, I2, I, N_SEL_IN<0>, , 
+PIN, I3, I, N_SEL_IN<2>, , 
+PIN, I4, I, N_SEL_IN<1>, , 
+PIN, O, I, N1977, , 
+END
+SYM, c3062_c0, AND, LIBVER=2.0.0
+PIN, I0, I, R_W_BUFGed, , 
+PIN, I1, I, N_SEL_IN<0>, , 
+PIN, I2, I, N_SEL_IN<2>, , , INV
+PIN, I3, I, N_SEL_IN<1>, , 
+PIN, O, O, N1898, , , INV
+END
+SYM, FMAP_67, FMAP, LIBVER=2.0.0
+PIN, I1, I, R_W_BUFGed, , 
+PIN, I2, I, N_SEL_IN<0>, , 
+PIN, I3, I, N_SEL_IN<2>, , 
+PIN, I4, I, N_SEL_IN<1>, , 
+PIN, O, I, N1898, , 
+END
+SYM, c3063_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3063_n0, , , INV
+PIN, O, O, C121_N3, , , INV
+END
+SYM, c3063_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<4><0>, , 
+PIN, O, O, c3063_n0, , 
+END
+SYM, FMAP_68, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<4><0>, , 
+PIN, O, I, C121_N3, , 
+END
+SYM, c3064_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3064_n0, , , INV
+PIN, O, O, C26_N3, , , INV
+END
+SYM, c3064_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<29><1>, , 
+PIN, O, O, c3064_n0, , 
+END
+SYM, FMAP_69, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<29><1>, , 
+PIN, O, I, C26_N3, , 
+END
+SYM, c3065_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3065_n0, , , INV
+PIN, O, O, C62_N3, , , INV
+END
+SYM, c3065_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<20><0>, , 
+PIN, O, O, c3065_n0, , 
+END
+SYM, FMAP_70, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<20><0>, , 
+PIN, O, I, C62_N3, , 
+END
+SYM, c3066_c0, AND, LIBVER=2.0.0
+PIN, I0, I, R_W_BUFGed, , 
+PIN, I1, I, N_SEL_IN<0>, , 
+PIN, I2, I, N_SEL_IN<2>, , , INV
+PIN, I3, I, N_SEL_IN<1>, , , INV
+PIN, O, O, N1976, , , INV
+END
+SYM, FMAP_71, FMAP, LIBVER=2.0.0
+PIN, I1, I, R_W_BUFGed, , 
+PIN, I2, I, N_SEL_IN<0>, , 
+PIN, I3, I, N_SEL_IN<2>, , 
+PIN, I4, I, N_SEL_IN<1>, , 
+PIN, O, I, N1976, , 
+END
+SYM, c3067_c0, AND, LIBVER=2.0.0
+PIN, I0, I, R_W_BUFGed, , 
+PIN, I1, I, N_SEL_IN<0>, , , INV
+PIN, I2, I, N_SEL_IN<2>, , 
+PIN, I3, I, N_SEL_IN<1>, , 
+PIN, O, O, N1975, , , INV
+END
+SYM, FMAP_72, FMAP, LIBVER=2.0.0
+PIN, I1, I, R_W_BUFGed, , 
+PIN, I2, I, N_SEL_IN<0>, , 
+PIN, I3, I, N_SEL_IN<2>, , 
+PIN, I4, I, N_SEL_IN<1>, , 
+PIN, O, I, N1975, , 
+END
+SYM, c3068_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c3068_n0, , , INV
+PIN, I1, I, c3068_n1, , , INV
+PIN, O, O, C36_N3, , , INV
+END
+SYM, c3068_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<27><0>, , 
+PIN, O, O, c3068_n0, , 
+END
+SYM, c3068_c2, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<0>, , 
+PIN, I1, I, DATA_MEM<27><0>, , 
+PIN, O, O, c3068_n1, , 
+END
+SYM, FMAP_73, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, N_ADDRESS<0>, , 
+PIN, I3, I, DATA_MEM<27><0>, , 
+PIN, O, I, C36_N3, , 
+END
+SYM, c3069_c0, AND, LIBVER=2.0.0
+PIN, I0, I, R_W_BUFGed, , , INV
+PIN, I1, I, c3069_n1, , , INV
+PIN, I2, I, c3069_n2, , , INV
+PIN, O, O, N1971, , , INV
+END
+SYM, c3069_c2, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , , INV
+PIN, I1, I, N_ADDRESS<0>, , 
+PIN, O, O, c3069_n1, , 
+END
+SYM, c3069_c3, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, N_ADDRESS<0>, , , INV
+PIN, O, O, c3069_n2, , 
+END
+SYM, FMAP_74, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, N_ADDRESS<0>, , 
+PIN, I3, I, R_W_BUFGed, , 
+PIN, O, I, N1971, , 
+END
+SYM, c3070_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3070_n0, , , INV
+PIN, O, O, C128_N3, , , INV
+END
+SYM, c3070_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<2><1>, , 
+PIN, O, O, c3070_n0, , 
+END
+SYM, FMAP_75, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<2><1>, , 
+PIN, O, I, C128_N3, , 
+END
+SYM, c3071_c0, AND, LIBVER=2.0.0
+PIN, I0, I, R_W_BUFGed, , , INV
+PIN, I1, I, c3071_n1, , , INV
+PIN, O, O, N1972, , , INV
+END
+SYM, c3071_c2, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , , INV
+PIN, I1, I, N_ADDRESS<0>, , 
+PIN, O, O, c3071_n1, , 
+END
+SYM, FMAP_76, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, N_ADDRESS<0>, , 
+PIN, I3, I, R_W_BUFGed, , 
+PIN, O, I, N1972, , 
+END
+SYM, c3072_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c3072_n0, , , INV
+PIN, O, O, C54_N3, , , INV
+END
+SYM, c3072_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_ADDRESS<1>, , 
+PIN, I1, I, DATA_MEM<22><0>, , 
+PIN, O, O, c3072_n0, , 
+END
+SYM, FMAP_77, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_ADDRESS<1>, , 
+PIN, I2, I, DATA_MEM<22><0>, , 
+PIN, O, I, C54_N3, , 
+END
+SYM, c3073_c0, AND, LIBVER=2.0.0
+PIN, I0, I, R_W_BUFGed, , 
+PIN, I1, I, N_SEL_IN<0>, , , INV
+PIN, I2, I, N_SEL_IN<2>, , , INV
+PIN, I3, I, N_SEL_IN<1>, , , INV
+PIN, O, O, N1974, , , INV
+END
+SYM, FMAP_78, FMAP, LIBVER=2.0.0
+PIN, I1, I, R_W_BUFGed, , 
+PIN, I2, I, N_SEL_IN<0>, , 
+PIN, I3, I, N_SEL_IN<2>, , 
+PIN, I4, I, N_SEL_IN<1>, , 
+PIN, O, I, N1974, , 
+END
+SYM, c3074_c0, AND, LIBVER=2.0.0
+PIN, I0, I, R_W_BUFGed, , 
+PIN, I1, I, N_SEL_IN<0>, , 
+PIN, I2, I, N_SEL_IN<2>, , 
+PIN, I3, I, N_SEL_IN<1>, , , INV
+PIN, O, O, N1973, , , INV
+END
+SYM, FMAP_79, FMAP, LIBVER=2.0.0
+PIN, I1, I, R_W_BUFGed, , 
+PIN, I2, I, N_SEL_IN<0>, , 
+PIN, I3, I, N_SEL_IN<2>, , 
+PIN, I4, I, N_SEL_IN<1>, , 
+PIN, O, I, N1973, , 
+END
+SYM, C3075, BUFG, LIBVER=2.0.0
+PIN, O, O, N1971_BUFGed, , 
+PIN, I, I, N1971, , 
+END
+SYM, C3076, BUFG, LIBVER=2.0.0
+PIN, O, O, N1972_BUFGed, , 
+PIN, I, I, N1972, , 
+END
+SYM, C3077, BUFG, LIBVER=2.0.0
+PIN, O, O, R_W_BUFGed, , 
+PIN, I, I, R_W, , 
+END
+SYM, C3078, BUFG, LIBVER=2.0.0
+PIN, O, O, N1973_BUFGed, , 
+PIN, I, I, N1973, , 
+END
+SYM, C3079, BUFG, LIBVER=2.0.0
+PIN, O, O, N1974_BUFGed, , 
+PIN, I, I, N1974, , 
+END
+SYM, C3080, BUFG, LIBVER=2.0.0
+PIN, O, O, N1975_BUFGed, , 
+PIN, I, I, N1975, , 
+END
+SYM, C3081, BUFG, LIBVER=2.0.0
+PIN, O, O, N1976_BUFGed, , 
+PIN, I, I, N1976, , 
+END
+SYM, C3082, BUFG, LIBVER=2.0.0
+PIN, O, O, N1977_BUFGed, , 
+PIN, I, I, N1977, , 
+END
+EXT, R_W, I, 
+EXT, SEL_IN<2>, I, 
+EXT, SEL_IN<1>, I, 
+EXT, SEL_IN<0>, I, 
+EXT, DATA_IN<7>, I, 
+EXT, DATA_IN<6>, I, 
+EXT, DATA_IN<5>, I, 
+EXT, DATA_IN<4>, I, 
+EXT, DATA_IN<3>, I, 
+EXT, DATA_IN<2>, I, 
+EXT, DATA_IN<1>, I, 
+EXT, DATA_IN<0>, I, 
+EXT, ADDRESS<1>, I, 
+EXT, ADDRESS<0>, I, 
+EXT, DATA_OUT<63>, O, 
+EXT, DATA_OUT<62>, O, 
+EXT, DATA_OUT<61>, O, 
+EXT, DATA_OUT<60>, O, 
+EXT, DATA_OUT<59>, O, 
+EXT, DATA_OUT<58>, O, 
+EXT, DATA_OUT<57>, O, 
+EXT, DATA_OUT<56>, O, 
+EXT, DATA_OUT<55>, O, 
+EXT, DATA_OUT<54>, O, 
+EXT, DATA_OUT<53>, O, 
+EXT, DATA_OUT<52>, O, 
+EXT, DATA_OUT<51>, O, 
+EXT, DATA_OUT<50>, O, 
+EXT, DATA_OUT<49>, O, 
+EXT, DATA_OUT<48>, O, 
+EXT, DATA_OUT<47>, O, 
+EXT, DATA_OUT<46>, O, 
+EXT, DATA_OUT<45>, O, 
+EXT, DATA_OUT<44>, O, 
+EXT, DATA_OUT<43>, O, 
+EXT, DATA_OUT<42>, O, 
+EXT, DATA_OUT<41>, O, 
+EXT, DATA_OUT<40>, O, 
+EXT, DATA_OUT<39>, O, 
+EXT, DATA_OUT<38>, O, 
+EXT, DATA_OUT<37>, O, 
+EXT, DATA_OUT<36>, O, 
+EXT, DATA_OUT<35>, O, 
+EXT, DATA_OUT<34>, O, 
+EXT, DATA_OUT<33>, O, 
+EXT, DATA_OUT<32>, O, 
+EXT, DATA_OUT<31>, O, 
+EXT, DATA_OUT<30>, O, 
+EXT, DATA_OUT<29>, O, 
+EXT, DATA_OUT<28>, O, 
+EXT, DATA_OUT<27>, O, 
+EXT, DATA_OUT<26>, O, 
+EXT, DATA_OUT<25>, O, 
+EXT, DATA_OUT<24>, O, 
+EXT, DATA_OUT<23>, O, 
+EXT, DATA_OUT<22>, O, 
+EXT, DATA_OUT<21>, O, 
+EXT, DATA_OUT<20>, O, 
+EXT, DATA_OUT<19>, O, 
+EXT, DATA_OUT<18>, O, 
+EXT, DATA_OUT<17>, O, 
+EXT, DATA_OUT<16>, O, 
+EXT, DATA_OUT<15>, O, 
+EXT, DATA_OUT<14>, O, 
+EXT, DATA_OUT<13>, O, 
+EXT, DATA_OUT<12>, O, 
+EXT, DATA_OUT<11>, O, 
+EXT, DATA_OUT<10>, O, 
+EXT, DATA_OUT<9>, O, 
+EXT, DATA_OUT<8>, O, 
+EXT, DATA_OUT<7>, O, 
+EXT, DATA_OUT<6>, O, 
+EXT, DATA_OUT<5>, O, 
+EXT, DATA_OUT<4>, O, 
+EXT, DATA_OUT<3>, O, 
+EXT, DATA_OUT<2>, O, 
+EXT, DATA_OUT<1>, O, 
+EXT, DATA_OUT<0>, O, 
+EOF

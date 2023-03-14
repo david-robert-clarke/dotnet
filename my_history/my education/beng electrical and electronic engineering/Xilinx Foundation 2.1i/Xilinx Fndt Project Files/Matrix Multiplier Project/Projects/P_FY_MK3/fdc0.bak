@@ -1,0 +1,25 @@
+-- Created by David Clarke for the RS232 assignment
+library IEEE;
+Use IEEE.std_logic_1164.all;
+
+Entity FDC0 is
+Port (D, C, CLR: IN STD_LOGIC; 
+      Q  : OUT STD_LOGIC;
+      CE : OUT BOOLEAN);
+End Entity FDC0;
+
+Architecture Behavioural of FDC0 is
+Begin
+	Tri : Process (D, C, CLR) 
+	Begin
+	CE <= true;
+	  IF CLR = '1' THEN
+	    Q <= '0';
+	  ELSIF CLR = '0' AND CE THEN
+	    if rising_edge(C) then
+	       Q <= D;
+	    end if;
+	  END IF;
+	End Process Tri;
+End Architecture Behavioural;
+

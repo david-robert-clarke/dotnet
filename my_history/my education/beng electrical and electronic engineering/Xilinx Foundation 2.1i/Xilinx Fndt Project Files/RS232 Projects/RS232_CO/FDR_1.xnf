@@ -1,0 +1,27 @@
+LCANET, 6
+PROG, Synopsys, UNKNOWN, v3.2, Build 3.2.0.4201
+PART, 4010XL-PC84-09
+SYM, $1I39, fd_0_0, FILE=./FD_0_0.xnf, LIBVER=2.0.0, SCHNM=FD, RLOC=R0C0, SYSTEM=XMACRO
+PIN, Q, B, Q, , 
+PIN, C, B, C, , 
+PIN, D, B, D_R, , 
+END
+SYM, c0_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c0_n0, , , INV
+PIN, O, O, D_R, , , INV
+END
+SYM, c0_c1, AND, LIBVER=2.0.0
+PIN, I0, I, R, , , INV
+PIN, I1, I, D, , 
+PIN, O, O, c0_n0, , 
+END
+SYM, FMAP_0, FMAP, LIBVER=2.0.0
+PIN, I1, I, R, , 
+PIN, I2, I, D, , 
+PIN, O, I, D_R, , 
+END
+SIG, R, PIN=R
+SIG, C, PIN=C
+SIG, Q, PIN=Q
+SIG, D, PIN=D
+EOF

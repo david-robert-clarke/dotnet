@@ -1,0 +1,104 @@
+import java.applet.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.*;
+import java.net.*;
+import java.util.*;
+
+public class BouncingBall extends Applet implements Runnable
+{
+    // global variables
+    private Image buffer;     //double buffering
+    private Graphics bufferg; //double buffering
+    private ArrayList balls; //used to hold multiple balls
+    private Image backImage;
+        
+    // Parameters width and height represent the height and width of the applet
+    // They are declared public static so that they can be made accessible to 
+    // the Ball program
+    public static int width;
+    public static int height;
+
+    // all objects, variables, constants placed here are initialised when the
+    // applet is loaded up
+    public void init()
+    {
+        // Get parameters from the HTML file
+        width = getBounds().width;
+        height = getBounds().height;
+        //setBackground (Color.black);
+        Thread thread = new Thread(this);
+        thread.start();
+        buffer = createImage(width,height); //double buffering
+        bufferg = buffer.getGraphics();     //double buffering
+        balls = new ArrayList();
+        MouseClickListener listener = new MouseClickListener();                
+        addMouseListener(listener);
+        backImage = getImage (getCodeBase(), "backg.gif");
+        // balls.add(new Ball(50, 50));//additional
+    }
+    
+    private class MouseClickListener extends MouseAdapter  
+    {
+        public void mouseClicked(MouseEvent e) 
+        {
+            balls.add(new Ball(e.getX(), e.getY()));
+        }  // mousePressed
+    } // MouseHandler
+
+    // The mouse handler takes in positional input from the mouse, when the
+    // mouse button is pressed a new ball is created in the required position.  
+
+    public void run()
+    {
+        while(true)
+            {
+	// monitors all the balls progress
+	for(int i = 0; i < balls.size(); i++)
+	    {
+	        Ball sphere = (Ball)balls.get(i);
+	        sphere.nextStep();
+	        //System.out.println("Hello");
+	    }
+
+	// sleep for 10 milliseconds
+	try
+	    {
+	        Thread.sleep(10);
+	    }
+	catch(InterruptedException ex)
+	    {
+	        // do nothing
+	    }
+	
+	// repaint the ball
+	repaint();
+            }
+    }
+
+    public void paint(Graphics g)
+    {
+        g.drawImage(backImage, 0, 0, this);
+ 
+        for(int i = 0; i < balls.size(); i++)
+        {
+            Ball sphere = (Ball)balls.get(i);            
+            sphere.paint(g);
+            //  doubleBuffered(g,sphere.getX(),sphere.getY());           
+        }
+    }
+    
+    /*   
+    public void doubleBuffered(Graphics g, int x, int y)
+    {
+        //clear the room
+        bufferg.setColor(getBackground());//getBackground());
+        bufferg.fillRect(0,0,getBounds().width,getBounds().height);
+        //paint picture of 
+        bufferg.setColor(Color.white);
+        bufferg.fillOval(x,y,10,10);
+        g.drawImage(buffer,0,0,this);
+    }
+    */
+}
+

@@ -1,0 +1,725 @@
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L14/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 14   U_THITY2_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 27   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 28   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 30   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 31   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 33   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 34   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 36   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L37/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 37   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 39   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L40/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 40   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L42/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 42   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L43/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 43   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 45   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L46/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 46   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L48/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 48   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L49/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 49   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L51/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 51   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L52/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 52   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  19 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L14/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 14   U_THITY6_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 27   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 28   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 30   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 31   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 33   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 34   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 36   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L37/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 37   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 39   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L40/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 40   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L42/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 42   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L43/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 43   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 45   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L46/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 46   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L48/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 48   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L49/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 49   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L51/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 51   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L52/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 52   D_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  19 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 27   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 28   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 30   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 31   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 33   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 34   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 36   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L37/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 37   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 39   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L40/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 40   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L42/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 42   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L43/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 43   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 45   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L46/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 46   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L48/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 48   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L49/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 49   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L51/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 51   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L52/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 52   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L54/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 54   Can not determine type of right hand side.  The following interpretations were considered for the right hand side:   (none). (VSS-1049)  (FPGA-dm-hdlc-unknown) 
+CM:  19 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L54/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 54   Can not determine type of right hand side.  The following interpretations were considered for the right hand side:   (none). (VSS-1049)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 28   Type mismatch over assignment operation (Target data type: ONE_BIT declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: UNIVERSAL INTEGER declared in PACKAGE STD.STANDARD).  (VSS-1023) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 28   Can not update ports of mode IN or LINKAGE. (VSS-798)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L29/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L29/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 29   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_ULOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 30   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_ULOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 31   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_ULOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 32   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_ULOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM:  19 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 30   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_ULOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 31   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_ULOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 32   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_ULOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM:  13 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\data_store.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store.vhd  line 27   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\data_store_dec.vhd Error   L62/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store_dec.vhd  line 62   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store_dec.vhd Error   L63/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store_dec.vhd  line 63   Syntax error - unexpected end of input.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\data_store_dec.vhd Error   L15/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store_dec.vhd  line 15   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store_dec.vhd Error   L105/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store_dec.vhd  line 105   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\data_store_dec.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store_dec.vhd  line 28   Name must denote a procedure call. (VSS-1039)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\data_store_dec.vhd Error   L59/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store_dec.vhd  line 59   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store_dec.vhd Error   L59/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store_dec.vhd  line 59   Syntax error - keyword PROCESS expected.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\data_store_dec.vhd Error   L54/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store_dec.vhd  line 54   All possible string values of selector type not covered by choices.  (VSS-1032) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L26/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 26   LATCH_SEL is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L35/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 35   Type mismatch over assignment operation (Target data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 36   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 39   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L42/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 42   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 45   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L48/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 48   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L51/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 51   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L54/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 54   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L57/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 57   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L60/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 60   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L63/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 63   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L66/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 66   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM:  13 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L35/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 35   Type mismatch over assignment operation (Target data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 36   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 39   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L42/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 42   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 45   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L48/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 48   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L51/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 51   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L54/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 54   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L57/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 57   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L60/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 60   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L63/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 63   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L66/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 66   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM:  12 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 39   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L42/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 42   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 45   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L48/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 48   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L51/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 51   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L54/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 54   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L57/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 57   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L60/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 60   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L63/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 63   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L66/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 66   Type mismatch over assignment operation (Target data type: TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM:  10 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L69/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 69   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L69/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 69   Syntax error - keyword CASE expected after keyword END.  (VSS-1081) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L70/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 70   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L70/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 70   Syntax error - keyword IF expected after keyword END.  (VSS-1081) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L12/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 12   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 21   The intermediate file for entity MULTIPLIERS is not in the library bound to WORK.  (VSS-1084) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L12/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 12   TW0_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 25   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L12/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 12   TW0_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 25   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L12/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 12   TW0_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 25   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 25   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L26/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 26   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 27   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 30   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 31   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 32   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L35/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 35   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 36   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L37/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 37   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 41   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L42/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 42   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L43/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 43   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L46/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 46   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L47/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 47   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L48/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 48   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L51/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 51   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L52/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 52   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L53/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 53   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L57/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 57   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L58/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 58   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L59/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 59   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L62/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 62   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L63/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 63   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L64/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 64   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L67/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 67   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L68/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 68   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L69/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 69   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  27 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 32   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 36   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L38/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 38   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L42/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 42   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L44/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 44   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L48/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 48   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L50/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 50   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L54/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 54   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 56   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L60/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 60   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L62/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 62   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L66/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 66   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM:  12 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 32   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 36   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L38/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 38   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L42/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 42   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L44/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 44   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L48/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 48   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L50/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 50   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L54/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 54   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 56   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L60/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 60   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L62/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 62   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L66/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 66   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM:  12 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 32   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 36   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L38/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 38   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L42/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 42   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L44/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 44   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L48/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 48   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L50/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 50   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L54/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 54   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 56   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L60/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 60   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L62/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 62   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L66/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 66   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM:  12 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 32   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 36   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L38/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 38   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L42/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 42   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L44/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 44   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L48/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 48   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L50/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 50   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L54/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 54   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 56   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L60/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 60   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L62/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 62   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L66/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 66   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM:  12 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 32   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 36   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L38/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 38   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L42/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 42   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L44/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 44   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L48/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 48   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L50/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 50   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L54/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 54   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 56   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L60/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 60   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L62/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 62   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L66/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 66   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM:  12 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 32   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 36   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L38/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 38   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L42/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 42   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L44/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 44   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L48/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 48   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L50/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 50   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L54/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 54   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 56   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L60/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 60   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L62/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 62   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\proj_3x3\data_store2.vhd Error   L66/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store2.vhd  line 66   Type mismatch over assignment operation (Target data type: U_TWO_BITS declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM:  12 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 25   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L26/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 26   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 27   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 30   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 31   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 32   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L35/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 35   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 36   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L37/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 37   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 41   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L42/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 42   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L43/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 43   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L46/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 46   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L47/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 47   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L48/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 48   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L51/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 51   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L52/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 52   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L53/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 53   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L57/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 57   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L58/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 58   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L59/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 59   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L62/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 62   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L63/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 63   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L64/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 64   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L67/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 67   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L68/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 68   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L69/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 69   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  27 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 28   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 32   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 34   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 39   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L40/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 40   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 41   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L44/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 44   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 45   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L46/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 46   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L49/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 49   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L50/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 50   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L51/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 51   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L55/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 55   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 56   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L57/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 57   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L60/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 60   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L61/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 61   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L62/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 62   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L65/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 65   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L66/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 66   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L67/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 67   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L71/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 71   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L72/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 72   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L73/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 73   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L76/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 76   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L77/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 77   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L78/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 78   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L81/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 81   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L82/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 82   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L83/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 83   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  28 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 34   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 39   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L40/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 40   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 41   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L44/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 44   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 45   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L46/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 46   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L49/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 49   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L50/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 50   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L51/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 51   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L55/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 55   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 56   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L57/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 57   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L60/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 60   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L61/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 61   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L62/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 62   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L65/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 65   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L66/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 66   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L67/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 67   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L71/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 71   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L72/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 72   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L73/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 73   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L76/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 76   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L77/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 77   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L78/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 78   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L81/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 81   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L82/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 82   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L83/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 83   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  28 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 34   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 39   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L40/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 40   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 41   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L44/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 44   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 45   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L46/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 46   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L49/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 49   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L50/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 50   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L51/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 51   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L55/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 55   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 56   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L57/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 57   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L60/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 60   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L61/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 61   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L62/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 62   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L65/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 65   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L66/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 66   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L67/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 67   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L71/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 71   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L72/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 72   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L73/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 73   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L76/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 76   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L77/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 77   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L78/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 78   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L81/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 81   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L82/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 82   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L83/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 83   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  28 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 34   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 39   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L40/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 40   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 41   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L44/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 44   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 45   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L46/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 46   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L49/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 49   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L50/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 50   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L51/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 51   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L55/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 55   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 56   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L57/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 57   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L60/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 60   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L61/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 61   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L62/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 62   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L65/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 65   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L66/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 66   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L67/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 67   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L71/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 71   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L72/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 72   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L73/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 73   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L76/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 76   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L77/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 77   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L78/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 78   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L81/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 81   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L82/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 82   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L83/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 83   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  28 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 34   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 39   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L40/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 40   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 41   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L44/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 44   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 45   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L46/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 46   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L49/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 49   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L50/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 50   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L51/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 51   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L55/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 55   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 56   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L57/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 57   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L60/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 60   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L61/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 61   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L62/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 62   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L65/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 65   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L66/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 66   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L67/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 67   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L71/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 71   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L72/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 72   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L73/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 73   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L76/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 76   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L77/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 77   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L78/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 78   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L81/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 81   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L82/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 82   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L83/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 83   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  28 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L73/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 73   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 25   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L26/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 26   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 27   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 30   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 31   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 32   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L35/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 35   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 36   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L37/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 37   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 41   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L42/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 42   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L43/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 43   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L46/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 46   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L47/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 47   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L48/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 48   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L51/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 51   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L52/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 52   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L53/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 53   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L57/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 57   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L58/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 58   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L59/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 59   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L62/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 62   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L63/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 63   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L64/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 64   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L67/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 67   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L68/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 68   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\proj_3x3\multipliers.vhd Error   L69/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/multipliers.vhd  line 69   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  27 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L11/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 11   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L17/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 17   The intermediate file for entity ADDERS_SIX_BITS_X16 is not in the library bound to WORK.  (VSS-1084) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 25   A1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 25   A0 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L26/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 26   B1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L26/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 26   B0 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 33   C1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 33   C0 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 34   D1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 34   D0 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 41   E1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 41   E0 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L42/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 42   F1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L42/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 42   F0 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L49/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 49   G1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L49/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 49   G0 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L50/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 50   H1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L50/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 50   H0 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L57/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 57   I1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L57/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 57   I0 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L58/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 58   J1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L58/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 58   J0 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L65/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 65   K1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L65/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 65   K0 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L66/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 66   L1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L66/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 66   L0 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L73/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 73   M1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L73/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 73   M0 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L74/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 74   N1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L74/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 74   N0 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L81/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 81   O1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L81/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 81   O0 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L82/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 82   P1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L82/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 82   P0 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L89/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 89   Q1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L89/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 89   Q0 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L90/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 90   R1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\adders.vhd Error   L90/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/adders.vhd  line 90   R0 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  36 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\answer_store.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 31   Array index range length mismatch (string literal too long). (VSS-737)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\answer_store.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 31   Array index range length mismatch (string literal too long). (VSS-737)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\answer_store.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 31   Array index range length mismatch (string literal too long). (VSS-737)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\answer_store.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 31   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\answer_store.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\answer_store.vhd Error   L12/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 12   U_FORTY5_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\answer_store.vhd Error   L13/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 13   U_FORTY5_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\answer_store.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 32   Range 'U' to 'X' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\answer_store.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 32   Range 'Z' to '-' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM:  4 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\proj_3x3\answer_store.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 32   Range 'U' to 'X' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\proj_3x3\answer_store.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 32   Range 'Z' to '-' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found

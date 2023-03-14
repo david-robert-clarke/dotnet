@@ -1,0 +1,290 @@
+package family;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import javax.swing.event.EventListenerList;
+/**
+ * A class which maintains a collection of Person objects. Any changes to the 
+ * structure of the tree should be managed through this class, rather than by 
+ * calling the relevant methods in Person directly. In this way, any listeners 
+ * can be informed when a change occurs.
+ * 
+ * Created: Fri Feb 21 13:41:02 2003
+ * 
+ * @author <a href="mailto:msc88drc@cs.bham.ac.uk">David R Clarke</a>
+ * @version
+ */
+
+public class FamilyTree implements java.io.Serializable
+{
+  private ArrayList persons;
+  private EventListenerList listenerList;
+  private FamilyTreeEvent familyTreeEvent;
+  /**
+   * Default constructor. Creates an empty family tree.
+   **/
+  public FamilyTree()
+  {
+    persons = new ArrayList();
+    listenerList = new EventListenerList();
+  }
+
+    /**
+     * Add a person to the tree. If the operation succeeds,firePersonAdded 
+     * is called to notify any listeners.
+     * @param person the person to be added Throws:
+     * @throws FamilyException when person already belongs to the family
+     **/   
+  public void addPerson(Person person) throws FamilyException
+  {
+      if(persons.contains(person))
+              throw new FamilyException("Person already belongs to family");
+
+      else
+          { persons.add(person);
+            firePersonAdded(person);
+          }
+  }
+      
+  /**
+   * Get the number of persons in the tree
+   * @return number of persons
+   **/   
+  public int getNumberOfPersons()
+  {
+      return(persons.size());
+  }
+    
+  /**
+    * Get a person by its unique number(between 0 and getNumberOfPersons()- 1)
+    * @param  index the person's number 
+    * @return the person object removePerso
+    **/
+  public Person getPerson(int index)
+  {  
+      return((Person)persons.get(index));
+  }
+   
+  /**
+   * Remove a person from the tree. All parent/child relationships are 
+   * cleared too. If successful, firePersonRemoved is called to notify any 
+   * listeners.
+   * @param person the person to be removed 
+   * @throws FamilyException when the tree does not contain such person
+   **/
+  public void removePerson(Person person) throws FamilyException
+  {
+    if(persons.contains(person))
+        { int index = persons.indexOf(person);
+          persons.remove(index);
+          firePersonRemoved(person);
+        }
+    else
+        throw new FamilyException("The tree does not contain such person");
+  }
+      
+  /**
+   * Check if the tree is empty.
+   * @return true if the tree is empty.
+   **/  
+  public boolean isEmpty()
+  {
+    return(persons.isEmpty());
+  }
+    
+  /**
+   * Get an Iterator for the elements in the tree.
+   * @return the Iterator
+   **/
+  public Iterator getTreeIterator()
+  {
+    Iterator iterator = persons.iterator(); //initialise iterator
+    return(iterator);
+  }
+   
+  /**
+   * Adds a FamilyTreeListener to the tree.
+   * @param ftl the FamilyTreeListener to be added
+   **/
+  public void addFamilyTreeListener(FamilyTreeListener ftl)
+  {    
+    listenerList.add(FamilyTreeListener.class, ftl);
+  }
+
+  /**
+   *  Removes a FamilyTreeListener from the tree.
+   * @param ftl the FamilyTreeListener to be removed
+   **/ 
+  public void removeFamilyTreeListener(FamilyTreeListener ftl)
+  {
+    listenerList.remove(FamilyTreeListener.class, ftl);
+  }
+    
+  /**
+   * Sets the father of a person in the tree. If successful, fireFatherSet 
+   * is called to notify any listeners.
+   * @param p the person whose father is being set
+   * @param f the person who is to be set as the father 
+   * @throws IdentityException when the argument is the same as this 
+   * person or when it is one of its descendants 
+   * @throws GenderException when the argument is a woman
+   **/
+  public void setFatherOf(Person p, Person f) throws IdentityException,
+			     GenderException
+  {     
+      ArrayList descList = (ArrayList)p.getDescendants();
+      for(int i=0; i<descList.size(); i++)
+          { Person descendant = (Person)descList.get(i);
+            if(descendant == f)
+	throw new IdentityException("Person is one of its descendants");
+          }
+
+      if(f.getGender() == Person.FEMALE)
+          { throw new GenderException("Father cannot be female!");
+          }
+      else if(f==p || f.hasChild(p))
+          { throw new IdentityException("Argument is the same as this person"); 
+          }
+      else
+          { p.setFather(f);
+            fireFatherSet(p,f);
+          }
+  }
+    
+  /**
+   * Sets the mother of a person in the tree. If successful, fireMotherSet 
+   * is called to notify any listeners.
+   * @param p the person whose mother is being 
+   * @param setm the person who is to be set as the mother 
+   * @throws IdentityException when the argument is the same as this 
+   * person or when it is one of its descendants 
+   * @throws GenderException when the argument is a man
+   **/
+  public void setMotherOf(Person p,Person m) throws IdentityException,
+			    GenderException
+  {
+      ArrayList descList = (ArrayList)p.getDescendants();
+      for(int i=0; i<descList.size(); i++)
+          { Person descendant = (Person)descList.get(i);
+            if(descendant == m)
+	throw new IdentityException("Person is one of its descendants");
+          }
+
+      if(m.getGender()==Person.MALE)
+          throw new GenderException("Mother cannot be male!");
+
+      else if(m==p || m.hasChild(p))
+          { throw new IdentityException("Argument is the same as this person");
+          }
+      else
+          { p.setMother(m);
+            fireMotherSet(p,m);
+          }
+  }
+    
+  /**
+   * Tells the tree that a person has had details changed. This allows the
+   * tree to inform all relevant listeners.
+   * @param p the person who has been edited
+   **/
+  public void personEdited(Person p)
+  {
+      firePersonEdited(p);
+  }
+  
+  /**
+    * Notify all listeners that a person's father has been changed
+    * @param child the person
+    * @param father the new father
+    **/
+  protected void fireFatherSet(Person child, Person father)
+  {
+    // Guaranteed to return a non-null array
+    Object[] listeners = listenerList.getListenerList();
+    // Process the listeners last to first, notifying
+    // those that are interested in this event
+    for (int i = listeners.length-2; i>=0; i-=2) 
+    {
+      if (listeners[i]==FamilyTreeListener.class) 
+      {
+          // Lazily create the event:
+          familyTreeEvent = new FamilyTreeEvent(this,child,father);
+          ((FamilyTreeListener)listeners[i+1]).fatherSet(familyTreeEvent);
+              
+      }
+    }
+  }
+      
+ /**
+   * Notify all listeners that a person's mother has been changed
+   * @param child the person
+   * @param mother the new mother
+   **/  
+  protected void fireMotherSet(Person child, Person mother)
+  {
+   Object[] listeners = listenerList.getListenerList();
+   
+   for (int i = listeners.length-2; i>=0; i-=2) 
+   {
+     if (listeners[i]==FamilyTreeListener.class) 
+     {
+         familyTreeEvent = new FamilyTreeEvent(this,child,mother);
+         ((FamilyTreeListener)listeners[i+1]).motherSet(familyTreeEvent);
+     }
+   }
+  }
+      
+  /**
+   * Notify all listeners that a person has been added to the tree.
+   * @param p the person
+   **/
+  protected void firePersonAdded(Person p)
+  {
+    Object[] listeners = listenerList.getListenerList();
+    
+    for (int i = listeners.length-2; i>=0; i-=2) 
+    {
+      if (listeners[i]==FamilyTreeListener.class) 
+      {
+          familyTreeEvent = new FamilyTreeEvent(this,p);          
+          ((FamilyTreeListener)listeners[i+1]).personAdded(familyTreeEvent);  
+      }
+    }
+  }
+      
+  /**
+   * Notify all listeners that a person has been removed from the tree.
+   * @param p the person
+   **/
+  protected void firePersonRemoved(Person p)
+  {
+    Object[] listeners = listenerList.getListenerList();
+    
+    for (int i = listeners.length-2; i>=0; i-=2) 
+    {
+      if (listeners[i]==FamilyTreeListener.class) 
+      {
+          familyTreeEvent = new FamilyTreeEvent(this,p);
+          ((FamilyTreeListener)listeners[i+1]).personRemoved(familyTreeEvent);
+      }
+    }
+  }
+    
+  /**
+   * Notify all listeners that a person's internal data has been edited.
+   * @param p the person
+   **/
+  protected void firePersonEdited(Person p)
+  {
+    Object[] listeners = listenerList.getListenerList();
+    
+    for (int i = listeners.length-2; i>=0; i-=2) 
+    {
+      if (listeners[i]==FamilyTreeListener.class) 
+      {
+          familyTreeEvent = new FamilyTreeEvent(this,p);
+          ((FamilyTreeListener)listeners[i+1]).personEdited(familyTreeEvent);
+      }
+    }
+  }
+}// FamilyTree

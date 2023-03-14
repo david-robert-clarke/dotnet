@@ -1,0 +1,35 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity gsr_test is 
+   port ( 
+      CLK: in STD_LOGIC;
+      D_IN: in STD_LOGIC;
+      RESET: in STD_LOGIC;
+      Q_OUT: out STD_LOGIC
+   );
+end gsr_test;
+
+
+architecture gsr_test_arch of gsr_test is
+component STARTUP
+   port (GSR: in std_logic);
+end component;
+
+
+begin
+
+
+U1: STARTUP  port map (GSR=>RESET);
+
+
+process (CLK)
+begin
+   if (CLK event and CLK='1') then 
+      Q_OUT <= D_IN;
+   end if;
+end process;
+
+
+end gsr_test_arch;
+

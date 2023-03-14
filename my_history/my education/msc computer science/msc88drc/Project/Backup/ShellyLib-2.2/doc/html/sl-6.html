@@ -1,0 +1,78 @@
+<HTML>
+<HEAD>
+<TITLE>ShellyLibV2.2: Calculation Modi</TITLE>
+</HEAD>
+<BODY>
+<A HREF="sl-5.html">Previous</A>
+<A HREF="sl-7.html">Next</A>
+<A HREF="sl.html#toc6">Table of Contents</A>
+<HR>
+<H2><A NAME="sec-calc"></A> <A NAME="s6">6. Calculation Modi</A></H2>
+
+
+
+<H2><A NAME="ss6.1">6.1 The Nodule mode</A></H2>
+
+<P>The parameters <CODE>"od"</CODE> and <CODE>"sd"</CODE> determine the resolution
+of the generated shell. But if the shell contains nodules that are 
+thin and long you would have to use very small <CODE>"od"</CODE> and <CODE>"sd"</CODE>
+values in order to shape the nodules. This would lead to a real waste
+of memory, because between the nodules the high resolution is not necessary.
+To minimize memory complexity, the special
+nodule calculation mode has been written. This mode adapts both <CODE>"od"</CODE>
+and <CODE>"sd"</CODE> while calculating the shell, so that small distances between
+the calculated points are only used when needed, in the nodules.
+This process may be controlled with the parameters <CODE>"Scano"</CODE>,
+<CODE>"Scans"</CODE>, <CODE>"Hdo"</CODE> and <CODE>"Hds"</CODE>.
+<CODE>"Scano"</CODE> determines the smallest possible distance of two points in
+O direction, the same does <CODE>"Scans"</CODE> for the S direction. 
+<CODE>"Hdo"</CODE> defines the smallest possible difference in height between two
+points in O direction, the same does <CODE>"Hds"</CODE> for the S direction.
+The difference in height is being calculated using the height of the nodule.
+The nodule mode may be invoked by the <CODE>"NODULE"</CODE> keyword.</P>
+<P><CODE>"Hdo"</CODE> and <CODE>"Hds"</CODE> are multiplied by the nodule height
+of the first nodule group, before they are passed to <CODE>"libshelly"</CODE>,
+when using the example frontends. 
+The height difference value is now dependant from the nodule height.
+It is now easier to estimate the effect of a certain value, e.g.
+0.1 means a tenth of the nodule height, no matter how high the
+nodule actually is.
+Note, that this multiplication is not done by <CODE>"libshelly"</CODE>.</P>
+<P>Unfortunately, the result of this mode is of irregular structure.
+This means the only possible output type is triangles. No spline
+output, neither B-spline nor Bezier patches, may be generated using
+this mode.</P>
+
+
+
+<H2><A NAME="ss6.2">6.2 The GenCurve mode</A></H2>
+
+
+<P>The original algorithm of M.B. Cortie is limited to ellipsoid
+generation curves. ShellyLibV2.x allows the user to define any generation
+curve, using the "GenCurve" mode.
+This is useful for Cones or the "Miraculous Thatcheria", which were 
+impossible to generate with the old algorithm.</P>
+<P>The curve needs to be specified as a list of points
+with the <CODE>"GCx:"</CODE> and <CODE>"GCy:"</CODE> keywords. The parameters
+<CODE>"a"</CODE> and <CODE>"b"</CODE> still scale the curve as they do it in the
+other modes with the ellipse, and <CODE>"A"</CODE> moves the curve.
+However, <CODE>"smin"</CODE>,<CODE>"smax"</CODE> and <CODE>"sd"</CODE> are out of function!
+Nodules are possible within this mode, but the result depends
+highly on the number of points of the generation curve.</P>
+<P>Note, that the resolution of the shell depends directly on the
+list of points. The spaces between the points are not interpolated.
+The curves provided in the example data files in the
+<CODE>"shy"</CODE> directory are meant to be used with spline output formats
+like <CODE>"RPL"</CODE> or <CODE>"RIB"</CODE>, because the curves contain only few points.
+Note that not every output format is possible within this mode at present.
+You may use: <CODE>"RPL"</CODE>, <CODE>"RIB"</CODE>, <CODE>"BEZ"</CODE>, <CODE>"SCB"</CODE>.</P>
+<P>Switch to this calculation mode with the <CODE>"GCURVE"</CODE> keyword.</P>
+
+
+<HR>
+<A HREF="sl-5.html">Previous</A>
+<A HREF="sl-7.html">Next</A>
+<A HREF="sl.html#toc6">Table of Contents</A>
+</BODY>
+</HTML>

@@ -1,0 +1,3117 @@
+(edif time_sim
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2000 12 20 15 34 47)
+      (program "Xilinx NGD2EDIF" (version "C.22"))
+      (comment "Command line: -w -v fndtn test_cen.nga time_sim.edn ")))
+  (external SIMPRIMS
+    (edifLevel 0)
+    (technology (numberDefinition
+      (scale 1 (E 1 -12) (unit TIME))))
+    (cell x_ff
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port IN
+            (direction INPUT))
+          (port CLK
+            (direction INPUT))
+          (port CE
+            (direction INPUT))
+          (port SET
+            (direction INPUT))
+          (port RST
+            (direction INPUT))
+          (port OUT
+            (direction OUTPUT))
+      )))
+    (cell x_tri
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port IN
+            (direction INPUT))
+          (port OUT
+            (direction OUTPUT))
+          (port CTL
+            (direction INPUT))
+      )))
+    (cell x_inv
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port IN
+            (direction INPUT))
+          (port OUT
+            (direction OUTPUT))
+      )))
+    (cell x_buf
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port IN
+            (direction INPUT))
+          (port OUT
+            (direction OUTPUT))
+      )))
+    (cell x_and2
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port IN0
+            (direction INPUT))
+          (port IN1
+            (direction INPUT))
+          (port OUT
+            (direction OUTPUT))
+      )))
+    (cell x_one
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port OUT
+            (direction OUTPUT))
+      )))
+    (cell x_ipad
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port PAD
+            (direction INPUT))
+      )))
+    (cell x_zero
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port OUT
+            (direction OUTPUT))
+      )))
+    (cell x_opad
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port PAD
+            (direction OUTPUT))
+      )))
+    (cell x_or2
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port IN0
+            (direction INPUT))
+          (port IN1
+            (direction INPUT))
+          (port OUT
+            (direction OUTPUT))
+      )))
+    (cell x_ckbuf
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port IN
+            (direction INPUT))
+          (port OUT
+            (direction OUTPUT))
+      )))
+  )
+  (library test_cen_lib
+    (edifLevel 0)
+    (technology (numberDefinition
+      (scale 1 (E 1 -12) (unit TIME))))
+    (cell DSP_2_MEM_Q_reg_19_
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port D
+            (direction INPUT)
+            )
+          (port C
+            (direction INPUT)
+            )
+          (port CE
+            (direction INPUT)
+            )
+          (port Q
+            (direction OUTPUT)
+            )
+          (port GSR
+            (direction INPUT)
+            )
+          (port GTS
+            (direction INPUT)
+            )
+        )
+        (contents
+          (instance FF
+            (viewRef view_1 (cellRef x_ff (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (instance (rename OBUF_GTS_TRI "OBUF.GTS.TRI")
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (net D
+            (joined
+              (portRef D)
+              (portRef IN (instanceRef FF))
+            )
+          )
+          (net C
+            (joined
+              (portRef C)
+              (portRef CLK (instanceRef FF))
+            )
+          )
+          (net CE
+            (joined
+              (portRef CE)
+              (portRef CE (instanceRef FF))
+            )
+          )
+          (net Q
+            (joined
+              (portRef Q)
+              (portRef OUT (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net QINT
+            (joined
+              (portRef OUT (instanceRef FF))
+              (portRef IN (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net GSR
+            (joined
+              (portRef GSR)
+              (portRef RST (instanceRef FF))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net GTS
+            (joined
+              (portRef GTS)
+              (portRef IN (instanceRef OBUF_GTS_TRI_2_INV))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (joined
+              (portRef OUT (instanceRef OBUF_GTS_TRI_2_INV))
+              (portRef CTL (instanceRef OBUF_GTS_TRI))
+            )
+          )
+        )
+    ))
+    (cell DSP_2_MEM_Q_reg_18_
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port D
+            (direction INPUT)
+            )
+          (port C
+            (direction INPUT)
+            )
+          (port CE
+            (direction INPUT)
+            )
+          (port Q
+            (direction OUTPUT)
+            )
+          (port GSR
+            (direction INPUT)
+            )
+          (port GTS
+            (direction INPUT)
+            )
+        )
+        (contents
+          (instance FF
+            (viewRef view_1 (cellRef x_ff (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (instance (rename OBUF_GTS_TRI "OBUF.GTS.TRI")
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (net D
+            (joined
+              (portRef D)
+              (portRef IN (instanceRef FF))
+            )
+          )
+          (net C
+            (joined
+              (portRef C)
+              (portRef CLK (instanceRef FF))
+            )
+          )
+          (net CE
+            (joined
+              (portRef CE)
+              (portRef CE (instanceRef FF))
+            )
+          )
+          (net Q
+            (joined
+              (portRef Q)
+              (portRef OUT (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net QINT
+            (joined
+              (portRef OUT (instanceRef FF))
+              (portRef IN (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net GSR
+            (joined
+              (portRef GSR)
+              (portRef RST (instanceRef FF))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net GTS
+            (joined
+              (portRef GTS)
+              (portRef IN (instanceRef OBUF_GTS_TRI_2_INV))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (joined
+              (portRef OUT (instanceRef OBUF_GTS_TRI_2_INV))
+              (portRef CTL (instanceRef OBUF_GTS_TRI))
+            )
+          )
+        )
+    ))
+    (cell DSP_2_MEM_Q_reg_17_
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port D
+            (direction INPUT)
+            )
+          (port C
+            (direction INPUT)
+            )
+          (port CE
+            (direction INPUT)
+            )
+          (port Q
+            (direction OUTPUT)
+            )
+          (port GSR
+            (direction INPUT)
+            )
+          (port GTS
+            (direction INPUT)
+            )
+        )
+        (contents
+          (instance FF
+            (viewRef view_1 (cellRef x_ff (libraryRef SIMPRIMS)))
+            (property PWCLKHI (integer 2110)(unit TIME) (owner "Xilinx"))
+            (property PWCLKLO (integer 2490)(unit TIME) (owner "Xilinx"))
+            (portInstance IN
+              (property FALL (integer 6086)(unit TIME) (owner "Xilinx"))
+              (property RISE (integer 6086)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance CLK
+              (property RISE (integer 1979)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 1789)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance CE
+              (property RISE (integer 3846)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 3846)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance RST
+              (property RISE (integer 4940)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 4940)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance OUT
+              (property RISE (integer 5040)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 5040)(unit TIME) (owner "Xilinx"))
+            )
+          )
+          (instance (rename OBUF_GTS_TRI "OBUF.GTS.TRI")
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+            (portInstance IN
+            )
+          )
+          (instance FF_0_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (instance (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (net D
+            (joined
+              (portRef D)
+              (portRef IN (instanceRef FF_0_INV))
+            )
+          )
+          (net C
+            (joined
+              (portRef C)
+              (portRef CLK (instanceRef FF))
+            )
+          )
+          (net CE
+            (joined
+              (portRef CE)
+              (portRef CE (instanceRef FF))
+            )
+          )
+          (net Q
+            (joined
+              (portRef Q)
+              (portRef OUT (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net QINT
+            (joined
+              (portRef OUT (instanceRef FF))
+              (portRef IN (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net GSR
+            (joined
+              (portRef GSR)
+              (portRef RST (instanceRef FF))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net GTS
+            (joined
+              (portRef GTS)
+              (portRef IN (instanceRef OBUF_GTS_TRI_2_INV))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net FF_0_INV
+            (joined
+              (portRef OUT (instanceRef FF_0_INV))
+              (portRef IN (instanceRef FF))
+            )
+          )
+          (net (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (joined
+              (portRef OUT (instanceRef OBUF_GTS_TRI_2_INV))
+              (portRef CTL (instanceRef OBUF_GTS_TRI))
+            )
+          )
+        )
+    ))
+    (cell DSP_2_MEM_Q_reg_16_
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port D
+            (direction INPUT)
+            )
+          (port C
+            (direction INPUT)
+            )
+          (port CE
+            (direction INPUT)
+            )
+          (port Q
+            (direction OUTPUT)
+            )
+          (port GSR
+            (direction INPUT)
+            )
+          (port GTS
+            (direction INPUT)
+            )
+        )
+        (contents
+          (instance FF
+            (viewRef view_1 (cellRef x_ff (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (instance (rename OBUF_GTS_TRI "OBUF.GTS.TRI")
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (net D
+            (joined
+              (portRef D)
+              (portRef IN (instanceRef FF))
+            )
+          )
+          (net C
+            (joined
+              (portRef C)
+              (portRef CLK (instanceRef FF))
+            )
+          )
+          (net CE
+            (joined
+              (portRef CE)
+              (portRef CE (instanceRef FF))
+            )
+          )
+          (net Q
+            (joined
+              (portRef Q)
+              (portRef OUT (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net QINT
+            (joined
+              (portRef OUT (instanceRef FF))
+              (portRef IN (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net GSR
+            (joined
+              (portRef GSR)
+              (portRef RST (instanceRef FF))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net GTS
+            (joined
+              (portRef GTS)
+              (portRef IN (instanceRef OBUF_GTS_TRI_2_INV))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (joined
+              (portRef OUT (instanceRef OBUF_GTS_TRI_2_INV))
+              (portRef CTL (instanceRef OBUF_GTS_TRI))
+            )
+          )
+        )
+    ))
+    (cell DSP_2_MEM_Q_reg_15_
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port D
+            (direction INPUT)
+            )
+          (port C
+            (direction INPUT)
+            )
+          (port CE
+            (direction INPUT)
+            )
+          (port Q
+            (direction OUTPUT)
+            )
+          (port GSR
+            (direction INPUT)
+            )
+          (port GTS
+            (direction INPUT)
+            )
+        )
+        (contents
+          (instance FF
+            (viewRef view_1 (cellRef x_ff (libraryRef SIMPRIMS)))
+            (property PWCLKHI (integer 2110)(unit TIME) (owner "Xilinx"))
+            (property PWCLKLO (integer 2490)(unit TIME) (owner "Xilinx"))
+            (portInstance IN
+              (property FALL (integer 6041)(unit TIME) (owner "Xilinx"))
+              (property RISE (integer 6041)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance CLK
+              (property RISE (integer 1990)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 1800)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance CE
+              (property RISE (integer 2737)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 2737)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance RST
+              (property RISE (integer 4940)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 4940)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance OUT
+              (property RISE (integer 5040)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 5040)(unit TIME) (owner "Xilinx"))
+            )
+          )
+          (instance (rename OBUF_GTS_TRI "OBUF.GTS.TRI")
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+            (portInstance IN
+            )
+          )
+          (instance FF_0_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (instance (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (net D
+            (joined
+              (portRef D)
+              (portRef IN (instanceRef FF_0_INV))
+            )
+          )
+          (net C
+            (joined
+              (portRef C)
+              (portRef CLK (instanceRef FF))
+            )
+          )
+          (net CE
+            (joined
+              (portRef CE)
+              (portRef CE (instanceRef FF))
+            )
+          )
+          (net Q
+            (joined
+              (portRef Q)
+              (portRef OUT (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net QINT
+            (joined
+              (portRef OUT (instanceRef FF))
+              (portRef IN (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net GSR
+            (joined
+              (portRef GSR)
+              (portRef RST (instanceRef FF))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net GTS
+            (joined
+              (portRef GTS)
+              (portRef IN (instanceRef OBUF_GTS_TRI_2_INV))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net FF_0_INV
+            (joined
+              (portRef OUT (instanceRef FF_0_INV))
+              (portRef IN (instanceRef FF))
+            )
+          )
+          (net (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (joined
+              (portRef OUT (instanceRef OBUF_GTS_TRI_2_INV))
+              (portRef CTL (instanceRef OBUF_GTS_TRI))
+            )
+          )
+        )
+    ))
+    (cell DSP_2_MEM_Q_reg_14_
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port D
+            (direction INPUT)
+            )
+          (port C
+            (direction INPUT)
+            )
+          (port CE
+            (direction INPUT)
+            )
+          (port Q
+            (direction OUTPUT)
+            )
+          (port GSR
+            (direction INPUT)
+            )
+          (port GTS
+            (direction INPUT)
+            )
+        )
+        (contents
+          (instance FF
+            (viewRef view_1 (cellRef x_ff (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (instance (rename OBUF_GTS_TRI "OBUF.GTS.TRI")
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (net D
+            (joined
+              (portRef D)
+              (portRef IN (instanceRef FF))
+            )
+          )
+          (net C
+            (joined
+              (portRef C)
+              (portRef CLK (instanceRef FF))
+            )
+          )
+          (net CE
+            (joined
+              (portRef CE)
+              (portRef CE (instanceRef FF))
+            )
+          )
+          (net Q
+            (joined
+              (portRef Q)
+              (portRef OUT (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net QINT
+            (joined
+              (portRef OUT (instanceRef FF))
+              (portRef IN (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net GSR
+            (joined
+              (portRef GSR)
+              (portRef RST (instanceRef FF))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net GTS
+            (joined
+              (portRef GTS)
+              (portRef IN (instanceRef OBUF_GTS_TRI_2_INV))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (joined
+              (portRef OUT (instanceRef OBUF_GTS_TRI_2_INV))
+              (portRef CTL (instanceRef OBUF_GTS_TRI))
+            )
+          )
+        )
+    ))
+    (cell DSP_2_MEM_Q_reg_13_
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port D
+            (direction INPUT)
+            )
+          (port C
+            (direction INPUT)
+            )
+          (port CE
+            (direction INPUT)
+            )
+          (port Q
+            (direction OUTPUT)
+            )
+          (port GSR
+            (direction INPUT)
+            )
+          (port GTS
+            (direction INPUT)
+            )
+        )
+        (contents
+          (instance FF
+            (viewRef view_1 (cellRef x_ff (libraryRef SIMPRIMS)))
+            (property PWCLKHI (integer 2110)(unit TIME) (owner "Xilinx"))
+            (property PWCLKLO (integer 2490)(unit TIME) (owner "Xilinx"))
+            (portInstance IN
+              (property RISE (integer 1948)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 1948)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance CLK
+              (property RISE (integer 2079)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 1889)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance CE
+              (property RISE (integer 2701)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 2701)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance RST
+              (property RISE (integer 4940)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 4940)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance OUT
+              (property RISE (integer 5040)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 5040)(unit TIME) (owner "Xilinx"))
+            )
+          )
+          (instance (rename OBUF_GTS_TRI "OBUF.GTS.TRI")
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+            (portInstance IN
+            )
+          )
+          (instance (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (net D
+            (joined
+              (portRef D)
+              (portRef IN (instanceRef FF))
+            )
+          )
+          (net C
+            (joined
+              (portRef C)
+              (portRef CLK (instanceRef FF))
+            )
+          )
+          (net CE
+            (joined
+              (portRef CE)
+              (portRef CE (instanceRef FF))
+            )
+          )
+          (net Q
+            (joined
+              (portRef Q)
+              (portRef OUT (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net QINT
+            (joined
+              (portRef OUT (instanceRef FF))
+              (portRef IN (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net GSR
+            (joined
+              (portRef GSR)
+              (portRef RST (instanceRef FF))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net GTS
+            (joined
+              (portRef GTS)
+              (portRef IN (instanceRef OBUF_GTS_TRI_2_INV))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (joined
+              (portRef OUT (instanceRef OBUF_GTS_TRI_2_INV))
+              (portRef CTL (instanceRef OBUF_GTS_TRI))
+            )
+          )
+        )
+    ))
+    (cell DSP_2_MEM_Q_reg_12_
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port D
+            (direction INPUT)
+            )
+          (port C
+            (direction INPUT)
+            )
+          (port CE
+            (direction INPUT)
+            )
+          (port Q
+            (direction OUTPUT)
+            )
+          (port GSR
+            (direction INPUT)
+            )
+          (port GTS
+            (direction INPUT)
+            )
+        )
+        (contents
+          (instance FF
+            (viewRef view_1 (cellRef x_ff (libraryRef SIMPRIMS)))
+            (property PWCLKHI (integer 2110)(unit TIME) (owner "Xilinx"))
+            (property PWCLKLO (integer 2490)(unit TIME) (owner "Xilinx"))
+            (portInstance IN
+              (property RISE (integer 1706)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 1706)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance CLK
+              (property RISE (integer 2057)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 1867)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance CE
+              (property RISE (integer 4897)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 4897)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance RST
+              (property RISE (integer 4940)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 4940)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance OUT
+              (property RISE (integer 5040)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 5040)(unit TIME) (owner "Xilinx"))
+            )
+          )
+          (instance (rename OBUF_GTS_TRI "OBUF.GTS.TRI")
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+            (portInstance IN
+            )
+          )
+          (instance (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (net D
+            (joined
+              (portRef D)
+              (portRef IN (instanceRef FF))
+            )
+          )
+          (net C
+            (joined
+              (portRef C)
+              (portRef CLK (instanceRef FF))
+            )
+          )
+          (net CE
+            (joined
+              (portRef CE)
+              (portRef CE (instanceRef FF))
+            )
+          )
+          (net Q
+            (joined
+              (portRef Q)
+              (portRef OUT (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net QINT
+            (joined
+              (portRef OUT (instanceRef FF))
+              (portRef IN (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net GSR
+            (joined
+              (portRef GSR)
+              (portRef RST (instanceRef FF))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net GTS
+            (joined
+              (portRef GTS)
+              (portRef IN (instanceRef OBUF_GTS_TRI_2_INV))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (joined
+              (portRef OUT (instanceRef OBUF_GTS_TRI_2_INV))
+              (portRef CTL (instanceRef OBUF_GTS_TRI))
+            )
+          )
+        )
+    ))
+    (cell DSP_2_MEM_Q_reg_11_
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port D
+            (direction INPUT)
+            )
+          (port C
+            (direction INPUT)
+            )
+          (port CE
+            (direction INPUT)
+            )
+          (port Q
+            (direction OUTPUT)
+            )
+          (port GSR
+            (direction INPUT)
+            )
+          (port GTS
+            (direction INPUT)
+            )
+        )
+        (contents
+          (instance FF
+            (viewRef view_1 (cellRef x_ff (libraryRef SIMPRIMS)))
+            (property PWCLKHI (integer 2110)(unit TIME) (owner "Xilinx"))
+            (property PWCLKLO (integer 2490)(unit TIME) (owner "Xilinx"))
+            (portInstance IN
+              (property FALL (integer 6046)(unit TIME) (owner "Xilinx"))
+              (property RISE (integer 6046)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance CLK
+              (property RISE (integer 1998)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 1808)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance CE
+              (property RISE (integer 2642)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 2642)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance RST
+              (property RISE (integer 4940)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 4940)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance OUT
+              (property RISE (integer 5040)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 5040)(unit TIME) (owner "Xilinx"))
+            )
+          )
+          (instance (rename OBUF_GTS_TRI "OBUF.GTS.TRI")
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+            (portInstance IN
+            )
+          )
+          (instance FF_0_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (instance (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (net D
+            (joined
+              (portRef D)
+              (portRef IN (instanceRef FF_0_INV))
+            )
+          )
+          (net C
+            (joined
+              (portRef C)
+              (portRef CLK (instanceRef FF))
+            )
+          )
+          (net CE
+            (joined
+              (portRef CE)
+              (portRef CE (instanceRef FF))
+            )
+          )
+          (net Q
+            (joined
+              (portRef Q)
+              (portRef OUT (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net QINT
+            (joined
+              (portRef OUT (instanceRef FF))
+              (portRef IN (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net GSR
+            (joined
+              (portRef GSR)
+              (portRef RST (instanceRef FF))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net GTS
+            (joined
+              (portRef GTS)
+              (portRef IN (instanceRef OBUF_GTS_TRI_2_INV))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net FF_0_INV
+            (joined
+              (portRef OUT (instanceRef FF_0_INV))
+              (portRef IN (instanceRef FF))
+            )
+          )
+          (net (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (joined
+              (portRef OUT (instanceRef OBUF_GTS_TRI_2_INV))
+              (portRef CTL (instanceRef OBUF_GTS_TRI))
+            )
+          )
+        )
+    ))
+    (cell DSP_2_MEM_Q_reg_10_
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port D
+            (direction INPUT)
+            )
+          (port C
+            (direction INPUT)
+            )
+          (port CE
+            (direction INPUT)
+            )
+          (port Q
+            (direction OUTPUT)
+            )
+          (port GSR
+            (direction INPUT)
+            )
+          (port GTS
+            (direction INPUT)
+            )
+        )
+        (contents
+          (instance FF
+            (viewRef view_1 (cellRef x_ff (libraryRef SIMPRIMS)))
+            (property PWCLKHI (integer 2110)(unit TIME) (owner "Xilinx"))
+            (property PWCLKLO (integer 2490)(unit TIME) (owner "Xilinx"))
+            (portInstance IN
+              (property FALL (integer 2410)(unit TIME) (owner "Xilinx"))
+              (property RISE (integer 2410)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance CLK
+              (property RISE (integer 2032)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 1842)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance CE
+              (property RISE (integer 5878)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 5878)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance RST
+              (property RISE (integer 4940)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 4940)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance OUT
+              (property RISE (integer 5040)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 5040)(unit TIME) (owner "Xilinx"))
+            )
+          )
+          (instance (rename OBUF_GTS_TRI "OBUF.GTS.TRI")
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+            (portInstance IN
+            )
+          )
+          (instance FF_0_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (instance (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (net D
+            (joined
+              (portRef D)
+              (portRef IN (instanceRef FF_0_INV))
+            )
+          )
+          (net C
+            (joined
+              (portRef C)
+              (portRef CLK (instanceRef FF))
+            )
+          )
+          (net CE
+            (joined
+              (portRef CE)
+              (portRef CE (instanceRef FF))
+            )
+          )
+          (net Q
+            (joined
+              (portRef Q)
+              (portRef OUT (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net QINT
+            (joined
+              (portRef OUT (instanceRef FF))
+              (portRef IN (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net GSR
+            (joined
+              (portRef GSR)
+              (portRef RST (instanceRef FF))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net GTS
+            (joined
+              (portRef GTS)
+              (portRef IN (instanceRef OBUF_GTS_TRI_2_INV))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net FF_0_INV
+            (joined
+              (portRef OUT (instanceRef FF_0_INV))
+              (portRef IN (instanceRef FF))
+            )
+          )
+          (net (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (joined
+              (portRef OUT (instanceRef OBUF_GTS_TRI_2_INV))
+              (portRef CTL (instanceRef OBUF_GTS_TRI))
+            )
+          )
+        )
+    ))
+    (cell DSP_2_MEM_Q_reg_9_
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port D
+            (direction INPUT)
+            )
+          (port C
+            (direction INPUT)
+            )
+          (port CE
+            (direction INPUT)
+            )
+          (port Q
+            (direction OUTPUT)
+            )
+          (port GSR
+            (direction INPUT)
+            )
+          (port GTS
+            (direction INPUT)
+            )
+        )
+        (contents
+          (instance FF
+            (viewRef view_1 (cellRef x_ff (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (instance (rename OBUF_GTS_TRI "OBUF.GTS.TRI")
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (net D
+            (joined
+              (portRef D)
+              (portRef IN (instanceRef FF))
+            )
+          )
+          (net C
+            (joined
+              (portRef C)
+              (portRef CLK (instanceRef FF))
+            )
+          )
+          (net CE
+            (joined
+              (portRef CE)
+              (portRef CE (instanceRef FF))
+            )
+          )
+          (net Q
+            (joined
+              (portRef Q)
+              (portRef OUT (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net QINT
+            (joined
+              (portRef OUT (instanceRef FF))
+              (portRef IN (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net GSR
+            (joined
+              (portRef GSR)
+              (portRef RST (instanceRef FF))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net GTS
+            (joined
+              (portRef GTS)
+              (portRef IN (instanceRef OBUF_GTS_TRI_2_INV))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (joined
+              (portRef OUT (instanceRef OBUF_GTS_TRI_2_INV))
+              (portRef CTL (instanceRef OBUF_GTS_TRI))
+            )
+          )
+        )
+    ))
+    (cell DSP_2_MEM_Q_reg_8_
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port D
+            (direction INPUT)
+            )
+          (port C
+            (direction INPUT)
+            )
+          (port CE
+            (direction INPUT)
+            )
+          (port Q
+            (direction OUTPUT)
+            )
+          (port GSR
+            (direction INPUT)
+            )
+          (port GTS
+            (direction INPUT)
+            )
+        )
+        (contents
+          (instance FF
+            (viewRef view_1 (cellRef x_ff (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (instance (rename OBUF_GTS_TRI "OBUF.GTS.TRI")
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (net D
+            (joined
+              (portRef D)
+              (portRef IN (instanceRef FF))
+            )
+          )
+          (net C
+            (joined
+              (portRef C)
+              (portRef CLK (instanceRef FF))
+            )
+          )
+          (net CE
+            (joined
+              (portRef CE)
+              (portRef CE (instanceRef FF))
+            )
+          )
+          (net Q
+            (joined
+              (portRef Q)
+              (portRef OUT (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net QINT
+            (joined
+              (portRef OUT (instanceRef FF))
+              (portRef IN (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net GSR
+            (joined
+              (portRef GSR)
+              (portRef RST (instanceRef FF))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net GTS
+            (joined
+              (portRef GTS)
+              (portRef IN (instanceRef OBUF_GTS_TRI_2_INV))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (joined
+              (portRef OUT (instanceRef OBUF_GTS_TRI_2_INV))
+              (portRef CTL (instanceRef OBUF_GTS_TRI))
+            )
+          )
+        )
+    ))
+    (cell DSP_2_MEM_Q_reg_7_
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port D
+            (direction INPUT)
+            )
+          (port C
+            (direction INPUT)
+            )
+          (port CE
+            (direction INPUT)
+            )
+          (port Q
+            (direction OUTPUT)
+            )
+          (port GSR
+            (direction INPUT)
+            )
+          (port GTS
+            (direction INPUT)
+            )
+        )
+        (contents
+          (instance FF
+            (viewRef view_1 (cellRef x_ff (libraryRef SIMPRIMS)))
+            (property PWCLKHI (integer 2110)(unit TIME) (owner "Xilinx"))
+            (property PWCLKLO (integer 2490)(unit TIME) (owner "Xilinx"))
+            (portInstance IN
+              (property FALL (integer 1987)(unit TIME) (owner "Xilinx"))
+              (property RISE (integer 1987)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance CLK
+              (property RISE (integer 2003)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 1813)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance CE
+              (property RISE (integer 4276)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 4276)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance RST
+              (property RISE (integer 4940)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 4940)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance OUT
+              (property RISE (integer 5040)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 5040)(unit TIME) (owner "Xilinx"))
+            )
+          )
+          (instance (rename OBUF_GTS_TRI "OBUF.GTS.TRI")
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+            (portInstance IN
+            )
+          )
+          (instance FF_0_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (instance (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (net D
+            (joined
+              (portRef D)
+              (portRef IN (instanceRef FF_0_INV))
+            )
+          )
+          (net C
+            (joined
+              (portRef C)
+              (portRef CLK (instanceRef FF))
+            )
+          )
+          (net CE
+            (joined
+              (portRef CE)
+              (portRef CE (instanceRef FF))
+            )
+          )
+          (net Q
+            (joined
+              (portRef Q)
+              (portRef OUT (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net QINT
+            (joined
+              (portRef OUT (instanceRef FF))
+              (portRef IN (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net GSR
+            (joined
+              (portRef GSR)
+              (portRef RST (instanceRef FF))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net GTS
+            (joined
+              (portRef GTS)
+              (portRef IN (instanceRef OBUF_GTS_TRI_2_INV))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net FF_0_INV
+            (joined
+              (portRef OUT (instanceRef FF_0_INV))
+              (portRef IN (instanceRef FF))
+            )
+          )
+          (net (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (joined
+              (portRef OUT (instanceRef OBUF_GTS_TRI_2_INV))
+              (portRef CTL (instanceRef OBUF_GTS_TRI))
+            )
+          )
+        )
+    ))
+    (cell DSP_2_MEM_Q_reg_6_
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port D
+            (direction INPUT)
+            )
+          (port C
+            (direction INPUT)
+            )
+          (port CE
+            (direction INPUT)
+            )
+          (port Q
+            (direction OUTPUT)
+            )
+          (port GSR
+            (direction INPUT)
+            )
+          (port GTS
+            (direction INPUT)
+            )
+        )
+        (contents
+          (instance FF
+            (viewRef view_1 (cellRef x_ff (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (instance (rename OBUF_GTS_TRI "OBUF.GTS.TRI")
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (net D
+            (joined
+              (portRef D)
+              (portRef IN (instanceRef FF))
+            )
+          )
+          (net C
+            (joined
+              (portRef C)
+              (portRef CLK (instanceRef FF))
+            )
+          )
+          (net CE
+            (joined
+              (portRef CE)
+              (portRef CE (instanceRef FF))
+            )
+          )
+          (net Q
+            (joined
+              (portRef Q)
+              (portRef OUT (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net QINT
+            (joined
+              (portRef OUT (instanceRef FF))
+              (portRef IN (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net GSR
+            (joined
+              (portRef GSR)
+              (portRef RST (instanceRef FF))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net GTS
+            (joined
+              (portRef GTS)
+              (portRef IN (instanceRef OBUF_GTS_TRI_2_INV))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (joined
+              (portRef OUT (instanceRef OBUF_GTS_TRI_2_INV))
+              (portRef CTL (instanceRef OBUF_GTS_TRI))
+            )
+          )
+        )
+    ))
+    (cell DSP_2_MEM_Q_reg_5_
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port D
+            (direction INPUT)
+            )
+          (port C
+            (direction INPUT)
+            )
+          (port CE
+            (direction INPUT)
+            )
+          (port Q
+            (direction OUTPUT)
+            )
+          (port GSR
+            (direction INPUT)
+            )
+          (port GTS
+            (direction INPUT)
+            )
+        )
+        (contents
+          (instance FF
+            (viewRef view_1 (cellRef x_ff (libraryRef SIMPRIMS)))
+            (property PWCLKHI (integer 2110)(unit TIME) (owner "Xilinx"))
+            (property PWCLKLO (integer 2490)(unit TIME) (owner "Xilinx"))
+            (portInstance IN
+              (property FALL (integer 2409)(unit TIME) (owner "Xilinx"))
+              (property RISE (integer 2409)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance CLK
+              (property RISE (integer 2032)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 1842)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance CE
+              (property RISE (integer 4122)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 4122)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance RST
+              (property RISE (integer 4940)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 4940)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance OUT
+              (property RISE (integer 5040)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 5040)(unit TIME) (owner "Xilinx"))
+            )
+          )
+          (instance (rename OBUF_GTS_TRI "OBUF.GTS.TRI")
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+            (portInstance IN
+            )
+          )
+          (instance FF_0_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (instance (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (net D
+            (joined
+              (portRef D)
+              (portRef IN (instanceRef FF_0_INV))
+            )
+          )
+          (net C
+            (joined
+              (portRef C)
+              (portRef CLK (instanceRef FF))
+            )
+          )
+          (net CE
+            (joined
+              (portRef CE)
+              (portRef CE (instanceRef FF))
+            )
+          )
+          (net Q
+            (joined
+              (portRef Q)
+              (portRef OUT (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net QINT
+            (joined
+              (portRef OUT (instanceRef FF))
+              (portRef IN (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net GSR
+            (joined
+              (portRef GSR)
+              (portRef RST (instanceRef FF))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net GTS
+            (joined
+              (portRef GTS)
+              (portRef IN (instanceRef OBUF_GTS_TRI_2_INV))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net FF_0_INV
+            (joined
+              (portRef OUT (instanceRef FF_0_INV))
+              (portRef IN (instanceRef FF))
+            )
+          )
+          (net (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (joined
+              (portRef OUT (instanceRef OBUF_GTS_TRI_2_INV))
+              (portRef CTL (instanceRef OBUF_GTS_TRI))
+            )
+          )
+        )
+    ))
+    (cell DSP_2_MEM_Q_reg_4_
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port D
+            (direction INPUT)
+            )
+          (port C
+            (direction INPUT)
+            )
+          (port CE
+            (direction INPUT)
+            )
+          (port Q
+            (direction OUTPUT)
+            )
+          (port GSR
+            (direction INPUT)
+            )
+          (port GTS
+            (direction INPUT)
+            )
+        )
+        (contents
+          (instance FF
+            (viewRef view_1 (cellRef x_ff (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (instance (rename OBUF_GTS_TRI "OBUF.GTS.TRI")
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+          )
+          (instance (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (net D
+            (joined
+              (portRef D)
+              (portRef IN (instanceRef FF))
+            )
+          )
+          (net C
+            (joined
+              (portRef C)
+              (portRef CLK (instanceRef FF))
+            )
+          )
+          (net CE
+            (joined
+              (portRef CE)
+              (portRef CE (instanceRef FF))
+            )
+          )
+          (net Q
+            (joined
+              (portRef Q)
+              (portRef OUT (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net QINT
+            (joined
+              (portRef OUT (instanceRef FF))
+              (portRef IN (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net GSR
+            (joined
+              (portRef GSR)
+              (portRef RST (instanceRef FF))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net GTS
+            (joined
+              (portRef GTS)
+              (portRef IN (instanceRef OBUF_GTS_TRI_2_INV))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (joined
+              (portRef OUT (instanceRef OBUF_GTS_TRI_2_INV))
+              (portRef CTL (instanceRef OBUF_GTS_TRI))
+            )
+          )
+        )
+    ))
+    (cell DSP_2_MEM_Q_reg_3_
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port D
+            (direction INPUT)
+            )
+          (port C
+            (direction INPUT)
+            )
+          (port CE
+            (direction INPUT)
+            )
+          (port Q
+            (direction OUTPUT)
+            )
+          (port GSR
+            (direction INPUT)
+            )
+          (port GTS
+            (direction INPUT)
+            )
+        )
+        (contents
+          (instance FF
+            (viewRef view_1 (cellRef x_ff (libraryRef SIMPRIMS)))
+            (property PWCLKHI (integer 2110)(unit TIME) (owner "Xilinx"))
+            (property PWCLKLO (integer 2490)(unit TIME) (owner "Xilinx"))
+            (portInstance IN
+              (property RISE (integer 1947)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 1947)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance CLK
+              (property RISE (integer 2079)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 1889)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance CE
+              (property RISE (integer 1202)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 1202)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance RST
+              (property RISE (integer 4940)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 4940)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance OUT
+              (property RISE (integer 5040)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 5040)(unit TIME) (owner "Xilinx"))
+            )
+          )
+          (instance (rename OBUF_GTS_TRI "OBUF.GTS.TRI")
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+            (portInstance IN
+            )
+          )
+          (instance (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (net D
+            (joined
+              (portRef D)
+              (portRef IN (instanceRef FF))
+            )
+          )
+          (net C
+            (joined
+              (portRef C)
+              (portRef CLK (instanceRef FF))
+            )
+          )
+          (net CE
+            (joined
+              (portRef CE)
+              (portRef CE (instanceRef FF))
+            )
+          )
+          (net Q
+            (joined
+              (portRef Q)
+              (portRef OUT (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net QINT
+            (joined
+              (portRef OUT (instanceRef FF))
+              (portRef IN (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net GSR
+            (joined
+              (portRef GSR)
+              (portRef RST (instanceRef FF))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net GTS
+            (joined
+              (portRef GTS)
+              (portRef IN (instanceRef OBUF_GTS_TRI_2_INV))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (joined
+              (portRef OUT (instanceRef OBUF_GTS_TRI_2_INV))
+              (portRef CTL (instanceRef OBUF_GTS_TRI))
+            )
+          )
+        )
+    ))
+    (cell DSP_2_MEM_Q_reg_2_
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port D
+            (direction INPUT)
+            )
+          (port C
+            (direction INPUT)
+            )
+          (port CE
+            (direction INPUT)
+            )
+          (port Q
+            (direction OUTPUT)
+            )
+          (port GSR
+            (direction INPUT)
+            )
+          (port GTS
+            (direction INPUT)
+            )
+        )
+        (contents
+          (instance FF
+            (viewRef view_1 (cellRef x_ff (libraryRef SIMPRIMS)))
+            (property PWCLKHI (integer 2110)(unit TIME) (owner "Xilinx"))
+            (property PWCLKLO (integer 2490)(unit TIME) (owner "Xilinx"))
+            (portInstance IN
+              (property RISE (integer 1707)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 1707)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance CLK
+              (property RISE (integer 2057)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 1867)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance CE
+              (property RISE (integer 2908)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 2908)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance RST
+              (property RISE (integer 4940)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 4940)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance OUT
+              (property RISE (integer 5040)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 5040)(unit TIME) (owner "Xilinx"))
+            )
+          )
+          (instance (rename OBUF_GTS_TRI "OBUF.GTS.TRI")
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+            (portInstance IN
+            )
+          )
+          (instance (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (net D
+            (joined
+              (portRef D)
+              (portRef IN (instanceRef FF))
+            )
+          )
+          (net C
+            (joined
+              (portRef C)
+              (portRef CLK (instanceRef FF))
+            )
+          )
+          (net CE
+            (joined
+              (portRef CE)
+              (portRef CE (instanceRef FF))
+            )
+          )
+          (net Q
+            (joined
+              (portRef Q)
+              (portRef OUT (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net QINT
+            (joined
+              (portRef OUT (instanceRef FF))
+              (portRef IN (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net GSR
+            (joined
+              (portRef GSR)
+              (portRef RST (instanceRef FF))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net GTS
+            (joined
+              (portRef GTS)
+              (portRef IN (instanceRef OBUF_GTS_TRI_2_INV))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (joined
+              (portRef OUT (instanceRef OBUF_GTS_TRI_2_INV))
+              (portRef CTL (instanceRef OBUF_GTS_TRI))
+            )
+          )
+        )
+    ))
+    (cell DSP_2_MEM_Q_reg_1_
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port D
+            (direction INPUT)
+            )
+          (port C
+            (direction INPUT)
+            )
+          (port CE
+            (direction INPUT)
+            )
+          (port Q
+            (direction OUTPUT)
+            )
+          (port GSR
+            (direction INPUT)
+            )
+          (port GTS
+            (direction INPUT)
+            )
+        )
+        (contents
+          (instance FF
+            (viewRef view_1 (cellRef x_ff (libraryRef SIMPRIMS)))
+            (property PWCLKHI (integer 2110)(unit TIME) (owner "Xilinx"))
+            (property PWCLKLO (integer 2490)(unit TIME) (owner "Xilinx"))
+            (portInstance IN
+              (property FALL (integer 1987)(unit TIME) (owner "Xilinx"))
+              (property RISE (integer 1987)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance CLK
+              (property RISE (integer 1987)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 1797)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance CE
+              (property RISE (integer 4840)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 4840)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance RST
+              (property RISE (integer 4940)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 4940)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance OUT
+              (property RISE (integer 5040)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 5040)(unit TIME) (owner "Xilinx"))
+            )
+          )
+          (instance (rename OBUF_GTS_TRI "OBUF.GTS.TRI")
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+            (portInstance IN
+            )
+          )
+          (instance FF_0_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (instance (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (net D
+            (joined
+              (portRef D)
+              (portRef IN (instanceRef FF_0_INV))
+            )
+          )
+          (net C
+            (joined
+              (portRef C)
+              (portRef CLK (instanceRef FF))
+            )
+          )
+          (net CE
+            (joined
+              (portRef CE)
+              (portRef CE (instanceRef FF))
+            )
+          )
+          (net Q
+            (joined
+              (portRef Q)
+              (portRef OUT (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net QINT
+            (joined
+              (portRef OUT (instanceRef FF))
+              (portRef IN (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net GSR
+            (joined
+              (portRef GSR)
+              (portRef RST (instanceRef FF))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net GTS
+            (joined
+              (portRef GTS)
+              (portRef IN (instanceRef OBUF_GTS_TRI_2_INV))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net FF_0_INV
+            (joined
+              (portRef OUT (instanceRef FF_0_INV))
+              (portRef IN (instanceRef FF))
+            )
+          )
+          (net (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (joined
+              (portRef OUT (instanceRef OBUF_GTS_TRI_2_INV))
+              (portRef CTL (instanceRef OBUF_GTS_TRI))
+            )
+          )
+        )
+    ))
+    (cell DSP_2_MEM_Q_reg_0_
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port D
+            (direction INPUT)
+            )
+          (port C
+            (direction INPUT)
+            )
+          (port CE
+            (direction INPUT)
+            )
+          (port Q
+            (direction OUTPUT)
+            )
+          (port GSR
+            (direction INPUT)
+            )
+          (port GTS
+            (direction INPUT)
+            )
+        )
+        (contents
+          (instance FF
+            (viewRef view_1 (cellRef x_ff (libraryRef SIMPRIMS)))
+            (property PWCLKHI (integer 2110)(unit TIME) (owner "Xilinx"))
+            (property PWCLKLO (integer 2490)(unit TIME) (owner "Xilinx"))
+            (portInstance IN
+              (property FALL (integer 1986)(unit TIME) (owner "Xilinx"))
+              (property RISE (integer 1986)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance CLK
+              (property RISE (integer 2003)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 1813)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance CE
+              (property RISE (integer 4276)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 4276)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance RST
+              (property RISE (integer 4940)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 4940)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance OUT
+              (property RISE (integer 5040)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 5040)(unit TIME) (owner "Xilinx"))
+            )
+          )
+          (instance (rename OBUF_GTS_TRI "OBUF.GTS.TRI")
+            (viewRef view_1 (cellRef x_tri (libraryRef SIMPRIMS)))
+            (portInstance IN
+            )
+          )
+          (instance FF_0_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (instance (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (net D
+            (joined
+              (portRef D)
+              (portRef IN (instanceRef FF_0_INV))
+            )
+          )
+          (net C
+            (joined
+              (portRef C)
+              (portRef CLK (instanceRef FF))
+            )
+          )
+          (net CE
+            (joined
+              (portRef CE)
+              (portRef CE (instanceRef FF))
+            )
+          )
+          (net Q
+            (joined
+              (portRef Q)
+              (portRef OUT (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net QINT
+            (joined
+              (portRef OUT (instanceRef FF))
+              (portRef IN (instanceRef OBUF_GTS_TRI))
+            )
+          )
+          (net GSR
+            (joined
+              (portRef GSR)
+              (portRef RST (instanceRef FF))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net GTS
+            (joined
+              (portRef GTS)
+              (portRef IN (instanceRef OBUF_GTS_TRI_2_INV))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net FF_0_INV
+            (joined
+              (portRef OUT (instanceRef FF_0_INV))
+              (portRef IN (instanceRef FF))
+            )
+          )
+          (net (rename OBUF_GTS_TRI_2_INV "OBUF.GTS.TRI_2_INV")
+            (joined
+              (portRef OUT (instanceRef OBUF_GTS_TRI_2_INV))
+              (portRef CTL (instanceRef OBUF_GTS_TRI))
+            )
+          )
+        )
+    ))
+    (cell test_cen
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port RESET
+            (direction INPUT)
+            (designator "40")
+            )
+          (port (rename A0B0_A1B2_4_ "A0B0_A1B2<4>")
+            (direction OUTPUT)
+            (designator "6")
+            )
+          (port (rename A0B0_A1B2_3_ "A0B0_A1B2<3>")
+            (direction OUTPUT)
+            (designator "83")
+            )
+          (port (rename A0B0_A1B2_2_ "A0B0_A1B2<2>")
+            (direction OUTPUT)
+            (designator "58")
+            )
+          (port (rename A0B0_A1B2_1_ "A0B0_A1B2<1>")
+            (direction OUTPUT)
+            (designator "39")
+            )
+          (port (rename A0B0_A1B2_0_ "A0B0_A1B2<0>")
+            (direction OUTPUT)
+            (designator "56")
+            )
+          (port (rename A0B1_A1B3_4_ "A0B1_A1B3<4>")
+            (direction OUTPUT)
+            (designator "3")
+            )
+          (port (rename A0B1_A1B3_3_ "A0B1_A1B3<3>")
+            (direction OUTPUT)
+            (designator "51")
+            )
+          (port (rename A0B1_A1B3_2_ "A0B1_A1B3<2>")
+            (direction OUTPUT)
+            (designator "48")
+            )
+          (port (rename A0B1_A1B3_1_ "A0B1_A1B3<1>")
+            (direction OUTPUT)
+            (designator "57")
+            )
+          (port (rename A0B1_A1B3_0_ "A0B1_A1B3<0>")
+            (direction OUTPUT)
+            (designator "47")
+            )
+          (port (rename A2B0_A3B2_4_ "A2B0_A3B2<4>")
+            (direction OUTPUT)
+            (designator "60")
+            )
+          (port (rename A2B0_A3B2_3_ "A2B0_A3B2<3>")
+            (direction OUTPUT)
+            (designator "79")
+            )
+          (port (rename A2B0_A3B2_2_ "A2B0_A3B2<2>")
+            (direction OUTPUT)
+            (designator "45")
+            )
+          (port (rename A2B0_A3B2_1_ "A2B0_A3B2<1>")
+            (direction OUTPUT)
+            (designator "77")
+            )
+          (port (rename A2B0_A3B2_0_ "A2B0_A3B2<0>")
+            (direction OUTPUT)
+            (designator "46")
+            )
+          (port (rename A2B1_A3B3_4_ "A2B1_A3B3<4>")
+            (direction OUTPUT)
+            (designator "5")
+            )
+          (port (rename A2B1_A3B3_3_ "A2B1_A3B3<3>")
+            (direction OUTPUT)
+            (designator "50")
+            )
+          (port (rename A2B1_A3B3_2_ "A2B1_A3B3<2>")
+            (direction OUTPUT)
+            (designator "49")
+            )
+          (port (rename A2B1_A3B3_1_ "A2B1_A3B3<1>")
+            (direction OUTPUT)
+            (designator "41")
+            )
+          (port (rename A2B1_A3B3_0_ "A2B1_A3B3<0>")
+            (direction OUTPUT)
+            (designator "44")
+            )
+          (port CLK
+            (direction INPUT)
+            (designator "13")
+            )
+          (designator "4010xlpc84-09")
+        )
+        (contents
+          (instance (rename DSP_2_MEM_Q_reg_19_ "DSP_2_MEM_Q_reg<19>")
+            (viewRef view_1 (cellRef DSP_2_MEM_Q_reg_19_ (libraryRef test_cen_lib))))
+          (instance (rename DSP_2_MEM_Q_reg_18_ "DSP_2_MEM_Q_reg<18>")
+            (viewRef view_1 (cellRef DSP_2_MEM_Q_reg_18_ (libraryRef test_cen_lib))))
+          (instance (rename DSP_2_MEM_Q_reg_17_ "DSP_2_MEM_Q_reg<17>")
+            (viewRef view_1 (cellRef DSP_2_MEM_Q_reg_17_ (libraryRef test_cen_lib))))
+          (instance (rename DSP_2_MEM_Q_reg_16_ "DSP_2_MEM_Q_reg<16>")
+            (viewRef view_1 (cellRef DSP_2_MEM_Q_reg_16_ (libraryRef test_cen_lib))))
+          (instance (rename DSP_2_MEM_Q_reg_15_ "DSP_2_MEM_Q_reg<15>")
+            (viewRef view_1 (cellRef DSP_2_MEM_Q_reg_15_ (libraryRef test_cen_lib))))
+          (instance (rename DSP_2_MEM_Q_reg_14_ "DSP_2_MEM_Q_reg<14>")
+            (viewRef view_1 (cellRef DSP_2_MEM_Q_reg_14_ (libraryRef test_cen_lib))))
+          (instance (rename DSP_2_MEM_Q_reg_13_ "DSP_2_MEM_Q_reg<13>")
+            (viewRef view_1 (cellRef DSP_2_MEM_Q_reg_13_ (libraryRef test_cen_lib))))
+          (instance (rename DSP_2_MEM_Q_reg_12_ "DSP_2_MEM_Q_reg<12>")
+            (viewRef view_1 (cellRef DSP_2_MEM_Q_reg_12_ (libraryRef test_cen_lib))))
+          (instance (rename DSP_2_MEM_Q_reg_11_ "DSP_2_MEM_Q_reg<11>")
+            (viewRef view_1 (cellRef DSP_2_MEM_Q_reg_11_ (libraryRef test_cen_lib))))
+          (instance (rename DSP_2_MEM_Q_reg_10_ "DSP_2_MEM_Q_reg<10>")
+            (viewRef view_1 (cellRef DSP_2_MEM_Q_reg_10_ (libraryRef test_cen_lib))))
+          (instance (rename DSP_2_MEM_Q_reg_9_ "DSP_2_MEM_Q_reg<9>")
+            (viewRef view_1 (cellRef DSP_2_MEM_Q_reg_9_ (libraryRef test_cen_lib))))
+          (instance (rename DSP_2_MEM_Q_reg_8_ "DSP_2_MEM_Q_reg<8>")
+            (viewRef view_1 (cellRef DSP_2_MEM_Q_reg_8_ (libraryRef test_cen_lib))))
+          (instance (rename DSP_2_MEM_Q_reg_7_ "DSP_2_MEM_Q_reg<7>")
+            (viewRef view_1 (cellRef DSP_2_MEM_Q_reg_7_ (libraryRef test_cen_lib))))
+          (instance (rename DSP_2_MEM_Q_reg_6_ "DSP_2_MEM_Q_reg<6>")
+            (viewRef view_1 (cellRef DSP_2_MEM_Q_reg_6_ (libraryRef test_cen_lib))))
+          (instance (rename DSP_2_MEM_Q_reg_5_ "DSP_2_MEM_Q_reg<5>")
+            (viewRef view_1 (cellRef DSP_2_MEM_Q_reg_5_ (libraryRef test_cen_lib))))
+          (instance (rename DSP_2_MEM_Q_reg_4_ "DSP_2_MEM_Q_reg<4>")
+            (viewRef view_1 (cellRef DSP_2_MEM_Q_reg_4_ (libraryRef test_cen_lib))))
+          (instance (rename DSP_2_MEM_Q_reg_3_ "DSP_2_MEM_Q_reg<3>")
+            (viewRef view_1 (cellRef DSP_2_MEM_Q_reg_3_ (libraryRef test_cen_lib))))
+          (instance (rename DSP_2_MEM_Q_reg_2_ "DSP_2_MEM_Q_reg<2>")
+            (viewRef view_1 (cellRef DSP_2_MEM_Q_reg_2_ (libraryRef test_cen_lib))))
+          (instance (rename DSP_2_MEM_Q_reg_1_ "DSP_2_MEM_Q_reg<1>")
+            (viewRef view_1 (cellRef DSP_2_MEM_Q_reg_1_ (libraryRef test_cen_lib))))
+          (instance (rename DSP_2_MEM_Q_reg_0_ "DSP_2_MEM_Q_reg<0>")
+            (viewRef view_1 (cellRef DSP_2_MEM_Q_reg_0_ (libraryRef test_cen_lib))))
+          (instance (rename Asm_Config_2_A_CURRENT_STATE_reg_1_ "Asm_Config_2_A_CURRENT_STATE_reg<1>")
+            (viewRef view_1 (cellRef x_ff (libraryRef SIMPRIMS)))
+            (property PWCLKHI (integer 2300)(unit TIME) (owner "Xilinx"))
+            (property PWCLKLO (integer 2300)(unit TIME) (owner "Xilinx"))
+            (property SUINHICLK (integer 360)(unit TIME) (owner "Xilinx"))
+            (property SUINLOCLK (integer 360)(unit TIME) (owner "Xilinx"))
+            (property RISERST (integer 320)(unit TIME) (owner "Xilinx"))
+            (property FALLRST (integer 320)(unit TIME) (owner "Xilinx"))
+            (property PWRSTHI (integer 4000)(unit TIME) (owner "Xilinx"))
+            (portInstance IN
+              (property RISE (integer 350)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 350)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance CLK
+              (property RISE (integer 1874)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 1874)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance RST
+            )
+            (portInstance OUT
+              (property RISE (integer 1470)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 1470)(unit TIME) (owner "Xilinx"))
+            )
+          )
+          (instance C216
+            (viewRef view_1 (cellRef x_buf (libraryRef SIMPRIMS)))
+            (portInstance IN
+            )
+            (portInstance OUT
+              (property RISE (integer 1089)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 1089)(unit TIME) (owner "Xilinx"))
+            )
+          )
+          (instance c285_c0
+            (viewRef view_1 (cellRef x_and2 (libraryRef SIMPRIMS)))
+            (portInstance IN0
+              (property FALL (integer 5466)(unit TIME) (owner "Xilinx"))
+              (property RISE (integer 5466)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance IN1
+              (property FALL (integer 644)(unit TIME) (owner "Xilinx"))
+              (property RISE (integer 644)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance OUT
+              (property FALL (integer 1190)(unit TIME) (owner "Xilinx"))
+              (property RISE (integer 1190)(unit TIME) (owner "Xilinx"))
+            )
+          )
+          (instance c286_c0
+            (viewRef view_1 (cellRef x_buf (libraryRef SIMPRIMS)))
+            (portInstance IN
+            )
+            (portInstance OUT
+              (property RISE (integer 1190)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 1190)(unit TIME) (owner "Xilinx"))
+            )
+          )
+          (instance c286_c1
+            (viewRef view_1 (cellRef x_and2 (libraryRef SIMPRIMS)))
+            (portInstance IN0
+              (property FALL (integer 5466)(unit TIME) (owner "Xilinx"))
+              (property RISE (integer 5466)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance IN1
+              (property RISE (integer 1419)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 1419)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance OUT
+            )
+          )
+          (instance c287_c0
+            (viewRef view_1 (cellRef x_buf (libraryRef SIMPRIMS)))
+            (portInstance IN
+            )
+            (portInstance OUT
+              (property RISE (integer 1190)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 1190)(unit TIME) (owner "Xilinx"))
+            )
+          )
+          (instance c287_c1
+            (viewRef view_1 (cellRef x_and2 (libraryRef SIMPRIMS)))
+            (portInstance IN0
+              (property FALL (integer 5466)(unit TIME) (owner "Xilinx"))
+              (property RISE (integer 5466)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance IN1
+              (property FALL (integer 1419)(unit TIME) (owner "Xilinx"))
+              (property RISE (integer 1419)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance OUT
+            )
+          )
+          (instance c288_c0
+            (viewRef view_1 (cellRef x_and2 (libraryRef SIMPRIMS)))
+            (portInstance IN0
+              (property FALL (integer 5466)(unit TIME) (owner "Xilinx"))
+              (property RISE (integer 5466)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance IN1
+              (property RISE (integer 644)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 644)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance OUT
+              (property FALL (integer 1190)(unit TIME) (owner "Xilinx"))
+              (property RISE (integer 1190)(unit TIME) (owner "Xilinx"))
+            )
+          )
+          (instance (rename N1_ONE "N1.ONE")
+            (viewRef view_1 (cellRef x_one (libraryRef SIMPRIMS)))
+          )
+          (instance (rename RESET_PAD "RESET.PAD")
+            (viewRef view_1 (cellRef x_ipad (libraryRef SIMPRIMS)))
+          )
+          (instance (rename N36_ZERO "N36.ZERO")
+            (viewRef view_1 (cellRef x_zero (libraryRef SIMPRIMS)))
+          )
+          (instance (rename A0B0_A1B2_4__PAD "A0B0_A1B2<4>.PAD")
+            (viewRef view_1 (cellRef x_opad (libraryRef SIMPRIMS)))
+          )
+          (instance (rename A0B0_A1B2_3__PAD "A0B0_A1B2<3>.PAD")
+            (viewRef view_1 (cellRef x_opad (libraryRef SIMPRIMS)))
+          )
+          (instance (rename A0B0_A1B2_2__PAD "A0B0_A1B2<2>.PAD")
+            (viewRef view_1 (cellRef x_opad (libraryRef SIMPRIMS)))
+          )
+          (instance (rename A0B0_A1B2_1__PAD "A0B0_A1B2<1>.PAD")
+            (viewRef view_1 (cellRef x_opad (libraryRef SIMPRIMS)))
+          )
+          (instance (rename A0B0_A1B2_0__PAD "A0B0_A1B2<0>.PAD")
+            (viewRef view_1 (cellRef x_opad (libraryRef SIMPRIMS)))
+          )
+          (instance (rename A0B1_A1B3_4__PAD "A0B1_A1B3<4>.PAD")
+            (viewRef view_1 (cellRef x_opad (libraryRef SIMPRIMS)))
+          )
+          (instance (rename A0B1_A1B3_3__PAD "A0B1_A1B3<3>.PAD")
+            (viewRef view_1 (cellRef x_opad (libraryRef SIMPRIMS)))
+          )
+          (instance (rename A0B1_A1B3_2__PAD "A0B1_A1B3<2>.PAD")
+            (viewRef view_1 (cellRef x_opad (libraryRef SIMPRIMS)))
+          )
+          (instance (rename A0B1_A1B3_1__PAD "A0B1_A1B3<1>.PAD")
+            (viewRef view_1 (cellRef x_opad (libraryRef SIMPRIMS)))
+          )
+          (instance (rename A0B1_A1B3_0__PAD "A0B1_A1B3<0>.PAD")
+            (viewRef view_1 (cellRef x_opad (libraryRef SIMPRIMS)))
+          )
+          (instance (rename A2B0_A3B2_4__PAD "A2B0_A3B2<4>.PAD")
+            (viewRef view_1 (cellRef x_opad (libraryRef SIMPRIMS)))
+          )
+          (instance (rename A2B0_A3B2_3__PAD "A2B0_A3B2<3>.PAD")
+            (viewRef view_1 (cellRef x_opad (libraryRef SIMPRIMS)))
+          )
+          (instance (rename A2B0_A3B2_2__PAD "A2B0_A3B2<2>.PAD")
+            (viewRef view_1 (cellRef x_opad (libraryRef SIMPRIMS)))
+          )
+          (instance (rename A2B0_A3B2_1__PAD "A2B0_A3B2<1>.PAD")
+            (viewRef view_1 (cellRef x_opad (libraryRef SIMPRIMS)))
+          )
+          (instance (rename A2B0_A3B2_0__PAD "A2B0_A3B2<0>.PAD")
+            (viewRef view_1 (cellRef x_opad (libraryRef SIMPRIMS)))
+          )
+          (instance (rename A2B1_A3B3_4__PAD "A2B1_A3B3<4>.PAD")
+            (viewRef view_1 (cellRef x_opad (libraryRef SIMPRIMS)))
+          )
+          (instance (rename A2B1_A3B3_3__PAD "A2B1_A3B3<3>.PAD")
+            (viewRef view_1 (cellRef x_opad (libraryRef SIMPRIMS)))
+          )
+          (instance (rename A2B1_A3B3_2__PAD "A2B1_A3B3<2>.PAD")
+            (viewRef view_1 (cellRef x_opad (libraryRef SIMPRIMS)))
+          )
+          (instance (rename A2B1_A3B3_1__PAD "A2B1_A3B3<1>.PAD")
+            (viewRef view_1 (cellRef x_opad (libraryRef SIMPRIMS)))
+          )
+          (instance (rename A2B1_A3B3_0__PAD "A2B1_A3B3<0>.PAD")
+            (viewRef view_1 (cellRef x_opad (libraryRef SIMPRIMS)))
+          )
+          (instance (rename CLK_PAD "CLK.PAD")
+            (viewRef view_1 (cellRef x_ipad (libraryRef SIMPRIMS)))
+          )
+          (instance (rename Asm_Config_2_A_CURRENT_STATE_reg_1__GSR_OR "Asm_Config_2_A_CURRENT_STATE_reg<1>.GSR.OR")
+            (viewRef view_1 (cellRef x_or2 (libraryRef SIMPRIMS)))
+            (portInstance IN0
+              (property RISE (integer 6156)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 6156)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance IN1
+              (property RISE (integer 7420)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 7420)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance OUT
+              (property RISE (integer 770)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 770)(unit TIME) (owner "Xilinx"))
+            )
+          )
+          (instance (rename C293_clkbuf "C293/clkbuf")
+            (viewRef view_1 (cellRef x_ckbuf (libraryRef SIMPRIMS)))
+            (portInstance IN
+              (property RISE (integer 10)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 10)(unit TIME) (owner "Xilinx"))
+            )
+            (portInstance OUT
+            )
+          )
+          (instance (rename C293_clkio_buf "C293/clkio_buf")
+            (viewRef view_1 (cellRef x_buf (libraryRef SIMPRIMS)))
+            (portInstance IN
+            )
+            (portInstance OUT
+              (property RISE (integer 10)(unit TIME) (owner "Xilinx"))
+              (property FALL (integer 10)(unit TIME) (owner "Xilinx"))
+            )
+          )
+          (instance c285_c0_0_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (instance c285_c0_1_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (instance c285_c0_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (instance c286_c1_0_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (instance c287_c1_0_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (instance c287_c1_1_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (instance c288_c0_0_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (instance c288_c0_2_INV
+            (viewRef view_1 (cellRef x_inv (libraryRef SIMPRIMS)))
+            (portInstance OUT
+            )
+          )
+          (net N1
+            (joined
+              (portRef IN (instanceRef Asm_Config_2_A_CURRENT_STATE_reg_1_))
+              (portRef OUT (instanceRef N1_ONE))
+            )
+          )
+          (net CLK_BUFGed
+            (joined
+              (portRef C (instanceRef DSP_2_MEM_Q_reg_19_))
+              (portRef C (instanceRef DSP_2_MEM_Q_reg_18_))
+              (portRef C (instanceRef DSP_2_MEM_Q_reg_17_))
+              (portRef C (instanceRef DSP_2_MEM_Q_reg_16_))
+              (portRef C (instanceRef DSP_2_MEM_Q_reg_15_))
+              (portRef C (instanceRef DSP_2_MEM_Q_reg_14_))
+              (portRef C (instanceRef DSP_2_MEM_Q_reg_13_))
+              (portRef C (instanceRef DSP_2_MEM_Q_reg_12_))
+              (portRef C (instanceRef DSP_2_MEM_Q_reg_11_))
+              (portRef C (instanceRef DSP_2_MEM_Q_reg_10_))
+              (portRef C (instanceRef DSP_2_MEM_Q_reg_9_))
+              (portRef C (instanceRef DSP_2_MEM_Q_reg_8_))
+              (portRef C (instanceRef DSP_2_MEM_Q_reg_7_))
+              (portRef C (instanceRef DSP_2_MEM_Q_reg_6_))
+              (portRef C (instanceRef DSP_2_MEM_Q_reg_5_))
+              (portRef C (instanceRef DSP_2_MEM_Q_reg_4_))
+              (portRef C (instanceRef DSP_2_MEM_Q_reg_3_))
+              (portRef C (instanceRef DSP_2_MEM_Q_reg_2_))
+              (portRef C (instanceRef DSP_2_MEM_Q_reg_1_))
+              (portRef C (instanceRef DSP_2_MEM_Q_reg_0_))
+              (portRef CLK (instanceRef Asm_Config_2_A_CURRENT_STATE_reg_1_))
+              (portRef OUT (instanceRef C293_clkbuf))
+            )
+          )
+          (net N_RESET
+            (joined
+              (portRef D (instanceRef DSP_2_MEM_Q_reg_17_))
+              (portRef D (instanceRef DSP_2_MEM_Q_reg_15_))
+              (portRef D (instanceRef DSP_2_MEM_Q_reg_11_))
+              (portRef D (instanceRef DSP_2_MEM_Q_reg_10_))
+              (portRef D (instanceRef DSP_2_MEM_Q_reg_7_))
+              (portRef D (instanceRef DSP_2_MEM_Q_reg_5_))
+              (portRef D (instanceRef DSP_2_MEM_Q_reg_1_))
+              (portRef D (instanceRef DSP_2_MEM_Q_reg_0_))
+              (portRef OUT (instanceRef C216))
+              (portRef IN0 (instanceRef Asm_Config_2_A_CURRENT_STATE_reg_1__GSR_OR))
+              (portRef IN (instanceRef c285_c0_0_INV))
+              (portRef IN (instanceRef c286_c1_0_INV))
+              (portRef IN (instanceRef c287_c1_0_INV))
+              (portRef IN (instanceRef c288_c0_0_INV))
+            )
+          )
+          (net Data_SelBus
+            (joined
+              (portRef OUT (instanceRef Asm_Config_2_A_CURRENT_STATE_reg_1_))
+              (portRef IN1 (instanceRef c286_c1))
+              (portRef IN1 (instanceRef c288_c0))
+              (portRef IN (instanceRef c285_c0_1_INV))
+              (portRef IN (instanceRef c287_c1_1_INV))
+            )
+          )
+          (net RESET
+            (joined
+              (portRef IN (instanceRef C216))
+              (portRef PAD (instanceRef RESET_PAD))
+              (portRef RESET)
+            )
+          )
+          (net N36
+            (joined
+              (portRef D (instanceRef DSP_2_MEM_Q_reg_19_))
+              (portRef D (instanceRef DSP_2_MEM_Q_reg_18_))
+              (portRef D (instanceRef DSP_2_MEM_Q_reg_16_))
+              (portRef D (instanceRef DSP_2_MEM_Q_reg_14_))
+              (portRef D (instanceRef DSP_2_MEM_Q_reg_9_))
+              (portRef D (instanceRef DSP_2_MEM_Q_reg_8_))
+              (portRef D (instanceRef DSP_2_MEM_Q_reg_6_))
+              (portRef D (instanceRef DSP_2_MEM_Q_reg_4_))
+              (portRef OUT (instanceRef N36_ZERO))
+            )
+          )
+          (net DSP_2_MEM_C18_N6
+            (joined
+              (portRef CE (instanceRef DSP_2_MEM_Q_reg_19_))
+              (portRef CE (instanceRef DSP_2_MEM_Q_reg_18_))
+              (portRef CE (instanceRef DSP_2_MEM_Q_reg_17_))
+              (portRef CE (instanceRef DSP_2_MEM_Q_reg_16_))
+              (portRef CE (instanceRef DSP_2_MEM_Q_reg_15_))
+              (portRef CE (instanceRef DSP_2_MEM_Q_reg_14_))
+              (portRef CE (instanceRef DSP_2_MEM_Q_reg_13_))
+              (portRef CE (instanceRef DSP_2_MEM_Q_reg_12_))
+              (portRef CE (instanceRef DSP_2_MEM_Q_reg_11_))
+              (portRef CE (instanceRef DSP_2_MEM_Q_reg_10_))
+              (portRef OUT (instanceRef c288_c0_2_INV))
+            )
+          )
+          (net (rename A0B0_A1B2_4_ "A0B0_A1B2<4>")
+            (joined
+              (portRef Q (instanceRef DSP_2_MEM_Q_reg_19_))
+              (portRef PAD (instanceRef A0B0_A1B2_4__PAD))
+              (portRef A0B0_A1B2_4_)
+            )
+          )
+          (net (rename A0B0_A1B2_3_ "A0B0_A1B2<3>")
+            (joined
+              (portRef Q (instanceRef DSP_2_MEM_Q_reg_18_))
+              (portRef PAD (instanceRef A0B0_A1B2_3__PAD))
+              (portRef A0B0_A1B2_3_)
+            )
+          )
+          (net (rename A0B0_A1B2_2_ "A0B0_A1B2<2>")
+            (joined
+              (portRef Q (instanceRef DSP_2_MEM_Q_reg_17_))
+              (portRef PAD (instanceRef A0B0_A1B2_2__PAD))
+              (portRef A0B0_A1B2_2_)
+            )
+          )
+          (net (rename A0B0_A1B2_1_ "A0B0_A1B2<1>")
+            (joined
+              (portRef Q (instanceRef DSP_2_MEM_Q_reg_16_))
+              (portRef PAD (instanceRef A0B0_A1B2_1__PAD))
+              (portRef A0B0_A1B2_1_)
+            )
+          )
+          (net (rename A0B0_A1B2_0_ "A0B0_A1B2<0>")
+            (joined
+              (portRef Q (instanceRef DSP_2_MEM_Q_reg_15_))
+              (portRef PAD (instanceRef A0B0_A1B2_0__PAD))
+              (portRef A0B0_A1B2_0_)
+            )
+          )
+          (net (rename A0B1_A1B3_4_ "A0B1_A1B3<4>")
+            (joined
+              (portRef Q (instanceRef DSP_2_MEM_Q_reg_14_))
+              (portRef PAD (instanceRef A0B1_A1B3_4__PAD))
+              (portRef A0B1_A1B3_4_)
+            )
+          )
+          (net DSP_2_MEM_C17_N35
+            (joined
+              (portRef D (instanceRef DSP_2_MEM_Q_reg_13_))
+              (portRef D (instanceRef DSP_2_MEM_Q_reg_3_))
+              (portRef OUT (instanceRef c287_c0))
+            )
+          )
+          (net (rename A0B1_A1B3_3_ "A0B1_A1B3<3>")
+            (joined
+              (portRef Q (instanceRef DSP_2_MEM_Q_reg_13_))
+              (portRef PAD (instanceRef A0B1_A1B3_3__PAD))
+              (portRef A0B1_A1B3_3_)
+            )
+          )
+          (net DSP_2_MEM_C17_N40
+            (joined
+              (portRef D (instanceRef DSP_2_MEM_Q_reg_12_))
+              (portRef D (instanceRef DSP_2_MEM_Q_reg_2_))
+              (portRef OUT (instanceRef c286_c0))
+            )
+          )
+          (net (rename A0B1_A1B3_2_ "A0B1_A1B3<2>")
+            (joined
+              (portRef Q (instanceRef DSP_2_MEM_Q_reg_12_))
+              (portRef PAD (instanceRef A0B1_A1B3_2__PAD))
+              (portRef A0B1_A1B3_2_)
+            )
+          )
+          (net (rename A0B1_A1B3_1_ "A0B1_A1B3<1>")
+            (joined
+              (portRef Q (instanceRef DSP_2_MEM_Q_reg_11_))
+              (portRef PAD (instanceRef A0B1_A1B3_1__PAD))
+              (portRef A0B1_A1B3_1_)
+            )
+          )
+          (net (rename A0B1_A1B3_0_ "A0B1_A1B3<0>")
+            (joined
+              (portRef Q (instanceRef DSP_2_MEM_Q_reg_10_))
+              (portRef PAD (instanceRef A0B1_A1B3_0__PAD))
+              (portRef A0B1_A1B3_0_)
+            )
+          )
+          (net DSP_2_MEM_C18_N56
+            (joined
+              (portRef CE (instanceRef DSP_2_MEM_Q_reg_9_))
+              (portRef CE (instanceRef DSP_2_MEM_Q_reg_8_))
+              (portRef CE (instanceRef DSP_2_MEM_Q_reg_7_))
+              (portRef CE (instanceRef DSP_2_MEM_Q_reg_6_))
+              (portRef CE (instanceRef DSP_2_MEM_Q_reg_5_))
+              (portRef CE (instanceRef DSP_2_MEM_Q_reg_4_))
+              (portRef CE (instanceRef DSP_2_MEM_Q_reg_3_))
+              (portRef CE (instanceRef DSP_2_MEM_Q_reg_2_))
+              (portRef CE (instanceRef DSP_2_MEM_Q_reg_1_))
+              (portRef CE (instanceRef DSP_2_MEM_Q_reg_0_))
+              (portRef OUT (instanceRef c285_c0_2_INV))
+            )
+          )
+          (net (rename A2B0_A3B2_4_ "A2B0_A3B2<4>")
+            (joined
+              (portRef Q (instanceRef DSP_2_MEM_Q_reg_9_))
+              (portRef PAD (instanceRef A2B0_A3B2_4__PAD))
+              (portRef A2B0_A3B2_4_)
+            )
+          )
+          (net (rename A2B0_A3B2_3_ "A2B0_A3B2<3>")
+            (joined
+              (portRef Q (instanceRef DSP_2_MEM_Q_reg_8_))
+              (portRef PAD (instanceRef A2B0_A3B2_3__PAD))
+              (portRef A2B0_A3B2_3_)
+            )
+          )
+          (net (rename A2B0_A3B2_2_ "A2B0_A3B2<2>")
+            (joined
+              (portRef Q (instanceRef DSP_2_MEM_Q_reg_7_))
+              (portRef PAD (instanceRef A2B0_A3B2_2__PAD))
+              (portRef A2B0_A3B2_2_)
+            )
+          )
+          (net (rename A2B0_A3B2_1_ "A2B0_A3B2<1>")
+            (joined
+              (portRef Q (instanceRef DSP_2_MEM_Q_reg_6_))
+              (portRef PAD (instanceRef A2B0_A3B2_1__PAD))
+              (portRef A2B0_A3B2_1_)
+            )
+          )
+          (net (rename A2B0_A3B2_0_ "A2B0_A3B2<0>")
+            (joined
+              (portRef Q (instanceRef DSP_2_MEM_Q_reg_5_))
+              (portRef PAD (instanceRef A2B0_A3B2_0__PAD))
+              (portRef A2B0_A3B2_0_)
+            )
+          )
+          (net (rename A2B1_A3B3_4_ "A2B1_A3B3<4>")
+            (joined
+              (portRef Q (instanceRef DSP_2_MEM_Q_reg_4_))
+              (portRef PAD (instanceRef A2B1_A3B3_4__PAD))
+              (portRef A2B1_A3B3_4_)
+            )
+          )
+          (net (rename A2B1_A3B3_3_ "A2B1_A3B3<3>")
+            (joined
+              (portRef Q (instanceRef DSP_2_MEM_Q_reg_3_))
+              (portRef PAD (instanceRef A2B1_A3B3_3__PAD))
+              (portRef A2B1_A3B3_3_)
+            )
+          )
+          (net (rename A2B1_A3B3_2_ "A2B1_A3B3<2>")
+            (joined
+              (portRef Q (instanceRef DSP_2_MEM_Q_reg_2_))
+              (portRef PAD (instanceRef A2B1_A3B3_2__PAD))
+              (portRef A2B1_A3B3_2_)
+            )
+          )
+          (net (rename A2B1_A3B3_1_ "A2B1_A3B3<1>")
+            (joined
+              (portRef Q (instanceRef DSP_2_MEM_Q_reg_1_))
+              (portRef PAD (instanceRef A2B1_A3B3_1__PAD))
+              (portRef A2B1_A3B3_1_)
+            )
+          )
+          (net (rename A2B1_A3B3_0_ "A2B1_A3B3<0>")
+            (joined
+              (portRef Q (instanceRef DSP_2_MEM_Q_reg_0_))
+              (portRef PAD (instanceRef A2B1_A3B3_0__PAD))
+              (portRef A2B1_A3B3_0_)
+            )
+          )
+          (net c286_n0
+            (joined
+              (portRef IN (instanceRef c286_c0))
+              (portRef OUT (instanceRef c286_c1))
+            )
+          )
+          (net c287_n0
+            (joined
+              (portRef IN (instanceRef c287_c0))
+              (portRef OUT (instanceRef c287_c1))
+            )
+          )
+          (net CLK
+            (joined
+              (portRef PAD (instanceRef CLK_PAD))
+              (portRef CLK)
+              (portRef IN (instanceRef C293_clkio_buf))
+            )
+          )
+          (net (rename Asm_Config_2_A_CURRENT_STATE_reg_1__GSR_OR "Asm_Config_2_A_CURRENT_STATE_reg<1>.GSR.OR")
+            (joined
+              (portRef RST (instanceRef Asm_Config_2_A_CURRENT_STATE_reg_1_))
+              (portRef OUT (instanceRef Asm_Config_2_A_CURRENT_STATE_reg_1__GSR_OR))
+            )
+          )
+          (net (rename C293_clkio_bufsig "C293/clkio_bufsig")
+            (joined
+              (portRef IN (instanceRef C293_clkbuf))
+              (portRef OUT (instanceRef C293_clkio_buf))
+            )
+          )
+          (net c285_c0_0_INV
+            (joined
+              (portRef OUT (instanceRef c285_c0_0_INV))
+              (portRef IN0 (instanceRef c285_c0))
+            )
+          )
+          (net c285_c0_1_INV
+            (joined
+              (portRef OUT (instanceRef c285_c0_1_INV))
+              (portRef IN1 (instanceRef c285_c0))
+            )
+          )
+          (net c285_c0_2_INV
+            (joined
+              (portRef IN (instanceRef c285_c0_2_INV))
+              (portRef OUT (instanceRef c285_c0))
+            )
+          )
+          (net c286_c1_0_INV
+            (joined
+              (portRef OUT (instanceRef c286_c1_0_INV))
+              (portRef IN0 (instanceRef c286_c1))
+            )
+          )
+          (net c287_c1_0_INV
+            (joined
+              (portRef OUT (instanceRef c287_c1_0_INV))
+              (portRef IN0 (instanceRef c287_c1))
+            )
+          )
+          (net c287_c1_1_INV
+            (joined
+              (portRef OUT (instanceRef c287_c1_1_INV))
+              (portRef IN1 (instanceRef c287_c1))
+            )
+          )
+          (net c288_c0_0_INV
+            (joined
+              (portRef OUT (instanceRef c288_c0_0_INV))
+              (portRef IN0 (instanceRef c288_c0))
+            )
+          )
+          (net c288_c0_2_INV
+            (joined
+              (portRef IN (instanceRef c288_c0_2_INV))
+              (portRef OUT (instanceRef c288_c0))
+            )
+          )
+          (net GSR
+            (joined
+              (portRef IN1 (instanceRef Asm_Config_2_A_CURRENT_STATE_reg_1__GSR_OR))
+              (portRef GSR (instanceRef DSP_2_MEM_Q_reg_18_))
+              (portRef GSR (instanceRef DSP_2_MEM_Q_reg_17_))
+              (portRef GSR (instanceRef DSP_2_MEM_Q_reg_16_))
+              (portRef GSR (instanceRef DSP_2_MEM_Q_reg_15_))
+              (portRef GSR (instanceRef DSP_2_MEM_Q_reg_14_))
+              (portRef GSR (instanceRef DSP_2_MEM_Q_reg_13_))
+              (portRef GSR (instanceRef DSP_2_MEM_Q_reg_12_))
+              (portRef GSR (instanceRef DSP_2_MEM_Q_reg_11_))
+              (portRef GSR (instanceRef DSP_2_MEM_Q_reg_10_))
+              (portRef GSR (instanceRef DSP_2_MEM_Q_reg_19_))
+              (portRef GSR (instanceRef DSP_2_MEM_Q_reg_8_))
+              (portRef GSR (instanceRef DSP_2_MEM_Q_reg_7_))
+              (portRef GSR (instanceRef DSP_2_MEM_Q_reg_6_))
+              (portRef GSR (instanceRef DSP_2_MEM_Q_reg_5_))
+              (portRef GSR (instanceRef DSP_2_MEM_Q_reg_4_))
+              (portRef GSR (instanceRef DSP_2_MEM_Q_reg_3_))
+              (portRef GSR (instanceRef DSP_2_MEM_Q_reg_2_))
+              (portRef GSR (instanceRef DSP_2_MEM_Q_reg_1_))
+              (portRef GSR (instanceRef DSP_2_MEM_Q_reg_0_))
+              (portRef GSR (instanceRef DSP_2_MEM_Q_reg_9_))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+          (net GTS
+            (joined
+              (portRef GTS (instanceRef DSP_2_MEM_Q_reg_18_))
+              (portRef GTS (instanceRef DSP_2_MEM_Q_reg_17_))
+              (portRef GTS (instanceRef DSP_2_MEM_Q_reg_16_))
+              (portRef GTS (instanceRef DSP_2_MEM_Q_reg_15_))
+              (portRef GTS (instanceRef DSP_2_MEM_Q_reg_14_))
+              (portRef GTS (instanceRef DSP_2_MEM_Q_reg_13_))
+              (portRef GTS (instanceRef DSP_2_MEM_Q_reg_12_))
+              (portRef GTS (instanceRef DSP_2_MEM_Q_reg_11_))
+              (portRef GTS (instanceRef DSP_2_MEM_Q_reg_10_))
+              (portRef GTS (instanceRef DSP_2_MEM_Q_reg_19_))
+              (portRef GTS (instanceRef DSP_2_MEM_Q_reg_8_))
+              (portRef GTS (instanceRef DSP_2_MEM_Q_reg_7_))
+              (portRef GTS (instanceRef DSP_2_MEM_Q_reg_6_))
+              (portRef GTS (instanceRef DSP_2_MEM_Q_reg_5_))
+              (portRef GTS (instanceRef DSP_2_MEM_Q_reg_4_))
+              (portRef GTS (instanceRef DSP_2_MEM_Q_reg_3_))
+              (portRef GTS (instanceRef DSP_2_MEM_Q_reg_2_))
+              (portRef GTS (instanceRef DSP_2_MEM_Q_reg_1_))
+              (portRef GTS (instanceRef DSP_2_MEM_Q_reg_0_))
+              (portRef GTS (instanceRef DSP_2_MEM_Q_reg_9_))
+            )
+            (property INITSTATE (string "0") (owner "Xilinx"))
+            (property GLOBAL (boolean (true)) (owner "Xilinx"))
+          )
+        )
+    ))
+  )
+  (design test_cen
+    (cellRef test_cen
+      (libraryRef test_cen_lib))
+  )
+)

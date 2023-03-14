@@ -1,0 +1,13 @@
+-- Created by David Clarke for the RS232 assignment
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+Entity XOR2 IS
+Port (a,b : IN std_logic; z: OUT std_logic);
+End Entity XOR2;
+
+Architecture Behavioural OF XOR2 IS
+Begin
+   z <= a XOR b;
+End Architecture Behavioural;
+

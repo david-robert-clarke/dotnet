@@ -1,0 +1,22 @@
+-- Created by David Clarke for the RS232 assignment
+library IEEE;
+Use IEEE.std_logic_1164.all;
+
+Entity FDC is
+Port (D, CLK, CLR: IN STD_LOGIC; Q: OUT STD_LOGIC);
+End Entity FDC;
+
+Architecture Behavioural of FDC is
+Begin
+	Flipflop : Process (D, CLK, CLR) 
+	Begin
+	  IF CLR = '1' THEN
+	    Q <= '0';
+	  ELSIF CLR = '0' THEN
+	    if rising_edge(clk) then
+	       Q <= D;
+	    end if;
+	  END IF;
+	End Process Flipflop;
+End Architecture Behavioural;
+

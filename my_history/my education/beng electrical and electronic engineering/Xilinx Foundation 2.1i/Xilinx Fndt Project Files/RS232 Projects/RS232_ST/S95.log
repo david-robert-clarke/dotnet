@@ -1,0 +1,338 @@
+CM: 
+CM: Checking...
+CM:  Error   L4/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/and2.vhd  line 4   Syntax error.  (VSS-1081) 
+CM:  Error   L8/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/and2.vhd  line 8   The intermediate file for entity ARSEAND2 is not in the library bound to WORK.  (VSS-1084) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L4/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/and2.vhd  line 4   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L2/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/and2.vhd  line 2   STD_LOGIC_1164 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L5/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/and2.vhd  line 5   STD_LOGIC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/fdce.vhd  line 16   Ports of mode OUT or LINKAGE can not be read.  (VSS-793) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232.vhd  line 40   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L51/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232.vhd  line 51   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L85/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232.vhd  line 85   Illegal redeclaration of OUTPUT_AND3B1. (VSS-1072)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L84/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232.vhd  line 84   AND3B2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L86/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232.vhd  line 86   AND3B2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L84/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232.vhd  line 84   AND3B2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L86/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232.vhd  line 86   AND3B2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L57/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232.vhd  line 57   Signal or port name expected as actual in association element.  (VSS-806) 
+CM:  Error   L58/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232.vhd  line 58   NS2_OR2_2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L59/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232.vhd  line 59   NS2_OR2_2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L8/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/decode.vhd  line 8   B11 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L8/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/decode.vhd  line 8   B10 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L8/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/decode.vhd  line 8   B9 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L8/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/decode.vhd  line 8   B8 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L8/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/decode.vhd  line 8   B7 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L8/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/decode.vhd  line 8   B6 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  6 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Warning   L8/C0 : #0 Warning: Only simple variables are checked in the sensitivity list. The variable in the sensitivity list   on line 8 will be ignored.  (HDL-178) 
+CM:  0 error(s) 6 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L50/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232_caution.vhd  line 50   Illegal redeclaration of CT1Z. (VSS-1072)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L50/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232_caution.vhd  line 50   Illegal redeclaration of CDDEN. (VSS-1072)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L50/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232_caution.vhd  line 50   Illegal redeclaration of UP. (VSS-1072)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L50/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232_caution.vhd  line 50   Illegal redeclaration of LOAD. (VSS-1072)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L50/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232_caution.vhd  line 50   Illegal redeclaration of CT1EN. (VSS-1072)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L50/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232_caution.vhd  line 50   Illegal redeclaration of DECEN. (VSS-1072)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L50/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232_caution.vhd  line 50   Illegal redeclaration of PTEN. (VSS-1072)  (FPGA-dm-hdlc-unknown) 
+CM:  7 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: 
+CM: 
+CM: Checking...
+CM:  Error   L-3/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232.vhd  line -3   Library logical name UNISIM is not mapped to a host directory. (VSS-1071)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L4/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232.vhd  line 4   No selected element named VCOMPONENTS is defined for this prefix.  (VSS-573) 
+CM:  Warning   L-1/C0 : #0 Warning: The entity 'RS232_ASM' is out of date with respect to its   source file 'C:/fndtn/active/projects/rs232_st/struct2_rs232_caution.vhd'.  (LBR-3) 
+CM:  2 error(s) 1 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L68/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232.vhd  line 68   Illegal redeclaration of CB16CLED. (VSS-1072)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L117/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232.vhd  line 117   EVEN is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L117/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232.vhd  line 117   ODD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L120/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232.vhd  line 120   CB16CLED_DC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L117/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232.vhd  line 117   EVEN is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L117/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232.vhd  line 117   ODD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L121/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232.vhd  line 121   CNT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L121/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232.vhd  line 121   Q is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: 
+CM: Checking...
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 39   PTEN is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 42   UP is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 42   LOAD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 42   CT1EN is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 42   CT1Z is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 43   CNT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 43   Q is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  7 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 39   PTEN is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 42   UP is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 42   LOAD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 42   CT1EN is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 42   CT1Z is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 43   CNT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 43   Q is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  7 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L4/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/parity_test.vhd  line 4   Syntax error.  (VSS-1081) 
+CM:  Warning   L-1/C0 : #0 Warning: The entity 'Parity_Test' is out of date with respect to its   source file 'C:/fndtn/active/projects/rs232_st/parity_test.vhd'.  (LBR-3) 
+CM:  1 error(s) 1 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L2/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/pinoutdecode.vhd  line 2   STD_LOGIC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L3/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/pinoutdecode.vhd  line 3   STD_LOGIC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Warning   L-1/C0 : #0 Warning: The entity 'Pinoutdecode' is out of date with respect to its   source file 'C:/fndtn/active/projects/rs232_st/pinoutdecode.vhd'.  (LBR-3) 
+CM:  2 error(s) 1 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 39   PTEN is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 42   UP is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 42   LOAD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 42   CT1EN is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 42   CT1Z is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 43   CNT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 43   Q is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  7 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L55/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 55   Array subscript out of bounds (Right bound of slice). (VSS-1011)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L55/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 55   All subelements of this formal must be associated. (VSS-995)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L61/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 61   S6 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L61/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 61   S5 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L61/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 61   S4 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L64/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 64   Actual designator not of the correct type - STD_LOGIC_VECTOR expected.  (VSS-543) 
+CM:  9 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L55/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 55   Array subscript out of bounds (Right bound of slice). (VSS-1011)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L55/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 55   All subelements of this formal must be associated. (VSS-995)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L60/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 60   Not enough element associations - 11 expected. (VSS-538)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L64/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 64   Actual designator not of the correct type - STD_LOGIC_VECTOR expected.  (VSS-543) 
+CM:  7 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L55/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 55   Not enough element associations - 15 expected. (VSS-538)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L60/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 60   Not enough element associations - 11 expected. (VSS-538)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L64/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 64   Actual designator not of the correct type - STD_LOGIC_VECTOR expected.  (VSS-543) 
+CM:  6 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L48/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 48   Array subscript out of bounds (Left bound of slice). (VSS-1011)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L48/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 48   Array subscript out of bounds (Right bound of slice). (VSS-1011)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L52/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 52   Array subscript out of bounds (Left bound of slice). (VSS-1011)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L52/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 52   Array subscript out of bounds (Right bound of slice). (VSS-1011)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L55/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 55   Not enough element associations - 15 expected. (VSS-538)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L60/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 60   Not enough element associations - 11 expected. (VSS-538)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L64/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 64   Actual designator not of the correct type - STD_LOGIC_VECTOR expected.  (VSS-543) 
+CM:  12 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L53/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 53   Array subscript out of bounds (Left bound of slice). (VSS-1011)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L53/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 53   Array subscript out of bounds (Right bound of slice). (VSS-1011)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L56/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 56   Not enough element associations - 15 expected. (VSS-538)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L61/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 61   Not enough element associations - 11 expected. (VSS-538)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L65/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 65   Actual designator not of the correct type - STD_LOGIC_VECTOR expected.  (VSS-543) 
+CM:  8 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L56/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 56   Not enough element associations - 15 expected. (VSS-538)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L61/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 61   Not enough element associations - 11 expected. (VSS-538)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L65/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 65   Actual designator not of the correct type - STD_LOGIC_VECTOR expected.  (VSS-543) 
+CM:  6 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L61/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 61   Not enough element associations - 11 expected. (VSS-538)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L65/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 65   Actual designator not of the correct type - STD_LOGIC_VECTOR expected.  (VSS-543) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L65/C0 : #0 Error: C:/fndtn/active/vhdl/whole_system.vhd  line 65   Actual designator not of the correct type - STD_LOGIC_VECTOR expected.  (VSS-543) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L288/C0 : #0 Error: C:/fndtn/active/projects/rs232_st/cb16cled_dc.vhd  line 288   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful

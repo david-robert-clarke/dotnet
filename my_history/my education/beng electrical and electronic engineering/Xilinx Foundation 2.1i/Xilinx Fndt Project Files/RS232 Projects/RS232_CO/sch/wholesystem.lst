@@ -1,0 +1,9 @@
+[Auto]
+AutoFormat=xnf
+
+[files]
+0=wholesystem.vhd
+1=decode.vhd
+2=decodecnt.vhd
+3=parity_test.vhd
+4=pinoutdecode.vhd

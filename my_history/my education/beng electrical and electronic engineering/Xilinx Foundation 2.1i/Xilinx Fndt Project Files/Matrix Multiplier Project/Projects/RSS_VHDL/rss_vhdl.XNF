@@ -1,0 +1,158 @@
+LCANET, 6
+PROG, Synopsys, UNKNOWN, v3.3, Build 3.3.0.4517
+PART, 4010XL-BG256-09
+SYM, B, rs232_asm_cb_pt2, LIBVER=2.0.0
+PIN, ct1z, I, s16, , 
+PIN, s, I, N18, , 
+PIN, clr, I, N_clr, , 
+PIN, clk, I, N_clk, , 
+PIN, cdden, O, s10, , 
+PIN, up, O, s11, , 
+PIN, load, O, s12, , 
+PIN, ct1en, O, s13, , 
+PIN, decen, O, s14, , 
+PIN, pten, O, s15, , 
+END
+SYM, C, rs232_baudrate_decode, LIBVER=2.0.0
+PIN, b11, I, s17<11>, , 
+PIN, b10, I, s17<10>, , 
+PIN, b9, I, s17<9>, , 
+PIN, b8, I, s17<8>, , 
+PIN, b7, I, s17<7>, , 
+PIN, b6, I, s17<6>, , 
+PIN, decen, I, s14, , 
+PIN, reset, I, N_clr, , 
+PIN, s300, O, s2, , 
+PIN, s600, O, s3, , 
+PIN, s1200, O, s40, , 
+PIN, s2400, O, s50, , 
+PIN, s4800, O, s60, , 
+PIN, s9600, O, s7, , 
+PIN, s19200, O, s8, , 
+END
+SYM, D, rs232_led_decode, LIBVER=2.0.0
+PIN, s300, I, s2, , 
+PIN, s600, I, s3, , 
+PIN, s1200, I, s40, , 
+PIN, s2400, I, s50, , 
+PIN, s4800, I, s60, , 
+PIN, s9600, I, s7, , 
+PIN, s19200, I, s8, , 
+PIN, reset, I, N_clr, , 
+PIN, s6, O, N_S6, , 
+PIN, s5, O, N_S5, , 
+PIN, s4, O, N_S4, , 
+END
+SYM, E, rs232_parity_tester, LIBVER=2.0.0
+PIN, pten, I, s15, , 
+PIN, s, I, N18, , 
+PIN, reset, I, N_clr, , 
+PIN, EVEN, O, N_EVEN, , 
+PIN, ODD, O, N_ODD, , 
+END
+SYM, G, cb16cled, LIBVER=2.0.0
+PIN, d<15>, I, s0<15>, , 
+PIN, d<14>, I, s0<14>, , 
+PIN, d<13>, I, s0<13>, , 
+PIN, d<12>, I, s0<12>, , 
+PIN, d<11>, I, s0<11>, , 
+PIN, d<10>, I, s0<10>, , 
+PIN, d<9>, I, s0<9>, , 
+PIN, d<8>, I, s0<8>, , 
+PIN, d<7>, I, s0<7>, , 
+PIN, d<6>, I, s0<6>, , 
+PIN, d<5>, I, s0<5>, , 
+PIN, d<4>, I, s0<4>, , 
+PIN, d<3>, I, s0<3>, , 
+PIN, d<2>, I, s0<2>, , 
+PIN, d<1>, I, s0<1>, , 
+PIN, d<0>, I, s0<0>, , 
+PIN, up, I, s11, , 
+PIN, l, I, s12, , 
+PIN, ce, I, s13, , 
+PIN, c, I, N_clk, , 
+PIN, clr, I, N_clr, , 
+PIN, ce0, O, s16, , 
+PIN, q<11>, O, s17<11>, , 
+PIN, q<10>, O, s17<10>, , 
+PIN, q<9>, O, s17<9>, , 
+PIN, q<8>, O, s17<8>, , 
+PIN, q<7>, O, s17<7>, , 
+PIN, q<6>, O, s17<6>, , 
+END
+SYM, F, rs232_precntdwntmr_decode, LIBVER=2.0.0
+PIN, s300, I, s2, , 
+PIN, s600, I, s3, , 
+PIN, s1200, I, s40, , 
+PIN, s2400, I, s50, , 
+PIN, s4800, I, s60, , 
+PIN, s9600, I, s7, , 
+PIN, s19200, I, s8, , 
+PIN, cdden, I, s10, , 
+PIN, reset, I, N_clr, , 
+PIN, cnt<15>, O, s0<15>, , 
+PIN, cnt<14>, O, s0<14>, , 
+PIN, cnt<13>, O, s0<13>, , 
+PIN, cnt<12>, O, s0<12>, , 
+PIN, cnt<11>, O, s0<11>, , 
+PIN, cnt<10>, O, s0<10>, , 
+PIN, cnt<9>, O, s0<9>, , 
+PIN, cnt<8>, O, s0<8>, , 
+PIN, cnt<7>, O, s0<7>, , 
+PIN, cnt<6>, O, s0<6>, , 
+PIN, cnt<5>, O, s0<5>, , 
+PIN, cnt<4>, O, s0<4>, , 
+PIN, cnt<3>, O, s0<3>, , 
+PIN, cnt<2>, O, s0<2>, , 
+PIN, cnt<1>, O, s0<1>, , 
+PIN, cnt<0>, O, s0<0>, , 
+END
+SYM, C10, IBUF, LIBVER=2.0.0
+PIN, O, O, N_RS232IN, , 
+PIN, I, I, RS232IN, , 
+END
+SYM, C11, IBUF, LIBVER=2.0.0
+PIN, O, O, N_clk, , 
+PIN, I, I, clk, , 
+END
+SYM, C12, IBUF, LIBVER=2.0.0
+PIN, O, O, N_clr, , 
+PIN, I, I, clr, , 
+END
+SYM, C13, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, S6, , 
+PIN, I, I, N_S6, , 
+END
+SYM, C14, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, S5, , 
+PIN, I, I, N_S5, , 
+END
+SYM, C15, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, S4, , 
+PIN, I, I, N_S4, , 
+END
+SYM, C16, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, EVEN, , 
+PIN, I, I, N_EVEN, , 
+END
+SYM, C17, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, ODD, , 
+PIN, I, I, N_ODD, , 
+END
+SYM, c20_c0, BUF, LIBVER=2.0.0
+PIN, I, I, N_RS232IN, , 
+PIN, O, O, N18, , , INV
+END
+SYM, FMAP_0, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_RS232IN, , 
+PIN, O, I, N18, , 
+END
+EXT, RS232IN, I, 
+EXT, clk, I, 
+EXT, clr, I, 
+EXT, S6, O, 
+EXT, S5, O, 
+EXT, S4, O, 
+EXT, EVEN, O, 
+EXT, ODD, O, 
+EOF

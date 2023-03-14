@@ -1,0 +1,35 @@
+-- Final Year Project
+-- By David Clarke
+-- Created on 14_12_2000
+-- Updated on 19_12_2000
+Library IEEE;
+Use IEEE.STD_LOGIC_1164.ALL;
+USE WORK.MATRIX_PACKAGE.ALL;
+--
+Entity Answer_Store_2 IS
+     Port (CLK, RESET  : IN  ONE_BIT;
+     	   D           : IN  TEN_BITS;  
+           SEL         : IN  ONE_BIT;  -- The SEL input selects the correct set of outputs	
+           Q           : OUT TWENTY_BITS);
+End Entity Answer_Store_2;
+--
+Architecture Behavioural OF Answer_Store_2 IS
+     Begin
+          
+          Process(CLK, RESET, D, SEL) IS 
+               Begin
+               		IF RISING_EDGE(CLK) THEN
+               		    IF RESET = '1' THEN
+               		        Q <= X"00000";
+               		    ELSE
+                                IF    SEL = '1' THEN  
+                                      Q(19 downto 10) <= D; 
+	       	                ELSE  
+	       	                      Q(9 downto 0)   <= D; 
+	                        END IF;
+	                    END IF;
+	                END IF;
+	       End Process;
+     End Architecture Behavioural;
+	       
+		    

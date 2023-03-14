@@ -1,0 +1,2211 @@
+(edif cons_int
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap
+    (keywordLevel 0))
+  (status
+    (written
+      (timeStamp 101 1 23 20 58 46)
+      (author "ALDEC")
+      (program "Xnf2Edf - Aldec's Edif 2.0.0 Netlist Generator"
+        (version "2.0.3.28"))))
+  (library Active_lib
+    (edifLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 1 -11)(unit TIME))))
+    (cell AND2
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I0
+            (direction INPUT))
+          (port I1
+            (direction INPUT))
+          (port O
+            (direction OUTPUT)))))
+    (cell AND3
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I0
+            (direction INPUT))
+          (port I1
+            (direction INPUT))
+          (port I2
+            (direction INPUT))
+          (port O
+            (direction OUTPUT)))))
+    (cell AND4
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I0
+            (direction INPUT))
+          (port I1
+            (direction INPUT))
+          (port I2
+            (direction INPUT))
+          (port I3
+            (direction INPUT))
+          (port O
+            (direction OUTPUT)))))
+    (cell BUF
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I
+            (direction INPUT))
+          (port O
+            (direction OUTPUT)))))
+    (cell BUFG
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I
+            (direction INPUT))
+          (port O
+            (direction OUTPUT)))))
+    (cell FDCE
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port C
+            (direction INPUT))
+          (port D
+            (direction INPUT))
+          (port Q
+            (direction OUTPUT)))))
+    (cell FMAP
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I1
+            (direction INPUT))
+          (port I2
+            (direction INPUT))
+          (port I3
+            (direction INPUT))
+          (port I4
+            (direction INPUT))
+          (port O
+            (direction INPUT)))))
+    (cell GND
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port GROUND
+            (direction OUTPUT)))))
+    (cell HMAP
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I1
+            (direction INPUT))
+          (port I2
+            (direction INPUT))
+          (port I3
+            (direction INPUT))
+          (port O
+            (direction INPUT)))))
+    (cell IBUF
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I
+            (direction INPUT))
+          (port O
+            (direction OUTPUT)))))
+    (cell OFDX
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port C
+            (direction INPUT))
+          (port CE
+            (direction INPUT))
+          (port D
+            (direction INPUT))
+          (port Q
+            (direction OUTPUT)))))
+    (cell CONS_INT
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port (rename aldecPort_1 "A0B0_A1B2<0>")
+            (direction OUTPUT))
+          (port (rename aldecPort_2 "A0B0_A1B2<1>")
+            (direction OUTPUT))
+          (port (rename aldecPort_3 "A0B0_A1B2<2>")
+            (direction OUTPUT))
+          (port (rename aldecPort_4 "A0B0_A1B2<3>")
+            (direction OUTPUT))
+          (port (rename aldecPort_5 "A0B0_A1B2<4>")
+            (direction OUTPUT))
+          (port (rename aldecPort_6 "A0B1_A1B3<0>")
+            (direction OUTPUT))
+          (port (rename aldecPort_7 "A0B1_A1B3<1>")
+            (direction OUTPUT))
+          (port (rename aldecPort_8 "A0B1_A1B3<2>")
+            (direction OUTPUT))
+          (port (rename aldecPort_9 "A0B1_A1B3<3>")
+            (direction OUTPUT))
+          (port (rename aldecPort_10 "A0B1_A1B3<4>")
+            (direction OUTPUT))
+          (port (rename aldecPort_11 "A2B0_A3B2<0>")
+            (direction OUTPUT))
+          (port (rename aldecPort_12 "A2B0_A3B2<1>")
+            (direction OUTPUT))
+          (port (rename aldecPort_13 "A2B0_A3B2<2>")
+            (direction OUTPUT))
+          (port (rename aldecPort_14 "A2B0_A3B2<3>")
+            (direction OUTPUT))
+          (port (rename aldecPort_15 "A2B0_A3B2<4>")
+            (direction OUTPUT))
+          (port (rename aldecPort_16 "A2B1_A3B3<0>")
+            (direction OUTPUT))
+          (port (rename aldecPort_17 "A2B1_A3B3<1>")
+            (direction OUTPUT))
+          (port (rename aldecPort_18 "A2B1_A3B3<2>")
+            (direction OUTPUT))
+          (port (rename aldecPort_19 "A2B1_A3B3<3>")
+            (direction OUTPUT))
+          (port (rename aldecPort_20 "A2B1_A3B3<4>")
+            (direction OUTPUT))
+          (port CLK
+            (direction INPUT))
+          (port (rename aldecPort_22 "MODE_SEL<0>")
+            (direction INPUT))
+          (port (rename aldecPort_23 "MODE_SEL<1>")
+            (direction INPUT)))
+        (contents
+          (instance (rename aldecInstance_1 "ASM_CONFIG_THREE_CURRENT_STATE_REG<0>")
+            (viewRef net
+              (cellRef FDCE))
+            (property LIBVER (string "2.0.0")))
+          (instance (rename aldecInstance_2 "ASM_CONFIG_THREE_CURRENT_STATE_REG<1>")
+            (viewRef net
+              (cellRef FDCE))
+            (property LIBVER (string "2.0.0")))
+          (instance (rename aldecInstance_3 "ASM_CONFIG_THREE_CURRENT_STATE_REG<2>")
+            (viewRef net
+              (cellRef FDCE))
+            (property LIBVER (string "2.0.0")))
+          (instance (rename aldecInstance_4 "ASM_CONFIG_THREE_CURRENT_STATE_REG<3>")
+            (viewRef net
+              (cellRef FDCE))
+            (property LIBVER (string "2.0.0")))
+          (instance (rename aldecInstance_5 "ASM_CONFIG_THREE_CURRENT_STATE_REG<4>")
+            (viewRef net
+              (cellRef FDCE))
+            (property LIBVER (string "2.0.0")))
+          (instance (rename aldecInstance_6 "ASM_CONFIG_THREE_CURRENT_STATE_REG<5>")
+            (viewRef net
+              (cellRef FDCE))
+            (property LIBVER (string "2.0.0")))
+          (instance (rename aldecInstance_7 "ASM_CONFIG_THREE_CURRENT_STATE_REG<6>")
+            (viewRef net
+              (cellRef FDCE))
+            (property LIBVER (string "2.0.0")))
+          (instance (rename aldecInstance_8 "ASM_CONFIG_THREE_CURRENT_STATE_REG<7>")
+            (viewRef net
+              (cellRef FDCE))
+            (property LIBVER (string "2.0.0")))
+          (instance C508
+            (viewRef net
+              (cellRef IBUF))
+            (property LIBVER (string "2.0.0")))
+          (instance C509
+            (viewRef net
+              (cellRef IBUF))
+            (property LIBVER (string "2.0.0")))
+          (instance C591_C0
+            (viewRef net
+              (cellRef BUF))
+            (portInstance I
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C591_C1
+            (viewRef net
+              (cellRef AND3))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C592_C0
+            (viewRef net
+              (cellRef AND3))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance I2
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C592_C2
+            (viewRef net
+              (cellRef AND2))
+            (portInstance I0
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C592_C3
+            (viewRef net
+              (cellRef AND2))
+            (portInstance I1
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C593_C0
+            (viewRef net
+              (cellRef AND2))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C593_C1
+            (viewRef net
+              (cellRef AND3))
+            (portInstance I0
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C593_C2
+            (viewRef net
+              (cellRef AND4))
+            (portInstance I1
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C594_C0
+            (viewRef net
+              (cellRef AND3))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance I2
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C594_C2
+            (viewRef net
+              (cellRef AND2))
+            (portInstance I1
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C594_C3
+            (viewRef net
+              (cellRef AND2))
+            (property LIBVER (string "2.0.0")))
+          (instance C595_C0
+            (viewRef net
+              (cellRef BUF))
+            (portInstance I
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C595_C1
+            (viewRef net
+              (cellRef AND4))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance I2
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C596_C0
+            (viewRef net
+              (cellRef BUF))
+            (portInstance I
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C596_C1
+            (viewRef net
+              (cellRef AND4))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance I2
+              (property INV (string "")))
+            (portInstance I3
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C597_C0
+            (viewRef net
+              (cellRef AND2))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C597_C1
+            (viewRef net
+              (cellRef AND3))
+            (portInstance I1
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C597_C2
+            (viewRef net
+              (cellRef AND4))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C598_C0
+            (viewRef net
+              (cellRef AND2))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C599_C0
+            (viewRef net
+              (cellRef BUF))
+            (portInstance I
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C599_C1
+            (viewRef net
+              (cellRef AND4))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance I2
+              (property INV (string "")))
+            (portInstance I3
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C600_C0
+            (viewRef net
+              (cellRef AND3))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance I2
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C600_C2
+            (viewRef net
+              (cellRef AND2))
+            (portInstance I1
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C600_C3
+            (viewRef net
+              (cellRef AND2))
+            (portInstance I1
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C601_C0
+            (viewRef net
+              (cellRef BUF))
+            (portInstance I
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C601_C1
+            (viewRef net
+              (cellRef AND4))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance I2
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C602_C0
+            (viewRef net
+              (cellRef BUF))
+            (portInstance I
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C602_C1
+            (viewRef net
+              (cellRef AND4))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance I2
+              (property INV (string "")))
+            (portInstance I3
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C603_C0
+            (viewRef net
+              (cellRef AND2))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C603_C1
+            (viewRef net
+              (cellRef AND2))
+            (property LIBVER (string "2.0.0")))
+          (instance C603_C2
+            (viewRef net
+              (cellRef AND3))
+            (property LIBVER (string "2.0.0")))
+          (instance C604_C0
+            (viewRef net
+              (cellRef AND3))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance I2
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C604_C1
+            (viewRef net
+              (cellRef AND2))
+            (portInstance I1
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C604_C2
+            (viewRef net
+              (cellRef AND2))
+            (portInstance I1
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C604_C3
+            (viewRef net
+              (cellRef AND2))
+            (portInstance I1
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C605_C0
+            (viewRef net
+              (cellRef AND4))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance I2
+              (property INV (string "")))
+            (portInstance I3
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C605_C1
+            (viewRef net
+              (cellRef AND3))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I2
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C605_C2
+            (viewRef net
+              (cellRef AND3))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C605_C3
+            (viewRef net
+              (cellRef AND3))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance I2
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C605_C4
+            (viewRef net
+              (cellRef AND3))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I2
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C606_C0
+            (viewRef net
+              (cellRef BUF))
+            (portInstance I
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C606_C1
+            (viewRef net
+              (cellRef AND3))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C607_C0
+            (viewRef net
+              (cellRef BUF))
+            (portInstance I
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C607_C1
+            (viewRef net
+              (cellRef AND3))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance I2
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C608_C0
+            (viewRef net
+              (cellRef BUF))
+            (portInstance I
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C608_C1
+            (viewRef net
+              (cellRef AND3))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance I2
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C609_C0
+            (viewRef net
+              (cellRef BUF))
+            (portInstance I
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C609_C1
+            (viewRef net
+              (cellRef AND3))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance I2
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C610_C0
+            (viewRef net
+              (cellRef AND3))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance I2
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C611_C0
+            (viewRef net
+              (cellRef AND3))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance I2
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C611_C1
+            (viewRef net
+              (cellRef AND2))
+            (portInstance I1
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C611_C2
+            (viewRef net
+              (cellRef AND2))
+            (portInstance I1
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C611_C3
+            (viewRef net
+              (cellRef AND2))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C612_C0
+            (viewRef net
+              (cellRef BUF))
+            (portInstance I
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C612_C1
+            (viewRef net
+              (cellRef AND4))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance I2
+              (property INV (string "")))
+            (portInstance I3
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C613_C0
+            (viewRef net
+              (cellRef BUF))
+            (portInstance I
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C613_C1
+            (viewRef net
+              (cellRef AND4))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance I2
+              (property INV (string "")))
+            (portInstance I3
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C614_C0
+            (viewRef net
+              (cellRef AND4))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance I2
+              (property INV (string "")))
+            (portInstance I3
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C616_C0
+            (viewRef net
+              (cellRef BUF))
+            (portInstance I
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C616_C1
+            (viewRef net
+              (cellRef AND3))
+            (property LIBVER (string "2.0.0")))
+          (instance C617_C0
+            (viewRef net
+              (cellRef BUF))
+            (portInstance I
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C617_C1
+            (viewRef net
+              (cellRef AND3))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C618_C0
+            (viewRef net
+              (cellRef AND2))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C619_C0
+            (viewRef net
+              (cellRef BUF))
+            (portInstance I
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C619_C1
+            (viewRef net
+              (cellRef AND3))
+            (portInstance I0
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C620_C0
+            (viewRef net
+              (cellRef AND2))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C621_C0
+            (viewRef net
+              (cellRef AND2))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C621_C2
+            (viewRef net
+              (cellRef AND3))
+            (portInstance I1
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C622
+            (viewRef net
+              (cellRef BUFG))
+            (property LIBVER (string "2.0.0")))
+          (instance (rename aldecInstance_80 "DSP_THREE_MEM_Q_REG<0>")
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance (rename aldecInstance_81 "DSP_THREE_MEM_Q_REG<10>")
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance (rename aldecInstance_82 "DSP_THREE_MEM_Q_REG<11>")
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance (rename aldecInstance_83 "DSP_THREE_MEM_Q_REG<12>")
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance (rename aldecInstance_84 "DSP_THREE_MEM_Q_REG<13>")
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance (rename aldecInstance_85 "DSP_THREE_MEM_Q_REG<14>")
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance (rename aldecInstance_86 "DSP_THREE_MEM_Q_REG<15>")
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance (rename aldecInstance_87 "DSP_THREE_MEM_Q_REG<16>")
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance (rename aldecInstance_88 "DSP_THREE_MEM_Q_REG<17>")
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance (rename aldecInstance_89 "DSP_THREE_MEM_Q_REG<18>")
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance (rename aldecInstance_90 "DSP_THREE_MEM_Q_REG<19>")
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance (rename aldecInstance_91 "DSP_THREE_MEM_Q_REG<1>")
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance (rename aldecInstance_92 "DSP_THREE_MEM_Q_REG<2>")
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance (rename aldecInstance_93 "DSP_THREE_MEM_Q_REG<3>")
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance (rename aldecInstance_94 "DSP_THREE_MEM_Q_REG<4>")
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance (rename aldecInstance_95 "DSP_THREE_MEM_Q_REG<5>")
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance (rename aldecInstance_96 "DSP_THREE_MEM_Q_REG<6>")
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance (rename aldecInstance_97 "DSP_THREE_MEM_Q_REG<7>")
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance (rename aldecInstance_98 "DSP_THREE_MEM_Q_REG<8>")
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance (rename aldecInstance_99 "DSP_THREE_MEM_Q_REG<9>")
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance FMAP_1
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_10
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_11
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_12
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_13
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_14
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_16
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_17
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_18
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_19
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_2
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_20
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_21
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_22
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_23
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_24
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_25
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_26
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_27
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_28
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_29
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_3
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_4
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_5
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_6
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_8
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_9
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance HMAP_0
+            (viewRef net
+              (cellRef HMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance HMAP_15
+            (viewRef net
+              (cellRef HMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance HMAP_7
+            (viewRef net
+              (cellRef HMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance I0_FROM_NET_GND
+            (viewRef net
+              (cellRef GND)))
+          (net (rename aldecNet_1 "A0B0_A1B2<0>")
+            (joined 
+              (portRef aldecPort_1)
+              (portRef Q
+                (instanceRef aldecInstance_86))))
+          (net (rename aldecNet_2 "A0B0_A1B2<1>")
+            (joined 
+              (portRef aldecPort_2)
+              (portRef Q
+                (instanceRef aldecInstance_87))))
+          (net (rename aldecNet_3 "A0B0_A1B2<2>")
+            (joined 
+              (portRef aldecPort_3)
+              (portRef Q
+                (instanceRef aldecInstance_88))))
+          (net (rename aldecNet_4 "A0B0_A1B2<3>")
+            (joined 
+              (portRef aldecPort_4)
+              (portRef Q
+                (instanceRef aldecInstance_89))))
+          (net (rename aldecNet_5 "A0B0_A1B2<4>")
+            (joined 
+              (portRef aldecPort_5)
+              (portRef Q
+                (instanceRef aldecInstance_90))))
+          (net (rename aldecNet_6 "A0B1_A1B3<0>")
+            (joined 
+              (portRef aldecPort_6)
+              (portRef Q
+                (instanceRef aldecInstance_81))))
+          (net (rename aldecNet_7 "A0B1_A1B3<1>")
+            (joined 
+              (portRef aldecPort_7)
+              (portRef Q
+                (instanceRef aldecInstance_82))))
+          (net (rename aldecNet_8 "A0B1_A1B3<2>")
+            (joined 
+              (portRef aldecPort_8)
+              (portRef Q
+                (instanceRef aldecInstance_83))))
+          (net (rename aldecNet_9 "A0B1_A1B3<3>")
+            (joined 
+              (portRef aldecPort_9)
+              (portRef Q
+                (instanceRef aldecInstance_84))))
+          (net (rename aldecNet_10 "A0B1_A1B3<4>")
+            (joined 
+              (portRef aldecPort_10)
+              (portRef Q
+                (instanceRef aldecInstance_85))))
+          (net (rename aldecNet_11 "A2B0_A3B2<0>")
+            (joined 
+              (portRef aldecPort_11)
+              (portRef Q
+                (instanceRef aldecInstance_95))))
+          (net (rename aldecNet_12 "A2B0_A3B2<1>")
+            (joined 
+              (portRef aldecPort_12)
+              (portRef Q
+                (instanceRef aldecInstance_96))))
+          (net (rename aldecNet_13 "A2B0_A3B2<2>")
+            (joined 
+              (portRef aldecPort_13)
+              (portRef Q
+                (instanceRef aldecInstance_97))))
+          (net (rename aldecNet_14 "A2B0_A3B2<3>")
+            (joined 
+              (portRef aldecPort_14)
+              (portRef Q
+                (instanceRef aldecInstance_98))))
+          (net (rename aldecNet_15 "A2B0_A3B2<4>")
+            (joined 
+              (portRef aldecPort_15)
+              (portRef Q
+                (instanceRef aldecInstance_99))))
+          (net (rename aldecNet_16 "A2B1_A3B3<0>")
+            (joined 
+              (portRef aldecPort_16)
+              (portRef Q
+                (instanceRef aldecInstance_80))))
+          (net (rename aldecNet_17 "A2B1_A3B3<1>")
+            (joined 
+              (portRef aldecPort_17)
+              (portRef Q
+                (instanceRef aldecInstance_91))))
+          (net (rename aldecNet_18 "A2B1_A3B3<2>")
+            (joined 
+              (portRef aldecPort_18)
+              (portRef Q
+                (instanceRef aldecInstance_92))))
+          (net (rename aldecNet_19 "A2B1_A3B3<3>")
+            (joined 
+              (portRef aldecPort_19)
+              (portRef Q
+                (instanceRef aldecInstance_93))))
+          (net (rename aldecNet_20 "A2B1_A3B3<4>")
+            (joined 
+              (portRef aldecPort_20)
+              (portRef Q
+                (instanceRef aldecInstance_94))))
+          (net ASM_CONFIG_THREE_C1_N15
+            (joined 
+              (portRef D
+                (instanceRef aldecInstance_8))
+              (portRef O
+                (instanceRef c621_c0))
+              (portRef O
+                (instanceRef FMAP_29))))
+          (net ASM_CONFIG_THREE_C1_N26
+            (joined 
+              (portRef D
+                (instanceRef aldecInstance_6))
+              (portRef O
+                (instanceRef c619_c0))
+              (portRef O
+                (instanceRef FMAP_27))))
+          (net ASM_CONFIG_THREE_C1_N59
+            (joined 
+              (portRef D
+                (instanceRef aldecInstance_2))
+              (portRef O
+                (instanceRef c617_c0))
+              (portRef O
+                (instanceRef FMAP_25))))
+          (net ASM_CONFIG_THREE_C1_N68
+            (joined 
+              (portRef D
+                (instanceRef aldecInstance_1))
+              (portRef O
+                (instanceRef c616_c0))
+              (portRef O
+                (instanceRef FMAP_24))))
+          (net (rename aldecNet_25 "ASM_CONFIG_THREE_CURRENT_STATE<0>")
+            (joined 
+              (portRef Q
+                (instanceRef aldecInstance_1))
+              (portRef I0
+                (instanceRef c596_c1))
+              (portRef I1
+                (instanceRef FMAP_5))
+              (portRef I0
+                (instanceRef c599_c1))
+              (portRef I1
+                (instanceRef FMAP_8))
+              (portRef I0
+                (instanceRef c602_c1))
+              (portRef I1
+                (instanceRef FMAP_11))
+              (portRef I0
+                (instanceRef c612_c1))
+              (portRef I1
+                (instanceRef FMAP_21))
+              (portRef I3
+                (instanceRef c613_c1))
+              (portRef I4
+                (instanceRef FMAP_22))
+              (portRef I0
+                (instanceRef c614_c0))
+              (portRef I3
+                (instanceRef FMAP_23))
+              (portRef I2
+                (instanceRef c616_c1))
+              (portRef I3
+                (instanceRef FMAP_24))
+              (portRef I2
+                (instanceRef c617_c1))
+              (portRef I3
+                (instanceRef FMAP_25))
+              (portRef I2
+                (instanceRef c619_c1))
+              (portRef I3
+                (instanceRef FMAP_27))
+              (portRef I2
+                (instanceRef c621_c2))
+              (portRef I3
+                (instanceRef FMAP_29))))
+          (net (rename aldecNet_26 "ASM_CONFIG_THREE_CURRENT_STATE<1>")
+            (joined 
+              (portRef D
+                (instanceRef aldecInstance_3))
+              (portRef Q
+                (instanceRef aldecInstance_2))))
+          (net (rename aldecNet_27 "ASM_CONFIG_THREE_CURRENT_STATE<2>")
+            (joined 
+              (portRef D
+                (instanceRef aldecInstance_4))
+              (portRef Q
+                (instanceRef aldecInstance_3))
+              (portRef I3
+                (instanceRef c602_c1))
+              (portRef I4
+                (instanceRef FMAP_11))
+              (portRef I2
+                (instanceRef c605_c2))
+              (portRef I2
+                (instanceRef c605_c3))
+              (portRef I2
+                (instanceRef c605_c4))
+              (portRef I4
+                (instanceRef FMAP_14))
+              (portRef I2
+                (instanceRef c608_c1))
+              (portRef I3
+                (instanceRef FMAP_17))
+              (portRef I3
+                (instanceRef c612_c1))
+              (portRef I4
+                (instanceRef FMAP_21))))
+          (net (rename aldecNet_28 "ASM_CONFIG_THREE_CURRENT_STATE<3>")
+            (joined 
+              (portRef Q
+                (instanceRef aldecInstance_4))
+              (portRef I3
+                (instanceRef c596_c1))
+              (portRef I4
+                (instanceRef FMAP_5))
+              (portRef I3
+                (instanceRef c599_c1))
+              (portRef I4
+                (instanceRef FMAP_8))
+              (portRef I0
+                (instanceRef c604_c2))
+              (portRef I2
+                (instanceRef FMAP_13))
+              (portRef I2
+                (instanceRef c607_c1))
+              (portRef I3
+                (instanceRef FMAP_16))
+              (portRef I1
+                (instanceRef c613_c1))
+              (portRef I2
+                (instanceRef FMAP_22))
+              (portRef I0
+                (instanceRef c618_c0))
+              (portRef I1
+                (instanceRef FMAP_26))))
+          (net (rename aldecNet_29 "ASM_CONFIG_THREE_CURRENT_STATE<4>")
+            (joined 
+              (portRef Q
+                (instanceRef aldecInstance_5))
+              (portRef I2
+                (instanceRef c596_c1))
+              (portRef I3
+                (instanceRef FMAP_5))
+              (portRef I1
+                (instanceRef c599_c1))
+              (portRef I2
+                (instanceRef FMAP_8))
+              (portRef I2
+                (instanceRef c602_c1))
+              (portRef I3
+                (instanceRef FMAP_11))
+              (portRef I0
+                (instanceRef c604_c3))
+              (portRef I3
+                (instanceRef FMAP_13))
+              (portRef I1
+                (instanceRef c605_c1))
+              (portRef I1
+                (instanceRef c605_c3))
+              (portRef I0
+                (instanceRef c605_c4))
+              (portRef I2
+                (instanceRef FMAP_14))
+              (portRef I1
+                (instanceRef c607_c1))
+              (portRef I2
+                (instanceRef FMAP_16))
+              (portRef I1
+                (instanceRef c608_c1))
+              (portRef I2
+                (instanceRef FMAP_17))
+              (portRef I1
+                (instanceRef c612_c1))
+              (portRef I2
+                (instanceRef FMAP_21))
+              (portRef I2
+                (instanceRef c613_c1))
+              (portRef I3
+                (instanceRef FMAP_22))
+              (portRef I1
+                (instanceRef c618_c0))
+              (portRef I2
+                (instanceRef FMAP_26))))
+          (net (rename aldecNet_30 "ASM_CONFIG_THREE_CURRENT_STATE<5>")
+            (joined 
+              (portRef Q
+                (instanceRef aldecInstance_6))
+              (portRef I1
+                (instanceRef c596_c1))
+              (portRef I2
+                (instanceRef FMAP_5))
+              (portRef I1
+                (instanceRef c602_c1))
+              (portRef I2
+                (instanceRef FMAP_11))
+              (portRef I2
+                (instanceRef c605_c1))
+              (portRef I1
+                (instanceRef c605_c2))
+              (portRef I1
+                (instanceRef c605_c4))
+              (portRef I3
+                (instanceRef FMAP_14))
+              (portRef I2
+                (instanceRef c609_c1))
+              (portRef I3
+                (instanceRef FMAP_18))
+              (portRef I2
+                (instanceRef c614_c0))
+              (portRef I1
+                (instanceRef FMAP_23))
+              (portRef I0
+                (instanceRef c620_c0))
+              (portRef I1
+                (instanceRef FMAP_28))))
+          (net (rename aldecNet_31 "ASM_CONFIG_THREE_CURRENT_STATE<6>")
+            (joined 
+              (portRef Q
+                (instanceRef aldecInstance_7))
+              (portRef I2
+                (instanceRef c595_c1))
+              (portRef I3
+                (instanceRef FMAP_4))
+              (portRef I1
+                (instanceRef c601_c1))
+              (portRef I2
+                (instanceRef FMAP_10))
+              (portRef I1
+                (instanceRef c604_c1))
+              (portRef I1
+                (instanceRef c604_c2))
+              (portRef I1
+                (instanceRef c604_c3))
+              (portRef I4
+                (instanceRef FMAP_13))
+              (portRef I0
+                (instanceRef c608_c1))
+              (portRef I1
+                (instanceRef FMAP_17))
+              (portRef I1
+                (instanceRef c609_c1))
+              (portRef I2
+                (instanceRef FMAP_18))
+              (portRef I2
+                (instanceRef c612_c1))
+              (portRef I3
+                (instanceRef FMAP_21))
+              (portRef I3
+                (instanceRef c614_c0))
+              (portRef I2
+                (instanceRef FMAP_23))
+              (portRef I1
+                (instanceRef c620_c0))
+              (portRef I2
+                (instanceRef FMAP_28))))
+          (net (rename aldecNet_32 "ASM_CONFIG_THREE_CURRENT_STATE<7>")
+            (joined 
+              (portRef Q
+                (instanceRef aldecInstance_8))
+              (portRef I1
+                (instanceRef c595_c1))
+              (portRef I2
+                (instanceRef FMAP_4))
+              (portRef I2
+                (instanceRef c599_c1))
+              (portRef I3
+                (instanceRef FMAP_8))
+              (portRef I0
+                (instanceRef c601_c1))
+              (portRef I1
+                (instanceRef FMAP_10))
+              (portRef I0
+                (instanceRef c604_c1))
+              (portRef I1
+                (instanceRef FMAP_13))
+              (portRef I0
+                (instanceRef c605_c1))
+              (portRef I0
+                (instanceRef c605_c2))
+              (portRef I0
+                (instanceRef c605_c3))
+              (portRef I1
+                (instanceRef FMAP_14))
+              (portRef I0
+                (instanceRef c607_c1))
+              (portRef I1
+                (instanceRef FMAP_16))
+              (portRef I0
+                (instanceRef c609_c1))
+              (portRef I1
+                (instanceRef FMAP_18))
+              (portRef I0
+                (instanceRef c613_c1))
+              (portRef I1
+                (instanceRef FMAP_22))
+              (portRef I1
+                (instanceRef c614_c0))
+              (portRef I4
+                (instanceRef FMAP_23))
+              (portRef I0
+                (instanceRef c621_c0))
+              (portRef I4
+                (instanceRef FMAP_29))))
+          (net ASM_CONFIG_THREE_N5
+            (joined 
+              (portRef D
+                (instanceRef aldecInstance_5))
+              (portRef O
+                (instanceRef c618_c0))
+              (portRef O
+                (instanceRef FMAP_26))))
+          (net ASM_CONFIG_THREE_N6
+            (joined 
+              (portRef D
+                (instanceRef aldecInstance_7))
+              (portRef O
+                (instanceRef c620_c0))
+              (portRef O
+                (instanceRef FMAP_28))))
+          (net C591_N0
+            (joined 
+              (portRef I
+                (instanceRef c591_c0))
+              (portRef O
+                (instanceRef c591_c1))))
+          (net C592_N1
+            (joined 
+              (portRef I1
+                (instanceRef c592_c0))
+              (portRef O
+                (instanceRef c592_c2))))
+          (net C592_N2
+            (joined 
+              (portRef I2
+                (instanceRef c592_c0))
+              (portRef O
+                (instanceRef c592_c3))))
+          (net C593_N0
+            (joined 
+              (portRef I0
+                (instanceRef c593_c0))
+              (portRef O
+                (instanceRef c593_c1))))
+          (net C593_N1
+            (joined 
+              (portRef I1
+                (instanceRef c593_c0))
+              (portRef O
+                (instanceRef c593_c2))))
+          (net C594_N1
+            (joined 
+              (portRef I1
+                (instanceRef c594_c0))
+              (portRef O
+                (instanceRef c594_c2))))
+          (net C594_N2
+            (joined 
+              (portRef I2
+                (instanceRef c594_c0))
+              (portRef O
+                (instanceRef c594_c3))))
+          (net C595_N0
+            (joined 
+              (portRef I
+                (instanceRef c595_c0))
+              (portRef O
+                (instanceRef c595_c1))))
+          (net C596_N0
+            (joined 
+              (portRef I
+                (instanceRef c596_c0))
+              (portRef O
+                (instanceRef c596_c1))))
+          (net C597_N0
+            (joined 
+              (portRef I0
+                (instanceRef c597_c0))
+              (portRef O
+                (instanceRef c597_c1))))
+          (net C597_N1
+            (joined 
+              (portRef I1
+                (instanceRef c597_c0))
+              (portRef O
+                (instanceRef c597_c2))))
+          (net C599_N0
+            (joined 
+              (portRef I
+                (instanceRef c599_c0))
+              (portRef O
+                (instanceRef c599_c1))))
+          (net C600_N1
+            (joined 
+              (portRef I1
+                (instanceRef c600_c0))
+              (portRef O
+                (instanceRef c600_c2))))
+          (net C600_N2
+            (joined 
+              (portRef I2
+                (instanceRef c600_c0))
+              (portRef O
+                (instanceRef c600_c3))))
+          (net C601_N0
+            (joined 
+              (portRef I
+                (instanceRef c601_c0))
+              (portRef O
+                (instanceRef c601_c1))))
+          (net C602_N0
+            (joined 
+              (portRef I
+                (instanceRef c602_c0))
+              (portRef O
+                (instanceRef c602_c1))))
+          (net C603_N0
+            (joined 
+              (portRef I0
+                (instanceRef c603_c0))
+              (portRef O
+                (instanceRef c603_c1))))
+          (net C603_N1
+            (joined 
+              (portRef I1
+                (instanceRef c603_c0))
+              (portRef O
+                (instanceRef c603_c2))))
+          (net C604_N0
+            (joined 
+              (portRef I0
+                (instanceRef c604_c0))
+              (portRef O
+                (instanceRef c604_c1))))
+          (net C604_N1
+            (joined 
+              (portRef I1
+                (instanceRef c604_c0))
+              (portRef O
+                (instanceRef c604_c2))))
+          (net C604_N2
+            (joined 
+              (portRef I2
+                (instanceRef c604_c0))
+              (portRef O
+                (instanceRef c604_c3))))
+          (net C605_N0
+            (joined 
+              (portRef I0
+                (instanceRef c605_c0))
+              (portRef O
+                (instanceRef c605_c1))))
+          (net C605_N1
+            (joined 
+              (portRef I1
+                (instanceRef c605_c0))
+              (portRef O
+                (instanceRef c605_c2))))
+          (net C605_N2
+            (joined 
+              (portRef I2
+                (instanceRef c605_c0))
+              (portRef O
+                (instanceRef c605_c3))))
+          (net C605_N3
+            (joined 
+              (portRef I3
+                (instanceRef c605_c0))
+              (portRef O
+                (instanceRef c605_c4))))
+          (net C606_N0
+            (joined 
+              (portRef I
+                (instanceRef c606_c0))
+              (portRef O
+                (instanceRef c606_c1))))
+          (net C607_N0
+            (joined 
+              (portRef I
+                (instanceRef c607_c0))
+              (portRef O
+                (instanceRef c607_c1))))
+          (net C608_N0
+            (joined 
+              (portRef I
+                (instanceRef c608_c0))
+              (portRef O
+                (instanceRef c608_c1))))
+          (net C609_N0
+            (joined 
+              (portRef I
+                (instanceRef c609_c0))
+              (portRef O
+                (instanceRef c609_c1))))
+          (net C611_N0
+            (joined 
+              (portRef I0
+                (instanceRef c611_c0))
+              (portRef O
+                (instanceRef c611_c1))))
+          (net C611_N1
+            (joined 
+              (portRef I1
+                (instanceRef c611_c0))
+              (portRef O
+                (instanceRef c611_c2))))
+          (net C611_N2
+            (joined 
+              (portRef I2
+                (instanceRef c611_c0))
+              (portRef O
+                (instanceRef c611_c3))))
+          (net C612_N0
+            (joined 
+              (portRef I
+                (instanceRef c612_c0))
+              (portRef O
+                (instanceRef c612_c1))))
+          (net C613_N0
+            (joined 
+              (portRef I
+                (instanceRef c613_c0))
+              (portRef O
+                (instanceRef c613_c1))))
+          (net C616_N0
+            (joined 
+              (portRef I
+                (instanceRef c616_c0))
+              (portRef O
+                (instanceRef c616_c1))))
+          (net C617_N0
+            (joined 
+              (portRef I
+                (instanceRef c617_c0))
+              (portRef O
+                (instanceRef c617_c1))))
+          (net C619_N0
+            (joined 
+              (portRef I
+                (instanceRef c619_c0))
+              (portRef O
+                (instanceRef c619_c1))))
+          (net C621_N1
+            (joined 
+              (portRef I1
+                (instanceRef c621_c0))
+              (portRef O
+                (instanceRef c621_c2))))
+          (net CLK
+            (joined 
+              (portRef CLK)
+              (portRef I
+                (instanceRef C622))))
+          (net CLK_BUFGED
+            (joined 
+              (portRef C
+                (instanceRef aldecInstance_8))
+              (portRef C
+                (instanceRef aldecInstance_7))
+              (portRef C
+                (instanceRef aldecInstance_6))
+              (portRef C
+                (instanceRef aldecInstance_5))
+              (portRef C
+                (instanceRef aldecInstance_4))
+              (portRef C
+                (instanceRef aldecInstance_3))
+              (portRef C
+                (instanceRef aldecInstance_2))
+              (portRef C
+                (instanceRef aldecInstance_1))
+              (portRef C
+                (instanceRef aldecInstance_90))
+              (portRef C
+                (instanceRef aldecInstance_89))
+              (portRef C
+                (instanceRef aldecInstance_88))
+              (portRef C
+                (instanceRef aldecInstance_87))
+              (portRef C
+                (instanceRef aldecInstance_86))
+              (portRef C
+                (instanceRef aldecInstance_85))
+              (portRef C
+                (instanceRef aldecInstance_84))
+              (portRef C
+                (instanceRef aldecInstance_83))
+              (portRef C
+                (instanceRef aldecInstance_82))
+              (portRef C
+                (instanceRef aldecInstance_81))
+              (portRef C
+                (instanceRef aldecInstance_99))
+              (portRef C
+                (instanceRef aldecInstance_98))
+              (portRef C
+                (instanceRef aldecInstance_97))
+              (portRef C
+                (instanceRef aldecInstance_96))
+              (portRef C
+                (instanceRef aldecInstance_95))
+              (portRef C
+                (instanceRef aldecInstance_94))
+              (portRef C
+                (instanceRef aldecInstance_93))
+              (portRef C
+                (instanceRef aldecInstance_92))
+              (portRef C
+                (instanceRef aldecInstance_91))
+              (portRef C
+                (instanceRef aldecInstance_80))
+              (portRef O
+                (instanceRef C622))))
+          (net DSP_THREE_MEM_C14_N3
+            (joined 
+              (portRef D
+                (instanceRef aldecInstance_83))
+              (portRef O
+                (instanceRef c597_c0))
+              (portRef O
+                (instanceRef FMAP_6))))
+          (net DSP_THREE_MEM_C28_N3
+            (joined 
+              (portRef D
+                (instanceRef aldecInstance_95))
+              (portRef O
+                (instanceRef c593_c0))
+              (portRef O
+                (instanceRef FMAP_2))))
+          (net DSP_THREE_MEM_C377
+            (joined 
+              (portRef I0
+                (instanceRef c591_c1))
+              (portRef I1
+                (instanceRef HMAP_0))
+              (portRef I0
+                (instanceRef c600_c0))
+              (portRef I4
+                (instanceRef FMAP_9))
+              (portRef O
+                (instanceRef c601_c0))
+              (portRef O
+                (instanceRef FMAP_10))))
+          (net DSP_THREE_MEM_C379
+            (joined 
+              (portRef I1
+                (instanceRef c591_c1))
+              (portRef I2
+                (instanceRef HMAP_0))
+              (portRef I0
+                (instanceRef c594_c0))
+              (portRef I4
+                (instanceRef FMAP_3))
+              (portRef O
+                (instanceRef c595_c0))
+              (portRef O
+                (instanceRef FMAP_4))))
+          (net DSP_THREE_MEM_C385
+            (joined 
+              (portRef I0
+                (instanceRef c603_c1))
+              (portRef I0
+                (instanceRef c603_c2))
+              (portRef I1
+                (instanceRef FMAP_12))
+              (portRef O
+                (instanceRef c610_c0))
+              (portRef O
+                (instanceRef FMAP_19))))
+          (net DSP_THREE_MEM_C6_N3
+            (joined 
+              (portRef D
+                (instanceRef aldecInstance_87))
+              (portRef D
+                (instanceRef aldecInstance_86))
+              (portRef O
+                (instanceRef c603_c0))
+              (portRef O
+                (instanceRef FMAP_12))))
+          (net DSP_THREE_MEM_N23
+            (joined 
+              (portRef CE
+                (instanceRef aldecInstance_85))
+              (portRef CE
+                (instanceRef aldecInstance_84))
+              (portRef CE
+                (instanceRef aldecInstance_83))
+              (portRef CE
+                (instanceRef aldecInstance_82))
+              (portRef CE
+                (instanceRef aldecInstance_81))
+              (portRef O
+                (instanceRef c600_c0))
+              (portRef O
+                (instanceRef FMAP_9))))
+          (net DSP_THREE_MEM_N3
+            (joined 
+              (portRef CE
+                (instanceRef aldecInstance_90))
+              (portRef CE
+                (instanceRef aldecInstance_89))
+              (portRef CE
+                (instanceRef aldecInstance_88))
+              (portRef CE
+                (instanceRef aldecInstance_87))
+              (portRef CE
+                (instanceRef aldecInstance_86))
+              (portRef O
+                (instanceRef c611_c0))
+              (portRef O
+                (instanceRef FMAP_20))))
+          (net DSP_THREE_MEM_N43
+            (joined 
+              (portRef CE
+                (instanceRef aldecInstance_99))
+              (portRef CE
+                (instanceRef aldecInstance_98))
+              (portRef CE
+                (instanceRef aldecInstance_97))
+              (portRef CE
+                (instanceRef aldecInstance_96))
+              (portRef CE
+                (instanceRef aldecInstance_95))
+              (portRef O
+                (instanceRef c594_c0))
+              (portRef O
+                (instanceRef FMAP_3))))
+          (net (rename aldecNet_84 "MODE_SEL<0>")
+            (joined 
+              (portRef aldecPort_22)
+              (portRef I
+                (instanceRef C509))))
+          (net (rename aldecNet_85 "MODE_SEL<1>")
+            (joined 
+              (portRef aldecPort_23)
+              (portRef I
+                (instanceRef C508))))
+          (net N34
+            (joined 
+              (portRef D
+                (instanceRef aldecInstance_90))
+              (portRef D
+                (instanceRef aldecInstance_89))
+              (portRef D
+                (instanceRef aldecInstance_88))
+              (portRef D
+                (instanceRef aldecInstance_85))
+              (portRef D
+                (instanceRef aldecInstance_84))
+              (portRef D
+                (instanceRef aldecInstance_82))
+              (portRef D
+                (instanceRef aldecInstance_81))
+              (portRef D
+                (instanceRef aldecInstance_99))
+              (portRef D
+                (instanceRef aldecInstance_98))
+              (portRef D
+                (instanceRef aldecInstance_97))
+              (portRef D
+                (instanceRef aldecInstance_96))
+              (portRef D
+                (instanceRef aldecInstance_94))
+              (portRef D
+                (instanceRef aldecInstance_93))
+              (portRef D
+                (instanceRef aldecInstance_92))
+              (portRef D
+                (instanceRef aldecInstance_91))
+              (portRef D
+                (instanceRef aldecInstance_80))
+              (portRef GROUND
+                (instanceRef I0_from_net_GND))))
+          (net N74
+            (joined 
+              (portRef CE
+                (instanceRef aldecInstance_94))
+              (portRef CE
+                (instanceRef aldecInstance_93))
+              (portRef CE
+                (instanceRef aldecInstance_92))
+              (portRef CE
+                (instanceRef aldecInstance_91))
+              (portRef CE
+                (instanceRef aldecInstance_80))
+              (portRef O
+                (instanceRef c591_c0))
+              (portRef O
+                (instanceRef HMAP_0))))
+          (net (rename aldecNet_88 "N_MODE_SEL<0>")
+            (joined 
+              (portRef O
+                (instanceRef C509))
+              (portRef I1
+                (instanceRef c616_c1))
+              (portRef I2
+                (instanceRef FMAP_24))
+              (portRef I1
+                (instanceRef c617_c1))
+              (portRef I2
+                (instanceRef FMAP_25))
+              (portRef I1
+                (instanceRef c619_c1))
+              (portRef I2
+                (instanceRef FMAP_27))
+              (portRef I1
+                (instanceRef c621_c2))
+              (portRef I2
+                (instanceRef FMAP_29))))
+          (net (rename aldecNet_89 "N_MODE_SEL<1>")
+            (joined 
+              (portRef O
+                (instanceRef C508))
+              (portRef I0
+                (instanceRef c616_c1))
+              (portRef I1
+                (instanceRef FMAP_24))
+              (portRef I0
+                (instanceRef c617_c1))
+              (portRef I1
+                (instanceRef FMAP_25))
+              (portRef I0
+                (instanceRef c619_c1))
+              (portRef I1
+                (instanceRef FMAP_27))
+              (portRef I0
+                (instanceRef c621_c2))
+              (portRef I1
+                (instanceRef FMAP_29))))
+          (net SYN235
+            (joined 
+              (portRef I1
+                (instanceRef c603_c1))
+              (portRef I2
+                (instanceRef FMAP_12))
+              (portRef O
+                (instanceRef c606_c0))
+              (portRef O
+                (instanceRef HMAP_15))))
+          (net SYN258
+            (joined 
+              (portRef I0
+                (instanceRef c593_c1))
+              (portRef I0
+                (instanceRef c593_c2))
+              (portRef I1
+                (instanceRef FMAP_2))
+              (portRef I0
+                (instanceRef c597_c2))
+              (portRef I1
+                (instanceRef FMAP_6))
+              (portRef I0
+                (instanceRef c606_c1))
+              (portRef I1
+                (instanceRef HMAP_15))
+              (portRef O
+                (instanceRef c609_c0))
+              (portRef O
+                (instanceRef FMAP_18))))
+          (net SYN266
+            (joined 
+              (portRef I1
+                (instanceRef c593_c1))
+              (portRef I1
+                (instanceRef c593_c2))
+              (portRef I2
+                (instanceRef FMAP_2))
+              (portRef I0
+                (instanceRef c597_c1))
+              (portRef I1
+                (instanceRef c597_c2))
+              (portRef I2
+                (instanceRef FMAP_6))
+              (portRef I1
+                (instanceRef c606_c1))
+              (portRef I2
+                (instanceRef HMAP_15))
+              (portRef O
+                (instanceRef c608_c0))
+              (portRef O
+                (instanceRef FMAP_17))))
+          (net SYN272
+            (joined 
+              (portRef I2
+                (instanceRef c593_c2))
+              (portRef I3
+                (instanceRef FMAP_2))
+              (portRef I1
+                (instanceRef c597_c1))
+              (portRef I2
+                (instanceRef c597_c2))
+              (portRef I3
+                (instanceRef FMAP_6))
+              (portRef I2
+                (instanceRef c606_c1))
+              (portRef I3
+                (instanceRef HMAP_15))
+              (portRef O
+                (instanceRef c607_c0))
+              (portRef O
+                (instanceRef FMAP_16))))
+          (net SYN770
+            (joined 
+              (portRef I1
+                (instanceRef c603_c2))
+              (portRef I3
+                (instanceRef FMAP_12))
+              (portRef O
+                (instanceRef c605_c0))
+              (portRef O
+                (instanceRef FMAP_14))))
+          (net SYN790
+            (joined 
+              (portRef I0
+                (instanceRef c592_c2))
+              (portRef I0
+                (instanceRef c592_c3))
+              (portRef I2
+                (instanceRef FMAP_1))
+              (portRef I0
+                (instanceRef c594_c2))
+              (portRef I0
+                (instanceRef c594_c3))
+              (portRef I1
+                (instanceRef FMAP_3))
+              (portRef I0
+                (instanceRef c600_c2))
+              (portRef I0
+                (instanceRef c600_c3))
+              (portRef I1
+                (instanceRef FMAP_9))
+              (portRef I0
+                (instanceRef c610_c0))
+              (portRef I1
+                (instanceRef FMAP_19))
+              (portRef I0
+                (instanceRef c611_c1))
+              (portRef I0
+                (instanceRef c611_c2))
+              (portRef I1
+                (instanceRef FMAP_20))
+              (portRef O
+                (instanceRef c614_c0))
+              (portRef O
+                (instanceRef FMAP_23))))
+          (net SYN791
+            (joined 
+              (portRef I2
+                (instanceRef c593_c1))
+              (portRef I3
+                (instanceRef c593_c2))
+              (portRef I4
+                (instanceRef FMAP_2))
+              (portRef I2
+                (instanceRef c597_c1))
+              (portRef I3
+                (instanceRef c597_c2))
+              (portRef I4
+                (instanceRef FMAP_6))
+              (portRef O
+                (instanceRef c598_c0))
+              (portRef O
+                (instanceRef HMAP_7))))
+          (net SYN798
+            (joined 
+              (portRef I1
+                (instanceRef c592_c2))
+              (portRef I1
+                (instanceRef c592_c3))
+              (portRef I3
+                (instanceRef FMAP_1))
+              (portRef I1
+                (instanceRef c594_c2))
+              (portRef I2
+                (instanceRef FMAP_3))
+              (portRef I1
+                (instanceRef c600_c2))
+              (portRef I2
+                (instanceRef FMAP_9))
+              (portRef I2
+                (instanceRef c601_c1))
+              (portRef I3
+                (instanceRef FMAP_10))
+              (portRef I1
+                (instanceRef c610_c0))
+              (portRef I2
+                (instanceRef FMAP_19))
+              (portRef I1
+                (instanceRef c611_c1))
+              (portRef I0
+                (instanceRef c611_c3))
+              (portRef I2
+                (instanceRef FMAP_20))
+              (portRef O
+                (instanceRef c613_c0))
+              (portRef O
+                (instanceRef FMAP_22))))
+          (net SYN803
+            (joined 
+              (portRef I0
+                (instanceRef c592_c0))
+              (portRef I1
+                (instanceRef FMAP_1))
+              (portRef I1
+                (instanceRef c594_c3))
+              (portRef I3
+                (instanceRef FMAP_3))
+              (portRef I0
+                (instanceRef c595_c1))
+              (portRef I1
+                (instanceRef FMAP_4))
+              (portRef I1
+                (instanceRef c598_c0))
+              (portRef I1
+                (instanceRef HMAP_7))
+              (portRef I1
+                (instanceRef c600_c3))
+              (portRef I3
+                (instanceRef FMAP_9))
+              (portRef I2
+                (instanceRef c610_c0))
+              (portRef I3
+                (instanceRef FMAP_19))
+              (portRef I1
+                (instanceRef c611_c2))
+              (portRef I1
+                (instanceRef c611_c3))
+              (portRef I3
+                (instanceRef FMAP_20))
+              (portRef O
+                (instanceRef c612_c0))
+              (portRef O
+                (instanceRef FMAP_21))))
+          (net SYN822
+            (joined 
+              (portRef I2
+                (instanceRef c603_c2))
+              (portRef I4
+                (instanceRef FMAP_12))
+              (portRef O
+                (instanceRef c604_c0))
+              (portRef O
+                (instanceRef FMAP_13))))
+          (net SYN829
+            (joined 
+              (portRef I3
+                (instanceRef c601_c1))
+              (portRef I4
+                (instanceRef FMAP_10))
+              (portRef O
+                (instanceRef c602_c0))
+              (portRef O
+                (instanceRef FMAP_11))))
+          (net SYN842
+            (joined 
+              (portRef I3
+                (instanceRef c595_c1))
+              (portRef I4
+                (instanceRef FMAP_4))
+              (portRef O
+                (instanceRef c596_c0))
+              (portRef O
+                (instanceRef FMAP_5))))
+          (net SYN856
+            (joined 
+              (portRef I2
+                (instanceRef c591_c1))
+              (portRef I3
+                (instanceRef HMAP_0))
+              (portRef O
+                (instanceRef c592_c0))
+              (portRef O
+                (instanceRef FMAP_1))))
+          (net SYN866
+            (joined 
+              (portRef I0
+                (instanceRef c598_c0))
+              (portRef I2
+                (instanceRef HMAP_7))
+              (portRef O
+                (instanceRef c599_c0))
+              (portRef O
+                (instanceRef FMAP_8))))))))
+  (design cons_int
+    (cellRef cons_int
+      (libraryRef Active_lib))
+    (property PART (string "4010XL-PC84-09"))))

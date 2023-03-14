@@ -1,0 +1,25 @@
+-- Created by David Clarke for the RS232 assignment
+Library IEEE;
+USE IEEE.STD_LOGIC_1164.All;
+
+Entity Parity_Test IS
+PORT (CLR, PTEN, S : IN STD_LOGIC; EVEN, ODD : OUT STD_LOGIC);
+END Parity_Test;
+--
+Architecture Parity_Test_Arch OF Parity_Test IS
+Begin
+     Process (CLR, PTEN, S)
+     Begin
+     IF CLR = '1' THEN 
+     EVEN <= '0'; ODD <= '0';
+     ELSIF PTEN = '1' THEN
+     	IF S = '0' THEN
+     	   ODD <= '1'; EVEN <= '0';
+     	ELSIF S = '1' THEN
+     	   EVEN <= '1'; ODD <= '0';
+     	END IF;
+     END IF;
+     END Process;
+End Architecture Parity_Test_Arch;
+     	
+     	

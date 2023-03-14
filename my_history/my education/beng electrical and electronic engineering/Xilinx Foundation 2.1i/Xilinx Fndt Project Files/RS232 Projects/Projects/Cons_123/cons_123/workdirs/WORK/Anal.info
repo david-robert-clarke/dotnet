@@ -1,0 +1,9 @@
+file {
+  .version = 1;
+  entity {
+    .name = "SYSTEM";
+    .mra_file = "SYSTEM.mra";
+    .arch = {"STRUCTURAL"};
+    .syn_files = {"SYSTEM.syn", "SYSTEM__STRUCTURAL.syn"};
+   }
+}

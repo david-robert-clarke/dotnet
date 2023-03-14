@@ -1,0 +1,9 @@
+file {
+  .version = 1;
+  entity {
+    .name = "RAM_STORAGE";
+    .mra_file = "RAM_STORAGE.mra";
+    .arch = {"behavioural"};
+    .syn_files = {"RAM_STORAGE.syn", "RAM_STORAGE__BEHAVIOURAL.syn"};
+   }
+}

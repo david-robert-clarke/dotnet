@@ -1,0 +1,28 @@
+CM: 
+CM: Checking...
+CM: C:\Fndtn\Active\Projects\RS232MBR\DECOD.vhd Error   L35/C0 : #0 Error: C:/Fndtn/Active/Projects/RS232MBR/DECOD.vhd  line 35   Architecture closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: C:\Fndtn\Active\Projects\RS232MBR\DECOD.vhd Warning   L-1/C0 : #0 Warning: Latch inferred in design 'Decoder' read with   'hdlin_check_no_latch'.  (HDL-307) 
+CM:  0 error(s) 1 warning(s) found
+CM: Synthesis successful (Warnings found)
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: Symbol 'DECOD' successfully created
+CM: 
+CM: Netlist is up-to-date
+CM: Symbol 'DECOD' successfully updated
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Synthesizing...
+CM: C:\Fndtn\Active\Projects\RS232MBR\DECOD.vhd Warning   L-1/C0 : #0 Warning: Latch inferred in design 'Decoder' read with   'hdlin_check_no_latch'.  (HDL-307) 
+CM:  0 error(s) 1 warning(s) found
+CM: Synthesis succesful (Warnings found)
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: 
+CM: Netlist is up-to-date
+CM: Symbol 'DECOD' successfully updated

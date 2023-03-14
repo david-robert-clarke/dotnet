@@ -1,0 +1,105 @@
+import word.*;
+import java.io.*;
+import java.util.*;
+
+class WordCount
+{
+    private WordBook myWordBook;
+    
+    public WordCount (String filename, String order) throws IOException
+    {
+      
+      myWordBook = new WordBook();
+      myWordBook.load(filename);
+      boolean error = false;
+      
+      // sort by words in ascending order
+      if (order.equals("-wa"))
+      {
+	myWordBook.alphaSort();
+	myWordBook.countNRemove();
+      }
+
+      // sort by words in descending order
+      else if (order.equals("-wd"))
+      {
+	myWordBook.alphaSort();
+	myWordBook.countNRemove();
+	myWordBook.descend();
+      }
+
+      // sort by number of occurences in ascending order
+      else if (order.equals("-na"))
+      {
+	myWordBook.alphaSort();
+	myWordBook.countNRemove();
+	myWordBook.freqSort();
+      }
+
+      // sort by number of occurences in descending order
+      else if (order.equals("-nd"))
+      {
+	myWordBook.alphaSort();
+	myWordBook.countNRemove();
+	myWordBook.freqSort();
+	myWordBook.descend();
+      }
+
+      // if no sorting method has been entered, default to  -wa
+      else if (order.equals(""))
+      {
+	myWordBook.alphaSort();
+	myWordBook.countNRemove();
+      }
+	       
+      else
+      {
+	System.out.println("java.io.FileNotFoundException: -u" +
+			   " (No such file or directory)");
+	System.out.println("Unable to continue. Aborting...");
+	error = true;
+	
+      }
+      
+	
+      if (error != true)
+      {
+	
+	// Print out results to the command line
+	for (int i=0; i < myWordBook.getWordList().size(); i++)
+	{
+	  Word w;
+	  w = (Word)myWordBook.getWordList().get(i);
+	  System.out.println(w.getWord() + "\t\t" + w.getFreq());
+	}
+	
+	System.out.println("Total words:" + "\t\t" +
+			   myWordBook.getWordList().size());
+      }
+      
+    }
+  
+    public static void main (String[] args) throws IOException
+  {
+    if (args.length == 1)
+    {
+      String order = "";
+      String filename = args[0];
+      new WordCount(filename, order);
+    }
+
+    else if (args.length == 2)
+    {
+      String order = args[0];
+      String filename = args[1];
+      new WordCount(filename, order);
+    } 
+    else
+    {
+      System.out.println ("You must specify a file to process!");
+    }
+    
+  }
+  
+}
+

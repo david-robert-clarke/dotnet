@@ -1,0 +1,1594 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0077)http://benedick.aston.ac.uk:8080/tutorials/paths/ModulationBasics/entire_html -->
+<HTML><HEAD><TITLE>Modulation Basics</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252"><LINK 
+href="Modulation Basics_files/main.css" type=text/css rel=stylesheet>
+<META content=INDEX,NOFOLLOW name=ROBOTS>
+<META content="" name=keywords>
+<META content="" name=description>
+<META content="" name=author>
+<META content="MSHTML 6.00.2462.0" name=GENERATOR></HEAD>
+<BODY class=seas text=#003366 vLink=#000080 aLink=#000080 link=#000080 
+bgColor=white>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD class=header colSpan=5 height=24>Aston University <B>School of 
+      Engineering &amp; Applied Science</B> <BR>Telecoms and Internet Tutorials 
+    </TD>
+    <TD class=header align=right><A title="Aston University Home" 
+      href="http://www.aston.ac.uk/"><IMG height=24 alt="Aston University Home" 
+      hspace=1 src="Modulation Basics_files/corp-home_f01.gif" width=24 border=0 
+      name=corphome></A> <A title="Aston University Information" 
+      href="http://www.aston.ac.uk/aston/info"><IMG height=24 
+      alt="Aston University Information" hspace=1 
+      src="Modulation Basics_files/corp-info_f01.gif" width=24 border=0 
+      name=corpinfo></A> <A title="Aston University Web Search" 
+      href="http://www.aston.ac.uk/search/"><IMG height=24 
+      alt="Aston University Web Search" hspace=1 
+      src="Modulation Basics_files/corp-map_f01.gif" width=24 border=0 
+      name=corpmap></A> <A title="Aston University Contact and Communications" 
+      href="http://www.aston.ac.uk/contact"><IMG height=24 
+      alt="Aston University Contact and Communications" hspace=1 
+      src="Modulation Basics_files/corp-contact_f01.gif" width=24 border=0 
+      name=corpcontact></A> </TD></TR></TBODY></TABLE>
+<TABLE class=topmenu cellSpacing=1 cellPadding=2 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD class=navoff vAlign=top align=middle width="25%"><A 
+      title="Tutorial Home" 
+      href="http://benedick.aston.ac.uk:8080/tutorials">Home</A></TD>
+    <TD class=navoff vAlign=top align=middle width="25%"><A 
+      title="Learning Paths" 
+      href="http://benedick.aston.ac.uk:8080/tutorials/paths">Paths</A></TD>
+    <TD class=navoff vAlign=top align=middle width="25%"><A title="All Topics" 
+      href="http://benedick.aston.ac.uk:8080/tutorials/list">Topics</A></TD>
+    <TD class=navoff vAlign=top align=middle width="25%">
+      <FORM action=http://benedick.aston.ac.uk:8080/tutorials/search 
+      method=get>Search <INPUT size=15 name=PrincipiaSearchSource> 
+  </FORM></TD></TR></TBODY></TABLE>
+<H1 class=title>Modulation Basics </H1>
+<P><A 
+href="http://benedick.aston.ac.uk:8080/tutorials/paths/ModulationBasics/index_html">View 
+Tutorial Path Index</A></P>
+<H2>Modulation Basics</H2>
+<P>To introduce some of the basic principles behind modulation techniques.</P>
+<HR>
+
+<DL>
+  <H3>Bandwidth Requirements Of Common Signals</H3>
+  <P>On completing this section you should be able to state the typical 
+  bandwidth requirements for common signals</P>
+  <P>
+  <P>Given below is a table of the bandwidth of some common signals.</P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=0 border=0>
+    <TBODY>
+    <TR>
+      <TD width="50%">Telephone</TD>
+      <TD noWrap>4 kHz (300 -3400 Hz)</TD></TR>
+    <TR>
+      <TD width="50%">Radio - monaural, AM</TD>
+      <TD noWrap>8 kHz (160 Hz - 8 kHz)</TD></TR>
+    <TR>
+      <TD width="50%">Radio - stereo, FM</TD>
+      <TD noWrap>15 kHz (30 Hz - 15 kHz)</TD></TR>
+    <TR>
+      <TD width="50%">Telegraphy (CCITT-2) </TD>
+      <TD noWrap>120 Hz</TD></TR>
+    <TR>
+      <TD width="50%">Facsimile (FAX)</TD>
+      <TD noWrap>1.1 kHz</TD></TR>
+    <TR>
+      <TD width="50%">Television</TD>
+      <TD noWrap>6.5 !MHz</TD></TR>
+    <TR>
+      <TD width="50%">High Definition TV</TD>
+      <TD noWrap>30 !MHz</TD></TR></TBODY></TABLE></P>
+  <P>
+  <P>Find out more about the bandwidth requirements of<BR>
+  <UL>
+    <LI>BandwidthRequirementsOfAudio 
+    <LI>BandwidthRequirementsOfMusic 
+    <LI>BandwidthRequirementsOfTelegraphy 
+    <LI>BandwidthRequirementsOfFax 
+    <LI>BandwidthRequirementsOfTelevision </LI></UL>
+  <P></P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:08.218 GMT+1</I></P>
+  <H3>What Is Modulation?</H3>
+  <P>On completing this section you should be able to give a brief description 
+  of what modulation is and be able to distinguish between amplitude, phase and 
+  frequency modulation.</P>
+  <P>
+  <P>Modulation is the variation of the characteristics of one signal (the 
+  carrier) in proportion to the amplitude of a second, information-carrying 
+  signal. Modulation results in the transfer of the signal information to higher 
+  or lower frequency. If a sinusoidal carrier is used (as is usually the case) 
+  then either the amplitude, frequency or phase of the carrier signal may be 
+  modulated giving rise to amplitude modulation (AM), frequency modulation (FM) 
+  or phase modulation (PM) respectively.</P>
+  <P></P>
+  <H4>
+  <P><IMG src="Modulation Basics_files/modula1.gif"></P></H4>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:08.296 GMT+1</I></P>
+  <H3>Digital Modulation</H3>
+  <P>On completing this section you should be able to describe the basic blocks 
+  of digital communications system</P>
+  <P>
+  <P><IMG height=175 alt="wpe2.gif (5316 bytes)" 
+  src="Modulation Basics_files/Digita1.gif" width=681><BR>In the case of digital 
+  modulation there are a number of steps which must be taking in encoding and 
+  decoding the information for transmission.</P>
+  <P></P>
+  <P>
+  <P>Starting from an<STRONG> information source</STRONG> the first step is 
+  called <STRONG>source coding</STRONG>. This process maps the information 
+  source efficiently into a discrete digital format. If the original source were 
+  analogue then source coding corresponds to efficiently representing the signal 
+  in a digital format. If the original source is digital then signal compression 
+  may be used to increase efficiency. The result is discrete digital data</P>
+  <P></P>
+  <P>
+  <P>The next process, before modulation is <STRONG>channel coding</STRONG> 
+  which maps the discrete data onto format suitable for the characteristics of 
+  the transmission system. For example if the transmission introduces errors in 
+  the data error control coding, optimised for the specific transmission system, 
+  will be required.</P>
+  <P></P>
+  <P>
+  <P>Finally the <STRONG>digital modulation</STRONG> maps the discrete digital 
+  signal onto an analogue signal for the transmission medium, as all 
+  transmission media (excepting quantum based communications which are beyond 
+  the scope of this tutorial) are analogue in nature.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:08.359 GMT+1</I></P>
+  <H3>Why Modulate?</H3>
+  <P>On completing this section you should be able to explain why modulation is 
+  used in communication systems.</P>
+  <P>
+  <P>The principle reasons why we need to modulate signals are as follows.</P>
+  <DL>
+    <DT>To make efficient use of the lines (multiplexing) 
+    <DD>
+    <P>As already noted a telephone channel is quite intelligible within the 
+    300-3400 Hz audio range. Typically coaxial cable has ~ 3MHz bandwidth, and 
+    so can accommodates many channels. We therefore need to shift the 
+    frequencies of some of the channels so we can pack them together 
+    (multiplex)&nbsp; and make full use of the available bandwidth</P>
+    <P></P>
+    <P></P>
+    <DT>To make radio communications feasible 
+    <DD>
+    <P>Radio antennas are only efficient when approximately the same size as the 
+    period of the radio frequency. A 1kHz radio signal has ,a period of&nbsp; 
+    300km which is clearly impractical. We therefore need to shift the 
+    transmission to higher frequencies with shorter period more practical for 
+    transmission. The second advantage of doing this is that we are converting 
+    a&nbsp; "broadband" signal into a "narrowband" signal e.g. baseband audio 
+    has a bandwidth to frequency ratio of 3400/300 = 11, but modulating that to 
+    10 MHz gives 1003400/1000300 = 1.01. Again we can exploit this extra 
+    bandwidth for mutiplexing many radio channels.</P>
+    <DT>To simplify signal processing 
+    <DD>
+    <P>It is much simpler to design electronic systems for narrow frequency 
+    bands. Using the principle described above we can use modulation to convert 
+    a broadband signal to a narrowband signal. Some component types are optimal 
+    in a fixed frequency range. Modulation allows us to shift our signal to that 
+    range, and example of this is that high gain, high selectivity IF 
+    (intermediate frequency) filters are only feasible at certain 
+    frequencies.</P></DD></DL>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:08.75 GMT+1</I></P>
+  <H3>Representations Of Signals And Systems</H3>
+  <P>On completing this section you should be able to calculate the energy or 
+  power of a signal and distinguish between energy and power signals.</P>
+  <P>
+  <P>We need mathematical tools to develop insight into the transmission of 
+  signals in a communications system. Depending on the types of signals and 
+  which feature we are interested in we need to distinguish different classes of 
+  signals</P>
+  <P></P>
+  <P>
+  <H3 align=left>Periodic and aperiodic signals</H3>
+  <P></P>
+  <P>
+  <P>A signal, <EM>g(t)</EM>&nbsp; is <STRONG>periodic</STRONG> if it satisfies 
+  the condition</P>
+  <P></P>
+  <P>
+  <P align=center><EM>g(t)</EM> =<EM> g(t+T<SUB>0</SUB>)</EM> for all 
+  <EM>t</EM></P>
+  <P></P>
+  <P>
+  <P>where <EM>t</EM> is time and <EM>T<SUB>0</SUB></EM> a constant. 
+  <EM>T<SUB>0</SUB></EM> is the period of the signal, the duration of one 
+  complete cycle of <EM>g(t)</EM>.</P>
+  <P></P>
+  <P>
+  <P>Any signal for which this condition doesn't hold, for any value of 
+  <EM>T<SUB>0</SUB></EM> is <EM>aperiodic</EM>.</P>
+  <P></P>
+  <P>
+  <H3 align=left>Periodic and aperiodic signals</H3>
+  <P></P>
+  <P>
+  <P>A <STRONG>deterministic </STRONG>signal is a signal for which there is no 
+  uncertainty with respect to its value at any time. It may modelled as a 
+  completely specified function of time. With a <STRONG>random</STRONG> signal 
+  there is an uncertainty in a signal before it occurs, and we can model it only 
+  as having a probability of a particular value as a function of time</P>
+  <P></P>
+  <P>
+  <H3>Energy and Power Signals</H3>
+  <P></P>
+  <P>
+  <P>In electrical systems a signal is represented by a voltage or current. If 
+  we consider a voltage <EM>v(t)</EM> across a resistor <EM>R</EM> producing 
+  current <EM>i(t)</EM> then we may write the <STRONG>instantaneous 
+  power</STRONG> dissipated in the resistor as</P>
+  <P></P>
+  <P>
+  <P 
+  align=center><EM>p</EM>(<EM>t</EM>)=|<EM>v</EM>(<EM>t</EM>)|<SUP>2</SUP>/<EM>R</EM> 
+  = |<EM>i</EM>(<EM>t</EM>)|<SUP>2</SUP> <EM>R</EM></P>
+  <P></P>
+  <P>
+  <P>i.e. the power dissipated is proportional to the signal amplitude (current 
+  or voltage) squared. In analysing signals we normalise the calculations by 
+  assuming a 1-ohm resistor to we may express the instantaneous power for a 
+  signal as</P>
+  <P></P>
+  <P>
+  <P 
+align=center><EM>p</EM>(<EM>t</EM>)=|<EM>g</EM>(<EM>t</EM>)|<SUP>2</SUP></P>
+  <P></P>
+  <P>
+  <P>Based on this we then have the <STRONG>total energy</STRONG> of a signal 
+  <EM>g(t)</EM> defined by</P>
+  <P></P>
+  <P>!
+  <P align=center><IMG height=60 alt="wpe5.gif (1425 bytes)" 
+  src="Modulation Basics_files/SigSys1.gif" width=185></P>
+  <P></P>
+  <P>
+  <P>Correspondingly, the <STRONG>average power</STRONG> of of a signal 
+  <EM>g(t)</EM> defined by</P>
+  <P></P>
+  <P>!
+  <P align=center><IMG height=70 alt="wpe6.gif (1673 bytes)" 
+  src="Modulation Basics_files/SigSys2.gif" width=261></P>
+  <P></P>
+  <P>
+  <P>For an <STRONG>energy signal </STRONG>the total energy of the signal 
+  satisfies the condition</P>
+  <P></P>
+  <P>!
+  <P align=center><IMG height=28 alt="wpe7.gif (1046 bytes)" 
+  src="Modulation Basics_files/SigSys3.gif" width=114></P>
+  <P></P>
+  <P>
+  <P>For a <STRONG>power signal</STRONG> the total energy of the signal 
+  satisfies</P>
+  <P></P>
+  <P>!
+  <P align=center><IMG height=26 alt="wpe9.gif (1019 bytes)" 
+  src="Modulation Basics_files/SigSys4.gif" width=111></P>
+  <P></P>
+  <P>
+  <P>These are mutually exclusive conditions. An energy signal has zero average 
+  power and a power signal has infinite energy. Usually periodic signals and 
+  random signals are power signals, and signals that are deterministic and 
+  aperiodic are energy signals.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:08.921 GMT+1</I></P>
+  <H3>Representation Of Signals</H3>
+  <P></P>
+  <P>
+  <P>There are many possible ways to represent signals however the most useful, 
+  in the context of communications is to represent them as a sum of sinusoidal 
+  components of different frequencies and phases. The reasons for this are due 
+  to the fact that the response of a system to a sinusoidal input is another 
+  sinusoid of the same frequency but with a different amplitude and phase 
+  provided</P>
+  <P></P>
+  <P>
+  <OL>
+    <LI>
+    <P>The system is<STRONG> linear</STRONG> and obeys the <STRONG>principle of 
+    superposition</STRONG>. That is if a linear combination of input signals is 
+    applied to the system then the output of the system will be a linear sum of 
+    the individual outputs that would be obtained if the signals were applied 
+    individually.</P>
+    <LI>
+    <P>The system is <STRONG>time invariant</STRONG>. That is the response of a 
+    system to an input that is time delayed is simply time delayed. </P></LI></OL>
+  <P></P>
+  <P>
+  <P>This leads to the use of <STRONG>Fourier</STRONG> methods for the analysis 
+  of signals.</P>
+  <P></P>
+  <P>
+  <P>Despite seeing a forest of integration signs when dealing with Fourier 
+  methods there is in fact very little integration done, and that which is is at 
+  A-level. A familiarity with the theorems associated with <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/ModulationBasics/FourierAnalysis">Fourier 
+  analysis</A> together with some basic integration results will solve most 
+  common problems. In practice <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/ModulationBasics/FourierAnalysis">Fourier 
+  analysis</A> is often done digitally with a minimum of mathematics to, for 
+  example,&nbsp; extract information from noisy signals, design electrical 
+  filters, and clean TV pictures.</P>
+  <P></P>
+  <P>
+  <P>If a signal is periodic then <STRONG>Fourier series</STRONG> are used to 
+  represent the signal as a set of harmonically related sine waves. If the 
+  signal however is an energy signal the the<STRONG> Fourier transform</STRONG> 
+  is used to represent the signal as a continuous range of sinusoids. Applying 
+  these techniques we obtain the <STRONG>frequency-domain</STRONG> 
+  representation or <STRONG>spectrum</STRONG> of the signal which we can then 
+  use to simplify our analysis of linear systems such as communication 
+  systems.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:09.062 GMT+1</I></P>
+  <H3>FourierSynthesis</H3>
+  <P></P>
+  <P>
+  <P>If a signal waveform is <STRONG>periodic</STRONG>, as shown below, then it 
+  contains <STRONG>harmonics</STRONG> (multiples) of the fundamental frequency 
+  with various amplitudes and frequencies.</P>
+  <P></P>
+  <P>
+  <P><IMG height=35 alt="wpe1.gif (4120 bytes)" 
+  src="Modulation Basics_files/Fourie1.gif" width=229></P>
+  <P></P>
+  <P>
+  <P>The waveform an be analysed to find the amplitudes of these harmonics, and 
+  a list can be made of their various amplitudes and phases. Alternatively we 
+  can plot a graph (the <STRONG>spectrum</STRONG>) of the amplitudes versus 
+  frequency, as shown below.</P>
+  <P></P>
+  <P>
+  <P><IMG height=27 alt="wpe2.gif (1980 bytes)" 
+  src="Modulation Basics_files/Fourie2.gif" width=47></P>
+  <P></P>
+  <P>
+  <P>Mathematically we can express the signal as a sum of these individual 
+  frequencies.&nbsp; sines and cosines are needed to allow for the harmonics all 
+  having different phases.</P>
+  <P></P>
+  <P>
+  <P><IMG height=31 alt="wpe7.gif (1558 bytes)" 
+  src="Modulation Basics_files/Fourie3.gif" width=83></P>
+  <P></P>
+  <P>
+  <P><IMG height=94 alt="wpe8.gif (2020 bytes)" 
+  src="Modulation Basics_files/Fourie4.gif" width=302></P>
+  <P></P>
+  <P>
+  <P>In this last form we have use the property cos(<EM>x</EM>)=cos(-<EM>x</EM>) 
+  m and sin(<EM>x</EM>)=-sin(-<EM>x</EM>) to change the sum to be between 
+  positive integers: <EM>A<SUB>n</SUB>=a<SUB>-n</SUB>+a<SUB>n 
+  </SUB>BNB=b<SUB>-n</SUB>-ba<SUB>n</SUB></EM> and <EM>A<SUB>0</SUB></EM> is 
+  divided by 2 so we don't count it twice.</P>
+  <P></P>
+  <P>
+  <P>The process of constructing a waveform by adding together a fundamental 
+  frequency and its harmonics of various amplitudes is called <STRONG>Fourier 
+  Synthesis</STRONG>.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:09.14 GMT+1</I></P>
+  <H3>Fourier Analysis</H3>
+  <P></P>
+  <P>
+  <P>Given a signal, we often want to extract from it the various frequencies 
+  and amplitudes that are present. This is called <STRONG>Fourier 
+  Analysis</STRONG>. To find these amplitudes we exploit the 
+  <STRONG>orthogonality</STRONG> property of sines and cosines - that is if you 
+  take a sine and a cosine, or two sines, or two cosines that are multiples of a 
+  fundamental frequency, and integrate them over one cycle of that fundamental 
+  period then the result is always zero unless they are the same. 
+  Mathematically, if P=1/<FONT face=Symbol>n</FONT><SUB>0</SUB> is one 
+period</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=102 alt="wpe9.gif (2443 bytes)" 
+  src="Modulation Basics_files/Fourie5.gif" width=288></P>
+  <P></P>
+  <P>
+  <P>Now if we take our signal function <EM>F</EM>(<EM>t</EM>), multiply it by 
+  sin(2<FONT face=Symbol>p</FONT><EM>m</EM><FONT 
+  face=Symbol>n</FONT><SUB>0</SUB><EM>t</EM>) and integrate over a single 
+  fundamental period we get</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=126 alt="wpeA.gif (2664 bytes)" 
+  src="Modulation Basics_files/Fourie6.gif" width=518></P>
+  <P></P>
+  <P>
+  <P>That is all the terms in the Fourier expansion vanish except that &nbsp; 
+  the frequency we multiplied it by. Therefore we can determine the coefficients 
+  of the Fourier expansion as follows</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=52 alt="wpeB.gif (1332 bytes)" 
+  src="Modulation Basics_files/Fourie7.gif" width=186><BR><IMG height=51 
+  alt="wpeC.gif (1330 bytes)" src="Modulation Basics_files/Fourie8.gif" 
+  width=187></P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:09.203 GMT+1</I></P>
+  <H3>Complex Notation</H3>
+  <P></P>
+  <P>
+  <P>Usually when performing <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/ModulationBasics/FourierAnalysis">Fourier 
+  analysis</A> it is more convenient to use complex exponentials to manipulate 
+  the formulae than sines and cosines. Using the expression <IMG height=22 
+  alt="wpe1.gif (1050 bytes)" src="Modulation Basics_files/Comple1.gif" 
+  width=124> to change from sines to cosines to complex exponentials we get the 
+  following for the Fourier series</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=94 alt="wpe2.gif (1628 bytes)" 
+  src="Modulation Basics_files/Comple2.gif" width=205></P>
+  <P></P>
+  <P>
+  <P>Now we have a complex amplitude <EM>C<SUB>n</SUB></EM>. This represents 
+  both the amplitude <EM>R<SUB>n</SUB> </EM>and phase <EM><FONT 
+  face=Symbol>f</FONT><SUB>n</SUB></EM> of the signal.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=82 alt="wpe7.gif (1751 bytes)" 
+  src="Modulation Basics_files/Comple3.gif" width=217></P>
+  <P></P>
+  <P>
+  <P>The inversion formula becomes</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=102 alt="wpe6.gif (1607 bytes)" 
+  src="Modulation Basics_files/Comple4.gif" width=169></P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:09.312 GMT+1</I></P>
+  <H3>Non Periodic Functions</H3>
+  <P></P>
+  <P>
+  <P>So far we have looked at periodic functions which can be expressed as a sum 
+  of harmonics of the fundamental frequency. If we increase the period of the 
+  function then the fundamental frequency and thus the spacing between the 
+  harmonics will decrease. A non-periodic function may be treated as the 
+  limiting case where the period goes to infinity and the spacing between the 
+  Fourier terms goes to zero. Instead of having a spectrum of discrete harmonics 
+  the spectrum is a continuous function. Shown below are examples of two 
+  non-periodic functions and their spectra - an abrupt <CODE>clash</CODE> type 
+  signal and a smooth pulse.</P>
+  <P></P>
+  <P>
+  <P><IMG height=268 alt="wpe2.gif (5250 bytes)" 
+  src="Modulation Basics_files/Non-pe1.gif" width=636></P>
+  <P></P>
+  <P>
+  <P>Mathematically the summation sign used when expressing periodic signals as 
+  a sum of harmonics is changed to an integral and we can write the function in 
+  terms of its spectrum as</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=51 alt="wpe8.gif (1234 bytes)" 
+  src="Modulation Basics_files/Non-pe2.gif" width=154></P>
+  <P></P>
+  <P>
+  <P>As with the Fourier series we can perform the inverse process to determine 
+  the spectrum from the signal itself.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=51 alt="wpe7.gif (1225 bytes)" 
+  src="Modulation Basics_files/Non-pe3.gif" width=153></P>
+  <P></P>
+  <P>
+  <P>These functions <EM>g(t)</EM> and <EM>G(f) </EM>are called a 
+  <STRONG>Fourier Pair</STRONG></P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:09.375 GMT+1</I></P>
+  <H3>Fourier Transform</H3>
+  <P>On completing this section you should be able to write the Fourier 
+  transform and inverse Fourier transform integrals and understand how they may 
+  be used to provide the link between time and frequency domains</P>
+  <P>
+  <P>If we have the a function <EM>g</EM>(<EM>t</EM>) then we perform the 
+  <STRONG>Fourier transform</STRONG> to calculate its frequency spectrum 
+  <EM>G</EM>(<EM>f</EM>).</P>
+  <P></P>
+  <P>
+  <TABLE width="100%" border=0>
+    <TBODY>
+    <TR>
+      <TD width="50%"><IMG height=35 alt="wpe2.gif (1606 bytes)" 
+        src="Modulation Basics_files/Fourie1b.gif" width=229></TD>
+      <TD width="50%"><IMG height=51 alt="wpe7.gif (1225 bytes)" 
+        src="C:\My Documents\Assignments Final Year\Digital Telecommunications\Modulation Basics_files\Non-pe3(1).gif" 
+        width=153></TD></TR></TBODY></TABLE></P>
+  <P>
+  <P>We perform the<STRONG> Inverse Fourier Transform</STRONG> to calculate a 
+  function from its frequency spectrum</P>
+  <P></P>
+  <P>
+  <TABLE width="100%" border=0>
+    <TBODY>
+    <TR>
+      <TD width="50%"><IMG height=35 alt="wpe5.gif (1613 bytes)" 
+        src="Modulation Basics_files/Fourie1b.gif" width=229></TD>
+      <TD width="50%"><IMG height=51 alt="wpe8.gif (1234 bytes)" 
+        src="C:\My Documents\Assignments Final Year\Digital Telecommunications\Modulation Basics_files\Non-pe2(1).gif" 
+        width=154></TD></TR></TBODY></TABLE></P>
+  <P>
+  <P>The Fourier transform provides us with the link between the time domain and 
+  frequency (or spectral) domain views of a signal. A signal is uniquely defined 
+  by either representation. </P>
+  <P></P>
+  <P>
+  <P>If we calculate the energy of a signal the&nbsp; the result must be the 
+  same in either representation.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=35 alt="wpe1.gif (1366 bytes)" 
+  src="Modulation Basics_files/Fourie1b.gif" width=229></P>
+  <P></P>
+  <P>
+  <P>This is called <STRONG>Rayleigh’s Energy Theorem</STRONG></P>
+  <P></P>
+  <P>
+  <P>The amplitude spectrum of a signal is defined by the modulus of the complex 
+  spectrum <IMG height=27 alt="wpe5.gif (964 bytes)" 
+  src="Modulation Basics_files/Fourie2b.gif" width=47>.</P>
+  <P></P>
+  <P>
+  <P>The energy spectral density is given by <IMG height=31 
+  alt="wpe6.gif (1043 bytes)" src="Modulation Basics_files/Fourie3b.gif" 
+  width=83> in units of joules per hertz.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:09.75 GMT+1</I></P>
+  <H3>Dirichlet’s Conditions</H3>
+  <P></P>
+  <P>
+  <P>Not all functions are Fourier transformable. Dirichlet’s Conditions are the 
+  requirements on a function if it is to be transformable. The <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/ModulationBasics/FourierTransform">Fourier 
+  transform</A> of a function <EM>g</EM>(<EM>t</EM>) exists if</P>
+  <P></P>
+  <P>
+  <OL>
+    <LI>The function <EM>g</EM>(<EM>t</EM>) is single-valued, with a finite 
+    number of maxima and minima in any finite time interval 
+    <LI>The function <EM>g</EM>(<EM>t</EM>) has a finite number of 
+    discontinuities in any finite time interval (piece-wise continuous). 
+    <LI>The function <EM>g</EM>(<EM>t</EM>) is absolutely integrable, that 
+    is<BR><IMG height=51 alt="wpe7.gif (1124 bytes)" 
+    src="Modulation Basics_files/Dirich4.gif" width=94> </LI></OL>
+  <P></P>
+  <P>
+  <P>In practice the <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/ModulationBasics/FourierTransform">Fourier 
+  transform</A> exists for all signals which are physically realisable. In 
+  particular condition 3 above holds for all energy signals. In nature, these 
+  conditions seem to hold for all phenomena which can be described 
+  mathematically.</P>
+  <P><I>willijar, 2001/04/05 08:19:09.421 GMT+1</I></P>
+  <H3>Fourier Transform Properties</H3>
+  <P>On completing this section you should be able to apply the properties of 
+  Fourier Transforms (Linearity, Time Scaling, Duality</P>
+  <P>
+  <P>There are several theorems which are of great use in manipulating 
+  Fourier-pairs, and they should be memorised. The art of practical Fourier 
+  transforming is in the manipulation of functions using these theorems rather 
+  than in doing extensive and tedious elementary integrations. It is this, as 
+  much as anything, which makes Fourier theory such a powerful tool for the 
+  practical working scientist. Proof of most of these properties is fairly 
+  trivial.</P>
+  <P></P>
+  <P>
+  <P>In what follows we assume the following Fourier-pairs, <IMG height=23 
+  alt="wpe7.jpg (1370 bytes)" src="Modulation Basics_files/FT%20Pro4.jpg" 
+  width=99> and <IMG height=23 alt="wpe8.jpg (1427 bytes)" 
+  src="Modulation Basics_files/FT%20Pro5.jpg" width=102>.</P>
+  <P></P>
+  <P>
+  <P>The <STRONG>Addition Theorem</STRONG> says that if we add two functions we 
+  also add their Fourier transforms.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=22 alt="wpe9.jpg (2407 bytes)" 
+  src="Modulation Basics_files/FT%20Pro6.jpg" width=248></P>
+  <P></P>
+  <P>
+  <P>The <STRONG>Time Scaling</STRONG> theory we have already seen when looking 
+  at the <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/ModulationBasics/FourierTransform">Fourier 
+  Transform</A> of a rectangular pulse, indicating that compressing a pulse in 
+  time causes a proportional increase in the spectral width. Note that the 
+  magnitude in the spectrum must increase proportional as the two functions must 
+  have the same energy</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=46 alt="wpeB.jpg (1817 bytes)" 
+  src="Modulation Basics_files/FT%20Pro7.jpg" width=125></P>
+  <P></P>
+  <P>
+  <P>The <STRONG>Duality</STRONG> property simply tells us that if we know the 
+  <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/ModulationBasics/FourierTransform">Fourier 
+  transform</A> of a function, then we also know the the <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/ModulationBasics/FourierTransform">Fourier 
+  transform</A> of the Fourier Transform</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=22 alt="wpeC.jpg (2315 bytes)" 
+  src="Modulation Basics_files/FT%20Pro8.jpg" width=241></P>
+  <P></P>
+  <P>
+  <P>The <STRONG>Time Shift</STRONG> and <STRONG>Frequency Shift</STRONG> simply 
+  tell us how the <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/ModulationBasics/FourierTransform">Fourier 
+  transform</A> of a function changes when we shift it in time or frequency</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=25 alt="wpeD.jpg (2811 bytes)" 
+  src="Modulation Basics_files/FT%20Pro9.jpg" width=297></P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=25 alt="wpeE.jpg (2834 bytes)" 
+  src="Modulation Basics_files/FT%20Pro10.jpg" width=303></P>
+  <P></P>
+  <P>
+  <P>There are a number of important examples of problems where the properties 
+  of Fourier transforms are used to make the calculations simple. Please try 
+  these yourselves before looking at the solutions or answers.</P>
+  <P></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:09.468 GMT+1</I></P>
+  <H3>Properties of the Delta function</H3>
+  <P>On completing this section you should be able to perform Fourier transforms 
+  involving delta functions</P>
+  <P>
+  <P>The properties of the <EM>Dirac delta-function</EM> are very useful when 
+  working with Fourier analysis. This function is defined by the properties</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=99 alt="wpe24.jpg (2518 bytes)" 
+  src="Modulation Basics_files/FT%20of%2029.jpg" width=114></P>
+  <P></P>
+  <P>
+  <P>Note that it disobeys Drichlets conditions in that is is unbounded at 
+  <EM>x</EM>=0, however we can still determine its Fourier transform. If we take 
+  this function as the limiting form of a Gaussian of unit area. </P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=51 alt="wpe21.jpg (2175 bytes)" 
+  src="Modulation Basics_files/FT%20of%2030.jpg" width=157></P>
+  <P></P>
+  <P>
+  <P>As <EM><FONT face=Symbol>T</FONT></EM> goes to zero we have a Gaussian of 
+  decreasing width and increasing height until it becomes infinitely narrow and 
+  infinitely large in amplitude yet still has unit area. The <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/ModulationBasics/FourierTransform">Fourier 
+  transform</A> will then be given by</P>
+  <P></P>
+  <P>
+  <P align=center>. <IMG height=31 alt="wpe22.jpg (1897 bytes)" 
+  src="Modulation Basics_files/FT%20of%2031.jpg" width=170></P>
+  <P></P>
+  <P>
+  <P><IMG height=185 alt="wpe26.jpg (7537 bytes)" 
+  src="Modulation Basics_files/FT%20of%2033.jpg" width=440 align=right>Which is 
+  a tends to a Gaussian of infinite width and unit height. The <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/ModulationBasics/FourierTransform">Fourier 
+  transform</A> of the <EM>delta</EM> function is therefore unity.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=22 alt="wpe25.jpg (1070 bytes)" 
+  src="Modulation Basics_files/FT%20of%2032.jpg" width=66></P>
+  <P></P>
+  <P>
+  <P>Similarly, if we have a constant signal then using the principle of duality 
+  for Fourier Transforms the spectrum must be a delta function.</P>
+  <P></P>
+  <P>
+  <P><IMG height=185 alt="wpe27.jpg (7740 bytes)" 
+  src="Modulation Basics_files/FT%20of%2034.jpg" width=443 align=right></P>
+  <P></P>
+  <P>
+  <P>The usefulness of the delta function is apparent when we consider the 
+  following property.</P>
+  <P></P>
+  <P>
+  <P>Remember that <FONT face=Symbol>d</FONT>(<EM>x</EM>-<EM>a</EM>)=0 unless 
+  <EM>x=a</EM> so we have</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=35 alt="wpe6.jpg (1850 bytes)" 
+  src="Modulation Basics_files/Delta%202.jpg" width=173></P>
+  <P></P>
+  <P>
+  <P>i.e. the delta function picks out a single value in the integral. We thus 
+  get <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/ModulationBasics/FourierTransform">Fourier 
+  transform</A> integral for the complex exponential function as</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=35 alt="wpe7.jpg (1717 bytes)" 
+  src="Modulation Basics_files/Delta%203.jpg" width=167></P>
+  <P></P>
+  <P>
+  <P>Which gives us the Fourier&nbsp; the <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/ModulationBasics/FourierTransform">Fourier 
+  transform</A> pair</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=25 alt="wpe4.jpg (1467 bytes)" 
+  src="Modulation Basics_files/Delta%201.jpg" width=124></P>
+  <P></P>
+  <P>
+  <P>This states that the complex exponential function exp(<EM>i</EM>2<FONT 
+  face=Symbol>p</FONT><EM>f</EM><SUB>0</SUB><EM>t</EM>) is transformed in the 
+  frequency domain into a delta function at <EM>f</EM><SUB>0</SUB>. It is just 
+  our old friend the Frequency shift theorem.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:11.296 GMT+1</I></P>
+  <H3>Fourier Transforms Involving The Delta Function</H3>
+  <P>On completing this section you should be able to calculate Fourier 
+  transforms involving delta functions</P>
+  <P>
+  <P>We can use the relationship derived previously, <IMG height=25 
+  alt="wpe4.jpg (1467 bytes)" 
+  src="C:\My Documents\Assignments Final Year\Digital Telecommunications\Modulation Basics_files\Delta%201(1).jpg" 
+  width=124> to calculate the Fourier transforms of sines and cosines by writing 
+  them in terms of their complex exponentials. We thus obtain the 
+  relationships</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=131 alt="wpe9.jpg (12001 bytes)" 
+  src="Modulation Basics_files/FT%20inv4.jpg" width=597></P>
+  <P></P>
+  <P>
+  <P>The <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/ModulationBasics/FourierTransform">Fourier 
+  transform</A> of the cosine function is a pair of delta functions at 
+  +/-<EM>f<SUB>0</SUB></EM>. And similarly</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=128 alt="wpeA.jpg (11911 bytes)" 
+  src="Modulation Basics_files/FT%20inv5.jpg" width=590></P>
+  <P></P>
+  <P>
+  <P>Now we can see how periodic signals, previously described by discrete 
+  Fourier series can be represented using delta functions in Fourier 
+  Transforms.</P>
+  <P></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:11.39 GMT+1</I></P>
+  <H3>Fourier Transforms of Periodic Signals</H3>
+  <P>On completing this section you should be able to determine the Fourier 
+  transforms of periodic signals in terms of the sampling rate and the Fourier 
+  transform of the modulating (envelope) signal</P>
+  <P>
+  <P>We have already seen how a periodic signal can be represented in terms of 
+  the <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/paths/ModulationBasics/!ComplexNotation">complex 
+  exponential Fourier series</A>. Also Fourier transforms can be defined for 
+  complex exponentials. Therefore it is not unreasonable to suppose that a 
+  periodic signal can be represented in terms of a Fourier transform containing 
+  delta functions (the <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/ModulationBasics/FourierTransform">Fourier 
+  transform</A> of complex exponentials).</P>
+  <P></P>
+  <P>
+  <P>We can write a periodic function <EM>g<SUB>T<SUB>0</SUB></SUB>(t)</EM> in 
+  terms of a generating function <EM>g(T)</EM> (the function representing one 
+  period only and zero elsewhere) as follows.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=46 alt="wpe2.jpg (1853 bytes)" 
+  src="Modulation Basics_files/Period1.jpg" width=147></P>
+  <P></P>
+  <P>
+  <P>where <EM>T<SUB>0</SUB></EM> is the period. This periodic function mat be 
+  represented as a Fourier series</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=46 alt="wpe4.jpg (1747 bytes)" 
+  src="Modulation Basics_files/Period2.jpg" width=130></P>
+  <P></P>
+  <P>
+  <P>where the complex coefficients are given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=54 alt="wpe7.jpg (2167 bytes)" 
+  src="Modulation Basics_files/Period3.jpg" width=175></P>
+  <P></P>
+  <P>
+  <P>We can substitute the generating function in here and change the limits to 
+  infinity since the generating function only has a nonzero value in the limits 
+  -<EM>T<SUB>0</SUB></EM> to <EM>T<SUB>0</SUB></EM>. The formula for the complex 
+  Fourier coefficients then becomes</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=50 alt="wpe8.jpg (1828 bytes)" 
+  src="Modulation Basics_files/Period4.jpg" width=150></P>
+  <P></P>
+  <P>
+  <P>Now the generating function <EM>g(T) </EM>is Fourier transformable, and so 
+  this integral corresponds to</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=24 alt="wpe9.jpg (1271 bytes)" 
+  src="Modulation Basics_files/Period5.jpg" width=94></P>
+  <P></P>
+  <P>
+  <P>were <EM>G(nf<SUB>0</SUB>) i</EM>s the <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/ModulationBasics/FourierTransform">Fourier 
+  transform</A> of <EM>g(T) </EM>evaluated at frequency <EM>nf<SUB>0</SUB></EM>. 
+  i.e. the values of the complex coefficients in the Fourier series are the same 
+  as the values the <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/ModulationBasics/FourierTransform">Fourier 
+  transform</A> of the generating function would have at the same frequency. 
+  Substituting this into our Fourier series expression we get the following 
+  expression for the periodic function in terms of its Fourier series.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=46 alt="wpeC.jpg (2754 bytes)" 
+  src="Modulation Basics_files/Period7.jpg" width=233></P>
+  <P></P>
+  <P>
+  <P>and finally, using the result for the <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/ModulationBasics/FourierTransform">Fourier 
+  transform</A> of a complex exponential we have</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=46 alt="wpeB.jpg (2953 bytes)" 
+  src="Modulation Basics_files/Period8.jpg" width=274></P>
+  <P></P>
+  <P>
+  <P>or alternatively</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=46 alt="wpeD.jpg (1998 bytes)" 
+  src="Modulation Basics_files/Period9.jpg" width=169></P>
+  <P></P>
+  <P>
+  <P>This is a very important result, stated in words it means</P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=0 cellPadding=0 border=1>
+    <TBODY>
+    <TR>
+      <TD bgColor=#ffff00>Periodicity in the time domain has the effect of 
+        changing the frequency domain or spectrum of a signal into a discrete 
+        form defined at integer multiples of the fundamental 
+    frequency.</TD></TR></TBODY></TABLE></P>
+  <P>
+  <P>&nbsp;</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=105 alt="wpeE.jpg (7435 bytes)" 
+  src="Modulation Basics_files/Period10.jpg" width=563></P>
+  <P></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:11.453 GMT+1</I></P>
+  <H3>The Impulse Response And Convolution</H3>
+  <P>On completing this section you should be able to state the definition of 
+  the impulse response and describe how it is used to calculate the response of 
+  a system to its input.</P>
+  <P>
+  <P align=center><IMG height=151 alt="wpe6.jpg (10357 bytes)" 
+  src="Modulation Basics_files/Impuls1.jpg" width=666></P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=0 cellPadding=0 border=1>
+    <TBODY>
+    <TR>
+      <TD bgColor=#ffff00>
+        <P>The impulse response of a system is defined as the response of the 
+        system (with zero initial conditions) to a unit impulse or delta 
+        function d(t) applied to the input of the system. 
+  </P></TD></TR></TBODY></TABLE></P>
+  <P>
+  <P>This idea arises in many applications - for example the response of a lens 
+  to a point image (the point spread function - in 2 dimensions), the response 
+  of a spectrometer to a monochromatic source and of course here we have the 
+  electrical response of a system to a unit impulse. If the system is 
+  time-invariant the it is the same no matter when the impulse is applied to the 
+  system.</P>
+  <P></P>
+  <P>
+  <P>Now if we apply a general signal to the system, what is its output going to 
+  be?</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=241 alt="wpe7.jpg (11128 bytes)" 
+  src="Modulation Basics_files/Impuls2.jpg" width=497></P>
+  <P></P>
+  <P>
+  <P>We can approximate the input signal <EM>f(t)</EM> by a sum of pulses of 
+  width <EM><FONT face=Symbol>D</FONT>t</EM>. As <EM><FONT 
+  face=Symbol>D</FONT>t</EM> tends to zero these functions will tend to impulse 
+  functions times the amplitude of the signal. The output from the <EM>k</EM>th 
+  pulse at time <EM>k<FONT face=Symbol>D</FONT>t</EM> will given by <IMG 
+  height=22 alt="wpe9.jpg (1533 bytes)" 
+  src="Modulation Basics_files/Impuls3.jpg" width=130> where <EM>h(t)</EM> is 
+  the impulse response of the system i.e. the pulse will spread out by the 
+  impulse response of the system. As <EM><FONT face=Symbol>D</FONT>t</EM> tends 
+  to zero these functions will tend to impulse functions times the amplitude of 
+  the signal. To find the signal amplitude we need to sum over all the responses 
+  from all the pulses giving the <STRONG>Convolutional integral</STRONG> between 
+  the input signal and the system impulse response</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=51 alt="wpeA.jpg (2541 bytes)" 
+  src="Modulation Basics_files/Impuls4.jpg" width=240></P>
+  <P></P>
+  <P>
+  <P>This is often written in the second form since convolution is an operator 
+  between functions much like addition and multiplication. It is a very 
+  important concept in many different areas of physics and electrical 
+  engineering. In words we can say</P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=0 cellPadding=0 border=1>
+    <TBODY>
+    <TR>
+      <TD bgColor=#ffff00>
+        <P>The present value of the response of a linear time-invariant system 
+        is the weighted integral over the past history of the input signal, 
+        weighted according to the impulse response of the 
+    system.</P></TD></TR></TBODY></TABLE></P>
+  <P>
+  <P>Thus the impulse response acts as a <STRONG>memory function</STRONG> for 
+  the system</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:11.562 GMT+1</I></P>
+  <H3>The Convolution Theorem</H3>
+  <P>On completing this section you should be able to state the convolution 
+  theorem and apply it to calculating the response of a linear system to a 
+  signal.</P>
+  <P>
+  <P>The <STRONG>Convolution Theorem</STRONG> is one of the most useful results 
+  in Fourier Theory. It states that if <EM>G<SUB>12</SUB>(t)</EM> is the 
+  convolution of <EM>G<SUB>1</SUB>(t)</EM> with <EM>G<SUB>2</SUB>(t)</EM> then 
+  its Fourier pair <EM>g<SUB>12</SUB>(f)</EM> is the <STRONG>product</STRONG> of 
+  <EM>g<SUB>1</SUB>(f)</EM> and <EM>g<SUB>2</SUB>(f)</EM>, the Fourier pairs of 
+  <EM>G<SUB>1</SUB>(t)</EM> with <EM>G<SUB>2</SUB>(t)</EM> . Symbolically</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=23 alt="wpe4.jpg (2063 bytes)" 
+  src="Modulation Basics_files/Convol1.jpg" width=183></P>
+  <P></P>
+  <P>
+  <P>In words: </P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=0 cellPadding=0 border=1>
+    <TBODY>
+    <TR>
+      <TD bgColor=#ffff00>
+        <P>The multiplication of two signals in the frequency domain is 
+        transformed into the convolution of their individual Fourier transforms 
+        in the time domain.</P></TD></TR></TBODY></TABLE></P>
+  <P>
+  <P>The importance of this should now become obvious. If we have a linear 
+  system (such as a transmission system or filter) and we want to calculate its 
+  response we can either, in the time domain, calculate the convolution between 
+  the impulse response of the system and the incoming signal or we can, in the 
+  frequency domain, multiply the frequency response of the system with the 
+  spectrum of the signal. The latter is usually very much easier than the former 
+  which is why we often work in the frequency domain. Note that the inverse 
+  process is also true due to the invertability of Fourier transforms - 
+  convolution in the frequency domain corresponds to multiplication in the time 
+  domain.</P>
+  <P></P>
+  <P>
+  <P>If you recall the impulse response of a system is the response to the unit 
+  impulse</P>
+  <P></P>
+  <P>
+  <P><IMG height=151 alt="wpe6.jpg (10357 bytes)" 
+  src="C:\My Documents\Assignments Final Year\Digital Telecommunications\Modulation Basics_files\Impuls1(1).jpg" 
+  width=666></P>
+  <P></P>
+  <P>
+  <P>In the frequency domain, the <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/ModulationBasics/FourierTransform">Fourier 
+  transform</A> of the unit impulse is a spectrum of unit amplitude, and the 
+  frequency response of the system is therefore the response of the system to 
+  that spectrum</P>
+  <P></P>
+  <P>
+  <P><IMG height=157 alt="wpeC.jpg (9248 bytes)" 
+  src="Modulation Basics_files/Convol6.jpg" width=685></P>
+  <P></P>
+  <P>
+  <P>If we apply a general signal then the response of the system is the 
+  <STRONG>convolution</STRONG> of the signal with the impulse response of the 
+  system. In the frequency domain the response is the 
+  <STRONG>multiplication</STRONG> of the frequency response of the system with 
+  the signal spectrum.</P>
+  <P></P>
+  <P>
+  <H2 align=left>Proof of the Convolution Theorem</H2>
+  <P></P>
+  <P>
+  <P>Proof of the convolution theorem is trivial.</P>
+  <P></P>
+  <P>
+  <P>By definition we can write</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=50 alt="wpe6.jpg (2222 bytes)" 
+  src="Modulation Basics_files/Convol2.jpg" width=185></P>
+  <P></P>
+  <P>
+  <P>Taking Fourier transforms of both sides gives us</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=50 alt="wpe7.jpg (3645 bytes)" 
+  src="Modulation Basics_files/Convol3.jpg" width=343></P>
+  <P></P>
+  <P>
+  <P>Now we can change variables, defining <EM>y=t-<FONT face=Symbol>l</FONT> 
+  </EM>which allows us to write this integral as</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=50 alt="wpe8.jpg (2752 bytes)" 
+  src="Modulation Basics_files/Convol4.jpg" width=247></P>
+  <P></P>
+  <P>
+  <P>This integral is separable and so we finally get the result proving the 
+  convolution theorem</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=75 alt="wpe9.jpg (3528 bytes)" 
+  src="Modulation Basics_files/Convol5.jpg" width=255></P>
+  <P></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:11.656 GMT+1</I></P>
+  <H3>Convolution: Graphical Interpretation</H3>
+  <P>On completing this section you should be able to explain convolution 
+  graphically</P>
+  <P>
+  <P>Here I am going to try and illustrate graphically what the convolution 
+  integral is. We are going to use two functions <EM>f<SUB>1</SUB>(t) </EM>and 
+  <EM>f<SUB>2</SUB>(t) </EM>which are a square wave and a ramp respectively.</P>
+  <P></P>
+  <P>
+  <P><IMG height=146 alt="wpeD.jpg (6342 bytes)" 
+  src="Modulation Basics_files/Convol7.jpg" width=475></P>
+  <P></P>
+  <P>
+  <P>The convolution integral is <IMG height=50 alt="wpeE.jpg (1938 bytes)" 
+  src="Modulation Basics_files/Convol8.jpg" width=161 align=middle>. Firstly you 
+  will notice that the variable of integration is <EM><FONT 
+  face=Symbol>T</FONT></EM>, and that we are performing the integral of 
+  <EM>f<SUB>2</SUB>(-<FONT face=Symbol>T</FONT>)</EM> so we need to reverse this 
+  function in&nbsp; time</P>
+  <P></P>
+  <P>
+  <P><IMG height=146 alt="wpeF.jpg (6464 bytes)" 
+  src="Modulation Basics_files/Convol9.jpg" width=475></P>
+  <P></P>
+  <P>
+  <P>Now this integral is a function of <EM>t</EM>, and as we change <EM>t</EM> 
+  we are sliding function&nbsp; <EM>f<SUB>2</SUB>(t-<FONT 
+  face=Symbol>T</FONT>)</EM> past &nbsp; <EM>f<SUB>1</SUB>(<FONT 
+  face=Symbol>T</FONT>)</EM> </P>
+  <P></P>
+  <P>
+  <P><IMG height=153 alt="wpe10.jpg (6564 bytes)" 
+  src="Modulation Basics_files/Convol10.jpg" width=476></P>
+  <P></P>
+  <P>
+  <P>We are multiplying the two functions together and then integrating. The 
+  integration corresponds to finding the area under the product of the two 
+  function - it is a measure of the amount of overlap between them which will 
+  change as the delay between the functions changes. Obviously it is zero when 
+  the two functions don't overlap and is a maximum when they have maximum 
+  overlap.</P>
+  <P></P>
+  <P>
+  <P>&nbsp;<IMG height=156 alt="wpe11.jpg (6920 bytes)" 
+  src="Modulation Basics_files/Convol11.jpg" width=362></P>
+  <P></P>
+  <P>
+  <P><IMG height=153 alt="wpe12.jpg (7819 bytes)" 
+  src="Modulation Basics_files/Convol12.jpg" width=327></P>
+  <P></P>
+  <P>
+  <P>This integral it therefore a function of <EM>t</EM> as illustrated 
+  below.</P>
+  <P></P>
+  <P>
+  <P><IMG height=181 alt="wpe13.jpg (6273 bytes)" 
+  src="Modulation Basics_files/Convol13.jpg" width=345></P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:11.828 GMT+1</I></P>
+  <H3>Ideal Filters</H3>
+  <P>On completing this section you should be able to describe the ideal filter 
+  function for low pass, high pass, bandpass and bandstop filtering 
+  operations.</P>
+  <P>
+  <P><IMG height=84 alt="wpe6.jpg (4465 bytes)" 
+  src="Modulation Basics_files/Filter1.jpg" width=257 align=right>We have 
+  already seen how the response of a system can be represented either by its 
+  frequency response <EM><FONT face="Times New Roman">H(f)</FONT> </EM>or by its 
+  impulse response in the time domain <FONT 
+  face="Times New Roman"><EM>h(t)</EM></FONT>. In communication systems we often 
+  wish to use filters with a designed response, for example to eliminate noise 
+  or compensate for imperfections in the transmission process.&nbsp; Generally 
+  the frequency response is used in describing such systems since we can 
+  calculate the overall response of a system using multiplications of the 
+  frequency response functions. In the time domain we would have to perform 
+  convolutional integrals which are much harder. In the system shown above we 
+  have an input signal of spectrum <FONT face="Times New Roman"><EM>F(f) 
+  </EM></FONT>being operated on by a filter <FONT 
+  face="Times New Roman"><EM>H(f)</EM></FONT> to produce an output <FONT 
+  face="Times New Roman"><EM>G(f). </EM></FONT>We can write the output in terms 
+  of the input and the system response simply as</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=22 alt="wpe8.jpg (1566 bytes)" 
+  src="Modulation Basics_files/Filter2.jpg" width=128></P>
+  <P></P>
+  <P>
+  <P>Note that these are complex response functions. We can separate them into 
+  amplitude and phase components&nbsp; giving the expression</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=28 alt="wpe7.jpg (2641 bytes)" 
+  src="Modulation Basics_files/Filter3.jpg" width=255></P>
+  <P></P>
+  <P>
+  <P>where |<FONT face="Times New Roman"><EM>H(f)|</EM></FONT> etc are the real 
+  amplitude responses and <EM><FONT face=Symbol>f</FONT><FONT 
+  face="Times New Roman"><SUB>h</SUB>(f)</FONT></EM> are the phase components of 
+  the responses. From this we obtain the separate expressions for the amplitude 
+  and phase responses</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=27 alt="wpe9.jpg (1712 bytes)" 
+  src="Modulation Basics_files/Filter4.jpg" width=146></P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=22 alt="wpeA.jpg (1800 bytes)" 
+  src="Modulation Basics_files/Filter5.jpg" width=159></P>
+  <P></P>
+  <P>
+  <P>i.e. we <STRONG>multiply the amplitude responses </STRONG>and <STRONG>add 
+  the phase responses</STRONG>.</P>
+  <P></P>
+  <P>
+  <P>If we want distortionless transmission through the filter then the output 
+  must have the same shape as the input, however it may be delayed in time and 
+  may have a different amplitude i.e. for distortionless transmission</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=22 alt="wpeB.jpg (1406 bytes)" 
+  src="Modulation Basics_files/Filter6.jpg" width=111></P>
+  <P></P>
+  <P>
+  <P>Taking Fourier transforms of this expression we obtain</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=25 alt="wpeC.jpg (1689 bytes)" 
+  src="Modulation Basics_files/Filter7.jpg" width=143></P>
+  <P></P>
+  <P>
+  <P>Therefore we have for the response of an ideal filter, i.e. one which 
+  doesn't distort the signal</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=25 alt="wpeD.jpg (1528 bytes)" 
+  src="Modulation Basics_files/Filter8.jpg" width=130></P>
+  <P></P>
+  <P>
+  <P><IMG height=487 alt="wpeE.jpg (25942 bytes)" 
+  src="Modulation Basics_files/Filter9.jpg" width=532 align=right>The filter has 
+  a constant amplitude and a phase which varies linearly with frequency. Such a 
+  filter is not very interesting, filters which are interesting will limit the 
+  frequency range. They can be classified into 4 types as shown in the graphs 
+  here where I have plotted both the amplitude and phase responses of the ideal 
+  filters. A low pass filter only transmits frequencies below a certain value, 
+  the opposite is a high pass filter which only transmits a frequency above a 
+  certain value. We may also have a bandpass or bandstop filter which transmits 
+  or block frequencies inside a certain range. In all cases the bandwidth of the 
+  filter is given as W. Firstly you will see that all these ideal filters have a 
+  constant amplitude inside their pass regions. They also have a linear 
+  variation of phase with frequency.</P>
+  <P></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:11.921 GMT+1</I></P>
+  <H3>Decibels And Bandwidth</H3>
+  <P></P>
+  <P>
+  <P>As already pointed out, in general the transfer function of a linear 
+  time-invariant system is a complex quantity and can be written in the form</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=27 alt="wpe2.jpg (1652 bytes)" 
+  src="Modulation Basics_files/Decibe1.jpg" width=131>&nbsp; </P>
+  <P></P>
+  <P>
+  <P>In many applications it is preferable to work with the logarithm of 
+  <EM>H(f)</EM> expressed in polar form. Define</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=22 alt="wpe4.jpg (1717 bytes)" 
+  src="Modulation Basics_files/Decibe2.jpg" width=158></P>
+  <P></P>
+  <P>
+  <P>where the system gain in <STRONG>nepers</STRONG> is given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=27 alt="wpe6.jpg (1501 bytes)" 
+  src="Modulation Basics_files/Decibe3.jpg" width=109></P>
+  <P></P>
+  <P>
+  <P>and the phase <EM><FONT face=Symbol>B</FONT>(f)</EM> is in radians.</P>
+  <P></P>
+  <P>
+  <P>More commonly units of <STRONG>decibels</STRONG> <STRONG>(dB)</STRONG> are 
+  used, where the gain of the system is then defined by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=27 alt="wpe7.jpg (1826 bytes)" 
+  src="Modulation Basics_files/Decibe4.jpg" width=149></P>
+  <P></P>
+  <P>
+  <P>The relationship between the gain in decibels and the gain in nepers is 
+  then</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=22 alt="wpe8.jpg (1448 bytes)" 
+  src="Modulation Basics_files/Decibe5.jpg" width=118></P>
+  <P></P>
+  <P>
+  <P>Often when we talk about the bandwidth of the system response we mean the 
+  distance between the points where the amplitude response has fallen off by 1/2 
+  (the <STRONG>full-width at half max (FWHM) bandwidth</STRONG>) or -3dB</P>
+  <P></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:12.078 GMT+1</I></P>
+  <H3>Causality And Stability</H3>
+  <P>On completing this section you should be able to describe the conditions on 
+  a system response required to satisfy causality and stability</P>
+  <P>
+  <P>A system is said to be <STRONG>causal</STRONG> if it does not respond 
+  before the signal is applied. For a linear time-invariant system it is clear 
+  that this means that the impulse response <EM>h(t)</EM> must vanish for 
+  negative time.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=22 alt="wpe2.jpg (1210 bytes)" 
+  src="Modulation Basics_files/Causal1.jpg" width=91></P>
+  <P></P>
+  <P>
+  <P>Obviously a system operating in real-time must be causal. We have already 
+  seen how the ideal low-pass filter is non-causal and therefore not physically 
+  realisable since its impulse response is a sinc function which extends to 
+  negative time. However in applications where the signal is stored before 
+  processing the response may be noncausal and yet physically realisable. 
+  Storing the signal can be thought of as delaying it - the more of the signal 
+  we store the longer it is delayed and the more of the leading part of impulse 
+  response we can represent. In terms of our low pass filter, the more we delay 
+  the signal the more of the leading edge ripples of the impulse response we can 
+  represent, the sharper the filter cut off and&nbsp; and the closer we can 
+  approach the ideal response. This is generally true - the more we delay a 
+  signal in the filter the sharper the features in the spectral response we can 
+  represent. Infinitely sharp features would however require that we delay the 
+  signal for infinitely long.</P>
+  <P></P>
+  <P>
+  <P>A second requirement we place on a system is that of stability by which we 
+  mean that the output is bounded for all input signals. This is called the 
+  <STRONG>bounded input-bounded output (BIBO) stability</STRONG> criterion. An 
+  input signal is bounded if</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=28 alt="wpe4.jpg (1165 bytes)" 
+  src="Modulation Basics_files/Causal2.jpg" width=66></P>
+  <P></P>
+  <P>
+  <P>where <EM>M</EM> is a positive real finite number. The output, for a linear 
+  time-invariant system, is given by the <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/paths/ModulationBasics/Impulse%20Response.htm">convolution 
+  integral </A>which, if we substitute in the input above becomes</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=35 alt="wpe6.jpg (1734 bytes)" 
+  src="Modulation Basics_files/Causal3.jpg" width=135></P>
+  <P></P>
+  <P>
+  <P>It follows that we require this to be bounded and therefore we find that 
+  the impulse response must be absolutely integrable.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=35 alt="wpe7.jpg (1396 bytes)" 
+  src="Modulation Basics_files/Causal4.jpg" width=101></P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:12.156 GMT+1</I></P>
+  <H3>Pulse Response of an Ideal Low-pass Filter</H3>
+  <P>On completing this section you should be able to derive the pulse response 
+  of the ideal low-pass filter</P>
+  <P>
+  <P><IMG height=135 alt="wpe9.jpg (4251 bytes)" 
+  src="Modulation Basics_files/Pulse_5.jpg" width=236 align=right>We have 
+  already seen that the impulse response of the ideal low pass filter is given 
+  by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=28 alt="wpe11.jpg (1817 bytes)" 
+  src="Modulation Basics_files/a2.htm12.jpg" width=179></P>
+  <P></P>
+  <P>
+  <P>Now we want to calculate the response of such a filter to a rectangular 
+  pulse as shown right. To do this we perform the convolutional integral giving 
+  for the output of the low pass filter (replacing limits with those of the 
+  pulse). To simplify the calculation we have set <EM>t<SUB>0</SUB></EM>=0 
+  without loss of generality.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=45 alt="wpe8.jpg (2965 bytes)" 
+  src="Modulation Basics_files/Pulse_6.jpg" width=218></P>
+  <P></P>
+  <P>
+  <P>To solve this integral we shall change variables as follows</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=22 alt="wpeA.jpg (1257 bytes)" 
+  src="Modulation Basics_files/Pulse_7.jpg" width=101></P>
+  <P></P>
+  <P>
+  <P>Giving us</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=134 alt="wpeB.jpg (6706 bytes)" 
+  src="Modulation Basics_files/Pulse_8.jpg" width=298></P>
+  <P></P>
+  <P>
+  <P><IMG height=239 alt="wpeD.jpg (8684 bytes)" 
+  src="Modulation Basics_files/Pulse_9.jpg" width=408 align=right>The solution 
+  involves the <STRONG>sine integral function</STRONG> defined by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=42 alt="wpeC.jpg (1721 bytes)" 
+  src="Modulation Basics_files/Pulse_10.jpg" width=124></P>
+  <P></P>
+  <P>
+  <P>We cannot write this integral in terms of other functions, it has to be 
+  calculated numerically (or looked up in tables). It is shown graphically 
+  right.</P>
+  <P></P>
+  <P>
+  <P>Our response is therefore made up of the difference between two sine 
+  integrals - one corresponding to the leading edge and one to the trailing 
+  edge. The exact form depends on the filter bandwidth , and below it is plotted 
+  for 3 different ratios of bandwidth to pulse width.<IMG height=380 
+  alt="wpeF.jpg (23685 bytes)" src="Modulation Basics_files/Pulse_12.jpg" 
+  width=474 align=right> If the bandwidth is very narrow (the green line) we see 
+  that the output is spread out over a long time. If the output equals the 
+  bandwidth (the blue line) the output shape is slightly broadened. In most 
+  cases the bandwidth of the filter will be much broader than this (the red 
+  line).</P>
+  <P></P>
+  <P>
+  <P>Those of you who have ever looked at the response of a pulse on an 
+  oscilloscope will be familiar with this shape.Important points to notice are 
+  that there is overshoot (of about 9% usually) and undershoot, and there are 
+  oscillations in the response. This is called <STRONG>Gibbs</STRONG> 
+  <STRONG>Phenomena</STRONG>. The period of these oscillations is proportional 
+  to the reciprocal of the filter bandwidth.</P>
+  <P></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:12.25 GMT+1</I></P>
+  <H3>Frequency Translation</H3>
+  <P>On completing this section you should be able to calculate the spectrum for 
+  a heterodyned signal in terms of the carrier and the baseband spectrum</P>
+  <P>
+  <P>As discussed earlier one of the important reasons for modulation is to 
+  carry out frequency translation. We take a signal and a carrier and multiply 
+  them together to produce a mixing or heterodyne signal. For a sinusoidal 
+  signal we have</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=215 alt="wpe10.jpg (11438 bytes)" 
+  src="Modulation Basics_files/Freque13.jpg" width=452></P>
+  <P></P>
+  <P>
+  <P><IMG height=333 alt="wpe11.jpg (13649 bytes)" 
+  src="Modulation Basics_files/Freque14.jpg" width=474 align=right>Looking at 
+  the spectrum, we the sinusoidal signal has two delta functions at +/- 
+  f<SUB>m</SUB>. Multiplying this by the sinusoidal carrier produces the sum and 
+  difference frequencies - a total of 4 peaks in the double sided spectrum. One 
+  way of looking at this is that we have taken the original spectrum and shifted 
+  it up to the carrier frequency.</P>
+  <P></P>
+  <P>
+  <P>A common mistake that is made is to forget that the spectrum is double 
+  sided - has both positive and negative frequencies. This is because quite 
+  often instruments (such as the spectrum analyser) only plot the positive half 
+  of the spectrum. For real signals, the amplitude spectrum is symmetric, and 
+  the phase spectrum is anti-symmetric, and so there is no need extra 
+  information negative half of the spectrum. On such a spectrum analyser we 
+  would only see a single peak for the signal sinusoidal frequency. However when 
+  we multiply this signal by the carrier we shift the <STRONG>entire</STRONG> 
+  spectrum up by the carrier frequency and so we see two peaks in the spectrum. 
+  </P>
+  <P></P>
+  <P>
+  <P><IMG height=251 alt="wpe12.jpg (10659 bytes)" 
+  src="Modulation Basics_files/Freque15.jpg" width=372 align=right>This 
+  principle of course applies for general signals so for a periodic 
+  non-sinusoidal signal we have a spectrum made up of a set of discrete 
+  frequencies separated by the period of the signal. Heterodyning this with a 
+  sinusoidal carrier shifts the entire double sided spectrum as shown here. </P>
+  <P></P>
+  <P>
+  <P>And similarly for a general aperiodic signal which has a continuous 
+  spectrum. Another important point to note about this process is that we 
+  effectively see a doubling of the bandwidth of the signal as when heterodyning 
+  we see both halves of the original spectrum at positive frequencies.</P>
+  <P></P>
+  <P>
+  <P><IMG height=315 alt="wpe13.jpg (13987 bytes)" 
+  src="Modulation Basics_files/Freque16.jpg" width=401 align=right>Another 
+  important aspect of frequency translation is that out analysis for the ideal 
+  low pass filter can also be applied for bandpass filters since they are 
+  equivalent except for the frequency translation of both signal and filter. 
+  Haykin deals with proving this is some detail. The most important thing to 
+  remember is that there is a factor of 2 difference in the bandwidth definition 
+  between the two, and this must be taken into account in the calculations. In 
+  particular we can represent a bandpass filter response <EM>H(f)</EM> in terms 
+  of an equivalent low pass transfer function as follows</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=27 alt="wpe14.jpg (1777 bytes)" 
+  src="Modulation Basics_files/Freque17.jpg" width=174></P>
+  <P></P>
+  <P>
+  <P>i.e. we take the part of the passband transfer function corresponding to 
+  positive frequencies, shift it to the origin and multiply by 2.</P>
+  <P></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:12.359 GMT+1</I></P>
+  <H3>Phase And Group Delay</H3>
+  <P>On completing this section you should be able to distinguish between the 
+  phase and group delay and calculate them for a given linear system</P>
+  <P>
+  <P>When a signal is passed through a dispersive (frequency-selective) device 
+  some delay is introduced. In an ideal low-pass filter the phase response 
+  varies linearly with frequency and a constant delay is introduced. </P>
+  <P></P>
+  <P>
+  <P>To start with we will consider a frequency which suffers a phase shift 
+  total of <IMG height=21 alt="wpe16.jpg (986 bytes)" 
+  src="Modulation Basics_files/Phase%2018.jpg" width=42> radians. The equivalent 
+  delay suffered will simply be given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=46 alt="wpe17.jpg (1159 bytes)" 
+  src="Modulation Basics_files/Phase%2019.jpg" width=45></P>
+  <P></P>
+  <P>
+  <P>seconds. The is called the <STRONG>phase delay</STRONG> of the channel. 
+  This is not necessarily the true delay of the channel - after all a sinusoidal 
+  signal carries no information. We must modulate the sinusoid to carry 
+  information, and it is the delay of the modulating envelope that we are often 
+  really interested in. This delay is called the <STRONG>envelope</STRONG> or 
+  <STRONG>group delay</STRONG> of the channel.</P>
+  <P></P>
+  <P>
+  <P>In general the phase response of our <STRONG>dispersive</STRONG> 
+  <STRONG>channel</STRONG> is a function of frequency, i.e. we have <IMG 
+  height=22 alt="wpe19.jpg (973 bytes)" 
+  src="Modulation Basics_files/Phase%2020.jpg" width=41>. An example is plotted 
+  below</P>
+  <P></P>
+  <P>
+  <P><IMG height=306 alt="wpe18.jpg (9283 bytes)" 
+  src="Modulation Basics_files/Phase%2021.jpg" width=386></P>
+  <P></P>
+  <P>
+  <P>Here I am going to show what I hope is a simple way of viewing the group 
+  delay. Haykin does a more complete calculation. We are going to a consider a 
+  signal consisting of two sinusoidal components separated by a small frequency 
+  step <FONT face=Symbol color=#000000 size=4>dw</FONT></P>
+  <P></P>
+  <P>
+  <P>Thus we have at&nbsp; the input</P>
+  <P></P>
+  <P>
+  <P><IMG height=86 alt="wpe1C.jpg (3884 bytes)" 
+  src="Modulation Basics_files/Phase%2022.jpg" width=249></P>
+  <P></P>
+  <P>
+  <P>where we have rewritten the input in terms of the envelope component at 
+  frequency <FONT face=Symbol>dw</FONT> and a carrier frequency component.</P>
+  <P></P>
+  <P>
+  <P><IMG height=193 alt="wpe1D.jpg (20508 bytes)" 
+  src="Modulation Basics_files/Phase%2023.jpg" width=598></P>
+  <P></P>
+  <P>
+  <P>At the output of the channel or system we have a delay of <FONT 
+  face=Symbol>b</FONT> for frequency <FONT face=Symbol>w</FONT> and a delay of 
+  <FONT face=Symbol>b+db</FONT> for frequency <FONT face=Symbol>w+dw</FONT> 
+  giving the output signal as</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=97 alt="wpe1E.jpg (6540 bytes)" 
+  src="Modulation Basics_files/Phase%2024.jpg" width=395></P>
+  <P></P>
+  <P>
+  <P>Again we have separated the output into the envelope and carrier. Comparing 
+  the envelope component at the output with that at the input we see that it has 
+  a phase delay of <FONT face=Symbol>db</FONT> and is at frequency <FONT 
+  face=Symbol>dw</FONT> so the group delay is given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=42 alt="wpe1F.jpg (1176 bytes)" 
+  src="Modulation Basics_files/Phase%2025.jpg" width=55></P>
+  <P></P>
+  <P>
+  <P>More generally if we have a more complex signal we need to consider the 
+  relative relationship between all the frequency components. Clearly if there 
+  is to be no distortion the relative delay between all the components must be 
+  the same i.e. the derivative of the phase with frequency must be a 
+  constant.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:12.453 GMT+1</I></P></DL>
+<HR>
+
+<P><I>Tutorial Path created by willijar at 2001/04/05 08:19:45.046 GMT+1</I></P>
+<TABLE width="100%" border=0>
+  <STYLE type=text/css>A {
+	TEXT-DECORATION: none
+}
+</STYLE>
+
+  <TBODY>
+  <TR>
+    <TD align=middle colSpan=3><BR><IMG height=2 alt=HR 
+      src="Modulation Basics_files/hr.gif" width=500> </TD></TR>
+  <TR>
+    <TD vAlign=top width=120><A href="http://www.aston.ac.uk/"><IMG 
+      alt="Aston University - the real world university" 
+      src="Modulation Basics_files/unilogomidsmall.gif" border=0> </A></TD>
+    <TD vAlign=top align=middle><A class=corporategreen 
+      href="http://www.aston.ac.uk/"><B>w w w . a s t o n . a c . u 
+      k</B></A><BR><SMALL class=blue>Aston University, Aston Triangle, 
+      Birmingham B4 7ET, United Kingdom</SMALL> <BR><SMALL>t: +44 (0) 121 359 
+      3611&nbsp;&nbsp;&nbsp;&nbsp;f: +44 (0) 121 359 0156 
+      &nbsp;&nbsp;&nbsp;&nbsp;<A style="COLOR: black" 
+      href="mailto:J.A.R.Williams@aston.ac.uk">mailto:J.A.R.Williams@aston.ac.uk</A> 
+      <BR>Last modified: Apr 22, 2001 1:41 pm</SMALL> <BR><SMALL 
+      class=copyright>Copyright © 2000,2001 Aston University.</SMALL><BR><A 
+      href="http://benedick.aston.ac.uk:8080/legalise">Legalise</A> | <A 
+      href="http://benedick.aston.ac.uk:8080/privacy">Privacy Statement</A> | <A 
+      href="http://benedick.aston.ac.uk:8080/tutorials/paths/ModulationBasics/entire_html?printable=1">Printable 
+      Version</A> </TD>
+    <TD vAlign=top width=120 rowSpan=2></TD></TR></TBODY></TABLE></BODY></HTML>

@@ -1,0 +1,5 @@
+Synthesizing work.cddecode.cddecode_arch
+Post processing for work.cddecode.cddecode_arch
+@W:"c:\fndtn\active\projects\rs232sch\decodecnt.vhd":10:2:10:3|All reachable assignments to cnt(14) assign '0', register removed by optimization
+@W:"c:\fndtn\active\projects\rs232sch\decodecnt.vhd":10:2:10:3|All reachable assignments to cnt(15) assign '0', register removed by optimization
+@W:"c:\fndtn\active\projects\rs232sch\decodecnt.vhd":10:2:10:3|Latch generated from process for signal cnt(15 downto 0), probably caused by a missing assignment in an if or case stmt

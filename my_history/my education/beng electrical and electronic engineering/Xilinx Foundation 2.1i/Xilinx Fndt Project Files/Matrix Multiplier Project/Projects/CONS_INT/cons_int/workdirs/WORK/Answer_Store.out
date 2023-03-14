@@ -1,0 +1,111 @@
+
+Inferred memory devices in process 
+	in routine Answer_Store line 19 in file
+         'C:/fndtn/active/projects/cons_int/answer_store_three.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        Q_reg        | Flip-flop |  20   |  N  | N  | ?  | ?  | ?  | ?  | ?  |
+===============================================================================
+
+Q_reg<6>
+--------
+    set/reset/toggle: none
+
+
+Q_reg<13>
+---------
+    set/reset/toggle: none
+
+
+Q_reg<2>
+--------
+    set/reset/toggle: none
+
+
+Q_reg<17>
+---------
+    set/reset/toggle: none
+
+
+Q_reg<0>
+--------
+    set/reset/toggle: none
+
+
+Q_reg<9>
+--------
+    set/reset/toggle: none
+
+
+Q_reg<15>
+---------
+    set/reset/toggle: none
+
+
+Q_reg<4>
+--------
+    set/reset/toggle: none
+
+
+Q_reg<11>
+---------
+    set/reset/toggle: none
+
+
+Q_reg<18>
+---------
+    set/reset/toggle: none
+
+
+Q_reg<5>
+--------
+    set/reset/toggle: none
+
+
+Q_reg<10>
+---------
+    set/reset/toggle: none
+
+
+Q_reg<19>
+---------
+    set/reset/toggle: none
+
+
+Q_reg<1>
+--------
+    set/reset/toggle: none
+
+
+Q_reg<14>
+---------
+    set/reset/toggle: none
+
+
+Q_reg<8>
+--------
+    set/reset/toggle: none
+
+
+Q_reg<3>
+--------
+    set/reset/toggle: none
+
+
+Q_reg<16>
+---------
+    set/reset/toggle: none
+
+
+Q_reg<7>
+--------
+    set/reset/toggle: none
+
+
+Q_reg<12>
+---------
+    set/reset/toggle: none
+
+
+Writing to hnl file 'c:\Fndtn\Active\Projects\CONS_INT\cons_int/workdirs/WORK/Answer_Store.hnl'

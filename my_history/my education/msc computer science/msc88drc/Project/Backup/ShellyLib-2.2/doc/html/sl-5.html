@@ -1,0 +1,103 @@
+<HTML>
+<HEAD>
+<TITLE>ShellyLibV2.2: Parameters of the Shell Generator</TITLE>
+</HEAD>
+<BODY>
+<A HREF="sl-4.html">Previous</A>
+<A HREF="sl-6.html">Next</A>
+<A HREF="sl.html#toc5">Table of Contents</A>
+<HR>
+<H2><A NAME="sec-para"></A> <A NAME="s5">5. Parameters of the Shell Generator</A></H2>
+
+
+<P>The basic idea of the algorithm is to simulate a shell shape
+by rotating a growing ellipse around the z-axis, and simultaneously
+displacing it from the z-axis. This results in a flat spiral.
+If we move the ellipse along the z-axis while rotating, a shell
+like shape will appear. The curve determined by all centers of all
+ellipses is a so called helico-spiral.</P>
+<P>The parameters of this process are divided into 5 groups.
+Parameters that need to be given in degrees are marked with an asterisk ("*").</P>
+<P>
+<DL>
+<DT><B>Angular Parameters:</B><DD><P>These parameters change the shape of the
+helico-spiral (<CODE>"alpha"</CODE>* and <CODE>"beta"</CODE>*) and the tilt of
+the ellipse against the axes of the local coordinate system of the ellipse
+(<CODE>"phi"</CODE>*, <CODE>"my"</CODE>*, <CODE>"omega"</CODE>*). Note, that <CODE>"alpha"</CODE>* does
+determine the growth rate of the ellipse too.</P>
+<P><CODE>"alpha2"</CODE>* is a new parameter that has been introduced
+with V2.2. It works much like <CODE>"alpha"</CODE>* but it only changes the
+growth rate of the generating curve. At its default setting
+of 90.0, no change to the original growth rate takes place. At a higher
+value it will decrease the growth rate determined by <CODE>"alpha"</CODE>*
+and vice versa. Due to the dependence from <CODE>"alpha"</CODE>* you have
+to find a new value for <CODE>"alpha2"</CODE>* every time <CODE>"alpha"</CODE>* is changed!
+See the new <CODE>"Snail.shy"</CODE> for an example.</P>
+
+<DT><B>Linear Parameters:</B><DD><P>They change the size (and shape) of the
+ellipse (<CODE>"a"</CODE>, <CODE>"b"</CODE>) and the distance of the first ellipses
+center from the z-axis (<CODE>"A"</CODE>).</P>
+
+<DT><B>Dimensional Parameters:</B><DD><P>They set how many ellipses are calculated
+(<CODE>"omin"</CODE>*, <CODE>"omax"</CODE>*, <CODE>"od"</CODE>*), and how many points
+on each ellipse are calculated (<CODE>"smin"</CODE>*, <CODE>"smax"</CODE>*, <CODE>"sd"</CODE>*).
+Finally, a global scale-factor, independent from all file format specific
+scaling, might be applied using <CODE>"Scale"</CODE>.</P>
+
+<DT><B>Nodule Parameters:</B><DD><P>Change all aspects of nodules, position on the
+ellipse (<CODE>"P"</CODE>*), size (<CODE>"W1"</CODE>*, <CODE>"W2"</CODE>*), length (<CODE>"L"</CODE>),
+number of nodules per whorl (<CODE>"N"</CODE>) and starting point on
+the spiral (<CODE>"Nstart"</CODE>*).</P>
+<P>There are three independent groups of nodules.
+Add a <CODE>"2"</CODE> to each nodule parameter to set parameters
+of the second nodule group. Length of second nodule is therefore <CODE>"L2"</CODE>.
+Do the same for the third nodule, with a <CODE>"3"</CODE>.
+There are two more parameters to control an offset between the three groups
+of nodules, <CODE>"Off2"</CODE>* is the offset between nodule 1 and nodule 2 and
+<CODE>"Off3"</CODE>* is the offset between nodule 1 and nodule 3.</P>
+
+<DT><B>Nodule-Mode Parameters:</B><DD><P><CODE>"Scano"</CODE>, <CODE>"Scans"</CODE>, <CODE>"Hdo"</CODE>,
+<CODE>"Hds"</CODE> refer to section 
+<A HREF="sl-6.html#sec-calc">Calculation Modi</A>
+for information on this parameters.</P>
+
+<DT><B>Wall Parameters:</B><DD><P><CODE>"wall"</CODE> defines the thickness
+of the wall in terms of <CODE>"a"</CODE> and <CODE>"b"</CODE> and <CODE>"wlen"</CODE>*
+defines how many degrees into the interior of the shell
+the wall should be computed. A simple trick allows the calculation of
+the inner walls:</P>
+<P> At the aperture of the shell <CODE>"a"</CODE> and <CODE>"b"</CODE>
+are multiplied with <CODE>"wall"</CODE> and then the shell generator computes
+the interior with negative <CODE>"od"</CODE>.</P>
+<P>The wall feature is a big win for realism, now even views
+of the aperture of the shell do not reveal the synthetic nature
+of the shell easily.</P>
+<P>Unfortunately, simple scaling of the generating curve does not
+yield best results in every case, namely the GCURVE-mode.</P>
+
+</DL>
+</P>
+<P>The most important parameters are <CODE>"alpha"</CODE>, <CODE>"beta"</CODE>, <CODE>"A"</CODE>,
+<CODE>"a"</CODE> and <CODE>"b"</CODE>.</P>
+<P>Here are some hints on how certain values change the shape of the shell.
+<UL>
+<LI>Alpha 90 means no growing of the ellipse and no spiral shape at all.
+If beta is 90, too, this will produce a torus like shape. If alpha gets
+smaller the spiral will form and the ellipse will grow.</LI>
+<LI>Beta 90 means no moving of the ellipse along z-axis. This is fine
+for shells like "Nautilus", "Planorbis", "Ammonite" or several
+cockles. If you want to shape a "Turritella" or "Natalina" you have to
+decrease beta.</LI>
+<LI>The meaning of a certain value of A depends highly on a and b. 
+Generally, A should be higher as a and b, otherwise the shell may look 
+like a sphere.</LI>
+</UL>
+</P>
+
+
+<HR>
+<A HREF="sl-4.html">Previous</A>
+<A HREF="sl-6.html">Next</A>
+<A HREF="sl.html#toc5">Table of Contents</A>
+</BODY>
+</HTML>

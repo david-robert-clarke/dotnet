@@ -1,0 +1,34 @@
+-- Created by David Clarke
+-- Final Year Project
+-- Exploiting Parallelism in FPGA design
+-- Date : 5_12_2000
+Library IEEE;
+Use IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY Part_Dec IS
+PORT (INPUT : IN STD_LOGIC_VECTOR (3 downto 0);
+      OUTPUT : OUT STD_LOGIC_VECTOR (15 downto 0));
+END ENTITY Part_Dec;
+
+ARCHITECTURE Behavioural OF Part_Dec IS
+Begin
+    Process (INPUT) IS
+    Begin
+        IF INPUT = "0111" THEN
+           OUTPUT(15 downto 12) <= "0111";
+    
+	ELSIF INPUT = "1001" THEN
+      	      OUTPUT(11 downto 8) <= "1001";
+
+	ELSIF INPUT = "1110" THEN
+       	      OUTPUT(7 downto 4) <= "1110";
+
+	ELSIF INPUT = "0110" THEN
+       	      OUTPUT(3 downto 0) <= "0110";
+	
+	END IF;
+     END Process;
+
+END ARCHITECTURE Behavioural;
+ 
+      

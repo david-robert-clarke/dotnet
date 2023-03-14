@@ -1,0 +1,9 @@
+file {
+  .version = 1;
+  entity {
+    .name = "MUL2";
+    .mra_file = "MUL2.mra";
+    .arch = {"BEHAVIOURAL"};
+    .syn_files = {"MUL2.syn", "MUL2__BEHAVIOURAL.syn"};
+   }
+}

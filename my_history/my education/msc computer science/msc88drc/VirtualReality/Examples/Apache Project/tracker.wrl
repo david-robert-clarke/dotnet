@@ -1,0 +1,37 @@
+#VRML V2.0 utf8
+#Ian Whitehouse, 5/5/00.
+PROTO TrackingView[
+	eventIn SFVec3f set_targetPosition #Set the position of the target.
+	eventIn SFVec3f set_userPosition #Set the position of the user.
+]
+{
+	DEF tracking Viewpoint{description "Tracking View"} #The viewpoint that the rotation will alter.
+	DEF tracker Script{
+		eventIn SFVec3f set_targetPosition IS set_targetPosition
+		eventIn SFVec3f set_userPosition IS set_userPosition
+		eventOut SFRotation rotation
+		eventOut SFVec3f userPosition_changed
+		field SFVec3f userPosition 0 0 0
+		field SFVec3f targetPosition 0 0 0
+		url "javascript:
+			function eventsProcessed(){//Decomposes a single rotation into one about the y-axis, and one vertical rotation.
+				hVec=targetPosition.subtract(userPosition);
+				verticalRotation=new SFRotation(1,0,0,Math.atan(hVec.y/(Math.sqrt(hVec.x*hVec.x+hVec.z*hVec.z))));
+				hVec.y=0;
+				horizontalRotation=new SFRotation(new SFVec3f(0,0,-1),hVec);
+				rotation=verticalRotation.multiply(horizontalRotation);//These are the recomposed, to give a good view.
+			}
+
+			function set_userPosition(value,ts){
+				userPosition=value;
+				userPosition_changed=value;
+			}
+
+			function set_targetPosition(value,ts){
+				targetPosition=value;
+			}
+		"
+	}
+	ROUTE tracker.rotation			TO tracking.orientation
+	ROUTE tracker.userPosition_changed	TO tracking.position
+}

@@ -1,0 +1,28 @@
+--
+--  Behavioral 8x2 ROM Example
+--           rom_rtl.vhd
+--
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_arith.all;
+
+entity data_store is
+     port (ADDR: in INTEGER range 3 downto 0;
+           DATA: out unsigned (7 downto 0));
+end data_store;
+
+architecture Behavioural of data_store is
+
+    subtype ROM_BITS is unsigned (7 downto 0);
+    type ROM_TABLE is array (3 downto 0) of ROM_BITS;
+    constant ROM: ROM_TABLE := ROM_TABLE'(
+                               ROM_BITS'("01101101"),
+                               ROM_BITS'("01101111"),
+                               ROM_BITS'("10100101"),
+                               ROM_BITS'("10100111"));
+
+    begin
+        DATA <= ROM(ADDR);  -- Read from the ROM
+end Behavioural;
+

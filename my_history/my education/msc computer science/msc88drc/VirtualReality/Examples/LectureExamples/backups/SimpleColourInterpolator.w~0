@@ -1,0 +1,48 @@
+#VRML V2.0 utf8
+
+PROTO myProto [
+   field SFNode myGeometry Sphere {}
+   exposedField SFVec3f myTranslation 0 0 0
+   exposedField SFRotation myObjectRotation 0 0 0 0
+   exposedField SFColor myDiffuseColour 1 0.46 0
+]
+{
+	DEF system Transform {
+     		 children [
+		 Shape {
+  		 geometry IS myGeometry
+   		 appearance Appearance {
+      		 material DEF boxMaterial Material{
+         	 diffuseColor myDiffuseColour
+     		 }
+  		 }
+	}
+	DEF touch TouchSensor{}
+	DEF time TimeSensor{
+   	cycleInterval 3.0
+	}
+	DEF colourChange ColorInterpolator{
+   	key[0,0.5,1.0]
+   	keyValue[1 0 0,0 1 0,0 0 1]
+	}
+
+	# use the TouchSensor to start the clock
+	ROUTE touch.touchTime TO time.startTime
+
+	# route the output from the clock to the colourChange
+	ROUTE time.fraction_changed TO colourChange.set_fraction
+
+	# output the change in colour value to the boxMaterial node.
+	ROUTE colourChange.value_changed TO boxMaterial.diffuseColor
+	}
+}
+
+# instantiate the prototype
+DEF dave1 myProto{}
+DEF dave2 myProto{myTranslation 0 5 0}
+
+
+
+
+
+

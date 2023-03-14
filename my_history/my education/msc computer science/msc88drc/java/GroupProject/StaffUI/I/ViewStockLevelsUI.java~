@@ -1,0 +1,37 @@
+package I;
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import java.awt.Component;
+/**
+   Stock Level viewer for all members of staff
+   
+   @author David Clarke 
+**/
+public class ViewStockLevelsUI extends JFrame
+{  
+
+  JList viewStockList;
+
+  //constructor
+  public ViewStockLevelsUI()
+  {
+    viewStockList = new JList();
+    viewStockList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+    viewStockList.setSelectedIndex(0);
+    JScrollPane stafOrListScrollPane = new JScrollPane(staffOrderList);   
+    //Get all the staff orders from the staff_order table
+    //Display each staff order as one string, one JList entry
+    
+    /*
+    GetAllStaffOrdersQuery queryStaffOrder = new GetAllStaffOrdersQuery();
+    String[] sOrder = new String[100];
+    sOrder = queryStaffOrder.exeQuery();
+    viewStockList.setListData(sOrder);
+    */
+
+    contentPane.add(viewStockList, "Center");
+	
+  } 
+}

@@ -1,0 +1,83 @@
+[project]
+name=userconf
+netlist=userconf
+contents=
+date=01/25/01
+time=12:32:30
+version=3.1.5.00.33
+Type=F21i
+top_level=VHDL
+HDL netlist format=Auto
+generics=MAX
+sim_mode=FUNC
+pdf_dir=c:\fndtn\active\projects\
+lib_order=1014 133 155
+
+[libraries]
+1014=
+133=c:\fndtn\active\syslib\simprims
+155=c:\fndtn\active\syslib\xc4000x
+
+[xilinx]
+libraries=unified
+family=2
+xfam=XC4000XL
+xact9=On
+
+[hdl_sheets]
+matrix_package.vhd=
+rom_matrix_store.vhd=
+
+[Top Doc]
+matrix_package.vhd=21
+rom_matrix_store.vhd=21
+
+[APP_95]
+oid=0
+lid=0
+format=19
+source=C:\Fndtn\Active\Projects\USERCONF\RAM_INT_STORE.vhi
+server_hwnd=2660
+
+[OpenDoc]
+hde/rom_matrix_store=0,0,-4,-4,1028,744,rom_matrix_store.vhd
+hde/RAM_INT_STORE=0,0,-4,-4,1028,744,RAM_INT_STORE.vhi
+
+[device]
+part=4010XLPC84-09
+xilinx=4010XLPC84-09
+
+[implement_HDL]
+family=2
+xfam=XC4000XL
+part=4010XLPC84-09
+xilinx=4010XLPC84-09
+functional=ver1
+optimized=ver1-Optimized
+
+[netlist]
+external=FALSE
+
+[Log]
+netlist.log=Simulator Netlist Log
+imp_EDIF.log=Import EDIF netlist
+
+[timings]
+userconf=
+
+[implement_XIE]
+version=ver1
+revision=rev1
+
+[OPEN32]
+nMaxFile=10000
+lpstrFile=
+lpstrFilter=HDL (*.VHD;*.VER;*.VE;*.V)|*.vhd;*.ver;*.ve;*.v|Schematic (*.SCH)|*.sch|FSM (*.ASF)|*.asf|Xnf Sources (*.XNF)|*.xnf|Edif Sources (*.EDF;*.EDN;*.EDO)|*.edf;*.edn;*.edo|All Files (*.*)|*.*||
+lpstrInitialDir=C:\FNDTN\ACTIVE\PROJECTS\USERCONF
+lpstrTitle=Add Document
+nFilterIndex=0
+Flags=530964
+HelpID=10380
+HelpFileName=C:\FNDTN\ACTIVE\EXE\PCM.HLP
+cmdLine=-h 2432 -hp 2028 -m PCM_OPEN_32_MESSAGE -f C:\FNDTN\ACTIVE\PROJECTS\current.pdf
+

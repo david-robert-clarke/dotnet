@@ -1,0 +1,132 @@
+(edif test
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap
+    (keywordLevel 0))
+  (status
+    (written
+      (timeStamp 101 1 23 20 54 30)
+      (author "ALDEC")
+      (program "Xnf2Edf - Aldec's Edif 2.0.0 Netlist Generator"
+        (version "2.0.3.28"))))
+  (library Active_lib
+    (edifLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 1 -11)(unit TIME))))
+    (cell BUFG
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I
+            (direction INPUT))
+          (port O
+            (direction OUTPUT)))))
+    (cell IBUF
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I
+            (direction INPUT))
+          (port O
+            (direction OUTPUT)))))
+    (cell IFD
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port C
+            (direction INPUT))
+          (port D
+            (direction INPUT))
+          (port Q
+            (direction OUTPUT)))))
+    (cell OBUF
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I
+            (direction INPUT))
+          (port O
+            (direction OUTPUT)))))
+    (cell STARTUP
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port GSR
+            (direction INPUT)))))
+    (cell TEST
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port CLK
+            (direction INPUT))
+          (port D_IN
+            (direction INPUT))
+          (port Q_OUT
+            (direction OUTPUT))
+          (port RESET
+            (direction INPUT)))
+        (contents
+          (instance C10
+            (viewRef net
+              (cellRef BUFG))
+            (property LIBVER (string "2.0.0")))
+          (instance C8
+            (viewRef net
+              (cellRef IBUF))
+            (property LIBVER (string "2.0.0")))
+          (instance C9
+            (viewRef net
+              (cellRef OBUF))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance Q_OUT_REG
+            (viewRef net
+              (cellRef IFD))
+            (property LIBVER (string "2.0.0")))
+          (instance U1
+            (viewRef net
+              (cellRef STARTUP))
+            (property LIBVER (string "2.0.0")))
+          (net CLK
+            (joined 
+              (portRef CLK)
+              (portRef I
+                (instanceRef C10))))
+          (net CLK_BUFGED
+            (joined 
+              (portRef C
+                (instanceRef Q_OUT_reg))
+              (portRef O
+                (instanceRef C10))))
+          (net D_IN
+            (joined 
+              (portRef D_IN)
+              (portRef D
+                (instanceRef Q_OUT_reg))))
+          (net N0
+            (joined 
+              (portRef GSR
+                (instanceRef U1))
+              (portRef O
+                (instanceRef C8))))
+          (net N_Q_OUT
+            (joined 
+              (portRef Q
+                (instanceRef Q_OUT_reg))
+              (portRef I
+                (instanceRef C9))))
+          (net Q_OUT
+            (joined 
+              (portRef Q_OUT)
+              (portRef O
+                (instanceRef C9))))
+          (net RESET
+            (joined 
+              (portRef RESET)
+              (portRef I
+                (instanceRef C8))))))))
+  (design test
+    (cellRef test
+      (libraryRef Active_lib))
+    (property PART (string "4010XL-PC84-09"))))

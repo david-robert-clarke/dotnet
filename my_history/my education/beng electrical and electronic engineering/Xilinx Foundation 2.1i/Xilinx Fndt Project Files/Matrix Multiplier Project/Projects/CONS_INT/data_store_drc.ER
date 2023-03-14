@@ -1,0 +1,2 @@
+c:\fndtn\active\projects\cons_int\data_store_drc.edn -1 0:E:#0 Error: Trouble reading EDIF file 'c:\fndtn\active\projects\cons_int\data_store_drc.edn'.  (FPGA-EDFN-1) 
+c:\fndtn\active\projects\cons_int\data_store_drc.edn 454 0:E:#0 Error:  Line 454: multiple definition of net 'N20' in view 'view_1'.   (EDFN-39) 

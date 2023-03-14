@@ -1,0 +1,61 @@
+package I;
+import java.awt.*;
+import javax.swing.*;
+
+/**
+ * StaffOptions
+ * 
+ * 
+ * Created: Fri Mar 21 11:02:32 2003
+ * 
+ * @author <a href="mailto:msc88drc@acws-3437.cs.bham.ac.uk">David R Clarke</a>
+ * @version
+ */
+ 
+public class StaffUI extends JFrame {
+
+  //Stock staff options
+  private JButton addNewProductButton;
+  private JButton removeProductButton;
+  private JButton editProductButton;
+  private JButton addNewSupplierButton;
+  private JButton removeSupplierButton;
+  private JButton orderNewStockButton;
+  private JButton viewStockLevelsButton;
+  
+  //Managerial staff options
+  private JButton summary;       //summary of all sales from given time period
+  private JTextField timePeriod; //input time period required for info
+  private JButton iSalesProfile; //individual sales profile
+  private JButton aSalesProfile; //summary of all related profits
+  
+  private JButton exit; //exit the interface
+  
+
+public StaffUI ()
+{
+  //Staff related options
+  addNewProductButton = new JButton("Add New Product");
+  removeProductButton = new JButton("Remove Product");
+  editProductButton = new JButton("Edit Product");
+  addNewSupplierButton = new JButton("Add New Supplier");
+  removeSupplierButton = new JButton("Remove Supplier");
+  orderNewStockButton = new JButton("Order New STOCK");
+  viewStockLevelsButton = new JButton("View STOCK Levels");
+
+  //Add Buttons to staff menu
+  JPanel staffPanel = new JPanel();
+  staffPanel.setLayout(new GridLayout(7,1));
+  staffPanel.add(addNewProductButton);
+  staffPanel.add(removeProductButton);
+  staffPanel.add(editProductButton);
+  staffPanel.add(addNewSupplierButton);
+  staffPanel.add(removeSupplierButton);
+  staffPanel.add(orderNewStockButton);
+  staffPanel.add(viewStockLevelsButton);
+
+  Container contentPane = getContentPane();
+  contentPane.add(staffPanel,"East");  
+}
+
+}// StaffUI

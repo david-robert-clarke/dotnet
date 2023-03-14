@@ -1,0 +1,70 @@
+Library IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+Entity PISO IS
+Port (CLOCK, LOAD_SHIFT, SERIN, D1, D2, D3, D4 : IN STD_LOGIC;
+      SEROUT : OUT STD_LOGIC);
+END Entity PISO;
+
+Architecture Structural OF PISO IS
+
+Component INV IS
+Port (a : IN STD_LOGIC; z : OUT STD_LOGIC);
+END Component INV;
+
+Component AND2 IS
+Port (a, b : IN STD_LOGIC; z : OUT STD_LOGIC);
+END Component AND2;
+
+Component OR2 IS
+Port (a, b : IN STD_LOGIC; z : OUT STD_LOGIC);
+END Component OR2;
+
+Component FD IS
+Port (D, CLK : IN STD_LOGIC; Q : OUT STD_LOGIC);
+END Component FD;
+
+Signal INVAND, ANDOR1, ANDOR2, ANDOR3, DAND1, DAND2, DAND3, 
+       ANDOR4, ANDOR5, ANDOR6, ANDOR7, ANDOR8, ORD1, ORD2, ORD3, 
+       ORD4 : STD_LOGIC;
+
+Begin
+
+	INV   : INV Port map  (a => LOAD_SHIFT, z => INVAND); 
+
+	ANDY1 : AND2 Port map (a => SERIN, b => INVAND,  z => ANDOR1);
+	ANDY2 : AND2 Port map (a => D1, b => LOAD_SHIFT, z => ANDOR2);
+	ANDY3 : AND2 Port map (a => DAND1, b => INVAND,  z => ANDOR3);
+	ANDY4 : AND2 Port map (a => D2, b => LOAD_SHIFT, z => ANDOR4);
+	ANDY5 : AND2 Port map (a => DAND2, b => INVAND,  z => ANDOR5);
+	ANDY6 : AND2 Port map (a => D3, b => LOAD_SHIFT, z => ANDOR6);
+	ANDY7 : AND2 Port map (a => DAND3, b => INVAND,  z => ANDOR7);
+	ANDY8 : AND2 Port map (a => D4, b => LOAD_SHIFT, z => ANDOR8); 
+
+	ORGASM1 : OR2 Port map (a => ANDOR1, b => ANDOR2, z => ORD1);
+	ORGASM2 : OR2 Port map (a => ANDOR3, b => ANDOR4, z => ORD2);
+	ORGASM3 : OR2 Port map (a => ANDOR5, b => ANDOR6, z => ORD3);
+	ORGASM4 : OR2 Port map (a => ANDOR7, b => ANDOR8, z => ORD4);
+
+	Floppy1 : FD Port map (D => ORD1, CLK => CLOCK, Q => DAND1);
+	Floppy2 : FD Port map (D => ORD2, CLK => CLOCK, Q => DAND2);
+	Floppy3 : FD Port map (D => ORD3, CLK => CLOCK, Q => DAND3);
+	Floppy4 : FD Port map (D => ORD4, CLK => CLOCK, Q => SEROUT);
+
+END Architecture Structural;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,3 @@
+Analyze of c:\fndtn\active\projects\cons_int\data_store_drc.edn file started.
+Analyze of c:\fndtn\active\projects\cons_int\data_store_drc.edn file finished.
+Error: Trouble reading EDIF file 'c:\fndtn\active\projects\cons_int\data_store_drc.edn'.  (FPGA-EDFN-1) Error:  Line 454: multiple definition of net 'N20' in view 'view_1'.   (EDFN-39) 

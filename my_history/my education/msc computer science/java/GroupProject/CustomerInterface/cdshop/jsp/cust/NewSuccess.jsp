@@ -1,0 +1,4 @@
+<HEAD><TITLE>You are registered!</TITLE></HEAD><BODY>
+You have been registered as a new customer, thank you for your patronage.
+<a href="/cdshop/jsp/index.jsp">[clike here]</a>  and log in our web site.
+</BODY>

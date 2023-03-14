@@ -1,0 +1,45 @@
+[project]
+name=user_con
+netlist=user_con
+contents=
+date=01/25/01
+time=12:06:03
+lib_order=1013
+version=3.1.5.00.33
+Type=F21i
+top_level=VHDL
+pdf_dir=c:\mydocu~1\myxili~1.1i\xilinx~1\matrix~1\
+
+[libraries]
+1013=
+
+[xilinx]
+libraries=unified
+
+[Top Doc]
+matrix_package.vhd=21
+
+[hdl_sheets]
+matrix_package.vhd=
+
+[OPEN32]
+nMaxFile=10000
+lpstrFile=
+lpstrFilter=HDL (*.VHD;*.VER;*.VE;*.V)|*.vhd;*.ver;*.ve;*.v|Schematic (*.SCH)|*.sch|FSM (*.ASF)|*.asf|Xnf Sources (*.XNF)|*.xnf|Edif Sources (*.EDF;*.EDN;*.EDO)|*.edf;*.edn;*.edo|All Files (*.*)|*.*||
+lpstrInitialDir=C:\MYDOCU~1\MYXILI~1.1I\XILINX~1\MATRIX~1\USER_CON
+lpstrTitle=Add Document
+nFilterIndex=0
+Flags=530964
+HelpID=10380
+HelpFileName=C:\FNDTN\ACTIVE\EXE\PCM.HLP
+cmdLine=-h 3040 -hp 1480 -m PCM_OPEN_32_MESSAGE -f C:\FNDTN\ACTIVE\PROJECTS\current.pdf
+
+[APP_95]
+lid=0
+oid=0
+format=19
+source=C:\My Documents\My Xilinx Foundation 2.1i\Xilinx Fndt Project Files\Matrix Multiplier Project\USER_CON\rom_matrix_store.vhd
+server_hwnd=780
+
+[OpenDoc]
+hde/rom_matrix_store=0,0,-4,-4,1028,744,C:\My Documents\My Xilinx Foundation 2.1i\Xilinx Fndt Project Files\Matrix Multiplier Project\USER_CON\rom_matrix_store.vhd

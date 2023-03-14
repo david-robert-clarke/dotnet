@@ -1,0 +1,1028 @@
+PAR: Xilinx Place And Route C.16.
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+Fri Feb 02 01:17:14 2001
+
+Xilinx PAD Specification File
+*****************************
+
+Input file:       map.ncd
+Output file:      row_cols.ncd
+Part type:        xc4085xl
+Speed grade:      -09
+Package:          pg559
+
+Fri Feb 02 01:17:14 2001
+
+Pinout by Pin Name:
++------------------------------------------------+-----------+--------------+
+|                    Pin Name                    | Direction |  Pin Number  |
++------------------------------------------------+-----------+--------------+
+| CLK                                            |  INPUT    | C1           |
+| ENABLE                                         |  INPUT    | E29          |
+| FOURxFOUR<0>                                   |  OUTPUT   | G27          |
+| FOURxFOUR<10>                                  |  OUTPUT   | B42          |
+| FOURxFOUR<11>                                  |  OUTPUT   | D20          |
+| FOURxFOUR<12>                                  |  OUTPUT   | N37          |
+| FOURxFOUR<13>                                  |  OUTPUT   | D30          |
+| FOURxFOUR<14>                                  |  OUTPUT   | H42          |
+| FOURxFOUR<15>                                  |  OUTPUT   | D26          |
+| FOURxFOUR<16>                                  |  OUTPUT   | C27          |
+| FOURxFOUR<17>                                  |  OUTPUT   | L43          |
+| FOURxFOUR<18>                                  |  OUTPUT   | AA1          |
+| FOURxFOUR<19>                                  |  OUTPUT   | A15          |
+| FOURxFOUR<1>                                   |  OUTPUT   | F24          |
+| FOURxFOUR<20>                                  |  OUTPUT   | B14          |
+| FOURxFOUR<21>                                  |  OUTPUT   | V6           |
+| FOURxFOUR<22>                                  |  OUTPUT   | W7           |
+| FOURxFOUR<23>                                  |  OUTPUT   | E15          |
+| FOURxFOUR<24>                                  |  OUTPUT   | A29          |
+| FOURxFOUR<25>                                  |  OUTPUT   | P42          |
+| FOURxFOUR<26>                                  |  OUTPUT   | U41          |
+| FOURxFOUR<27>                                  |  OUTPUT   | R41          |
+| FOURxFOUR<28>                                  |  OUTPUT   | Y42          |
+| FOURxFOUR<29>                                  |  OUTPUT   | V38          |
+| FOURxFOUR<2>                                   |  OUTPUT   | AV36         |
+| FOURxFOUR<30>                                  |  OUTPUT   | F20          |
+| FOURxFOUR<31>                                  |  OUTPUT   | G21          |
+| FOURxFOUR<32>                                  |  OUTPUT   | V4           |
+| FOURxFOUR<33>                                  |  OUTPUT   | F12          |
+| FOURxFOUR<34>                                  |  OUTPUT   | U7           |
+| FOURxFOUR<35>                                  |  OUTPUT   | B18          |
+| FOURxFOUR<36>                                  |  OUTPUT   | BC37         |
+| FOURxFOUR<37>                                  |  OUTPUT   | T36          |
+| FOURxFOUR<38>                                  |  OUTPUT   | A27          |
+| FOURxFOUR<39>                                  |  OUTPUT   | L41          |
+| FOURxFOUR<3>                                   |  OUTPUT   | E25          |
+| FOURxFOUR<40>                                  |  OUTPUT   | V42          |
+| FOURxFOUR<41>                                  |  OUTPUT   | K40          |
+| FOURxFOUR<42>                                  |  OUTPUT   | AW27         |
+| FOURxFOUR<43>                                  |  OUTPUT   | AV26         |
+| FOURxFOUR<44>                                  |  OUTPUT   | BA31         |
+| FOURxFOUR<45>                                  |  OUTPUT   | B22          |
+| FOURxFOUR<46>                                  |  OUTPUT   | BA27         |
+| FOURxFOUR<47>                                  |  OUTPUT   | BC29         |
+| FOURxFOUR<48>                                  |  OUTPUT   | AU27         |
+| FOURxFOUR<49>                                  |  OUTPUT   | AA41         |
+| FOURxFOUR<4>                                   |  OUTPUT   | A23          |
+| FOURxFOUR<50>                                  |  OUTPUT   | AC39         |
+| FOURxFOUR<51>                                  |  OUTPUT   | AB40         |
+| FOURxFOUR<52>                                  |  OUTPUT   | AJ3          |
+| FOURxFOUR<53>                                  |  OUTPUT   | E23          |
+| FOURxFOUR<54>                                  |  OUTPUT   | AW3          |
+| FOURxFOUR<55>                                  |  OUTPUT   | AU21         |
+| FOURxFOUR<56>                                  |  OUTPUT   | AW21         |
+| FOURxFOUR<57>                                  |  OUTPUT   | AY24         |
+| FOURxFOUR<58>                                  |  OUTPUT   | AY18         |
+| FOURxFOUR<59>                                  |  OUTPUT   | AT24         |
+| FOURxFOUR<5>                                   |  OUTPUT   | C23          |
+| FOURxFOUR<60>                                  |  OUTPUT   | BB24         |
+| FOURxFOUR<61>                                  |  OUTPUT   | Y38          |
+| FOURxFOUR<62>                                  |  OUTPUT   | AA37         |
+| FOURxFOUR<63>                                  |  OUTPUT   | U43          |
+| FOURxFOUR<64>                                  |  OUTPUT   | AG1          |
+| FOURxFOUR<65>                                  |  OUTPUT   | Y36          |
+| FOURxFOUR<66>                                  |  OUTPUT   | B16          |
+| FOURxFOUR<67>                                  |  OUTPUT   | E13          |
+| FOURxFOUR<68>                                  |  OUTPUT   | F18          |
+| FOURxFOUR<69>                                  |  OUTPUT   | C13          |
+| FOURxFOUR<6>                                   |  OUTPUT   | F22          |
+| FOURxFOUR<70>                                  |  OUTPUT   | AC3          |
+| FOURxFOUR<71>                                  |  OUTPUT   | F6           |
+| FOURxFOUR<72>                                  |  OUTPUT   | AB42         |
+| FOURxFOUR<73>                                  |  OUTPUT   | BA29         |
+| FOURxFOUR<74>                                  |  OUTPUT   | AB38         |
+| FOURxFOUR<75>                                  |  OUTPUT   | AV24         |
+| FOURxFOUR<76>                                  |  OUTPUT   | AY26         |
+| FOURxFOUR<77>                                  |  OUTPUT   | BC23         |
+| FOURxFOUR<78>                                  |  OUTPUT   | BA1          |
+| FOURxFOUR<79>                                  |  OUTPUT   | AG3          |
+| FOURxFOUR<7>                                   |  OUTPUT   | A21          |
+| FOURxFOUR<80>                                  |  OUTPUT   | AV22         |
+| FOURxFOUR<81>                                  |  OUTPUT   | AA39         |
+| FOURxFOUR<82>                                  |  OUTPUT   | AF6          |
+| FOURxFOUR<83>                                  |  OUTPUT   | AD8          |
+| FOURxFOUR<84>                                  |  OUTPUT   | G9           |
+| FOURxFOUR<85>                                  |  OUTPUT   | AA3          |
+| FOURxFOUR<86>                                  |  OUTPUT   | AB4          |
+| FOURxFOUR<87>                                  |  OUTPUT   | G17          |
+| FOURxFOUR<88>                                  |  OUTPUT   | Y6           |
+| FOURxFOUR<89>                                  |  OUTPUT   | E7           |
+| FOURxFOUR<8>                                   |  OUTPUT   | H20          |
+| FOURxFOUR<90>                                  |  OUTPUT   | G19          |
+| FOURxFOUR<91>                                  |  OUTPUT   | B20          |
+| FOURxFOUR<92>                                  |  OUTPUT   | AY22         |
+| FOURxFOUR<93>                                  |  OUTPUT   | AH4          |
+| FOURxFOUR<94>                                  |  OUTPUT   | AC5          |
+| FOURxFOUR<95>                                  |  OUTPUT   | E17          |
+| FOURxFOUR<9>                                   |  OUTPUT   | C21          |
+| INPUT_A11<0>                                   |  INPUT    | AD4          |
+| INPUT_A11<1>                                   |  INPUT    | AK2          |
+| INPUT_A12<0>                                   |  INPUT    | AD6          |
+| INPUT_A12<1>                                   |  INPUT    | C5           |
+| INPUT_A13<0>                                   |  INPUT    | A17          |
+| INPUT_A13<1>                                   |  INPUT    | C3           |
+| INPUT_A14<0>                                   |  INPUT    | P36          |
+| INPUT_A14<1>                                   |  INPUT    | Y8           |
+| INPUT_A21<0>                                   |  INPUT    | AW29         |
+| INPUT_A21<1>                                   |  INPUT    | BB30         |
+| INPUT_A22<0>                                   |  INPUT    | AL7          |
+| INPUT_A22<1>                                   |  INPUT    | AC1          |
+| INPUT_A23<0>                                   |  INPUT    | D24          |
+| INPUT_A23<1>                                   |  INPUT    | AA5          |
+| INPUT_A24<0>                                   |  INPUT    | C29          |
+| INPUT_A24<1>                                   |  INPUT    | J41          |
+| INPUT_A31<0>                                   |  INPUT    | AJ5          |
+| INPUT_A31<1>                                   |  INPUT    | AK8          |
+| INPUT_A32<0>                                   |  INPUT    | B24          |
+| INPUT_A32<1>                                   |  INPUT    | AD2          |
+| INPUT_A33<0>                                   |  INPUT    | BB22         |
+| INPUT_A33<1>                                   |  INPUT    | E19          |
+| INPUT_A34<0>                                   |  INPUT    | AL3          |
+| INPUT_A34<1>                                   |  INPUT    | D16          |
+| INPUT_A41<0>                                   |  INPUT    | G25          |
+| INPUT_A41<1>                                   |  INPUT    | G39          |
+| INPUT_A42<0>                                   |  INPUT    | B30          |
+| INPUT_A42<1>                                   |  INPUT    | B26          |
+| INPUT_A43<0>                                   |  INPUT    | AL5          |
+| INPUT_A43<1>                                   |  INPUT    | B40          |
+| INPUT_A44<0>                                   |  INPUT    | B28          |
+| INPUT_A44<1>                                   |  INPUT    | H24          |
+| INPUT_B11<0>                                   |  INPUT    | AU23         |
+| INPUT_B11<1>                                   |  INPUT    | W39          |
+| INPUT_B12<0>                                   |  INPUT    | AT28         |
+| INPUT_B12<1>                                   |  INPUT    | AM6          |
+| INPUT_B13<0>                                   |  INPUT    | V40          |
+| INPUT_B13<1>                                   |  INPUT    | T40          |
+| INPUT_B14<0>                                   |  INPUT    | E9           |
+| INPUT_B14<1>                                   |  INPUT    | AB6          |
+| INPUT_B21<0>                                   |  INPUT    | AA43         |
+| INPUT_B21<1>                                   |  INPUT    | Y40          |
+| INPUT_B22<0>                                   |  INPUT    | AU31         |
+| INPUT_B22<1>                                   |  INPUT    | AJ1          |
+| INPUT_B23<0>                                   |  INPUT    | AF2          |
+| INPUT_B23<1>                                   |  INPUT    | D42          |
+| INPUT_B24<0>                                   |  INPUT    | E27          |
+| INPUT_B24<1>                                   |  INPUT    | A11          |
+| INPUT_B31<0>                                   |  INPUT    | AW25         |
+| INPUT_B31<1>                                   |  INPUT    | E21          |
+| INPUT_B32<0>                                   |  INPUT    | D14          |
+| INPUT_B32<1>                                   |  INPUT    | D12          |
+| INPUT_B33<0>                                   |  INPUT    | D22          |
+| INPUT_B33<1>                                   |  INPUT    | G23          |
+| INPUT_B34<0>                                   |  INPUT    | A7           |
+| INPUT_B34<1>                                   |  INPUT    | AB2          |
+| INPUT_B41<0>                                   |  INPUT    | AY28         |
+| INPUT_B41<1>                                   |  INPUT    | C11          |
+| INPUT_B42<0>                                   |  INPUT    | AM4          |
+| INPUT_B42<1>                                   |  INPUT    | H30          |
+| INPUT_B43<0>                                   |  INPUT    | L37          |
+| INPUT_B43<1>                                   |  INPUT    | C17          |
+| INPUT_B44<0>                                   |  INPUT    | F26          |
+| INPUT_B44<1>                                   |  INPUT    | D28          |
+| RESET                                          |  INPUT    | AL39         |
++------------------------------------------------+-----------+--------------+
+|                Dedicated or Special Pin Name               |  Pin Number  |
++------------------------------------------------------------+--------------+
+| /PROGRAM                                                   | BB42         |
+| CCLK                                                       | BA5          |
+| DONE                                                       | AY42         |
+| GND                                                        | W43          |
+| GND                                                        | BC25         |
+| GND                                                        | BB12         |
+| GND                                                        | F16          |
+| GND                                                        | AV10         |
+| GND                                                        | A19          |
+| GND                                                        | BC39         |
+| GND                                                        | AW1          |
+| GND                                                        | AV28         |
+| GND                                                        | AB36         |
+| GND                                                        | F34          |
+| GND                                                        | M2           |
+| GND                                                        | AW39         |
+| GND                                                        | BC5          |
+| GND                                                        | K6           |
+| GND                                                        | A39          |
+| GND                                                        | AP6          |
+| GND                                                        | AH6          |
+| GND                                                        | AW5          |
+| GND                                                        | E5           |
+| GND                                                        | T6           |
+| GND                                                        | BB32         |
+| GND                                                        | T38          |
+| GND                                                        | K38          |
+| GND                                                        | AB8          |
+| GND                                                        | AV16         |
+| GND                                                        | AE1          |
+| GND                                                        | B12          |
+| GND                                                        | A5           |
+| GND                                                        | AH38         |
+| GND                                                        | A25          |
+| GND                                                        | E39          |
+| GND                                                        | H22          |
+| GND                                                        | AP38         |
+| GND                                                        | AE43         |
+| GND                                                        | F28          |
+| GND                                                        | AV34         |
+| GND                                                        | BC19         |
+| GND                                                        | E1           |
+| GND                                                        | B32          |
+| GND                                                        | M42          |
+| GND                                                        | AM2          |
+| GND                                                        | AM42         |
+| GND                                                        | E43          |
+| GND                                                        | AW43         |
+| GND                                                        | AT22         |
+| GND                                                        | F10          |
+| GND                                                        | W1           |
+| TDO                                                        | BA3          |
+| VCC                                                        | V8           |
+| VCC                                                        | BA37         |
+| VCC                                                        | A31          |
+| VCC                                                        | N1           |
+| VCC                                                        | AU7          |
+| VCC                                                        | C7           |
+| VCC                                                        | P38          |
+| VCC                                                        | AT32         |
+| VCC                                                        | M8           |
+| VCC                                                        | H32          |
+| VCC                                                        | AT26         |
+| VCC                                                        | G41          |
+| VCC                                                        | AM36         |
+| VCC                                                        | H12          |
+| VCC                                                        | AT12         |
+| VCC                                                        | AV14         |
+| VCC                                                        | F14          |
+| VCC                                                        | AE3          |
+| VCC                                                        | AK6          |
+| VCC                                                        | BC1          |
+| VCC                                                        | BC31         |
+| VCC                                                        | F30          |
+| VCC                                                        | G7           |
+| VCC                                                        | AK38         |
+| VCC                                                        | AT18         |
+| VCC                                                        | BC43         |
+| VCC                                                        | H26          |
+| VCC                                                        | G37          |
+| VCC                                                        | AM8          |
+| VCC                                                        | A43          |
+| VCC                                                        | A13          |
+| VCC                                                        | N43          |
+| VCC                                                        | C37          |
+| VCC                                                        | AU37         |
+| VCC                                                        | M36          |
+| VCC                                                        | C19          |
+| VCC                                                        | AF36         |
+| VCC                                                        | W3           |
+| VCC                                                        | AU3          |
+| VCC                                                        | AV30         |
+| VCC                                                        | BC13         |
+| VCC                                                        | AE41         |
+| VCC                                                        | B2           |
+| VCC                                                        | C25          |
+| VCC                                                        | G3           |
+| VCC                                                        | W41          |
+| VCC                                                        | P6           |
+| VCC                                                        | BA7          |
+| VCC                                                        | AL1          |
+| VCC                                                        | AU41         |
+| VCC                                                        | BA19         |
+| VCC                                                        | H18          |
+| VCC                                                        | BA25         |
+| VCC                                                        | V36          |
+| VCC                                                        | AL43         |
+| VCC                                                        | AF8          |
++------------------------------------------------------------+--------------+
+
+Pinout by Pin Number:
++--------------+-----------------------------------+-----------+------------+
+|  Pin Number  |            Pin Name               | Direction | Constraint |
++--------------+-----------------------------------+-----------+------------+
+| A3           | ---                               |  UNUSED   |            |
+| A5           | (GND)                             |           |            |
+| A7           | INPUT_B34<0>                      |  INPUT    |            |
+| A9           | ---                               |  UNUSED   |            |
+| A11          | INPUT_B24<1>                      |  INPUT    |            |
+| A13          | (VCC)                             |           |            |
+| A15          | FOURxFOUR<19>                     |  OUTPUT   |            |
+| A17          | INPUT_A13<0>                      |  INPUT    |            |
+| A19          | (GND)                             |           |            |
+| A21          | FOURxFOUR<7>                      |  OUTPUT   |            |
+| A23          | FOURxFOUR<4>                      |  OUTPUT   |            |
+| A25          | (GND)                             |           |            |
+| A27          | FOURxFOUR<38>                     |  OUTPUT   |            |
+| A29          | FOURxFOUR<24>                     |  OUTPUT   |            |
+| A31          | (VCC)                             |           |            |
+| A33          | ---                               |  UNUSED   |            |
+| A35          | ---                               |  UNUSED   |            |
+| A37          | ---                               |  UNUSED   |            |
+| A39          | (GND)                             |           |            |
+| A41          | ---                               |  UNUSED   |            |
+| A43          | (VCC)                             |           |            |
+| AA1          | FOURxFOUR<18>                     |  OUTPUT   |            |
+| AA3          | FOURxFOUR<85>                     |  OUTPUT   |            |
+| AA5          | INPUT_A23<1>                      |  INPUT    |            |
+| AA7          | ---                               |  UNUSED   |            |
+| AA37         | FOURxFOUR<62>                     |  OUTPUT   |            |
+| AA39         | FOURxFOUR<81>                     |  OUTPUT   |            |
+| AA41         | FOURxFOUR<49>                     |  OUTPUT   |            |
+| AA43         | INPUT_B21<0>                      |  INPUT    |            |
+| AB2          | INPUT_B34<1>                      |  INPUT    |            |
+| AB4          | FOURxFOUR<86>                     |  OUTPUT   |            |
+| AB6          | INPUT_B14<1>                      |  INPUT    |            |
+| AB8          | (GND)                             |           |            |
+| AB36         | (GND)                             |           |            |
+| AB38         | FOURxFOUR<74>                     |  OUTPUT   |            |
+| AB40         | FOURxFOUR<51>                     |  OUTPUT   |            |
+| AB42         | FOURxFOUR<72>                     |  OUTPUT   |            |
+| AC1          | INPUT_A22<1>                      |  INPUT    |            |
+| AC3          | FOURxFOUR<70>                     |  OUTPUT   |            |
+| AC5          | FOURxFOUR<94>                     |  OUTPUT   |            |
+| AC7          | ---                               |  UNUSED   |            |
+| AC37         | ---                               |  UNUSED   |            |
+| AC39         | FOURxFOUR<50>                     |  OUTPUT   |            |
+| AC41         | ---                               |  UNUSED   |            |
+| AC43         | ---                               |  UNUSED   |            |
+| AD2          | INPUT_A32<1>                      |  INPUT    |            |
+| AD4          | INPUT_A11<0>                      |  INPUT    |            |
+| AD6          | INPUT_A12<0>                      |  INPUT    |            |
+| AD8          | FOURxFOUR<83>                     |  OUTPUT   |            |
+| AD36         | ---                               |  UNUSED   |            |
+| AD38         | ---                               |  UNUSED   |            |
+| AD40         | ---                               |  UNUSED   |            |
+| AD42         | ---                               |  UNUSED   |            |
+| AE1          | (GND)                             |           |            |
+| AE3          | (VCC)                             |           |            |
+| AE5          | ---                               |  UNUSED   |            |
+| AE7          | ---                               |  UNUSED   |            |
+| AE37         | ---                               |  UNUSED   |            |
+| AE39         | ---                               |  UNUSED   |            |
+| AE41         | (VCC)                             |           |            |
+| AE43         | (GND)                             |           |            |
+| AF2          | INPUT_B23<0>                      |  INPUT    |            |
+| AF4          | ---                               |  UNUSED   |            |
+| AF6          | FOURxFOUR<82>                     |  OUTPUT   |            |
+| AF8          | (VCC)                             |           |            |
+| AF36         | (VCC)                             |           |            |
+| AF38         | ---                               |  UNUSED   |            |
+| AF40         | ---                               |  UNUSED   |            |
+| AF42         | ---                               |  UNUSED   |            |
+| AG1          | FOURxFOUR<64>                     |  OUTPUT   |            |
+| AG3          | FOURxFOUR<79>                     |  OUTPUT   |            |
+| AG5          | ---                               |  UNUSED   |            |
+| AG7          | ---                               |  UNUSED   |            |
+| AG37         | ---                               |  UNUSED   |            |
+| AG39         | ---                               |  UNUSED   |            |
+| AG41         | ---                               |  UNUSED   |            |
+| AG43         | ---                               |  UNUSED   |            |
+| AH2          | ---                               |  UNUSED   |            |
+| AH4          | FOURxFOUR<93>                     |  OUTPUT   |            |
+| AH6          | (GND)                             |           |            |
+| AH8          | ---                               |  UNUSED   |            |
+| AH36         | ---                               |  UNUSED   |            |
+| AH38         | (GND)                             |           |            |
+| AH40         | ---                               |  UNUSED   |            |
+| AH42         | ---                               |  UNUSED   |            |
+| AJ1          | INPUT_B22<1>                      |  INPUT    |            |
+| AJ3          | FOURxFOUR<52>                     |  OUTPUT   |            |
+| AJ5          | INPUT_A31<0>                      |  INPUT    |            |
+| AJ7          | ---                               |  UNUSED   |            |
+| AJ37         | ---                               |  UNUSED   |            |
+| AJ39         | ---                               |  UNUSED   |            |
+| AJ41         | ---                               |  UNUSED   |            |
+| AJ43         | ---                               |  UNUSED   |            |
+| AK2          | INPUT_A11<1>                      |  INPUT    |            |
+| AK4          | ---                               |  UNUSED   |            |
+| AK6          | (VCC)                             |           |            |
+| AK8          | INPUT_A31<1>                      |  INPUT    |            |
+| AK36         | ---                               |  UNUSED   |            |
+| AK38         | (VCC)                             |           |            |
+| AK40         | ---                               |  UNUSED   |            |
+| AK42         | ---                               |  UNUSED   |            |
+| AL1          | (VCC)                             |           |            |
+| AL3          | INPUT_A34<0>                      |  INPUT    |            |
+| AL5          | INPUT_A43<0>                      |  INPUT    |            |
+| AL7          | INPUT_A22<0>                      |  INPUT    |            |
+| AL37         | ---                               |  UNUSED   |            |
+| AL39         | RESET                             |  INPUT    |            |
+| AL41         | ---                               |  UNUSED   |            |
+| AL43         | (VCC)                             |           |            |
+| AM2          | (GND)                             |           |            |
+| AM4          | INPUT_B42<0>                      |  INPUT    |            |
+| AM6          | INPUT_B12<1>                      |  INPUT    |            |
+| AM8          | (VCC)                             |           |            |
+| AM36         | (VCC)                             |           |            |
+| AM38         | ---                               |  UNUSED   |            |
+| AM40         | ---                               |  UNUSED   |            |
+| AM42         | (GND)                             |           |            |
+| AN1          | ---                               |  UNUSED   |            |
+| AN3          | ---                               |  UNUSED   |            |
+| AN5          | ---                               |  UNUSED   |            |
+| AN7          | ---                               |  UNUSED   |            |
+| AN37         | ---                               |  UNUSED   |            |
+| AN39         | ---                               |  UNUSED   |            |
+| AN41         | ---                               |  UNUSED   |            |
+| AN43         | ---                               |  UNUSED   |            |
+| AP2          | ---                               |  UNUSED   |            |
+| AP4          | ---                               |  UNUSED   |            |
+| AP6          | (GND)                             |           |            |
+| AP8          | ---                               |  UNUSED   |            |
+| AP36         | ---                               |  UNUSED   |            |
+| AP38         | (GND)                             |           |            |
+| AP40         | ---                               |  UNUSED   |            |
+| AP42         | ---                               |  UNUSED   |            |
+| AR1          | ---                               |  UNUSED   |            |
+| AR3          | ---                               |  UNUSED   |            |
+| AR5          | ---                               |  UNUSED   |            |
+| AR7          | ---                               |  UNUSED   |            |
+| AR37         | ---                               |  UNUSED   |            |
+| AR39         | ---                               |  UNUSED   |            |
+| AR41         | ---                               |  UNUSED   |            |
+| AR43         | ---                               |  UNUSED   |            |
+| AT2          | ---                               |  UNUSED   |            |
+| AT4          | ---                               |  UNUSED   |            |
+| AT6          | ---                               |  UNUSED   |            |
+| AT8          | ---                               |  UNUSED   |            |
+| AT10         | ---                               |  UNUSED   |            |
+| AT12         | (VCC)                             |           |            |
+| AT14         | ---                               |  UNUSED   |            |
+| AT16         | ---                               |  UNUSED   |            |
+| AT18         | (VCC)                             |           |            |
+| AT20         | ---                               |  UNUSED   |            |
+| AT22         | (GND)                             |           |            |
+| AT24         | FOURxFOUR<59>                     |  OUTPUT   |            |
+| AT26         | (VCC)                             |           |            |
+| AT28         | INPUT_B12<0>                      |  INPUT    |            |
+| AT30         | ---                               |  UNUSED   |            |
+| AT32         | (VCC)                             |           |            |
+| AT34         | ---                               |  UNUSED   |            |
+| AT36         | ---                               |  UNUSED   |            |
+| AT38         | ---                               |  UNUSED   |            |
+| AT40         | ---                               |  UNUSED   |            |
+| AT42         | ---                               |  UNUSED   |            |
+| AU1          | ---                               |  UNUSED   |            |
+| AU3          | (VCC)                             |           |            |
+| AU5          | ---                               |  UNUSED   |            |
+| AU7          | (VCC)                             |           |            |
+| AU9          | ---                               |  UNUSED   |            |
+| AU11         | ---                               |  UNUSED   |            |
+| AU13         | ---                               |  UNUSED   |            |
+| AU15         | ---                               |  UNUSED   |            |
+| AU17         | ---                               |  UNUSED   |            |
+| AU19         | ---                               |  UNUSED   |            |
+| AU21         | FOURxFOUR<55>                     |  OUTPUT   |            |
+| AU23         | INPUT_B11<0>                      |  INPUT    |            |
+| AU25         | ---                               |  UNUSED   |            |
+| AU27         | FOURxFOUR<48>                     |  OUTPUT   |            |
+| AU29         | ---                               |  UNUSED   |            |
+| AU31         | INPUT_B22<0>                      |  INPUT    |            |
+| AU33         | ---                               |  UNUSED   |            |
+| AU35         | ---                               |  UNUSED   |            |
+| AU37         | (VCC)                             |           |            |
+| AU39         | ---                               |  UNUSED   |            |
+| AU41         | (VCC)                             |           |            |
+| AU43         | ---                               |  UNUSED   |            |
+| AV2          | ---                               |  UNUSED   |            |
+| AV4          | ---                               |  UNUSED   |            |
+| AV6          | ---                               |  UNUSED   |            |
+| AV8          | ---                               |  UNUSED   |            |
+| AV10         | (GND)                             |           |            |
+| AV12         | ---                               |  UNUSED   |            |
+| AV14         | (VCC)                             |           |            |
+| AV16         | (GND)                             |           |            |
+| AV18         | ---                               |  UNUSED   |            |
+| AV20         | ---                               |  UNUSED   |            |
+| AV22         | FOURxFOUR<80>                     |  OUTPUT   |            |
+| AV24         | FOURxFOUR<75>                     |  OUTPUT   |            |
+| AV26         | FOURxFOUR<43>                     |  OUTPUT   |            |
+| AV28         | (GND)                             |           |            |
+| AV30         | (VCC)                             |           |            |
+| AV32         | ---                               |  UNUSED   |            |
+| AV34         | (GND)                             |           |            |
+| AV36         | FOURxFOUR<2>                      |  OUTPUT   |            |
+| AV38         | ---                               |  UNUSED   |            |
+| AV40         | ---                               |  UNUSED   |            |
+| AV42         | ---                               |  UNUSED   |            |
+| AW1          | (GND)                             |           |            |
+| AW3          | FOURxFOUR<54>                     |  OUTPUT   |            |
+| AW5          | (GND)                             |           |            |
+| AW7          | ---                               |  UNUSED   |            |
+| AW9          | ---                               |  UNUSED   |            |
+| AW11         | ---                               |  UNUSED   |            |
+| AW13         | ---                               |  UNUSED   |            |
+| AW15         | ---                               |  UNUSED   |            |
+| AW17         | ---                               |  UNUSED   |            |
+| AW19         | ---                               |  UNUSED   |            |
+| AW21         | FOURxFOUR<56>                     |  OUTPUT   |            |
+| AW23         | ---                               |  UNUSED   |            |
+| AW25         | INPUT_B31<0>                      |  INPUT    |            |
+| AW27         | FOURxFOUR<42>                     |  OUTPUT   |            |
+| AW29         | INPUT_A21<0>                      |  INPUT    |            |
+| AW31         | ---                               |  UNUSED   |            |
+| AW33         | ---                               |  UNUSED   |            |
+| AW35         | ---                               |  UNUSED   |            |
+| AW37         | ---                               |  UNUSED   |            |
+| AW39         | (GND)                             |           |            |
+| AW41         | ---                               |  UNUSED   |            |
+| AW43         | (GND)                             |           |            |
+| AY2          | ---                               |  UNUSED   |            |
+| AY4          | ---                               |  UNUSED   |            |
+| AY6          | ---                               |  UNUSED   |            |
+| AY8          | ---                               |  UNUSED   |            |
+| AY10         | ---                               |  UNUSED   |            |
+| AY12         | ---                               |  UNUSED   |            |
+| AY14         | ---                               |  UNUSED   |            |
+| AY16         | ---                               |  UNUSED   |            |
+| AY18         | FOURxFOUR<58>                     |  OUTPUT   |            |
+| AY20         | ---                               |  UNUSED   |            |
+| AY22         | FOURxFOUR<92>                     |  OUTPUT   |            |
+| AY24         | FOURxFOUR<57>                     |  OUTPUT   |            |
+| AY26         | FOURxFOUR<76>                     |  OUTPUT   |            |
+| AY28         | INPUT_B41<0>                      |  INPUT    |            |
+| AY30         | ---                               |  UNUSED   |            |
+| AY32         | ---                               |  UNUSED   |            |
+| AY34         | ---                               |  UNUSED   |            |
+| AY36         | ---                               |  UNUSED   |            |
+| AY38         | ---                               |  UNUSED   |            |
+| AY40         | ---                               |  UNUSED   |            |
+| AY42         | (DONE)                            |           |            |
+| B2           | (VCC)                             |           |            |
+| B4           | ---                               |  UNUSED   |            |
+| B6           | ---                               |  UNUSED   |            |
+| B8           | ---                               |  UNUSED   |            |
+| B10          | ---                               |  UNUSED   |            |
+| B12          | (GND)                             |           |            |
+| B14          | FOURxFOUR<20>                     |  OUTPUT   |            |
+| B16          | FOURxFOUR<66>                     |  OUTPUT   |            |
+| B18          | FOURxFOUR<35>                     |  OUTPUT   |            |
+| B20          | FOURxFOUR<91>                     |  OUTPUT   |            |
+| B22          | FOURxFOUR<45>                     |  OUTPUT   |            |
+| B24          | INPUT_A32<0>                      |  INPUT    |            |
+| B26          | INPUT_A42<1>                      |  INPUT    |            |
+| B28          | INPUT_A44<0>                      |  INPUT    |            |
+| B30          | INPUT_A42<0>                      |  INPUT    |            |
+| B32          | (GND)                             |           |            |
+| B34          | ---                               |  UNUSED   |            |
+| B36          | ---                               |  UNUSED   |            |
+| B38          | ---                               |  UNUSED   |            |
+| B40          | INPUT_A43<1>                      |  INPUT    |            |
+| B42          | FOURxFOUR<10>                     |  OUTPUT   |            |
+| BA1          | FOURxFOUR<78>                     |  OUTPUT   |            |
+| BA3          | (TDO)                             |           |            |
+| BA5          | (CCLK)                            |           |            |
+| BA7          | (VCC)                             |           |            |
+| BA9          | ---                               |  UNUSED   |            |
+| BA11         | ---                               |  UNUSED   |            |
+| BA13         | ---                               |  UNUSED   |            |
+| BA15         | ---                               |  UNUSED   |            |
+| BA17         | ---                               |  UNUSED   |            |
+| BA19         | (VCC)                             |           |            |
+| BA21         | ---                               |  UNUSED   |            |
+| BA23         | ---                               |  UNUSED   |            |
+| BA25         | (VCC)                             |           |            |
+| BA27         | FOURxFOUR<46>                     |  OUTPUT   |            |
+| BA29         | FOURxFOUR<73>                     |  OUTPUT   |            |
+| BA31         | FOURxFOUR<44>                     |  OUTPUT   |            |
+| BA33         | ---                               |  UNUSED   |            |
+| BA35         | ---                               |  UNUSED   |            |
+| BA37         | (VCC)                             |           |            |
+| BA39         | ---                               |  UNUSED   |            |
+| BA41         | ---                               |  UNUSED   |            |
+| BA43         | ---                               |  UNUSED   |            |
+| BB2          | ---                               |  UNUSED   |            |
+| BB4          | ---                               |  UNUSED   |            |
+| BB6          | ---                               |  UNUSED   |            |
+| BB8          | ---                               |  UNUSED   |            |
+| BB10         | ---                               |  UNUSED   |            |
+| BB12         | (GND)                             |           |            |
+| BB14         | ---                               |  UNUSED   |            |
+| BB16         | ---                               |  UNUSED   |            |
+| BB18         | ---                               |  UNUSED   |            |
+| BB20         | ---                               |  UNUSED   |            |
+| BB22         | INPUT_A33<0>                      |  INPUT    |            |
+| BB24         | FOURxFOUR<60>                     |  OUTPUT   |            |
+| BB26         | ---                               |  UNUSED   |            |
+| BB28         | ---                               |  UNUSED   |            |
+| BB30         | INPUT_A21<1>                      |  INPUT    |            |
+| BB32         | (GND)                             |           |            |
+| BB34         | ---                               |  UNUSED   |            |
+| BB36         | ---                               |  UNUSED   |            |
+| BB38         | ---                               |  UNUSED   |            |
+| BB40         | ---                               |  UNUSED   |            |
+| BB42         | (/PROGRAM)                        |           |            |
+| BC1          | (VCC)                             |           |            |
+| BC3          | ---                               |  UNUSED   |            |
+| BC5          | (GND)                             |           |            |
+| BC7          | ---                               |  UNUSED   |            |
+| BC9          | ---                               |  UNUSED   |            |
+| BC11         | ---                               |  UNUSED   |            |
+| BC13         | (VCC)                             |           |            |
+| BC15         | ---                               |  UNUSED   |            |
+| BC17         | ---                               |  UNUSED   |            |
+| BC19         | (GND)                             |           |            |
+| BC21         | ---                               |  UNUSED   |            |
+| BC23         | FOURxFOUR<77>                     |  OUTPUT   |            |
+| BC25         | (GND)                             |           |            |
+| BC27         | ---                               |  UNUSED   |            |
+| BC29         | FOURxFOUR<47>                     |  OUTPUT   |            |
+| BC31         | (VCC)                             |           |            |
+| BC33         | ---                               |  UNUSED   |            |
+| BC35         | ---                               |  UNUSED   |            |
+| BC37         | FOURxFOUR<36>                     |  OUTPUT   |            |
+| BC39         | (GND)                             |           |            |
+| BC41         | ---                               |  UNUSED   |            |
+| BC43         | (VCC)                             |           |            |
+| C1           | CLK                               |  INPUT    |            |
+| C3           | INPUT_A13<1>                      |  INPUT    |            |
+| C5           | INPUT_A12<1>                      |  INPUT    |            |
+| C7           | (VCC)                             |           |            |
+| C9           | ---                               |  UNUSED   |            |
+| C11          | INPUT_B41<1>                      |  INPUT    |            |
+| C13          | FOURxFOUR<69>                     |  OUTPUT   |            |
+| C15          | ---                               |  UNUSED   |            |
+| C17          | INPUT_B43<1>                      |  INPUT    |            |
+| C19          | (VCC)                             |           |            |
+| C21          | FOURxFOUR<9>                      |  OUTPUT   |            |
+| C23          | FOURxFOUR<5>                      |  OUTPUT   |            |
+| C25          | (VCC)                             |           |            |
+| C27          | FOURxFOUR<16>                     |  OUTPUT   |            |
+| C29          | INPUT_A24<0>                      |  INPUT    |            |
+| C31          | ---                               |  UNUSED   |            |
+| C33          | ---                               |  UNUSED   |            |
+| C35          | ---                               |  UNUSED   |            |
+| C37          | (VCC)                             |           |            |
+| C41          | ---                               |  UNUSED   |            |
+| C43          | ---                               |  UNUSED   |            |
+| D2           | ---                               |  UNUSED   |            |
+| D4           | ---                               |  UNUSED   |            |
+| D6           | ---                               |  UNUSED   |            |
+| D8           | ---                               |  UNUSED   |            |
+| D10          | ---                               |  UNUSED   |            |
+| D12          | INPUT_B32<1>                      |  INPUT    |            |
+| D14          | INPUT_B32<0>                      |  INPUT    |            |
+| D16          | INPUT_A34<1>                      |  INPUT    |            |
+| D18          | ---                               |  UNUSED   |            |
+| D20          | FOURxFOUR<11>                     |  OUTPUT   |            |
+| D22          | INPUT_B33<0>                      |  INPUT    |            |
+| D24          | INPUT_A23<0>                      |  INPUT    |            |
+| D26          | FOURxFOUR<15>                     |  OUTPUT   |            |
+| D28          | INPUT_B44<1>                      |  INPUT    |            |
+| D30          | FOURxFOUR<13>                     |  OUTPUT   |            |
+| D32          | ---                               |  UNUSED   |            |
+| D34          | ---                               |  UNUSED   |            |
+| D36          | ---                               |  UNUSED   |            |
+| D40          | ---                               |  UNUSED   |            |
+| D42          | INPUT_B23<1>                      |  INPUT    |            |
+| E1           | (GND)                             |           |            |
+| E3           | ---                               |  UNUSED   |            |
+| E5           | (GND)                             |           |            |
+| E7           | FOURxFOUR<89>                     |  OUTPUT   |            |
+| E9           | INPUT_B14<0>                      |  INPUT    |            |
+| E11          | ---                               |  UNUSED   |            |
+| E13          | FOURxFOUR<67>                     |  OUTPUT   |            |
+| E15          | FOURxFOUR<23>                     |  OUTPUT   |            |
+| E17          | FOURxFOUR<95>                     |  OUTPUT   |            |
+| E19          | INPUT_A33<1>                      |  INPUT    |            |
+| E21          | INPUT_B31<1>                      |  INPUT    |            |
+| E23          | FOURxFOUR<53>                     |  OUTPUT   |            |
+| E25          | FOURxFOUR<3>                      |  OUTPUT   |            |
+| E27          | INPUT_B24<0>                      |  INPUT    |            |
+| E29          | ENABLE                            |  INPUT    |            |
+| E31          | ---                               |  UNUSED   |            |
+| E33          | ---                               |  UNUSED   |            |
+| E35          | ---                               |  UNUSED   |            |
+| E37          | ---                               |  UNUSED   |            |
+| E39          | (GND)                             |           |            |
+| E41          | ---                               |  UNUSED   |            |
+| E43          | (GND)                             |           |            |
+| F2           | ---                               |  UNUSED   |            |
+| F4           | ---                               |  UNUSED   |            |
+| F6           | FOURxFOUR<71>                     |  OUTPUT   |            |
+| F8           | ---                               |  UNUSED   |            |
+| F10          | (GND)                             |           |            |
+| F12          | FOURxFOUR<33>                     |  OUTPUT   |            |
+| F14          | (VCC)                             |           |            |
+| F16          | (GND)                             |           |            |
+| F18          | FOURxFOUR<68>                     |  OUTPUT   |            |
+| F20          | FOURxFOUR<30>                     |  OUTPUT   |            |
+| F22          | FOURxFOUR<6>                      |  OUTPUT   |            |
+| F24          | FOURxFOUR<1>                      |  OUTPUT   |            |
+| F26          | INPUT_B44<0>                      |  INPUT    |            |
+| F28          | (GND)                             |           |            |
+| F30          | (VCC)                             |           |            |
+| F32          | ---                               |  UNUSED   |            |
+| F34          | (GND)                             |           |            |
+| F36          | ---                               |  UNUSED   |            |
+| F38          | ---                               |  UNUSED   |            |
+| F40          | ---                               |  UNUSED   |            |
+| F42          | ---                               |  UNUSED   |            |
+| G1           | ---                               |  UNUSED   |            |
+| G3           | (VCC)                             |           |            |
+| G5           | ---                               |  UNUSED   |            |
+| G7           | (VCC)                             |           |            |
+| G9           | FOURxFOUR<84>                     |  OUTPUT   |            |
+| G11          | ---                               |  UNUSED   |            |
+| G13          | ---                               |  UNUSED   |            |
+| G15          | ---                               |  UNUSED   |            |
+| G17          | FOURxFOUR<87>                     |  OUTPUT   |            |
+| G19          | FOURxFOUR<90>                     |  OUTPUT   |            |
+| G21          | FOURxFOUR<31>                     |  OUTPUT   |            |
+| G23          | INPUT_B33<1>                      |  INPUT    |            |
+| G25          | INPUT_A41<0>                      |  INPUT    |            |
+| G27          | FOURxFOUR<0>                      |  OUTPUT   |            |
+| G29          | ---                               |  UNUSED   |            |
+| G31          | ---                               |  UNUSED   |            |
+| G33          | ---                               |  UNUSED   |            |
+| G35          | ---                               |  UNUSED   |            |
+| G37          | (VCC)                             |           |            |
+| G39          | INPUT_A41<1>                      |  INPUT    |            |
+| G41          | (VCC)                             |           |            |
+| G43          | ---                               |  UNUSED   |            |
+| H2           | ---                               |  UNUSED   |            |
+| H4           | ---                               |  UNUSED   |            |
+| H6           | ---                               |  UNUSED   |            |
+| H8           | ---                               |  UNUSED   |            |
+| H10          | ---                               |  UNUSED   |            |
+| H12          | (VCC)                             |           |            |
+| H14          | ---                               |  UNUSED   |            |
+| H16          | ---                               |  UNUSED   |            |
+| H18          | (VCC)                             |           |            |
+| H20          | FOURxFOUR<8>                      |  OUTPUT   |            |
+| H22          | (GND)                             |           |            |
+| H24          | INPUT_A44<1>                      |  INPUT    |            |
+| H26          | (VCC)                             |           |            |
+| H28          | ---                               |  UNUSED   |            |
+| H30          | INPUT_B42<1>                      |  INPUT    |            |
+| H32          | (VCC)                             |           |            |
+| H34          | ---                               |  UNUSED   |            |
+| H38          | ---                               |  UNUSED   |            |
+| H40          | ---                               |  UNUSED   |            |
+| H42          | FOURxFOUR<14>                     |  OUTPUT   |            |
+| J1           | ---                               |  UNUSED   |            |
+| J3           | ---                               |  UNUSED   |            |
+| J5           | ---                               |  UNUSED   |            |
+| J7           | ---                               |  UNUSED   |            |
+| J37          | ---                               |  UNUSED   |            |
+| J39          | ---                               |  UNUSED   |            |
+| J41          | INPUT_A24<1>                      |  INPUT    |            |
+| J43          | ---                               |  UNUSED   |            |
+| K2           | ---                               |  UNUSED   |            |
+| K4           | ---                               |  UNUSED   |            |
+| K6           | (GND)                             |           |            |
+| K8           | ---                               |  UNUSED   |            |
+| K36          | ---                               |  UNUSED   |            |
+| K38          | (GND)                             |           |            |
+| K40          | FOURxFOUR<41>                     |  OUTPUT   |            |
+| K42          | ---                               |  UNUSED   |            |
+| L1           | ---                               |  UNUSED   |            |
+| L3           | ---                               |  UNUSED   |            |
+| L5           | ---                               |  UNUSED   |            |
+| L7           | ---                               |  UNUSED   |            |
+| L37          | INPUT_B43<0>                      |  INPUT    |            |
+| L39          | ---                               |  UNUSED   |            |
+| L41          | FOURxFOUR<39>                     |  OUTPUT   |            |
+| L43          | FOURxFOUR<17>                     |  OUTPUT   |            |
+| M2           | (GND)                             |           |            |
+| M4           | ---                               |  UNUSED   |            |
+| M6           | ---                               |  UNUSED   |            |
+| M8           | (VCC)                             |           |            |
+| M36          | (VCC)                             |           |            |
+| M38          | ---                               |  UNUSED   |            |
+| M40          | ---                               |  UNUSED   |            |
+| M42          | (GND)                             |           |            |
+| N1           | (VCC)                             |           |            |
+| N3           | ---                               |  UNUSED   |            |
+| N5           | ---                               |  UNUSED   |            |
+| N7           | ---                               |  UNUSED   |            |
+| N37          | FOURxFOUR<12>                     |  OUTPUT   |            |
+| N39          | ---                               |  UNUSED   |            |
+| N41          | ---                               |  UNUSED   |            |
+| N43          | (VCC)                             |           |            |
+| P2           | ---                               |  UNUSED   |            |
+| P4           | ---                               |  UNUSED   |            |
+| P6           | (VCC)                             |           |            |
+| P8           | ---                               |  UNUSED   |            |
+| P36          | INPUT_A14<0>                      |  INPUT    |            |
+| P38          | (VCC)                             |           |            |
+| P40          | ---                               |  UNUSED   |            |
+| P42          | FOURxFOUR<25>                     |  OUTPUT   |            |
+| R1           | ---                               |  UNUSED   |            |
+| R3           | ---                               |  UNUSED   |            |
+| R5           | ---                               |  UNUSED   |            |
+| R7           | ---                               |  UNUSED   |            |
+| R37          | ---                               |  UNUSED   |            |
+| R39          | ---                               |  UNUSED   |            |
+| R41          | FOURxFOUR<27>                     |  OUTPUT   |            |
+| R43          | ---                               |  UNUSED   |            |
+| T2           | ---                               |  UNUSED   |            |
+| T4           | ---                               |  UNUSED   |            |
+| T6           | (GND)                             |           |            |
+| T8           | ---                               |  UNUSED   |            |
+| T36          | FOURxFOUR<37>                     |  OUTPUT   |            |
+| T38          | (GND)                             |           |            |
+| T40          | INPUT_B13<1>                      |  INPUT    |            |
+| T42          | ---                               |  UNUSED   |            |
+| U1           | ---                               |  UNUSED   |            |
+| U3           | ---                               |  UNUSED   |            |
+| U5           | ---                               |  UNUSED   |            |
+| U7           | FOURxFOUR<34>                     |  OUTPUT   |            |
+| U37          | ---                               |  UNUSED   |            |
+| U39          | ---                               |  UNUSED   |            |
+| U41          | FOURxFOUR<26>                     |  OUTPUT   |            |
+| U43          | FOURxFOUR<63>                     |  OUTPUT   |            |
+| V2           | ---                               |  UNUSED   |            |
+| V4           | FOURxFOUR<32>                     |  OUTPUT   |            |
+| V6           | FOURxFOUR<21>                     |  OUTPUT   |            |
+| V8           | (VCC)                             |           |            |
+| V36          | (VCC)                             |           |            |
+| V38          | FOURxFOUR<29>                     |  OUTPUT   |            |
+| V40          | INPUT_B13<0>                      |  INPUT    |            |
+| V42          | FOURxFOUR<40>                     |  OUTPUT   |            |
+| W1           | (GND)                             |           |            |
+| W3           | (VCC)                             |           |            |
+| W5           | ---                               |  UNUSED   |            |
+| W7           | FOURxFOUR<22>                     |  OUTPUT   |            |
+| W37          | ---                               |  UNUSED   |            |
+| W39          | INPUT_B11<1>                      |  INPUT    |            |
+| W41          | (VCC)                             |           |            |
+| W43          | (GND)                             |           |            |
+| Y2           | ---                               |  UNUSED   |            |
+| Y4           | ---                               |  UNUSED   |            |
+| Y6           | FOURxFOUR<88>                     |  OUTPUT   |            |
+| Y8           | INPUT_A14<1>                      |  INPUT    |            |
+| Y36          | FOURxFOUR<65>                     |  OUTPUT   |            |
+| Y38          | FOURxFOUR<61>                     |  OUTPUT   |            |
+| Y40          | INPUT_B21<1>                      |  INPUT    |            |
+| Y42          | FOURxFOUR<28>                     |  OUTPUT   |            |
++--------------+-----------------------------------+-----------+------------+
+
+#
+# To preserve the pinout above for future design iterations,
+# simply run "Lock Pins..." from the Design Manager's Design 
+# menu, or invoke PIN2UCF from the command line. The location constraints
+# above will be written into your specified UCF file. (The constraints
+# listed below are in PCF format and cannot be directly used in the UCF file).
+#
+COMP "CLK" LOCATE = SITE "C1" ; 
+COMP "ENABLE" LOCATE = SITE "E29" ; 
+COMP "FOURxFOUR<0>" LOCATE = SITE "G27" ; 
+COMP "FOURxFOUR<10>" LOCATE = SITE "B42" ; 
+COMP "FOURxFOUR<11>" LOCATE = SITE "D20" ; 
+COMP "FOURxFOUR<12>" LOCATE = SITE "N37" ; 
+COMP "FOURxFOUR<13>" LOCATE = SITE "D30" ; 
+COMP "FOURxFOUR<14>" LOCATE = SITE "H42" ; 
+COMP "FOURxFOUR<15>" LOCATE = SITE "D26" ; 
+COMP "FOURxFOUR<16>" LOCATE = SITE "C27" ; 
+COMP "FOURxFOUR<17>" LOCATE = SITE "L43" ; 
+COMP "FOURxFOUR<18>" LOCATE = SITE "AA1" ; 
+COMP "FOURxFOUR<19>" LOCATE = SITE "A15" ; 
+COMP "FOURxFOUR<1>" LOCATE = SITE "F24" ; 
+COMP "FOURxFOUR<20>" LOCATE = SITE "B14" ; 
+COMP "FOURxFOUR<21>" LOCATE = SITE "V6" ; 
+COMP "FOURxFOUR<22>" LOCATE = SITE "W7" ; 
+COMP "FOURxFOUR<23>" LOCATE = SITE "E15" ; 
+COMP "FOURxFOUR<24>" LOCATE = SITE "A29" ; 
+COMP "FOURxFOUR<25>" LOCATE = SITE "P42" ; 
+COMP "FOURxFOUR<26>" LOCATE = SITE "U41" ; 
+COMP "FOURxFOUR<27>" LOCATE = SITE "R41" ; 
+COMP "FOURxFOUR<28>" LOCATE = SITE "Y42" ; 
+COMP "FOURxFOUR<29>" LOCATE = SITE "V38" ; 
+COMP "FOURxFOUR<2>" LOCATE = SITE "AV36" ; 
+COMP "FOURxFOUR<30>" LOCATE = SITE "F20" ; 
+COMP "FOURxFOUR<31>" LOCATE = SITE "G21" ; 
+COMP "FOURxFOUR<32>" LOCATE = SITE "V4" ; 
+COMP "FOURxFOUR<33>" LOCATE = SITE "F12" ; 
+COMP "FOURxFOUR<34>" LOCATE = SITE "U7" ; 
+COMP "FOURxFOUR<35>" LOCATE = SITE "B18" ; 
+COMP "FOURxFOUR<36>" LOCATE = SITE "BC37" ; 
+COMP "FOURxFOUR<37>" LOCATE = SITE "T36" ; 
+COMP "FOURxFOUR<38>" LOCATE = SITE "A27" ; 
+COMP "FOURxFOUR<39>" LOCATE = SITE "L41" ; 
+COMP "FOURxFOUR<3>" LOCATE = SITE "E25" ; 
+COMP "FOURxFOUR<40>" LOCATE = SITE "V42" ; 
+COMP "FOURxFOUR<41>" LOCATE = SITE "K40" ; 
+COMP "FOURxFOUR<42>" LOCATE = SITE "AW27" ; 
+COMP "FOURxFOUR<43>" LOCATE = SITE "AV26" ; 
+COMP "FOURxFOUR<44>" LOCATE = SITE "BA31" ; 
+COMP "FOURxFOUR<45>" LOCATE = SITE "B22" ; 
+COMP "FOURxFOUR<46>" LOCATE = SITE "BA27" ; 
+COMP "FOURxFOUR<47>" LOCATE = SITE "BC29" ; 
+COMP "FOURxFOUR<48>" LOCATE = SITE "AU27" ; 
+COMP "FOURxFOUR<49>" LOCATE = SITE "AA41" ; 
+COMP "FOURxFOUR<4>" LOCATE = SITE "A23" ; 
+COMP "FOURxFOUR<50>" LOCATE = SITE "AC39" ; 
+COMP "FOURxFOUR<51>" LOCATE = SITE "AB40" ; 
+COMP "FOURxFOUR<52>" LOCATE = SITE "AJ3" ; 
+COMP "FOURxFOUR<53>" LOCATE = SITE "E23" ; 
+COMP "FOURxFOUR<54>" LOCATE = SITE "AW3" ; 
+COMP "FOURxFOUR<55>" LOCATE = SITE "AU21" ; 
+COMP "FOURxFOUR<56>" LOCATE = SITE "AW21" ; 
+COMP "FOURxFOUR<57>" LOCATE = SITE "AY24" ; 
+COMP "FOURxFOUR<58>" LOCATE = SITE "AY18" ; 
+COMP "FOURxFOUR<59>" LOCATE = SITE "AT24" ; 
+COMP "FOURxFOUR<5>" LOCATE = SITE "C23" ; 
+COMP "FOURxFOUR<60>" LOCATE = SITE "BB24" ; 
+COMP "FOURxFOUR<61>" LOCATE = SITE "Y38" ; 
+COMP "FOURxFOUR<62>" LOCATE = SITE "AA37" ; 
+COMP "FOURxFOUR<63>" LOCATE = SITE "U43" ; 
+COMP "FOURxFOUR<64>" LOCATE = SITE "AG1" ; 
+COMP "FOURxFOUR<65>" LOCATE = SITE "Y36" ; 
+COMP "FOURxFOUR<66>" LOCATE = SITE "B16" ; 
+COMP "FOURxFOUR<67>" LOCATE = SITE "E13" ; 
+COMP "FOURxFOUR<68>" LOCATE = SITE "F18" ; 
+COMP "FOURxFOUR<69>" LOCATE = SITE "C13" ; 
+COMP "FOURxFOUR<6>" LOCATE = SITE "F22" ; 
+COMP "FOURxFOUR<70>" LOCATE = SITE "AC3" ; 
+COMP "FOURxFOUR<71>" LOCATE = SITE "F6" ; 
+COMP "FOURxFOUR<72>" LOCATE = SITE "AB42" ; 
+COMP "FOURxFOUR<73>" LOCATE = SITE "BA29" ; 
+COMP "FOURxFOUR<74>" LOCATE = SITE "AB38" ; 
+COMP "FOURxFOUR<75>" LOCATE = SITE "AV24" ; 
+COMP "FOURxFOUR<76>" LOCATE = SITE "AY26" ; 
+COMP "FOURxFOUR<77>" LOCATE = SITE "BC23" ; 
+COMP "FOURxFOUR<78>" LOCATE = SITE "BA1" ; 
+COMP "FOURxFOUR<79>" LOCATE = SITE "AG3" ; 
+COMP "FOURxFOUR<7>" LOCATE = SITE "A21" ; 
+COMP "FOURxFOUR<80>" LOCATE = SITE "AV22" ; 
+COMP "FOURxFOUR<81>" LOCATE = SITE "AA39" ; 
+COMP "FOURxFOUR<82>" LOCATE = SITE "AF6" ; 
+COMP "FOURxFOUR<83>" LOCATE = SITE "AD8" ; 
+COMP "FOURxFOUR<84>" LOCATE = SITE "G9" ; 
+COMP "FOURxFOUR<85>" LOCATE = SITE "AA3" ; 
+COMP "FOURxFOUR<86>" LOCATE = SITE "AB4" ; 
+COMP "FOURxFOUR<87>" LOCATE = SITE "G17" ; 
+COMP "FOURxFOUR<88>" LOCATE = SITE "Y6" ; 
+COMP "FOURxFOUR<89>" LOCATE = SITE "E7" ; 
+COMP "FOURxFOUR<8>" LOCATE = SITE "H20" ; 
+COMP "FOURxFOUR<90>" LOCATE = SITE "G19" ; 
+COMP "FOURxFOUR<91>" LOCATE = SITE "B20" ; 
+COMP "FOURxFOUR<92>" LOCATE = SITE "AY22" ; 
+COMP "FOURxFOUR<93>" LOCATE = SITE "AH4" ; 
+COMP "FOURxFOUR<94>" LOCATE = SITE "AC5" ; 
+COMP "FOURxFOUR<95>" LOCATE = SITE "E17" ; 
+COMP "FOURxFOUR<9>" LOCATE = SITE "C21" ; 
+COMP "INPUT_A11<0>" LOCATE = SITE "AD4" ; 
+COMP "INPUT_A11<1>" LOCATE = SITE "AK2" ; 
+COMP "INPUT_A12<0>" LOCATE = SITE "AD6" ; 
+COMP "INPUT_A12<1>" LOCATE = SITE "C5" ; 
+COMP "INPUT_A13<0>" LOCATE = SITE "A17" ; 
+COMP "INPUT_A13<1>" LOCATE = SITE "C3" ; 
+COMP "INPUT_A14<0>" LOCATE = SITE "P36" ; 
+COMP "INPUT_A14<1>" LOCATE = SITE "Y8" ; 
+COMP "INPUT_A21<0>" LOCATE = SITE "AW29" ; 
+COMP "INPUT_A21<1>" LOCATE = SITE "BB30" ; 
+COMP "INPUT_A22<0>" LOCATE = SITE "AL7" ; 
+COMP "INPUT_A22<1>" LOCATE = SITE "AC1" ; 
+COMP "INPUT_A23<0>" LOCATE = SITE "D24" ; 
+COMP "INPUT_A23<1>" LOCATE = SITE "AA5" ; 
+COMP "INPUT_A24<0>" LOCATE = SITE "C29" ; 
+COMP "INPUT_A24<1>" LOCATE = SITE "J41" ; 
+COMP "INPUT_A31<0>" LOCATE = SITE "AJ5" ; 
+COMP "INPUT_A31<1>" LOCATE = SITE "AK8" ; 
+COMP "INPUT_A32<0>" LOCATE = SITE "B24" ; 
+COMP "INPUT_A32<1>" LOCATE = SITE "AD2" ; 
+COMP "INPUT_A33<0>" LOCATE = SITE "BB22" ; 
+COMP "INPUT_A33<1>" LOCATE = SITE "E19" ; 
+COMP "INPUT_A34<0>" LOCATE = SITE "AL3" ; 
+COMP "INPUT_A34<1>" LOCATE = SITE "D16" ; 
+COMP "INPUT_A41<0>" LOCATE = SITE "G25" ; 
+COMP "INPUT_A41<1>" LOCATE = SITE "G39" ; 
+COMP "INPUT_A42<0>" LOCATE = SITE "B30" ; 
+COMP "INPUT_A42<1>" LOCATE = SITE "B26" ; 
+COMP "INPUT_A43<0>" LOCATE = SITE "AL5" ; 
+COMP "INPUT_A43<1>" LOCATE = SITE "B40" ; 
+COMP "INPUT_A44<0>" LOCATE = SITE "B28" ; 
+COMP "INPUT_A44<1>" LOCATE = SITE "H24" ; 
+COMP "INPUT_B11<0>" LOCATE = SITE "AU23" ; 
+COMP "INPUT_B11<1>" LOCATE = SITE "W39" ; 
+COMP "INPUT_B12<0>" LOCATE = SITE "AT28" ; 
+COMP "INPUT_B12<1>" LOCATE = SITE "AM6" ; 
+COMP "INPUT_B13<0>" LOCATE = SITE "V40" ; 
+COMP "INPUT_B13<1>" LOCATE = SITE "T40" ; 
+COMP "INPUT_B14<0>" LOCATE = SITE "E9" ; 
+COMP "INPUT_B14<1>" LOCATE = SITE "AB6" ; 
+COMP "INPUT_B21<0>" LOCATE = SITE "AA43" ; 
+COMP "INPUT_B21<1>" LOCATE = SITE "Y40" ; 
+COMP "INPUT_B22<0>" LOCATE = SITE "AU31" ; 
+COMP "INPUT_B22<1>" LOCATE = SITE "AJ1" ; 
+COMP "INPUT_B23<0>" LOCATE = SITE "AF2" ; 
+COMP "INPUT_B23<1>" LOCATE = SITE "D42" ; 
+COMP "INPUT_B24<0>" LOCATE = SITE "E27" ; 
+COMP "INPUT_B24<1>" LOCATE = SITE "A11" ; 
+COMP "INPUT_B31<0>" LOCATE = SITE "AW25" ; 
+COMP "INPUT_B31<1>" LOCATE = SITE "E21" ; 
+COMP "INPUT_B32<0>" LOCATE = SITE "D14" ; 
+COMP "INPUT_B32<1>" LOCATE = SITE "D12" ; 
+COMP "INPUT_B33<0>" LOCATE = SITE "D22" ; 
+COMP "INPUT_B33<1>" LOCATE = SITE "G23" ; 
+COMP "INPUT_B34<0>" LOCATE = SITE "A7" ; 
+COMP "INPUT_B34<1>" LOCATE = SITE "AB2" ; 
+COMP "INPUT_B41<0>" LOCATE = SITE "AY28" ; 
+COMP "INPUT_B41<1>" LOCATE = SITE "C11" ; 
+COMP "INPUT_B42<0>" LOCATE = SITE "AM4" ; 
+COMP "INPUT_B42<1>" LOCATE = SITE "H30" ; 
+COMP "INPUT_B43<0>" LOCATE = SITE "L37" ; 
+COMP "INPUT_B43<1>" LOCATE = SITE "C17" ; 
+COMP "INPUT_B44<0>" LOCATE = SITE "F26" ; 
+COMP "INPUT_B44<1>" LOCATE = SITE "D28" ; 
+COMP "RESET" LOCATE = SITE "AL39" ; 
+#

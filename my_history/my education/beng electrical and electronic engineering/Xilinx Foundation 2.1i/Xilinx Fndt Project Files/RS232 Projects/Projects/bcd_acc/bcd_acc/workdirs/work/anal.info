@@ -1,0 +1,21 @@
+file {
+  .version = 1;
+  entity {
+    .name = "CD4076";
+    .mra_file = "CD4076.mra";
+    .arch = {"verilog"};
+    .syn_files = {"CD4076%verilog.syn", "CD4076%verilog__verilog.syn"};
+   }
+  entity {
+    .name = "CD4518";
+    .mra_file = "CD4518.mra";
+    .arch = {"verilog"};
+    .syn_files = {"CD4518%verilog.syn", "CD4518%verilog__verilog.syn"};
+   }
+  entity {
+    .name = "CD4560";
+    .mra_file = "CD4560.mra";
+    .arch = {"verilog"};
+    .syn_files = {"CD4560%verilog.syn", "CD4560%verilog__verilog.syn"};
+   }
+}

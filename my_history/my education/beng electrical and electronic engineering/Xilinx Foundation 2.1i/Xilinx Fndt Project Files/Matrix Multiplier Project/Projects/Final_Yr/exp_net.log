@@ -1,0 +1,9 @@
+CONV_ACS, 2.5.5.70, Thu Nov 30 16:20:32 2000
+
+	: Exporting part1.alb to Xilinx netlist
+	: Exporting c:\fndtn\active\projects\final_yr\part1.alb netlist...
+	: Netlist exported successfully
+	: Exporting macro FD to Xilinx netlist
+	: Exporting FD macro...
+	: Macro exported successfully
+	: Export netlist completed in: 00:00:01:

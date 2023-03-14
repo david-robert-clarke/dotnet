@@ -1,0 +1,69 @@
+-- Created by David Clarke
+-- Final Year Project
+-- Exploiting Parallelism in FPGA design
+-- Date : 5_12_2000
+Library IEEE;
+Use IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY PART_LATCHES IS
+PORT (CLK, CLR : IN STD_LOGIC;
+      A, B, C, D : IN STD_LOGIC_VECTOR (3 downto 0); 
+      Z : OUT STD_LOGIC_VECTOR (15 downto 0));
+END ENTITY PART_LATCHES;
+
+ARCHITECTURE STRUCTURAL OF PART_LATCHES IS
+
+COMPONENT FDC IS
+PORT (D, CLK, CLR : IN STD_LOGIC; Q : OUT STD_LOGIC);
+END COMPONENT FDC;
+
+SIGNAL AI, BI, CI, DI, EI, FI, GI, HI, II, JI, KI, LI, MI, NI, OI, PI, QI, RI, SI, TI, UI, 
+       VI, WI, XI : STD_LOGIC;
+       
+BEGIN
+
+    DFF41 : FDC PORT MAP (D => A(3), CLK => CLK, CLR => CLR, Q => AI);
+    DFF42 : FDC PORT MAP (D => A(2), CLK => CLK, CLR => CLR, Q => BI);
+    DFF43 : FDC PORT MAP (D => A(1), CLK => CLK, CLR => CLR, Q => CI);
+    DFF44 : FDC PORT MAP (D => A(0), CLK => CLK, CLR => CLR, Q => DI);
+    --
+    DFF31 : FDC PORT MAP (D => AI,   CLK => CLK, CLR => CLR, Q => EI);
+    DFF32 : FDC PORT MAP (D => BI,   CLK => CLK, CLR => CLR, Q => FI);
+    DFF33 : FDC PORT MAP (D => CI,   CLK => CLK, CLR => CLR, Q => GI);
+    DFF34 : FDC PORT MAP (D => DI,   CLK => CLK, CLR => CLR, Q => HI);
+    DFF35 : FDC PORT MAP (D => B(3), CLK => CLK, CLR => CLR, Q => II);
+    DFF36 : FDC PORT MAP (D => B(2), CLK => CLK, CLR => CLR, Q => JI);
+    DFF37 : FDC PORT MAP (D => B(1), CLK => CLK, CLR => CLR, Q => KI);
+    DFF38 : FDC PORT MAP (D => B(0), CLK => CLK, CLR => CLR, Q => LI);
+    --
+    DFF21 : FDC PORT MAP (D => EI,   CLK => CLK, CLR => CLR, Q => MI);
+    DFF22 : FDC PORT MAP (D => FI,   CLK => CLK, CLR => CLR, Q => NI);
+    DFF23 : FDC PORT MAP (D => GI,   CLK => CLK, CLR => CLR, Q => OI);
+    DFF24 : FDC PORT MAP (D => HI,   CLK => CLK, CLR => CLR, Q => PI);
+    DFF25 : FDC PORT MAP (D => II,   CLK => CLK, CLR => CLR, Q => QI);
+    DFF26 : FDC PORT MAP (D => JI,   CLK => CLK, CLR => CLR, Q => RI);
+    DFF27 : FDC PORT MAP (D => KI,   CLK => CLK, CLR => CLR, Q => SI);
+    DFF28 : FDC PORT MAP (D => LI,   CLK => CLK, CLR => CLR, Q => TI);
+    DFF29 : FDC PORT MAP (D => C(3), CLK => CLK, CLR => CLR, Q => UI);
+    DFF2A : FDC PORT MAP (D => C(2), CLK => CLK, CLR => CLR, Q => VI);
+    DFF2B : FDC PORT MAP (D => C(1), CLK => CLK, CLR => CLR, Q => WI);
+    DFF2C : FDC PORT MAP (D => C(0), CLK => CLK, CLR => CLR, Q => XI);
+    --
+    DFF11 : FDC PORT MAP (D => MI,   CLK => CLK, CLR => CLR, Q => Z(15));
+    DFF12 : FDC PORT MAP (D => NI,   CLK => CLK, CLR => CLR, Q => Z(14));
+    DFF13 : FDC PORT MAP (D => OI,   CLK => CLK, CLR => CLR, Q => Z(13));
+    DFF14 : FDC PORT MAP (D => PI,   CLK => CLK, CLR => CLR, Q => Z(12));
+    DFF15 : FDC PORT MAP (D => QI,   CLK => CLK, CLR => CLR, Q => Z(11));
+    DFF16 : FDC PORT MAP (D => RI,   CLK => CLK, CLR => CLR, Q => Z(10));
+    DFF17 : FDC PORT MAP (D => SI,   CLK => CLK, CLR => CLR, Q => Z(9));
+    DFF18 : FDC PORT MAP (D => TI,   CLK => CLK, CLR => CLR, Q => Z(8));
+    DFF19 : FDC PORT MAP (D => UI,   CLK => CLK, CLR => CLR, Q => Z(7));
+    DFF1A : FDC PORT MAP (D => VI,   CLK => CLK, CLR => CLR, Q => Z(6));
+    DFF1B : FDC PORT MAP (D => WI,   CLK => CLK, CLR => CLR, Q => Z(5));
+    DFF1C : FDC PORT MAP (D => XI,   CLK => CLK, CLR => CLR, Q => Z(4));
+    DFF1D : FDC PORT MAP (D => D(3), CLK => CLK, CLR => CLR, Q => Z(3));
+    DFF1E : FDC PORT MAP (D => D(2), CLK => CLK, CLR => CLR, Q => Z(2));
+    DFF1F : FDC PORT MAP (D => D(1), CLK => CLK, CLR => CLR, Q => Z(1));
+    DFF1G : FDC PORT MAP (D => D(0), CLK => CLK, CLR => CLR, Q => Z(0));
+    
+END ARCHITECTURE STRUCTURAL;

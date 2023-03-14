@@ -1,0 +1,9 @@
+file {
+  .version = 1;
+  entity {
+    .name = "STORED_ANSWER";
+    .mra_file = "STORED_ANSWER.mra";
+    .arch = {"BEHAVIOURAL"};
+    .syn_files = {"STORED_ANSWER.syn", "STORED_ANSWER__BEHAVIOURAL.syn"};
+   }
+}

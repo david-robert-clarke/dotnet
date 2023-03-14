@@ -1,0 +1,130 @@
+{\rtf1\ansi\ansicpg1252\deff0
+{\fonttbl
+{\f0\fnil\fcharset0\fprq0\fttruetype Times New Roman;}
+{\f1\fnil\fcharset0\fprq0\fttruetype NULL;}
+{\f2\fnil\fcharset0\fprq0\fttruetype Nimbus Roman;}
+{\f3\fnil\fcharset0\fprq0\fttruetype Dingbats;}
+{\f4\fnil\fcharset0\fprq0\fttruetype Symbol;}
+{\f5\fnil\fcharset0\fprq0\fttruetype Nimbus Sans;}
+{\f6\fnil\fcharset0\fprq0\fttruetype Nimbus Mono;}}
+{\colortbl
+\red0\green0\blue0;
+\red255\green255\blue255;}
+{\stylesheet
+{\s5\sl240\slmult1\fi-431\li720 Dashed List;}
+{\s2\sl240\slmult1\fi-431\li720 Box List;}
+{\s21\sl240\slmult1\tx1584\sbasedon16\snext15 Section Heading;}
+{\s17\sl240\slmult1\tx431\sbasedon9\snext15 Numbered Heading 2;}
+{\s20\sl240\slmult1\f6\sbasedon15 Plain Text;}
+{\s12\sl240\slmult1\fi-431\li720 Implies List;}
+{\s26\sl240\slmult1\fi-431\li720\sbasedon19 Upper Case List;}
+{\s7\sl240\slmult1\fi-431\li720 Hand List;}
+{\s27\sl240\slmult1\fi-431\li720\sbasedon19 Upper Roman List;}
+{\s15\sl240\slmult1\f2\fs24 Normal;}
+{\s1\sl240\slmult1\li1440\ri1440\sa119\sbasedon15 Block Text;}
+{\s14\sl240\slmult1\fi-431\li720\sbasedon15 Lower Roman List;}
+{\s11\sl240\slmult1\fi-431\li720 Heart List;}
+{\s13\sl240\slmult1\fi-431\li720\sbasedon19 Lower Case List;}
+{\s24\sl240\slmult1\fi-431\li720 Tick List;}
+{\s8\sl240\slmult1\sb440\sa60\f5\fs34\b\sbasedon15\snext15 Heading 1;}
+{\s9\sl240\slmult1\sb440\sa60\f5\fs28\b\sbasedon15\snext15 Heading 2;}
+{\s10\sl240\slmult1\sb440\sa60\f5\fs24\b\sbasedon15\snext15 Heading 3;}
+{\s19\sl240\slmult1\fi-431\li720 Numbered List;}
+{\s23\sl240\slmult1\fi-431\li720 Star List;}
+{\s16\sl240\slmult1\tx431\sbasedon8\snext15 Numbered Heading 1;}
+{\s6\sl240\slmult1\fi-431\li720 Diamond List;}
+{\s18\sl240\slmult1\tx431\sbasedon10\snext15 Numbered Heading 3;}
+{\s4\sl240\slmult1\tx1584\sbasedon16\snext15 Chapter Heading;}
+{\s22\sl240\slmult1\fi-431\li720 Square List;}
+{\s25\sl240\slmult1\fi-431\li720 Triangle List;}
+{\s3\sl240\slmult1\fi-431\li720 Bullet List;}}
+\kerning0\cf0\viewkind1\paperw12240\paperh15840\margl1440\margr1440\widowctl
+\sectd\sbknone\colsx360\marglsxn1800\margrsxn1800\pgncont\ltrsect
+\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}  }
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}1).}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}SELECT name AS "Course Title"}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}FROM courses}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}WHERE level = 3 OR level = 4 AND credits > 10 AND NOT semester = 2;}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}              Course Title                }
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}--------------------------------------------}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0} Intelligent Robotics}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0} Natural Language Processing & Applications}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0} Automatic Verification}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0} Commercial Programming}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0} Compilers & Languages}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0} Computer Networks}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0} Databases 2}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0} Distributed Systems}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0} Evolutionary Computation}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0} Formal Methods}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0} Graphics 2}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0} Image Understanding (i)}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0} Logic & Theory Seminar}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0} Mechanised Deduction}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0} Natural Language Processing 2}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0} Parallel Computer Architecture}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0} Philosophy of Cognitive Science}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0} Planning}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0} Reasoning about Mental States}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0} Software Workshop Java (A)}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0} Virtual Reality}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0} Software Workshop (i)}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}(22 rows)}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}2). }
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}SELECT firstname, lastname}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}FROM staff}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}WHERE phone IS NULL OR office IS NULL;}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}firstname | lastname }
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}-----------+----------}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0} Joan      | Jackson}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0} Lubo      | Jankovic}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0} Richard   | Kaye}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0} Karim     | Visram}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0} Alan      | White}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0} Tony      | Gardiner}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}(6 rows)}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}3).  }
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}SELECT DISTINCT SUM(lecturing.numbers) AS "Number of Students"}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}FROM lecturing, courses}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}WHERE lecturing.cid = courses.cid AND }
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}courses.name = 'Fundamentals of Databases' AND}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}lecturing.year > 1998 AND lecturing.year < 2003;}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}4).}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}SELECT DISTINCT staff.firstname, staff.lastname, lecturing.year }
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}FROM staff, lecturing}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}WHERE lecturing.year = 2002 AND staff.sid = lecturing.sid;}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}5).}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}SELECT DISTINCT courses.name}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}FROM staff,lecturing, courses}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}WHERE staff.firstname = 'Achim' AND }
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}\tab staff.lastname = 'Jung' AND }
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}\tab (lecturing.year = 1999 OR}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}\tab lecturing.year = 2000) AND}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}\tab staff.sid = lecturing.sid AND }
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}\tab courses.cid = lecturing.cid;}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}6).}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang2057{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f2\fs24\lang1033{\*\listtag0}SELECT DISTINCT c1.cid, c1.name }
+\par\pard\plain\ltrpar\sl240\slmult1{\f2\fs24\lang1033{\*\listtag0}FROM staff,lecturing AS l1, lecturing AS l2, }
+\par\pard\plain\ltrpar\sl240\slmult1{\f2\fs24\lang1033{\*\listtag0}\tab courses AS c1, courses AS c2}
+\par\pard\plain\ltrpar\sl240\slmult1{\f2\fs24\lang1033{\*\listtag0}WHERE staff.sid = l1.sid AND c1.cid = l1.cid AND}
+\par\pard\plain\ltrpar\sl240\slmult1{\f2\fs24\lang1033{\*\listtag0}\tab staff.sid = l2.sid AND c1.cid = l2.cid AND}
+\par\pard\plain\ltrpar\sl240\slmult1{\f2\fs24\lang1033{\*\listtag0}\tab staff.firstname = 'Achim'AND staff.lastname = 'Jung' AND}
+\par\pard\plain\ltrpar\sl240\slmult1{\f2\fs24\lang1033{\*\listtag0}\tab (l1.year = 1999 OR l1.year = 2000) AND}
+\par\pard\plain\ltrpar\sl240\slmult1{\f2\fs24\lang1033{\*\listtag0}\tab l1.year<>l2.year;}
+\par\pard\plain\ltrpar\sl240\slmult1{\f2\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f2\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f2\fs24\lang1033{\*\listtag0}}}

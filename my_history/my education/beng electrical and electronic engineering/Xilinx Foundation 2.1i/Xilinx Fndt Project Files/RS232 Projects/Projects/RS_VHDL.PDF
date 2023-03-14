@@ -1,0 +1,18 @@
+[project]
+name=rs_vhdl
+netlist=rs_vhdl
+contents=
+date=11/17/100
+time=01:56:42
+lib_order=1003 1012
+version=3.1.5.00.34e
+Type=F21i
+top_level=VHDL
+pdf_dir=c:\fndtn\active\projects\
+
+[libraries]
+1003=
+1012=c:\fndtn\active\projects\work
+
+[xilinx]
+libraries=unified

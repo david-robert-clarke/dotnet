@@ -1,0 +1,50 @@
+library IEEE;
+Use IEEE.std_logic_1164.all;
+
+Entity INTEGER_ENT IS
+Port (Signal clk : in std_logic;
+      Signal next_byte : in std_logic_vector (7 downto 0);
+      Signal No_of_rows, No_of_cols : out INTEGER);
+End Entity INTEGER_ENT;
+
+Architecture Behavioural OF INTEGER_ENT IS
+Begin
+
+Count_rows_cols_Matrix_X : Process (clk, next_byte)
+
+Variable rows : integer range 0 to 50;
+Variable cols : integer range 0 to 50;
+
+-- { = 	"10000000"
+-- # =	"01000000"
+-- ~ =	"11000000"
+-- } = 	"00100000"
+
+Begin
+
+	IF next_byte = "10000000" THEN
+
+	    FOR N in 1 to 10 LOOP 
+	          IF clk ='1' and rising_edge(clk) THEN 
+		     -- The clock edge controls the rate of 
+		     -- data input to the comparator
+
+		     IF next_byte = "01000000" THEN
+		     rows := rows + 1;
+
+		     ELSIF next_byte = "11000000" THEN
+		     cols := cols + 1;
+
+		     END IF;
+		  END IF;
+	    
+	    END LOOP;
+
+	END IF;
+
+No_of_rows <= rows;
+No_of_cols <= cols;
+
+End Process Count_rows_cols_Matrix_X;
+
+End Architecture Behavioural; 

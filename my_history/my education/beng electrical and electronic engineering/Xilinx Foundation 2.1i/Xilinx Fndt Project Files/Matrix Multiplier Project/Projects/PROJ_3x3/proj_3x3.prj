@@ -1,0 +1,208 @@
+Created by PCM: 2/10/101
+Empty design C:\FNDTN\ACTIVE\PROJECTS\PROJ_3X3\proj_3x3.XNF created: 2/10/101 [13.23.41].
+Document c:\fndtn\active\projects\proj_3x3\matrix_package.vhd added: 2/10/101 [13.24.7].
+'c:\fndtn\active\projects\proj_3x3\matrix_package.vhd' saved on 01/02/10 13:38
+'' saved on 01/02/10 13:43
+'C:\Fndtn\Active\Projects\PROJ_3x3\data_store.vhd' saved on 01/02/10 13:54
+'C:\Fndtn\Active\Projects\PROJ_3x3\data_store.vhd' saved on 01/02/10 13:58
+'C:\Fndtn\Active\Projects\PROJ_3x3\data_store.vhd' saved on 01/02/10 14:00
+'C:\Fndtn\Active\Projects\PROJ_3x3\data_store.vhd' saved on 01/02/10 14:02
+'C:\Fndtn\Active\Projects\PROJ_3x3\data_store.vhd' saved on 01/02/10 14:04
+'C:\Fndtn\Active\Projects\PROJ_3x3\data_store.vhd' saved on 01/02/10 14:05
+'C:\Fndtn\Active\Projects\PROJ_3x3\data_store.vhd' saved on 01/02/10 14:05
+Document c:\fndtn\active\projects\proj_3x3\data_store.vhd added: 2/10/101 [14.6.2].
+Implementation ver1 updated: 2/10/101 [14.6.15].
+Entity DATA_STORE, non optimized chip, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [14.6.21].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [14.6.21].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [14.11.46].
+Entity DATA_STORE, non optimized chip, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [14.11.52].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [14.11.52].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.'C:\Fndtn\Active\Projects\PROJ_3x3\data_store.vhd' saved on 01/02/10 14:15
+'C:\Fndtn\Active\Projects\PROJ_3x3\data_store.vhd' saved on 01/02/10 14:17
+'C:\Fndtn\Active\Projects\PROJ_3x3\data_store.vhd' saved on 01/02/10 14:18
+'C:\Fndtn\Active\Projects\PROJ_3x3\data_store.vhd' saved on 01/02/10 14:18
+'C:\Fndtn\Active\Projects\PROJ_3x3\data_store.vhd' saved on 01/02/10 14:18
+'C:\Fndtn\Active\Projects\PROJ_3x3\data_store.vhd' saved on 01/02/10 14:19
+Implementation ver1 updated: 2/10/101 [14.19.34].
+Entity DATA_STORE, non optimized chip, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [14.19.41].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [14.19.41].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.'C:\Fndtn\Active\Projects\PROJ_3x3\data_store.vhd' saved on 01/02/10 14:20
+Implementation ver1 updated: 2/10/101 [14.20.36].
+Entity DATA_STORE, non optimized chip, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [14.20.39].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [14.20.39].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.'C:\Fndtn\Active\Projects\PROJ_3x3\data_store.vhd' saved on 01/02/10 14:39
+'C:\Fndtn\Active\Projects\PROJ_3x3\data_store.vhd' saved on 01/02/10 14:40
+'C:\Fndtn\Active\Projects\PROJ_3x3\data_store.vhd' saved on 01/02/10 14:42
+'C:\Fndtn\Active\Projects\PROJ_3x3\data_store.vhd' saved on 01/02/10 14:44
+'C:\Fndtn\Active\Projects\PROJ_3x3\data_store.vhd' saved on 01/02/10 14:44
+'C:\Fndtn\Active\Projects\PROJ_3x3\data_store.vhd' saved on 01/02/10 14:45
+Implementation ver1 updated: 2/10/101 [14.45.29].
+Entity DATA_STORE, non optimized chip, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [14.45.35].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [14.45.35].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.'C:\Fndtn\Active\Projects\PROJ_3x3\data_store.vhd' saved on 01/02/10 14:46
+Implementation ver1 updated: 2/10/101 [14.46.16].
+Entity DATA_STORE, non optimized chip, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [14.46.20].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [14.46.20].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.'C:\Fndtn\Active\Projects\PROJ_3x3\data_store.vhd' saved on 01/02/10 14:46
+Implementation ver1 updated: 2/10/101 [14.46.46].
+Entity DATA_STORE, non optimized chip, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [14.46.51].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [14.46.51].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.'C:\Fndtn\Active\Projects\PROJ_3x3\data_store.vhd' saved on 01/02/10 14:52
+'C:\Fndtn\Active\Projects\PROJ_3x3\data_store.vhd' saved on 01/02/10 14:56
+Implementation ver1 updated: 2/10/101 [14.56.41].
+Entity DATA_STORE, non optimized chip, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [14.56.47].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [14.56.47].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.'C:\Fndtn\Active\Projects\PROJ_3x3\data_store.vhd' saved on 01/02/10 14:58
+'C:\Fndtn\Active\Projects\PROJ_3x3\data_store.vhd' saved on 01/02/10 14:58
+Implementation ver1 updated: 2/10/101 [14.58.37].
+Entity DATA_STORE, non optimized chip, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [14.58.43].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [14.58.43].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.'C:\Fndtn\Active\Projects\PROJ_3x3\data_store.vhd' saved on 01/02/10 14:59
+Implementation ver1 updated: 2/10/101 [15.0.4].
+Entity DATA_STORE, non optimized chip, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [15.0.8].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [15.0.9].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.'C:\Fndtn\Active\Projects\PROJ_3x3\data_store.vhd' saved on 01/02/10 15:04
+Implementation ver1 updated: 2/10/101 [15.5.4].
+Entity DATA_STORE, non optimized chip, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [15.5.9].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [15.5.9].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Document c:\fndtn\active\projects\proj_3x3\matrix_package.vhd added: 2/10/101 [15.41.22].
+Document c:\fndtn\active\projects\proj_3x3\data_store.vhd added: 2/10/101 [15.41.22].
+Implementation ver1 updated: 2/10/101 [15.48.53].
+Entity DATA_STORE, non optimized chip, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [15.48.54].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [15.48.54].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.'c:\fndtn\active\projects\proj_3x3\data_store.vhd' saved on 01/02/10 16:05
+Implementation ver1 updated: 2/10/101 [16.6.26].
+Entity DATA_STORE, non optimized chip, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [16.6.30].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [16.6.30].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.'c:\fndtn\active\projects\proj_3x3\data_store.vhd' saved on 01/02/10 16:07
+'C:\Fndtn\Active\Projects\PROJ_3x3\data_store_dec.vhd' saved on 01/02/10 16:11
+'C:\Fndtn\Active\Projects\PROJ_3x3\data_store_dec.vhd' saved on 01/02/10 16:22
+Implementation ver1 updated: 2/10/101 [16.22.57].
+Entity DATA_STORE, non optimized chip, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [16.23.0].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Implementation ver1 updated: 2/10/101 [16.23.1].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store.vhd.Document c:\fndtn\active\projects\proj_3x3\data_store_dec.vhd added: 2/10/101 [16.23.32].
+Document c:\fndtn\active\projects\proj_3x3\data_store.vhd removed: 2/10/101 [16.23.39].
+Implementation ver1 updated: 2/10/101 [16.24.5].
+Entity DATA_STORE, non optimized chip, file c:\fndtn\active\projects\proj_3x3\data_store_dec.vhd.Implementation ver1 updated: 2/10/101 [16.24.12].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store_dec.vhd.Implementation ver1 updated: 2/10/101 [16.24.12].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store_dec.vhd.'c:\fndtn\active\projects\proj_3x3\data_store_dec.vhd' saved on 01/02/10 16:38
+'c:\fndtn\active\projects\proj_3x3\data_store_dec.vhd' saved on 01/02/10 16:38
+'c:\fndtn\active\projects\proj_3x3\data_store_dec.vhd' saved on 01/02/10 16:46
+'c:\fndtn\active\projects\proj_3x3\data_store_dec.vhd' saved on 01/02/10 16:46
+'c:\fndtn\active\projects\proj_3x3\data_store_dec.vhd' saved on 01/02/10 16:47
+'c:\fndtn\active\projects\proj_3x3\data_store_dec.vhd' saved on 01/02/10 16:50
+'c:\fndtn\active\projects\proj_3x3\data_store_dec.vhd' saved on 01/02/10 16:51
+Implementation ver1 updated: 2/10/101 [16.52.1].
+Entity DATA_STORE, non optimized chip, file c:\fndtn\active\projects\proj_3x3\data_store_dec.vhd.Implementation ver1 updated: 2/10/101 [16.52.6].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store_dec.vhd.'c:\fndtn\active\projects\proj_3x3\data_store_dec.vhd' saved on 01/02/10 17:39
+Document c:\fndtn\active\projects\proj_3x3\data_store_dec.vhd removed: 2/10/101 [17.41.30].
+'C:\Fndtn\Active\Projects\PROJ_3x3\data_store2.vhd' saved on 01/02/10 17:50
+'C:\Fndtn\Active\Projects\PROJ_3x3\data_store2.vhd' saved on 01/02/10 17:50
+'C:\Fndtn\Active\Projects\PROJ_3x3\data_store2.vhd' saved on 01/02/10 17:51
+'C:\Fndtn\Active\Projects\PROJ_3x3\data_store2.vhd' saved on 01/02/10 18:00
+'C:\Fndtn\Active\Projects\PROJ_3x3\data_store2.vhd' saved on 01/02/10 18:00
+'C:\Fndtn\Active\Projects\PROJ_3x3\data_store2.vhd' saved on 01/02/10 18:01
+Document c:\fndtn\active\projects\proj_3x3\data_store2.vhd added: 2/10/101 [18.1.50].
+Implementation ver1 updated: 2/10/101 [18.2.8].
+Entity DATA_STORE, non optimized chip, file c:\fndtn\active\projects\proj_3x3\data_store2.vhd.Implementation ver1 updated: 2/10/101 [18.2.13].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store2.vhd.Implementation ver1 updated: 2/10/101 [18.2.14].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store2.vhd.'C:\Fndtn\Active\Projects\ROW_COLS\multipliers_two_bits_x64.vhd' saved on 01/02/10 18:42
+'C:\Fndtn\Active\Projects\PROJ_3x3\multipliers.vhd' saved on 01/02/10 18:48
+'C:\Fndtn\Active\Projects\PROJ_3x3\multipliers.vhd' saved on 01/02/10 18:48
+'C:\Fndtn\Active\Projects\PROJ_3x3\multipliers.vhd' saved on 01/02/10 18:49
+'C:\Fndtn\Active\Projects\PROJ_3x3\multipliers.vhd' saved on 01/02/10 18:49
+Document c:\fndtn\active\projects\proj_3x3\multipliers.vhd added: 2/10/101 [18.50.16].
+'C:\Fndtn\Active\Projects\PROJ_3x3\multipliers.vhd' saved on 01/02/10 18:50
+'C:\Fndtn\Active\Projects\PROJ_3x3\multipliers.vhd' saved on 01/02/10 18:51
+'c:\fndtn\active\projects\proj_3x3\data_store2.vhd' saved on 01/02/10 18:52
+'c:\fndtn\active\projects\proj_3x3\data_store2.vhd' saved on 01/02/10 18:53
+'c:\fndtn\active\projects\proj_3x3\data_store2.vhd' saved on 01/02/10 18:55
+'c:\fndtn\active\projects\proj_3x3\data_store2.vhd' saved on 01/02/10 18:55
+'c:\fndtn\active\projects\proj_3x3\data_store2.vhd' saved on 01/02/10 18:55
+'c:\fndtn\active\projects\proj_3x3\data_store2.vhd' saved on 01/02/10 18:55
+'c:\fndtn\active\projects\proj_3x3\data_store2.vhd' saved on 01/02/10 18:57
+'C:\Fndtn\Active\Projects\PROJ_3x3\multipliers.vhd' saved on 01/02/10 18:58
+'C:\Fndtn\Active\Projects\PROJ_3x3\multipliers.vhd' saved on 01/02/10 19:01
+'C:\Fndtn\Active\Projects\PROJ_3x3\multipliers.vhd' saved on 01/02/10 19:06
+'C:\Fndtn\Active\Projects\PROJ_3x3\multipliers.vhd' saved on 01/02/10 19:07
+'C:\Fndtn\Active\Projects\PROJ_3x3\multipliers.vhd' saved on 01/02/10 19:07
+'C:\Fndtn\Active\Projects\PROJ_3x3\multipliers.vhd' saved on 01/02/10 19:08
+'C:\Fndtn\Active\Projects\PROJ_3x3\multipliers.vhd' saved on 01/02/10 19:08
+'C:\Fndtn\Active\Projects\PROJ_3x3\multipliers.vhd' saved on 01/02/10 19:08
+'C:\Fndtn\Active\Projects\PROJ_3x3\multipliers.vhd' saved on 01/02/10 19:08
+'C:\Fndtn\Active\Projects\PROJ_3x3\multipliers.vhd' saved on 01/02/10 19:08
+'C:\Fndtn\Active\Projects\PROJ_3x3\multipliers.vhd' saved on 01/02/10 19:11
+'c:\fndtn\active\projects\proj_3x3\data_store2.vhd' saved on 01/02/10 19:15
+'C:\Fndtn\Active\Projects\PROJ_3x3\multipliers.vhd' saved on 01/02/10 19:18
+'C:\Fndtn\Active\Projects\PROJ_3x3\multipliers.vhd' saved on 01/02/10 19:18
+'C:\Fndtn\Active\Projects\PROJ_3x3\multipliers.vhd' saved on 01/02/10 19:19
+Implementation ver1 updated: 2/10/101 [19.34.12].
+Entity DATA_STORE, non optimized chip, file c:\fndtn\active\projects\proj_3x3\data_store2.vhd.Implementation ver1 updated: 2/10/101 [19.34.13].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store2.vhd.Implementation ver1 updated: 2/10/101 [19.34.13].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store2.vhd.Implementation ver1 updated: 2/10/101 [19.34.50].
+Entity Multipliers, non optimized chip, file c:\fndtn\active\projects\proj_3x3\multipliers.vhd.Implementation ver1 updated: 2/10/101 [19.34.52].
+Entity Multipliers, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\multipliers.vhd.Implementation ver1 updated: 2/10/101 [19.34.52].
+Entity Multipliers, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\multipliers.vhd.'c:\fndtn\active\projects\proj_3x3\multipliers.vhd' saved on 01/02/10 19:35
+Implementation ver1 updated: 2/10/101 [19.36.29].
+Entity DATA_STORE, non optimized chip, file c:\fndtn\active\projects\proj_3x3\data_store2.vhd.Implementation ver1 updated: 2/10/101 [19.36.29].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store2.vhd.Implementation ver1 updated: 2/10/101 [19.36.29].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store2.vhd.Implementation ver1 updated: 2/10/101 [19.36.55].
+Entity Multipliers, non optimized chip, file c:\fndtn\active\projects\proj_3x3\multipliers.vhd.Implementation ver1 updated: 2/10/101 [19.36.57].
+Entity Multipliers, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\multipliers.vhd.Implementation ver1 updated: 2/10/101 [19.36.57].
+Entity Multipliers, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\multipliers.vhd.'C:\Fndtn\Active\Projects\ROW_COLS\adders_six_bits_x16.vhd' saved on 01/02/10 19:52
+'C:\Fndtn\Active\Projects\PROJ_3x3\adders.vhd' saved on 01/02/10 20:13
+'C:\Fndtn\Active\Projects\PROJ_3x3\adders.vhd' saved on 01/02/10 20:17
+'C:\Fndtn\Active\Projects\PROJ_3x3\adders.vhd' saved on 01/02/10 20:20
+'C:\Fndtn\Active\Projects\PROJ_3x3\adders.vhd' saved on 01/02/10 20:23
+'C:\Fndtn\Active\Projects\PROJ_3x3\adders.vhd' saved on 01/02/10 20:24
+'C:\Fndtn\Active\Projects\PROJ_3x3\adders.vhd' saved on 01/02/10 20:25
+'C:\Fndtn\Active\Projects\PROJ_3x3\adders.vhd' saved on 01/02/10 20:29
+Document c:\fndtn\active\projects\proj_3x3\adders.vhd added: 2/10/101 [20.30.0].
+Implementation ver1 updated: 2/10/101 [20.32.38].
+Entity ADDERS, non optimized chip, file c:\fndtn\active\projects\proj_3x3\adders.vhd.Implementation ver1 updated: 2/10/101 [20.32.45].
+Entity ADDERS, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\adders.vhd.Implementation ver1 updated: 2/10/101 [20.32.46].
+Entity ADDERS, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\adders.vhd.'C:\Fndtn\Active\Projects\PROJ_3x3\adders.vhd' saved on 01/02/10 20:34
+Implementation ver1 updated: 2/10/101 [20.34.41].
+Entity ADDERS, non optimized chip, file c:\fndtn\active\projects\proj_3x3\adders.vhd.Implementation ver1 updated: 2/10/101 [20.34.46].
+Entity ADDERS, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\adders.vhd.Implementation ver1 updated: 2/10/101 [20.34.47].
+Entity ADDERS, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\adders.vhd.'C:\Fndtn\Active\Projects\ROW_COLS\answer_store.vhd' saved on 01/02/10 20:52
+'c:\fndtn\active\projects\proj_3x3\multipliers.vhd' saved on 01/02/10 20:53
+'C:\Fndtn\Active\Projects\PROJ_3x3\answer_store.vhd' saved on 01/02/10 20:53
+'C:\Fndtn\Active\Projects\PROJ_3x3\answer_store.vhd' saved on 01/02/10 20:58
+'C:\Fndtn\Active\Projects\PROJ_3x3\answer_store.vhd' saved on 01/02/10 20:58
+'C:\Fndtn\Active\Projects\PROJ_3x3\answer_store.vhd' saved on 01/02/10 21:32
+'C:\Fndtn\Active\Projects\PROJ_3x3\answer_store.vhd' saved on 01/02/10 21:33
+'C:\Fndtn\Active\Projects\PROJ_3x3\answer_store.vhd' saved on 01/02/10 21:33
+'C:\Fndtn\Active\Projects\PROJ_3x3\answer_store.vhd' saved on 01/02/10 21:35
+'C:\Fndtn\Active\Projects\PROJ_3x3\answer_store.vhd' saved on 01/02/10 21:35
+Document c:\fndtn\active\projects\proj_3x3\answer_store.vhd added: 2/10/101 [21.35.57].
+Implementation ver1 updated: 2/10/101 [21.36.33].
+Entity Answer_Store, non optimized chip, file c:\fndtn\active\projects\proj_3x3\answer_store.vhd.Implementation ver1 updated: 2/10/101 [21.36.36].
+Entity Answer_Store, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\answer_store.vhd.'C:\Fndtn\Active\Projects\PROJ_3x3\answer_store.vhd' saved on 01/02/10 21:42
+Implementation ver1 updated: 2/10/101 [21.43.29].
+Entity Answer_Store, non optimized chip, file c:\fndtn\active\projects\proj_3x3\answer_store.vhd.Implementation ver1 updated: 2/10/101 [21.43.33].
+Entity Answer_Store, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\answer_store.vhd.Implementation ver1 updated: 2/10/101 [21.46.39].
+Entity Answer_Store, non optimized chip, file c:\fndtn\active\projects\proj_3x3\answer_store.vhd.Implementation ver1 updated: 2/10/101 [21.46.40].
+Entity Answer_Store, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\answer_store.vhd.Implementation ver1 updated: 2/10/101 [21.46.40].
+Entity Answer_Store, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\answer_store.vhd.'c:\fndtn\active\projects\proj_3x3\answer_store.vhd' saved on 01/02/10 21:48
+Implementation ver1 updated: 2/10/101 [21.48.31].
+Entity Answer_Store, non optimized chip, file c:\fndtn\active\projects\proj_3x3\answer_store.vhd.Implementation ver1 updated: 2/10/101 [21.48.31].
+Entity Answer_Store, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\answer_store.vhd.Implementation ver1 updated: 2/10/101 [21.48.31].
+Entity Answer_Store, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\answer_store.vhd.'c:\fndtn\active\projects\proj_3x3\answer_store.vhd' saved on 01/02/10 21:51
+'c:\fndtn\active\projects\proj_3x3\answer_store.vhd' saved on 01/02/10 21:52
+Implementation ver1 updated: 2/10/101 [21.52.39].
+Entity Answer_Store, non optimized chip, file c:\fndtn\active\projects\proj_3x3\answer_store.vhd.Implementation ver1 updated: 2/10/101 [21.52.39].
+Entity Answer_Store, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\answer_store.vhd.Implementation ver1 updated: 2/10/101 [21.52.39].
+Entity Answer_Store, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\answer_store.vhd.'c:\fndtn\active\projects\proj_3x3\data_store2.vhd' saved on 01/02/10 22:05
+Implementation ver1 updated: 2/10/101 [22.6.22].
+Entity DATA_STORE, non optimized chip, file c:\fndtn\active\projects\proj_3x3\data_store2.vhd.Implementation ver1 updated: 2/10/101 [22.6.28].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store2.vhd.Implementation ver1 updated: 2/10/101 [22.6.29].
+Entity DATA_STORE, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\data_store2.vhd.'c:\fndtn\active\projects\proj_3x3\answer_store.vhd' saved on 01/02/10 22:12
+'c:\fndtn\active\projects\proj_3x3\matrix_package.vhd' saved on 01/02/10 22:14
+'c:\fndtn\active\projects\proj_3x3\answer_store.vhd' saved on 01/02/10 22:15
+'c:\fndtn\active\projects\proj_3x3\answer_store.vhd' saved on 01/02/10 22:15
+'c:\fndtn\active\projects\proj_3x3\answer_store.vhd' saved on 01/02/10 22:15
+'c:\fndtn\active\projects\proj_3x3\data_store2.vhd' saved on 01/02/10 22:16
+Implementation ver1 updated: 2/10/101 [22.17.26].
+Entity Answer_Store, non optimized chip, file c:\fndtn\active\projects\proj_3x3\answer_store.vhd.Implementation ver1 updated: 2/10/101 [22.17.31].
+Entity Answer_Store, optimized chip ver1-Optimized, file c:\fndtn\active\projects\proj_3x3\answer_store.vhd.'c:\fndtn\active\projects\proj_3x3\answer_store.vhd' saved on 01/02/10 22:26

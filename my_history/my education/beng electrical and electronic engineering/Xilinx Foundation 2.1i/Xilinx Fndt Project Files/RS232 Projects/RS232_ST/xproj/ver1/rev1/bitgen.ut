@@ -1,0 +1,16 @@
+-g ConfigRate:SLOW
+-g TdoPin:PULLNONE
+-g M1Pin:PULLNONE
+-g DonePin:PULLUP
+-g CRC:enable
+-g StartUpClk:CCLK
+-g SyncToDone:no
+-g DoneActive:C1
+-g OutputsActive:C2
+-g GSRInactive:C3
+-g ReadClk:CCLK
+-g ReadCapture:enable
+-g ReadAbort:disable
+-g M0Pin:PULLNONE
+-g M2Pin:PULLNONE
+-g AddressLines:18

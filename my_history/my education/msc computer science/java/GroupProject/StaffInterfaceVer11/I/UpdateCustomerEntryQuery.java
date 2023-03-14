@@ -1,0 +1,60 @@
+package I;
+
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.Calendar;
+
+
+/**
+ * SQL Query
+ *
+ * 
+ **/
+public class UpdateCustomerEntryQuery
+{
+  private ArrayList customerArrayList;
+  private Connection c;
+
+  public UpdateCustomerEntryQuery(ArrayList customer)
+  {      
+
+    c = MyConnection.C;
+    customerArrayList = customer;
+  }
+
+  public void exeQuery()
+  {
+    try 
+    {
+      String cid = (String)customerArrayList.get(0);
+      String cfirstname = (String)customerArrayList.get(1);
+      String clastname = (String)customerArrayList.get(2);
+      String home_addr1= (String)customerArrayList.get(3);
+      String home_addr2= (String)customerArrayList.get(4);
+      String home_pcode= (String)customerArrayList.get(5);
+      String cphone= (String)customerArrayList.get(6);
+      String mob_phone= (String)customerArrayList.get(7);
+
+      System.out.println(cid+" "+cfirstname+" "+clastname+" "+home_addr1+" "+ 
+			 home_addr2+" "+ home_pcode+" "+ cphone+" "+
+			 mob_phone);
+
+      // Create a result set containing all data from my_table
+      Statement stmt = c.createStatement();
+      int number = stmt.executeUpdate("UPDATE customer SET cfirstname ='" + 
+			 cfirstname + "', clastname ='" +
+				      clastname + "', home_addr1 ='" +
+				      home_addr1 + "', home_addr2 ='" + 
+				      home_addr2 + "', home_pcode ='" + 
+				      home_pcode + "', cphone ='" + 
+				      cphone + "', mob_phone ='" + 
+				      mob_phone + "' WHERE cid = '" + cid + "'");
+      
+      System.out.println("Number of tuples changed = " + number);
+    } 
+    catch (SQLException e) 
+    {
+      System.out.println( "An exception occurred in CustomerEntryQuery. " + e);
+    }
+  }
+}

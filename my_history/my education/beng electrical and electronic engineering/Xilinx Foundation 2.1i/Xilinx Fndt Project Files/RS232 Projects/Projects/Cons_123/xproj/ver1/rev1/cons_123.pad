@@ -1,0 +1,269 @@
+PAR: Xilinx Place And Route C.22.
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+Thu Dec 21 14:57:39 2000
+
+Xilinx PAD Specification File
+*****************************
+
+Input file:       map.ncd
+Output file:      cons_123.ncd
+Part type:        xc4010xl
+Speed grade:      -09
+Package:          pc84
+
+Thu Dec 21 14:57:39 2000
+
+Pinout by Pin Name:
++------------------------------------------------+-----------+--------------+
+|                    Pin Name                    | Direction |  Pin Number  |
++------------------------------------------------+-----------+--------------+
+| A0B0_A1B2_CONFIG_1<0>                          |  OUTPUT   | P83          |
+| A0B0_A1B2_CONFIG_1<1>                          |  OUTPUT   | P28          |
+| A0B0_A1B2_CONFIG_1<2>                          |  OUTPUT   | P27          |
+| A0B0_A1B2_CONFIG_1<3>                          |  OUTPUT   | P26          |
+| A0B0_A1B2_CONFIG_1<4>                          |  OUTPUT   | P25          |
+| A0B0_A1B2_CONFIG_2<0>                          |  OUTPUT   | P24          |
+| A0B0_A1B2_CONFIG_2<1>                          |  OUTPUT   | P23          |
+| A0B0_A1B2_CONFIG_2<2>                          |  OUTPUT   | P20          |
+| A0B0_A1B2_CONFIG_2<3>                          |  OUTPUT   | P19          |
+| A0B0_A1B2_CONFIG_2<4>                          |  OUTPUT   | P18          |
+| A0B0_A1B2_CONFIG_3<0>                          |  OUTPUT   | P17          |
+| A0B0_A1B2_CONFIG_3<1>                          |  OUTPUT   | P16          |
+| A0B0_A1B2_CONFIG_3<2>                          |  OUTPUT   | P15          |
+| A0B0_A1B2_CONFIG_3<3>                          |  OUTPUT   | P14          |
+| A0B0_A1B2_CONFIG_3<4>                          |  OUTPUT   | P10          |
+| A0B1_A1B3_CONFIG_1<0>                          |  OUTPUT   | P35          |
+| A0B1_A1B3_CONFIG_1<1>                          |  OUTPUT   | P9           |
+| A0B1_A1B3_CONFIG_1<2>                          |  OUTPUT   | P36          |
+| A0B1_A1B3_CONFIG_1<3>                          |  OUTPUT   | P8           |
+| A0B1_A1B3_CONFIG_1<4>                          |  OUTPUT   | P7           |
+| A0B1_A1B3_CONFIG_2<0>                          |  OUTPUT   | P37          |
+| A0B1_A1B3_CONFIG_2<1>                          |  OUTPUT   | P6           |
+| A0B1_A1B3_CONFIG_2<2>                          |  OUTPUT   | P38          |
+| A0B1_A1B3_CONFIG_2<3>                          |  OUTPUT   | P5           |
+| A0B1_A1B3_CONFIG_2<4>                          |  OUTPUT   | P39          |
+| A0B1_A1B3_CONFIG_3<0>                          |  OUTPUT   | P4           |
+| A0B1_A1B3_CONFIG_3<1>                          |  OUTPUT   | P40          |
+| A0B1_A1B3_CONFIG_3<2>                          |  OUTPUT   | P3           |
+| A0B1_A1B3_CONFIG_3<3>                          |  OUTPUT   | P41          |
+| A0B1_A1B3_CONFIG_3<4>                          |  OUTPUT   | P84          |
+| A2B0_A3B2_CONFIG_1<0>                          |  OUTPUT   | P44          |
+| A2B0_A3B2_CONFIG_1<2>                          |  OUTPUT   | P45          |
+| A2B0_A3B2_CONFIG_1<3>                          |  OUTPUT   | P82          |
+| A2B0_A3B2_CONFIG_1<4>                          |  OUTPUT   | P46          |
+| A2B0_A3B2_CONFIG_2<0>                          |  OUTPUT   | P81          |
+| A2B0_A3B2_CONFIG_2<1>                          |  OUTPUT   | P47          |
+| A2B0_A3B2_CONFIG_2<2>                          |  OUTPUT   | P80          |
+| A2B0_A3B2_CONFIG_2<3>                          |  OUTPUT   | P48          |
+| A2B0_A3B2_CONFIG_2<4>                          |  OUTPUT   | P79          |
+| A2B0_A3B2_CONFIG_3<0>                          |  OUTPUT   | P49          |
+| A2B0_A3B2_CONFIG_3<1>                          |  OUTPUT   | P78          |
+| A2B0_A3B2_CONFIG_3<2>                          |  OUTPUT   | P50          |
+| A2B0_A3B2_CONFIG_3<3>                          |  OUTPUT   | P77          |
+| A2B0_A3B2_CONFIG_3<4>                          |  OUTPUT   | P51          |
+| A2B1_A3B3_CONFIG_1<0>                          |  OUTPUT   | P56          |
+| A2B1_A3B3_CONFIG_1<1>                          |  OUTPUT   | P57          |
+| A2B1_A3B3_CONFIG_1<2>                          |  OUTPUT   | P58          |
+| A2B1_A3B3_CONFIG_1<3>                          |  OUTPUT   | P59          |
+| A2B1_A3B3_CONFIG_1<4>                          |  OUTPUT   | P60          |
+| A2B1_A3B3_CONFIG_2<0>                          |  OUTPUT   | P61          |
+| A2B1_A3B3_CONFIG_2<1>                          |  OUTPUT   | P62          |
+| A2B1_A3B3_CONFIG_2<2>                          |  OUTPUT   | P65          |
+| A2B1_A3B3_CONFIG_2<3>                          |  OUTPUT   | P66          |
+| A2B1_A3B3_CONFIG_2<4>                          |  OUTPUT   | P67          |
+| A2B1_A3B3_CONFIG_3<0>                          |  OUTPUT   | P68          |
+| A2B1_A3B3_CONFIG_3<1>                          |  OUTPUT   | P69          |
+| A2B1_A3B3_CONFIG_3<2>                          |  OUTPUT   | P70          |
+| A2B1_A3B3_CONFIG_3<3>                          |  OUTPUT   | P71          |
+| A2B1_A3B3_CONFIG_3<4>                          |  OUTPUT   | P72          |
+| CLK                                            |  INPUT    | P13          |
+| RESET                                          |  INPUT    | P29          |
++------------------------------------------------+-----------+--------------+
+|                Dedicated or Special Pin Name               |  Pin Number  |
++------------------------------------------------------------+--------------+
+| /PROG                                                      | P55          |
+| CCLK                                                       | P73          |
+| DONE                                                       | P53          |
+| GND                                                        | P21          |
+| GND                                                        | P64          |
+| GND                                                        | P1           |
+| GND                                                        | P76          |
+| GND                                                        | P43          |
+| GND                                                        | P31          |
+| GND                                                        | P12          |
+| GND                                                        | P52          |
+| M0                                                         | P32          |
+| M1                                                         | P30          |
+| M2                                                         | P34          |
+| TDO                                                        | P75          |
+| TDO                                                        | TDO          |
+| VCC                                                        | P54          |
+| VCC                                                        | P63          |
+| VCC                                                        | P33          |
+| VCC                                                        | P74          |
+| VCC                                                        | P42          |
+| VCC                                                        | P11          |
+| VCC                                                        | P2           |
+| VCC                                                        | P22          |
++------------------------------------------------------------+--------------+
+
+Pinout by Pin Number:
++--------------+-----------------------------------+-----------+------------+
+|  Pin Number  |            Pin Name               | Direction | Constraint |
++--------------+-----------------------------------+-----------+------------+
+| P1           | (GND)                             |           |            |
+| P2           | (VCC)                             |           |            |
+| P3           | A0B1_A1B3_CONFIG_3<2>             |  OUTPUT   |            |
+| P4           | A0B1_A1B3_CONFIG_3<0>             |  OUTPUT   |            |
+| P5           | A0B1_A1B3_CONFIG_2<3>             |  OUTPUT   |            |
+| P6           | A0B1_A1B3_CONFIG_2<1>             |  OUTPUT   |            |
+| P7           | A0B1_A1B3_CONFIG_1<4>             |  OUTPUT   |            |
+| P8           | A0B1_A1B3_CONFIG_1<3>             |  OUTPUT   |            |
+| P9           | A0B1_A1B3_CONFIG_1<1>             |  OUTPUT   |            |
+| P10          | A0B0_A1B2_CONFIG_3<4>             |  OUTPUT   |            |
+| P11          | (VCC)                             |           |            |
+| P12          | (GND)                             |           |            |
+| P13          | CLK                               |  INPUT    |            |
+| P14          | A0B0_A1B2_CONFIG_3<3>             |  OUTPUT   |            |
+| P15          | A0B0_A1B2_CONFIG_3<2>             |  OUTPUT   |            |
+| P16          | A0B0_A1B2_CONFIG_3<1>             |  OUTPUT   |            |
+| P17          | A0B0_A1B2_CONFIG_3<0>             |  OUTPUT   |            |
+| P18          | A0B0_A1B2_CONFIG_2<4>             |  OUTPUT   |            |
+| P19          | A0B0_A1B2_CONFIG_2<3>             |  OUTPUT   |            |
+| P20          | A0B0_A1B2_CONFIG_2<2>             |  OUTPUT   |            |
+| P21          | (GND)                             |           |            |
+| P22          | (VCC)                             |           |            |
+| P23          | A0B0_A1B2_CONFIG_2<1>             |  OUTPUT   |            |
+| P24          | A0B0_A1B2_CONFIG_2<0>             |  OUTPUT   |            |
+| P25          | A0B0_A1B2_CONFIG_1<4>             |  OUTPUT   |            |
+| P26          | A0B0_A1B2_CONFIG_1<3>             |  OUTPUT   |            |
+| P27          | A0B0_A1B2_CONFIG_1<2>             |  OUTPUT   |            |
+| P28          | A0B0_A1B2_CONFIG_1<1>             |  OUTPUT   |            |
+| P29          | RESET                             |  INPUT    |            |
+| P30          | (M1)                              |           |            |
+| P31          | (GND)                             |           |            |
+| P32          | (M0)                              |           |            |
+| P33          | (VCC)                             |           |            |
+| P34          | (M2)                              |           |            |
+| P35          | A0B1_A1B3_CONFIG_1<0>             |  OUTPUT   |            |
+| P36          | A0B1_A1B3_CONFIG_1<2>             |  OUTPUT   |            |
+| P37          | A0B1_A1B3_CONFIG_2<0>             |  OUTPUT   |            |
+| P38          | A0B1_A1B3_CONFIG_2<2>             |  OUTPUT   |            |
+| P39          | A0B1_A1B3_CONFIG_2<4>             |  OUTPUT   |            |
+| P40          | A0B1_A1B3_CONFIG_3<1>             |  OUTPUT   |            |
+| P41          | A0B1_A1B3_CONFIG_3<3>             |  OUTPUT   |            |
+| P42          | (VCC)                             |           |            |
+| P43          | (GND)                             |           |            |
+| P44          | A2B0_A3B2_CONFIG_1<0>             |  OUTPUT   |            |
+| P45          | A2B0_A3B2_CONFIG_1<2>             |  OUTPUT   |            |
+| P46          | A2B0_A3B2_CONFIG_1<4>             |  OUTPUT   |            |
+| P47          | A2B0_A3B2_CONFIG_2<1>             |  OUTPUT   |            |
+| P48          | A2B0_A3B2_CONFIG_2<3>             |  OUTPUT   |            |
+| P49          | A2B0_A3B2_CONFIG_3<0>             |  OUTPUT   |            |
+| P50          | A2B0_A3B2_CONFIG_3<2>             |  OUTPUT   |            |
+| P51          | A2B0_A3B2_CONFIG_3<4>             |  OUTPUT   |            |
+| P52          | (GND)                             |           |            |
+| P53          | (DONE)                            |           |            |
+| P54          | (VCC)                             |           |            |
+| P55          | (/PROG)                           |           |            |
+| P56          | A2B1_A3B3_CONFIG_1<0>             |  OUTPUT   |            |
+| P57          | A2B1_A3B3_CONFIG_1<1>             |  OUTPUT   |            |
+| P58          | A2B1_A3B3_CONFIG_1<2>             |  OUTPUT   |            |
+| P59          | A2B1_A3B3_CONFIG_1<3>             |  OUTPUT   |            |
+| P60          | A2B1_A3B3_CONFIG_1<4>             |  OUTPUT   |            |
+| P61          | A2B1_A3B3_CONFIG_2<0>             |  OUTPUT   |            |
+| P62          | A2B1_A3B3_CONFIG_2<1>             |  OUTPUT   |            |
+| P63          | (VCC)                             |           |            |
+| P64          | (GND)                             |           |            |
+| P65          | A2B1_A3B3_CONFIG_2<2>             |  OUTPUT   |            |
+| P66          | A2B1_A3B3_CONFIG_2<3>             |  OUTPUT   |            |
+| P67          | A2B1_A3B3_CONFIG_2<4>             |  OUTPUT   |            |
+| P68          | A2B1_A3B3_CONFIG_3<0>             |  OUTPUT   |            |
+| P69          | A2B1_A3B3_CONFIG_3<1>             |  OUTPUT   |            |
+| P70          | A2B1_A3B3_CONFIG_3<2>             |  OUTPUT   |            |
+| P71          | A2B1_A3B3_CONFIG_3<3>             |  OUTPUT   |            |
+| P72          | A2B1_A3B3_CONFIG_3<4>             |  OUTPUT   |            |
+| P73          | (CCLK)                            |           |            |
+| P74          | (VCC)                             |           |            |
+| P75          | (TDO)                             |           |            |
+| P76          | (GND)                             |           |            |
+| P77          | A2B0_A3B2_CONFIG_3<3>             |  OUTPUT   |            |
+| P78          | A2B0_A3B2_CONFIG_3<1>             |  OUTPUT   |            |
+| P79          | A2B0_A3B2_CONFIG_2<4>             |  OUTPUT   |            |
+| P80          | A2B0_A3B2_CONFIG_2<2>             |  OUTPUT   |            |
+| P81          | A2B0_A3B2_CONFIG_2<0>             |  OUTPUT   |            |
+| P82          | A2B0_A3B2_CONFIG_1<3>             |  OUTPUT   |            |
+| P83          | A0B0_A1B2_CONFIG_1<0>             |  OUTPUT   |            |
+| P84          | A0B1_A1B3_CONFIG_3<4>             |  OUTPUT   |            |
+| TDO          | (TDO)                             |           |            |
++--------------+-----------------------------------+-----------+------------+
+
+#
+# To preserve the pinout above for future design iterations,
+# simply run "Lock Pins..." from the Design Manager's Design 
+# menu, or invoke PIN2UCF from the command line. The location constraints
+# above will be written into your specified UCF file. (The constraints
+# listed below are in PCF format and cannot be directly used in the UCF file).
+#
+COMP "A0B0_A1B2_CONFIG_1<0>" LOCATE = SITE "P83" ; 
+COMP "A0B0_A1B2_CONFIG_1<1>" LOCATE = SITE "P28" ; 
+COMP "A0B0_A1B2_CONFIG_1<2>" LOCATE = SITE "P27" ; 
+COMP "A0B0_A1B2_CONFIG_1<3>" LOCATE = SITE "P26" ; 
+COMP "A0B0_A1B2_CONFIG_1<4>" LOCATE = SITE "P25" ; 
+COMP "A0B0_A1B2_CONFIG_2<0>" LOCATE = SITE "P24" ; 
+COMP "A0B0_A1B2_CONFIG_2<1>" LOCATE = SITE "P23" ; 
+COMP "A0B0_A1B2_CONFIG_2<2>" LOCATE = SITE "P20" ; 
+COMP "A0B0_A1B2_CONFIG_2<3>" LOCATE = SITE "P19" ; 
+COMP "A0B0_A1B2_CONFIG_2<4>" LOCATE = SITE "P18" ; 
+COMP "A0B0_A1B2_CONFIG_3<0>" LOCATE = SITE "P17" ; 
+COMP "A0B0_A1B2_CONFIG_3<1>" LOCATE = SITE "P16" ; 
+COMP "A0B0_A1B2_CONFIG_3<2>" LOCATE = SITE "P15" ; 
+COMP "A0B0_A1B2_CONFIG_3<3>" LOCATE = SITE "P14" ; 
+COMP "A0B0_A1B2_CONFIG_3<4>" LOCATE = SITE "P10" ; 
+COMP "A0B1_A1B3_CONFIG_1<0>" LOCATE = SITE "P35" ; 
+COMP "A0B1_A1B3_CONFIG_1<1>" LOCATE = SITE "P9" ; 
+COMP "A0B1_A1B3_CONFIG_1<2>" LOCATE = SITE "P36" ; 
+COMP "A0B1_A1B3_CONFIG_1<3>" LOCATE = SITE "P8" ; 
+COMP "A0B1_A1B3_CONFIG_1<4>" LOCATE = SITE "P7" ; 
+COMP "A0B1_A1B3_CONFIG_2<0>" LOCATE = SITE "P37" ; 
+COMP "A0B1_A1B3_CONFIG_2<1>" LOCATE = SITE "P6" ; 
+COMP "A0B1_A1B3_CONFIG_2<2>" LOCATE = SITE "P38" ; 
+COMP "A0B1_A1B3_CONFIG_2<3>" LOCATE = SITE "P5" ; 
+COMP "A0B1_A1B3_CONFIG_2<4>" LOCATE = SITE "P39" ; 
+COMP "A0B1_A1B3_CONFIG_3<0>" LOCATE = SITE "P4" ; 
+COMP "A0B1_A1B3_CONFIG_3<1>" LOCATE = SITE "P40" ; 
+COMP "A0B1_A1B3_CONFIG_3<2>" LOCATE = SITE "P3" ; 
+COMP "A0B1_A1B3_CONFIG_3<3>" LOCATE = SITE "P41" ; 
+COMP "A0B1_A1B3_CONFIG_3<4>" LOCATE = SITE "P84" ; 
+COMP "A2B0_A3B2_CONFIG_1<0>" LOCATE = SITE "P44" ; 
+COMP "A2B0_A3B2_CONFIG_1<2>" LOCATE = SITE "P45" ; 
+COMP "A2B0_A3B2_CONFIG_1<3>" LOCATE = SITE "P82" ; 
+COMP "A2B0_A3B2_CONFIG_1<4>" LOCATE = SITE "P46" ; 
+COMP "A2B0_A3B2_CONFIG_2<0>" LOCATE = SITE "P81" ; 
+COMP "A2B0_A3B2_CONFIG_2<1>" LOCATE = SITE "P47" ; 
+COMP "A2B0_A3B2_CONFIG_2<2>" LOCATE = SITE "P80" ; 
+COMP "A2B0_A3B2_CONFIG_2<3>" LOCATE = SITE "P48" ; 
+COMP "A2B0_A3B2_CONFIG_2<4>" LOCATE = SITE "P79" ; 
+COMP "A2B0_A3B2_CONFIG_3<0>" LOCATE = SITE "P49" ; 
+COMP "A2B0_A3B2_CONFIG_3<1>" LOCATE = SITE "P78" ; 
+COMP "A2B0_A3B2_CONFIG_3<2>" LOCATE = SITE "P50" ; 
+COMP "A2B0_A3B2_CONFIG_3<3>" LOCATE = SITE "P77" ; 
+COMP "A2B0_A3B2_CONFIG_3<4>" LOCATE = SITE "P51" ; 
+COMP "A2B1_A3B3_CONFIG_1<0>" LOCATE = SITE "P56" ; 
+COMP "A2B1_A3B3_CONFIG_1<1>" LOCATE = SITE "P57" ; 
+COMP "A2B1_A3B3_CONFIG_1<2>" LOCATE = SITE "P58" ; 
+COMP "A2B1_A3B3_CONFIG_1<3>" LOCATE = SITE "P59" ; 
+COMP "A2B1_A3B3_CONFIG_1<4>" LOCATE = SITE "P60" ; 
+COMP "A2B1_A3B3_CONFIG_2<0>" LOCATE = SITE "P61" ; 
+COMP "A2B1_A3B3_CONFIG_2<1>" LOCATE = SITE "P62" ; 
+COMP "A2B1_A3B3_CONFIG_2<2>" LOCATE = SITE "P65" ; 
+COMP "A2B1_A3B3_CONFIG_2<3>" LOCATE = SITE "P66" ; 
+COMP "A2B1_A3B3_CONFIG_2<4>" LOCATE = SITE "P67" ; 
+COMP "A2B1_A3B3_CONFIG_3<0>" LOCATE = SITE "P68" ; 
+COMP "A2B1_A3B3_CONFIG_3<1>" LOCATE = SITE "P69" ; 
+COMP "A2B1_A3B3_CONFIG_3<2>" LOCATE = SITE "P70" ; 
+COMP "A2B1_A3B3_CONFIG_3<3>" LOCATE = SITE "P71" ; 
+COMP "A2B1_A3B3_CONFIG_3<4>" LOCATE = SITE "P72" ; 
+COMP "CLK" LOCATE = SITE "P13" ; 
+COMP "RESET" LOCATE = SITE "P29" ; 
+#

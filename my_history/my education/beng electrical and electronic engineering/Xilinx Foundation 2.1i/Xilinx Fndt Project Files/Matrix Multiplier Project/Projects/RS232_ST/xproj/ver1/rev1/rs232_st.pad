@@ -1,0 +1,171 @@
+PAR: Xilinx Place And Route C.16.
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+Wed Jan 17 16:23:38 2001
+
+Xilinx PAD Specification File
+*****************************
+
+Input file:       map.ncd
+Output file:      rs232_st.ncd
+Part type:        xc4010xl
+Speed grade:      -09
+Package:          pc84
+
+Wed Jan 17 16:23:38 2001
+
+Pinout by Pin Name:
++------------------------------------------------+-----------+--------------+
+|                    Pin Name                    | Direction |  Pin Number  |
++------------------------------------------------+-----------+--------------+
+| CLK                                            |  INPUT    | P13          |
+| CLR                                            |  INPUT    | P40          |
+| EVEN                                           |  OUTPUT   | P65          |
+| ODD                                            |  OUTPUT   | P66          |
+| RS232_input                                    |  INPUT    | P61          |
+| S0                                             |  OUTPUT   | P20          |
+| S1                                             |  OUTPUT   | P18          |
+| S2                                             |  OUTPUT   | P4           |
+| S3                                             |  OUTPUT   | P19          |
+| S4                                             |  OUTPUT   | P23          |
+| S5                                             |  OUTPUT   | P24          |
+| S6                                             |  OUTPUT   | P25          |
++------------------------------------------------+-----------+--------------+
+|                Dedicated or Special Pin Name               |  Pin Number  |
++------------------------------------------------------------+--------------+
+| /PROG                                                      | P55          |
+| CCLK                                                       | P73          |
+| DONE                                                       | P53          |
+| GND                                                        | P1           |
+| GND                                                        | P31          |
+| GND                                                        | P12          |
+| GND                                                        | P21          |
+| GND                                                        | P43          |
+| GND                                                        | P76          |
+| GND                                                        | P52          |
+| GND                                                        | P64          |
+| M0                                                         | P32          |
+| M1                                                         | P30          |
+| M2                                                         | P34          |
+| TDO                                                        | TDO          |
+| TDO                                                        | P75          |
+| VCC                                                        | P63          |
+| VCC                                                        | P74          |
+| VCC                                                        | P2           |
+| VCC                                                        | P54          |
+| VCC                                                        | P33          |
+| VCC                                                        | P11          |
+| VCC                                                        | P42          |
+| VCC                                                        | P22          |
++------------------------------------------------------------+--------------+
+
+Pinout by Pin Number:
++--------------+-----------------------------------+-----------+------------+
+|  Pin Number  |            Pin Name               | Direction | Constraint |
++--------------+-----------------------------------+-----------+------------+
+| P1           | (GND)                             |           |            |
+| P2           | (VCC)                             |           |            |
+| P3           | ---                               |  UNUSED   |            |
+| P4           | S2                                |  OUTPUT   |            |
+| P5           | ---                               |  UNUSED   |            |
+| P6           | ---                               |  UNUSED   |            |
+| P7           | ---                               |  UNUSED   |            |
+| P8           | ---                               |  UNUSED   |            |
+| P9           | ---                               |  UNUSED   |            |
+| P10          | ---                               |  UNUSED   |            |
+| P11          | (VCC)                             |           |            |
+| P12          | (GND)                             |           |            |
+| P13          | CLK                               |  INPUT    |            |
+| P14          | ---                               |  UNUSED   |            |
+| P15          | ---                               |  UNUSED   |            |
+| P16          | ---                               |  UNUSED   |            |
+| P17          | ---                               |  UNUSED   |            |
+| P18          | S1                                |  OUTPUT   |            |
+| P19          | S3                                |  OUTPUT   |            |
+| P20          | S0                                |  OUTPUT   |            |
+| P21          | (GND)                             |           |            |
+| P22          | (VCC)                             |           |            |
+| P23          | S4                                |  OUTPUT   |            |
+| P24          | S5                                |  OUTPUT   |            |
+| P25          | S6                                |  OUTPUT   |            |
+| P26          | ---                               |  UNUSED   |            |
+| P27          | ---                               |  UNUSED   |            |
+| P28          | ---                               |  UNUSED   |            |
+| P29          | ---                               |  UNUSED   |            |
+| P30          | (M1)                              |           |            |
+| P31          | (GND)                             |           |            |
+| P32          | (M0)                              |           |            |
+| P33          | (VCC)                             |           |            |
+| P34          | (M2)                              |           |            |
+| P35          | ---                               |  UNUSED   |            |
+| P36          | ---                               |  UNUSED   |            |
+| P37          | ---                               |  UNUSED   |            |
+| P38          | ---                               |  UNUSED   |            |
+| P39          | ---                               |  UNUSED   |            |
+| P40          | CLR                               |  INPUT    |            |
+| P41          | ---                               |  UNUSED   |            |
+| P42          | (VCC)                             |           |            |
+| P43          | (GND)                             |           |            |
+| P44          | ---                               |  UNUSED   |            |
+| P45          | ---                               |  UNUSED   |            |
+| P46          | ---                               |  UNUSED   |            |
+| P47          | ---                               |  UNUSED   |            |
+| P48          | ---                               |  UNUSED   |            |
+| P49          | ---                               |  UNUSED   |            |
+| P50          | ---                               |  UNUSED   |            |
+| P51          | ---                               |  UNUSED   |            |
+| P52          | (GND)                             |           |            |
+| P53          | (DONE)                            |           |            |
+| P54          | (VCC)                             |           |            |
+| P55          | (/PROG)                           |           |            |
+| P56          | ---                               |  UNUSED   |            |
+| P57          | ---                               |  UNUSED   |            |
+| P58          | ---                               |  UNUSED   |            |
+| P59          | ---                               |  UNUSED   |            |
+| P60          | ---                               |  UNUSED   |            |
+| P61          | RS232_input                       |  INPUT    |            |
+| P62          | ---                               |  UNUSED   |            |
+| P63          | (VCC)                             |           |            |
+| P64          | (GND)                             |           |            |
+| P65          | EVEN                              |  OUTPUT   |            |
+| P66          | ODD                               |  OUTPUT   |            |
+| P67          | ---                               |  UNUSED   |            |
+| P68          | ---                               |  UNUSED   |            |
+| P69          | ---                               |  UNUSED   |            |
+| P70          | ---                               |  UNUSED   |            |
+| P71          | ---                               |  UNUSED   |            |
+| P72          | ---                               |  UNUSED   |            |
+| P73          | (CCLK)                            |           |            |
+| P74          | (VCC)                             |           |            |
+| P75          | (TDO)                             |           |            |
+| P76          | (GND)                             |           |            |
+| P77          | ---                               |  UNUSED   |            |
+| P78          | ---                               |  UNUSED   |            |
+| P79          | ---                               |  UNUSED   |            |
+| P80          | ---                               |  UNUSED   |            |
+| P81          | ---                               |  UNUSED   |            |
+| P82          | ---                               |  UNUSED   |            |
+| P83          | ---                               |  UNUSED   |            |
+| P84          | ---                               |  UNUSED   |            |
+| TDO          | (TDO)                             |           |            |
++--------------+-----------------------------------+-----------+------------+
+
+#
+# To preserve the pinout above for future design iterations,
+# simply run "Lock Pins..." from the Design Manager's Design 
+# menu, or invoke PIN2UCF from the command line. The location constraints
+# above will be written into your specified UCF file. (The constraints
+# listed below are in PCF format and cannot be directly used in the UCF file).
+#
+COMP "CLK" LOCATE = SITE "P13" ; 
+COMP "CLR" LOCATE = SITE "P40" ; 
+COMP "EVEN" LOCATE = SITE "P65" ; 
+COMP "ODD" LOCATE = SITE "P66" ; 
+COMP "RS232_input" LOCATE = SITE "P61" ; 
+COMP "S0" LOCATE = SITE "P20" ; 
+COMP "S1" LOCATE = SITE "P18" ; 
+COMP "S2" LOCATE = SITE "P4" ; 
+COMP "S3" LOCATE = SITE "P19" ; 
+COMP "S4" LOCATE = SITE "P23" ; 
+COMP "S5" LOCATE = SITE "P24" ; 
+COMP "S6" LOCATE = SITE "P25" ; 
+#

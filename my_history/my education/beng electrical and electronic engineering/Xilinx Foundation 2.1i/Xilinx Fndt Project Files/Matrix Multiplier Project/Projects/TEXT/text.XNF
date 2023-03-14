@@ -1,0 +1,42 @@
+LCANET, 6
+PROG, Synopsys, UNKNOWN, v3.2, Build 3.2.0.4201
+PART, 4010XL-BG256-09
+SYM, DRINK, Full_Adder, LIBVER=2.0.0
+PIN, C_IN, I, N_C, , 
+PIN, IN1, I, N_I, , 
+PIN, IN2, I, N_I2, , 
+PIN, SUM, O, N_S, , 
+PIN, C_OUT, O, N_CO, , 
+END
+SYM, ARSE, Half_Adder, LIBVER=2.0.0
+PIN, X, I, N_C, , 
+PIN, Y, I, N_I, , 
+PIN, SUM, O, N_S, , 
+PIN, CARRY, O, N_CO, , 
+END
+SYM, C0, IBUF, LIBVER=2.0.0
+PIN, O, O, N_C, , 
+PIN, I, I, C, , 
+END
+SYM, C1, IBUF, LIBVER=2.0.0
+PIN, O, O, N_I, , 
+PIN, I, I, I, , 
+END
+SYM, C2, IBUF, LIBVER=2.0.0
+PIN, O, O, N_I2, , 
+PIN, I, I, I2, , 
+END
+SYM, C3, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, S, , 
+PIN, I, I, N_S, , 
+END
+SYM, C4, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, CO, , 
+PIN, I, I, N_CO, , 
+END
+EXT, C, I, 
+EXT, I, I, 
+EXT, I2, I, 
+EXT, S, O, 
+EXT, CO, O, 
+EOF

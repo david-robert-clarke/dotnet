@@ -1,0 +1,35 @@
+package I;
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import java.awt.Component;
+/**
+   A java Swing application that shows a summary of all related profits
+   
+   @author David Clarke 
+**/
+public class ViewSummaryOfAllProfitsUI extends JFrame
+{
+  //instance variables
+  private JList viewSummaryList;
+  private Object[] levels;
+  private JScrollPane listScrollPane;
+
+  /**
+   * Constructor to create a new Summary interface
+   *
+   * @param levs a list of all stock profits
+   **/
+  public ViewSummaryOfAllProfitsUI(Object[] levs)
+  {
+    levels = levs;
+    viewSummaryList = new JList();
+    viewSummaryList.setEnabled(false);
+    listScrollPane = new JScrollPane(viewSummaryList);
+    Container contentPane = getContentPane();
+    contentPane.add(viewSummaryList,"Center");
+    viewSummaryList.setListData(levels);
+	
+  } 
+}

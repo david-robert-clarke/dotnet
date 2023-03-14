@@ -1,0 +1,4 @@
+Java Address Book File Mon Nov 25 17:09:49 GMT 2002.
+2
+Smith,John,0121 444 4444,0121 888 8888,,jsmith@virgin.net,3,The Green,Kings Norton,Birmingham,UK,B38 1QQ
+Brown,Edward,0121 333 2020,,,edbrown@freeserve.co.uk,650,Pershore Road,Selly Park,Birmingham,UK,B29 1AA

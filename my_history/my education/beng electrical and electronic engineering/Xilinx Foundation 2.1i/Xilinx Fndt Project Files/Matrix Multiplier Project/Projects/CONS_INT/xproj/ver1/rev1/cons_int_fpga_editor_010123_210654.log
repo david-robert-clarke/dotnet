@@ -1,0 +1,15 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 C.16
+#Design Path Name:
+#:N   cons_int.ncd
+#Current Working Directory:
+#:D   C:\Fndtn\Active\Projects\CONS_INT\xproj\ver1\rev1
+#Part Type:
+#:P  Xilinx xc4010xl pc84 -09
+#Date/Time:
+#:T   Tue Jan 23 21:06:30 2001
+#------------------------------
+	#1
+setattr main edit-mode read-only

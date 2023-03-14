@@ -1,0 +1,185 @@
+
+Xilinx Mapping Report File for Design 'cons_123'
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Design Information
+------------------
+Command Line   : m1map -p xc4010xl-09-pc84 -o map.ncd cons_123.ngd cons_123.pcf
+Target Device  : x4010xl
+Target Package : pc84
+Target Speed   : -09
+Mapper Version : xc4000xl -- C.22
+
+Design Summary
+--------------
+   Number of errors:        0
+   Number of warnings:      2
+   Number of CLBs:              3 out of   400    1%
+      CLB Flip Flops:       1
+      CLB Latches:          0
+      4 input LUTs:         5
+      3 input LUTs:         0
+   Number of bonded IOBs:      62 out of    65   95%
+      IOB Flops:           38
+      IOB Latches:          0
+   Number of clock IOB pads:    1 out of    12    8%
+   Number of BUFGLSs:           1 out of     8   12%
+   Number of startup:           1 out of     1  100%
+Total equivalent gate count for design: 264
+Additional JTAG gate count for IOBs:    2976
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Design Attributes
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - Added Logic
+Section 7 - Expanded Logic
+Section 8 - Signal Cross-Reference
+Section 9 - Symbol Cross-Reference
+Section 10 - IOB Properties
+Section 11 - RPMs
+Section 12 - Guide Report
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:OldMap:78 - All of the external outputs in this design are using
+   slew-rate-limited output drivers.  The delay on speed critical outputs can be
+   dramatically reduced by designating them as fast outputs in the original
+   design.  Please see your vendor interface documentation for specific
+   information on how to do this within your design-entry tool.
+   Note: You should be careful not to designate too many outputs which switch
+   together as fast, because this can cause excessive ground bounce.  For more
+   information on this subject, please refer to the IOB switching characteristic
+   guidelines for the device you are using in the Programmable Logic Data Book.
+WARNING:OldMap:548 - All the logic for "FMAP symbol "FMAP_0" (output
+   signal=N78)" has been removed!  This may be caused by key logic being
+   trimmed.  Please consult the Removed Logic section of this report to see if
+   this is the case.
+
+Section 3 - Design Attributes
+-----------------------------
+
+Section 4 - Removed Logic Summary
+---------------------------------
+  24 block(s) optimized away
+
+Section 5 - Removed Logic
+-------------------------
+
+Optimized Block(s):
+TYPE 		BLOCK
+DFF 		CONFIG_1_Asm_Config_1_A_CURRENT_STATE_reg<1>
+X_AND2 		c1016_c2/c1016_n1/2.0
+X_AND2 		c1016_c2/c1016_n1
+AND2 		c1016_c0
+X_AND2 		c1017_c2/c1017_n1/2.0
+X_AND2 		c1017_c2/c1017_n1
+X_AND2 		c1019_c2/c1019_n1/2.0
+X_AND2 		c1019_c2/c1019_n1
+AND2 		c1020_c1
+X_AND2 		c1021_c0/CONFIG_1_DSP_1_SOP_BUS<2>/2.0
+X_AND2 		c1022_c1/c1022_n0/2.0
+X_AND2 		c1022_c1/c1022_n0
+AND2 		c1023_c3
+X_AND2 		c1023_c0/N63/2.0
+DFF 		CONFIG_1_Asm_Config_1_A_CURRENT_STATE_reg<2>
+DFF 		CONFIG_1_Asm_Config_1_A_CURRENT_STATE_reg<3>
+X_ZERO 		N_RESET.ZERO
+BUF 		c1020_c0
+FMAP 		FMAP_4
+X_AND2 		c1021_c0/CONFIG_1_DSP_1_SOP_BUS<2>
+FMAP 		FMAP_5
+BUF 		c1022_c0
+FMAP 		FMAP_6
+X_ONE 		N1.ONE
+
+Section 6 - Added Logic
+-----------------------
+
+Section 7 - Expanded Logic
+--------------------------
+To enable this section, set the detailed map report option and rerun map.
+
+Section 8 - Signal Cross-Reference
+----------------------------------
+To enable this section, set the detailed map report option and rerun map.
+
+Section 9 - Symbol Cross-Reference
+----------------------------------
+To enable this section, set the detailed map report option and rerun map.
+
+Section 10 - IOB Properties
+---------------------------
+"A0B0_A1B2_CONFIG_1<0>" (IOB) : SLEW=SLOW OUTFF
+"A0B0_A1B2_CONFIG_1<1>" (IOB) : SLEW=SLOW OUTFF
+"A0B0_A1B2_CONFIG_1<2>" (IOB) : SLEW=SLOW OUTFF
+"A0B0_A1B2_CONFIG_1<3>" (IOB) : SLEW=SLOW OUTFF
+"A0B0_A1B2_CONFIG_1<4>" (IOB) : SLEW=SLOW
+"A0B0_A1B2_CONFIG_2<0>" (IOB) : SLEW=SLOW OUTFF
+"A0B0_A1B2_CONFIG_2<1>" (IOB) : SLEW=SLOW
+"A0B0_A1B2_CONFIG_2<2>" (IOB) : SLEW=SLOW OUTFF
+"A0B0_A1B2_CONFIG_2<3>" (IOB) : SLEW=SLOW
+"A0B0_A1B2_CONFIG_2<4>" (IOB) : SLEW=SLOW
+"A0B0_A1B2_CONFIG_3<0>" (IOB) : SLEW=SLOW OUTFF
+"A0B0_A1B2_CONFIG_3<1>" (IOB) : SLEW=SLOW
+"A0B0_A1B2_CONFIG_3<2>" (IOB) : SLEW=SLOW OUTFF
+"A0B0_A1B2_CONFIG_3<3>" (IOB) : SLEW=SLOW
+"A0B0_A1B2_CONFIG_3<4>" (IOB) : SLEW=SLOW
+"A0B1_A1B3_CONFIG_1<0>" (IOB) : SLEW=SLOW OUTFF
+"A0B1_A1B3_CONFIG_1<1>" (IOB) : SLEW=SLOW OUTFF
+"A0B1_A1B3_CONFIG_1<2>" (IOB) : SLEW=SLOW OUTFF
+"A0B1_A1B3_CONFIG_1<3>" (IOB) : SLEW=SLOW OUTFF
+"A0B1_A1B3_CONFIG_1<4>" (IOB) : SLEW=SLOW
+"A0B1_A1B3_CONFIG_2<0>" (IOB) : SLEW=SLOW OUTFF
+"A0B1_A1B3_CONFIG_2<1>" (IOB) : SLEW=SLOW OUTFF
+"A0B1_A1B3_CONFIG_2<2>" (IOB) : SLEW=SLOW OUTFF
+"A0B1_A1B3_CONFIG_2<3>" (IOB) : SLEW=SLOW OUTFF
+"A0B1_A1B3_CONFIG_2<4>" (IOB) : SLEW=SLOW
+"A0B1_A1B3_CONFIG_3<0>" (IOB) : SLEW=SLOW OUTFF
+"A0B1_A1B3_CONFIG_3<1>" (IOB) : SLEW=SLOW OUTFF
+"A0B1_A1B3_CONFIG_3<2>" (IOB) : SLEW=SLOW
+"A0B1_A1B3_CONFIG_3<3>" (IOB) : SLEW=SLOW OUTFF
+"A0B1_A1B3_CONFIG_3<4>" (IOB) : SLEW=SLOW
+"A2B0_A3B2_CONFIG_1<0>" (IOB) : SLEW=SLOW OUTFF
+"A2B0_A3B2_CONFIG_1<1>" (IOB) : SLEW=SLOW OUTFF
+"A2B0_A3B2_CONFIG_1<2>" (IOB) : SLEW=SLOW OUTFF
+"A2B0_A3B2_CONFIG_1<3>" (IOB) : SLEW=SLOW OUTFF
+"A2B0_A3B2_CONFIG_1<4>" (IOB) : SLEW=SLOW
+"A2B0_A3B2_CONFIG_2<0>" (IOB) : SLEW=SLOW OUTFF
+"A2B0_A3B2_CONFIG_2<1>" (IOB) : SLEW=SLOW
+"A2B0_A3B2_CONFIG_2<2>" (IOB) : SLEW=SLOW OUTFF
+"A2B0_A3B2_CONFIG_2<3>" (IOB) : SLEW=SLOW
+"A2B0_A3B2_CONFIG_2<4>" (IOB) : SLEW=SLOW
+"A2B0_A3B2_CONFIG_3<0>" (IOB) : SLEW=SLOW OUTFF
+"A2B0_A3B2_CONFIG_3<1>" (IOB) : SLEW=SLOW
+"A2B0_A3B2_CONFIG_3<2>" (IOB) : SLEW=SLOW OUTFF
+"A2B0_A3B2_CONFIG_3<3>" (IOB) : SLEW=SLOW
+"A2B0_A3B2_CONFIG_3<4>" (IOB) : SLEW=SLOW
+"A2B1_A3B3_CONFIG_1<0>" (IOB) : SLEW=SLOW OUTFF
+"A2B1_A3B3_CONFIG_1<1>" (IOB) : SLEW=SLOW OUTFF
+"A2B1_A3B3_CONFIG_1<2>" (IOB) : SLEW=SLOW OUTFF
+"A2B1_A3B3_CONFIG_1<3>" (IOB) : SLEW=SLOW OUTFF
+"A2B1_A3B3_CONFIG_1<4>" (IOB) : SLEW=SLOW
+"A2B1_A3B3_CONFIG_2<0>" (IOB) : SLEW=SLOW OUTFF
+"A2B1_A3B3_CONFIG_2<1>" (IOB) : SLEW=SLOW OUTFF
+"A2B1_A3B3_CONFIG_2<2>" (IOB) : SLEW=SLOW OUTFF
+"A2B1_A3B3_CONFIG_2<3>" (IOB) : SLEW=SLOW OUTFF
+"A2B1_A3B3_CONFIG_2<4>" (IOB) : SLEW=SLOW
+"A2B1_A3B3_CONFIG_3<0>" (IOB) : SLEW=SLOW OUTFF
+"A2B1_A3B3_CONFIG_3<1>" (IOB) : SLEW=SLOW OUTFF
+"A2B1_A3B3_CONFIG_3<2>" (IOB) : SLEW=SLOW OUTFF
+"A2B1_A3B3_CONFIG_3<3>" (IOB) : SLEW=SLOW
+"A2B1_A3B3_CONFIG_3<4>" (IOB) : SLEW=SLOW
+
+Section 11 - RPMs
+-----------------
+
+Section 12 - Guide Report
+-------------------------
+Guide not run on this design.

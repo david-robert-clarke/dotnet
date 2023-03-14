@@ -1,0 +1,20 @@
+Library IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_ARITH.ALL;
+
+ENTITY MUL_1_x64 IS
+PORT (A_IN, B_IN : IN UNSIGNED (63 downto 0); Z_OUT : OUT UNSIGNED (63 downto 0));
+END ENTITY;
+
+ARCHITECTURE STRUCTURAL OF MUL_1_x64 IS
+
+Component MUL_1 IS
+PORT (A, B : IN UNSIGNED; Z : OUT UNSIGNED);
+END Component;
+
+BEGIN 
+        U1: for i in 0 to 63 generate
+        moo : MUL_1 port map (A => A_IN(i), B => B_IN(i), Z => Z_OUT(i));
+        end generate;
+        
+END ARCHITECTURE structural;

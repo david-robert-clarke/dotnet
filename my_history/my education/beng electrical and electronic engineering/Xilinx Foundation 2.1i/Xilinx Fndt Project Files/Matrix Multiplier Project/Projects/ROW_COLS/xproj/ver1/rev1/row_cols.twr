@@ -1,0 +1,120 @@
+--------------------------------------------------------------------------------
+Xilinx TRACE, Version C.16
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Design file:              row_cols.ncd
+Physical constraint file: row_cols.pcf
+Device,speed:             xc4085xl,-09 (C 1.1.2.2 PRELIMINARY)
+Report level:             error report
+--------------------------------------------------------------------------------
+
+WARNING:Timing - No timing constraints found, doing default enumeration.
+
+================================================================================
+Timing constraint: Default period analysis
+ 10016 items analyzed, 0 timing errors detected.
+ Minimum period is  69.421ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: Default net enumeration
+ 740 items analyzed, 0 timing errors detected.
+ Maximum net delay is  30.696ns.
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CLK
+---------------+------------+------------+
+               |  Setup to  |  Hold to   |
+Source Pad     | clk (edge) | clk (edge) |
+---------------+------------+------------+
+ENABLE         |   27.021(R)|    2.191(R)|
+INPUT_B34<0>   |   52.773(R)|    0.000(R)|
+INPUT_A43<0>   |   61.226(R)|    0.000(R)|
+INPUT_A44<0>   |   57.765(R)|    0.000(R)|
+INPUT_B44<0>   |   56.689(R)|    0.000(R)|
+INPUT_B14<0>   |   48.135(R)|    0.000(R)|
+INPUT_A41<0>   |   44.952(R)|    0.000(R)|
+INPUT_B24<0>   |   51.139(R)|    0.000(R)|
+INPUT_A42<0>   |   49.039(R)|    0.000(R)|
+INPUT_A34<1>   |   42.070(R)|    0.000(R)|
+INPUT_B44<1>   |   47.835(R)|    0.000(R)|
+INPUT_A33<1>   |   39.742(R)|    0.000(R)|
+INPUT_B34<1>   |   49.584(R)|    0.000(R)|
+INPUT_A32<1>   |   50.622(R)|    0.000(R)|
+INPUT_B24<1>   |   44.153(R)|    0.000(R)|
+INPUT_A31<1>   |   46.260(R)|    0.000(R)|
+INPUT_B14<1>   |   54.466(R)|    0.000(R)|
+INPUT_A31<0>   |   53.919(R)|    0.000(R)|
+INPUT_A32<0>   |   40.384(R)|    0.000(R)|
+INPUT_A33<0>   |   45.969(R)|    0.000(R)|
+INPUT_A34<0>   |   48.992(R)|    0.000(R)|
+INPUT_A23<0>   |   49.689(R)|    0.000(R)|
+INPUT_A24<0>   |   47.599(R)|    0.000(R)|
+INPUT_A21<0>   |   42.836(R)|    0.000(R)|
+INPUT_A22<0>   |   51.936(R)|    0.000(R)|
+INPUT_A24<1>   |   42.032(R)|    0.000(R)|
+INPUT_A23<1>   |   47.924(R)|    0.000(R)|
+INPUT_A22<1>   |   42.252(R)|    0.000(R)|
+INPUT_A21<1>   |   52.594(R)|    0.000(R)|
+INPUT_A11<0>   |   42.943(R)|    0.000(R)|
+INPUT_A12<0>   |   45.874(R)|    0.000(R)|
+INPUT_A13<0>   |   44.692(R)|    0.000(R)|
+INPUT_A14<0>   |   43.690(R)|    0.000(R)|
+INPUT_A14<1>   |   41.959(R)|    0.000(R)|
+INPUT_A13<1>   |   55.370(R)|    0.000(R)|
+INPUT_A12<1>   |   43.833(R)|    0.000(R)|
+INPUT_A11<1>   |   48.216(R)|    0.000(R)|
+INPUT_A44<1>   |   46.142(R)|    0.000(R)|
+INPUT_A43<1>   |   64.889(R)|    0.000(R)|
+INPUT_A42<1>   |   45.266(R)|    0.000(R)|
+INPUT_A41<1>   |   60.106(R)|    0.000(R)|
+INPUT_B13<0>   |   41.146(R)|    0.000(R)|
+INPUT_B23<0>   |   45.910(R)|    0.000(R)|
+INPUT_B33<0>   |   32.693(R)|    0.000(R)|
+INPUT_B43<0>   |   42.266(R)|    0.000(R)|
+INPUT_B43<1>   |   43.053(R)|    0.000(R)|
+INPUT_B33<1>   |   41.444(R)|    0.000(R)|
+INPUT_B23<1>   |   41.800(R)|    0.000(R)|
+INPUT_B13<1>   |   41.870(R)|    0.000(R)|
+INPUT_B32<0>   |   55.339(R)|    0.000(R)|
+INPUT_B42<0>   |   60.214(R)|    0.000(R)|
+INPUT_B12<0>   |   44.585(R)|    0.000(R)|
+INPUT_B22<0>   |   47.475(R)|    0.000(R)|
+INPUT_B42<1>   |   48.490(R)|    0.000(R)|
+INPUT_B32<1>   |   53.321(R)|    0.000(R)|
+INPUT_B22<1>   |   48.145(R)|    0.000(R)|
+INPUT_B12<1>   |   46.769(R)|    0.000(R)|
+INPUT_B31<0>   |   44.918(R)|    0.000(R)|
+INPUT_B41<0>   |   43.796(R)|    0.000(R)|
+INPUT_B11<0>   |   45.812(R)|    0.000(R)|
+INPUT_B21<0>   |   40.038(R)|    0.000(R)|
+INPUT_B41<1>   |   39.023(R)|    0.000(R)|
+INPUT_B31<1>   |   39.893(R)|    0.000(R)|
+INPUT_B21<1>   |   39.955(R)|    0.000(R)|
+INPUT_B11<1>   |   41.025(R)|    0.000(R)|
+---------------+------------+------------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 10016 paths, 740 nets, and 1714 connections (100.0% coverage)
+
+Design statistics:
+   Minimum period:  69.421ns (Maximum frequency:  14.405MHz)
+   Maximum net delay:  30.696ns
+
+
+Analysis completed Fri Feb 02 01:17:21 2001
+--------------------------------------------------------------------------------
+

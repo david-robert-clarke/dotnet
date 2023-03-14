@@ -1,0 +1,27 @@
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\userconf\rom_matrix_store.vhd Error   L19/C0 : #0 Error: C:/fndtn/active/projects/userconf/rom_matrix_store.vhd  line 19   Discrete range is not consistent with corresponding index subtype (too many elements). (VSS-733)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: 
+CM: 
+CM: Checking...
+CM: Errors report not available
+CM: 
+CM: Checking...
+CM: Errors report not available

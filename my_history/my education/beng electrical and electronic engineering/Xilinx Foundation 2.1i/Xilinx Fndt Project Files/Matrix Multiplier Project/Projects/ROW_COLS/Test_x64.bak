@@ -1,0 +1,25 @@
+-- Final Year Project
+-- By David Clarke
+-- Created 30_1_2001
+USE WORK.MATRIX_PACKAGE.ALL;
+
+ENTITY Multipliers_two_bits_x64 IS
+PORT (AIN1, AIN, BIN1, BIN : IN U_X_Long_word; 
+      ZOUT3, ZOUT2, ZOUT1, ZOUT : OUT X_Long_word);
+END ENTITY Multipliers_two_bits_x64;
+
+ARCHITECTURE Structural of Multipliers_two_bits_x64 is
+
+Component MUL_TWO_BITS IS 
+	PORT (A, B : IN U_TWO_BITS; Z : OUT NIBBLE);
+END Component MUL_TWO_BITS;
+
+Begin
+
+U1 : for i in 63 downto 0 generate                                 
+MUL_63	: MUL_TWO_BITS port map (a(1) => AIN1(i+64), a(0) => AIN(i),   
+                                 b(1) => BIN1(i+64), b(0) => AIN(i),
+                                 z(3) => ZOUT3(i+192), z(2) => ZOUT2(i+128), 
+                                 z(1) => ZOUT1(i+64),  z(0) => ZOUT(i));
+end generate U1;
+END ARCHITECTURE Structural;

@@ -1,0 +1,168 @@
+
+Xilinx Mapping Report File for Design 'rs232sch'
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Design Information
+------------------
+Command Line   : m1map -p xc4002xl-09-pc84 -o map.ncd rs232sch.ngd rs232sch.pcf
+Target Device  : x4002xl
+Target Package : pc84
+Target Speed   : -09
+Mapper Version : xc4000xl -- C.22
+
+Design Summary
+--------------
+Number of errors   :   1
+Number of warnings :   0
+
+Section 1 - Errors
+------------------
+ERROR:OldMap:206 - NCD was not produced. All logic was removed from design.
+   This is usually due to having no input or output PAD connections in the
+   design and no nets or symbols marked as 'SAVE'. You can either add PADs or
+   'SAVE' attributes to the design, or run 'map -u' to disable logic trimming in
+   the mapper.
+
+Section 2 - Warnings
+--------------------
+
+Section 4 - Removed Logic Summary
+---------------------------------
+  59 block(s) removed
+  63 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+The signal "CDDEN" is loadless and has been removed.
+ Loadless block "H2/$I80/CDDEN" (X_AND2) removed.
+  The signal "CDDEN/2.0" is loadless and has been removed.
+   Loadless block "H2/$I80/CDDEN/2.0" (X_AND2) removed.
+    The signal "H2/CS1" is loadless and has been removed.
+     Loadless block "H2/$I74/$1I39/$1I37" (FDCE) removed.
+      The signal "H2/$I74/D_R" is loadless and has been removed.
+       Loadless block "H2/$I74/$1I41" (AND2B1) removed.
+        The signal "RESET" is loadless and has been removed.
+        The signal "H2/NS1" is loadless and has been removed.
+         Loadless block "H2/$I71/H2/NS1" (X_OR2) removed.
+          The signal "H2/NS1/4.0" is loadless and has been removed.
+           Loadless block "H2/$I71/H2/NS1/4.0/H2/NS1/4.0" (X_OR2) removed.
+            The signal "H2/NS1/4.0/2.0" is loadless and has been removed.
+             Loadless block "H2/$I71/H2/NS1/4.0/H2/NS1/4.0/2.0" (X_OR2) removed.
+              The signal "H2/$Net00020_" is loadless and has been removed.
+               Loadless block "H2/$I62/H2/$Net00020_" (X_AND2) removed.
+                The signal "H2/$Net00020_/2.0" is loadless and has been removed.
+                 Loadless block "H2/$I62/H2/$Net00020_/2.0" (X_AND2) removed.
+                  The signal "H2/CS0" is loadless and has been removed.
+                   Loadless block "H2/$I75/$1I39/$1I37" (FDCE) removed.
+                    The signal "H2/$I75/D_R" is loadless and has been removed.
+                     Loadless block "H2/$I75/$1I41" (AND2B1) removed.
+                      The signal "H2/NS0" is loadless and has been removed.
+                       Loadless block "H2/$I72/$1I85/H2/NS0" (X_OR2) removed.
+                        The signal "H2/NS0/2.0" is loadless and has been removed.
+                         Loadless block "H2/$I72/$1I85/H2/NS0/2.0" (X_OR2) removed.
+                          The signal "H2/$I72/I35" is loadless and has been removed.
+                           Loadless block "H2/$I72/$1I69/H2/$I72/I35" (X_OR2) removed.
+                            The signal "H2/$I72/I35/2.0" is loadless and has been removed.
+                             Loadless block "H2/$I72/$1I69/H2/$I72/I35/2.0" (X_OR2) removed.
+                              The signal "H2/$Net00027_" is loadless and has been removed.
+                               Loadless block "H2/$I64" (AND2) removed.
+                                The signal "H2/CS2" is loadless and has been removed.
+                                 Loadless block "H2/$I73/$1I39/$1I37" (FDCE) removed.
+                                  The signal "H2/$I73/D_R" is loadless and has been removed.
+                                   Loadless block "H2/$I73/$1I41" (AND2B1) removed.
+                                    The signal "H2/NS2" is loadless and has been removed.
+                                     Loadless block "H2/$I70/H2/NS2" (X_OR2) removed.
+                                      The signal "H2/NS2/2.0" is loadless and has been removed.
+                                       Loadless block "H2/$I70/H2/NS2/2.0" (X_OR2) removed.
+                                        The signal "H2/$Net00016_" is loadless and has been removed.
+                                         Loadless block "H2/$I56" (AND2) removed.
+                                        The signal "H2/$Net00015_" is loadless and has been removed.
+                                         Loadless block "H2/$I57" (AND2) removed.
+                                      The signal "H2/$Net00017_" is loadless and has been removed.
+                                       Loadless block "H2/$I58" (AND2B1) removed.
+                                  The signal "CLK" is loadless and has been removed.
+                                  The signal "H2/$I73/$1I39/$Net01050_" is loadless and has been removed.
+                                   Loadless block "H2/$I73/$1I39/$1I40" (VCC) removed.
+                                  The signal "H2/$I73/$1I39/$Net01051_" is loadless and has been removed.
+                                   Loadless block "H2/$I73/$1I39/$1I43" (GND) removed.
+                              The signal "H2/$Net00025_" is loadless and has been removed.
+                               Loadless block "H2/$I65" (AND2) removed.
+                            The signal "H2/$Net00024_" is loadless and has been removed.
+                             Loadless block "H2/$I66/H2/$Net00024_" (X_AND2) removed.
+                              The signal "H2/$Net00024_/2.0" is loadless and has been removed.
+                               Loadless block "H2/$I66/H2/$Net00024_/2.0" (X_AND2) removed.
+                                The signal "CT1Z" is loadless and has been removed.
+                              The signal "S" is loadless and has been removed.
+                          The signal "H2/$I72/I12" is loadless and has been removed.
+                           Loadless block "H2/$I72/$1I84" (OR2) removed.
+                            The signal "H2/$Net00026_" is loadless and has been removed.
+                             Loadless block "H2/$I68/H2/$Net00026_" (X_AND2) removed.
+                              The signal "H2/$Net00026_/2.0" is loadless and has been removed.
+                               Loadless block "H2/$I68/H2/$Net00026_/2.0" (X_AND2) removed.
+                              The signal "H2/$Net00026_/2.1" is loadless and has been removed.
+                               Loadless block "H2/$I68/H2/$Net00026_/2.1" (X_AND2) removed.
+                            The signal "H2/$Net00023_" is loadless and has been removed.
+                             Loadless block "H2/$I67/H2/$Net00023_" (X_AND2) removed.
+                              The signal "H2/$Net00023_/2.0" is loadless and has been removed.
+                               Loadless block "H2/$I67/H2/$Net00023_/2.0" (X_AND2) removed.
+                        The signal "H2/$Net00028_" is loadless and has been removed.
+                         Loadless block "H2/$I69/H2/$Net00028_" (X_AND2) removed.
+                          The signal "H2/$Net00028_/2.0" is loadless and has been removed.
+                           Loadless block "H2/$I69/H2/$Net00028_/2.0" (X_AND2) removed.
+                          The signal "H2/$Net00028_/2.1" is loadless and has been removed.
+                           Loadless block "H2/$I69/H2/$Net00028_/2.1" (X_AND2) removed.
+                    The signal "H2/$I75/$1I39/$Net01050_" is loadless and has been removed.
+                     Loadless block "H2/$I75/$1I39/$1I40" (VCC) removed.
+                    The signal "H2/$I75/$1I39/$Net01051_" is loadless and has been removed.
+                     Loadless block "H2/$I75/$1I39/$1I43" (GND) removed.
+                The signal "H2/$Net00020_/2.1" is loadless and has been removed.
+                 Loadless block "H2/$I62/H2/$Net00020_/2.1" (X_AND2) removed.
+              The signal "H2/$Net00018_" is loadless and has been removed.
+               Loadless block "H2/$I61" (AND2B1) removed.
+            The signal "H2/NS1/4.0/2.1" is loadless and has been removed.
+             Loadless block "H2/$I71/H2/NS1/4.0/H2/NS1/4.0/2.1" (X_OR2) removed.
+              The signal "H2/$Net00019_" is loadless and has been removed.
+               Loadless block "H2/$I60/H2/$Net00019_" (X_AND2) removed.
+                The signal "H2/$Net00019_/2.0" is loadless and has been removed.
+                 Loadless block "H2/$I60/H2/$Net00019_/2.0" (X_AND2) removed.
+              The signal "H2/$Net00021_" is loadless and has been removed.
+               Loadless block "H2/$I59" (AND2B1) removed.
+          The signal "H2/$Net00022_" is loadless and has been removed.
+           Loadless block "H2/$I63/H2/$Net00022_" (X_AND2) removed.
+            The signal "H2/$Net00022_/2.0" is loadless and has been removed.
+             Loadless block "H2/$I63/H2/$Net00022_/2.0" (X_AND2) removed.
+            The signal "H2/$Net00022_/2.1" is loadless and has been removed.
+             Loadless block "H2/$I63/H2/$Net00022_/2.1" (X_AND2) removed.
+      The signal "H2/$I74/$1I39/$Net01050_" is loadless and has been removed.
+       Loadless block "H2/$I74/$1I39/$1I40" (VCC) removed.
+      The signal "H2/$I74/$1I39/$Net01051_" is loadless and has been removed.
+       Loadless block "H2/$I74/$1I39/$1I43" (GND) removed.
+The signal "UP" is loadless and has been removed.
+ Loadless block "H2/$I77/UP" (X_AND2) removed.
+  The signal "UP/2.0" is loadless and has been removed.
+   Loadless block "H2/$I77/UP/2.0" (X_AND2) removed.
+The signal "LOAD" is loadless and has been removed.
+ Loadless block "H2/$I79/LOAD" (X_AND2) removed.
+  The signal "LOAD/2.0" is loadless and has been removed.
+   Loadless block "H2/$I79/LOAD/2.0" (X_AND2) removed.
+The signal "CT1EN" is loadless and has been removed.
+ Loadless block "H2/$I76" (AND2) removed.
+The signal "DECEN" is loadless and has been removed.
+ Loadless block "H2/$I78/DECEN" (X_AND2) removed.
+  The signal "DECEN/2.0" is loadless and has been removed.
+   Loadless block "H2/$I78/DECEN/2.0" (X_AND2) removed.
+The signal "PTEN" is loadless and has been removed.
+ Loadless block "H2/$I81/PTEN" (X_AND2) removed.
+  The signal "PTEN/2.0" is loadless and has been removed.
+   Loadless block "H2/$I81/PTEN/2.0" (X_AND2) removed.

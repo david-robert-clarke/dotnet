@@ -1,0 +1,726 @@
+package I;
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import javax.swing.event.*;
+import java.sql.*;
+import java.io.*;
+import java.util.*;
+
+/**
+ * StaffOptions
+ * 
+ * 
+ * Created: Fri Mar 21 11:02:32 2003
+ * 
+ * @author <a href="mailto:msc88drc@acws-3437.cs.bham.ac.uk">David R Clarke</a>
+ * @version
+ */
+ 
+public class StaffUI extends JFrame
+{
+  //Instance variables
+
+  //Strings
+  private String sid, fName, position, todaysDate ;
+
+  //Arrays
+  private String[] cdData;
+
+  //ArrayList
+  private ArrayList theSuppliers;
+  private ArrayList theStaff;
+  
+  //tabs
+  private JTabbedPane tabbedPane;
+  
+  //lists
+  private JList stockList, supplierList, staffOrderList;
+  private JList staffList, customerList;
+
+  //panels
+  private JPanel stockPanel, supplierPanel, managerPanel;
+  private JPanel staffOrderPanel;
+  private JPanel staffPanel, customerPanel;
+  private JPanel topPanel,bottomPanel,areaPanel;
+
+  //Labels  
+  private JLabel salesSummaryLabel;
+  private JLabel greeting, advice;
+
+  //Buttons  
+  private JButton addProductButton, removeProductButton, editProductButton;
+  private JButton addSupplierButton, removeSupplierButton;
+  private JButton editViewSupplierDetailsButton;
+  private JButton viewStockLevelsButton; 
+  private JButton iSalesProfile, aSalesProfile; 
+  private JButton changePWButton, editConDetButton;
+  private JButton addStaffButton;
+  private JButton removeStaffButton;
+  private JButton editStaffButton;
+  private JButton editCustomerButton;
+  private JButton addStaffOrderButton;
+  private JButton removeStaffOrderButton;
+  private JButton editViewStaffOrderButton;
+  private JButton individualSalesButton;
+
+  //ComboBoxes
+  private JComboBox timePeriod0;
+  private JComboBox timePeriod1;
+
+
+  //CONSTRUCTOR
+  public StaffUI(String staffID, String firstName, String posit)
+  {
+
+    //required by the staffUI in order to enable or disable the Managerial
+    //options tab
+    sid = staffID;
+    fName = firstName;
+    position = posit;
+      
+    //create a new Tabbed Pane
+    tabbedPane = new JTabbedPane();
+
+
+    //Staff Details Tab
+    topPanel = new JPanel();
+    topPanel.setLayout(new GridLayout(4,1));
+    greeting = new JLabel("Welcome -" +  fName + "- to the Staff User"+
+			  " Interface.");
+    advice = new JLabel("Choose an Option:");
+    topPanel.add(greeting);
+    topPanel.add(new JLabel(""));
+    topPanel.add(new JLabel(""));
+    topPanel.add(advice);
+    bottomPanel = new JPanel();
+    changePWButton = new JButton("Change Password");
+    changePWButton.addActionListener(new StaffDButtonListener());
+    editConDetButton = new JButton("Edit Contact Details");
+    editConDetButton.addActionListener(new StaffDButtonListener());
+    bottomPanel.setLayout(new GridLayout(4,1));
+    bottomPanel.add(changePWButton);
+    bottomPanel.add(editConDetButton);
+    areaPanel = new JPanel();
+    areaPanel.setLayout(new GridLayout(2,1));    
+    areaPanel.add(topPanel);
+    areaPanel.add(bottomPanel);
+    tabbedPane.add(areaPanel, "YOUR DETAILS");
+
+
+    //Stock Tab      
+    addProductButton = new JButton("Add");
+    addProductButton.addActionListener(new StockListener());
+    removeProductButton = new JButton("Remove");
+    removeProductButton.addActionListener(new StockListener());      
+    editProductButton = new JButton("Edit");
+    editProductButton.addActionListener(new StockListener());
+    viewStockLevelsButton = new JButton("View Levels");   
+    viewStockLevelsButton.addActionListener(new StockListener()); 
+    stockPanel = new JPanel();
+    stockPanel.add(addProductButton);
+    stockPanel.add(removeProductButton);
+    stockPanel.add(editProductButton);
+    stockPanel.add(viewStockLevelsButton);
+    stockList = new JList();
+    stockList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+    stockList.setSelectedIndex(0);
+    JScrollPane listScrollPane = new JScrollPane(stockList);    
+    // get the CD details from the cd table
+    // Create a result set containing all data from my_table
+    updateList();   
+    JPanel replacePanel = new JPanel();
+    replacePanel.setLayout(new GridLayout(2,1));
+    replacePanel.add(stockPanel);
+    replacePanel.add(stockList);
+    tabbedPane.addTab("STOCK",  replacePanel);
+
+    //Customer Tab
+    editCustomerButton = new JButton("Edit/View Details");
+    editCustomerButton.addActionListener(new CustomerListener());
+    customerPanel = new JPanel();
+    customerPanel.add(editCustomerButton);
+    customerList = new JList();
+    customerList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+    customerList.setSelectedIndex(0);
+    // get the customer details from the customer table
+    // Create a result set containing all data from my_table
+    updateList();
+    JPanel newPanel = new JPanel();
+    newPanel.setLayout(new GridLayout(2,1));
+    newPanel.add(customerPanel);
+    newPanel.add(customerList);
+    tabbedPane.addTab("CUSTOMER", newPanel);
+
+    
+    //Supplier Tab
+    addSupplierButton = new JButton("Add");
+    addSupplierButton.addActionListener(new SupplierListener());
+    removeSupplierButton = new JButton("Remove");
+    removeSupplierButton.addActionListener(new SupplierListener());
+    editViewSupplierDetailsButton = new JButton("Edit/View Details");
+    editViewSupplierDetailsButton.addActionListener(new SupplierListener());
+    supplierPanel = new JPanel();
+    supplierPanel.add(addSupplierButton);
+    supplierPanel.add(removeSupplierButton);
+    supplierPanel.add(editViewSupplierDetailsButton); 
+    supplierList = new JList();
+    supplierList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+    supplierList.setSelectedIndex(0);
+    JScrollPane supListScrollPane = new JScrollPane(supplierList);   
+    // Get the supplier name from the supplier table
+    // Display all the suppliers in a JList
+    GetSupplierNameQuery querySuppliers = new GetSupplierNameQuery();
+    ArrayList theSuppliers = querySuppliers.exeQuery();  
+    Object[] supplierData = new Object[20];//could be more, hopefully less
+    supplierData = theSuppliers.toArray();
+    supplierList.setListData(supplierData);  
+    JPanel supplierAreaPanel = new JPanel();
+    supplierAreaPanel.setLayout(new GridLayout(2,1));
+    supplierAreaPanel.add(supplierPanel);
+    supplierAreaPanel.add(supplierList);
+    tabbedPane.addTab("SUPPLIER", supplierAreaPanel);
+       
+    //Staff Tab
+    addStaffButton = new JButton("Add");
+    addStaffButton.addActionListener(new StaffListener());
+    removeStaffButton = new JButton("Remove");
+    removeStaffButton.addActionListener(new StaffListener());
+    editStaffButton = new JButton("Edit/View Details");
+    editStaffButton.addActionListener(new StaffListener());
+    staffPanel = new JPanel();
+    staffPanel.add(addStaffButton);
+    staffPanel.add(removeStaffButton);
+    staffPanel.add(editStaffButton);
+    staffList = new JList();
+    staffList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+    staffList.setSelectedIndex(0);
+    JScrollPane staffListScrollPane = new JScrollPane(staffList);
+    // Get the staff name from the staff table
+    // Display all the staff in a JList
+    GetStaffNameQuery queryStaff = new GetStaffNameQuery();
+    ArrayList theStaff = queryStaff.exeQuery();
+    Object[] staffData = new Object[20];
+    staffData = theStaff.toArray();
+    staffList.setListData(staffData);
+    JPanel staffAreaPanel = new JPanel();
+    staffAreaPanel.setLayout(new GridLayout(2,1));
+    staffAreaPanel.add(staffPanel);
+    staffAreaPanel.add(staffList);
+    tabbedPane.addTab("STAFF", staffAreaPanel);
+
+    //StaffOrder Tab
+    addStaffOrderButton = new JButton("Add");
+    addStaffOrderButton.addActionListener(new StaffOrderListener());
+    removeStaffOrderButton = new JButton("Remove");
+    removeStaffOrderButton.addActionListener(new StaffOrderListener());
+    editViewStaffOrderButton = new JButton("Edit/View");
+    editViewStaffOrderButton.addActionListener(new StaffOrderListener());
+    staffOrderPanel = new JPanel();
+    staffOrderPanel.add(addStaffOrderButton);
+    staffOrderPanel.add(removeStaffOrderButton);
+    staffOrderPanel.add(editViewStaffOrderButton);
+    staffOrderList = new JList();
+    staffOrderList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+    staffOrderList.setSelectedIndex(0);
+    JScrollPane stafOrListScrollPane = new JScrollPane(staffOrderList);   
+    //Get all the staff orders from the staff_order table
+    //Display each staff order as one string, one JList entry
+    GetAllStaffOrdersQuery queryStaffOrder = new GetAllStaffOrdersQuery();
+    String[] sOrder = new String[100];
+    sOrder = queryStaffOrder.exeQuery();
+    staffOrderList.setListData(sOrder);
+    JPanel staffOrderAreaPanel = new JPanel();
+    staffOrderAreaPanel.setLayout(new GridLayout(2,1));
+    staffOrderAreaPanel.add(staffOrderPanel);
+    staffOrderAreaPanel.add(staffOrderList);
+    tabbedPane.addTab("STAFF ORDER", staffOrderAreaPanel);
+      
+          
+    //Manager Tab
+    JPanel titlePanel = new JPanel();
+    JLabel titleLabel = new JLabel("Choose an option:");
+    titlePanel.setLayout(new GridLayout(1,1));
+    titlePanel.add(titleLabel);
+    JPanel manBlankPanel0 = new JPanel();
+    JLabel manBlankLabel0 = new JLabel();
+    manBlankPanel0.setLayout(new GridLayout(1,1));
+    manBlankPanel0.add(manBlankLabel0);   
+    JPanel manBlankPanel1 = new JPanel();
+    JLabel manBlankLabel1 = new JLabel();
+    manBlankPanel1.setLayout(new GridLayout(1,1));
+    manBlankPanel1.add(manBlankLabel1);
+    JPanel salesSummaryTitlePanel = new JPanel();
+    JLabel salesLabel 
+      = new JLabel("View a Summary of All Sales:"); 
+    salesSummaryTitlePanel.setLayout(new GridLayout(1,1));
+    salesSummaryTitlePanel.add(salesLabel);   
+    JPanel salesSummaryPanel = new JPanel();
+    salesSummaryPanel.setLayout(new GridLayout(1,2));
+    JLabel salesSummaryLabel 
+      = new JLabel("Select date from:");  
+    timePeriod0 = new JComboBox(); //comboBox
+    //timePeriod0.addActionListener(new ManagerListener());
+    timePeriod0.addItem("");
+    timePeriod0.addItem("6 months");
+    timePeriod0.addItem("12 months");
+    timePeriod0.addItem("5 years");
+    timePeriod0.addItem("10 years");
+    salesSummaryPanel.add(salesSummaryLabel);
+    salesSummaryPanel.add(timePeriod0);
+    JPanel manBlankPanel2 = new JPanel();
+    JLabel manBlankLabel2 = new JLabel();
+    manBlankPanel2.setLayout(new GridLayout(1,1));
+    manBlankPanel2.add(manBlankLabel1);
+    JPanel individualSalesTitlePanel = new JPanel();
+    JLabel individualSalesTitleLabel 
+      =  new JLabel("View individual product sales of item ID:");
+    individualSalesTitlePanel.setLayout(new GridLayout(1,1));
+    individualSalesTitlePanel.add(individualSalesTitleLabel);     
+    JPanel individualSalesPanel = new JPanel();
+    individualSalesPanel.setLayout(new GridLayout(1,3));
+    JLabel individualSalesLabel = 
+      new JLabel("Type in item ID:");
+    JTextField iidTextField = new JTextField();
+    individualSalesButton = new JButton("VIEW");
+    //individualSalesButton.addActionListener(new ManagerListener());
+    individualSalesPanel.add(individualSalesLabel);
+    individualSalesPanel.add(iidTextField);
+    individualSalesPanel.add(individualSalesButton);
+    JPanel manBlankPanel3 = new JPanel();
+    JLabel manBlankLabel3 = new JLabel();
+    manBlankPanel3.setLayout(new GridLayout(1,1));
+    manBlankPanel3.add(manBlankLabel1);
+    JPanel relatedProfitsTitlePanel = new JPanel();
+    JLabel relatedProfitsTitleLabel 
+      = new JLabel("View a Summary of All Related Profits:"); 
+    relatedProfitsTitlePanel.setLayout(new GridLayout(1,1));
+    relatedProfitsTitlePanel.add(relatedProfitsTitleLabel);
+    JPanel relatedProfitsPanel = new JPanel();
+    relatedProfitsPanel.setLayout(new GridLayout(1,2));
+    JLabel relatedProfitsLabel =
+      new JLabel("Select date from:");
+    timePeriod1 = new JComboBox(); //comboBox
+    //timePeriod1.addActionListener(new ManagerListener());
+    timePeriod1.addItem("");
+    timePeriod1.addItem("6 months");
+    timePeriod1.addItem("12 months");
+    timePeriod1.addItem("5 years");
+    timePeriod1.addItem("10 years");
+    relatedProfitsPanel.add(relatedProfitsLabel);
+    relatedProfitsPanel.add(timePeriod1);
+    managerPanel = new JPanel();
+    managerPanel.setLayout(new GridLayout(12,1));
+    managerPanel.add(titlePanel);
+    managerPanel.add(manBlankPanel0);
+    managerPanel.add(manBlankPanel1);
+    managerPanel.add(salesSummaryTitlePanel);
+    managerPanel.add(salesSummaryPanel);
+    managerPanel.add(manBlankPanel2);
+    managerPanel.add(individualSalesTitlePanel);
+    managerPanel.add(individualSalesPanel);
+    managerPanel.add(manBlankPanel3);
+    managerPanel.add(relatedProfitsTitlePanel);
+    managerPanel.add(relatedProfitsPanel);
+    tabbedPane.addTab("SALES FIGURES", managerPanel);
+
+    // this is where the enabling disabling of manager tab is completed
+    if(position.equals("Manager"))
+    {
+      tabbedPane.setEnabledAt(4, true);
+    }
+    else
+    {
+      tabbedPane.setEnabledAt(4, false);
+    }
+
+    Container contentPane = getContentPane();
+    contentPane.add(tabbedPane,"Center");
+  }
+
+  //method that updates the list
+  public void updateList()
+  {
+    try
+    {    
+      Connection c = MyConnection.C;
+      
+      Statement stmt = c.createStatement();
+      System.out.println("Created Statement");
+      ResultSet rs = stmt.executeQuery("SELECT * FROM cd");  
+    
+      cdData = new String[10];
+      int i=0;
+      while (rs.next()) 
+      {
+	String cd_name = rs.getString(2);
+	String artist = rs.getString(3);
+	String rowData = (artist + "-" + cd_name);      
+	cdData[i]= rowData;
+	i++;
+      }
+      stockList.setListData(cdData);   
+    }
+    catch (SQLException e) 
+    {
+    }   
+      
+  }
+
+
+  //listeners for all buttons contained within the STAFF DETAILS tab
+  public class StaffDButtonListener implements ActionListener
+  {
+    public void actionPerformed(ActionEvent e) 
+    {
+      Object source = e.getSource();
+      if(source == changePWButton)//Change password?
+      {
+	NewPasswordUI frame = new NewPasswordUI(sid);
+        frame.setTitle("Change Password");
+        frame.setSize(300,300);
+	frame.setLocation(650,350);
+        frame.show();
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setResizable(false);  
+      }
+      else if(source == editConDetButton)//Edit contact details?
+      {
+	EditContactDetailsUI thisFrame = new EditContactDetailsUI(sid);
+	thisFrame.setTitle("Edit Contact Details");
+        thisFrame.setSize(300,400);
+	thisFrame.setLocation(650,350);
+        thisFrame.show();
+        thisFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        thisFrame.setResizable(false);
+      }
+      
+    }
+  } 
+
+
+  //listeners for all the buttons within the STOCK tab
+  public class StockListener implements ActionListener
+  {
+    public void actionPerformed(ActionEvent e) 
+    {
+      Object source = e.getSource();
+
+      if(source == addProductButton)//add button pressed
+      {
+	//open up a addStockUI
+	AddStockUI addUI = new AddStockUI();
+	addUI.setTitle("Edit CD Details");
+	addUI.setSize(250,410);
+	addUI.setResizable(false);
+	addUI.setLocation(650,350);
+	addUI.show();
+	addUI.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+	System.out.println("Just before updateList() method call");
+	updateList();
+      }
+      
+      else if(source == removeProductButton)//remove button pressed
+      {
+	if (stockList.getSelectedIndex() != -1) //doesnot equal no selection
+	{
+	  //get selection, split the selection up, retrieve cd attributes
+	  String cd = stockList.getSelectedValue().toString();	
+	  WordSplit thisSplit = new WordSplit(cd);
+	  ArrayList cdAttributes = thisSplit.getWords();
+	  String artist = (String)cdAttributes.get(0);
+	  String cdTitle = (String)cdAttributes.get(1);
+	  
+	  //use DeleteCDTupleQuery to delete the specified cd item
+	  DeleteCDTupleQuery thisQuery =new DeleteCDTupleQuery(artist,cdTitle);
+	  thisQuery.exeQuery();
+
+	  updateList();
+
+	}
+      }
+      
+      else if(source == editProductButton)
+      {
+	
+	if (stockList.getSelectedIndex() != -1) //doesnot equal no selection
+	{
+	  //Selection
+	  String cd = stockList.getSelectedValue().toString();	
+	  WordSplit thisSplit = new WordSplit(cd);
+	  ArrayList cdAttributes = thisSplit.getWords(); //arrayList,cd details
+	  EditStockUI editUI = new EditStockUI(cdAttributes);
+	  editUI.setTitle("Edit CD Details");
+	  editUI.setSize(250,350);
+	  editUI.setResizable(false);
+	  editUI.setLocation(650,350);
+	  editUI.show();
+	  editUI.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+	  updateList();
+	  //alternatives HIDE_ON_CLOSE
+	  //DO_NOTHING_ON_CLOSE
+	  //EXIT_ON_CLOSE
+	}
+      }
+
+      else if(source == viewStockLevelsButton)
+      {
+	System.out.println("I'm in the viewStockLevelsButton");
+	
+	if (stockList.getSelectedIndex() != -1) //doesnot equal no selection
+	{
+	  //Selection
+	  String cd = stockList.getSelectedValue().toString();	
+	  WordSplit viewSplit = new WordSplit(cd);
+	  ArrayList cdAttributes = viewSplit.getWords();//arrayList,cd details
+	  String artist = (String)cdAttributes.get(0);
+	  String cdName = (String)cdAttributes.get(1);
+	  ViewStockLevelQuery viewQuery = 
+	    new ViewStockLevelQuery(artist, cdName);
+	  ArrayList theSupplyLevels = viewQuery.exeQuery();
+	  Object [] theSupplies = new Object[100];
+	  theSupplies = theSupplyLevels.toArray();
+	  ViewStockLevelsUI theseStockLevels = 
+	    new ViewStockLevelsUI(theSupplies);
+	  theseStockLevels.setTitle("Stock Level Details");
+	  theseStockLevels.setSize(450,150);
+	  theseStockLevels.setResizable(false);
+	  theseStockLevels.setLocation(650,350);
+	  theseStockLevels.show();
+	  theseStockLevels.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+	  updateList();
+	  //alternatives HIDE_ON_CLOSE
+	  //DO_NOTHING_ON_CLOSE
+	  //EXIT_ON_CLOSE
+	}
+      }
+      
+    }    
+  }
+
+  //listeners for all buttons within the CUSTOMER tab
+  public class CustomerListener implements ActionListener
+  {
+    public void actionPerformed(ActionEvent e)
+    {
+      if(source == editCustomerButton)
+      {
+	if (customerList.getSelectedIndex() != -1) //does not equal no selection
+	{
+	  // Selection
+	  String customerSurname = customerList.getSelectedValue().toString();
+	  EditCustomerUI editCustUI = new EditCustomerUI(customerSurname);
+	  editCustUI.setTitle("Edit Customer Details");
+	  editCustUI.setSize(250, 350);
+	  editCustUI.setResizable(false);
+	  editCustUI.setLocation(650, 300);
+	  editCustUI.show();
+	  editCustUI.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+	  System.out.println("Just before customer updateList() method call");
+	  updateList();
+	}
+      }
+    }
+  }
+      
+      
+
+  //listeners for all buttons within the SUPPLIER tab
+  public class SupplierListener implements ActionListener
+  {
+    public void actionPerformed(ActionEvent e) 
+    {
+      Object source = e.getSource();
+
+      if(source == addSupplierButton)
+      {
+	AddSupplierUI addSupUI = new AddSupplierUI();
+	addSupUI.setTitle("Edit CD Details");
+	addSupUI.setSize(250,350);
+	addSupUI.setResizable(false);
+	addSupUI.setLocation(650,300);
+	addSupUI.show();
+	addSupUI.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+	System.out.println("Just before updateList() method call");
+	updateList();//does nothing
+      }
+      else if(source == removeSupplierButton)
+      {
+	//difficult to implement try later
+      }
+      else if(source == editViewSupplierDetailsButton)
+      {
+	if (supplierList.getSelectedIndex() != -1) //doesnot equal no selection
+	{
+	  String supName = supplierList.getSelectedValue().toString();
+	  EditSupplierUI editSupUI = new EditSupplierUI(supName);
+	  editSupUI.setTitle("Edit CD Details");
+	  editSupUI.setSize(250,350);
+	  editSupUI.setResizable(false);
+	  editSupUI.setLocation(650,300);
+	  editSupUI.show();
+	  editSupUI.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+	  System.out.println("Just before updateList() method call");
+	  updateList();//does nothing
+	}
+      }
+      
+    }
+  }
+
+
+  //listeners for all buttons within the STAFF ORDER tab
+  public class StaffOrderListener implements ActionListener
+  {
+    public void actionPerformed(ActionEvent e)
+    {
+      Object source = e.getSource();
+      
+      if(source == addStaffOrderButton)
+      {
+	System.out.println("addStaffOrderButton initiated");
+	StaffOrderUI frame = new StaffOrderUI();
+        frame.setTitle("Staff Orders"); 
+        frame.setSize(400,500);
+        frame.setResizable(false);
+	frame.setLocation(650,300);
+        frame.show();
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
+      }
+      else if(source == removeStaffOrderButton)
+      {
+	System.out.println("removeStaffOrderButton initiated");
+      }
+      else if(source == editViewStaffOrderButton)
+      {
+	//get selection, split the selection up, retrieve cd attributes
+	String staffOrderItem = stockList.getSelectedValue().toString();
+	WordSplit staffOrderSplit = new WordSplit(staffOrderItem);
+	ArrayList staffOrderAttributes = staffOrderSplit.getWords();
+	String sorderNo = (String)staffOrderAttributes.get(0);
+	/*
+	  EditStaffOrderUI editStOrdUI = new EditStaffOrderUI(sorderNo);
+	  editStOrdUI.setTitle("Edit CD Details");
+	  editStOrdUI.setSize(250,350);
+	  editStOrdUI.setResizable(false);
+	  editStOrdUI.setLocation(650,300);
+	  editStOrdUI.show();
+	  editStOrdUI.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+	*/
+	updateList();//does nothing
+	System.out.println("editViewStaffOrderButton initiated");
+      }
+    }
+  }
+  /*
+  //listeners for all buttons within the STAFF ORDER tab
+  public class ManagerListener implements ActionListener
+  {
+    public void actionPerformed(ActionEvent e)
+    {
+      Object source = e.getSource();
+      todaysDate = getTodaysDate("6 months");      
+      
+    if(source == timePeriod0)
+    {
+      String selection0 = (String)timePeriod0.getSelectedItem();
+	
+      if(selection0.equals(""))
+      {
+	//Do nothing
+      }
+      else
+      {
+      }	
+	
+    }
+    else if(source == timePeriod1)
+    {
+      String selection1 = (String)timePeriod0.getSelectedItem();
+	
+      if(selection1.equals(""))
+      {
+	//Do nothing
+      }
+      else if(selection1.equals("6 months"))
+      {
+      }	
+
+    }
+    else if(source == individualSalesButton)
+    {
+      System.out.println("Individual Sales Button Clicked");
+    }
+    }
+  }
+  
+  private String getTodaysDate(String subtactDate)
+  {
+    Calendar cal = new GregorianCalendar();
+
+    int year = cal.get(Calendar.YEAR);          
+    int month = cal.get(Calendar.MONTH); 
+    String stringMonth = "";
+    int day = cal.get(Calendar.DAY_OF_MONTH);
+
+    
+    if(subtractDate.equals("1 day"))//first day
+    {
+      if(day == 1)//first day of month
+      {
+	if(month == 1)//first month of the year
+	{
+	  Calendar cal2 = new GregorianCalendar(year, month, 12);
+	  day = cal2.getActualMaximum(Calendar.DAY_OF_MONTH);	  
+	}
+	else
+	{
+	  //is not the first month of the year
+	  month -= 1;
+	  Calendar cal2 = new GregorianCalendar(year, month, 1);
+	  day = cal2.getActualMaximum(Calendar.DAY_OF_MONTH);
+	}	
+
+      }
+      else 
+      {
+	//is not the first day of the month
+	day -= 1;
+      }    
+    }
+    
+    else if(subtractDate.equals("1 week"))
+    {
+      if((day-7) < 1)//today minus a week is into last month
+      {
+	if(month == 1)//first month of the year
+	{
+	}
+	
+	else //is not the first month of the 
+	{
+	}
+	
+	
+      }
+	
+    }
+    else if(subtractDate.equals("1 month"))
+    {
+    }
+    else if(subtractDate.equals("6 months"))
+    {
+    }
+    else if(subtractDate.equals("1 year"))
+    {
+    }
+    
+    String blank ="";
+
+    System.out.println(year +" "+month +" "+day);
+      
+    return(blank);//DATE_FORMAT);
+
+    }
+  */
+  }// StaffUI

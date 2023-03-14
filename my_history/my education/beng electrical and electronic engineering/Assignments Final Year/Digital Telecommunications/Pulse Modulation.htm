@@ -1,0 +1,1576 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0063)http://benedick.aston.ac.uk:8080/tutorials/paths/pm/entire_html -->
+<HTML><HEAD><TITLE>Pulse Modulation</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252"><LINK 
+href="Pulse Modulation_files/main.css" type=text/css rel=stylesheet>
+<META content=INDEX,NOFOLLOW name=ROBOTS>
+<META content="" name=keywords>
+<META content="" name=description>
+<META content="" name=author>
+<META content="MSHTML 6.00.2462.0" name=GENERATOR></HEAD>
+<BODY class=seas text=#003366 vLink=#000080 aLink=#000080 link=#000080 
+bgColor=white>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD class=header colSpan=5 height=24>Aston University <B>School of 
+      Engineering &amp; Applied Science</B> <BR>Telecoms and Internet Tutorials 
+    </TD>
+    <TD class=header align=right><A title="Aston University Home" 
+      href="http://www.aston.ac.uk/"><IMG height=24 alt="Aston University Home" 
+      hspace=1 src="Pulse Modulation_files/corp-home_f01.gif" width=24 border=0 
+      name=corphome></A> <A title="Aston University Information" 
+      href="http://www.aston.ac.uk/aston/info"><IMG height=24 
+      alt="Aston University Information" hspace=1 
+      src="Pulse Modulation_files/corp-info_f01.gif" width=24 border=0 
+      name=corpinfo></A> <A title="Aston University Web Search" 
+      href="http://www.aston.ac.uk/search/"><IMG height=24 
+      alt="Aston University Web Search" hspace=1 
+      src="Pulse Modulation_files/corp-map_f01.gif" width=24 border=0 
+      name=corpmap></A> <A title="Aston University Contact and Communications" 
+      href="http://www.aston.ac.uk/contact"><IMG height=24 
+      alt="Aston University Contact and Communications" hspace=1 
+      src="Pulse Modulation_files/corp-contact_f01.gif" width=24 border=0 
+      name=corpcontact></A> </TD></TR></TBODY></TABLE>
+<TABLE class=topmenu cellSpacing=1 cellPadding=2 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD class=navoff vAlign=top align=middle width="25%"><A 
+      title="Tutorial Home" 
+      href="http://benedick.aston.ac.uk:8080/tutorials">Home</A></TD>
+    <TD class=navoff vAlign=top align=middle width="25%"><A 
+      title="Learning Paths" 
+      href="http://benedick.aston.ac.uk:8080/tutorials/paths">Paths</A></TD>
+    <TD class=navoff vAlign=top align=middle width="25%"><A title="All Topics" 
+      href="http://benedick.aston.ac.uk:8080/tutorials/list">Topics</A></TD>
+    <TD class=navoff vAlign=top align=middle width="25%">
+      <FORM action=http://benedick.aston.ac.uk:8080/tutorials/search 
+      method=get>Search <INPUT size=15 name=PrincipiaSearchSource> 
+  </FORM></TD></TR></TBODY></TABLE>
+<H1 class=title>Pulse Modulation </H1>
+<P><A href="http://benedick.aston.ac.uk:8080/tutorials/paths/pm/index_html">View 
+Tutorial Path Index</A></P>
+<H2>Pulse Modulation</H2>
+<P>We shall look at a number of different ways in which a pulse carrier may be 
+modulated to effect communications, concentrating particularly on pulse code 
+modulation and a number of techniques associated with it.</P>
+<HR>
+
+<DL>
+  <H3>Pulse Modulation Schemes</H3>
+  <P>
+  <P>On completion you should be able to give brief descriptions and comparisons 
+  of pulse amplitude modulation (PAM), pulse width modulation (PWM), pulse 
+  position modulation (PPM) and pulse frequency modulation (PFM) </P>
+  <P></P>
+  <P>
+  <P align=left>If we use a pulse carrier to effect communications then one of 
+  several parameters of the pulse train may be varied in proportion to the 
+  message signal. We can distinguish between two types of pulse modulation 
+  scheme: (1) <STRONG>analogue pulse modulation </STRONG>and (2) <STRONG>digital 
+  pulse modulation</STRONG>.</P>
+  <P></P>
+  <P>
+  <H2 align=left>Analogue Pulse Modulation</H2>
+  <P></P>
+  <P>
+  <P align=left>In analogue pulse modulation, the carrier is a a periodic pulse 
+  train and we may continuously vary the pulse amplitude, pulse width, pulse 
+  frequency or the position of each pulse in its time slot in proportion to the 
+  sampled messages of the message waveform. In each of these cases the 
+  informationn is carried in analogue form although the transmission takes place 
+  at discrete intervals of time. Examples of these modulation formats are 
+  illustrated below.</P>
+  <P></P>
+  <P>
+  <P align=left><IMG height=355 alt="wpe5.gif (8369 bytes)" 
+  src="Pulse Modulation_files/Pulse%202.gif" width=651></P>
+  <P></P>
+  <P>
+  <DL>
+    <DT><STRONG>Pulse Amplitude Modulation (PAM)</STRONG> 
+    <DD>This may be considered to be the pulse carrier equivalent of DSB-SC 
+    amplitude modulation although it is not exactly equivalent as may be seent 
+    when we look at the difference between <STRONG>natural sampling</STRONG> and 
+    <STRONG>flat-topped</STRONG> <STRONG><A 
+    href="http://benedick.aston.ac.uk:8080/tutorials/paths/pm/Sampling.htm">sampling</A>.</STRONG> 
+
+    <DT><STRONG>Pulse Width Modulation (PWM)</STRONG> 
+    <DD>The width (duration) of each carrier pulse is varied according to the 
+    amplitude of the message signal. Signal recovery is easily acheived by low 
+    pass filtering. 
+    <DT><STRONG>Pulse Position Modulation (PPM)</STRONG> 
+    <DD>The position of each carrier pulse within its time slot of width 
+    <EM>T</EM> is varied. Signal recovery is acheived by measurement of the time 
+    interval between this pulse and a regular clock pulse train operating at 
+    rate 1/<EM>T</EM>. 
+    <DT><STRONG>Pulse Frequency Modulation (PFM)</STRONG> 
+    <DD>This is directly equivalent to FM. The pulse repetition frequency is 
+    varried in porportion to the message signal samples; signal recovery is as 
+    for FM. PFM is used in low-cost, high performance analogue communications 
+    using fibre optics where nonlinearities in the transfer characteristics of 
+    optical sources impair the performance of PAM. </DD></DL>
+  <P></P>
+  <P>
+  <H2 align=left>Digital Pulse Modulation</H2>
+  <P></P>
+  <P>
+  <P align=left>In digital pulse modulation each sample of the message signal is 
+  converted to a digital number representing the signal amplitude at that point 
+  in time. The information is then transmitted inn digital form as a sequence of 
+  coded pulses. This scheme is often referred to as <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/paths/pm/quantisation.htm"><STRONG>pulse 
+  code modulation (PCM)</STRONG></A> and this forms the basis of digital 
+  communications and will dealt with later in detail.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:19.343 GMT+1</I></P>
+  <H3>Nyquist Sampling Theorem</H3>
+  <P>
+  <P>On completion you should be able to state and explain the Nyquist Sampling 
+  Theorem </P>
+  <P></P>
+  <P>
+  <P align=left>From what we have learn't in the tutorial on modulation basics 
+  we know that if we sample a signal at regular instants in time we are going to 
+  produce a periodic spectrum. Nyquists theorem is concerned with knowing how 
+  often we sample the signal to that we can reproduce it witout distortion. If 
+  we have a signal strictly bandlimited to bandwidth <EM><FONT 
+  face="Times New Roman">W</FONT></EM> and at regular intervals seperated by 
+  <EM><FONT face="Times New Roman">T</FONT>T</EM> seconds (rate 1/<EM><FONT 
+  face="Times New Roman">T</FONT></EM>) then the resulting spectrum is going to 
+  be copys of the spectrum seperate by 1/<EM><FONT 
+  face="Times New Roman">T</FONT></EM> Hz as shown below.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=289 alt="wpe6.gif (5378 bytes)" 
+  src="Pulse Modulation_files/Nyquis2.gif" width=536></P>
+  <P></P>
+  <P>
+  <P align=left>Note that because we are modulating the original signal we see 
+  its whole double sided spectrum of width 2<EM><FONT 
+  face="Times New Roman">W</FONT></EM> copied at frequency intervals of 
+  1/<EM><FONT face="Times New Roman">T</FONT></EM>.&nbsp; Therefore we see that 
+  if <EM><FONT face="Times New Roman">T&lt;=1/(2W)</FONT></EM> these multiple 
+  copies of the signal spectrum are completed seperated, and we could filter out 
+  one to regenerate the original signal without distortion. However if we sample 
+  at too low a &nbsp; rate, <FONT 
+  face="Times New Roman"><EM>T&gt;1/(2W)</EM></FONT> then we see that there is 
+  overlap between the copies in the sampled spectrum and there would be 
+  distortion in the recovered signal. Therefore we can state the requirements 
+  for sampling, the <STRONG>Nyquist Sampling Theorem</STRONG> as follows</P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 bgColor=#ffff00 border=1>
+    <TBODY>
+    <TR>
+      <TD><FONT color=#ff0000>A band-limited signal of finite energy, which 
+        has no frequency components higher than <FONT 
+        face="Times New Roman"><EM>W</EM></FONT> Hz is completely described by 
+        sampling values of the signal at instants of time separated by 1/2<FONT 
+        face="Times New Roman"><EM>W</EM></FONT> 
+  seconds</FONT></TD></TR></TBODY></TABLE></P>
+  <P>
+  <P>If we do not satisfy this criterion we cannot recover the original signal. 
+  In particular we may see frequency components which do not exist in the 
+  original signal. This is called <STRONG>aliasing</STRONG>. For example if we 
+  have a 4 kHz input signal and sample at a rate of only 5kHz we will see 
+  frequency components at (5+4)=9kHz which is removed by a low pass filter and 
+  at (5-4)=1kHz which isn't i.e. we will see a 1kHz signal after low pass 
+  filtering a 4kHz signal sampled at only 5kHz .</P>
+  <P></P>
+  <P>
+  <P>An example, which you may see in the laboratory, is that when using a 
+  digital sampling oscilloscope which has too low a sample rate (i.e. with a low 
+  time base set) and we look at high frequencies. We may actually see low 
+  frequency aliased signals which are not present at the input to the 
+  oscilloscope. Care must therefore be taken when using such instruments - in 
+  particuar if the frequency of the signal you are measuring changes as you 
+  change the timebase (sample rate) then it is probably oscilloscope aliasing 
+  that you are seeing.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:18.546 GMT+1</I></P>
+  <H3>Natural Sampling</H3>
+  <P>
+  <P>On completion you should be able to describe, temporally and spectrally, 
+  the features of the natural sampling of a signal. </P>
+  <P></P>
+  <P>
+  <P align=left>In natural sampling a bandlimited signal <FONT 
+  face="Times New Roman"><EM>f(t)</EM></FONT> is multiplied by a rectangular 
+  pulse train <FONT face="Times New Roman"><EM>p(t)</EM></FONT> (the periodic 
+  gate function) with period <FONT face="Times New Roman"><EM>T</EM></FONT> (the 
+  sampling period) to give the sampled signal <FONT 
+  face="Times New Roman"><EM>f<SUB>s</SUB>(t)=f(t).p(t)</EM></FONT>. It is </P>
+  <P></P>
+  <P>
+  <P align=left>This is illustrated in both time and frequency domains below 
+  below. </P>
+  <P></P>
+  <P>
+  <P align=left>We start with the information signal which is smooth in time and 
+  has a limited bandwidth.</P>
+  <P></P>
+  <P>
+  <P align=left><IMG height=132 alt="wpe1.gif (2459 bytes)" 
+  src="Pulse Modulation_files/Sampli1.gif" width=527></P>
+  <P></P>
+  <P>
+  <P align=left>Our gate function is a rectangular pulse train which has a 
+  spectrum which is the sinc function evaluated at multiples of the repetition 
+  frequency.</P>
+  <P></P>
+  <P>
+  <P align=left><IMG height=121 alt="wpe2.gif (3744 bytes)" 
+  src="Pulse Modulation_files/Sampli2.gif" width=602></P>
+  <P></P>
+  <P>
+  <P align=left>Now we multiply these together (in the time domain). The 
+  resultant is the convolution of the two spectra in the frequency domain, which 
+  is particularly easy to evaluate due to discrete nature of the sampling 
+  spectra. It is the signal spectrum, repeted at multiples of the sampling 
+  frequency and multiplied by the amplitude of the sampling spectrum at those 
+  points.&nbsp; Natural sampling is characterised by sampling pulse tops which 
+  precisely follow the variations in <FONT 
+  face="Times New Roman"><EM>f(t)</EM></FONT>.</P>
+  <P></P>
+  <P>
+  <P align=left><IMG height=127 alt="wpe6.gif (4210 bytes)" 
+  src="Pulse Modulation_files/Sampli3.gif" width=603></P>
+  <P></P>
+  <P>
+  <P align=left>The original signal can be recovered simply by applying a low 
+  pass filter to select only the baseband component of the spectrum which is the 
+  same as the signal spectrum. It is clear that we do not need to use 
+  rectangular pulses at all as selection of the sampling pulse shape serves only 
+  to specify the shape of the envelope of <EM><FONT 
+  face="Times New Roman">F<SUB>s</SUB>(</FONT><FONT face=Symbol>w</FONT><FONT 
+  face="Times New Roman">)</FONT></EM> which won't affect the result after 
+  filtering.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:18.234 GMT+1</I></P>
+  <H3>Pulse Amplitude Modulation</H3>
+  <P>
+  <P>On completion you should be able to compare, temporally and spectrally, the 
+  flat topped sampling of a signal as used with Pulse amplitude modulation (PAM) 
+  with <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/paths/pm/NaturalSampling">natural 
+  sampling</A> and describe the use of a sample and hold circuit for PAM 
+  demodulation. </P>
+  <P></P>
+  <P>
+  <P align=left>In pulse amplitude modulation the sample pulses are flat topped, 
+  and so, in contrast with natural sampling, do not follow the variations of the 
+  signal being sampled. The digital circuit used to acheive PAM is referred to 
+  as <STRONG>sample and hold</STRONG> and it comprises two operations: the 
+  instantaneous sampling of the message signal <FONT 
+  face="Times New Roman"><EM>f(t)</EM></FONT> followed by lengthing the duration 
+  of each sample to a constant value <EM><FONT face=Symbol>t</FONT></EM>. The 
+  value of <EM><FONT face=Symbol>t</FONT></EM> is chosen to reduce the bandwidth 
+  requirements: if it is too short the transmission would require execssive 
+  bandwidth. It is important to note the distinction between this process and 
+  natural sampling.</P>
+  <P></P>
+  <P>
+  <P align=left>In the case of flat-topped sampling our input signal is the 
+  sampled at discrete points in time so its spectrum is the baseband spectrum 
+  repeated at multiples of the sampling frequency as shown below.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=140 alt="wpe7.gif (3924 bytes)" 
+  src="Pulse Modulation_files/Sampli4.gif" width=593></P>
+  <P></P>
+  <P>
+  <P align=left>The nect step in the process is the hold operation which amounts 
+  to passing these samples through a filter to acheive the required rectangular 
+  pulse shape - a filter with a rectangular impulse response <FONT 
+  face="Times New Roman"><EM>q(t)</EM></FONT> . This hold function is 
+  illustrated below. Its spectrum is <EM><FONT 
+  face="Times New Roman">Q(</FONT><FONT face=Symbol>w</FONT><FONT 
+  face="Times New Roman">)</FONT></EM></P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=129 alt="wpe8.gif (2386 bytes)" 
+  src="Pulse Modulation_files/Sampli5.gif" width=592></P>
+  <P></P>
+  <P>
+  <P align=left>The output of this filter is the convolution of the samples with 
+  the rectangular hold function which corresponds to the multiplication of the 
+  two spectra as shown below.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=129 alt="wpe9.gif (4186 bytes)" 
+  src="Pulse Modulation_files/Sampli6.gif" width=594></P>
+  <P></P>
+  <P>
+  <P align=left>This spectrum differes from the naturally sampled one, the PAM 
+  output spectrum is obtained by multiplying together two frequency functions 
+  and the original form of <EM><FONT face="Times New Roman">F(</FONT><FONT 
+  face=Symbol>w</FONT><FONT face="Times New Roman">)</FONT></EM> is not 
+  maintained - the replicas are not true replicas of the signal spectrum. </P>
+  <P></P>
+  <P>
+  <P align=left>If we were to pass this signal through a low pass filter as we 
+  did for the natural smapling case we would obtain the spectral output which is 
+  <EM><FONT face="Times New Roman">F(</FONT><FONT face=Symbol>w</FONT><FONT 
+  face="Times New Roman">)Q(</FONT><FONT face=Symbol>w</FONT><FONT 
+  face="Times New Roman">)</FONT></EM> . The way around this is to pass the 
+  recovered signal through another filter, with a transfer function 1/<EM><FONT 
+  face="Times New Roman">Q(</FONT><FONT face=Symbol>w</FONT><FONT 
+  face="Times New Roman">)</FONT></EM> This is referred to as 
+  <STRONG>equalisation</STRONG>, and the additional filter is an 
+  <STRONG>equaliser</STRONG>. The importance of the hold time <EM><FONT 
+  face=Symbol>t</FONT></EM> should now be clear. If we use a shorter hold time 
+  <EM><FONT face=Symbol>t </FONT></EM>then its spectrum will broaden and become 
+  flatter and the distortion produced on the received spectrum would be reduced. 
+  It is found that if the ration of sample time to sample period <EM><FONT 
+  face=Symbol>t/T</FONT></EM> &lt;=1, the maximum difference between the 
+  equaliser transfer function 1/<EM><FONT face="Times New Roman">Q(</FONT><FONT 
+  face=Symbol>w</FONT><FONT face="Times New Roman">)</FONT></EM> and the ideal 
+  low pas filter is &lt;1% in which case an additional equalisation filter is 
+  usually considered unnecessary.</P>
+  <P></P>
+  <P>
+  <P align=left>Why are flat topped pulse so important when a naturally sampled 
+  signal is recoverable without distortion by low pass filtering. The reason is 
+  that the need to preserve the sampled pulse shapes in transmission conflicts 
+  with the basic advantages of digital communications. In transmission over 
+  distances which require mid-path amplification, the effects of additive noise 
+  would make the <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/pm/NaturalSampling">natural 
+  sampling</A> format no better than analogue. When the pulse shape is not 
+  important, as with flat-toped sampling used in PAM, repeaters may be use to 
+  regenerate rather than amplify the signal giving giving more robustness in the 
+  presence of noise.</P>
+  <P></P>
+  <P>
+  <P align=left><IMG height=218 alt="wpeA.gif (2226 bytes)" 
+  src="Pulse Modulation_files/Pulse%207.gif" width=253 align=right><A 
+  name="Sample and Hold"></A>If the sampling pulse is very much smaller than the 
+  sampling interval then the signal power at the output low pass filter (LPF) at 
+  the receiver may be very small, requiring large amounts of amplification. An 
+  efficient way around this is to use a <STRONG>sample-and-hold</STRONG> circuit 
+  at the receiver, as illustrated here. In this circuit the switched is closed 
+  for the duraiton of the sample pulse. If the source impedance R<SUB>s</SUB> is 
+  small the capacitor charges to the input voltage level withing the sample 
+  time. Between samples the switch is opened. If the load resistance R is large 
+  the capacitor will retain its voltage between samples until the switch is 
+  closed again. <IMG height=177 alt="wpeB.gif (2853 bytes)" 
+  src="Pulse Modulation_files/Pulse%208.gif" width=254 align=left>The output of 
+  the sample and hold circuit is therefore as shown: smoothing is obtaine dby 
+  passing the signal through a LPF. The sample and hold is a reliable and 
+  efficient PAM demodualtor with good noise a=immunjity and removes the need for 
+  large amounts of equalisation. Note however that equlaisation is required 
+  since the output of the sample and hold circuit is effectively long 
+  flat-topped sample pulses.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:19.14 GMT+1</I></P>
+  <H3>Time Division Multiplexing</H3>
+  <P>
+  <P>On completion you should be able to describe how PAM signals can be time 
+  division multiplexed. </P>
+  <P></P>
+  <P>
+  <P align=left>With relatively short sampling pulses PAM signals occupy only a 
+  small fraction of the sampling interval, and room is left between pulses into 
+  which samples from other signals can be insereted. This technique of combining 
+  pulses from <EM>N</EM> independant channels in a definite time sequence is 
+  referred to as <STRONG>time division multiplexing (TDM)</STRONG>. The 
+  principle can be applied to most pulse modulation formats. It is illustrated 
+  below for PAM signals.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=194 alt="wpeC.gif (4433 bytes)" 
+  src="Pulse Modulation_files/Time%20D9.gif" width=549></P>
+  <P></P>
+  <P>
+  <P align=left><IMG height=140 alt="wpeD.gif (3518 bytes)" 
+  src="Pulse Modulation_files/Time%20D10.gif" width=367 align=right>Each of the 
+  <EM>N</EM> message signals is band limited by passing it through a low-pass 
+  filter (LPF). The filtered signals are passed to a 
+  <STRONG>commutator</STRONG>, which, in practice, constructed from high speed 
+  digital switches but can bethought of as a rotating switch which sequentially 
+  switched to the output of each LPF. The commutator takes a narrow sample of 
+  each of the <EM>N</EM> signals at the sampling rate (<FONT 
+  face="Times New Roman"><EM>f=1/T</EM></FONT>) at least equal to twice the LPF 
+  bandwidth as required by the sampling theorem. It also interleaves the 
+  <EM>N</EM> samples within the sampling interval <EM>N</EM>. In the figure here 
+  the result of this process is shown for 2 signals. In the PAM case the TDM 
+  output pulse train so obtained is transmitted; for other pulse modulation 
+  formats a further pulse modulator may be used. At the receiving end of the 
+  channel the TDM signal passes through another commutator which sequentially 
+  distributes the pulses to each of <EM>N</EM> outputs where each message is 
+  recovered by low pass filtering. The second commutator must operate in 
+  complete synchronism with the first.</P>
+  <P></P>
+  <P>
+  <P align=left>Note that the channel bandwidth <EM>B<SUB>c</SUB> </EM>required 
+  to pass the TDM signal must also satisfy the Nyquist condition. Thus the 
+  <EM>N</EM> interleaved pulse trains constitute a single pulse train with 
+  separation <EM>T<SUB>s</SUB></EM>=<EM>T/N</EM>. The sampling theorem requires 
+  <EM>B<SUB>c</SUB> &gt;=1/(2T<SUB>s</SUB>)</EM> in order to prevent 
+  informaiton. The TDM signal can, in effect, be filtered to 
+  <EM>B<SUB>c</SUB></EM> (low pass filtered) yet still permit separationn of the 
+  constituent messages by resampling at the receiver using, for example, the <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/paths/pm/Pulse%20Amplitude%20Modulation.htm#Sample and Hold">sample-and-hold 
+  </A>circuit.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:20.625 GMT+1</I></P>
+  <H3>PPM and PWM Generation</H3>
+  <P>
+  <P>On completion you should be able to describe a technique for the generation 
+  of PPM and PWM signals. </P>
+  <P></P>
+  <P>
+  <P align=left>Both pulse position modulation (PPM) and pulse width modulation 
+  (PWM) signals can be generated using the scheme shown here.</P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG height=372 alt="wpeF.gif (4978 bytes)" 
+        src="Pulse Modulation_files/PPM%20an11.gif" width=274 align=left></TD>
+      <TD><IMG height=357 alt="wpe10.gif (8074 bytes)" 
+        src="Pulse Modulation_files/PPM%20an12.gif" 
+  width=393></TD></TR></TBODY></TABLE></P>
+  <P>
+  <P>The input signal is fed through a sample and hold circuit. Each of the 
+  samples is added to a sawtooth waveform generated synchronously to produce the 
+  sum waveform shown above. This waveform is sent to a comparator with a 
+  threshold set, as indicated by the blue line on the sum waveform. The incoming 
+  amplitude , when added to the sawtooth, will cause a change in the time where 
+  the sum waveform crosses the threshold. Therefore the the amount of time spend 
+  above threshold will depend on the signal amplitude, and we have pulse width 
+  modulation. With PWM, the information is actually contained in the relative 
+  positions of the pulse edges. Consequenctly, the longer pulses expend 
+  significant amounts of power which is not carrying information. The PPM signal 
+  is produced by triggering a pulse generator on the falling edge of each PWM 
+  pulse to generate a pulse of constant width. Note that although PPM is 
+  generally an efficient analogue pulse modulation scheme it does require a 
+  local generation of the clock timing since, in contrast to PAM and PWM which 
+  carry clearly recognisable clock timing, the timing is lost.</P>
+  <P></P>
+  <P>
+  <P>Since the PPM system is bandlimited, it must have a finite rise time and 
+  this must place uncertainty in the determination of the input signal which 
+  must be proportional to the rise time of the system, inversely proportional to 
+  its bandwidth. The uncertainty in the system is refereed to as the 
+  <STRONG>resolution</STRONG>. Note, the resolution only has a meaning in a 
+  system subject to noise and distortion since otherwise a given point on the 
+  rise time characteristic will always correspond to the same relative timing 
+  instant. Generally the accepted criterion for specifying the resolution of a 
+  PPM system equates to the rise time. It follows that any two pulses in a PPM 
+  train must always be seperated by at least the width of the system impulse 
+  response.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:18.671 GMT+1</I></P>
+  <H3>Pulse Code Modulation (PCM)</H3>
+  <P>
+  <P>On completion you should be able to describe Pulse code modulation (PCM), 
+  the basic stages in a PCM transmission system and list and explain the 
+  advantages of PCM. </P>
+  <P></P>
+  <P>
+  <P align=left><IMG height=359 alt="wpe15.gif (7842 bytes)" 
+  src="Pulse Modulation_files/Pulse_15.gif" width=579 align=right>The previous 
+  pulse modulation techniques are analogue in that even though the signal is 
+  sampled at discrtet intervals of time its amplitude is transmitted as an 
+  analogue parameter of the pulse waveform. The signal amplitude may itself be 
+  <STRONG>quantised</STRONG> as shown here. The available amplitude range is 
+  divided into a number of discrete amplitude intervals and the signal 
+  reqpresented by the quantised level nearest to the true amplitude value at 
+  each sampling instant. This forms quantised PAM (QPAM) or <EM>M</EM>-ary PAM 
+  where <EM>M</EM> is the number of levels. To acheive <STRONG>digital</STRONG> 
+  pulse transmission a <STRONG>code</STRONG> is assigned to each assigned level 
+  and codes corresponding to the quantised signal at each sampling instant are 
+  transmitted as a pulse stream. This the basis of <STRONG>Pulse Code 
+  Modulation</STRONG>, the advantages of which are as follows:</P>
+  <P></P>
+  <P>
+  <OL>
+    <LI>
+    <P align=left>Digital transmission provides robustness against noise and 
+    interference</P>
+    <LI>
+    <P align=left>PCM signals can be regenerated at intermediate repeaters.</P>
+    <LI>
+    <P align=left>Modulating and demodulating circuits are entirely digital 
+    offering compatibility with VLSI: high reliability and low cost</P>
+    <LI>
+    <P align=left>Signals can be stored in memory; digital signal processing 
+    operations such as time scaling can be easily performed</P>
+    <LI>
+    <P align=left>Encryption using special codes can allow secure 
+    communication</P>
+    <LI>
+    <P align=left>Source coding may be used to avoid unnecessary repetitions of 
+    frequent message components</P></LI></OL>
+  <P></P>
+  <P>
+  <P align=left>Various coding formats may be used in practice; for the time 
+  being we shall assume that the signal quantised levels are transmitted as 
+  binary digits (bits); the the number <EM>n</EM> of bits required to represent 
+  any single sample is</P>
+  <P></P>
+  <P>
+  <P align=center><EM>n=</EM>log<SUB>2</SUB>M</P>
+  <P></P>
+  <P>
+  <P align=left>where <EM>M</EM>=2<SUP><EM>n</EM></SUP> is the number of <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/pm/Quantisation">quantisation</A> 
+  levels. The overall transmission rate<EM> R</EM> is then given by</P>
+  <P></P>
+  <P>
+  <P align=center><EM>R</EM>=log<SUB>2</SUB> <EM>M x</EM> sampling rate 
+bit/s</P>
+  <P></P>
+  <P>
+  <P align=left>In early PCM systems for telephony, 128 amplitude levels where 
+  considered adequate requiring 7 bits/sample. One extra supplementary bit was 
+  added to give 8 bits/sample. With the upper frequency limit for speech of 
+  3.4kHz, sampling 8kHz is adequate to satisfy the sampling theorem (allowing 
+  for non-ideal filtering); thus, the overall bit rate for each speech channe is 
+  established to be 64 kbit/s. Later practice used 256 levels giving 
+  <EM>n</EM>=8 but the supplementary bits where transmitted seperately so the 
+  basic octet structure was retained. For high-fidelity sound, <EM>n</EM>=16 
+  bits are used i.e. 65536 levels.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:19.265 GMT+1</I></P>
+  <H3>PCM Transmission</H3>
+  <P>
+  <P>On completion you should be able describe the basic stages in a PCM 
+  transmission system. </P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=100 alt="wpe16.gif (4410 bytes)" 
+  src="Pulse Modulation_files/PCM%20Tr16.gif" width=670></P>
+  <P></P>
+  <P>
+  <P align=center><STRONG>PCM Transmitter</STRONG></P>
+  <P></P>
+  <P>
+  <P align=left>There are three steps in PCM generation (1) sampling, (2) <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/pm/Quantisation">quantisation</A> 
+  and (3) encoding as illustrated above. In (1) the message is sampled using a 
+  train of narrow pulses to closely approximate the instantaneous sampling 
+  process, at a rate &gt; twice the highest frequency in the message. In 
+  practice an anti-aliasing filter is used to exclude unwanted frequencies at 
+  greater than half the sampling rate. <IMG height=103 
+  alt="wpe17.gif (2310 bytes)" src="Pulse Modulation_files/PCM%20Tr17.gif" 
+  width=299 align=right>In (2) the sampled version of the signal is quantised: 
+  this process may use uniform or non-uniform sampling intervals. In (3) each 
+  quantised sample is converted to a coded bit sequence: a choice of binary or 
+  tertiary codes may be used. Functions (2) and (3) together can be performed by 
+  an <STRONG>analogue-to-digital converter (ADC)</STRONG>. The encoded bit 
+  sequence may then be transmitted serially as shown.</P>
+  <P></P>
+  <P>
+  <P align=center>.<IMG height=58 alt="wpe18.gif (3255 bytes)" 
+  src="Pulse Modulation_files/PCM%20Tr18.gif" width=615></P>
+  <P></P>
+  <P>
+  <P align=center><STRONG>PCM Receiver</STRONG></P>
+  <P></P>
+  <P>
+  <P align=left>The first element in the PCM receiver is a regenerator which 
+  performs three functions: equalisation, retiming and thresholding. 
+  Equalisation compensated for known amplitude and phase distortion in the 
+  channel. Retiming is performed using a locally generated clock, at a frequency 
+  extracted from the incoming signal, to sample the equalised signal at instants 
+  of maximum SNR. In the thresholding operation decisions are made as to whether 
+  the incoming bit is a 1 or a 0 and a new noise-free pulse generated according 
+  to the outcome. Thus noise on the incomming signal is completely removed. This 
+  signal may then be decoded and fed to a filter to regenerate the original 
+  message signal.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:18.609 GMT+1</I></P>
+  <H3>Quantisation</H3>
+  <P>
+  <P>On completing this block you should be able to derive the expressions for 
+  the peak and mean signal to quantisation noise ratio for a quantiser. </P>
+  <P></P>
+  <P>
+  <TABLE width="100%" border=0>
+    <TBODY>
+    <TR>
+      <TD width="50%"><IMG height=343 alt="wpe13.gif (5153 bytes)" 
+        src="Pulse Modulation_files/Quanti13.gif" width=353></TD>
+      <TD width="50%"><IMG height=327 alt="wpe14.gif (2744 bytes)" 
+        src="Pulse Modulation_files/Quanti14.gif" 
+  width=242></TD></TR></TBODY></TABLE></P>
+  <P>
+  <P>Quantisation converts a continuous input signal <I>f(t)</I> into a 
+  discrete-valued approximation <I>f<SUB>Q</SUB>(t)</I>. The quantisation error 
+  is defined by <FONT face=Symbol>e<I>(t)=f(t)-f<SUB>Q</SUB>(t)</I></FONT> and 
+  clearly must lie in the range <I>-</I><FONT face=Symbol>D</FONT><I>/2 &lt; 
+  </I><FONT face=Symbol>e</FONT><I>(t) &lt; </I><FONT 
+  face=Symbol>D</FONT><I>/2</I> where <FONT face=Symbol>D</FONT> is the 
+  quantisation interval (see Figure 10). Thus the magnitude of the worst case 
+  quantisation error is <FONT face=Symbol>D</FONT><I>/2</I>. At the receiver 
+  this uncertainty is similar to that produced by an additive noise source and 
+  hence the effect is referred to as <STRONG>quantisation noise</STRONG>. The 
+  figure above shows plots of a signal, the quantised signal and the resulting 
+  quantisation noise.</P>
+  <P></P>
+  <P>
+  <P>Since </FONT><FONT face=Symbol>e</FONT> is actually a voltage the 
+  quantisation noise power will just be its variance (mean square value) given 
+  by</P>
+  <P></P>
+  <P>
+  <P><IMG height=43 src="Pulse Modulation_files/Image135.gif" width=155></P>
+  <P></P>
+  <P>
+  <P>If we assume that all the values in the range <I>-</I><FONT 
+  face=Symbol>D</FONT><I>/2 &lt; </I><FONT face=Symbol>e</FONT><I> &lt; 
+  </I><FONT face=Symbol>D</FONT><I>/2</I> are equally probable for any sample 
+  then the probability density function <I>p</I>(<FONT face=Symbol>e</FONT>) is 
+  given by <I>p</I>(<FONT face=Symbol>e</FONT>)=1/<FONT face=Symbol>D</FONT>; 
+  thus the quantisation noise power is given by</P>
+  <P></P>
+  <P>
+  <P><IMG height=131 src="Pulse Modulation_files/Image136.gif" width=253></P>
+  <P></P>
+  <P>
+  <P>If we have a signal that occupies the entire quantised range, the peak 
+  signal amplitude is <I>M</I><FONT face=Symbol>D</FONT><I>/2</I> where for a 
+  binary signal <I>M=</I>2<SUP><I>n</I></SUP> then the signal to quantisation 
+  noise (power) ratio is given by</P>
+  <P></P>
+  <P>
+  <P><IMG height=66 src="Pulse Modulation_files/Image137.gif" width=341></P>
+  <P></P>
+  <P>
+  <P>or in units of dB</P>
+  <P></P>
+  <P>
+  <P><IMG height=35 src="Pulse Modulation_files/Image138.gif" width=441></P>
+  <P></P>
+  <P>
+  <P>Now if the input is sinusoidal and occupies the full quantiser range, the 
+  average signal power is (<I>M</I><FONT 
+  face=Symbol>D</FONT><I>/2)<SUP>2</SUP>/2</I> and the mean 
+  signal-to-quantisation noise (power) is then given by</P>
+  <P></P>
+  <P>
+  <P><A name=Quantisation_Noise_Power><IMG height=35 
+  src="Pulse Modulation_files/Image139.gif" width=460></A></P>
+  <P></P>
+  <P>
+  <P>Note that the SNR<SUB>Q</SUB> increases by 6 dB for each additional bit 
+  used to quantise the signal.</P>
+  <P></P>
+  <P>
+  <P><FONT size=+0>The error signal, as shown above, is approximately a sawtooth 
+  of period 1/<I>f<SUB>s</SUB></I> where <I>f<SUB>s </SUB></I>is the sampling 
+  frequency. As the sampling frequency is increased the frequency of the error 
+  signal also increases however the power is fixed by equation (16) above. 
+  Therefore with increasing frequency the noise power is spread over a broader 
+  bandwidth and there is less noise power occupying the same bandwidth as the 
+  signal. The noise power at the output of a bandpass filter will therefore 
+  decrease as the sampling frequency is increased. Thus oversampling a 
+  bandlimited waveform will increase the SNR<SUB>Q</SUB> at the output of a 
+  reconstruction filter. This principle is used for advantage in compact disc 
+  players for example.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:19.421 GMT+1</I></P>
+  <H3>Companding</H3>
+  <P>
+  <P>On completion you should be able to describe the principles of companding, 
+  and explain how companding can improve the SNR in comparison to fixed step 
+  quantisation. </P>
+  <P></P>
+  <P>
+  <P>When considering <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/pm/Quantisation">quantisation</A> 
+  signal tyo noise we assumed that the signal fully occupies the encoder range. 
+  The SNR<SUB>Q</SUB> will be considerably lower for a weaker signal. If we vary 
+  the step size making it smaller for low levels and larger near the maximum 
+  input level then the SNR<SUB>Q</SUB> can be made constant over as wide a range 
+  of input values as possible. This is referred to as 
+  <STRONG>companding</STRONG>, <STRONG>com</STRONG>pressing the signal then 
+  encoding it in a linear encoder and <STRONG>expanding</STRONG> the decoded 
+  signal with the inverse of the compression characteristic. Since the SNR 
+  increases with <I>M</I><SUP>2</SUP> we ideally would require that the 
+  amplitude step size decreases in the form 
+  <I>dV<SUB>out</SUB>/dV<SUB>in</SUB>=k/V<SUB>in</SUB></I>. Integrating this 
+  gives the ideal compression characteristic as 
+  <I>V<SUB>out</SUB>=(1+k</I>ln<I>V<SUB>in</SUB>)</I>. Unfortunately this 
+  characteristic is not practical as <I>V<SUB>out</SUB> <FONT 
+  face="Lucida Bright Math Symbol">D</FONT></I>-<FONT 
+  face="Lucida Bright Math Symbol">T</FONT> as <I>V<SUB>in</SUB> <FONT 
+  face="Lucida Bright Math Symbol">D</FONT></I>0. Instead two practical 
+  characteristics are used. These are the <FONT face=Symbol>m</FONT>-law 
+  characteristic used in North America</P></FONT>
+  <P></P>
+  <P>
+  <UL>
+    <UL>
+      <UL>
+        <P><IMG height=56 src="Pulse Modulation_files/Image140.gif" 
+        width=260></P></UL></UL></UL>
+  <P></P>
+  <P>
+  <P>and the A law characteristic used in Europe</P>
+  <P></P>
+  <P>
+  <UL>
+    <UL>
+      <UL>
+        <P><IMG height=104 src="Pulse Modulation_files/Image141.gif" 
+        width=450></P>
+        <P></P>
+        <P></P></UL></UL></UL>
+  <P></P>
+  <P>
+  <P><IMG height=270 alt="wpe2.gif (4539 bytes)" 
+  src="Pulse Modulation_files/Compan1.gif" width=308 align=left><B><A 
+  name=_Ref428671633></A></B>This A-law compression characteristic 
+  characteristic is plotted out.</P>
+  <P></P>
+  <P>
+  <P><I>A</I> is known as the compression coefficient. The linear region ensures 
+  <I>V<SUB>out</SUB></I>=0 when <I>V<SUB>in</SUB></I>=0 and the logarithmic 
+  region is specified so |<I>V<SUB>out</SUB></I>|=1 when 
+  |<I>V<SUB>in</SUB></I>|=1. <IMG height=161 alt="wpe7.gif (2490 bytes)" 
+  src="Pulse Modulation_files/Compan2.gif" width=251 align=right>The 
+  characteristic is continuous at |<I>V<SUB>in</SUB></I>|=1/<I>A</I>.For large 
+  values of <I>A</I> the characteristic is predominantly logarithmic and the 
+  SNR<SUB>Q</SUB> is approximately constant. This is illustrated in the right 
+  hand figure.</P>
+  <P></P>
+  <P>
+  <P><IMG height=185 alt="wpeA.gif (3514 bytes)" 
+  src="Pulse Modulation_files/Compan3.gif" width=309 align=right>In this figure 
+  we show a plot of the <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/pm/Quantisation">quantisation</A> 
+  SNR<SUB>Q</SUB> for the companding case (red) compared to the case without 
+  companding (bliue). The improvement in SNR<SUB>Q</SUB> for low signal levels 
+  is clear. The linear part of the characteristic causes a drop by 2dB in the 
+  SNR<SUB>Q</SUB> for input levels below 1/<I>A </I>(Figure right)<I>.</I> The 
+  system is designed so the rms. value of the smallest signal is equal to 
+  1/<I>A.</I> The SNR<SUB>Q</SUB> is a function of both <I>A</I> and <I>M</I> 
+  which are chosen to give acceptable performance over a desired dynamic range 
+  (ratio between strongest and weakest signal). The CCITT recommended value of A 
+  is 87.6 which gives a useful volume range (UVR) of 26dB. This value with an 
+  8-bit code gives an SNR<SUB>Q</SUB> of 38 dB. An equivalent linear encoder 
+  would require 12-bits to have the same performance so companding is 
+  effectively a bit reduction technique which reduces the required transmission 
+  bandwidth by 33%.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=244 alt="wpeC.gif (6196 bytes)" 
+  src="Pulse Modulation_files/Compan4.gif" width=565></P>
+  <P></P>
+  <P>
+  <P align=center><STRONG>Segmented Compression Characteristic</STRONG></P>
+  <P></P>
+  <P>
+  <P>In practice coders use linear <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/pm/Quantisation">quantisation</A> 
+  with different step sizes over segments of the compression characteristic. 
+  This is technologically easier to realise. 14 segments are used, 7 for 
+  positive values (as shownabove) and 7 for negative values. The step size in 
+  segment 7 is 56 times that in segment 1 giving the characteristic shown above. 
+  The total number of input levels is 2<SUP>13</SUP>. In segment 1 64 input 
+  levels are mapped unto 32 output levels so low level values are quantised at 
+  the equivalent of 12 bits linear quantisation.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:15.906 GMT+1</I></P>
+  <H3>Nearly Instantaneous Companded Audio Multiplex (NICAM)</H3>
+  <P>
+  <P>Describe the principles of range coding as applied in NICAM compression 
+</P>
+  <P></P>
+  <P>
+  <P>Companding compression reduces the resolution (and thus increases the 
+  absolute <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/pm/Quantisation">quantisation</A> 
+  noise) for the higher signal levels. An alternative form of compression can be 
+  based on <STRONG>range coding</STRONG> in which the input waveform is divided 
+  into a fixed number of ranges with different groups of bits transmitted for 
+  the different ranges. This is the technique used in the NICAM (<STRONG>Nearly 
+  Instantaneous Companded Audio Multiplex</STRONG><EM>) </EM>compression 
+  commonly used for high quality television stereo sound signals. It has a 
+  superior noise performance compared to </FONT><I>A</I> law for higher signal 
+  amplitudes. For low input amplitudes only the least significant bits are 
+  transmitted while for high input amplitudes only the most significant bits are 
+  transmitted. </P>
+  <P></P>
+  <P>
+  <P><IMG height=155 alt="wpeE.gif (5065 bytes)" hspace=3 
+  src="Pulse Modulation_files/NICAM.5.gif" width=394 align=left border=0>In the 
+  case of NICAM 14 bit resolution is used which is compressed to 10 bits with 
+  for transmission using 5 ranges as shown in the table left. In addition to the 
+  data bits a 3 bit range code must also be transmitted. Bit reduction is 
+  achieved because the range code is transmitted for a block of amplitude 
+  samples adding only a fraction of a bit per sample. NICAM has a sampling 
+  frequency of 32HKz and transmits a range code every 32 samples representing a 
+  time interval of 1ms which is <EM>nearly instantaneous</EM> as far as the 
+  audio signal is concerned. To avoid clipping the range code corresponds to the 
+  largest bit in the block. A schematic of a NICAM coder is illustrated 
+  below.</P>
+  <P></P>
+  <P>
+  <P><IMG height=148 alt="wpe2.gif (3642 bytes)" 
+  src="Pulse Modulation_files/NICAM.1.gif" width=518 align=left>Since 3 bits can 
+  define 8 ranges this represents an inefficiency. This is reduced in NICAM by 
+  taking 3x32 bit blocks which would have 5<SUP>3</SUP>=125 range combinations 
+  and transmitting these as a 7 bit code producing an overall delay of 3ms in 
+  the audio signal. Errors in the range code would cause substantial distortion 
+  of the signal so 4 parity bits are added to the 7 bit range code to give it a 
+  Hamming distance of 4.</P>
+  <P></P>
+  <P>
+  <P>NICAM effectively transmits the signal with 10 bits and a constant signal 
+  to noise ratio as signal amplitude varies. It has an SNR<SUB>Q</SUB> 
+  improvement of approximately 12dB over simple <I>A</I>-law compression but 
+  requires a more complex encoder and decoder. A 10 bit linear quantiser would 
+  have an SNR<SUB>Q</SUB> of 60 dB but with range coding this is increased to a 
+  subjective equivalent of 80dB.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:17.875 GMT+1</I></P>
+  <H3>Differential Pulse Code Modulation (DPCM)</H3>
+  <P>
+  <P>On completing this block you should be able to describe (with the help of 
+  diagrams and equations) differential pulse code modulation (DPCM) and derive 
+  the expression for the processing gain. </P>
+  <P></P>
+  <P>
+  <P>In PCM each sample of the waveform is encoded independently of all the 
+  others. However most source signals sampled at the Nyquist rate or faster 
+  exhibit significant correlation between successive samples and so an encoding 
+  scheme exploiting the redundancy in the samples will result in a lower bit 
+  rate for the source output. </P>
+  <P></P>
+  <P>
+  <P><IMG height=200 alt="wpe2.gif (3376 bytes)" 
+  src="Pulse Modulation_files/DPCM.h1.gif" width=274 align=right>The simplest 
+  solution would be to encode the differences between successive samples which 
+  being smaller than the actual sampled amplitudes would result in fewer bits 
+  being required. This is illustrated in the figure to the right where we can 
+  see clearly that the range of the differential signal is less than the input 
+  signal range.</FONT></P>
+  <P></P>
+  <P>
+  <P>In differential pulse code modulation this technique is refined to predict 
+  the current sample based upon <I>p</I> previous samples and the difference or 
+  error between the actual sample and the prediction is encoded as illustrated 
+  here.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=127 alt="wpe6.gif (2503 bytes)" 
+  src="Pulse Modulation_files/DPCM.h2.gif" width=484></P>
+  <P></P>
+  <P>
+  <P align=center><STRONG>DPCM Encoding</STRONG></P>
+  <P></P>
+  <P>
+  <P>The process is reversed at the decoder</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=147 alt="wpe8.gif (2375 bytes)" 
+  src="Pulse Modulation_files/DPCM.h3.gif" width=439></P>
+  <P></P>
+  <P>
+  <P align=center><STRONG>DPCM Decoding</STRONG></P>
+  <P></P>
+  <P>
+  <P>Let <IMG height=26 src="Pulse Modulation_files/Image150.gif" width=23 
+  align=middle> be the current sample and <IMG height=26 
+  src="Pulse Modulation_files/Image151.gif" width=23 align=middle> the predicted 
+  value can be given as a weighed linear combination of </FONT><I>p</I> previous 
+  samples using the {<I>a<SUB>i</SUB></I>} the predictor coefficients</P>
+  <P></P>
+  <P>
+  <UL>
+    <UL>
+      <UL>
+        <P><IMG height=56 src="Pulse Modulation_files/Image152.gif" 
+        width=115></P></UL></UL></UL>
+  <P></P>
+  <P>
+  <P>The transmitted difference signal is then</P>
+  <P></P>
+  <P>
+  <UL>
+    <UL>
+      <UL>
+        <P><IMG height=56 src="Pulse Modulation_files/Image153.gif" 
+        width=150></P></UL></UL></UL>
+  <P></P>
+  <P>
+  <P>The predictor coefficients {<I>a<SUB>i</SUB></I>} are chosen to minimise 
+  some function of error between <I>x<SUB>n</SUB></I> and <IMG height=26 
+  src="Pulse Modulation_files/Image151.gif" width=23> i.e. minimise the output 
+  <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/pm/Quantisation">quantisation</A> 
+  noise <IMG height=33 src="Pulse Modulation_files/Image154.gif" width=133> 
+  where <IMG height=30 src="Pulse Modulation_files/Image155.gif" width=26> is 
+  the variance of the original input and <IMG height=33 
+  src="Pulse Modulation_files/Image156.gif" width=28> the variance of the <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/pm/Quantisation">quantisation</A> 
+  error. We may rewrite this as</P>
+  <P></P>
+  <P>
+  <UL>
+    <UL>
+      <UL>
+        <P><IMG height=63 src="Pulse Modulation_files/Image157.gif" 
+        width=221></P></UL></UL></UL>
+  <P></P>
+  <P>
+  <P>where <IMG height=30 src="Pulse Modulation_files/Image158.gif" width=26> is 
+  the variance of the prediction error. The quantity <I>G<SUB>p</SUB></I>, 
+  called the <EM>processing gain</EM> when represents the gain in signal to 
+  noise ratio due to the differential <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/pm/Quantisation">quantisation</A> 
+  scheme. For a given baseband signal <IMG height=30 
+  src="Pulse Modulation_files/Image155.gif" width=26> is fixed so 
+  <I>G<SUB>p</SUB></I>, is maximised by minimising the variance <IMG height=30 
+  src="Pulse Modulation_files/Image158.gif" width=26> of the predictor It can be 
+  shown that minimising <IMG height=30 src="Pulse Modulation_files/Image158.gif" 
+  width=26> with respect to the predictor coefficients {<I>a<SUB>i</SUB></I>} 
+  results in a set of linear equations called the <STRONG>normal</STRONG> or 
+  <STRONG>Yule-Walker equations</STRONG> (see Proakis p.128)</P>
+  <P></P>
+  <P>
+  <UL>
+    <UL>
+      <UL>
+        <P><IMG height=56 src="Pulse Modulation_files/Image159.gif" 
+        width=280></P></UL></UL></UL>
+  <P></P>
+  <P>
+  <P>where <I><FONT face=Symbol>f(</FONT>n)</I> is the autocorrelation function 
+  of the sampled signal sequence<I> x<SUB>n</SUB></I>. It may be estimated from 
+  the finite set of samples {<I>x<SUB>n</SUB></I>} using the relation</P>
+  <P></P>
+  <P>
+  <UL>
+    <UL>
+      <UL>
+        <P><IMG height=56 src="Pulse Modulation_files/Image160.gif" 
+        width=276></P></UL></UL></UL>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:16.062 GMT+1</I></P>
+  <H3>Practical DPCM</H3>
+  <P>
+  <P>On completing this block you should be able to illustrate how DPCM may be 
+  carried out in practice with a feedback loop around the quantiser. </P>
+  <P></P>
+  <P>
+  <P>Shown below are block diagrams for the encoder and decoder of a practical 
+  DPCM system which overcomes the problems associated with the simplistic DPCM 
+  discussed previously.</P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 border=0>
+    <TBODY>
+    <TR>
+      <TD>
+        <P align=center><STRONG>A Practical DPCM encoder<BR><IMG height=137 
+        alt="wpeD.gif (2201 bytes)" src="Pulse Modulation_files/Practi5.gif" 
+        width=370></STRONG></P></TD>
+      <TD vAlign=top>
+        <P align=center><STRONG>A Practical DPCM Decoder<BR><IMG height=124 
+        alt="wpeB.gif (2594 bytes)" src="Pulse Modulation_files/Practi6.gif" 
+        width=362></STRONG></P></TD></TR></TBODY></TABLE></P>
+  <P>
+  <P>In this implementation the predictor is implemented with the feedback loop 
+  around the quantiser. The input to the predictor <IMG height=26 
+  src="Pulse Modulation_files/Image163.gif" width=23> is the sample signal <IMG 
+  height=26 
+  src="C:\My Documents\Assignments Final Year\Digital Telecommunications\Pulse Modulation_files\Image150(1).gif" 
+  width=23> modified by the <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/pm/Quantisation">quantisation</A> 
+  process and the output of the predictor is given by</P>
+  <P></P>
+  <P>
+  <UL>
+    <UL>
+      <UL>
+        <P><IMG height=56 src="Pulse Modulation_files/Image164.gif" 
+        width=115></P></UL></UL></UL>
+  <P></P>
+  <P>
+  <P>The difference</P>
+  <P></P>
+  <P>
+  <UL>
+    <UL>
+      <UL>
+        <P><IMG height=31 src="Pulse Modulation_files/Image165.gif" 
+      width=98></P></UL></UL></UL>
+  <P></P>
+  <P>
+  <P>is the input to the quantiser and <IMG height=26 
+  src="Pulse Modulation_files/Image166.gif" width=20> the output which is 
+  encoded to binary digits and transmitted to the destination. The quantised 
+  error <IMG height=26 src="Pulse Modulation_files/Image166.gif" width=20> is 
+  also added to the predicted value <IMG height=31 
+  src="Pulse Modulation_files/Image167.gif" width=23> to yield <IMG height=26 
+  src="Pulse Modulation_files/Image163.gif" width=23>.</P>
+  <P></P>
+  <P>
+  <P>At the destination the same predictor is used and its output <IMG height=31 
+  src="Pulse Modulation_files/Image167.gif" width=23> added to the incoming 
+  error <IMG height=26 src="Pulse Modulation_files/Image166.gif" width=20> to 
+  yield the output quantised signal <IMG height=26 
+  src="Pulse Modulation_files/Image163.gif" width=23>.which is used by the 
+  predictor and which after filtering provides the output signal <IMG height=23 
+  src="Pulse Modulation_files/Image168.gif" width=36>.</P>
+  <P></P>
+  <P>
+  <P>Using feedback around the quantiser ensures that the error in <IMG 
+  height=26 src="Pulse Modulation_files/Image163.gif" width=23> is simply the <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/pm/Quantisation">quantisation</A> 
+  error <IMG height=31 src="Pulse Modulation_files/Image169.gif" width=100> and 
+  there is no accumulation of previous <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/pm/Quantisation">quantisation</A> 
+  errors in the implementation of the decoder.</P>
+  <P></P>
+  <P>
+  <P>An improvement in the quality of the estimate used in DPCM can be obtained 
+  by including linearly filtered past values of the quantised error. The <IMG 
+  height=31 src="Pulse Modulation_files/Image167.gif" width=23> estimate may be 
+  expressed as</P>
+  <P></P>
+  <P>
+  <UL>
+    <UL>
+      <UL>
+        <P><IMG height=56 src="Pulse Modulation_files/Image170.gif" 
+        width=198></P></UL></UL></UL>
+  <P></P>
+  <P>
+  <P>where <IMG height=26 src="Pulse Modulation_files/Image173.gif" width=36> 
+  are the coefficients of the filter for the quantised error sequence. Both sets 
+  of coefficients <IMG height=26 src="Pulse Modulation_files/Image174.gif" 
+  width=38> and <IMG height=26 src="Pulse Modulation_files/Image173.gif" 
+  width=36> are chosen to minimise some function of the error <IMG height=31 
+  src="Pulse Modulation_files/Image165.gif" width=98> such as the mean square 
+  error.</P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG height=218 alt="wpeE.gif (3370 bytes)" 
+        src="Pulse Modulation_files/Practi7.gif" width=392></TD>
+      <TD><IMG height=113 alt="wpe10.gif (2636 bytes)" 
+        src="Pulse Modulation_files/Practi8.gif" width=379></TD></TR>
+    <TR>
+      <TD colSpan=2>
+        <P align=center><STRONG>DPCM Encoder and Decoder Using a linearly 
+        filtered error sequence</STRONG></P></TD></TR></TBODY></TABLE></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:19 GMT+1</I></P>
+  <H3>Delta Modulation</H3>
+  <P>
+  <P>On completing this block you should be able to describe delta modulation, 
+  and illustrate a simple practical approach to delta-sigma modulation. You 
+  should also be able to describe the types of distortion arising with delta 
+  modulation and the technique of continuously variable slope modulation (CVSD) 
+  for reducing this distortion by adaptively varying the step size </P>
+  <P></P>
+  <P>
+  <P><IMG height=271 alt="wpe16.gif (4677 bytes)" 
+  src="Pulse Modulation_files/Delta%2012.gif" width=465 align=left>Delta 
+  modulation may be viewed as a simplified form of DPCM in which a 1-bit 
+  quantiser is used with a first order predictor. This is illustrated in Figure 
+  28 where a positive pulse (1) is transmitted if the signal is increasing and a 
+  0 level is transmitted if the signal is decreasing.</P>
+  <P></P>
+  <P>
+  <P>Block diagrams of an encode and decoder are in Figure 29 and Figure 30. We 
+  note that <IMG height=31 src="Pulse Modulation_files/Image185.gif" width=171> 
+  and since <IMG height=31 src="Pulse Modulation_files/Image186.gif" width=223> 
+  it follows that <IMG height=31 src="Pulse Modulation_files/Image187.gif" 
+  width=123>. Thus the estimated (predicted) value of 
+  </FONT><I>x<SUB>n</SUB></I> is really the previous sample 
+  <I>x<SUB>n-1</SUB></I> modified by the <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/pm/Quantisation">quantisation</A> 
+  noise <I>q<SUB>n-1</SUB></I>. In general the quantised error signal is scaled 
+  by some value by a <STRONG>step size</STRONG> <FONT 
+  face=Symbol>D</FONT><SUB>1</SUB>. In effect the encoder approximates a 
+  waveform <I>x</I>(<I>t</I>) by a linear staircase function. For the 
+  approximation to be relatively good the waveform must change slowly relative 
+  to the sampling rate i.e. the sampling rate must be several times (e.g. 5) the 
+  Nyquist rate.</P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 border=0>
+    <TBODY>
+    <TR>
+      <TD vAlign=top align=middle><STRONG>Delta Modulation 
+        encoder<BR></STRONG><IMG height=142 alt="wpe11.gif (2849 bytes)" 
+        src="Pulse Modulation_files/Delta%209.gif" width=362></TD>
+      <TD vAlign=top align=middle><STRONG>Delta Modulation 
+        decoder<BR></STRONG><IMG height=107 alt="wpe13.gif (2225 bytes)" 
+        src="Pulse Modulation_files/Delta%2010.gif" 
+  width=431></TD></TR></TBODY></TABLE></P>
+  <P>
+  <P><IMG height=202 alt="wpe14.gif (3407 bytes)" 
+  src="Pulse Modulation_files/Delta%2011.gif" width=436 align=right>The 
+  quantiser input in delta modulation is an approximation to the derivative of 
+  the incoming message signal. Therefore disturbances such as noise result in an 
+  accumulative error in the demodulated signal. This drawback is overcome by 
+  integrating prior to delta modulation. This pre-emphasises the low frequency 
+  content of the input signal, increases the correlation between adjacent 
+  samples (thus reducing the value of the variance signal) and simplifies the 
+  design of the receiver which need only by an integrator. This is called 
+  <STRONG>delta-sigma modulation</STRONG>. A simple practical circuit 
+  implementing this is shown here. The circuit is based on a simple RC 
+  integrator. It will function if the output of the flip-flop is V volts (e.g. a 
+  CMOS device). <IMG height=133 alt="wpe17.gif (2247 bytes)" 
+  src="Pulse Modulation_files/Delta%2013.gif" width=338 align=right>The voltage 
+  across the capacitor will be a series of positive and negative exponential 
+  decays. The error voltage is the difference between the input voltage and the 
+  output voltage which is approximately zero when the input signal is zero. The 
+  receiver can simply be a simple RC integrator as shown.</P></FONT>
+  <P></P>
+  <P>
+  <P>At any given sampling rate the performance of the DM encoder is limited by 
+  two types of distortion as shown in the figures below.</P>
+  <P></P>
+  <P>
+  <P><STRONG>Slope-overload Distortion</STRONG> occurs when the step size 
+  </FONT><FONT face=Symbol>D</FONT><SUB>1</SUB> is too small to follow portions 
+  of the waveform that have a steep slope and the encoder output falls behind 
+  the input signal.</P>
+  <P></P>
+  <P>
+  <P><STRONG>Granular noise</STRONG> results from using a step size that is too 
+  large in parts of the waveform having a small slope.</P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 border=0>
+    <TBODY>
+    <TR>
+      <TD vAlign=top align=middle><STRONG><IMG height=247 
+        alt="wpe18.gif (3475 bytes)" src="Pulse Modulation_files/Variab14.gif" 
+        width=329><BR>Fixed Step Size</STRONG></TD>
+      <TD vAlign=top align=middle><STRONG><IMG height=235 
+        alt="wpe19.gif (3024 bytes)" src="Pulse Modulation_files/Variab15.gif" 
+        width=351><BR>Variable Step Size</STRONG></TD></TR>
+    <TR>
+      <TD vAlign=top align=middle colSpan=2><STRONG>Delta Modulation 
+        Distortion</STRONG></TD></TR></TBODY></TABLE></P>
+  <P>
+  <P>These too distortions place contradictory requirements on the step size of 
+  the encoder and a solution is to use a variable step size that adapts itself 
+  to the short term characteristic of the signal source i.e. it the step size is 
+  increased where the waveform has a steep slope and is reduced where it has a 
+  small slope.</P>
+  <P></P>
+  <P>
+  <P>A number of methods may be used to adaptively set the step size. The 
+  quantised error <IMG height=26 
+  src="C:\My Documents\Assignments Final Year\Digital Telecommunications\Pulse Modulation_files\Image166(1).gif" 
+  width=20> provides a good indication of the waveform slope characteristics. 
+  When successive values of <IMG height=26 
+  src="C:\My Documents\Assignments Final Year\Digital Telecommunications\Pulse Modulation_files\Image166(1).gif" 
+  width=20> are changing signs then the slope is small, when they have the same 
+  sign then the slope is large. A relatively simple rule to adaptively vary the 
+  step size according to the relation</P>
+  <P></P>
+  <P>
+  <UL>
+    <UL>
+      <UL>
+        <P><IMG height=30 src="Pulse Modulation_files/Image193.gif" 
+        width=133></P></UL></UL></UL>
+  <P></P>
+  <P>
+  <P>where <IMG height=21 src="Pulse Modulation_files/Image194.gif" width=48> is 
+  a constant selected to minimise the total distortion.</P>
+  <P></P>
+  <P>
+  <P>A particularly popular technique is called <STRONG>continuously variable 
+  slope modulation</STRONG> (CVSD) in which the adaptive step size parameter is 
+  expressed as</P>
+  <P></P>
+  <P>
+  <UL>
+    <UL>
+      <UL>
+        <P><IMG height=26 src="Pulse Modulation_files/Image195.gif" 
+        width=128></P></UL></UL></UL>
+  <P></P>
+  <P>
+  <P>if <IMG height=26 src="Pulse Modulation_files/Image196.gif" width=56> and 
+  <IMG height=26 src="Pulse Modulation_files/Image197.gif" width=35> have the 
+  same sign; otherwise</P>
+  <P></P>
+  <P>
+  <UL>
+    <UL>
+      <UL>
+        <P><IMG height=26 src="Pulse Modulation_files/Image198.gif" 
+        width=130></P></UL></UL></UL>
+  <P></P>
+  <P>
+  <P>where the parameters are chosen such that <IMG height=23 
+  src="Pulse Modulation_files/Image199.gif" width=76> and <IMG height=26 
+  src="Pulse Modulation_files/Image200.gif" width=101>. Block diagrams 
+  representing the decoder and encoder for performing this type of modulation 
+  are illustrated below</P>
+  <P></P>
+  <P>
+  <P align=center><A name=_Toc374698182></A><STRONG><A name=ASC><IMG height=225 
+  alt="wpe1A.gif (4135 bytes)" src="Pulse Modulation_files/Variab16.gif" 
+  width=480><BR></A>DM Encoder</STRONG></P><A name=ASC>
+  <P></P>
+  <P>
+  <P align=center><STRONG><IMG height=192 alt="wpe1B.gif (3298 bytes)" 
+  src="Pulse Modulation_files/Variab17.gif" width=377><BR></A>DM 
+  Decoder</STRONG></P>
+  <P></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:16.843 GMT+1</I></P>
+  <H3>Adaptive Quantisation</H3>
+  <P>
+  <P>On competing this page you should be able to describe the principles of 
+  adaptive quantisation with both forward and backward estimation. </P>
+  <P></P>
+  <P>
+  <P>Most real sources are quasi-stationary in nature i.e. their variance and 
+  autocorrelation function’s vary slowly with time. PCM and DPCM encoders are 
+  designed on the basis that the output is stationary. Their efficiency and 
+  performance can be improved by having them adapt to the slow time-variant 
+  statistics of the source.</P>
+  <P></P>
+  <P>
+  <P><IMG height=380 alt="wpe1C.gif (5090 bytes)" 
+  src="Pulse Modulation_files/Adapti18.gif" width=471 align=right>With both PCM 
+  and DPCM the <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/pm/Quantisation">quantisation</A> 
+  error <I>q<SUB>n</SUB></I> operating on a quasi-stationary input signal will 
+  have a time-variant variance <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/pm/Quantisation">(quantisation</A> 
+  noise power). An improvement that reduces the dynamic range of the <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/pm/Quantisation">quantisation</A> 
+  noise is the use of an adaptive quantiser. A relatively simple method is to 
+  use a uniform quantiser that varies its step size according with the variance 
+  of the past signal samples. Is its simplest form only one previous signal 
+  sample may be used for the step size adjustment. Shown in Figure 24 is an 
+  example of a 3-bit quantiser whose step size varies recursively with the 
+  relation<IMG height=26 src="Pulse Modulation_files/Image176.gif" width=126> 
+  here <I>M(n)</I> is a factor whose value depends on the quantiser level for 
+  the sample <I>x<SUB>n</SUB></I> and <FONT 
+  face=Symbol>D</FONT><SUB><I>n</I></SUB> is the step size of the quantiser for 
+  sample <I>x<SUB>n</SUB></I>. The values of <I>M(n)</I> optimised for speech. 
+  are given in the table below.</P></FONT>
+  <DIV align=center>
+  <CENTER>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=2 cellPadding=2 border=2>
+    <TBODY>
+    <TR>
+      <TD vAlign=top width="14%" bgColor=#00ffff>&nbsp;</TD>
+      <TD vAlign=top width="42%" bgColor=#00ffff colSpan=3>
+        <P align=center><B>PCM</B></P></TD>
+      <TD vAlign=top width="42%" bgColor=#00ffff colSpan=3>
+        <P align=center><B>DPCM</B></P></TD></TR>
+    <TR>
+      <TD vAlign=top width="14%" bgColor=#00ffff>&nbsp;</TD>
+      <TD vAlign=top width="14%" bgColor=#00ffff><B>2</B></TD>
+      <TD vAlign=top width="14%" bgColor=#00ffff><B>3</B></TD>
+      <TD vAlign=top width="14%" bgColor=#00ffff><B>4</B></TD>
+      <TD vAlign=top width="14%" bgColor=#00ffff><B>2</B></TD>
+      <TD vAlign=top width="14%" bgColor=#00ffff><B>3</B></TD>
+      <TD vAlign=top width="14%" bgColor=#00ffff><B>4</B></TD></TR>
+    <TR>
+      <TD vAlign=top width="14%" bgColor=#00ffff>M(1)</TD>
+      <TD vAlign=top width="14%">0.60</TD>
+      <TD vAlign=top width="14%">0.85</TD>
+      <TD vAlign=top width="14%">0.80</TD>
+      <TD vAlign=top width="14%">0.80</TD>
+      <TD vAlign=top width="14%">0.90</TD>
+      <TD vAlign=top width="14%">0.90</TD></TR>
+    <TR>
+      <TD vAlign=top width="14%" bgColor=#00ffff>M(2)</TD>
+      <TD vAlign=top width="14%">2.20</TD>
+      <TD vAlign=top width="14%">1.00</TD>
+      <TD vAlign=top width="14%">0.80</TD>
+      <TD vAlign=top width="14%">1.60</TD>
+      <TD vAlign=top width="14%">0.90</TD>
+      <TD vAlign=top width="14%">0.90</TD></TR>
+    <TR>
+      <TD vAlign=top width="14%" bgColor=#00ffff>M(3)</TD>
+      <TD vAlign=top width="14%">&nbsp;</TD>
+      <TD vAlign=top width="14%">1.00</TD>
+      <TD vAlign=top width="14%">0.80</TD>
+      <TD vAlign=top width="14%">&nbsp;</TD>
+      <TD vAlign=top width="14%">1.25</TD>
+      <TD vAlign=top width="14%">0.90</TD></TR>
+    <TR>
+      <TD vAlign=top width="14%" bgColor=#00ffff>M(4)</TD>
+      <TD vAlign=top width="14%">&nbsp;</TD>
+      <TD vAlign=top width="14%">1.5</TD>
+      <TD vAlign=top width="14%">0.80</TD>
+      <TD vAlign=top width="14%">&nbsp;</TD>
+      <TD vAlign=top width="14%">1.70</TD>
+      <TD vAlign=top width="14%">0.90</TD></TR>
+    <TR>
+      <TD vAlign=top width="14%" bgColor=#00ffff>M(5)</TD>
+      <TD vAlign=top width="14%">&nbsp;</TD>
+      <TD vAlign=top width="14%">&nbsp;</TD>
+      <TD vAlign=top width="14%">1.20</TD>
+      <TD vAlign=top width="14%">&nbsp;</TD>
+      <TD vAlign=top width="14%">&nbsp;</TD>
+      <TD vAlign=top width="14%">1.20</TD></TR>
+    <TR>
+      <TD vAlign=top width="14%" bgColor=#00ffff>M(6)</TD>
+      <TD vAlign=top width="14%">&nbsp;</TD>
+      <TD vAlign=top width="14%">&nbsp;</TD>
+      <TD vAlign=top width="14%">1.60</TD>
+      <TD vAlign=top width="14%">&nbsp;</TD>
+      <TD vAlign=top width="14%">&nbsp;</TD>
+      <TD vAlign=top width="14%">1.60</TD></TR>
+    <TR>
+      <TD vAlign=top width="14%" bgColor=#00ffff>M(7)</TD>
+      <TD vAlign=top width="14%">&nbsp;</TD>
+      <TD vAlign=top width="14%">&nbsp;</TD>
+      <TD vAlign=top width="14%">2.00</TD>
+      <TD vAlign=top width="14%">&nbsp;</TD>
+      <TD vAlign=top width="14%">&nbsp;</TD>
+      <TD vAlign=top width="14%">2.00</TD></TR>
+    <TR>
+      <TD vAlign=top width="14%" bgColor=#00ffff>M(8)</TD>
+      <TD vAlign=top width="14%">&nbsp;</TD>
+      <TD vAlign=top width="14%">&nbsp;</TD>
+      <TD vAlign=top width="14%">2.40</TD>
+      <TD vAlign=top width="14%">&nbsp;</TD>
+      <TD vAlign=top width="14%">&nbsp;</TD>
+      <TD vAlign=top width="14%">2.40</TD></TR></TBODY></TABLE></CENTER></P></DIV>
+  <P><B><A name=_Ref375211199>Figure 25</A></B> Values of <I>M(n)</I> for an 
+  adaptive quantiser optimised for speech</P>
+  <P></P>
+  <P>
+  <P>More generally we have a step size proportional to an estimate of the 
+  variance of the signal</P>
+  <P></P>
+  <P>
+  <UL>
+    <UL>
+      <UL>
+        <P><IMG height=28 src="Pulse Modulation_files/Image177.gif" 
+      width=98></P></UL></UL></UL>
+  <P></P>
+  <P>
+  <P>The problem is one of computing the estimated variance <IMG height=28 
+  src="Pulse Modulation_files/Image178.gif" width=45> continuously. This we may 
+  do in two ways</P>
+  <P></P>
+  <P>
+  <P><STRONG>Adaptive <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/pm/Quantisation">quantisation</A> 
+  with forward estimation</STRONG> (AQF) in which unquantised samples of the 
+  input signal are used to derive forward estimates of <IMG height=28 
+  src="Pulse Modulation_files/Image178.gif" width=45>.</P>
+  <P></P>
+  <P>
+  <P><STRONG>Adaptive <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/pm/Quantisation">quantisation</A> 
+  with backward estimation</STRONG> (AQB) in which samples of the quantised 
+  output are used to derive backward estimates of <IMG height=28 
+  src="Pulse Modulation_files/Image178.gif" width=45>.</P>
+  <P></P>
+  <P>
+  <P><IMG height=184 alt="wpe1D.gif (3725 bytes)" 
+  src="Pulse Modulation_files/Adapti19.gif" width=426 align=right>AQF requires 
+  the use of a buffer to store unquantised samples and requires explicit 
+  transmission of level information to a remote decoder. It also introduces a 
+  delay (about 16ms for speech) in the encoding process which may not be 
+  acceptable. These problems are all avoided by AQB which is therefore usually 
+  preferred. It represents a non-linear feedback system which can be shown to be 
+  stable if the input is bounded.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:15.296 GMT+1</I></P>
+  <H3>Adaptive Prediction</H3>
+  <P>
+  <P>On completing this block you should be able to describe the principles of 
+  adaptive prediction and illustrate the process of adaptive prediction with 
+  backward estimation. </P>
+  <P></P>
+  <P>
+  <P>In DPCM the predictor can also be made adaptive when the source output is 
+  quasi-stationary i.e. the predictor coefficients can be changed periodically 
+  with time. They are calculated from the short term estimate of the 
+  autocorrelation function of <I>x<SUB>n</SUB></I> and transmitted along with 
+  the quantised error <IMG height=26 
+  src="C:\My Documents\Assignments Final Year\Digital Telecommunications\Pulse Modulation_files\Image166(2).gif" 
+  width=20> to the receiver which implements the same predictor. </P>
+  <P></P>
+  <P>
+  <P>Analogous to <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/pm/AdaptiveQuantisation">adaptive 
+  quantisation</A> we may use forward or backward estimations of the 
+  autocorrelation functions of <I>x<SUB>n</SUB></I></P>
+  <P></P>
+  <P>
+  <P><STRONG>Adaptive prediction with forward estimation</STRONG> (APF) in which 
+  unquantised samples of the input signal are used to derive forward estimates 
+  of <FONT face=Symbol>F</FONT>(<I>n</I>).</P>
+  <P></P>
+  <P>
+  <P><STRONG>Adaptive prediction with backward estimation</STRONG> (AQB) in 
+  which samples of the quantised output are used to derive backward estimates of 
+  <FONT face=Symbol>F</FONT>(<I>n</I>).</P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 align=right border=0>
+    <TBODY>
+    <TR>
+      <TD><STRONG><IMG height=198 alt="wpe1.gif (3520 bytes)" 
+        src="Pulse Modulation_files/Adapti1.gif" width=381></STRONG></TD></TR>
+    <P></P>
+    <P>
+    <TR>
+      <TD><STRONG>Adaptive Prediction with backward estimation 
+      (APB)</STRONG></TD></TR></P></TBODY></TABLE></P>
+  <P>
+  <P>Transmission of the predictor offsets in part the lower data rate achieved 
+  by the reduction in the number of bits needed to transmit the lower dynamic 
+  range in the error <I>e<SUB>n</SUB></I> resulting from adaptive predication so 
+  as for <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/pm/AdaptiveQuantisation">adaptive 
+  quantisation</A> the backward estimation AQB is preferred</P>
+  <P></P>
+  <P>
+  <P>In this case the receiver predictor may compute its own predictor 
+  coefficients from <IMG height=26 
+  src="C:\My Documents\Assignments Final Year\Digital Telecommunications\Pulse Modulation_files\Image166(2).gif" 
+  width=20> and <IMG height=26 src="Pulse Modulation_files/Image181.gif" 
+  width=21> where <IMG height=56 src="Pulse Modulation_files/Image182.gif" 
+  width=150>. If we neglect <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/pm/Quantisation">quantisation</A> 
+  noise <IMG height=26 src="Pulse Modulation_files/Image181.gif" width=21> is 
+  equivalent to <IMG height=26 src="Pulse Modulation_files/Image183.gif" 
+  width=23> and may be used to estimate the autocorrelation function <FONT 
+  face=Symbol>F</FONT>(<I>n</I>) at the receiver. If the <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/pm/Quantisation">quantisation</A> 
+  error is sufficiently small this is adequate for determining the predictor 
+  coefficients and the adaptive predictor results in a reduced source data 
+  rate.</P>
+  <P></P>
+  <P>
+  <P>Instead of using the block processing approach for determining the 
+  predictor coefficients we can do it on a sample by sample basis. Similar 
+  schemes may also be used for adapting the filter coefficients <IMG height=26 
+  src="C:\My Documents\Assignments Final Year\Digital Telecommunications\Pulse Modulation_files\Image174(1).gif" 
+  width=38> and <IMG height=26 
+  src="C:\My Documents\Assignments Final Year\Digital Telecommunications\Pulse Modulation_files\Image173(1).gif" 
+  width=36> for the second DPCM algorithm mentioned previously.</P>
+  <P></P>
+  <P>
+  <P><STRONG>Adaptive Differential Pulse-Code modulation</STRONG> (ADPCM) using 
+  both <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/pm/AdaptiveQuantisation">adaptive 
+  quantisation</A> and adaptive prediction is now internationally accepted for 
+  speech encoded transmissions at 32 kb/s along with standard PCM at 64 
+kb/s.</P>
+  <P></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:13.078 GMT+1</I></P>
+  <H3>Adaptive Subband Coding</H3>
+  <P>
+  <P>On completing this block you should be able to define model based encoding 
+  and spectral waveform encoding and describe the form of spectral waveform 
+  encoding known as adaptive subband encoding. </P>
+  <P></P>
+  <P>
+  <P>The coding techniques discussed so far digitally represent the temporal 
+  characteristics of the source waveform. The are however two other basic 
+  classes of source coding. In <STRONG>spectral waveform encoding</STRONG> the 
+  signal waveform is usually subdivided into different frequency bands and 
+  either the time waveform in each band or its spectral characteristics are 
+  encoded for transmission. In <STRONG>Model-based encoding</STRONG> the source 
+  is modelled as a filter that when excited by an appropriate input signal 
+  results in the observed source output. The parameters of the filter together 
+  with an appropriate excitation signal are transmitted and provided the number 
+  of parameters are sufficiently small a large reduction in data is 
+achieved.</P>
+  <P></P>
+  <P>
+  <P>One form of spectral waveform encoding is <STRONG>adaptive subband 
+  coding</STRONG> (ASBC) in which the signal is divided into a number of 
+  frequency subbands each of which is coded separately. This technique can 
+  digitise speech at 16 kb/s with a quality comparable to 64 kb/s PCM. To 
+  achieve this it exploits the quasi-periodic nature of voiced speech which 
+  manifests itself in the fact that people speak with a characteristic pitch 
+  frequency. This permits pitch prediction reducing the level of prediction 
+  error requiring <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/pm/Quantisation">quantisation</A> 
+  and thus greatly reducing the number of bits per sample. Further reductions 
+  are achieved by exploiting the fact that the human ear cannot hear noise below 
+  about 15dB below the signal level in that particular band </P>
+  <P></P>
+  <P>
+  <P>In ASBC noise shaping is accomplished bit adaptive bit assignment. The 
+  number of bits used to encode each subband is varied dynamically and shared 
+  with other subbands. Subbands with little or no energy may not be encoded at 
+  all. A block diagram of this is shown below.</P>
+  <P></P>
+  <P>
+  <P align=center><STRONG><IMG height=258 alt="wpe2.gif (5589 bytes)" 
+  src="Pulse Modulation_files/Adapti2.gif" width=722><BR>Adaptive Subband 
+  Transmitter </STRONG></FONT></P>
+  <P></P>
+  <P>
+  <P align=center><STRONG>&nbsp;<IMG height=255 alt="wpe6.gif (4765 bytes)" 
+  src="Pulse Modulation_files/Adapti3.gif" width=573><BR>Adaptive Subband 
+  Receiver</STRONG></P>
+  <P></P>
+  <P>
+  <P>The signal is split into a number (4 or 8) of contiguous bands by a bank of 
+  bandpass filters (typically each covering an octave) and these are frequency 
+  shifted using single sideband modulation to a low-pass form before sampling, 
+  band specific ADPCM encoding and multiplexing. into a bit stream. The bit 
+  assignment information is transmitted to the receiver allowing it to decode 
+  the subbands individually and modulate them back into their appropriate 
+  frequencies which are summed to create the output signal. The complexity of 
+  the adaptive subband encoder means that there is a processing delay of about 
+  25ms but this is no concern in voice storage e.g. voice mail.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:15.421 GMT+1</I></P></DL>
+<HR>
+
+<P><I>Tutorial Path created by willijar at 2001/04/05 08:19:46.5 GMT+1</I></P>
+<TABLE width="100%" border=0>
+  <STYLE type=text/css>A {
+	TEXT-DECORATION: none
+}
+</STYLE>
+
+  <TBODY>
+  <TR>
+    <TD align=middle colSpan=3><BR><IMG height=2 alt=HR 
+      src="Pulse Modulation_files/hr.gif" width=500> </TD></TR>
+  <TR>
+    <TD vAlign=top width=120><A href="http://www.aston.ac.uk/"><IMG 
+      alt="Aston University - the real world university" 
+      src="Pulse Modulation_files/unilogomidsmall.gif" border=0> </A></TD>
+    <TD vAlign=top align=middle><A class=corporategreen 
+      href="http://www.aston.ac.uk/"><B>w w w . a s t o n . a c . u 
+      k</B></A><BR><SMALL class=blue>Aston University, Aston Triangle, 
+      Birmingham B4 7ET, United Kingdom</SMALL> <BR><SMALL>t: +44 (0) 121 359 
+      3611&nbsp;&nbsp;&nbsp;&nbsp;f: +44 (0) 121 359 0156 
+      &nbsp;&nbsp;&nbsp;&nbsp;<A style="COLOR: black" 
+      href="mailto:J.A.R.Williams@aston.ac.uk">mailto:J.A.R.Williams@aston.ac.uk</A> 
+      <BR>Last modified: Apr 22, 2001 1:41 pm</SMALL> <BR><SMALL 
+      class=copyright>Copyright © 2000,2001 Aston University.</SMALL><BR><A 
+      href="http://benedick.aston.ac.uk:8080/legalise">Legalise</A> | <A 
+      href="http://benedick.aston.ac.uk:8080/privacy">Privacy Statement</A> | <A 
+      href="http://benedick.aston.ac.uk:8080/tutorials/paths/pm/entire_html?printable=1">Printable 
+      Version</A> </TD>
+    <TD vAlign=top width=120 rowSpan=2></TD></TR></TBODY></TABLE></BODY></HTML>

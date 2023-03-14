@@ -1,0 +1,40 @@
+f "noname"; #file 0
+f "c:\fndtn\active\projects\rs232sch\decodecnt.vhd"; #file 1
+f "c:\fndtn\active\projects\rs232sch\rev_1\decodecnt.srr"; #file 2
+f "c:\synplicity\synplify\lib\vhd\std.vhd"; #file 3
+n  flattened CDDECODE_flattened cddecode_arch;
+i CDDEN;
+i RESET;
+i S19200;
+i S9600;
+i S4800;
+i S2400;
+i S1200;
+i S600;
+i S300;
+o CNT[15:0] false,false,cnt[13:0];
+p @@1:2:62:2:65:un1_s300 $0:0 inv un1_s300 un1_s300 S300;
+p @@3:1:1:1:2:true $0:0 true true true;
+p @@3:1:1:1:2:false $0:0 false false false;
+p @@1:15:9:15:20:un12_cdden $0:0 orv un12_cdden un12_cdden S300 S600;
+p @@1:15:9:15:20:un1_un12_cdden $0:0 inv un1_un12_cdden un1_un12_cdden un12_cdden;
+p @@1:15:9:15:20:un13_cdden $0:0 andv un13_cdden un13_cdden S600 un1_s300;
+p @@1:16:9:16:20:un17_cdden $0:0 orv un17_cdden un17_cdden un12_cdden S1200;
+p @@1:16:9:16:20:un1_un17_cdden $0:0 inv un1_un17_cdden un1_un17_cdden un17_cdden;
+p @@1:16:9:16:20:un18_cdden $0:0 andv un18_cdden un18_cdden S1200 un1_un12_cdden;
+p @@1:17:9:17:20:un22_cdden $0:0 orv un22_cdden un22_cdden un17_cdden S2400;
+p @@1:17:9:17:20:un1_un22_cdden $0:0 inv un1_un22_cdden un1_un22_cdden un22_cdden;
+p @@1:17:9:17:20:un23_cdden $0:0 andv un23_cdden un23_cdden S2400 un1_un17_cdden;
+p @@1:18:9:18:20:un27_cdden $0:0 orv un27_cdden un27_cdden un22_cdden S4800;
+p @@1:18:9:18:20:un1_un27_cdden $0:0 inv un1_un27_cdden un1_un27_cdden un27_cdden;
+p @@1:18:9:18:20:un28_cdden $0:0 andv un28_cdden un28_cdden S4800 un1_un22_cdden;
+p @@1:19:9:19:20:un32_cdden $0:0 orv un32_cdden un32_cdden un27_cdden S9600;
+p @@1:19:9:19:20:un1_un32_cdden $0:0 inv un1_un32_cdden un1_un32_cdden un32_cdden;
+p @@1:19:9:19:20:un33_cdden $0:0 andv un33_cdden un33_cdden S9600 un1_un27_cdden;
+p @@1:20:9:20:20:un37_cdden $0:0 orv un37_cdden un37_cdden un32_cdden S19200;
+p @@1:20:9:20:20:un1_un37_cdden $0:0 inv un1_un37_cdden un1_un37_cdden un37_cdden;
+p @@1:20:9:20:20:un38_cdden $0:0 andv un38_cdden un38_cdden S19200 un1_un32_cdden;
+p @@1:10:2:10:3:un1_un1_un37_cdden $0:0 inv un1_un1_un37_cdden un1_un1_un37_cdden un1_un37_cdden;
+p @@1:10:2:10:3:cnt_cnst[13:0] $0:0 pmux cnt_cnst[13:0] cnt_cnst[13:0] true,true,true,false,true,false,true,false,false,true,true,false,false,false,S300 false,true,true,true,false,true,false,true,false,false,true,true,false,false,un13_cdden false,false,true,true,true,false,true,false,true,false,false,true,true,false,un18_cdden false,false,false,true,true,true,false,true,false,true,false,false,true,true,un23_cdden false,false,false,false,true,true,true,false,true,false,true,false,false,true,un28_cdden false,false,false,false,false,true,true,true,false,true,false,true,false,false,un33_cdden false,false,false,false,false,false,true,true,true,false,true,false,true,false,un38_cdden;
+p @@1:10:2:10:3:cnt_1[13:0] $0:0 pmux cnt_1[13:0] cnt_1[13:0] cnt[13:0],un1_un37_cdden cnt_cnst[13:0],un1_un1_un37_cdden;
+p @@1:10:2:10:3:cnt[13:0] $0:0 latr cnt[13:0] cnt[13:0] cnt_1[13:0] CDDEN RESET;

@@ -1,0 +1,86 @@
+package bank;
+
+public class Bank
+{
+   // Place any instance variables here
+   private Account[] accounts;
+   private int size;
+   
+   // Complete the following mandatory constructors
+   // An array of type Account object is created, called accounts 
+   public Bank()
+   {
+	   Account[] accounts = new Account[100];
+   }
+
+   public Bank(int n)
+   {
+	   size = n;
+	   Account[] accounts = new Account[size];
+   }
+
+   // Place here any internal private methods you may need
+
+   // Complete the following mandatory public methods
+   public void addAccount(Account a) throws NoMoreAccountsException,
+      AccountExistsException
+   {
+	   //extratestshit
+	   System.out.println(a.getAccountNumber());
+	   System.out.println("OH SHIT ");
+	   accounts[4] = a;
+	   //
+	   
+	   int thisAcNo = a.getAccountNumber();
+	   int index, freeCells = 0;
+	   
+	   //Search for an avialable array cell to cater for the account
+	   //update the array index of free cell, 
+	   for (int i = 0; i < accounts.length; i++)
+	   {
+		  if (accounts[i] == null)
+		  {
+			  index = i;
+			  freeCells = freeCells + 1;
+		  }
+		  else if (thisAcNo == accounts[i].getAccountNumber())
+		  {
+			  //AccountExistsException a = new AccountExistsException();
+			  //throw a;  
+		  }
+	   }
+	   
+	   if (freeCells < 0) 
+	   {
+		   //NoMoreAccountsException b = new NoMoreAccountsEception();
+		   //throw b;
+	   }
+	   else if (freeCells > 0)
+	   {
+		   //accounts[i] = a();
+	   }
+   }
+
+   public Account getAccount(int accountNumber) throws NotFoundException
+   {
+	   for (int i = 0; i < accounts.length; i++)
+	   {
+		   if (accountNumber == accounts[i].getAccountNumber())
+		   {
+			   return accounts[i];
+		   }
+	   }
+	   
+	  // if (i == ((accounts.length) - 1))
+	  // {
+		  //NotFoundException c = new NotFoundException();
+		  //throw c;
+		  int b = 0;
+		  return accounts[b];
+	  // }
+   }
+
+   public void removeAccount(int accountNumber) throws NotFoundException
+   {
+   }
+}

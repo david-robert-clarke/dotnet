@@ -1,0 +1,57 @@
+CM: 
+CM: Checking...
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/vhdl/libraries/textio.vhd  line 17   A constant parameter declaration must not declare a parameter that is of a file type. (VSS-908)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L45/C0 : #0 Error: C:/fndtn/active/vhdl/libraries/textio.vhd  line 45   A constant parameter declaration must not declare a parameter that is of an access type. (VSS-908)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L50/C0 : #0 Error: Literal 'REAL' is not supported for synthesis  on line 50  (VHDL-2152) 
+CM:  Error   L264/C0 : #0 Error: Literal 'REAL' is not supported for synthesis  on line 264  (VHDL-2152) 
+CM:  Warning   L-670/C0 : #0 Warning: C:/fndtn/active/vhdl/libraries/mathpack.vhd  line -670   Function must contain a return statement.  (VSS-949) 
+CM:  Warning   L-680/C0 : #0 Warning: C:/fndtn/active/vhdl/libraries/mathpack.vhd  line -680   Function must contain a return statement.  (VSS-949) 
+CM:  Warning   L-691/C0 : #0 Warning: C:/fndtn/active/vhdl/libraries/mathpack.vhd  line -691   Function must contain a return statement.  (VSS-949) 
+CM:  Warning   L-1/C0 : #0 Warning: Can't find the package 'MATH_REAL'   in the library 'WORK'.  (LBR-1) 
+CM:  Error   L389/C0 : #0 Error: Body of package MATH_REAL seen before or without its declaration  on line 389  (VHDL-2248) 
+CM:  Warning   L-1/C0 : #0 Warning: Can't find the package 'MATH_COMPLEX'   in the library 'WORK'.  (LBR-1) 
+CM:  Error   L1177/C0 : #0 Error: Body of package MATH_COMPLEX seen before or without its declaration  on line 1177  (VHDL-2248) 
+CM:  Error   L1525/C0 : #0 Error: C:/fndtn/active/vhdl/libraries/mathpack.vhd  line 1525   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 5 warning(s) found
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/vhdl/libraries/textio.vhd  line 17   A constant parameter declaration must not declare a parameter that is of a file type. (VSS-908)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L45/C0 : #0 Error: C:/fndtn/active/vhdl/libraries/textio.vhd  line 45   A constant parameter declaration must not declare a parameter that is of an access type. (VSS-908)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L-1/C0 : #0 Error: Object LINE not found  on line 0  (VHDL-2234) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/vhdl/libraries/textio.vhd  line 18   Syntax error.  (VSS-1081) 
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/vhdl/libraries/textio.vhd  line 19   Syntax error.  (VSS-1081) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/vhdl/libraries/textio.vhd  line 22   Syntax error.  (VSS-1081) 
+CM:  Error   L49/C0 : #0 Error: C:/fndtn/active/vhdl/libraries/textio.vhd  line 49   Syntax error.  (VSS-1081) 
+CM:  6 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/vhdl/libraries/textio.vhd  line 19   Syntax error.  (VSS-1081) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/vhdl/libraries/textio.vhd  line 22   Syntax error.  (VSS-1081) 
+CM:  Error   L49/C0 : #0 Error: C:/fndtn/active/vhdl/libraries/textio.vhd  line 49   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/vhdl/libraries/textio.vhd  line 18   Syntax error.  (VSS-1081) 
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/vhdl/libraries/textio.vhd  line 19   Syntax error.  (VSS-1081) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/vhdl/libraries/textio.vhd  line 22   Syntax error.  (VSS-1081) 
+CM:  Error   L49/C0 : #0 Error: C:/fndtn/active/vhdl/libraries/textio.vhd  line 49   Syntax error.  (VSS-1081) 
+CM:  6 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/vhdl/libraries/textio.vhd  line 22   Syntax error.  (VSS-1081) 
+CM:  Error   L49/C0 : #0 Error: C:/fndtn/active/vhdl/libraries/textio.vhd  line 49   Syntax error.  (VSS-1081) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L12/C0 : #0 Error: Access types are not supported for synthesis  on line 12  (VHDL-2093) 
+CM:  1 error(s) 0 warning(s) found

@@ -1,0 +1,15 @@
+Take 10% of the outstanding balance
+
+Trafalgar Way
+Sortcode 23-88-97
+Account Number 12435612
+Payee Name David Robert Clarke
+Reference 9712435612
+Amount £3,342.73
+
+Kittoe Road
+Sortcode 23-88-96
+Account Number 12792108
+Payee Name David Robert Clarke
+Reference 9612792108
+Amount £18,904.50

@@ -1,0 +1,15 @@
+LogiBLOX Version C.16
+Copyright (c) 1998, Xilinx Inc.
+
+Running LogiBLOX DRC for Module 'Data_Store'....
+ERROR:LBEngine:37 - Data_Store LogiBLOX DRC: The attribute "MEMFILE" must be
+   specified in order for this module to be generated.
+
+Running LogiBLOX DRC for Module 'Data_Store'....
+ERROR:LBEngine:37 - Data_Store LogiBLOX DRC: The attribute "MEMFILE" must be
+   specified in order for this module to be generated.
+
+Running LogiBLOX DRC for Module 'Data_Store_Dude'....
+ERROR:LBEngine:37 - Data_Store_Dude LogiBLOX DRC: The attribute "MEMFILE" must
+   be specified in order for this module to be generated.
+

@@ -1,0 +1,60 @@
+package I;
+
+import java.awt.*;
+import javax.swing.*;
+import java.awt.Component;
+/**
+   Log-In Screen for Staff and Managers 
+   
+   @author David Clarke 
+**/
+public class LogIn extends JFrame
+{  
+    private JLabel userNameLabel, passwordLabel, blankLabel;
+    private JTextField userNameField, passwordField;
+    private JButton okayButton, cancelButton;
+
+    //constructor
+    public LogIn()
+    {
+        blankLabel = new JLabel();
+        userNameLabel = new JLabel("Login: ");
+        userNameField = new JTextField();
+        passwordLabel = new JLabel("Password: ");
+        passwordField = new JPasswordField();
+        okayButton = new JButton("OK");
+        cancelButton = new JButton("Cancel");
+
+        //contentPane
+
+        JPanel blankPanel = new JPanel();        
+        blankPanel.add(blankLabel);
+        blankPanel.add(blankLabel);
+
+        JPanel loginPasswordPanel = new JPanel();
+        loginPasswordPanel.setLayout(new GridLayout(4,2));
+               
+        loginPasswordPanel.add(userNameLabel);
+        loginPasswordPanel.add(userNameField);
+        loginPasswordPanel.add(passwordLabel);
+        loginPasswordPanel.add(passwordField);
+
+        loginPasswordPanel.add(blankLabel);
+        loginPasswordPanel.add(blankLabel);
+        loginPasswordPanel.add(blankLabel);
+        loginPasswordPanel.add(blankLabel);
+       
+        
+        JPanel buttonPanel = new JPanel();
+        buttonPanel.setLayout(new GridLayout(1,2));//column, tuples
+        buttonPanel.add(okayButton);
+        buttonPanel.add(cancelButton);
+
+        Container contentPane = getContentPane();
+        contentPane.add(blankPanel, "North");
+        contentPane.add(loginPasswordPanel, "Center");
+        contentPane.add(buttonPanel, "South");
+	contentPane.setResizable(false);
+	
+    }
+}

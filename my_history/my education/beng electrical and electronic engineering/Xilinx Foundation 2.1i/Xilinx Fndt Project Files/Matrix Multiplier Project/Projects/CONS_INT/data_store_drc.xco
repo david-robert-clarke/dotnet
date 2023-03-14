@@ -1,0 +1,21 @@
+# Xilinx CORE Generator 2.1i
+# Username = David Clarke
+# COREGenPath = C:\Fndtn\coregen
+# FoundationPath = C:\Fndtn
+# ProjectPath = C:\Fndtn\Active\Projects\CONS_INT
+# ExpandedProjectPath = C:\Fndtn\Active\Projects\CONS_INT
+SET BusFormat = BusFormatAngleBracket
+SET SimulationOutputProducts = VHDL   Verilog
+SET ViewlogicLibraryAlias = ""
+SET XilinxFamily = XC4000
+SET DesignFlow = Schematic
+SET FlowVendor = Foundation
+SELECT Registered_ROM  XC4000 Xilinx 1.0
+CSET signed = true
+CSET component_name = data_store_drc
+CSET default = 0
+CSET data_width = 4
+CSET radix = 10
+CSET depth = 16
+CSET memdata = 2,   1,   1,   1,   2,   2,   1,   0,   0,   1,   1,   1,   0,   2,   1,   0
+GENERATE

@@ -1,0 +1,407 @@
+#VRML V2.0 utf8
+#Ian Whitehouse, 5/5/00.
+
+#External prototype definitions.
+
+EXTERNPROTO TrackingView[
+	eventIn SFVec3f set_targetPosition
+	eventIn SFVec3f set_userPosition
+]"tracker.wrl"
+
+EXTERNPROTO ConstraintModel[
+	exposedField SFNode appearance
+	eventIn SFVec3f set_position
+	eventIn SFRotation set_rotation
+	eventIn MFVec3f set_bulletPositions
+	eventIn SFFloat set_resolution
+	eventOut SFBool landed_changed
+	eventOut SFVec3f position_changed
+	eventOut SFRotation rotation_changed
+	eventOut SFVec3f wheelHeights_changed
+	eventOut MFInt32 removeBullets
+	eventOut SFBool explode
+	eventOut SFFloat speed_changed
+	field SFInt32 xDimension
+	field SFFloat xSpacing
+	field SFInt32 zDimension
+	field SFFloat zSpacing
+	field MFFloat height
+]"constraints.wrl"
+
+EXTERNPROTO Apache[
+	eventIn SFBool explode
+	eventIn SFRotation set_bladePitch
+	eventIn SFRotation set_gunRotation
+	eventIn SFRotation set_rotation
+	eventIn SFRotation set_rotorPitch
+	eventIn SFRotation set_rotorRotation
+	eventIn SFRotation set_tailRotorRotation
+	eventIn SFVec3f set_currentTarget
+	eventIn SFVec3f set_position
+	eventIn SFVec3f set_wheelHeights
+	eventOut SFBool validTarget
+	eventOut SFRotation gunTotRotation_changed
+	eventOut SFVec3f gunTipPos_changed
+]"apache.wrl"
+
+EXTERNPROTO RadioController[
+	eventIn SFBool set_running
+	eventIn SFBool set_targetingActive
+	eventIn SFBool set_validTarget
+	eventIn SFRotation set_userOrientation
+        eventIn SFVec3f set_userPosition
+        eventOut SFBool startEngines_changed
+	eventOut SFBool targetSelect_changed
+	eventOut SFTime fireGun
+	eventOut SFVec2f cyclic_changed
+        eventOut SFVec2f rudderAndCollective_changed
+	exposedField SFBool enabled
+]"radiocontroller.wrl"
+
+EXTERNPROTO FlightModel[
+	eventIn SFFloat systemStep
+	eventIn SFVec2f set_cyclicRotation
+	eventIn SFVec2f set_rudderAndCollective
+	eventIn SFBool set_landed
+	eventIn SFVec3f set_velocity
+	eventIn SFVec3f set_position
+	eventOut SFVec3f position_changed
+	eventOut SFRotation rotation_changed
+	field SFVec3f initialPosition
+]"flightmodel.wrl"
+
+EXTERNPROTO BallisticModel[
+        eventIn MFInt32 removeBullets
+        eventIn SFFloat systemStep
+	eventIn SFTime addBullet
+	eventIn SFRotation set_orientation
+	eventIn SFVec3f set_position
+	eventOut MFVec3f bulletPositions_changed
+	field SFVec3f defaultVelocity
+	field SFFloat removeDistance
+]"ballisticmodel.wrl"
+
+EXTERNPROTO Target[
+	exposedField SFVec3f position
+	exposedField SFInt32 strength
+	exposedField SFVec3f lowBound
+	exposedField SFVec3f highBound
+	field SFNode geometry
+	eventIn SFBool explode
+]"targets.wrl#Target"
+
+EXTERNPROTO Bunker[
+]"targets.wrl#Bunker"
+
+EXTERNPROTO Tower[
+]"targets.wrl#Tower"
+
+EXTERNPROTO ControlTower[
+]"targets.wrl#ControlTower"
+
+EXTERNPROTO Hangar[
+]"targets.wrl#Hangar"
+
+EXTERNPROTO Truck[
+]"targets.wrl#Truck"
+
+#The main world.
+
+Background{#Give some depth to the landscape.
+	skyAngle [.0, 1.1, 1.57]
+	skyColor [0 0 1, 0 0 .5, .4 .4 1, .7 .7 .9 ]
+	groundAngle [.0, 1.1, 1.57]
+	groundColor [0 .3 0, 0 .4 0, 0 .5 0, .4 .6 .4 ]
+}
+Viewpoint{position 0 2 10 description "Take-off point"}
+
+#Suggested target parameters for the various target types are:
+#Target{geometry Bunker{} strength 10 lowBound -5 0 -5 highBound 5 2 5}
+#Target{geometry ControlTower{} strength 3 lowBound -2 0 -2 highBound 2 6 2}
+#Target{geometry Hangar{} strength 5 lowBound -15 0 -15 highBound 15 12 15}
+#Target{geometry Tower{} strength 6 lowBound -2 0 -2 highBound 2 4.5 2}
+#Target{geometry Truck{} lowBound -1.5 0 -2.5 highBound 1.5 3 2.5 strength 2}
+
+#Define the target list.
+DEF Targets Group{
+	children[
+		Target{position 0 0 -20 geometry ControlTower{} strength 3 lowBound -2 0 -2 highBound 2 6 2}
+		Target{position -20 0 -10 geometry Truck{} lowBound -1.5 0 -2.5 highBound 1.5 3 2.5 strength 2}
+
+		Target{position 200 8 0 geometry Hangar{} strength 5 lowBound -15 0 -15 highBound 15 12 15}
+		Target{position 200 7.5 80 geometry Transform{rotation 0 1 0 3.14 children[Hangar{}]} strength 5 lowBound -15 0 -15 highBound 15 12 15}
+		Target{position 240 7.5 40 geometry Transform{rotation 0 1 0 -1.57 children[Hangar{}]} strength 5 lowBound -15 0 -15 highBound 15 12 15}
+		Target{position 200 8 20 geometry Transform{rotation 0 1 0 -1.57 children[Truck{}]} lowBound -2.5 0 -1.5 highBound 2.5 3 1.5 strength 2}
+		Target{position 180 7.9 60 geometry Truck{} lowBound -1.5 0 -2.5 highBound 1.5 3 2.5 strength 2}
+		Target{position 160 8 5 geometry ControlTower{} strength 3 lowBound -2 0 -2 highBound 2 6 2}
+
+		Target{position -320 17.5 -280 geometry Bunker{} strength 10 lowBound -5 0 -5 highBound 5 2 5}
+		Target{position -340 15.5 -260 geometry Bunker{} strength 10 lowBound -5 0 -5 highBound 5 2 5}
+		Target{position -350 18 -300 geometry Tower{} strength 6 lowBound -2 0 -2 highBound 2 4.5 2}
+		Target{position -340 14.5 -240 geometry Tower{} strength 6 lowBound -2 0 -2 highBound 2 4.5 2}
+		Target{position -300 20.5 -310 geometry Tower{} strength 6 lowBound -2 0 -2 highBound 2 4.5 2}
+		Target{position -290 14 -250 geometry Tower{} strength 6 lowBound -2 0 -2 highBound 2 4.5 2}
+
+	]
+}
+Viewpoint{description "The Hangars" position 180 10 40 orientation 0 1 0 -1.57}
+Viewpoint{description "The Bunkers" position -320 15 -240}
+#Give the world a sun.
+PointLight{location 1000 1000 1000}
+#And switch of the headlight because it isn't needed.
+NavigationInfo{headlight FALSE type "FLY"}
+
+#A small script to feed the control stick outputs to the blade attitude and pitch.
+DEF rotorScript Script{
+	eventIn SFVec2f setCyclic
+	eventIn SFVec2f rudderAndCollective
+	eventOut SFRotation cyclicSet
+	eventOut SFRotation bladePitch
+	url "javascript:
+		function setCyclic(value,ts){
+			cyclicSet=new SFRotation(new SFVec3f(0,.2,0),new SFVec3f(value.y/4,.2,value.x/4));
+		}
+
+		function rudderAndCollective(value,ts){
+			bladePitch=new SFRotation(1,0,0,(value.y+.15)*2);
+		}
+	"
+}
+
+#Main script deals with control, timing, collision detection, and target selection.
+DEF timeScript Script{
+	eventIn SFBool go #Active when the 'run' button is pressed.
+	eventIn SFTime time #The time from the TimeSensor, worldTime. used to gnerate events.
+	eventIn SFBool landed #Whether the Apache has landed or not.
+	eventIn MFVec3f set_bulletPositions #The current positions of the bullets.
+	eventIn SFBool targetSelect #Active when the 'target' button has been pressed.
+	eventIn SFBool crashed #Active when the Apache has crashed.
+	eventIn SFVec3f set_position #The position of the Apache.
+	eventIn SFFloat set_speed #The speed of the Apache.
+	eventOut SFBool worldActive #Whether the main world clock is running or not.
+	eventOut SFRotation tailRotorRotation #The set rotation of the tail rotor.
+	eventOut SFRotation rotorRotation #The set rotation of the main rotor.
+	eventOut SFBool isActive #Whether or not the rotors are moving.
+	eventOut SFFloat passedTime #The simulation resolution, passed in order to generate events in the flight model.
+	eventOut SFFloat systemStep #The simulation resolution, passed in order to generate events in the ballistics model.
+	eventOut SFBool isReady #Whether or not the rotors have reached full speed.
+	eventOut SFVec3f reset_velocity #The velocity reset value, sent to the flight model.
+	eventOut MFInt32 removeBullets #The list of bullet indices to be removed
+	eventOut SFBool targetingActive #Whether or not the auto-targeting is active.
+	eventOut SFVec3f targetPosition #The position of the current target.
+	eventOut SFBool explode #Event sent to cause the Apache to explode.
+	eventOut SFFloat resolution_changed #The resolution of the simulation.
+	field SFNode Targets USE Targets #The targets in the world - the node.
+	field MFNode targets [] #The targets in the world - the working values.
+	field SFInt32 startTime 0 #The timer tick number the rotor rotation was started on.
+	field SFInt32 stopTime 0 #The timer tick number the rotor deceleration began on.
+	field SFFloat angVel 0 #The angular velocity of the rotors.
+	field SFBool onGround FALSE #Whether or not the Apache has landed.
+	field MFVec3f bulletPositions [] #The current bullet positions
+	field SFInt32 targetNum 0 #The number of targets in the world.
+	field SFInt32 currentTarget -1 #The current target index.
+	field SFVec3f position 0 0 0 #The current Apache position.
+	field SFFloat speed 0 #The current Apache speed.
+	field SFFloat resolution 20 #The number of timer ticks per simulated second. On a slow machine, drop this number.
+				    #On a fast machine, raise it. However, the lower the number, the less accurate gunfire and
+				    #collsion detection becomes.
+	field SFInt32 count 0 #The number of timer ticks since the loading of the world.
+	url "javascript:
+		function initialize(){
+			isActive=false;
+			isReady=false;
+			rotorRotation=new SFRotation(0,1,0,0);
+			tailRotorRotation=new SFRotation(0,0,1,0);
+			targets=Targets.children;
+			targetNum=targets.length;
+			resolution_changed=resolution;
+		}
+
+		function go(value,ts){//If the rotors are stationary, warm up.
+			if(value){
+				if(!isActive && angVel==0){
+					isActive=true;
+					startTime=count;
+					isReady=false;
+				}else{  //If they're not, and the Apache is on the ground, and moving slowly, warm down.
+					if(isActive && onGround && angVel==12.56 && speed<.02) {
+						isActive=false;
+						stopTime=count;
+					}
+				}
+			}
+		}
+
+		function time(value,ts){
+			count++;
+			if(isActive){//Warm up the rotor blades if the Apache isn't ready.
+				if(!isReady){
+					if(angVel>12.56){
+						angVel=12.56;
+						isReady=true;
+					}else{
+						angVel=((count-startTime)/resolution);
+					}
+				}
+			}else if(stopTime>0){//Or warm down if the engine is off.
+				isReady=false;
+				angVel=12.56-(count-stopTime)/resolution;
+				if(angVel<0) angVel=0;
+			}
+			if(angVel==12.56) passedTime=resolution;
+			else reset_velocity=new SFVec3f()
+			rotorRotation.angle=rotorRotation.angle+(1/resolution)*angVel;//Rotate the rotors appropriately.
+			tailRotorRotation.angle=tailRotorRotation.angle-(1/resolution)*angVel;
+                        removeNum=0;
+                        testPos=position.add(new SFVec3f(0,.001,0));
+                        for(var i=0;i<targetNum;i++){//Perform collision detection with each target, and with each bullet.
+                        	for(var j=0;j<bulletPositions.length;j++){
+                        		if(targets[i].strength>0){//If the bullet hits, drop the strength by one, and remove the bullet.
+                        			if(isBetween(targets[i].position.add(targets[i].lowBound),targets[i].position.add(targets[i].highBound),bulletPositions[j])){
+                                                        if(removeNum==0) removeBullets=new MFInt32();
+                                                        removeBullets[removeNum]=j;
+                                                        removeNum++;
+                        				targets[i].strength--;
+                        			}
+                        			if(targets[i].strength==0){//If the strength is zero, blow the target up.
+                        				targets[i].explode=true;
+                        				if(i==currentTarget) targetSelect(true,ts);
+                        			}
+                        		}
+                        	}
+				//Also check the Apache postion with the buildings.
+                        	if(targets[i].strength>0 && isBetween(targets[i].position.add(targets[i].lowBound),targets[i].position.add(targets[i].highBound),testPos)){
+                                	targets[i].explode=true; //If it hits one, blow up the building and the Apache.
+                                	targets[i].strength=0;
+                                	explode=true;
+                                	worldActive=false; //And the stop the world.
+                                }
+                        }
+                        systemStep=resolution;
+		}
+
+		function targetSelect(value,ts){//Select the next non-destroyed target in the list.
+			do{
+				repeat=false;
+				currentTarget=(currentTarget+2)%(targetNum+1)-1;
+				if(currentTarget>-1){
+					targetingActive=true;
+					targetPosition=targets[currentTarget].position.add(new SFVec3f(0,(targets[currentTarget].lowBound.y+targets[currentTarget].highBound.y)/2,0));
+					if(targets[currentTarget].strength==0 || position.subtract(targets[currentTarget].position).length()>100) repeat=true;
+				}else {
+					targetPosition=new SFVec3f();
+					targetingActive=false;
+				}
+			}while(repeat)
+		}
+
+		function crashed(value,ts){
+			worldActive=false;
+		}
+
+		function landed(value,ts){
+			onGround=value;
+		}
+
+		function set_bulletPositions(value,ts){
+			bulletPositions=value;
+		}
+
+		function set_position(value,ts){
+			position=value;
+		}
+
+		function set_speed(value,ts){
+			speed=value;
+		}
+
+		function isBetween(pt1,pt2,ptTest){//Function used to determine bounding-box testing. Takes three points,
+			//and returns TRUE if the third point is between the first two.
+			returnValue=false;
+			if(pt1.x<=ptTest.x && ptTest.x<=pt2.x){
+				if(pt1.y<=ptTest.y && ptTest.y<=pt2.y){
+					if(pt1.z<=ptTest.z && ptTest.z<=pt2.z) returnValue=true;
+				}
+			}
+			return returnValue;
+		}
+	"
+}
+#The constraint model instantiation. The original file used to create this ElevationGrid can be found in "media\min.pgm".
+DEF Constraints ConstraintModel{
+	xDimension 25
+	xSpacing 40
+	zDimension 25
+	zSpacing 40
+	height [1 3 8 11 14 16 18 20 18 18 18 17 17 17 15 14 12 8 5 2 0 0 0 0 0 1 8 13 17 20 22 24 23 21 19 19 19 19 18 16 14 12 9 6 4 2 1 1 0 0 5 12 17 21 24 26 27 26 22 20 20 20 19 18 16 14 12 9 8 6 4 3 2 1 0 7 13 18 21 24 27 28 24 20 17 17 18 17 16 14 12 10 11 10 8 6 4 3 2 1 7 13 17 20 22 25 23 19 15 12 10 11 10 9 11 9 11 12 11 9 7 5 4 3 1 8 11 15 17 19 20 18 13 9 7 5 3 2 3 5 8 10 11 10 9 7 6 5 3 1 6 9 12 15 16 17 13 7 5 3 2 0 0 1 2 5 8 9 10 9 8 7 5 3 1 4 6 10 12 13 11 7 4 1 1 0 0 0 0 1 4 7 8 9 10 9 7 5 2 0 2 5 6 8 8 6 5 2 1 0 0 0 0 0 2 5 7 8 9 10 9 7 3 0 0 1 3 5 6 7 6 5 4 1 0 0 0 0 0 2 5 7 8 9 9 8 4 0 0 0 0 3 5 6 7 6 6 6 3 0 0 0 0 0 2 5 7 8 8 8 6 2 0 0 0 0 2 5 6 6 6 6 6 4 1 0 0 0 0 2 5 7 8 8 8 6 2 0 0 0 0 1 4 6 6 6 6 5 3 1 0 0 0 0 2 5 7 8 8 8 7 3 0 0 0 1 2 4 5 5 5 5 4 3 1 0 0 0 0 2 5 7 8 8 8 7 4 1 0 0 3 3 5 6 4 4 4 3 2 1 0 0 0 0 1 4 7 8 8 8 7 4 1 0 0 4 6 6 8 7 3 3 2 1 0 1 1 1 1 1 4 7 7 8 8 7 6 2 0 0 6 8 8 8 8 4 1 1 0 2 3 3 3 2 1 3 6 7 8 8 7 6 3 0 0 8 8 8 8 7 5 2 0 3 5 5 5 4 3 2 2 5 7 7 8 7 6 4 1 0 8 8 8 8 7 5 2 2 5 6 6 6 5 4 3 2 3 5 6 7 7 6 5 2 0 8 8 8 7 6 5 3 3 5 6 6 6 6 5 3 1 2 5 6 6 6 5 4 3 1 7 7 7 6 5 4 3 3 5 6 6 6 6 5 3 1 1 4 5 5 5 4 4 3 1 3 5 5 5 4 2 1 3 4 5 6 6 6 5 2 0 0 2 4 4 4 4 3 2 1 0 2 2 2 2 0 1 2 3 4 5 5 5 3 0 0 0 1 3 3 3 3 2 2 1 0 0 0 0 0 0 0 1 2 3 3 3 2 0 0 0 0 0 1 2 2 2 2 1 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 1 1 1 1 0 0]
+}
+DEF Bullets BallisticModel{}
+DEF Flight FlightModel{initialPosition 0 0 0}
+DEF Tracker TrackingView{}
+DEF Controller RadioController{}
+DEF Copter Apache{}
+#Large proximity sensor provides user position & orientation values for the tracking interface, and for the tracking viewpoint.
+DEF UserPos ProximitySensor{size 2000000 2000000 2000000}
+#The worldClock is the event cascade starter. Every time an event is produced, simulation time advances 1/resolution seconds.
+DEF WorldClock TimeSensor{loop TRUE}
+
+ROUTE UserPos.position_changed			TO Controller.set_userPosition
+ROUTE UserPos.position_changed			TO Tracker.set_userPosition
+ROUTE UserPos.orientation_changed 		TO Controller.set_userOrientation
+
+ROUTE WorldClock.time				TO timeScript.time
+
+ROUTE timeScript.resolution_changed		TO Constraints.set_resolution
+ROUTE timeScript.worldActive			TO WorldClock.enabled
+ROUTE timeScript.explode			TO Copter.explode
+ROUTE timeScript.worldActive			TO Controller.enabled
+ROUTE timeScript.systemStep			TO Bullets.systemStep
+ROUTE timeScript.passedTime			TO Flight.systemStep
+ROUTE timeScript.isReady			TO Controller.running
+ROUTE timeScript.rotorRotation	 		TO Copter.set_rotorRotation
+ROUTE timeScript.tailRotorRotation		TO Copter.set_tailRotorRotation
+ROUTE timeScript.reset_velocity			TO Flight.set_velocity
+ROUTE timeScript.removeBullets			TO Bullets.removeBullets
+ROUTE timeScript.targetingActive		TO Controller.set_targetingActive
+ROUTE timeScript.targetPosition			TO Copter.set_currentTarget
+
+ROUTE Controller.cyclic_changed			TO rotorScript.setCyclic
+ROUTE Controller.rudderAndCollective_changed	TO rotorScript.rudderAndCollective
+ROUTE Controller.startEngines_changed		TO timeScript.go
+ROUTE Controller.cyclic_changed			TO Flight.set_cyclicRotation
+ROUTE Controller.rudderAndCollective_changed	TO Flight.set_rudderAndCollective
+ROUTE Controller.fireGun			TO Bullets.addBullet
+ROUTE Controller.targetSelect_changed		TO timeScript.targetSelect
+
+ROUTE rotorScript.bladePitch			TO Copter.set_bladePitch
+ROUTE rotorScript.cyclicSet			TO Copter.set_rotorPitch
+
+ROUTE Bullets.bulletPositions_changed		TO timeScript.set_bulletPositions
+ROUTE Bullets.bulletPositions_changed		TO Constraints.set_bulletPositions
+
+ROUTE Flight.position_changed			TO Constraints.set_position
+ROUTE Flight.rotation_changed			TO Constraints.set_rotation
+
+ROUTE Constraints.speed_changed			TO timeScript.speed
+ROUTE Constraints.position_changed        	TO Copter.set_position
+ROUTE Constraints.position_changed         	TO Flight.set_position
+ROUTE Constraints.position_changed         	TO timeScript.set_position
+ROUTE Constraints.rotation_changed         	TO Copter.set_rotation
+ROUTE Constraints.position_changed		TO Tracker.set_targetPosition
+ROUTE Constraints.wheelHeights_changed		TO Copter.set_wheelHeights
+ROUTE Constraints.landed_changed		TO Flight.set_landed
+ROUTE Constraints.landed_changed		TO timeScript.landed
+ROUTE Constraints.explode			TO Copter.explode
+ROUTE Constraints.removeBullets			TO Bullets.removeBullets
+ROUTE Constraints.explode			TO timeScript.crashed
+
+ROUTE Copter.gunTipPos_changed			TO Bullets.set_position
+ROUTE Copter.gunTotRotation_changed		TO Bullets.set_orientation
+ROUTE Copter.validTarget			TO Controller.set_validTarget
+
+
+
+
+
+
+

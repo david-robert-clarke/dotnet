@@ -1,0 +1,75 @@
+-- Final Year Project
+-- Xilinx Project "proj_3x3"
+-- Created 10_02_2001
+-- By David Clarke
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_ARITH.ALL;
+USE WORK.MATRIX_PACKAGE.ALL;
+
+ENTITY Multipliers IS
+PORT (A11, A12, A13, B11, B12, B13, 
+      A21, A22, A23, B21, B22, B23, 
+      A31, A32, A33, B31, B32, B33  : IN U_TWO_BITS;
+
+      MUL26, MUL25, MUL24, MUL23, MUL22, MUL21, 
+      MUL20, MUL19, MUL18, MUL17, MUL16, MUL15, 
+      MUL14, MUL13, MUL12, MUL11, MUL10, MUL9, 
+      MUL8,  MUL7,  MUL6,  MUL5,  MUL4,  MUL3, MUL2, MUL1, MUL0: OUT U_NIBBLE);
+     
+END ENTITY Multipliers;
+
+ARCHITECTURE Behavioural of Multipliers is
+
+Begin
+
+	MUL26 <= A11 * B11;
+	MUL25 <= A12 * B21;
+	MUL24 <= A13 * B31;
+
+	
+	MUL23 <= A21 * B11;
+	MUL22 <= A22 * B21;
+	MUL21 <= A23 * B31;
+
+	
+	MUL20 <= A31 * B11;
+	MUL19 <= A32 * B21;
+	MUL18 <= A33 * B31;
+
+	-- first
+	
+	MUL17 <= A11 * B12;
+	MUL16 <= A12 * B22;
+	MUL15 <= A13 * B32;
+
+	
+	MUL14 <= A21 * B12;
+	MUL13 <= A22 * B22;
+	MUL12 <= A23 * B32;
+
+	
+	MUL11 <= A31 * B12;
+	MUL10 <= A32 * B22;
+	MUL9 <= A33 * B32;
+
+	--second
+	
+	MUL8 <= A11 * B13;
+	MUL7 <= A12 * B23;
+	MUL6 <= A13 * B33;
+
+	
+	MUL5 <= A21 * B13;
+	MUL4 <= A22 * B23;
+	MUL3 <= A23 * B33;
+
+	
+	MUL2 <= A31 * B13;
+	MUL1 <= A32 * B23;
+	MUL0 <= A33 * B33;
+
+	--third
+
+END ARCHITECTURE Behavioural;
+

@@ -1,0 +1,143 @@
+#VRML V2.0 utf8
+#Ian Whitehouse, 5/5/00.
+PROTO ConstraintModel[
+	exposedField SFNode appearance NULL #Sets the appearance of the terrain. If left at null, it will default
+					    #to a light green chequerboard.
+	eventIn MFVec3f set_bulletPositions #Set the positions of the bullets
+	eventIn SFFloat set_resolution #Set how many events per simulated second there are.
+	eventIn SFRotation set_rotation #Set the updated rotation of the Apache.
+	eventIn SFVec3f set_position #Set the updated position of the Apache.
+	eventOut MFInt32 removeBullets #Remove the specified bullets.
+	eventOut SFBool explode #Cause the Apache to explode.
+	eventOut SFBool landed_changed #Set the Apache 'landed' state.
+	eventOut SFFloat speed_changed #Output the speed of the Apache.
+	eventOut SFRotation rotation_changed #Output the new Apache rotation.
+	eventOut SFVec3f position_changed #Output the new Apache position.
+	eventOut SFVec3f wheelHeights_changed #Change the heights of the Apache wheels.
+	field MFFloat height [] #The height values for the terrain ElevationGrid.
+	field SFInt32 xDimension 25 #The x dimension of the ElevationGrid.
+	field SFFloat xSpacing 40 #The x spacing of the ElevationGrid.
+	field SFInt32 zDimension 25 #The z dimension of the ElevationGrid.
+	field SFFloat zSpacing 40 #The z spacing of the ElevationGrid.
+]
+{
+ 	DEF terrain Transform{#The terrain for the world.
+		children[
+			Shape{
+				appearance IS appearance
+				geometry DEF grid ElevationGrid {
+					colorPerVertex FALSE
+					height IS height
+					solid FALSE
+					xDimension IS xDimension
+					xSpacing IS xSpacing
+					zDimension IS zDimension
+					zSpacing IS zSpacing
+				}
+			}
+		]
+	}
+	DEF constraintModelScript Script{
+		eventIn MFVec3f set_bulletPositions IS set_bulletPositions
+		eventIn SFFloat set_resolution IS set_resolution
+		eventIn SFRotation set_rotation IS set_rotation
+		eventIn SFVec3f set_position IS set_position
+		eventOut MFInt32 removeBullets IS removeBullets
+		eventOut SFBool explode IS explode
+		eventOut SFBool landed_changed IS landed_changed
+		eventOut SFFloat speed_changed IS speed_changed
+		eventOut SFRotation rotation_changed IS rotation_changed
+		eventOut SFVec3f move_terrain #Shifts the terrain so that it is centred horizontally at 0 0 0.
+		eventOut SFVec3f position_changed IS position_changed
+		eventOut SFVec3f wheelHeights_changed IS wheelHeights_changed
+		eventOut SFNode set_terrainCol
+		field MFFloat height IS height
+		field MFVec3f bulletPositions [] #The positions of the bullets.
+		field SFFloat resolution 0 #The number of events per simulation second.
+		field SFFloat xSpacing IS xSpacing
+		field SFFloat zSpacing IS zSpacing
+		field SFInt32 xDimension IS xDimension
+		field SFInt32 zDimension IS zDimension
+		field SFRotation currentRotation 0 1 0 0 #The current rotation of the Apache.
+		field SFVec3f currentPosition 0 0 0 #The current position of the Apache.
+		field SFVec3f velocity 0 0 0 #The current velocity of the Apache.
+		url "javascript:
+			function initialize(){//Centre the terrain, and alter the wheel heights.
+				move_terrain=new SFVec3f(-xDimension*xSpacing/2,0,-zDimension*zSpacing/2);
+				wheelHeights_changed=new SFVec3f(.3,.3,0);
+				set_terrainCol=new SFNode('Color{}');
+				val=.01;
+				for(var i=0;i<height.length;i++){//Chequerboarding the terrain, so that user movement is more noticable.
+					if(i%2==0) set_terrainCol.color[i]=new SFColor(.3,.525+val,.3);
+					else set_terrainCol.color[i]=new SFColor(.3,0.525-val,.3);
+					if(i%(xDimension-1)==0) val=-val;
+				}
+			}
+
+			function eventsProcessed(){//See if the Apache test point is below the terrain.
+				testHeight=currentPosition.y-.65;
+				if(findHeight(currentPosition)>=testHeight) {
+					currentPosition.y=findHeight(currentPosition)+.65;
+					landed_changed=true;//If so, the Apache has landed.
+				}else if(landed_changed) landed_changed=false;
+                                if(landed_changed){//If the Apache has landed, check its speed.
+                                	testVel=velocity.add(new SFVec3f());
+                                       	if(testVel.y<=-.5) explode=true;
+                                       	testVel.y=0;
+                                       	if(velocity.length()>3) explode=true;
+                                       	if(velocity.y<0) velocity.y=0;
+                                }//If it hit the groud too fast, or is rolling along the ground too fast, explode it.
+                                speed_changed=velocity.length();//Update the position and rotation.
+                                currentPosition=currentPosition.add(velocity);
+                                position_changed=currentPosition;
+				rotation_changed=currentRotation;
+
+			}
+
+			function findHeight(position){//This function takes a test position, and compares it to an interpolated
+						      //point on the terrain, in order to find out the height at that spot.
+                                x=position.x/xSpacing+xDimension/2;
+				z=position.z/zSpacing+zDimension/2;
+				if(x>=0 && x<=xDimension && z>=0 && z<=zDimension){
+					height1=height[Math.floor(x)+Math.floor(z)*(zDimension)];
+					height2=height[Math.ceil(x)+Math.floor(z)*(zDimension)];
+					height3=height[Math.floor(x)+Math.ceil(z)*(zDimension)];
+					height4=height[Math.ceil(x)+Math.ceil(z)*(zDimension)];
+					xconst=1-(x-Math.floor(x));
+					zconst=1-(z-Math.floor(z));
+					returnValue=(height1*xconst+height2*(1-xconst))*zconst+(height3*xconst+height4*(1-xconst))*(1-zconst);
+				}else returnValue=0;//It returns zero outside the defined terrain.
+				return returnValue;
+			}
+
+			function set_bulletPositions(value,ts){//Sets the working positions for the bullets...
+				bulletPositions=value;
+				removeNum=0;
+				for(var i=0;i<bulletPositions.length;i++){//...tests their positions against the terrain height...
+					test=findHeight(bulletPositions[i]);//...and passes events to remove them if they are below.
+					if(test>bulletPositions[i].y){
+						if(removeNum==0) removeBullets=new MFInt32();
+						removeBullets[removeNum]=i;
+						removeNum++;
+					}
+				}
+			}
+
+                	function set_position(value,ts){
+                		velocity=value.subtract(currentPosition);
+	                }
+
+			function set_rotation(value,ts){
+				currentRotation=value;
+
+			}
+
+			function set_resolution(value,ts){
+				resolution=value;
+			}
+		"
+	}
+	ROUTE constraintModelScript.move_terrain	TO terrain.translation
+	ROUTE constraintModelScript.set_terrainCol	TO grid.color
+}
+

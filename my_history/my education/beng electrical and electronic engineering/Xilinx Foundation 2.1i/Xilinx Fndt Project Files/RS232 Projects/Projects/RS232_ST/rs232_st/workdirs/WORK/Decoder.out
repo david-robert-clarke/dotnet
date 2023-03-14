@@ -1,0 +1,54 @@
+
+Inferred memory devices in process 'Decod'
+	in routine Decoder line 12 in file
+         'C:/fndtn/active/projects/rs232_st/decode.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      S300_reg       |   Latch   |   1   |  -  | -  | N  | N  | -  | -  | -  |
+|      S600_reg       |   Latch   |   1   |  -  | -  | N  | N  | -  | -  | -  |
+|      S1200_reg      |   Latch   |   1   |  -  | -  | N  | N  | -  | -  | -  |
+|      S2400_reg      |   Latch   |   1   |  -  | -  | N  | N  | -  | -  | -  |
+|      S4800_reg      |   Latch   |   1   |  -  | -  | N  | N  | -  | -  | -  |
+|      S9600_reg      |   Latch   |   1   |  -  | -  | N  | N  | -  | -  | -  |
+|     S19200_reg      |   Latch   |   1   |  -  | -  | N  | N  | -  | -  | -  |
+===============================================================================
+
+S300_reg
+--------
+    reset/set: none
+
+
+S600_reg
+--------
+    reset/set: none
+
+
+S1200_reg
+---------
+    reset/set: none
+
+
+S2400_reg
+---------
+    reset/set: none
+
+
+S4800_reg
+---------
+    reset/set: none
+
+
+S9600_reg
+---------
+    reset/set: none
+
+
+S19200_reg
+----------
+    reset/set: none
+
+
+Warning: Latch inferred in design 'Decoder' read with
+	'hdlin_check_no_latch'. (HDL-307)
+Writing to hnl file 'c:\Fndtn\Active\Projects\RS232_ST\rs232_st/workdirs/WORK/Decoder.hnl'

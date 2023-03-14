@@ -1,0 +1,9 @@
+file {
+  .version = 1;
+  entity {
+    .name = "DSP";
+    .mra_file = "DSP.mra";
+    .arch = {"STRUCTURAL"};
+    .syn_files = {"DSP.syn", "DSP__STRUCTURAL.syn"};
+   }
+}

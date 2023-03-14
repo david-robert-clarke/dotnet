@@ -1,0 +1,9 @@
+file {
+  .version = 1;
+  entity {
+    .name = "structural_rs232";
+    .mra_file = "structural_rs232.mra";
+    .arch = {"structural"};
+    .syn_files = {"STRUCTURAL_RS232.syn", "STRUCTURAL_RS232__STRUCTURAL.syn"};
+   }
+}

@@ -1,0 +1,1068 @@
+**** Interact v3.0.2.22 ****
+C Pcm #### Start Xilinx Foundation F2.1i - Messages -  Sat Feb 10 21:45:52 2001  
+0 Pcm #### ---------- Opening project: proj_3x3 ----------
+0 Pcm #### Design Type HDL
+0 Pcm #### Xilinx server initialization
+0 Pcm #### Xilinx version: 1, 0, 0, 1
+0 Pcm #### Opening Xilinx project
+0 Pcm #### Synopsys server initialization
+W Pcm #### Cannot find a valid license for Synopsys Constraint Manager. Constraint Editor/Viewer will not be available
+0 Pcm #### Opening Synopsys project
+0 Pcm #### Synopsys version: 3, 2, 0, 4201
+0 Pcm #### Reading Synopsys/Xilinx project
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\chips\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\chips\ver1\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\chips\ver1-o~1\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\files\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\workdirs\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\workdirs\work\
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\workdirs\work
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\workdirs
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\files
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\chips\ver1-o~1
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\chips\ver1
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\chips
+0 Pcm #### Deleting files from C:\FNDTN\ACTIVE\PROJECTS\PROJ_3X3\dpm_net\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\xproj\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\xproj\ver1\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\xproj\ver1\rev1\
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\xproj\ver1\rev1
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\xproj\ver1
+0 Pcm #### Xilinx server initialization
+0 Pcm #### Xilinx version: 1, 0, 0, 1
+0 Pcm #### Synopsys server initialization
+W Pcm #### Cannot find a valid license for Synopsys Constraint Manager. Constraint Editor/Viewer will not be available
+0 Pcm #### Opening Synopsys project
+0 Pcm #### Synopsys version: 3, 2, 0, 4201
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\matrix_package.vhd ...
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\matrix_package.vhd (0, 0)
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\data_store2.vhd ...
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\data_store2.vhd (0, 0)
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\multipliers.vhd ...
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\multipliers.vhd (0, 0)
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\adders.vhd ...
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\adders.vhd (0, 0)
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\answer_store.vhd ...
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\answer_store.vhd (0, 0)
+0 Pcm #### Synopsys server initialization
+C Dpm ####  Linking design ... 
+C Dpm ####  Elaborating design Answer_Store   ... 
+C Dpm ####  Removing don't-care logic ... 
+C Dpm ####  Inferencing pad mapping attributes ... 
+C Dpm ####  Initializing ... 
+C Dpm ####  Optimizing simple multiplexors ... 
+C Dpm ####  Implementing simple multiplexors in design '/ver1' ... 
+C Dpm ####  Optimizing implemented multiplexors in design '/ver1' ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Deriving clock information ... 
+C Dpm ####  Done 
+C Dpm #### Done
+C Dpm ####  Preprocessing design for pad-mapping ... 
+C Dpm ####  Preprocessing design for global set/reset optimization ... 
+C Dpm ####  Tie undriven nets and pins to logic zero. 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Implementing inferred operators ... 
+C Dpm ####  Optimizing multiplexor logic ... 
+C Dpm ####  Modifying design hierarchy ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Mapping sequential elements ... 
+C Dpm ####  Checking design for use of global set/reset net ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Removing duplicate cells ... 
+C Dpm ####  Improving inferred operator implementation ... 
+C Dpm ####  Mapping I/O pads ... 
+C Dpm ####  Mapping 3-state elements ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Mapping combinational logic ... 
+C Dpm ####  Mapping combinational logic in design '/ver1-Optimized' ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Allocating global buffers ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Modifying design to comply with target technology rules ... 
+W Dpm #### Warning: The net '/ver1-Optimized/RESET' had an implicit connection to the on-chip global set / reset (GSR) net. This connection has been made explicit.   (FPGA-GSRMAP-9)
+C Dpm #### Done
+0 Pcm #### Implementation ver1 Completed Successfully.
+C Dpm #### Export ver1-Optimized to c:\fndtn\active\projects\proj_3x3\dpm_net ...
+0 Pcm #### Reading Synopsys/Xilinx project
+0 Pcm #### Reading Synopsys/Xilinx project
+W Pcm #### Synthesis is up to date
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\dpm_net\
+C Dpm #### Export ver1-Optimized to c:\fndtn\active\projects\proj_3x3\dpm_net ...
+0 Pcm #### ver1->rev1 Simulation Template "Foundation EDIF" set.
+0 Pcm #### Reading Synopsys/Xilinx project
+0 Pcm #### Flow Engine is running (ver1->rev1).
+C Xie #### Flow Engine: ver1->rev1 (New OK)
+C Xie #### Flow Engine: ver1->rev1 (Translated OK)
+C Xie #### Flow Engine: ver1->rev1 (Mapped OK)
+C Xie #### Flow Engine: ver1->rev1 (Routed OK)
+C Xie #### Flow Engine: ver1->rev1 (Timed OK)
+C Xie #### Flow Engine: ver1->rev1 (Implemented OK)
+C Xie #### Flow Engine ver1->rev1 Completed Successfully.
+0 Pcm #### Execute: C:\FNDTN\ACTIVE\EXE\RBROWSER.EXE c:\fndtn\active\projects\proj_3x3\xproj\ver1\rev1\fe.log
+0 Fsm #### 0 error(s) 0 warning(s) found
+0 Pcm #### Execute: hde.exe -p 508 -i /answer_store c:\fndtn\active\projects\proj_3x3\answer_store.vhd
+3 Pcm #### Application HDE send message Update Sheet
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\answer_store.vhd (0, 0)
+0 Fsm #### Checking...
+0 Hde #### Checking Started
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\answer_store.vhd ...
+C Dpm #### Done
+0 Pcm #### Reading Synopsys/Xilinx project
+3 Pcm #### Application HDE send message Analyze File
+0 Fsm #### Check Successful
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\chips\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\chips\ver1\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\chips\ver1-o~1\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\files\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\workdirs\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\workdirs\work\
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\workdirs\work
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\workdirs
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\files
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\chips\ver1-o~1
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\chips\ver1
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\chips
+0 Pcm #### Deleting files from C:\FNDTN\ACTIVE\PROJECTS\PROJ_3X3\dpm_net\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\xproj\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\xproj\ver1\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\xproj\ver1\rev1\
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\xproj\ver1\rev1
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\xproj\ver1
+0 Pcm #### Xilinx server initialization
+0 Pcm #### Xilinx version: 1, 0, 0, 1
+0 Pcm #### Synopsys server initialization
+W Pcm #### Cannot find a valid license for Synopsys Constraint Manager. Constraint Editor/Viewer will not be available
+0 Pcm #### Opening Synopsys project
+0 Pcm #### Synopsys version: 3, 2, 0, 4201
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\matrix_package.vhd ...
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\matrix_package.vhd (0, 0)
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\data_store2.vhd ...
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\data_store2.vhd (0, 0)
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\multipliers.vhd ...
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\multipliers.vhd (0, 0)
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\adders.vhd ...
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\adders.vhd (0, 0)
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\answer_store.vhd ...
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\answer_store.vhd (0, 0)
+0 Pcm #### Synopsys server initialization
+C Dpm ####  Linking design ... 
+C Dpm ####  Elaborating design Answer_Store   ... 
+C Dpm ####  Removing don't-care logic ... 
+C Dpm ####  Inferencing pad mapping attributes ... 
+C Dpm ####  Initializing ... 
+C Dpm ####  Optimizing simple multiplexors ... 
+C Dpm ####  Implementing simple multiplexors in design '/ver1' ... 
+C Dpm ####  Optimizing implemented multiplexors in design '/ver1' ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Deriving clock information ... 
+C Dpm ####  Done 
+C Dpm #### Done
+C Dpm ####  Preprocessing design for pad-mapping ... 
+C Dpm ####  Preprocessing design for global set/reset optimization ... 
+C Dpm ####  Tie undriven nets and pins to logic zero. 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Implementing inferred operators ... 
+C Dpm ####  Optimizing multiplexor logic ... 
+C Dpm ####  Modifying design hierarchy ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Mapping sequential elements ... 
+C Dpm ####  Checking design for use of global set/reset net ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Removing duplicate cells ... 
+C Dpm ####  Improving inferred operator implementation ... 
+C Dpm ####  Mapping I/O pads ... 
+C Dpm ####  Mapping 3-state elements ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Mapping combinational logic ... 
+C Dpm ####  Mapping combinational logic in design '/ver1-Optimized' ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Allocating global buffers ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Modifying design to comply with target technology rules ... 
+W Dpm #### Warning: The net '/ver1-Optimized/RESET' had an implicit connection to the on-chip global set / reset (GSR) net. This connection has been made explicit.   (FPGA-GSRMAP-9)
+C Dpm #### Done
+0 Pcm #### Implementation ver1 Completed Successfully.
+C Dpm #### Export ver1-Optimized to c:\fndtn\active\projects\proj_3x3\dpm_net ...
+0 Pcm #### Reading Synopsys/Xilinx project
+0 Pcm #### Reading Synopsys/Xilinx project
+W Pcm #### Synthesis is up to date
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\dpm_net\
+C Dpm #### Export ver1-Optimized to c:\fndtn\active\projects\proj_3x3\dpm_net ...
+0 Pcm #### ver1->rev1 Simulation Template "Foundation EDIF" set.
+0 Pcm #### Reading Synopsys/Xilinx project
+0 Pcm #### Flow Engine is running (ver1->rev1).
+C Xie #### Flow Engine: ver1->rev1 (New OK)
+C Xie #### Flow Engine: ver1->rev1 (Translated OK)
+C Xie #### Flow Engine: ver1->rev1 (Mapped OK)
+C Xie #### Flow Engine: ver1->rev1 (Routed OK)
+C Xie #### Flow Engine: ver1->rev1 (Timed OK)
+C Xie #### Flow Engine: ver1->rev1 (Implemented OK)
+C Xie #### Flow Engine ver1->rev1 Completed Successfully.
+0 Pcm #### Execute: C:\FNDTN\ACTIVE\EXE\RBROWSER.EXE c:\fndtn\active\projects\proj_3x3\xproj\ver1\rev1\fe.log
+0 Pcm #### Execute simul.exe -p -f edif -m timing -n c:\fndtn\active\projects\proj_3x3\xproj\ver1\rev1\time_sim.edn
+0 Pcm #### START: Logic Simulator - Xilinx Foundation F2.1i [  ]
+C Simul #### EDIF netlist 'c:\FNDTN\ACTIVE\PROJECTS\PROJ_3X3\XPROJ\VER1\REV1\TIME_SIM.EDN' loading v.2.99.1.10
+C Simul #### EDIF parser completed successfully
+C Simul #### Loading - c:\fndtn\active\projects\proj_3x3\xproj\ver1\rev1\time_sim.edn
+W Simul 9218 LDNODE: GSUH_INPUT<0>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<10>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<11>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<12>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<13>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<14>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<15>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<16>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<17>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<18>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<19>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<1>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<20>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<21>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<22>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<23>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<24>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<25>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<26>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<27>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<28>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<29>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<2>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<30>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<31>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<32>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<33>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<34>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<35>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<36>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<37>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<38>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<39>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<3>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<40>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<41>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<42>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<43>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<44>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<4>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<5>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<6>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<7>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<8>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<9>_CLK(x_suh).IN - Unknown pin name
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul #### ===============================
+1 Simul #### EDIF Netlist Loading Statistics
+1 Simul #### ===============================
+1 Simul #### Number of hierarchical blocks: 47
+1 Simul #### Total number of cell types: 57
+1 Simul #### Total number of cell instances: 417
+1 Simul #### Total number of EDIF blocks: 46
+1 Simul #### Total number of models taken from libraries: 8
+1 Simul #### Total number of automatic/internal models: 2
+1 Simul #### Total number of missing models: 0
+1 Simul #### Total number of signals (block ports and labels): 515
+1 Simul #### Total number of labels: 188
+1 Simul #### Total number of nets: 510
+1 Simul #### Total number of net elements: 1611
+1 Simul #### Total number of generic values: 636
+1 Simul #### Total number of port generic values: 182
+1 Simul #### Memory usage statistics:
+1 Simul ####     Total number of allocated memory blocks: 7223 (561)
+1 Simul ####     Total number of memory reallocations: 1
+1 Simul ####     Total length of memory used to load the netlist: 779 kB (11)
+1 Simul ####     Total length of memory used by EDIF parser: 512 kB
+1 Simul ####     Number of system memory blocks (total/long): 2/0
+1 Simul #### Netlist loaded in: 1 seconds
+1 Simul #### Parsing time: 0 seconds
+1 Simul #### ===============================
+W Simul 9433 Netlist loaded with warnings
+3 Pcm #### Application unknown send message Add Report
+0 Fsm ####  0 error(s) 0 warning(s) found
+0 Pcm #### Execute: hde.exe -p 508 -i /answer_store c:\fndtn\active\projects\proj_3x3\answer_store.vhd
+3 Pcm #### Application HDE send message Update Sheet
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\answer_store.vhd (0, 0)
+0 Fsm #### Checking...
+0 Hde #### Checking Started
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\answer_store.vhd ...
+E Dpm #### Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 30
+E Dpm #### 	Syntax error.  (VSS-1081)
+C Dpm #### Done
+E Pcm #### File c:\fndtn\active\projects\proj_3x3\answer_store.vhd, errors found.
+0 Pcm #### Reading Synopsys/Xilinx project
+3 Pcm #### Application HDE send message Analyze File
+0 Fsm #### c:\fndtn\active\projects\proj_3x3\answer_store.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 30   Syntax error.  (VSS-1081)
+0 Fsm ####  1 error(s) 0 warning(s) found
+3 Pcm #### Application HDE send message Update Sheet
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\answer_store.vhd (0, 0)
+0 Fsm #### Checking...
+0 Hde #### Checking Started
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\answer_store.vhd ...
+C Dpm #### Done
+0 Pcm #### Reading Synopsys/Xilinx project
+3 Pcm #### Application HDE send message Analyze File
+0 Fsm #### Check Successful
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\chips\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\chips\ver1\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\chips\ver1-o~1\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\files\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\workdirs\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\workdirs\work\
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\workdirs\work
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\workdirs
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\files
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\chips\ver1-o~1
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\chips\ver1
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\chips
+0 Pcm #### Deleting files from C:\FNDTN\ACTIVE\PROJECTS\PROJ_3X3\dpm_net\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\xproj\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\xproj\ver1\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\xproj\ver1\rev1\
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\xproj\ver1\rev1
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\xproj\ver1
+0 Pcm #### Xilinx server initialization
+0 Pcm #### Xilinx version: 1, 0, 0, 1
+0 Pcm #### Synopsys server initialization
+W Pcm #### Cannot find a valid license for Synopsys Constraint Manager. Constraint Editor/Viewer will not be available
+0 Pcm #### Opening Synopsys project
+0 Pcm #### Synopsys version: 3, 2, 0, 4201
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\matrix_package.vhd ...
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\matrix_package.vhd (0, 0)
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\data_store2.vhd ...
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\data_store2.vhd (0, 0)
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\multipliers.vhd ...
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\multipliers.vhd (0, 0)
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\adders.vhd ...
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\adders.vhd (0, 0)
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\answer_store.vhd ...
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\answer_store.vhd (0, 0)
+0 Pcm #### Synopsys server initialization
+0 Pcm #### EXIT: Logic Simulator - Xilinx Foundation F2.1i [time_sim]
+C Dpm ####  Linking design ... 
+C Dpm ####  Elaborating design Answer_Store   ... 
+C Dpm ####  Removing don't-care logic ... 
+C Dpm ####  Inferencing pad mapping attributes ... 
+C Dpm ####  Initializing ... 
+C Dpm ####  Optimizing simple multiplexors ... 
+C Dpm ####  Implementing simple multiplexors in design '/ver1' ... 
+C Dpm ####  Optimizing implemented multiplexors in design '/ver1' ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Deriving clock information ... 
+C Dpm ####  Done 
+C Dpm #### Done
+C Dpm ####  Preprocessing design for pad-mapping ... 
+C Dpm ####  Preprocessing design for global set/reset optimization ... 
+C Dpm ####  Tie undriven nets and pins to logic zero. 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Implementing inferred operators ... 
+C Dpm ####  Optimizing multiplexor logic ... 
+C Dpm ####  Modifying design hierarchy ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Mapping sequential elements ... 
+C Dpm ####  Checking design for use of global set/reset net ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Removing duplicate cells ... 
+C Dpm ####  Improving inferred operator implementation ... 
+C Dpm ####  Mapping I/O pads ... 
+C Dpm ####  Mapping 3-state elements ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Mapping combinational logic ... 
+C Dpm ####  Mapping combinational logic in design '/ver1-Optimized' ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Allocating global buffers ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Modifying design to comply with target technology rules ... 
+C Dpm #### Done
+0 Pcm #### Implementation ver1 Completed Successfully.
+C Dpm #### Export ver1-Optimized to c:\fndtn\active\projects\proj_3x3\dpm_net ...
+0 Pcm #### Reading Synopsys/Xilinx project
+0 Pcm #### Reading Synopsys/Xilinx project
+W Pcm #### Synthesis is up to date
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\dpm_net\
+C Dpm #### Export ver1-Optimized to c:\fndtn\active\projects\proj_3x3\dpm_net ...
+0 Pcm #### ver1->rev1 Simulation Template "Foundation EDIF" set.
+0 Pcm #### Reading Synopsys/Xilinx project
+0 Pcm #### Flow Engine is running (ver1->rev1).
+C Xie #### Flow Engine: ver1->rev1 (New OK)
+C Xie #### Flow Engine: ver1->rev1 (Translated OK)
+C Xie #### Flow Engine: ver1->rev1 (Mapped OK)
+C Xie #### Flow Engine: ver1->rev1 (Routed OK)
+C Xie #### Flow Engine: ver1->rev1 (Timed OK)
+C Xie #### Flow Engine: ver1->rev1 (Implemented OK)
+C Xie #### Flow Engine ver1->rev1 Completed Successfully.
+0 Pcm #### Execute: C:\FNDTN\ACTIVE\EXE\RBROWSER.EXE c:\fndtn\active\projects\proj_3x3\xproj\ver1\rev1\fe.log
+0 Pcm #### Execute simul.exe -p -f edif -m timing -n c:\fndtn\active\projects\proj_3x3\xproj\ver1\rev1\time_sim.edn
+0 Pcm #### START: Logic Simulator - Xilinx Foundation F2.1i [  ]
+C Simul #### EDIF netlist 'c:\FNDTN\ACTIVE\PROJECTS\PROJ_3X3\XPROJ\VER1\REV1\TIME_SIM.EDN' loading v.2.99.1.10
+C Simul #### EDIF parser completed successfully
+C Simul #### Loading - c:\fndtn\active\projects\proj_3x3\xproj\ver1\rev1\time_sim.edn
+W Simul 9218 LDNODE: GSUH_INPUT<0>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<10>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<11>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<12>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<13>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<14>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<15>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<16>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<17>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<18>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<19>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<1>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<20>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<21>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<22>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<23>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<24>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<25>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<26>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<27>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<28>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<29>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<2>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<30>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<31>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<32>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<33>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<34>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<35>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<36>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<37>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<38>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<39>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<3>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<40>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<41>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<42>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<43>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<44>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<4>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<5>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<6>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<7>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<8>_CLK(x_suh).IN - Unknown pin name
+W Simul 9218 LDNODE: GSUH_INPUT<9>_CLK(x_suh).IN - Unknown pin name
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul 9172 Unknown timing parameter name: SUINHICLK
+1 Simul 9172 Unknown timing parameter name: SUINLOCLK
+1 Simul #### ===============================
+1 Simul #### EDIF Netlist Loading Statistics
+1 Simul #### ===============================
+1 Simul #### Number of hierarchical blocks: 47
+1 Simul #### Total number of cell types: 57
+1 Simul #### Total number of cell instances: 417
+1 Simul #### Total number of EDIF blocks: 46
+1 Simul #### Total number of models taken from libraries: 8
+1 Simul #### Total number of automatic/internal models: 2
+1 Simul #### Total number of missing models: 0
+1 Simul #### Total number of signals (block ports and labels): 515
+1 Simul #### Total number of labels: 188
+1 Simul #### Total number of nets: 510
+1 Simul #### Total number of net elements: 1611
+1 Simul #### Total number of generic values: 636
+1 Simul #### Total number of port generic values: 182
+1 Simul #### Memory usage statistics:
+1 Simul ####     Total number of allocated memory blocks: 7223 (561)
+1 Simul ####     Total number of memory reallocations: 1
+1 Simul ####     Total length of memory used to load the netlist: 779 kB (11)
+1 Simul ####     Total length of memory used by EDIF parser: 512 kB
+1 Simul ####     Number of system memory blocks (total/long): 2/0
+1 Simul #### Netlist loaded in: 1 seconds
+1 Simul #### Parsing time: 0 seconds
+1 Simul #### ===============================
+W Simul 9433 Netlist loaded with warnings
+3 Pcm #### Application unknown send message Add Report
+0 Pcm #### EXIT: Logic Simulator - Xilinx Foundation F2.1i [time_sim]
+0 Fsm ####  0 error(s) 0 warning(s) found
+0 Pcm #### Execute: hde.exe -p 508 -i /data_store2 c:\fndtn\active\projects\proj_3x3\data_store2.vhd
+3 Pcm #### Application HDE send message Update Sheet
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\data_store2.vhd (0, 0)
+0 Fsm #### Checking...
+0 Hde #### Checking Started
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\data_store2.vhd ...
+C Dpm #### Done
+0 Pcm #### Reading Synopsys/Xilinx project
+3 Pcm #### Application HDE send message Analyze File
+0 Fsm #### Check Successful
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\chips\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\chips\ver1\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\chips\ver1-o~1\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\files\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\workdirs\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\workdirs\work\
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\workdirs\work
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\workdirs
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\files
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\chips\ver1-o~1
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\chips\ver1
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\chips
+0 Pcm #### Deleting files from C:\FNDTN\ACTIVE\PROJECTS\PROJ_3X3\dpm_net\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\xproj\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\xproj\ver1\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\xproj\ver1\rev1\
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\xproj\ver1\rev1
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\xproj\ver1
+0 Pcm #### Xilinx server initialization
+0 Pcm #### Xilinx version: 1, 0, 0, 1
+0 Pcm #### Synopsys server initialization
+W Pcm #### Cannot find a valid license for Synopsys Constraint Manager. Constraint Editor/Viewer will not be available
+0 Pcm #### Opening Synopsys project
+0 Pcm #### Synopsys version: 3, 2, 0, 4201
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\matrix_package.vhd ...
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\matrix_package.vhd (0, 0)
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\data_store2.vhd ...
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\data_store2.vhd (0, 0)
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\multipliers.vhd ...
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\multipliers.vhd (0, 0)
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\adders.vhd ...
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\adders.vhd (0, 0)
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\answer_store.vhd ...
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\answer_store.vhd (0, 0)
+0 Pcm #### Synopsys server initialization
+C Dpm ####  Linking design ... 
+C Dpm ####  Elaborating design DATA_STORE   ... 
+C Dpm ####  Removing don't-care logic ... 
+C Dpm ####  Inferencing pad mapping attributes ... 
+C Dpm ####  Initializing ... 
+C Dpm ####  Optimizing simple multiplexors ... 
+C Dpm ####  Implementing simple multiplexors in design '/ver1' ... 
+C Dpm ####  Optimizing implemented multiplexors in design '/ver1' ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Deriving clock information ... 
+C Dpm ####  Done 
+C Dpm #### Done
+C Dpm ####  Preprocessing design for pad-mapping ... 
+C Dpm ####  Preprocessing design for global set/reset optimization ... 
+C Dpm ####  Tie undriven nets and pins to logic zero. 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Implementing inferred operators ... 
+C Dpm ####  Optimizing multiplexor logic ... 
+C Dpm ####  Modifying design hierarchy ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Mapping sequential elements ... 
+C Dpm ####  Checking design for use of global set/reset net ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Removing duplicate cells ... 
+C Dpm ####  Improving inferred operator implementation ... 
+C Dpm ####  Mapping I/O pads ... 
+C Dpm ####  Mapping 3-state elements ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Mapping combinational logic ... 
+C Dpm ####  Mapping combinational logic in design '/ver1-Optimized' ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Allocating global buffers ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Modifying design to comply with target technology rules ... 
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"A12_reg<1>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"A22_reg<0>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"B22_reg<1>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"B12_reg<0>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"A32_reg<1>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"B32_reg<0>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"B32_reg<1>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"A32_reg<0>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"B22_reg<0>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"B12_reg<1>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"A12_reg<0>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"A22_reg<1>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"B33_reg<0>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"B33_reg<1>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"B31_reg<0>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"B31_reg<1>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"B23_reg<0>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"B23_reg<1>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"B21_reg<0>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"B21_reg<1>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"B13_reg<0>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"B13_reg<1>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"B11_reg<0>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"B11_reg<1>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"A33_reg<0>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"A33_reg<1>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"A31_reg<0>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"A31_reg<1>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"A23_reg<0>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"A23_reg<1>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"A21_reg<0>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"A21_reg<1>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"A13_reg<0>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"A13_reg<1>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"A11_reg<0>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No net is connected to the set/reset pin of Cell '/"A11_reg<1>"/Q_reg'.  (FPGA-GSRMAP-16)
+W Dpm #### Warning: No global set / reset (GSR) net could be used in the design because there is not a unique net that sets or resets all  the sequential cells.  (FPGA-GSRMAP-5)
+C Dpm #### Done
+0 Pcm #### Implementation ver1 Completed Successfully.
+C Dpm #### Export ver1-Optimized to c:\fndtn\active\projects\proj_3x3\dpm_net ...
+0 Pcm #### Reading Synopsys/Xilinx project
+0 Pcm #### Reading Synopsys/Xilinx project
+W Pcm #### Synthesis is up to date
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\dpm_net\
+C Dpm #### Export ver1-Optimized to c:\fndtn\active\projects\proj_3x3\dpm_net ...
+0 Pcm #### ver1->rev1 Simulation Template "Foundation EDIF" set.
+0 Pcm #### Reading Synopsys/Xilinx project
+0 Pcm #### Flow Engine is running (ver1->rev1).
+C Xie #### Flow Engine: ver1->rev1 (New OK)
+C Xie #### Flow Engine: ver1->rev1 (Translated OK)
+C Xie #### Flow Engine: ver1->rev1 (Mapped OK)
+C Xie #### Flow Engine: ver1->rev1 (Routed OK)
+C Xie #### Flow Engine: ver1->rev1 (Timed OK)
+C Xie #### Flow Engine: ver1->rev1 (Implemented OK)
+C Xie #### Flow Engine ver1->rev1 Completed Successfully.
+0 Pcm #### Execute: C:\FNDTN\ACTIVE\EXE\RBROWSER.EXE c:\fndtn\active\projects\proj_3x3\xproj\ver1\rev1\fe.log
+0 Pcm #### Execute simul.exe -p -f edif -m timing -n c:\fndtn\active\projects\proj_3x3\xproj\ver1\rev1\time_sim.edn
+0 Pcm #### START: Logic Simulator - Xilinx Foundation F2.1i [  ]
+C Simul #### EDIF netlist 'c:\FNDTN\ACTIVE\PROJECTS\PROJ_3X3\XPROJ\VER1\REV1\TIME_SIM.EDN' loading v.2.99.1.10
+C Simul #### EDIF parser completed successfully
+C Simul #### Loading - c:\fndtn\active\projects\proj_3x3\xproj\ver1\rev1\time_sim.edn
+1 Simul 9240 The following node is sourceless:
+1 Simul ####    NODE: B33_reg<0>.GSR, A11_reg<0>.GSR, A12_reg<1>.GSR, A12_reg<0>.GSR, A13_reg<1>.GSR, A13_reg<0>.GSR, B11_reg<1>.GSR, B11_reg<0>.GSR, B12_reg<1>.GSR, B12_reg<0>.GSR, B13_reg<1>.GSR, B13_reg<0>.GSR, A21_reg<1>.GSR, A21_reg<0>.GSR, A2(line too long)
+1 Simul 9240 The following node is sourceless:
+1 Simul ####    NODE: B33_reg<0>.GTS, A11_reg<0>.GTS, A12_reg<1>.GTS, A12_reg<0>.GTS, A13_reg<1>.GTS, A13_reg<0>.GTS, B11_reg<1>.GTS, B11_reg<0>.GTS, B12_reg<1>.GTS, B12_reg<0>.GTS, B13_reg<1>.GTS, B13_reg<0>.GTS, A21_reg<1>.GTS, A21_reg<0>.GTS, A2(line too long)
+1 Simul #### ===============================
+1 Simul #### EDIF Netlist Loading Statistics
+1 Simul #### ===============================
+1 Simul #### Number of hierarchical blocks: 37
+1 Simul #### Total number of cell types: 45
+1 Simul #### Total number of cell instances: 323
+1 Simul #### Total number of EDIF blocks: 36
+1 Simul #### Total number of models taken from libraries: 5
+1 Simul #### Total number of automatic/internal models: 3
+1 Simul #### Total number of missing models: 0
+1 Simul #### Total number of signals (block ports and labels): 469
+1 Simul #### Total number of labels: 209
+1 Simul #### Total number of nets: 469
+1 Simul #### Total number of net elements: 1417
+1 Simul #### Total number of generic values: 220
+1 Simul #### Total number of port generic values: 221
+1 Simul #### Memory usage statistics:
+1 Simul ####     Total number of allocated memory blocks: 5959 (505)
+1 Simul ####     Total number of memory reallocations: 1
+1 Simul ####     Total length of memory used to load the netlist: 522 kB (10)
+1 Simul ####     Total length of memory used by EDIF parser: 256 kB
+1 Simul ####     Number of system memory blocks (total/long): 1/0
+1 Simul #### Netlist loaded in: 1 seconds
+1 Simul #### Parsing time: 0 seconds
+1 Simul #### ===============================
+C Simul #### Netlist loaded successfully
+3 Pcm #### Application unknown send message Add Report
+0 Pcm #### EXIT: Logic Simulator - Xilinx Foundation F2.1i [time_sim]
+3 Pcm #### Application HDE send message Update Sheet
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\answer_store.vhd (0, 0)
+0 Fsm #### Checking...
+0 Hde #### Checking Started
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\answer_store.vhd ...
+E Dpm #### Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 12
+E Dpm #### 	U_FORTY5_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown)
+E Dpm #### Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 13
+E Dpm #### 	U_FORTY5_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown)
+E Dpm #### Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 32
+E Dpm #### 	Range 'U' to 'X' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown)
+E Dpm #### Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 32
+E Dpm #### 	Range 'Z' to '-' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown)
+C Dpm #### Done
+E Pcm #### File c:\fndtn\active\projects\proj_3x3\answer_store.vhd, errors found.
+0 Pcm #### Reading Synopsys/Xilinx project
+3 Pcm #### Application HDE send message Analyze File
+0 Fsm #### c:\fndtn\active\projects\proj_3x3\answer_store.vhd Error   L12/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 12   U_FORTY5_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown)
+0 Fsm #### c:\fndtn\active\projects\proj_3x3\answer_store.vhd Error   L13/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 13   U_FORTY5_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown)
+0 Fsm #### c:\fndtn\active\projects\proj_3x3\answer_store.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 32   Range 'U' to 'X' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown)
+0 Fsm #### c:\fndtn\active\projects\proj_3x3\answer_store.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 32   Range 'Z' to '-' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown)
+0 Fsm ####  4 error(s) 0 warning(s) found
+0 Fsm ####  0 error(s) 0 warning(s) found
+0 Pcm #### Execute: hde.exe -p 508 -i /matrix_package c:\fndtn\active\projects\proj_3x3\matrix_package.vhd
+3 Pcm #### Application HDE send message Update Sheet
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\matrix_package.vhd (0, 0)
+0 Fsm #### Checking...
+0 Hde #### Checking Started
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\matrix_package.vhd ...
+C Dpm #### Done
+0 Pcm #### Reading Synopsys/Xilinx project
+3 Pcm #### Application HDE send message Analyze File
+0 Fsm #### Check Successful
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\matrix_package.vhd (0, 0)
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\data_store2.vhd (0, 0)
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\multipliers.vhd (0, 0)
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\adders.vhd (0, 0)
+E Dpm #### Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 12
+E Dpm #### 	U_FORTY5_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown)
+E Dpm #### Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 13
+E Dpm #### 	U_FORTY5_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown)
+E Dpm #### Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 32
+E Dpm #### 	Range 'U' to 'X' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown)
+E Dpm #### Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 32
+E Dpm #### 	Range 'Z' to '-' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown)
+C Dpm #### Done
+E Pcm #### File c:\fndtn\active\projects\proj_3x3\answer_store.vhd, errors found.
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\answer_store.vhd (0, 0)
+0 Pcm #### Synopsys server initialization
+0 Pcm #### Reading Synopsys/Xilinx project
+0 Fsm ####  0 error(s) 0 warning(s) found
+0 Pcm #### Execute: hde.exe -p 508 -i /matrix_package c:\fndtn\active\projects\proj_3x3\matrix_package.vhd
+3 Pcm #### Application HDE send message Update Sheet
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\answer_store.vhd (0, 0)
+0 Fsm #### Checking...
+0 Hde #### Checking Started
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\answer_store.vhd ...
+E Dpm #### Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 32
+E Dpm #### 	Range 'U' to 'X' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown)
+E Dpm #### Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 32
+E Dpm #### 	Range 'Z' to '-' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown)
+C Dpm #### Done
+E Pcm #### File c:\fndtn\active\projects\proj_3x3\answer_store.vhd, errors found.
+0 Pcm #### Reading Synopsys/Xilinx project
+3 Pcm #### Application HDE send message Analyze File
+0 Fsm #### c:\fndtn\active\projects\proj_3x3\answer_store.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 32   Range 'U' to 'X' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown)
+0 Fsm #### c:\fndtn\active\projects\proj_3x3\answer_store.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/answer_store.vhd  line 32   Range 'Z' to '-' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown)
+0 Fsm ####  2 error(s) 0 warning(s) found
+3 Pcm #### Application HDE send message Update Sheet
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\answer_store.vhd (0, 0)
+0 Fsm #### Checking...
+0 Hde #### Checking Started
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\answer_store.vhd ...
+C Dpm #### Done
+0 Pcm #### Reading Synopsys/Xilinx project
+3 Pcm #### Application HDE send message Analyze File
+0 Fsm #### Check Successful
+3 Pcm #### Application HDE send message Update Sheet
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\answer_store.vhd (0, 0)
+0 Fsm #### Checking...
+0 Hde #### Checking Started
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\answer_store.vhd ...
+C Dpm #### Done
+0 Pcm #### Reading Synopsys/Xilinx project
+3 Pcm #### Application HDE send message Analyze File
+0 Fsm #### Check Successful
+3 Pcm #### Application HDE send message Update Sheet
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\data_store2.vhd (0, 0)
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\chips\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\chips\ver1\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\chips\ver1-o~1\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\files\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\workdirs\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\proj_3x3\workdirs\work\
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\workdirs\work
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\workdirs
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\files
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\chips\ver1-o~1
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\chips\ver1
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\proj_3x3\chips
+0 Pcm #### Deleting files from C:\FNDTN\ACTIVE\PROJECTS\PROJ_3X3\dpm_net\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\xproj\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\xproj\ver1\
+0 Pcm #### Deleting files from c:\fndtn\active\projects\proj_3x3\xproj\ver1\rev1\
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\xproj\ver1\rev1
+0 Pcm #### Delete directory c:\fndtn\active\projects\proj_3x3\xproj\ver1
+0 Pcm #### Xilinx server initialization
+0 Pcm #### Xilinx version: 1, 0, 0, 1
+0 Pcm #### Synopsys server initialization
+W Pcm #### Cannot find a valid license for Synopsys Constraint Manager. Constraint Editor/Viewer will not be available
+0 Pcm #### Opening Synopsys project
+0 Pcm #### Synopsys version: 3, 2, 0, 4201
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\matrix_package.vhd ...
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\matrix_package.vhd (0, 0)
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\data_store2.vhd ...
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\data_store2.vhd (0, 0)
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\multipliers.vhd ...
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\multipliers.vhd (0, 0)
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\adders.vhd ...
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\adders.vhd (0, 0)
+C Dpm #### Analyzing c:\fndtn\active\projects\proj_3x3\answer_store.vhd ...
+C Dpm #### Done
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\answer_store.vhd (0, 0)
+0 Pcm #### Synopsys server initialization
+C Dpm ####  Linking design ... 
+C Dpm ####  Elaborating design Answer_Store   ... 
+C Dpm ####  Removing don't-care logic ... 
+C Dpm ####  Inferencing pad mapping attributes ... 
+C Dpm ####  Initializing ... 
+C Dpm ####  Optimizing simple multiplexors ... 
+C Dpm ####  Implementing simple multiplexors in design '/ver1' ... 
+C Dpm ####  Optimizing implemented multiplexors in design '/ver1' ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Deriving clock information ... 
+C Dpm ####  Done 
+C Dpm #### Done
+C Dpm ####  Preprocessing design for pad-mapping ... 
+C Dpm ####  Preprocessing design for global set/reset optimization ... 
+C Dpm ####  Tie undriven nets and pins to logic zero. 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Implementing inferred operators ... 
+C Dpm ####  Optimizing multiplexor logic ... 
+C Dpm ####  Modifying design hierarchy ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Mapping sequential elements ... 
+C Dpm ####  Checking design for use of global set/reset net ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Removing duplicate cells ... 
+C Dpm ####  Improving inferred operator implementation ... 
+C Dpm ####  Mapping I/O pads ... 
+C Dpm ####  Mapping 3-state elements ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Mapping combinational logic ... 
+C Dpm ####  Mapping combinational logic in design '/ver1-Optimized' ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Allocating global buffers ... 
+C Dpm ####  Removing redundant logic ... 
+C Dpm ####  Modifying design to comply with target technology rules ... 
+C Dpm #### Done
+0 Pcm #### Implementation ver1 Completed Successfully.
+C Dpm #### Export ver1-Optimized to c:\fndtn\active\projects\proj_3x3\dpm_net ...
+0 Pcm #### ver1->rev1 Simulation Template "Foundation EDIF" set.
+0 Pcm #### Reading Synopsys/Xilinx project
+0 Pcm #### Flow Engine is running (ver1->rev1).
+C Xie #### Flow Engine: ver1->rev1 (New OK)
+C Xie #### Flow Engine: ver1->rev1 (Translated OK)
+C Xie #### Flow Engine: ver1->rev1 (Mapped OK)
+C Xie #### Flow Engine: ver1->rev1 (Routed OK)
+C Xie #### Flow Engine: ver1->rev1 (Timed OK)
+C Xie #### Flow Engine: ver1->rev1 (Implemented OK)
+C Xie #### Flow Engine ver1->rev1 Completed Successfully.
+0 Pcm #### Execute: C:\FNDTN\ACTIVE\EXE\RBROWSER.EXE c:\fndtn\active\projects\proj_3x3\xproj\ver1\rev1\fe.log
+0 Pcm #### Execute simul.exe -p -f edif -m timing -n c:\fndtn\active\projects\proj_3x3\xproj\ver1\rev1\time_sim.edn
+0 Pcm #### START: Logic Simulator - Xilinx Foundation F2.1i [  ]
+C Simul #### EDIF netlist 'c:\FNDTN\ACTIVE\PROJECTS\PROJ_3X3\XPROJ\VER1\REV1\TIME_SIM.EDN' loading v.2.99.1.10
+C Simul #### EDIF parser completed successfully
+C Simul #### Loading - c:\fndtn\active\projects\proj_3x3\xproj\ver1\rev1\time_sim.edn
+1 Simul #### ===============================
+1 Simul #### EDIF Netlist Loading Statistics
+1 Simul #### ===============================
+1 Simul #### Number of hierarchical blocks: 47
+1 Simul #### Total number of cell types: 56
+1 Simul #### Total number of cell instances: 416
+1 Simul #### Total number of EDIF blocks: 46
+1 Simul #### Total number of models taken from libraries: 6
+1 Simul #### Total number of automatic/internal models: 3
+1 Simul #### Total number of missing models: 0
+1 Simul #### Total number of signals (block ports and labels): 559
+1 Simul #### Total number of labels: 232
+1 Simul #### Total number of nets: 554
+1 Simul #### Total number of net elements: 1609
+1 Simul #### Total number of generic values: 366
+1 Simul #### Total number of port generic values: 227
+1 Simul #### Memory usage statistics:
+1 Simul ####     Total number of allocated memory blocks: 7213 (605)
+1 Simul ####     Total number of memory reallocations: 1
+1 Simul ####     Total length of memory used to load the netlist: 1036 kB (12)
+1 Simul ####     Total length of memory used by EDIF parser: 512 kB
+1 Simul ####     Number of system memory blocks (total/long): 3/0
+1 Simul #### Netlist loaded in: 1 seconds
+1 Simul #### Parsing time: 0 seconds
+1 Simul #### ===============================
+C Simul #### Netlist loaded successfully
+3 Pcm #### Application unknown send message Add Report
+0 Fsm ####  0 error(s) 0 warning(s) found
+0 Pcm #### Execute: hde.exe -p 508 -i /answer_store c:\fndtn\active\projects\proj_3x3\answer_store.vhd
+3 Pcm #### Application HDE send message Update Sheet
+0 Pcm #### Update: c:\fndtn\active\projects\proj_3x3\answer_store.vhd (0, 0)
+1 Simul #### Waveforms bitmap copied to clipboard
+0 Pcm #### EXIT: Logic Simulator - Xilinx Foundation F2.1i [time_sim]
+0 Pcm #### Execute: C:\FNDTN\ACTIVE\EXE\RBROWSER.EXE c:\fndtn\active\projects\proj_3x3\xproj\ver1\rev1\fe.log
+
+* Stop Xilinx Foundation F2.1i - Messages -  Sat Feb 10 23:10:01 2001  

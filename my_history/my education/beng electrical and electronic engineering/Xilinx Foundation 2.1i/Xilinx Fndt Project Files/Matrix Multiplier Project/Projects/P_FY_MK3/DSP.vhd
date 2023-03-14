@@ -1,0 +1,44 @@
+-- Final Year Project
+-- By David.R.Clarke
+-- Created: 11_12_2000
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_ARITH.ALL;
+--
+Entity DSP IS
+Port (CE, CLR : IN STD_LOGIC;
+      MAT_A_D_IN_1, MAT_A_D_IN_0, MAT_B_D_IN_1, MAT_B_D_IN_0 : IN UNSIGNED (1 downto 0);
+      LATCH_MEM : IN STD_LOGIC_VECTOR (3 downto 0); 
+      A0B0_A1B2, A0B1_A1B3, A2B0_A3B2, A2B1_A3B3 : OUT STD_LOGIC_VECTOR (4 downto 0));
+End Entity DSP;
+--
+Architecture Structural of DSP IS
+
+COMPONENT MUL2 IS
+PORT (A, B : IN unsigned (1 downto 0); Z : OUT STD_LOGIC_VECTOR (3 downto 0));
+END COMPONENT MUL2;
+
+COMPONENT ADD4 IS
+PORT (A, B : IN STD_LOGIC_VECTOR (3 downto 0);
+      S : OUT STD_LOGIC_VECTOR (3 downto 0); COUT : OUT STD_LOGIC);
+END COMPONENT ADD4;
+
+COMPONENT Answer_Store IS
+PORT (CE, CLR         : IN STD_LOGIC;
+      SOP_IN          : IN STD_LOGIC_VECTOR (4 downto 0); 
+      LATCH_MEM       : IN STD_LOGIC_VECTOR (3 downto 0); 
+      A0B0_A1B2, A0B1_A1B3, A2B0_A3B2, A2B1_A3B3 : OUT STD_LOGIC_VECTOR (4 downto 0));
+END COMPONENT Answer_Store;
+
+SIGNAL P1_BUS, P2_BUS : STD_LOGIC_VECTOR (3 DOWNTO 0);
+SIGNAL SOP_BUS : STD_LOGIC_VECTOR (4 DOWNTO 0);
+
+Begin
+
+M_1     : MUL2          PORT MAP (A => MAT_A_D_IN_1, B => MAT_B_D_IN_1, Z => P1_BUS);
+M_2     : MUL2          PORT MAP (A => MAT_A_D_IN_0, B => MAT_B_D_IN_0, Z => P2_BUS);
+ADDER_1 : ADD4          PORT MAP (A => P1_BUS, B => P2_BUS, S => SOP_BUS(3 downto 0), COUT => SOP_BUS(4));
+MEMORY  : Answer_Store  PORT MAP (CE => CE, CLR => CLR, SOP_IN => SOP_BUS, LATCH_MEM => LATCH_MEM, A0B0_A1B2 => A0B0_A1B2, 
+				  A0B1_A1B3 => A0B1_A1B3, A2B0_A3B2 => A2B0_A3B2, A2B1_A3B3 => A2B1_A3B3);
+
+End Architecture Structural;

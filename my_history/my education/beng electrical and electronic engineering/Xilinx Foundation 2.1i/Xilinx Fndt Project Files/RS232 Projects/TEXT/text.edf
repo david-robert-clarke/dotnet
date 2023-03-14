@@ -1,0 +1,170 @@
+(edif text
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap
+    (keywordLevel 0))
+  (status
+    (written
+      (timeStamp 100 11 17 1 18 53)
+      (author "ALDEC")
+      (program "Xnf2Edf - Aldec's Edif 2.0.0 Netlist Generator"
+        (version "2.0.3.28"))))
+  (library Active_lib
+    (edifLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 1 -11)(unit TIME))))
+    (cell FULL_ADDER
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port C_IN
+            (direction INPUT))
+          (port C_OUT
+            (direction OUTPUT))
+          (port IN1
+            (direction INPUT))
+          (port IN2
+            (direction INPUT))
+          (port SUM
+            (direction OUTPUT)))))
+    (cell HALF_ADDER
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port CARRY
+            (direction OUTPUT))
+          (port SUM
+            (direction OUTPUT))
+          (port X
+            (direction INPUT))
+          (port Y
+            (direction INPUT)))))
+    (cell IBUF
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I
+            (direction INPUT))
+          (port O
+            (direction OUTPUT)))))
+    (cell OBUF
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I
+            (direction INPUT))
+          (port O
+            (direction OUTPUT)))))
+    (cell TEXT
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port C
+            (direction INPUT))
+          (port CO
+            (direction OUTPUT))
+          (port I
+            (direction INPUT))
+          (port I2
+            (direction INPUT))
+          (port S
+            (direction OUTPUT)))
+        (contents
+          (instance ARSE
+            (viewRef net
+              (cellRef HALF_ADDER))
+            (property LIBVER (string "2.0.0")))
+          (instance C0
+            (viewRef net
+              (cellRef IBUF))
+            (property LIBVER (string "2.0.0")))
+          (instance C1
+            (viewRef net
+              (cellRef IBUF))
+            (property LIBVER (string "2.0.0")))
+          (instance C2
+            (viewRef net
+              (cellRef IBUF))
+            (property LIBVER (string "2.0.0")))
+          (instance C3
+            (viewRef net
+              (cellRef OBUF))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance C4
+            (viewRef net
+              (cellRef OBUF))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance DRINK
+            (viewRef net
+              (cellRef FULL_ADDER))
+            (property LIBVER (string "2.0.0")))
+          (net C
+            (joined 
+              (portRef C)
+              (portRef I
+                (instanceRef C0))))
+          (net CO
+            (joined 
+              (portRef CO)
+              (portRef O
+                (instanceRef C4))))
+          (net I
+            (joined 
+              (portRef I)
+              (portRef I
+                (instanceRef C1))))
+          (net I2
+            (joined 
+              (portRef I2)
+              (portRef I
+                (instanceRef C2))))
+          (net N_C
+            (joined 
+              (portRef C_IN
+                (instanceRef DRINK))
+              (portRef X
+                (instanceRef ARSE))
+              (portRef O
+                (instanceRef C0))))
+          (net N_CO
+            (joined 
+              (portRef C_OUT
+                (instanceRef DRINK))
+              (portRef CARRY
+                (instanceRef ARSE))
+              (portRef I
+                (instanceRef C4))))
+          (net N_I
+            (joined 
+              (portRef IN1
+                (instanceRef DRINK))
+              (portRef Y
+                (instanceRef ARSE))
+              (portRef O
+                (instanceRef C1))))
+          (net N_I2
+            (joined 
+              (portRef IN2
+                (instanceRef DRINK))
+              (portRef O
+                (instanceRef C2))))
+          (net N_S
+            (joined 
+              (portRef SUM
+                (instanceRef DRINK))
+              (portRef SUM
+                (instanceRef ARSE))
+              (portRef I
+                (instanceRef C3))))
+          (net S
+            (joined 
+              (portRef S)
+              (portRef O
+                (instanceRef C3))))))))
+  (design text
+    (cellRef text
+      (libraryRef Active_lib))
+    (property PART (string "4010XL-BG256-09"))))

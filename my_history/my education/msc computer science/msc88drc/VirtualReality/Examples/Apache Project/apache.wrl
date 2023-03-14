@@ -1,0 +1,1020 @@
+#VRML V2.0 utf8
+#Ian Whitehouse, 5/5/00.
+EXTERNPROTO Cannon[
+	eventIn SFRotation set_rotation
+	eventOut SFVec3f tipPosition_changed
+]"cannon.wrl"
+
+EXTERNPROTO NoseSight[
+	eventIn SFRotation set_rotation
+	field SFNode appearance
+]"nosesight.wrl"
+
+PROTO Apache[
+	eventIn SFBool explode #Initiates the explosion sequence.
+	eventIn SFRotation set_bladePitch #The updated rotation of the rotor blade about its long axis.
+	eventIn SFRotation set_gunRotation #The rotation the gun needs to face - unused in this implementation.
+	eventIn SFRotation set_rotation #The rotation of the entire helicopter.
+	eventIn SFRotation set_rotorPitch #The tilt of the rotor blade assembly.
+	eventIn SFRotation set_rotorRotation #The rotation of the main rotor blades about their centre.
+	eventIn SFRotation set_tailRotorRotation #The rotation of the tail rotor blades about their centre.
+	eventIn SFVec3f set_currentTarget #The position of the current target.
+	eventIn SFVec3f set_position #The position of the helicopter.
+	eventIn SFVec3f set_wheelHeights #The vertical movement in the height of the landing wheels. x=front right, y=front left, z=rear.
+	eventOut SFBool validTarget #Whether or not the current gun target can be fired at, from its current location.
+	eventOut SFRotation gunTotRotation_changed #The new total rotation of the gun, relative to the world.
+	eventOut SFVec3f gunTipPos_changed #The new total tip position of the gun, relative to the world.
+]
+{
+        DEF main Group{
+                children[
+                        Transform{
+                        	translation IS set_position
+                        	rotation IS set_rotation
+                        	center -1.152 3.268 0
+                        	children[
+                        		Transform{#Longbow mast sight
+                        			translation -1.152 3.648 0
+                        			children[
+                        				Viewpoint{#Longbow viewpoint.
+                        					position 0 0 0
+                        					orientation 0 1 0 -1.57
+                        					description "Longbow Sight"
+                        				}
+                        				Shape{#Dull camouflage green colour.
+                        					appearance DEF CamoGreen Appearance{
+                        						material Material{
+                        							diffuseColor 0 .2 0
+                        						}
+                        					}
+                        					geometry Cylinder{
+                        						height .384
+                        						radius .48
+                        						side FALSE
+                        					}
+                        				}
+                        				Transform{#The curved sides to the Longbow sight.
+                        					scale .235 .192 .235
+                        					children[
+                        						Shape{
+                                                                                appearance USE CamoGreen
+                        							geometry Extrusion{
+                        								creaseAngle 1.57
+                        								beginCap FALSE
+                        								endCap FALSE
+                        								crossSection[
+                        									0 1,.38 .92,.71 .71,.92 .38,1 0,.92 -.38,.71 -.71,.38 -.92,0 -1,
+                        								]
+                        								spine[
+                        									2 0 0,1.85 0 .77,1.41 0 1.41,.77 0 1.85,0 0 2,-.77 0 1.85,-1.41 0 1.41,-1.85 0 .77,-2 0 0,-1.85 0 -.77,-1.41 0 -1.41,-.77 0 -1.85,0 0 -2,.77 0 -1.85,1.41 0 -1.41,1.85 0 -.77,2 0 0,
+                        								]
+                        							}
+                        						}
+                        					]
+                        				}
+                        				Transform{
+                        					translation 0 -.48 0
+                        					children[
+                        						Shape{
+                        							appearance USE CamoGreen
+                        							geometry Cylinder{
+                        								height .576
+                        								radius .168
+                        								top FALSE
+                        							}
+                        						}
+                        					]
+                        				}
+                        			]
+                        		}
+                        		Transform{#Main Rotor
+                        			rotation IS set_rotorPitch
+                        			translation -1.152 2.688 0
+                        			children[
+                        				Transform{
+                        					rotation IS set_rotorRotation
+                        					children[
+                        						DEF blade Transform{#An individual rotor blade.
+                        							rotation IS set_bladePitch
+                        							children[
+                        								Transform{#The blade mast.
+                        									translation .58 0 0
+                        									rotation 0 0 1 1.57
+                        									scale .5 1 1
+                        									children[
+                        										Shape{
+                        											appearance USE CamoGreen
+                        											geometry Cylinder{
+                        												height 1
+                        												radius .12
+                        											}
+                        										}
+                        									]
+                        								}
+                        								Shape{#The blade face.
+                        									appearance USE CamoGreen
+                        									geometry IndexedFaceSet{
+                        										coord Coordinate{
+                        											point[
+                        												1.08 0 -.12,6.72 0 -.12,7.2 0 .072,7.2 0 .552,
+                        												6.72 0 .36,2.088 0 .36,1.08 0 .12,1.08 .024 -.024,
+                        												2.088 .024 -.024,6.72 .024 -.024,7.2 .024 .168,1.08 -.024 -.024,
+                        												2.088 -.024 -.024,6.72 -.024 -.024,7.2 -.024 .168,
+                        											]
+                        										}
+                        										coordIndex[
+                        											5,4,9,8,-1,
+                        											12,13,4,5,-1,
+                        											8,7,6,5,-1,
+                        											5,6,11,12,-1,
+                        											10,9,4,3,-1,
+                        											3,4,13,14,-1,
+                        											7,9,1,0,-1,
+                        											0,1,13,11,-1,
+                        											9,10,2,1,-1,
+                        											1,2,14,13,-1,
+                        											14,2,10,3,-1,
+                        											11,6,7,0,-1,
+                        										]
+                        									}
+                        								}
+                        							]
+                        						}
+                        						Transform{
+                        							rotation 0 1 0 1.57
+                        							children USE blade
+                        						}
+                        						Transform{
+                        							rotation 0 1 0 3.14
+                        							children USE blade
+                        						}
+                        						Transform{
+                        							rotation 0 1 0 4.71
+                        							children USE blade
+                        						}
+                        						Shape{
+                        							appearance USE CamoGreen
+                        							geometry Cylinder{
+                        								height .288
+                        								radius .192
+                        							}
+                        						}
+                        					]
+                        				}
+
+                        			]
+                        		}
+                        		Transform{#Non-tilting elements of Main Rotor
+                        			rotation IS set_rotorRotation
+                        			translation -1.152 2.688 0
+                        			children[
+                        				Transform{
+                        					translation 0 -.528 0
+                        					children[
+                        						Shape{
+                        							appearance USE CamoGreen
+                        							geometry Cylinder{
+                        								height .048
+                        								radius .336
+                        							}
+                        						}
+                        						Transform{
+                        							translation 0 -.12 .288
+                        							children[
+                        								Shape{
+                        									appearance USE CamoGreen
+                        									geometry Cylinder{
+                        										height .24
+                        										radius .048
+                        										top FALSE
+                        										bottom FALSE
+                        									}
+                        								}
+                        							]
+                        						}
+                        						Transform{
+                        							translation 0 -.12 -.288
+                        							children[
+                        								Shape{
+                        									appearance USE CamoGreen
+                        									geometry Cylinder{
+                        										height .24
+                        										radius .048
+                        										top FALSE
+                        										bottom FALSE
+                        									}
+                        								}
+                        							]
+                        						}
+                        					]
+                        				}
+                        				Transform{
+                        					translation 0 -.288 0
+                        					children[
+                        						Shape{
+                        							appearance USE CamoGreen
+                        							geometry Cylinder{
+                        								height .96
+                        								radius .096
+                        								top FALSE
+                        								bottom FALSE
+                        							}
+                        						}
+                        					]
+                        				}
+                        			]
+                        		}
+                        		Transform{#Tail Rotor
+                        			translation -9.84 2.332 .3
+                        			rotation IS set_tailRotorRotation
+                        			children[
+                        				DEF tailBlade Transform{#An individual tail rotor blade.
+                        					children[
+                        						Shape{#The blade face.
+                        							appearance USE CamoGreen
+                        							geometry IndexedFaceSet{
+                        								coord Coordinate{
+                        									point[
+                        										.24 -.048 0, 1.296 -.048 0, 1.296 .192 0, .528 .192 0,
+                        										.24 .048 0,.24 -.024 .024, 1.296 -.024 .024,.24 -.024 -.024,
+                        										1.296 -.024 -.024,
+                        									]
+                        								}
+                        								coordIndex[
+                        									0,1,6,5,-1,
+                        									5,6,2,3,4,-1
+                        									7,8,1,0,-1,
+                        									4,3,2,8,7,-1,
+                        									1,8,2,6,-1,
+                        								]
+                        							}
+                        						}
+                        						Transform{#The blade mast.
+                        							translation -.12 0 0
+                        							rotation 0 0 1 1.57
+                        							children[
+                        								Shape{
+                        									appearance USE CamoGreen
+                        									geometry Cylinder{
+                        										height .24
+                        										radius .048
+                        										bottom FALSE
+                        									}
+                        								}
+                        							]
+                        						}
+                        					]
+                        				}
+                        				Transform{
+                        					rotation 0 0 1 1.57
+                        					children USE tailBlade
+                        				}
+                        				Transform{
+                        					rotation 0 0 1 3.14
+                        					children USE tailBlade
+                        				}
+                        				Transform{
+                        					rotation 0 0 1 4.71
+                        					children USE tailBlade
+                        				}
+                        				Transform{
+                        					rotation 1 0 0 -1.57
+                        					translation 0 0 -.126
+                        					children[
+                        						Shape{
+                        							appearance USE CamoGreen
+                        							geometry Cylinder{
+                        								radius .096
+                        								height .348
+                        								top FALSE
+                        							}
+                        						}
+                        					]
+                        				}
+
+                        			]
+                        		}
+                        		Shape{#Fuselage
+                        			appearance USE CamoGreen
+                        			geometry IndexedFaceSet{
+                        				coord Coordinate{
+                        					point[
+                        						0 0 .624, 2.592 0 .624,3.168 .096 .288,3.168 .862 .48,
+                        						2.592 1.008 .624,2.592 .576 .624,0 .96 .624,0 1.92 .624,
+                        						-1.92 1.92 .624,-5.28 .912 .624,-5.28 0 .624,
+
+                        						0 0 -.624, 2.592 0 -.624,3.168 .096 -.288,3.168 .862 -.48,
+                        						2.592 1.008 -.624,2.592 .576 -.624,0 .96 -.624,0 1.92 -.624,
+                        						-1.92 1.92 -.624,-5.28 .912 -.624,-5.28 0 -.624,
+                        					]
+                        				}
+                        				coordIndex[
+                        					0,1,5,6,-1,
+                        					0,6,7,8,9,10,-1,
+                        					1,2,3,4,5,-1,
+                        					17,16,12,11,-1,
+                        					21,20,19,18,17,11,-1,
+                        					16,15,14,13,12,-1,
+                        					2,13,14,3,-1,
+                        					3,14,15,4,-1,
+                        					4,15,12,1,-1,
+                        					10,9,20,21,-1,
+                        					9,8,19,20,-1,
+                        					8,7,18,19,-1,
+                        					7,6,0,11,17,18,-1,
+                        					0,6,5,1,-1,
+                        					11,12,16,17,-1,
+                        					0,1,12,11,-1,
+                        				]
+                        				creaseAngle 1.6
+                        			}
+                        		}
+                        		Shape{#Rudder
+                        			appearance USE CamoGreen
+                        			geometry IndexedFaceSet{
+                        				coord Coordinate{
+                        					point[
+                        						-9.744 .2 0,-8.88 .2 0,-9.744 3.052 0,-10.7 3.052 0,
+                        						-9.456 .2 .096,-8.976 .2 .096,-9.84 3.052 .096,-10.32 3.052 .096,
+                        						-9.456 .2 -.096,-8.976 .2 -.096,-9.84 3.052 -.096,-10.32 3.052 -.096,
+                        					]
+
+                        				}
+                        				coordIndex[
+                        					4,5,6,7,-1,
+                        					9,8,11,10,-1,
+                        					0,4,7,3,-1,
+                        					0,3,11,8,-1,
+                                                                5,1,2,6,-1,
+                                                                1,9,10,2,-1,
+                                                                2,10,11,3,7,6,-1,
+                        				]
+                        				creaseAngle 1.6
+                        			}
+                        		}
+                                        Shape{#Tailplane
+                                        	appearance USE CamoGreen
+                                        	geometry IndexedFaceSet{
+                                        		coord Coordinate{
+                                        			point[
+                                        				-9.6 .4 1.68,-10.704 .4 1.68,-10.704 .4 -1.68,-9.6 .4 -1.68,
+                                        				-9.84 .472 1.68,-9.84 .472 -1.68,-9.84 .328 1.68,-9.84 .328 -1.68,
+                                        			]
+                                        		}
+                                        		coordIndex[
+                                        			0,3,5,4,-1,
+                                        			0,6,7,3,-1,
+                                        			4,5,2,1,-1,
+                                        			6,1,2,7,-1,
+                                        			0,4,1,6,-1,
+                                        			5,3,7,2,-1,
+                                        		]
+                                        		creaseAngle 1.6
+                                        	}
+                                        }
+                        		Shape{#Fuselage underside & lower half of tail
+                        			appearance USE CamoGreen
+                        			geometry Extrusion{
+                        				crossSection[
+                        					0 -1,-.38 -.92,-.71 -.71,-.92 -.38,-1 0,-.92 .38,-.71 .71,-.38 .92,0 1
+                        				]
+                        				spine[3.168 .095 0,2.592 .01 0,-5.28 .01 0,-9.84 .01 0]
+                        				scale[.01 .288,.1 .624,.1 .624,.25 .25]
+                        				creaseAngle 1.6
+                        			}
+
+                        		}
+                        		Shape{#Upper half of tail
+                        			appearance USE CamoGreen
+                        			geometry Extrusion{
+                        				crossSection[
+                        					0 1,.38 .92,.71 .71,.92 .38,1 0,.92 -.38,.71 -.71,.38 -.92,0 -1,
+                        				]
+                        				spine[-5.28 0 0,-9.84 0 0]
+                        				scale[.912 .624,.25 .25]
+                        				creaseAngle 1.6
+                        			}
+                        		}
+                                        Shape{#Right turbine housing
+                                        	appearance USE CamoGreen
+                                        	geometry IndexedFaceSet{
+                                        		coord Coordinate{
+                                        			point[
+                                        				-1.488 1.392 1.296,-1.488 1.968 1.296,-1.68 1.344 1.344,-1.68 2.016 1.344,
+                                        				-3.696 1.344 1.344,-3.696 2.016 1.344,-3.888 1.344 .624,-3.888 2.016 .624,
+                                        				-1.488 1.392 .72,-1.488 1.968 .72,-1.68 1.344 .624,-1.68 2.016 .624,
+                                        			]
+                                        		}
+                                        		coordIndex[
+                                        			3,2,0,1,-1,
+                                        			0,2,10,8,-1,
+                                        			9,8,10,11,-1,
+                                        			1,9,11,3,-1,
+                                        			2,3,5,4,-1,
+                                        			3,11,7,5,-1,
+                                        			2,4,6,10,-1,
+                                        			4,5,7,6,-1,
+                                        			6,7,11,10,-1,
+                                        			1,0,8,9,-1,
+                                        		]
+                                        		creaseAngle 1.6
+                                        	}
+                                        }
+                                        Transform{#Right turbine tip
+                                        	translation -1.296 1.68 1.008
+                                        	rotation 0 0 1 1.57
+                                        	children[
+                                        		Shape{
+                                        			appearance USE CamoGreen
+                                        			geometry Cylinder{
+                                        				radius .192
+                                        				height .384
+                                        			}
+                                        		}
+                                        	]
+                                        }
+                                        Shape{#Left turbine housing
+                                        	appearance USE CamoGreen
+                                        	geometry IndexedFaceSet{
+                                        		coord Coordinate{
+                                        			point[
+                                        				-1.488 1.392 -1.296,-1.488 1.968 -1.296,-1.68 1.344 -1.344,-1.68 2.016 -1.344,
+                                        				-3.696 1.344 -1.344,-3.696 2.016 -1.344,-3.888 1.344 -.624,-3.888 2.016 -.624,
+                                        				-1.488 1.392 -.72,-1.488 1.968 -.72,-1.68 1.344 -.624,-1.68 2.016 -.624,
+                                        			]
+                                        		}
+                                        		coordIndex[
+                                        			1,0,2,3,-1,
+                                        			1,3,11,9,-1,
+                                        			11,10,8,9,-1,
+                                        			0,8,10,2,-1,
+                                        			0,1,9,8,-1,
+                                                                2,4,5,3,-1,
+                                                                4,6,7,5,-1,
+                                                                7,6,10,11,-1,
+                                                                2,10,6,4,-1,
+                                                                3,5,7,11,-1,
+                                        		]
+                                        		creaseAngle 1.6
+                                        	}
+                                        }
+                                        Transform{#Left turbine tip
+                                        	translation -1.296 1.68 -1.008
+                                        	rotation 0 0 1 1.57
+                                        	children[
+                                        		Shape{
+                                        			appearance USE CamoGreen
+                                        			geometry Cylinder{
+                                        				radius .192
+                                        				height .384
+                                        			}
+                                        		}
+                                        	]
+                                        }
+                                        Transform{#Turbine tip connector
+                                        	translation -1.488 1.68 0
+                                        	children[
+                                        		Shape{
+                                        			appearance USE CamoGreen
+                                        			geometry Box{
+                                        				size .384 .144 2.016
+                                        			}
+                                        		}
+                                        	]
+                                        }
+                                        Shape{#Right wing
+                                        	appearance USE CamoGreen
+                                        	geometry IndexedFaceSet{
+                                        		coord Coordinate{
+                                        			point[
+                                        				-.768 .768 .624,-.768 .768 2.928,-1.632 .768 2.736,-1.968 .768 .624,
+                                        				-.912 .912 .624,-.912 .912 2.928,-.912 .624 .624,-.912 .624 2.928,
+                                        				-1.584 .816 .624,-1.488 .816 2.736,-1.584 .72 .624,-1.488 .72 2.736,
+                                        				-1.488 .816 2.928,-1.488 .72 2.928,
+                                        			]
+                                        		}
+                                        		coordIndex[
+                                        			0,4,5,1,-1,
+                                        			6,0,1,7,-1,
+                                        			4,8,9,12,5,-1,
+                                        			6,7,13,11,10,-1,
+                                        			8,3,2,9,-1,
+                                        			10,11,2,3,-1,
+                                        			2,11,9,-1,
+                                        			9,11,13,12,-1,
+                                        			1,5,12,13,7,-1,
+                                        		]
+                                        		creaseAngle 1.6
+                                        	}
+                                        }
+                                        Shape{#Left wing
+                                        	appearance USE CamoGreen
+                                        	geometry IndexedFaceSet{
+                                        		coord Coordinate{
+                                        			point[
+                                        				-.768 .768 -.624,-.768 .768 -2.928,-1.632 .768 -2.736,-1.968 .768 -.624,
+                                        				-.912 .912 -.624,-.912 .912 -2.928,-.912 .624 -.624,-.912 .624 -2.928,
+                                        				-1.584 .816 -.624,-1.488 .816 -2.736,-1.584 .72 -.624,-1.488 .72 -2.736,
+                                        				-1.488 .816 -2.928,-1.488 .72 -2.928,
+                                        			]
+                                        		}
+                                        		coordIndex[
+                                        			1,5,4,0,-1,
+                                        			0,6,7,1,-1,
+                                        			4,5,12,9,8,-1,
+                                        			6,10,11,13,7,-1,
+                                        			8,9,2,3,-1,
+                                        			11,10,3,2,-1,
+                                        			5,1,7,13,12,-1,
+                                        			9,12,13,11,-1,
+                                        			9,11,2,-1,
+                                        		]
+                                        		creaseAngle 1.6
+                                        	}
+                                        }
+                                        DEF stanchion Shape{#Missile connection point on wing.
+                                        	appearance USE CamoGreen
+                                        	geometry IndexedFaceSet{
+                                        		coord Coordinate{
+                                        			point[
+                                        				-.528 .768 2.16,-.336 .48 2.16,-1.248 .48 2.16,-1.632 .768 2.16,
+                                        				-.624 .768 2.208,-.43 .48 2.208,-1.008 .48 2.208,-1.392 .768 2.208,
+                                        				-.624 .768 2.112,-.43 .48 2.112,-1.008 .48 2.112,-1.392 .768 2.112,
+                                        			]
+                                        		}
+                                        		coordIndex[
+                                        			4,5,1,0,-1,
+                                        			4,7,6,5,-1,
+                                        			7,3,2,6,-1,
+                                        			0,1,9,8,-1,
+                                        			8,9,10,11,-1,
+                                        			11,10,2,3,-1,
+                                        			0,8,11,3,7,4,-1,
+                                        			1,5,6,2,10,9,-1,
+                                        		]
+                                        		creaseAngle 1.6
+                                        	}
+                                        }
+                                        Transform{
+                                        	translation 0 0 -.624
+                                        	children USE stanchion
+                                        }
+                                        Transform{
+                                        	translation 0 0 -3.696
+                                        	children USE stanchion
+                                        }
+                                        Transform{
+                                        	translation 0 0 -4.32
+                                        	children USE stanchion
+                                        }
+                                        Shape{#Right undercarriage housing
+                                        	appearance USE CamoGreen
+                                        	geometry IndexedFaceSet{
+                                        		coord Coordinate{
+                                        			point[
+                                        				2.832 .216 .5,2.304 .432 .96,1.584 .576 .96,-.864 .576 .96,
+                                        				-1.776 .432 .624,-1.776 .144 .624,-.864 .1 .96,1.584 0 .96,
+                                        				2.304 0 .96,2.304 .432 .624,1.584 .576 .624,-.864 .576 .624,
+                                        				-.864 .1 .624,1.584 0 .624,2.304 0 .624,
+                                        			]
+                                        		}
+                                        		coordIndex[
+                                        			0,1,8,-1,
+                                        			1,2,3,6,7,8,-1,
+                                        			3,4,5,6,-1,
+                                        			0,9,1,-1,
+                                        			1,9,10,2,-1,
+                                        			2,10,11,3,-1,
+                                        			3,11,4,-1,
+                                        			6,5,12,-1,
+                                        			6,12,13,7,-1,
+                                        			7,13,14,8,-1,
+                                        			0,8,14,-1,
+                                        		]
+                                        		creaseAngle 1.6
+                                        	}
+                                        }
+                                        Shape{#Left undercarriage housing
+                                        	appearance USE CamoGreen
+                                        	geometry IndexedFaceSet{
+                                        		coord Coordinate{
+                                        			point[
+                                        				2.832 .216 -.5,2.304 .432 -.96,1.584 .576 -.96,-.864 .576 -.96,
+                                        				-1.776 .432 -.624,-1.776 .144 -.624,-.864 .1 -.96,1.584 0 -.96,
+                                        				2.304 0 -.96,2.304 .432 -.624,1.584 .576 -.624,-.864 .576 -.624,
+                                        				-.864 .1 -.624,1.584 0 -.624,2.304 0 .624,
+                                        			]
+                                        		}
+                                        		coordIndex[
+                                        			8,1,0,-1,
+                                        			8,7,6,3,2,1,-1,
+                                        			6,5,4,3,-1,
+                                        			1,9,0,-1,
+                                        			2,10,9,1,-1,
+                                        			3,11,10,2,-1,
+                                        			4,11,3,-1,
+                                        			12,5,6,-1,
+                                        			7,13,12,6,-1,
+                                        			8,14,13,7,-1,
+                                        			14,8,0,-1,
+                                        		]
+                                        		creaseAngle 1.6
+                                        	}
+                                        }
+                                        DEF rightWheel Transform{#Right landing wheel
+                                       		children[
+                        		                Transform{
+                        		                	translation 0 -.624 1.056
+                        		                	rotation 1 0 0 1.57
+                                       				children[
+                        		                		Shape{
+                                						appearance DEF Tyre Appearance{
+                                        						material Material{
+                                        							diffuseColor .1 .1 .1
+                                        						}
+                        		                			}
+                                        					geometry Cylinder{
+                                        						height .192
+                                        						radius .336
+                        		                			}
+                                        				}
+                        		                	]
+                                        		}
+                                        		Transform{
+                                        			translation 0 -.624 .912
+                                        			children[
+                                        				Shape{
+                                        					appearance DEF Metal Appearance{
+                                        						material Material{
+                                        							diffuseColor .3 .3 .3
+                                        							emissiveColor .3 .3 .3
+                                        							shininess .4
+                                        						}
+                                        					}
+                                        					geometry Box{size .144 .288 .096}
+                                        				}
+                                        			]
+                                        		}
+
+
+                        	                ]
+                                        }
+                                        Shape{#Right main landing gear strut
+                        			appearance USE Metal
+                        			geometry DEF rMainStrut Extrusion{
+                        				crossSection[
+                        					-.048 -.048,-.048 .048,.048 .048,.048 -.048,-.048 -.048,
+                        				]
+                        				spine[.96 .044 .792,0 -.624 .912]
+                        			}
+                        		}
+                                        Shape{#Right secondary landing gear strut
+                        			appearance USE Metal
+                        			geometry DEF rSecStrut Extrusion{
+                        				crossSection[
+                        					-.048 -.048,-.048 .048,.048 .048,.048 -.048,-.048 -.048,
+                        				]
+                        				spine[.6 .044 .792,.48 -.29 .852]
+                        			}
+                        		}
+                                        DEF leftWheel Transform{#Left landing wheel
+                                       		children[
+                        		                Transform{
+                        		                	translation 0 -.624 -1.056
+                        		                	rotation 1 0 0 1.57
+                                       				children[
+                        		                		Shape{
+                                						appearance USE Tyre
+                                        					geometry Cylinder{
+                                        						height .192
+                                        						radius .336
+                        		                			}
+                                        				}
+                        		                	]
+                                        		}
+                                        		Transform{
+                                        			translation 0 -.624 -.912
+                                        			children[
+                                        				Shape{
+                                        					appearance USE Metal
+                                        					geometry Box{size .144 .288 .096}
+                                        				}
+                                        			]
+                                        		}
+
+
+                        	                ]
+                                        }
+                                        Shape{#Left main landing gear strut
+                        			appearance USE Metal
+                        			geometry DEF lMainStrut Extrusion{
+                        				crossSection[
+                        					-.048 -.048,-.048 .048,.048 .048,.048 -.048,-.048 -.048,
+                        				]
+                        				spine[.96 .044 -.792,0 -.624 -.912]
+                        			}
+                        		}
+                                        Shape{#Left secondary landing gear strut
+                        			appearance USE Metal
+                        			geometry DEF lSecStrut Extrusion{
+                        				crossSection[
+                        					-.048 -.048,-.048 .048,.048 .048,.048 -.048,-.048 -.048,
+                        				]
+                        				spine[.6 .044 -.792,.48 -.29 -.852]
+                        			}
+                        		}
+                                        DEF backWheel Transform{#Rear landing wheel
+                                       		children[
+                        		                Transform{
+                        		                	translation -10.464 -.404 0
+                        		                	rotation 1 0 0 1.57
+                                       				children[
+                        		                		Shape{
+                                						appearance USE Tyre
+                                        					geometry Cylinder{
+                                        						height .12
+                                        						radius .192
+                        		                			}
+                                        				}
+                        		                	]
+                                        		}
+                                        		Transform{
+                                        			translation -10.464 -.25 .084
+                                        			children[
+                                        				Shape{
+                                        					appearance USE Metal
+                                        					geometry Box{size .048 .308 .048}
+                                        				}
+                                        			]
+                                        		}
+                                        		Transform{
+                                        			translation -10.464 -.25 -.084
+                                        			children[
+                                        				Shape{
+                                        					appearance USE Metal
+                                        					geometry Box{size .048 .308 .048}
+                                        				}
+                                        			]
+                                        		}
+                        	                ]
+                                        }
+                                        Shape{#Rear main landing gear strut
+                        			appearance USE Metal
+                        			geometry DEF bMainStrut Extrusion{
+                        				crossSection[
+                        					-.03 -.06,-.03 .06,.03 .06,.03 -.06,-.03 -.06,
+                        				]
+                        				spine[-9.84 -.16 0,-10.488 -.126 0]
+                        			}
+                        		}
+                                        Shape{#Rear secondary landing gear strut
+                        			appearance USE Metal
+                        			geometry DEF bSecStrut Extrusion{
+                        				crossSection[
+                        					-.024 -.024,-.024 .024,.024 .024,.024 -.024,-.024 -.024,
+                        				]
+                        				spine[-9.8 .2 0,-10.488 -.126 0]
+                        			}
+                        		}
+                        		Shape{#Cockpit canopy
+                        			appearance Appearance{material Material{transparency .7 shininess .5}}
+                        			geometry IndexedFaceSet{
+                        				coord Coordinate{
+                        					point[
+                        						0 1.92 .408,0 .96 .624,2.592 .576 .624,2.592 1.008 .624,
+                        						2.352 1.248 .486,1.296 1.776 .408,0 1.92 -.408,0 .96 -.624,
+                        						2.592 .576 -.624,2.592 1.008 -.624,2.352 1.248 -.486,1.296 1.776 -.408,
+                        					]
+                        				}
+                        				coordIndex[
+                        					0,1,2,3,4,5,-1,
+                        					6,7,8,9,10,11,-1,
+                        					3,4,5,0,6,11,10,9,-1,
+                        				]
+                        				solid FALSE
+                        			}
+                        		}
+                                        Shape{#Nose sight top panel
+                                        	appearance USE CamoGreen
+                                        	geometry IndexedFaceSet{
+                                        		coord Coordinate{
+                                        			point[
+                                        				3.168 .862 .48,3.168 .862 -.48,3.65 .791 -.096,3.65 .791 .096,
+                                        				3.168 .743 .4,3.168 .743 -.4,3.65 .743 -.096,3.65 .743 .096,
+                                        			]
+                                        		}
+                                        		coordIndex[
+                                        			3,2,1,0,-1,
+                                        			4,5,6,7,-1,
+                                        			2,3,7,6,-1,
+                                        			3,0,4,7,-1,
+                                        			1,2,6,5,-1,
+                                        		]
+                                        		creaseAngle 1.6
+                                        	}
+                                        }
+                                        Shape{#Nose sight bottom strut
+                                        	appearance USE CamoGreen
+                                        	geometry IndexedFaceSet{
+                                        		coord Coordinate{
+                                        			point[
+                                        				3.168 .096 .048,3.168 .096 -.048,3.65 .167 -.048,3.65 .167 .048,
+                                        				3.168 .215 .048,3.168 .215 -.048,3.65 .215 -.048,3.65 .215 .048,
+                                        			]
+                                        		}
+                                        		coordIndex[
+                                        			0,1,2,3,-1,
+                                        			4,7,6,5,-1,
+                                                                2,1,5,6,-1,
+                                                                0,3,7,4,-1,
+                                                                6,7,3,2,-1,
+                                        		]
+                                        		creaseAngle 1.6
+                                        	}
+                                        }
+                        		Transform{#Instantiating the belly gun...
+                        			translation 1.68 0 0
+                        			children[
+                        				DEF gun Cannon{}
+                        			]
+                        		}
+                        		Transform{#...and the nose sight.
+                        			translation 3.6 .479 0
+                        			children[
+                        				DEF sight NoseSight{appearance USE CamoGreen}
+                        			]
+                        		}
+                        		Viewpoint{
+                        			position .5 1.5 0
+                        			orientation 0 1 0 -1.57
+                        			description "Cockpit View"
+                        		}
+                        		Viewpoint{
+                        			position -1 1 4
+                        			orientation 0 1 0 -1.57
+                        			description "Wingtip View"
+                        		}
+                                        Sound{#The sound for when the Apache explodes.
+        					minFront 100
+        					maxFront 200
+        					minBack 100
+        					maxBack 200
+        					intensity 1
+        					source DEF noise AudioClip{
+        						pitch .3
+        						url "media\longgrenade.wav"
+        					}
+        				}
+        				DEF scale PositionInterpolator{#The interpolator for the scaling of the explosion.
+        					keyValue[.1 .1 .1,24 24 24,24 24 24,.001 .001 .001]
+        					key[0,.495,.505,1]
+        				}
+        				DEF color ColorInterpolator{#The interpolator for the color of the explosion.
+        					keyValue[.6 0 0,1 .38 .01,.6 0 0]
+        					key[0,.5,1]
+        				}
+        				DEF explosion Transform{#The sphere used as the explosion cloud.
+                                        	scale .1 .1 .1
+        					translation -1 1 0
+        					children[
+        						Shape{
+        							appearance Appearance{
+        								material DEF cloud Material{
+        									diffuseColor .6 0 0
+        								}
+        							}
+        							geometry Sphere{radius .5}
+        						}
+        					]
+        				}
+        				DEF time TimeSensor{cycleInterval 6}#The timer used to drive the explosion.
+                        		DEF router Script{
+                        			eventIn SFBool explode IS explode
+                        			eventIn SFFloat time #The percentage progress of the explosion.
+                        			eventIn SFRotation set_gunRotation IS set_gunRotation
+                        			eventIn SFRotation set_rotation IS set_rotation
+                        			eventIn SFVec3f gunTip #The position of the gun tip.
+                        			eventIn SFVec3f set_currentTarget IS set_currentTarget
+                        			eventIn SFVec3f set_position IS set_position
+                        			eventIn SFVec3f set_wheelHeights IS set_wheelHeights
+                        			eventOut SFBool validTarget IS validTarget
+                        			eventOut SFVec3f rightWheel ##
+                        			eventOut MFVec3f rMainStrut  #
+                        			eventOut MFVec3f rSecStrut   #
+                        			eventOut SFVec3f leftWheel   #
+                        			eventOut MFVec3f lMainStrut  ##The position values to make the landing gear extrusions
+                        			eventOut MFVec3f lSecStrut   #
+                        			eventOut SFVec3f backWheel   #
+                        			eventOut MFVec3f bMainStrut  #
+                        			eventOut MFVec3f bSecStrut  ##
+                        			eventOut SFRotation setGunRotation #Set the gun rotation.
+                        			eventOut SFVec3f gunTipPosition_changed IS gunTipPos_changed
+                        			eventOut SFRotation gunTotRotation_changed IS gunTotRotation_changed
+                        			eventOut MFInt32 laserIndices #The indices of the IndexedLineSet for the laser sight.
+                        			eventOut MFVec3f laserCoords #The start and end coordinates of the laser sight.
+                        			eventOut SFTime startNoise #The time the explosion effect starts at.
+                        			field SFNode main USE main
+                        			field SFRotation apacheRotation 0 1 0 0
+                        			field SFVec3f apachePosition 0 0 0
+                        			field SFVec3f tipPos 0 0 0
+                        			field SFVec3f targetPosition 0 0 0
+                        			url "javascript:
+                        				function initialize(){
+                        					setGunRotation=new SFRotation(0,1,0,-1.57);
+                        				}
+
+        						function time(value,ts){//Remove the helicopter if the explosion is over half way through.
+        							if(value>.55) main.removeChildren=main.children;
+        						}
+
+        						function explode(value,ts){//Begin the explosion
+        							if(value) startNoise=ts;
+        						}
+
+                        				function set_wheelHeights(value,ts){//Set the wheel heights, and move the landing gear appropriately.
+                        					rightWheel=new SFVec3f(0,value.x,0);
+                        					rMainStrut=new MFVec3f(new SFVec3f(.96,.044,.792),(new SFVec3f(0,-.624,.912)).add(rightWheel));
+                        					rSecStrut=new MFVec3f(new SFVec3f(.6,.044,.792),rMainStrut[0].add(rMainStrut[1]).divide(2));
+                        					leftWheel=new SFVec3f(0,value.y,0);
+                        					lMainStrut=new MFVec3f(new SFVec3f(.96,.044,-.792),(new SFVec3f(0,-.624,-.912)).add(leftWheel));
+                        					lSecStrut=new MFVec3f(new SFVec3f(.6,.044,-.792),lMainStrut[0].add(lMainStrut[1]).divide(2));
+                        					backWheel=new SFVec3f(0,value.z,0);
+                        					bMainStrut=new MFVec3f(new SFVec3f(-9.84,-.16,0),(new SFVec3f(-10.488,-.126,0)).add(backWheel));
+                        					bSecStrut=new MFVec3f(new SFVec3f(-9.8,.2,0),(new SFVec3f(-10.488,-.126,0)).add(backWheel));
+                        				}
+
+                        				function set_gunRotation(value,ts){//Set the gun rotation.
+                        					setGunRotation=value.multiply(new SFRotation(0,1,0,-1.57));
+                        				}
+
+                        				function set_rotation(value,ts){//Keep track of the Apache rotation.
+                        					apacheRotation=value;
+                        				}
+
+                        				function set_position(value,ts){//Keep track of the Apache position.
+                        					apachePosition=value;
+                        				}
+
+                        				function gunTip(value,ts){//Keep track of the gun tip position.
+                        					tipPos=value;
+                        				}
+
+                        				function set_currentTarget(value,ts){//Set the position of the current target.
+                        					targetPosition=value;
+                        				}
+
+                        				function eventsProcessed(){//Rotate the gun towards its target, if it's in front of the Apache.
+                        					temp=apachePosition.add(new SFVec3f(-1.152,3.268,0));
+                        					turretPos=temp.add(apacheRotation.multVec(new SFVec3f(2.832,-3.568,0)));
+                        					prefGunRotation=new SFRotation(new SFVec3f(0,0,1),apacheRotation.inverse().multVec(turretPos.subtract(targetPosition)));
+                                                                checkVector=prefGunRotation.multVec(new SFVec3f(0,0,-1));
+                                                                laserIndices=new MFInt32(0,1,-1);
+                                                                if(targetPosition.length()==0 || checkVector.y>.1 || checkVector.x<-.3){
+                                                                	prefGunRotation=new SFRotation(0,1,0,-1.57);//If not, move the gun to the front, and blank the laser sight.
+                                                                	laserIndices=new MFInt32();
+                                                                	validTarget=false;
+                                                                }else validTarget=true;
+                                                                setGunRotation=setGunRotation.slerp(prefGunRotation,.1);//The actual rotation is lagged, to give a sweep effect.
+                                                                laserCoords=new MFVec3f(turretPos,turretPos.add(apacheRotation.multVec((setGunRotation).multVec(new SFVec3f(0,0,-1)).multiply(turretPos.subtract(targetPosition).length()))));
+
+                                                                gunTipPosition_changed=temp.add(apacheRotation.multVec((new SFVec3f(2.832,-3.268,0)).add(tipPos)));//Update the gun rotation.
+                                                                gunTotRotation_changed=(new SFRotation(new SFVec3f(1,0,0),tipPos.add(new SFVec3f(0,.3,0)))).multiply(apacheRotation);//And the tip position.
+                        				}
+                        			"
+                        		}
+                        	]
+                        }
+                        Shape{
+                        	geometry DEF laser IndexedLineSet{
+                        		color Color{color 1 0 0}
+                        		coord DEF points Coordinate{}
+                        	}
+                        }
+                ]
+        }
+        ROUTE router.rightWheel 	TO rightWheel.set_translation
+        ROUTE router.rMainStrut 	TO rMainStrut.set_spine
+        ROUTE router.rSecStrut 		TO rSecStrut.set_spine
+        ROUTE router.leftWheel 		TO leftWheel.set_translation
+        ROUTE router.lMainStrut 	TO lMainStrut.set_spine
+        ROUTE router.lSecStrut 		TO lSecStrut.set_spine
+        ROUTE router.backWheel 		TO backWheel.set_translation
+        ROUTE router.bMainStrut 	TO bMainStrut.set_spine
+        ROUTE router.bSecStrut 		TO bSecStrut.set_spine
+        ROUTE router.setGunRotation 	TO gun.set_rotation
+        ROUTE router.setGunRotation 	TO sight.set_rotation
+        ROUTE router.laserCoords	TO points.point
+        ROUTE router.laserIndices	TO laser.set_coordIndex
+        ROUTE router.startNoise		TO noise.startTime
+        ROUTE router.startNoise		TO time.startTime
+        ROUTE gun.tipPosition_changed	TO router.gunTip
+        ROUTE time.fraction_changed	TO scale.set_fraction
+        ROUTE time.fraction_changed	TO color.set_fraction
+        ROUTE time.fraction_changed	TO router.time
+        ROUTE scale.value_changed	TO explosion.scale
+        ROUTE color.value_changed	TO cloud.diffuseColor
+}
+
+Viewpoint{description "Default" position 0 0 -10 orientation 0 1 0 -3.14}
+Apache{}
+

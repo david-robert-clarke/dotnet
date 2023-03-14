@@ -1,0 +1,67 @@
+ngdbuild -p xc4002xl-09-pc84 -uc rs232sch.ucf -dd .. c:\fndtn\active\projects\rs232sch\rs232sch.edn rs232sch.ngd
+ngdbuild:  version C.22
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -p xc4002xl-09-pc84 -uc rs232sch.ucf -dd ..
+c:\fndtn\active\projects\rs232sch\rs232sch.edn rs232sch.ngd 
+
+Launcher: Executing edif2ngd "c:\fndtn\active\projects\rs232sch\rs232sch.edn"
+"C:\Fndtn\Active\Projects\RS232SCH\xproj\ver1\rs232sch.ngo"
+edif2ngd:  version C.22
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+Writing the design to
+"C:/Fndtn/Active/Projects/RS232SCH/xproj/ver1/rs232sch.ngo"...
+Reading NGO file "C:/Fndtn/Active/Projects/RS232SCH/xproj/ver1/rs232sch.ngo"
+...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "rs232sch.ucf" ...
+
+Checking timing specifications ...
+
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "rs232sch.ngd" ...
+
+Writing NGDBUILD log file "rs232sch.bld"...
+
+NGDBUILD done.
+
+==================================================
+
+map -p xc4002xl-09-pc84 -o map.ncd rs232sch.ngd rs232sch.pcf
+map:  version C.22
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+Reading NGD file "rs232sch.ngd"...
+Using target part "4002xlpc84-09".
+MAP xc4000xl directives:
+   Partname = "xc4002xl-09-pc84".
+   Covermode = "area".
+   Pack Unrelated Logic into CLBs targeting 100% of CLB resources.
+Processing logical timing constraints...
+Verifying F/HMAP validity based on pre-trimmed logic...
+Removing unused logic...
+Packing logic in CLBs...
+   Running cover...
+   Undirected packing...
+ERROR:OldMap:206 - NCD was not produced. All logic was removed from design.
+   This is usually due to having no input or output PAD connections in the
+   design and no nets or symbols marked as 'SAVE'. You can either add PADs or
+   'SAVE' attributes to the design, or run 'map -u' to disable logic trimming in
+   the mapper.
+
+Design Summary
+--------------
+Number of errors   :   1
+Number of warnings :   0
+
+Section 4 - Removed Logic Summary
+---------------------------------
+
+Removed Logic Summary:
+  59 block(s) removed
+  63 signal(s) removed

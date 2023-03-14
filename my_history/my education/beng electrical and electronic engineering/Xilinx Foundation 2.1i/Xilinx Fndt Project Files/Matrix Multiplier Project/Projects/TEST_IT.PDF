@@ -1,0 +1,86 @@
+[project]
+name=test_it
+netlist=test_it
+contents=
+date=01/27/01
+time=20:34:42
+version=3.1.5.00.33
+Type=F21i
+top_level=VHDL
+HDL netlist format=Auto
+generics=MAX
+sim_mode=FUNC
+pdf_dir=c:\fndtn\active\projects\
+lib_order=1003 133 155
+
+[libraries]
+1003=
+133=c:\fndtn\active\syslib\simprims
+155=c:\fndtn\active\syslib\xc4000x
+
+[APP_95]
+lid=0
+oid=0
+format=19
+source=C:\Fndtn\Active\Projects\TEST_IT\Mul_1_x64.vhd
+server_hwnd=2096
+
+[OpenDoc]
+hde/matrix_package=0,0,154,154,922,691,matrix_package.vhd
+hde/many_multipliers=0,0,110,110,878,647,many_multipliers.vhd
+hde/multiplier_loads_of=0,0,132,132,900,669,multiplier_loads_of.vhd
+hde/Test_concat=0,0,-4,-4,1028,744,test_concat.vhd
+hde/Mul_1=0,0,66,66,834,603,mul_1.vhd
+hde/Mul_1_x64=0,0,-4,-4,1028,744,Mul_1_x64.vhd
+
+[netlist]
+external=FALSE
+
+[Log]
+netlist.log=Simulator Netlist Log
+
+[hdl_sheets]
+matrix_package.vhd=
+encoder.vhd=
+many_multipliers.vhd=
+decoder.vhd=
+multiplier_loads_of.vhd=
+Test_concat.vhd=
+Mul_1.vhd=
+
+[Top Doc]
+matrix_package.vhd=21
+encoder.vhd=21
+many_multipliers.vhd=21
+decoder.vhd=21
+multiplier_loads_of.vhd=21
+Test_concat.vhd=21
+Mul_1.vhd=21
+
+[implement_HDL]
+family=2
+xfam=XC4000XL
+part=4010XLPC84-09
+xilinx=4010XLPC84-09
+
+[xilinx]
+family=2
+xfam=XC4000XL
+xact9=On
+
+[device]
+part=4010XLPC84-09
+xilinx=4010XLPC84-09
+
+[OPEN32]
+nMaxFile=10000
+lpstrFile=
+lpstrFilter=HDL (*.VHD;*.VER;*.VE;*.V)|*.vhd;*.ver;*.ve;*.v|Schematic (*.SCH)|*.sch|FSM (*.ASF)|*.asf|Xnf Sources (*.XNF)|*.xnf|Edif Sources (*.EDF;*.EDN;*.EDO)|*.edf;*.edn;*.edo|All Files (*.*)|*.*||
+lpstrInitialDir=C:\FNDTN\ACTIVE\PROJECTS\TEST_IT
+lpstrTitle=Add Document
+nFilterIndex=0
+Flags=530964
+HelpID=10380
+HelpFileName=C:\FNDTN\ACTIVE\EXE\PCM.HLP
+cmdLine=-h 1272 -hp 520 -m PCM_OPEN_32_MESSAGE -f C:\FNDTN\ACTIVE\PROJECTS\current.pdf
+

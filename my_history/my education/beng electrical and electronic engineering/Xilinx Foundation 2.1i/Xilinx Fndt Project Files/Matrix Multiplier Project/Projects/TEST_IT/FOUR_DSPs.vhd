@@ -1,0 +1,13 @@
+-- Messaround
+-- connecting up n DSP's
+-- see how much of the FPGA is taken up
+library IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE WORK.MATRIX_PACKAGE.ALL;
+
+ENTITY FOUR_DSP IS
+PORT (DATA : IN STD_LOGIC_VECTOR (127 downto 0);
+      ANSWERS : OUT STD_LOGIC_VECTOR (79 downto 0));
+END ENTITY FOUR_DSP;
+
+ARCHITECTURE STRUCTURAL 

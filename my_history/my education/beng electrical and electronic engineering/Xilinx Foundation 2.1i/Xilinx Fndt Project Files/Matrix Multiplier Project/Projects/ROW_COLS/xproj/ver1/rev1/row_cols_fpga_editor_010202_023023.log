@@ -1,0 +1,15 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 C.16
+#Design Path Name:
+#:N   row_cols.ncd
+#Current Working Directory:
+#:D   C:\Fndtn\Active\Projects\ROW_COLS\xproj\ver1\rev1
+#Part Type:
+#:P  Xilinx xc4085xl pg559 -09
+#Date/Time:
+#:T   Fri Feb 02 01:21:25 2001
+#------------------------------
+	#1
+setattr main edit-mode read-only

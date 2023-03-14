@@ -1,0 +1,43 @@
+package I;
+import java.sql.*;
+
+/**
+ * SQL Query
+ *
+ * 
+ **/
+public class StaffUserNamePwQuery
+{
+  private Connection c;
+  private String sid,password;
+  private boolean rowPresent;
+
+  public StaffUserNamePwQuery(String staffID, String pw)
+  {      
+
+    c = MyConnection.C;
+    sid = staffID;
+    password = pw;
+  }
+
+  public boolean exeQuery()
+  {
+    try 
+    {
+      Statement stmt = c.createStatement();
+      //Use the sup_name field to find out if a row is present for the query
+      ResultSet rs = stmt.executeQuery("SELECT * FROM staff "+
+				       "WHERE sid ='" + sid+"'"+
+				       "AND password ='" + password + "'");
+
+      rowPresent = rs.first();
+
+    } 
+    catch (SQLException e) 
+    {
+      System.out.println( "An exception occurred in UpdateCDEntryQuery. " + e);
+    }
+        
+    return(rowPresent);
+  }
+}

@@ -1,0 +1,80 @@
+#VRML V2.0 utf8
+#David Clarke 490973
+
+NavigationInfo{
+type "FLY"
+headlight TRUE
+}
+
+#Declaration of all external prototypes
+EXTERNPROTO theArenaFloor[
+]"ground.wrl"
+
+EXTERNPROTO theStuntCar[
+field SFVec3f stuntCarPosition
+eventIn SFRotation set_frontWheelsTurnAngle
+eventIn SFRotation set_carTurningCircle
+eventIn SFVec3f set_frontWheelsAngularSpeed
+]"car.wrl"
+
+EXTERNPROTO theCrane[
+field SFVec3f cranePosition
+field SFRotation craneOrientation
+]"crane.wrl"
+
+EXTERNPROTO theCourse[
+field SFVec3f coursePosition]
+"course.wrl"
+
+EXTERNPROTO theBlimp[
+]"blimp.wrl"
+
+EXTERNPROTO theStand[
+field SFVec3f standPosition
+]"stand.wrl"
+
+EXTERNPROTO theController[
+eventIn SFVec3f set_controllerPosition
+eventIn SFRotation set_controllerOrientation
+eventOut SFRotation frontWheelsTurnAngle
+eventOut SFRotation carRotationAngle
+eventOut SFVec3f frontWheelsAngularSpeed
+]"controller.wrl"
+
+#Instantiate the individual Objects
+DEF arenaFloor theArenaFloor{}
+DEF stand theStand{standPosition 175 -4 -100}
+DEF stand2 theStand{standPosition 175 -4 100}
+DEF stuntCar theStuntCar{stuntCarPosition 135 0.5 -100}
+DEF crane theCrane{cranePosition 50 4 0 craneOrientation 0 0 0 0}
+DEF crane2 theCrane{cranePosition -50 4 100 craneOrientation 0 1 0 1.57}
+DEF crane3 theCrane{cranePosition -175 4 -175 craneOrientation 0 1 0 3.14}
+DEF course theCourse{coursePosition 0 50 75}
+DEF blimp theBlimp{}
+DEF controller theController{}
+
+Background {
+  skyAngle [0.0, 1.1, 1.57]
+  skyColor [0 0 1, 0 0 0.5, 0.8 0.8 1, 0.9 0.9 0.9]
+  groundAngle [0.0, 1.1, 1.57]
+  groundColor [0.9 0.9 0.2, 0.9 0.9 0.4, 0.9 0.9 0.6, 0.9 0.9 0.8]
+}
+
+#Large proximity sensor provides user position & orientation values for the tracking interface, and for the tracking viewpoint.
+DEF PS ProximitySensor{size 2000000 2000000 2000000}
+
+ROUTE PS.position_changed		TO controller.set_controllerPosition 		#Glues the position of the controller
+ROUTE PS.orientation_changed 		TO controller.set_controllerOrientation 	#Glues the orientation of the controller
+ROUTE controller.frontWheelsTurnAngle 	TO stuntCar.set_frontWheelsTurnAngle    	#Link the translation of the x-stick's
+											#controller to the rotation of the front wheels
+ROUTE controller.frontWheelsAngularSpeed TO stuntCar.set_frontWheelsAngularSpeed    	#Links the next move value calculated in the controller proto
+											#with the stunt car proto translation
+ROUTE controller.carRotationAngle	TO stuntCar.set_carTurningCircle                #Links the rotational value calculated in the controller proto
+											#with the stunt car proto rotation
+
+
+
+
+
+
+

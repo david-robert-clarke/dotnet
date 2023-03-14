@@ -1,0 +1,690 @@
+LCANET, 6
+PROG, Synopsys, UNKNOWN, v3.2, Build 3.2.0.4201
+PART, 4002XL-PC84-09
+SYM, CNT_reg<0>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, CNT<0>, , 
+PIN, D, I, C2_N73, , 
+PIN, G, I, N91, , 
+END
+SYM, CNT_reg<1>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, CNT<1>, , 
+PIN, D, I, C2_N68, , 
+PIN, G, I, N91, , 
+END
+SYM, CNT_reg<2>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, CNT<2>, , 
+PIN, D, I, C2_N63, , 
+PIN, G, I, N91, , 
+END
+SYM, CNT_reg<3>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, CNT<3>, , 
+PIN, D, I, C2_N58, , 
+PIN, G, I, N91, , 
+END
+SYM, CNT_reg<4>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, CNT<4>, , 
+PIN, D, I, C2_N53, , 
+PIN, G, I, N91, , 
+END
+SYM, CNT_reg<5>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, CNT<5>, , 
+PIN, D, I, C2_N48, , 
+PIN, G, I, N91, , 
+END
+SYM, CNT_reg<6>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, CNT<6>, , 
+PIN, D, I, C2_N43, , 
+PIN, G, I, N91, , 
+END
+SYM, CNT_reg<7>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, CNT<7>, , 
+PIN, D, I, C2_N38, , 
+PIN, G, I, N91, , 
+END
+SYM, CNT_reg<8>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, CNT<8>, , 
+PIN, D, I, C2_N33, , 
+PIN, G, I, N91, , 
+END
+SYM, CNT_reg<9>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, CNT<9>, , 
+PIN, D, I, C2_N28, , 
+PIN, G, I, N91, , 
+END
+SYM, CNT_reg<10>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, CNT<10>, , 
+PIN, D, I, C2_N23, , 
+PIN, G, I, N91, , 
+END
+SYM, CNT_reg<11>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, CNT<11>, , 
+PIN, D, I, C2_N18, , 
+PIN, G, I, N91, , 
+END
+SYM, CNT_reg<12>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, CNT<12>, , 
+PIN, D, I, C2_N13, , 
+PIN, G, I, N91, , 
+END
+SYM, CNT_reg<13>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, CNT<13>, , 
+PIN, D, I, C2_N8, , 
+PIN, G, I, N91, , 
+END
+SYM, CNT_reg<14>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, CNT<14>, , 
+PIN, D, I, N71, , 
+PIN, G, I, N91, , 
+END
+SYM, CNT_reg<15>, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, CNT<15>, , 
+PIN, D, I, N71, , 
+PIN, G, I, N91, , 
+END
+PWR, 0, N71
+SYM, c252_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c252_n0, , , INV
+PIN, O, O, C2_N8, , , INV
+END
+SYM, c252_c1, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, S300, , 
+PIN, O, O, c252_n0, , 
+END
+SYM, FMAP_0, FMAP, LIBVER=2.0.0
+PIN, I1, I, RESET, , 
+PIN, I2, I, S300, , 
+PIN, O, I, C2_N8, , 
+END
+SYM, c253_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c253_n0, , , INV
+PIN, O, O, C2_N13, , , INV
+END
+SYM, c253_c1, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, syn1107, , , INV
+PIN, O, O, c253_n0, , 
+END
+SYM, FMAP_1, FMAP, LIBVER=2.0.0
+PIN, I1, I, RESET, , 
+PIN, I2, I, syn1107, , 
+PIN, O, I, C2_N13, , 
+END
+SYM, c254_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c254_n0, , , INV
+PIN, I1, I, c254_n1, , , INV
+PIN, O, O, C2_N18, , , INV
+END
+SYM, c254_c1, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, S1200, , 
+PIN, O, O, c254_n0, , 
+END
+SYM, c254_c2, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, syn1107, , , INV
+PIN, O, O, c254_n1, , 
+END
+SYM, FMAP_2, FMAP, LIBVER=2.0.0
+PIN, I1, I, RESET, , 
+PIN, I2, I, syn1107, , 
+PIN, I3, I, S1200, , 
+PIN, O, I, C2_N18, , 
+END
+SYM, c255_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c255_n0, , , INV
+PIN, I1, I, c255_n1, , , INV
+PIN, O, O, C2_N23, , , INV
+END
+SYM, c255_c1, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, syn462, , 
+PIN, O, O, c255_n0, , 
+END
+SYM, c255_c2, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, syn1015, , 
+PIN, O, O, c255_n1, , 
+END
+SYM, FMAP_3, FMAP, LIBVER=2.0.0
+PIN, I1, I, RESET, , 
+PIN, I2, I, syn462, , 
+PIN, I3, I, syn1015, , 
+PIN, O, I, C2_N23, , 
+END
+SYM, c256_c0, AND, LIBVER=2.0.0
+PIN, I0, I, syn1149, , , INV
+PIN, I1, I, c256_n1, , , INV
+PIN, O, O, C2_N28, , , INV
+END
+SYM, c256_c2, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, syn1267, , 
+PIN, O, O, c256_n1, , 
+END
+SYM, HMAP_4, HMAP, LIBVER=2.0.0
+PIN, I1, I, RESET, , 
+PIN, I2, I, syn1149, , 
+PIN, I3, I, syn1267, , 
+PIN, O, I, C2_N28, , 
+END
+SYM, c257_c0, AND, LIBVER=2.0.0
+PIN, I0, I, C65, , , INV
+PIN, I1, I, c257_n1, , , INV
+PIN, O, O, syn1267, , , INV
+END
+SYM, c257_c2, AND, LIBVER=2.0.0
+PIN, I0, I, S2400, , 
+PIN, I1, I, S600, , , INV
+PIN, O, O, c257_n1, , 
+END
+SYM, FMAP_5, FMAP, LIBVER=2.0.0
+PIN, I1, I, S2400, , 
+PIN, I2, I, S600, , 
+PIN, I3, I, C65, , 
+PIN, O, I, syn1267, , 
+END
+SYM, c258_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c258_n0, , , INV
+PIN, O, O, C2_N33, , , INV
+END
+SYM, c258_c1, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, syn1266, , 
+PIN, O, O, c258_n0, , 
+END
+SYM, HMAP_6, HMAP, LIBVER=2.0.0
+PIN, I1, I, RESET, , 
+PIN, I2, I, syn1266, , 
+PIN, O, I, C2_N33, , 
+END
+SYM, c259_c0, AND, LIBVER=2.0.0
+PIN, I0, I, C69, , , INV
+PIN, I1, I, C65, , , INV
+PIN, I2, I, C61, , , INV
+PIN, I3, I, syn462, , , INV
+PIN, O, O, syn1266, , , INV
+END
+SYM, FMAP_7, FMAP, LIBVER=2.0.0
+PIN, I1, I, C69, , 
+PIN, I2, I, C65, , 
+PIN, I3, I, C61, , 
+PIN, I4, I, syn462, , 
+PIN, O, I, syn1266, , 
+END
+SYM, c260_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c260_n0, , , INV
+PIN, I1, I, c260_n1, , , INV
+PIN, I2, I, c260_n2, , , INV
+PIN, O, O, C2_N43, , , INV
+END
+SYM, c260_c1, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, C59, , 
+PIN, O, O, c260_n0, , 
+END
+SYM, c260_c2, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, C61, , 
+PIN, O, O, c260_n1, , 
+END
+SYM, c260_c3, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, C2_N38, , , INV
+PIN, O, O, c260_n2, , 
+END
+SYM, FMAP_8, FMAP, LIBVER=2.0.0
+PIN, I1, I, RESET, , 
+PIN, I2, I, C59, , 
+PIN, I3, I, C61, , 
+PIN, I4, I, C2_N38, , 
+PIN, O, I, C2_N43, , 
+END
+SYM, c261_c0, AND, LIBVER=2.0.0
+PIN, I0, I, syn1149, , , INV
+PIN, I1, I, c261_n1, , , INV
+PIN, O, O, C2_N38, , , INV
+END
+SYM, c261_c2, AND, LIBVER=2.0.0
+PIN, I0, I, S2400, , , INV
+PIN, I1, I, S600, , , INV
+PIN, I2, I, RESET, , , INV
+PIN, O, O, c261_n1, , 
+END
+SYM, FMAP_9, FMAP, LIBVER=2.0.0
+PIN, I1, I, S2400, , 
+PIN, I2, I, S600, , 
+PIN, I3, I, RESET, , 
+PIN, I4, I, syn1149, , 
+PIN, O, I, C2_N38, , 
+END
+SYM, c262_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c262_n0, , , INV
+PIN, I1, I, c262_n1, , , INV
+PIN, O, O, syn1149, , , INV
+END
+SYM, c262_c1, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, S300, , 
+PIN, O, O, c262_n0, , 
+END
+SYM, c262_c2, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, S1200, , 
+PIN, I2, I, S600, , , INV
+PIN, O, O, c262_n1, , 
+END
+SYM, FMAP_10, FMAP, LIBVER=2.0.0
+PIN, I1, I, RESET, , 
+PIN, I2, I, S1200, , 
+PIN, I3, I, S300, , 
+PIN, I4, I, S600, , 
+PIN, O, I, syn1149, , 
+END
+SYM, c263_c0, AND, LIBVER=2.0.0
+PIN, I0, I, syn142, , , INV
+PIN, I1, I, c263_n1, , , INV
+PIN, I2, I, c263_n2, , , INV
+PIN, O, O, C2_N48, , , INV
+END
+SYM, c263_c2, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, C65, , 
+PIN, O, O, c263_n1, , 
+END
+SYM, c263_c3, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, C59, , 
+PIN, O, O, c263_n2, , 
+END
+SYM, FMAP_11, FMAP, LIBVER=2.0.0
+PIN, I1, I, RESET, , 
+PIN, I2, I, C65, , 
+PIN, I3, I, C59, , 
+PIN, I4, I, syn142, , 
+PIN, O, I, C2_N48, , 
+END
+SYM, c264_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c264_n0, , , INV
+PIN, I1, I, c264_n1, , , INV
+PIN, I2, I, c264_n2, , , INV
+PIN, O, O, C2_N53, , , INV
+END
+SYM, c264_c1, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, S300, , 
+PIN, O, O, c264_n0, , 
+END
+SYM, c264_c2, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, C69, , 
+PIN, O, O, c264_n1, , 
+END
+SYM, c264_c3, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, C61, , 
+PIN, O, O, c264_n2, , 
+END
+SYM, FMAP_12, FMAP, LIBVER=2.0.0
+PIN, I1, I, RESET, , 
+PIN, I2, I, S300, , 
+PIN, I3, I, C69, , 
+PIN, I4, I, C61, , 
+PIN, O, I, C2_N53, , 
+END
+SYM, c265_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c265_n0, , , INV
+PIN, I1, I, c265_n1, , , INV
+PIN, I2, I, c265_n2, , , INV
+PIN, O, O, C2_N58, , , INV
+END
+SYM, c265_c1, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, C65, , 
+PIN, O, O, c265_n0, , 
+END
+SYM, c265_c2, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, C59, , 
+PIN, O, O, c265_n1, , 
+END
+SYM, c265_c3, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, syn1107, , , INV
+PIN, O, O, c265_n2, , 
+END
+SYM, FMAP_13, FMAP, LIBVER=2.0.0
+PIN, I1, I, RESET, , 
+PIN, I2, I, C65, , 
+PIN, I3, I, C59, , 
+PIN, I4, I, syn1107, , 
+PIN, O, I, C2_N58, , 
+END
+SYM, c266_c0, AND, LIBVER=2.0.0
+PIN, I0, I, syn142, , , INV
+PIN, I1, I, c266_n1, , , INV
+PIN, I2, I, c266_n2, , , INV
+PIN, O, O, C2_N63, , , INV
+END
+SYM, c266_c2, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, C61, , 
+PIN, O, O, c266_n1, , 
+END
+SYM, c266_c3, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, syn462, , 
+PIN, O, O, c266_n2, , 
+END
+SYM, FMAP_14, FMAP, LIBVER=2.0.0
+PIN, I1, I, RESET, , 
+PIN, I2, I, syn462, , 
+PIN, I3, I, C61, , 
+PIN, I4, I, syn142, , 
+PIN, O, I, C2_N63, , 
+END
+SYM, c267_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c267_n0, , , INV
+PIN, O, O, syn142, , , INV
+END
+SYM, c267_c1, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, S1200, , 
+PIN, I2, I, S300, , , INV
+PIN, I3, I, S600, , , INV
+PIN, O, O, c267_n0, , 
+END
+SYM, FMAP_15, FMAP, LIBVER=2.0.0
+PIN, I1, I, RESET, , 
+PIN, I2, I, S1200, , 
+PIN, I3, I, S300, , 
+PIN, I4, I, S600, , 
+PIN, O, I, syn142, , 
+END
+SYM, c268_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c268_n0, , , INV
+PIN, O, O, C61, , , INV
+END
+SYM, c268_c1, AND, LIBVER=2.0.0
+PIN, I0, I, syn1264, , 
+PIN, I1, I, syn1265, , 
+PIN, O, O, c268_n0, , 
+END
+SYM, HMAP_16, HMAP, LIBVER=2.0.0
+PIN, I1, I, syn1264, , 
+PIN, I2, I, syn1265, , 
+PIN, O, I, C61, , 
+END
+SYM, c269_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c269_n0, , , INV
+PIN, O, O, syn1265, , , INV
+END
+SYM, c269_c1, AND, LIBVER=2.0.0
+PIN, I0, I, S300, , , INV
+PIN, I1, I, S600, , , INV
+PIN, O, O, c269_n0, , 
+END
+SYM, FMAP_17, FMAP, LIBVER=2.0.0
+PIN, I1, I, S300, , 
+PIN, I2, I, S600, , 
+PIN, O, I, syn1265, , 
+END
+SYM, c270_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c270_n0, , , INV
+PIN, O, O, syn1264, , , INV
+END
+SYM, c270_c1, AND, LIBVER=2.0.0
+PIN, I0, I, S9600, , 
+PIN, I1, I, S4800, , , INV
+PIN, I2, I, S2400, , , INV
+PIN, I3, I, S1200, , , INV
+PIN, O, O, c270_n0, , 
+END
+SYM, FMAP_18, FMAP, LIBVER=2.0.0
+PIN, I1, I, S9600, , 
+PIN, I2, I, S4800, , 
+PIN, I3, I, S2400, , 
+PIN, I4, I, S1200, , 
+PIN, O, I, syn1264, , 
+END
+SYM, c271_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c271_n0, , , INV
+PIN, O, O, syn462, , , INV
+END
+SYM, c271_c1, AND, LIBVER=2.0.0
+PIN, I0, I, S300, , , INV
+PIN, I1, I, S600, , 
+PIN, O, O, c271_n0, , 
+END
+SYM, FMAP_19, FMAP, LIBVER=2.0.0
+PIN, I1, I, S300, , 
+PIN, I2, I, S600, , 
+PIN, O, I, syn462, , 
+END
+SYM, c272_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c272_n0, , , INV
+PIN, I1, I, c272_n1, , , INV
+PIN, O, O, C2_N68, , , INV
+END
+SYM, c272_c1, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, C59, , 
+PIN, O, O, c272_n0, , 
+END
+SYM, c272_c2, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, syn1015, , 
+PIN, O, O, c272_n1, , 
+END
+SYM, FMAP_20, FMAP, LIBVER=2.0.0
+PIN, I1, I, RESET, , 
+PIN, I2, I, C59, , 
+PIN, I3, I, syn1015, , 
+PIN, O, I, C2_N68, , 
+END
+SYM, c273_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c273_n0, , , INV
+PIN, O, O, C59, , , INV
+END
+SYM, c273_c1, AND, LIBVER=2.0.0
+PIN, I0, I, S9600, , , INV
+PIN, I1, I, S4800, , , INV
+PIN, I2, I, syn1015, , , INV
+PIN, I3, I, syn1107, , 
+PIN, O, O, c273_n0, , 
+END
+SYM, FMAP_21, FMAP, LIBVER=2.0.0
+PIN, I1, I, S9600, , 
+PIN, I2, I, S4800, , 
+PIN, I3, I, syn1015, , 
+PIN, I4, I, syn1107, , 
+PIN, O, I, C59, , 
+END
+SYM, c274_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c274_n0, , , INV
+PIN, I1, I, c274_n1, , , INV
+PIN, O, O, N91, , , INV
+END
+SYM, c274_c1, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, CDDEN, , , INV
+PIN, O, O, c274_n0, , 
+END
+SYM, c274_c2, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, syn153, , 
+PIN, O, O, c274_n1, , 
+END
+SYM, FMAP_22, FMAP, LIBVER=2.0.0
+PIN, I1, I, RESET, , 
+PIN, I2, I, CDDEN, , 
+PIN, I3, I, syn153, , 
+PIN, O, I, N91, , 
+END
+SYM, c275_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c275_n0, , , INV
+PIN, I1, I, c275_n1, , , INV
+PIN, O, O, C2_N73, , , INV
+END
+SYM, c275_c1, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, C69, , 
+PIN, O, O, c275_n0, , 
+END
+SYM, c275_c2, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, C65, , 
+PIN, O, O, c275_n1, , 
+END
+SYM, FMAP_23, FMAP, LIBVER=2.0.0
+PIN, I1, I, RESET, , 
+PIN, I2, I, C69, , 
+PIN, I3, I, C65, , 
+PIN, O, I, C2_N73, , 
+END
+SYM, c276_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c276_n0, , , INV
+PIN, O, O, C65, , , INV
+END
+SYM, c276_c1, AND, LIBVER=2.0.0
+PIN, I0, I, S4800, , 
+PIN, I1, I, syn1263, , 
+PIN, O, O, c276_n0, , 
+END
+SYM, HMAP_24, HMAP, LIBVER=2.0.0
+PIN, I1, I, S4800, , 
+PIN, I2, I, syn1263, , 
+PIN, O, I, C65, , 
+END
+SYM, c277_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c277_n0, , , INV
+PIN, O, O, syn1263, , , INV
+END
+SYM, c277_c1, AND, LIBVER=2.0.0
+PIN, I0, I, S2400, , , INV
+PIN, I1, I, S600, , , INV
+PIN, I2, I, S1200, , , INV
+PIN, I3, I, S300, , , INV
+PIN, O, O, c277_n0, , 
+END
+SYM, FMAP_25, FMAP, LIBVER=2.0.0
+PIN, I1, I, S2400, , 
+PIN, I2, I, S600, , 
+PIN, I3, I, S1200, , 
+PIN, I4, I, S300, , 
+PIN, O, I, syn1263, , 
+END
+SYM, c278_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c278_n0, , , INV
+PIN, O, O, C69, , , INV
+END
+SYM, c278_c1, AND, LIBVER=2.0.0
+PIN, I0, I, S2400, , 
+PIN, I1, I, S1200, , , INV
+PIN, I2, I, S300, , , INV
+PIN, I3, I, S600, , , INV
+PIN, O, O, c278_n0, , 
+END
+SYM, FMAP_26, FMAP, LIBVER=2.0.0
+PIN, I1, I, S2400, , 
+PIN, I2, I, S1200, , 
+PIN, I3, I, S300, , 
+PIN, I4, I, S600, , 
+PIN, O, I, C69, , 
+END
+SYM, c280_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c280_n0, , , INV
+PIN, O, O, syn153, , , INV
+END
+SYM, c280_c1, AND, LIBVER=2.0.0
+PIN, I0, I, S19200, , , INV
+PIN, I1, I, syn1015, , , INV
+PIN, I2, I, syn1096, , 
+PIN, I3, I, syn1107, , 
+PIN, O, O, c280_n0, , 
+END
+SYM, FMAP_27, FMAP, LIBVER=2.0.0
+PIN, I1, I, S19200, , 
+PIN, I2, I, syn1015, , 
+PIN, I3, I, syn1096, , 
+PIN, I4, I, syn1107, , 
+PIN, O, I, syn153, , 
+END
+SYM, c281_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c281_n0, , , INV
+PIN, O, O, syn1107, , , INV
+END
+SYM, c281_c1, AND, LIBVER=2.0.0
+PIN, I0, I, S300, , , INV
+PIN, I1, I, S600, , , INV
+PIN, O, O, c281_n0, , 
+END
+SYM, FMAP_28, FMAP, LIBVER=2.0.0
+PIN, I1, I, S300, , 
+PIN, I2, I, S600, , 
+PIN, O, I, syn1107, , 
+END
+SYM, c282_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c282_n0, , , INV
+PIN, O, O, syn1096, , , INV
+END
+SYM, c282_c1, AND, LIBVER=2.0.0
+PIN, I0, I, S9600, , , INV
+PIN, I1, I, S4800, , , INV
+PIN, O, O, c282_n0, , 
+END
+SYM, FMAP_29, FMAP, LIBVER=2.0.0
+PIN, I1, I, S9600, , 
+PIN, I2, I, S4800, , 
+PIN, O, I, syn1096, , 
+END
+SYM, c283_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c283_n0, , , INV
+PIN, I1, I, c283_n1, , , INV
+PIN, O, O, syn1015, , , INV
+END
+SYM, c283_c1, AND, LIBVER=2.0.0
+PIN, I0, I, S2400, , 
+PIN, I1, I, S300, , , INV
+PIN, I2, I, S600, , , INV
+PIN, O, O, c283_n0, , 
+END
+SYM, c283_c2, AND, LIBVER=2.0.0
+PIN, I0, I, S1200, , 
+PIN, I1, I, S300, , , INV
+PIN, I2, I, S600, , , INV
+PIN, O, O, c283_n1, , 
+END
+SYM, FMAP_30, FMAP, LIBVER=2.0.0
+PIN, I1, I, S2400, , 
+PIN, I2, I, S1200, , 
+PIN, I3, I, S300, , 
+PIN, I4, I, S600, , 
+PIN, O, I, syn1015, , 
+END
+SIG, CDDEN, PIN=CDDEN
+SIG, RESET, PIN=RESET
+SIG, S19200, PIN=S19200
+SIG, S9600, PIN=S9600
+SIG, S4800, PIN=S4800
+SIG, S2400, PIN=S2400
+SIG, S1200, PIN=S1200
+SIG, S600, PIN=S600
+SIG, S300, PIN=S300
+SIG, CNT<15>, PIN=CNT<15>
+SIG, CNT<14>, PIN=CNT<14>
+SIG, CNT<13>, PIN=CNT<13>
+SIG, CNT<12>, PIN=CNT<12>
+SIG, CNT<11>, PIN=CNT<11>
+SIG, CNT<10>, PIN=CNT<10>
+SIG, CNT<9>, PIN=CNT<9>
+SIG, CNT<8>, PIN=CNT<8>
+SIG, CNT<7>, PIN=CNT<7>
+SIG, CNT<6>, PIN=CNT<6>
+SIG, CNT<5>, PIN=CNT<5>
+SIG, CNT<4>, PIN=CNT<4>
+SIG, CNT<3>, PIN=CNT<3>
+SIG, CNT<2>, PIN=CNT<2>
+SIG, CNT<1>, PIN=CNT<1>
+SIG, CNT<0>, PIN=CNT<0>
+EOF

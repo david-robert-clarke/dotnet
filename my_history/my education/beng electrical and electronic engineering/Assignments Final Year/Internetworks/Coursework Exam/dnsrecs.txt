@@ -1,0 +1,48 @@
+;
+; Zone file for linux.bogus
+;
+; The full zone file
+;
+@       IN      SOA     ns.linux.bogus. hostmaster.linux.bogus. (
+                        199802151       ; serial, todays date + todays serial #
+                        8H              ; refresh, seconds
+                        2H              ; retry, seconds
+                        1W              ; expire, seconds
+                        1D )            ; minimum, seconds
+;
+                TXT     "Linux.Bogus, your DNS consultants"
+                NS      ns              ; Inet Address of name server
+                NS      ns.friend.bogus.
+                MX      10 mail         ; Primary Mail Exchanger
+                MX      20 mail.friend.bogus. ; Secondary Mail Exchanger
+
+localhost       A       127.0.0.1
+
+gw              A       192.168.196.1
+                HINFO   "Cisco" "IOS"
+                TXT     "The router"
+
+ns              A       192.168.196.2
+                MX      10 mail
+                MX      20 mail.friend.bogus.
+                HINFO   "Pentium" "Linux 2.0"
+www             CNAME   ns
+
+donald          A       192.168.196.3
+                MX      10 mail
+                MX      20 mail.friend.bogus.
+                HINFO   "i486"  "Linux 2.0"
+                TXT     "DEK"
+
+mail            A       192.168.196.4
+                MX      10 mail
+                MX      20 mail.friend.bogus.
+                HINFO   "386sx" "Linux 1.2"
+
+ftp             A       192.168.196.5
+                MX      10 mail
+                MX      20 mail.friend.bogus.
+                HINFO   "P6" "Linux 2.1.86"
+
+
+

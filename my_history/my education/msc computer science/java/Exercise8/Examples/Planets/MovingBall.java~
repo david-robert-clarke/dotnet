@@ -1,0 +1,60 @@
+import java.applet.*;
+import java.awt.*;
+
+public class MovingBall extends Applet {
+  final static Color back = Color.black;    // applet background color
+  Ball b1;
+    
+  // parameters set in MovingBall.html
+  private int pause;                        // delay between update and display 
+    
+  
+  private Image image1;
+  private AudioClip sound1;
+
+  // used for buffered graphics operations
+  public Image offscreenImage = null; 
+  public Graphics offscreenGraphics; 
+    
+
+  public void init() {
+    // set default parameters from MovingBall.html
+    pause = Integer.parseInt(getParameter("pause"));
+	
+    // prepare for buffered graphics
+    offscreenImage = createImage(getSize().width, getSize().height);
+    offscreenGraphics = offscreenImage.getGraphics();
+	
+    sound1 = getAudioClip(getDocumentBase(), "splat.au");
+    image1 = getImage(getDocumentBase(), "sun.gif");
+    b1 = new Ball(-0.3, 0.4, 0.001, -0.0005, 10, image1, sound1, this);
+  }
+
+    
+  // override update() to update positions of all bodies, then draw 
+  public void update(Graphics g) {
+    offscreenGraphics.setColor(back);
+    offscreenGraphics.fillRect(0, 0, getSize().width, getSize().height);
+
+    // update Ball positions
+    b1.move();
+    b1.show(offscreenGraphics);
+
+    // draw to screen
+    paint(g);
+  }
+
+    
+  // override paint() to copy offscreenImage to screen
+  public void paint(Graphics g) {
+
+    // repaint() schedules an update() in the near future
+    repaint();
+
+    // wait for pause milliseconds	
+    try { Thread.sleep(pause); }
+    catch (InterruptedException ex) { showStatus(ex.toString()); }
+
+    g.drawImage(offscreenImage, 0, 0, this);
+  }
+}

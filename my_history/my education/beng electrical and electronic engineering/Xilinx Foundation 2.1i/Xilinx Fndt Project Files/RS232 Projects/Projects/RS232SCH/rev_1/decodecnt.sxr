@@ -1,0 +1,642 @@
+ 
+ BeginView CDDECODE decodecnt 
+Inst: GND   GND 
+Inst: VCC   VCC 
+Inst: un37_cdden_rep2   un37_cdden_rep2 
+Inst: un37_cdden_rep1   un37_cdden_rep1 
+Inst: un37_cdden   un37_cdden 
+Inst: un28_cdden_x0   un28_cdden_x0 
+Inst: un28_cdden   un28_cdden 
+Inst: un27_cdden_x0_fast   un27_cdden_x0_fast 
+Inst: un27_cdden_x0   un27_cdden_x0 
+Inst: un27_cdden_fast_x0   un27_cdden_fast_x0 
+Inst: un27_cdden_fast   un27_cdden_fast 
+Inst: un27_cdden   un27_cdden 
+Inst: un23_cdden   un23_cdden 
+Inst: un18_cdden   un18_cdden 
+Inst: un13_cdden   un13_cdden 
+Inst: un12_cdden   un12_cdden 
+Inst: startup_inst   startup_inst 
+Inst: cnt_cnst_1_iv_q.G_8   cnt_cnst_1_iv_q_G_8 
+Inst: cnt_13_.L1   cnt_13__L1 
+Inst: cnt_13_.I1   cnt_13__I1 
+Inst: cnt_12_.L1   cnt_12__L1 
+Inst: cnt_12_.I1   cnt_12__I1 
+Inst: cnt_11_.L1   cnt_11__L1 
+Inst: cnt_11_.I1   cnt_11__I1 
+Inst: cnt_10_.L1   cnt_10__L1 
+Inst: cnt_10_.I1   cnt_10__I1 
+Inst: cnt_9_.L1   cnt_9__L1 
+Inst: cnt_9_.I1   cnt_9__I1 
+Inst: cnt_8_.L1   cnt_8__L1 
+Inst: cnt_8_.I1   cnt_8__I1 
+Inst: cnt_7_.L1   cnt_7__L1 
+Inst: cnt_7_.I1   cnt_7__I1 
+Inst: cnt_6_.L1   cnt_6__L1 
+Inst: cnt_6_.I1   cnt_6__I1 
+Inst: cnt_5_.L1   cnt_5__L1 
+Inst: cnt_5_.I1   cnt_5__I1 
+Inst: cnt_4_.L1   cnt_4__L1 
+Inst: cnt_4_.I1   cnt_4__I1 
+Inst: cnt_3_.L1   cnt_3__L1 
+Inst: cnt_3_.I1   cnt_3__I1 
+Inst: cnt_2_.L1   cnt_2__L1 
+Inst: cnt_2_.I1   cnt_2__I1 
+Inst: cnt_1_1_x1[13]   cnt_1_1_x1_13 
+Inst: cnt_1_1_x1[12]   cnt_1_1_x1_12 
+Inst: cnt_1_1_x1[6]   cnt_1_1_x1_6 
+Inst: cnt_1_1_x1[4]   cnt_1_1_x1_4 
+Inst: cnt_1_1_x1[3]   cnt_1_1_x1_3 
+Inst: cnt_1_1_x1[2]   cnt_1_1_x1_2 
+Inst: cnt_1_1_x0[13]   cnt_1_1_x0_13 
+Inst: cnt_1_1_x0[12]   cnt_1_1_x0_12 
+Inst: cnt_1_1_x0[6]   cnt_1_1_x0_6 
+Inst: cnt_1_1_x0[4]   cnt_1_1_x0_4 
+Inst: cnt_1_1_x0[3]   cnt_1_1_x0_3 
+Inst: cnt_1_1_x0[2]   cnt_1_1_x0_2 
+Inst: cnt_1_1_m[10]   cnt_1_1_m_10 
+Inst: cnt_1_1_m[8]   cnt_1_1_m_8 
+Inst: cnt_1_1_m[6]   cnt_1_1_m_6 
+Inst: cnt_1_1_m[5]   cnt_1_1_m_5 
+Inst: cnt_1_1_m[4]   cnt_1_1_m_4 
+Inst: cnt_1_1_m[3]   cnt_1_1_m_3 
+Inst: cnt_1_1_m[2]   cnt_1_1_m_2 
+Inst: cnt_1_1_m[1]   cnt_1_1_m_1 
+Inst: cnt_1_1[13]   cnt_1_1_13 
+Inst: cnt_1_1[12]   cnt_1_1_12 
+Inst: cnt_1_1[11]   cnt_1_1_11 
+Inst: cnt_1_1[10]   cnt_1_1_10 
+Inst: cnt_1_1[9]   cnt_1_1_9 
+Inst: cnt_1_1[8]   cnt_1_1_8 
+Inst: cnt_1_1[7]   cnt_1_1_7 
+Inst: cnt_1_1[6]   cnt_1_1_6 
+Inst: cnt_1_1[5]   cnt_1_1_5 
+Inst: cnt_1_1[4]   cnt_1_1_4 
+Inst: cnt_1_1[3]   cnt_1_1_3 
+Inst: cnt_1_1[2]   cnt_1_1_2 
+Inst: cnt_1_1[1]   cnt_1_1_1 
+Inst: cnt_1_1[0]   cnt_1_1_0 
+Inst: cnt_1_.L1   cnt_1__L1 
+Inst: cnt_1_.I1   cnt_1__I1 
+Inst: cnt_0_.L1   cnt_0__L1 
+Inst: cnt_0_.I1   cnt_0__I1 
+Inst: S19200_ibuf   S19200_ibuf 
+Inst: S9600_ibuf   S9600_ibuf 
+Inst: S4800_ibuf   S4800_ibuf 
+Inst: S2400_ibuf   S2400_ibuf 
+Inst: S1200_ibuf   S1200_ibuf 
+Inst: S600_ibuf   S600_ibuf 
+Inst: S300_ibuf   S300_ibuf 
+Inst: RESET_ibuf   RESET_ibuf 
+Inst: CNT_obuf[15]   CNT_obuf_15 
+Inst: CNT_obuf[14]   CNT_obuf_14 
+Inst: CNT_obuf[13]   CNT_obuf_13 
+Inst: CNT_obuf[12]   CNT_obuf_12 
+Inst: CNT_obuf[11]   CNT_obuf_11 
+Inst: CNT_obuf[10]   CNT_obuf_10 
+Inst: CNT_obuf[9]   CNT_obuf_9 
+Inst: CNT_obuf[8]   CNT_obuf_8 
+Inst: CNT_obuf[7]   CNT_obuf_7 
+Inst: CNT_obuf[6]   CNT_obuf_6 
+Inst: CNT_obuf[5]   CNT_obuf_5 
+Inst: CNT_obuf[4]   CNT_obuf_4 
+Inst: CNT_obuf[3]   CNT_obuf_3 
+Inst: CNT_obuf[2]   CNT_obuf_2 
+Inst: CNT_obuf[1]   CNT_obuf_1 
+Inst: CNT_obuf[0]   CNT_obuf_0 
+Inst: CDDEN_ibuf   CDDEN_ibuf 
+Net:  S600   s600 
+Net:  cnt_1[9]   cnt_1_9 
+Net:  un37_cdden   un37_cddenZ0 
+Net:  un37_cdden_rep2   un37_cdden_repZ0Z2 
+Net:  cnt_1[7]   cnt_1_7 
+Net:  cnt_1[0]   cnt_1_0 
+Net:  un37_cdden_rep1   un37_cdden_repZ0Z1 
+Net:  cnt_1[11]   cnt_1_11 
+Net:  S600_c   S600_c 
+Net:  S300_c   S300_c 
+Net:  S300   s300 
+Net:  S2400_c   S2400_c 
+Net:  S2400   s2400 
+Net:  cnt_1[8]   cnt_1_8 
+Net:  un27_cdden   un27_cddenZ0 
+Net:  cnt_1[10]   cnt_1_10 
+Net:  S1200   s1200 
+Net:  cnt_1[5]   cnt_1_5 
+Net:  un28_cdden   un28_cddenZ0 
+Net:  cnt_1[1]   cnt_1_1 
+Net:  S1200_c   S1200_c 
+Net:  S4800   s4800 
+Net:  S4800_c   S4800_c 
+Net:  cnt_1[13]   cnt_1_13 
+Net:  cnt_1[12]   cnt_1_12 
+Net:  un12_cdden   un12_cddenZ0 
+Net:  un18_cdden   un18_cddenZ0 
+Net:  un23_cdden   un23_cddenZ0 
+Net:  un13_cdden   un13_cddenZ0 
+Net:  S9600_c   S9600_c 
+Net:  S9600   s9600 
+Net:  S19200   s19200 
+Net:  S19200_c   S19200_c 
+Net:  cnt_1[3]   cnt_1_3 
+Net:  cnt_1[4]   cnt_1_4 
+Net:  cnt[0]   cntZ0Z_0 
+Net:  CNT[13]   cnt_13 
+Net:  cnt[1]   cntZ0Z_1 
+Net:  cnt[10]   cntZ0Z_10 
+Net:  cnt[11]   cntZ0Z_11 
+Net:  cnt[12]   cntZ0Z_12 
+Net:  CNT[9]   cnt_9 
+Net:  CNT[12]   cnt_12 
+Net:  cnt[5]   cntZ0Z_5 
+Net:  CNT[5]   cnt_5 
+Net:  CNT[0]   cnt_0 
+Net:  cnt[8]   cntZ0Z_8 
+Net:  CNT[1]   cnt_1 
+Net:  CNT[8]   cnt_8 
+Net:  CNT[10]   cnt_10 
+Net:  CNT[11]   cnt_11 
+Net:  cnt[13]   cntZ0Z_13 
+Net:  cnt[7]   cntZ0Z_7 
+Net:  cnt[9]   cntZ0Z_9 
+Net:  CNT[7]   cnt_7 
+Net:  CNT[6]   cnt_6 
+Net:  cnt[4]   cntZ0Z_4 
+Net:  CNT[3]   cnt_3 
+Net:  CNT[4]   cnt_4 
+Net:  cnt[6]   cntZ0Z_6 
+Net:  CNT[2]   cnt_2 
+Net:  cnt[3]   cntZ0Z_3 
+Net:  cnt[2]   cntZ0Z_2 
+Net:  RESET_c   RESET_c 
+Net:  RESET   reset 
+Net:  CDDEN_c   CDDEN_c 
+Net:  CDDEN   cdden 
+Net:  cnt_1[2]   cnt_1_2 
+Net:  cnt_1[6]   cnt_1_6 
+Net:  cnt_11_.true   cnt_11__trueZ0 
+Net:  cnt_10_.true   cnt_10__trueZ0 
+Net:  cnt_12_.true   cnt_12__trueZ0 
+Net:  CNT[15]   cnt_15 
+Net:  VCC   VCCZ0 
+Net:  cnt_8_.false   cnt_8__falseZ0 
+Net:  cnt_13_.true   cnt_13__trueZ0 
+Net:  cnt_8_.true   cnt_8__trueZ0 
+Net:  cnt_7_.false   cnt_7__falseZ0 
+Net:  cnt_9_.false   cnt_9__falseZ0 
+Net:  cnt_7_.true   cnt_7__trueZ0 
+Net:  cnt_9_.true   cnt_9__trueZ0 
+Net:  GND   GNDZ0 
+Net:  cnt_6_.true   cnt_6__trueZ0 
+Net:  cnt_5_.false   cnt_5__falseZ0 
+Net:  CNT[14]   cnt_14 
+Net:  cnt_5_.true   cnt_5__trueZ0 
+Net:  cnt_4_.false   cnt_4__falseZ0 
+Net:  cnt_6_.false   cnt_6__falseZ0 
+Net:  cnt_4_.true   cnt_4__trueZ0 
+Net:  cnt_3_.false   cnt_3__falseZ0 
+Net:  cnt_13_.false   cnt_13__falseZ0 
+Net:  cnt_3_.true   cnt_3__trueZ0 
+Net:  cnt_2_.false   cnt_2__falseZ0 
+Net:  cnt_12_.false   cnt_12__falseZ0 
+Net:  cnt_2_.true   cnt_2__trueZ0 
+Net:  cnt_1_.false   cnt_1__falseZ0 
+Net:  cnt_11_.false   cnt_11__falseZ0 
+Net:  cnt_1_.true   cnt_1__trueZ0 
+Net:  cnt_0_.false   cnt_0__falseZ0 
+Net:  cnt_10_.false   cnt_10__falseZ0 
+Net:  cnt_0_.true   cnt_0__trueZ0 
+Net:  N_99   N_99 
+Net:  N_100   N_100 
+Net:  cnt_1_1_m[4]   cnt_1_1_mZ0Z_4 
+Net:  cnt_1_1_m[6]   cnt_1_1_mZ0Z_6 
+Net:  cnt_1_1_m[2]   cnt_1_1_mZ0Z_2 
+Net:  cnt_1_1_m[3]   cnt_1_1_mZ0Z_3 
+Net:  cnt_1_1_x0[6]   cnt_1_1_x0Z0Z_6 
+Net:  cnt_1_1_x0[2]   cnt_1_1_x0Z0Z_2 
+Net:  cnt_1_1_x1[2]   cnt_1_1_x1Z0Z_2 
+Net:  cnt_1_1_x1[6]   cnt_1_1_x1Z0Z_6 
+Net:  I1   I1 
+Net:  I1_0   I1_0 
+Net:  I1_1   I1_1 
+Net:  I1_2   I1_2 
+Net:  I1_3   I1_3 
+Net:  I1_4   I1_4 
+Net:  I1_5   I1_5 
+Net:  I1_6   I1_6 
+Net:  I1_7   I1_7 
+Net:  I1_8   I1_8 
+Net:  I1_9   I1_9 
+Net:  I1_10   I1_10 
+Net:  I1_11   I1_11 
+Net:  I1_12   I1_12 
+Net:  cnt_1_1_x1[3]   cnt_1_1_x1Z0Z_3 
+Net:  cnt_1_1_x0[4]   cnt_1_1_x0Z0Z_4 
+Net:  cnt_1_1_x1[4]   cnt_1_1_x1Z0Z_4 
+Net:  cnt_1_1_x0[3]   cnt_1_1_x0Z0Z_3 
+Net:  cnt_1_1_m[10]   cnt_1_1_mZ0Z_10 
+Net:  cnt_1_1_x1[13]   cnt_1_1_x1Z0Z_13 
+Net:  cnt_1_1_x0[13]   cnt_1_1_x0Z0Z_13 
+Net:  G_8   G_8 
+Net:  un27_cdden_x0   un27_cdden_xZ0Z0 
+Net:  cnt_1_1_m[8]   cnt_1_1_mZ0Z_8 
+Net:  cnt_1_1_x1[12]   cnt_1_1_x1Z0Z_12 
+Net:  cnt_1_1_m[1]   cnt_1_1_mZ0Z_1 
+Net:  cnt_1_1_x0[12]   cnt_1_1_x0Z0Z_12 
+Net:  un28_cdden_x0   un28_cdden_xZ0Z0 
+Net:  cnt_1_1_m[5]   cnt_1_1_mZ0Z_5 
+Net:  un27_cdden_x0_fast   un27_cdden_x0_fastZ0 
+Net:  un27_cdden_fast_x0   un27_cdden_fast_xZ0Z0 
+Net:  un27_cdden_fast   un27_cdden_fastZ0 
+Net:  N_101   N_101 
+Net:  N_102   N_102 
+Net:  N_103   N_103 
+Net:  N_104   N_104 
+EndView CDDECODE decodecnt
+ 
+ BeginView GND GND 
+Net:  G   g 
+EndView GND GND
+ 
+ BeginView VCC VCC 
+Net:  P   p 
+EndView VCC VCC
+ 
+ BeginView FMAP3_FE FMAP3_FE 
+Inst: G_2   G_2 
+Net:  I1   i1 
+Net:  I2   i2 
+Net:  I3   i3 
+Net:  O   o 
+Net:  GND   GNDZ0 
+Net:  VCC   VCCZ0 
+EndView FMAP3_FE FMAP3_FE
+ 
+ BeginView FMAP4_0100 FMAP4_0100 
+Inst: I3_i   I3_i 
+Inst: I2_i   I2_i 
+Inst: I1_i   I1_i 
+Inst: G_6   G_6 
+Net:  I1   i1 
+Net:  I2   i2 
+Net:  I3   i3 
+Net:  I4   i4 
+Net:  I3_i   I3_iZ0 
+Net:  I2_i   I2_iZ0 
+Net:  I1_i   I1_iZ0 
+Net:  O   o 
+Net:  GND   GNDZ0 
+Net:  VCC   VCCZ0 
+EndView FMAP4_0100 FMAP4_0100
+ 
+ BeginView HMAP2_2 HMAP2_2 
+Inst: G_2   G_2 
+Inst: I2_i   I2_i 
+Net:  I1   i1 
+Net:  I2   i2 
+Net:  I2_i   I2_iZ0 
+Net:  O   o 
+Net:  GND   GNDZ0 
+Net:  VCC   VCCZ0 
+EndView HMAP2_2 HMAP2_2
+ 
+ BeginView FMAP4_FFFE FMAP4_FFFE 
+Inst: G_3   G_3 
+Net:  I1   i1 
+Net:  I2   i2 
+Net:  I3   i3 
+Net:  I4   i4 
+Net:  O   o 
+Net:  GND   GNDZ0 
+Net:  VCC   VCCZ0 
+EndView FMAP4_FFFE FMAP4_FFFE
+ 
+ BeginView HMAP3_FE HMAP3_FE 
+Inst: G_2   G_2 
+Net:  I1   i1 
+Net:  I2   i2 
+Net:  I3   i3 
+Net:  O   o 
+Net:  GND   GNDZ0 
+Net:  VCC   VCCZ0 
+EndView HMAP3_FE HMAP3_FE
+ 
+ BeginView HMAP2_E HMAP2_E 
+Inst: G_1   G_1 
+Net:  I1   i1 
+Net:  I2   i2 
+Net:  O   o 
+Net:  GND   GNDZ0 
+Net:  VCC   VCCZ0 
+EndView HMAP2_E HMAP2_E
+ 
+ BeginView FMAP4_0002 FMAP4_0002 
+Inst: I4_i   I4_i 
+Inst: I3_i   I3_i 
+Inst: I2_i   I2_i 
+Inst: G_6   G_6 
+Net:  I1   i1 
+Net:  I2   i2 
+Net:  I3   i3 
+Net:  I4   i4 
+Net:  I4_i   I4_iZ0 
+Net:  I3_i   I3_iZ0 
+Net:  I2_i   I2_iZ0 
+Net:  O   o 
+Net:  GND   GNDZ0 
+Net:  VCC   VCCZ0 
+EndView FMAP4_0002 FMAP4_0002
+ 
+ BeginView FMAP3_02 FMAP3_02 
+Inst: I3_i   I3_i 
+Inst: I2_i   I2_i 
+Inst: G_4   G_4 
+Net:  I1   i1 
+Net:  I2   i2 
+Net:  I3   i3 
+Net:  I3_i   I3_iZ0 
+Net:  I2_i   I2_iZ0 
+Net:  O   o 
+Net:  GND   GNDZ0 
+Net:  VCC   VCCZ0 
+EndView FMAP3_02 FMAP3_02
+ 
+ BeginView FMAP2_4 FMAP2_4 
+Inst: G_2   G_2 
+Inst: I1_i   I1_i 
+Net:  I1   i1 
+Net:  I2   i2 
+Net:  I1_i   I1_iZ0 
+Net:  O   o 
+Net:  GND   GNDZ0 
+Net:  VCC   VCCZ0 
+EndView FMAP2_4 FMAP2_4
+ 
+ BeginView FMAP2_E FMAP2_E 
+Inst: G_1   G_1 
+Net:  I1   i1 
+Net:  I2   i2 
+Net:  O   o 
+Net:  GND   GNDZ0 
+Net:  VCC   VCCZ0 
+EndView FMAP2_E FMAP2_E
+ 
+ BeginView STARTUP_EDIF STARTUP_EDIF 
+Net:  GSR   gsr 
+Net:  CLK   clk 
+Net:  GTS   gts 
+Net:  f   donein 
+EndView STARTUP_EDIF STARTUP_EDIF
+ 
+ BeginView FMAP2_1 FMAP2_1 
+Inst: G_3   G_3 
+Inst: I2_i   I2_i 
+Inst: I1_i   I1_i 
+Net:  I1   i1 
+Net:  I2   i2 
+Net:  I2_i   I2_iZ0 
+Net:  I1_i   I1_iZ0 
+Net:  O   o 
+Net:  GND   GNDZ0 
+Net:  VCC   VCCZ0 
+EndView FMAP2_1 FMAP2_1
+ 
+ BeginView LDCE_1_GSR LDCE_1_GSR 
+Inst: GN   GN 
+Inst: fb   fb 
+Inst: rst   rst 
+Inst: Q   QZ0 
+Net:  Q   q 
+Net:  D   d 
+Net:  G   g 
+Net:  CLR   clr 
+Net:  GE   ge 
+Net:  GSR   gsr 
+Net:  GN   GNZ0 
+Net:  fb   fbZ0 
+Net:  rst   rstZ0 
+EndView LDCE_1_GSR LDCE_1_GSR
+ 
+ BeginView INV INV 
+Inst: O   OZ0 
+Net:  I   i 
+Net:  O   o 
+EndView INV INV
+ 
+ BeginView FMAP1_2 FMAP1_2 
+Net:  O   o 
+Net:  GND   GNDZ0 
+Net:  VCC   VCCZ0 
+EndView FMAP1_2 FMAP1_2
+ 
+ BeginView FMAP4_F1E0 FMAP4_F1E0 
+Inst: G_1   G_1 
+Inst: G_12   G_12 
+Inst: N_7_i   N_7_i 
+Net:  I1   i1 
+Net:  I2   i2 
+Net:  I3   i3 
+Net:  I4   i4 
+Net:  GND   GNDZ0 
+Net:  VCC   VCCZ0 
+Net:  N_14   o 
+Net:  N_15   N_15 
+Net:  N_7_i   N_7_iZ0 
+EndView FMAP4_F1E0 FMAP4_F1E0
+ 
+ BeginView FMAP4_00FE FMAP4_00FE 
+Inst: G_4   G_4 
+Inst: I4_i   I4_i 
+Inst: G_3   G_3 
+Net:  I1   i1 
+Net:  I2   i2 
+Net:  I3   i3 
+Net:  I4   i4 
+Net:  N_6   N_6 
+Net:  I4_i   I4_iZ0 
+Net:  O   o 
+Net:  GND   GNDZ0 
+Net:  VCC   VCCZ0 
+EndView FMAP4_00FE FMAP4_00FE
+ 
+ BeginView FMAP4_FCFD FMAP4_FCFD 
+Inst: G_3   G_3 
+Inst: I4_i   I4_i 
+Inst: I1_i   I1_i 
+Inst: G_5   G_5 
+Net:  I1   i1 
+Net:  I2   i2 
+Net:  I3   i3 
+Net:  I4   i4 
+Net:  N_8   N_8 
+Net:  I4_i   I4_iZ0 
+Net:  I1_i   I1_iZ0 
+Net:  O   o 
+Net:  GND   GNDZ0 
+Net:  VCC   VCCZ0 
+EndView FMAP4_FCFD FMAP4_FCFD
+ 
+ BeginView FMAP4_FFF1 FMAP4_FFF1 
+Inst: G_3   G_3 
+Inst: I2_i   I2_i 
+Inst: I1_i   I1_i 
+Inst: G_5   G_5 
+Net:  I1   i1 
+Net:  I2   i2 
+Net:  I3   i3 
+Net:  I4   i4 
+Net:  N_8   N_8 
+Net:  I2_i   I2_iZ0 
+Net:  I1_i   I1_iZ0 
+Net:  O   o 
+Net:  GND   GNDZ0 
+Net:  VCC   VCCZ0 
+EndView FMAP4_FFF1 FMAP4_FFF1
+ 
+ BeginView FMAP4_FDFC FMAP4_FDFC 
+Inst: G_2   G_2 
+Inst: I1_i   I1_i 
+Inst: G_4   G_4 
+Net:  I1   i1 
+Net:  I2   i2 
+Net:  I3   i3 
+Net:  I4   i4 
+Net:  N_7   N_7 
+Net:  I1_i   I1_iZ0 
+Net:  O   o 
+Net:  GND   GNDZ0 
+Net:  VCC   VCCZ0 
+EndView FMAP4_FDFC FMAP4_FDFC
+ 
+ BeginView FMAP4_FFF2 FMAP4_FFF2 
+Inst: G_2   G_2 
+Inst: I2_i   I2_i 
+Inst: G_4   G_4 
+Net:  I1   i1 
+Net:  I2   i2 
+Net:  I3   i3 
+Net:  I4   i4 
+Net:  N_7   N_7 
+Net:  I2_i   I2_iZ0 
+Net:  O   o 
+Net:  GND   GNDZ0 
+Net:  VCC   VCCZ0 
+EndView FMAP4_FFF2 FMAP4_FFF2
+ 
+ BeginView FMAP4_1113 FMAP4_1113 
+Inst: G_5   G_5 
+Inst: G_6   G_6 
+Inst: G_7   G_7 
+Inst: I2_i   I2_i 
+Inst: I1_i   I1_i 
+Inst: I4_i   I4_i 
+Inst: I3_i   I3_i 
+Net:  I1   i1 
+Net:  I2   i2 
+Net:  I3   i3 
+Net:  I4   i4 
+Net:  N_9   N_9 
+Net:  N_10   N_10 
+Net:  I2_i   I2_iZ0 
+Net:  I1_i   I1_iZ0 
+Net:  I4_i   I4_iZ0 
+Net:  I3_i   I3_iZ0 
+Net:  O   o 
+Net:  GND   GNDZ0 
+Net:  VCC   VCCZ0 
+EndView FMAP4_1113 FMAP4_1113
+ 
+ BeginView HMAP3_E2 HMAP3_E2 
+Inst: G_1   G_1 
+Net:  I1   i1 
+Net:  I2   i2 
+Net:  I3   i3 
+Net:  O   o 
+Net:  GND   GNDZ0 
+Net:  VCC   VCCZ0 
+EndView HMAP3_E2 HMAP3_E2
+ 
+ BeginView FMAP4_EEE2 FMAP4_EEE2 
+Inst: G_1   G_1 
+Inst: G_2   G_2 
+Net:  I1   i1 
+Net:  I2   i2 
+Net:  I3   i3 
+Net:  I4   i4 
+Net:  N_4   N_4 
+Net:  O   o 
+Net:  GND   GNDZ0 
+Net:  VCC   VCCZ0 
+EndView FMAP4_EEE2 FMAP4_EEE2
+ 
+ BeginView HMAP3_CA HMAP3_CA 
+Inst: G_1   G_1 
+Net:  I1   i1 
+Net:  I2   i2 
+Net:  I3   i3 
+Net:  O   o 
+Net:  GND   GNDZ0 
+Net:  VCC   VCCZ0 
+EndView HMAP3_CA HMAP3_CA
+ 
+ BeginView FMAP4_22E2 FMAP4_22E2 
+Inst: G_2   G_2 
+Inst: G_3   G_3 
+Inst: I4_i   I4_i 
+Net:  I1   i1 
+Net:  I2   i2 
+Net:  I3   i3 
+Net:  I4   i4 
+Net:  N_5   N_5 
+Net:  I4_i   I4_iZ0 
+Net:  O   o 
+Net:  GND   GNDZ0 
+Net:  VCC   VCCZ0 
+EndView FMAP4_22E2 FMAP4_22E2
+ 
+ BeginView HMAP3_3A HMAP3_3A 
+Inst: G_2   G_2 
+Inst: I2_i   I2_i 
+Net:  I1   i1 
+Net:  I2   i2 
+Net:  I3   i3 
+Net:  I2_i   I2_iZ0 
+Net:  O   o 
+Net:  GND   GNDZ0 
+Net:  VCC   VCCZ0 
+EndView HMAP3_3A HMAP3_3A
+ 
+ BeginView FMAP4_222E FMAP4_222E 
+Inst: G_3   G_3 
+Inst: G_4   G_4 
+Inst: I4_i   I4_i 
+Inst: I3_i   I3_i 
+Net:  I1   i1 
+Net:  I2   i2 
+Net:  I3   i3 
+Net:  I4   i4 
+Net:  N_6   N_6 
+Net:  I4_i   I4_iZ0 
+Net:  I3_i   I3_iZ0 
+Net:  O   o 
+Net:  GND   GNDZ0 
+Net:  VCC   VCCZ0 
+EndView FMAP4_222E FMAP4_222E
+ 
+ BeginView IBUF IBUF 
+Inst: O   OZ0 
+Net:  I   i 
+Net:  O   o 
+EndView IBUF IBUF
+ 
+ BeginView OBUF OBUF 
+Inst: O   OZ0 
+Net:  I   i 
+Net:  O   o 
+EndView OBUF OBUF
+ 
+ BeginView BUFG BUFG 
+Inst: O   OZ0 
+Net:  I   i 
+Net:  O   o 
+EndView BUFG BUFG

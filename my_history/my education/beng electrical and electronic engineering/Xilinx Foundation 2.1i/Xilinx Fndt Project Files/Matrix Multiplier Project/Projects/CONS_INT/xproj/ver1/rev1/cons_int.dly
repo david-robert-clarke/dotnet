@@ -1,0 +1,300 @@
+Tue Jan 23 21:01:29 2001
+
+File: cons_int.dly
+
+ The 20 Worst Net Delays are:
+-------------------------------
+| Max Delay (ns)  | Netname   |
+-------------------------------
+   5.799            N_RESET
+   5.377            Asm_Config_Three_CURRENT_STATE<6>
+   3.895            Asm_Config_Three_CURRENT_STATE<5>
+   3.703            N_MODE_SEL<0>
+   3.259            DSP_Three_MEM_C40_N40
+   3.122            DSP_Three_MEM_C41_N6
+   3.024            DSP_Three_MEM_C40_N20
+   2.942            syn289
+   2.760            DSP_Three_MEM_C40_N75
+   2.724            syn1166
+   2.644            syn1195
+   2.633            syn1179
+   2.613            DSP_Three_MEM_C41_N56
+   2.579            N_MODE_SEL<1>
+   2.555            Asm_Config_Three_CURRENT_STATE<0>
+   2.535            Asm_Config_Three_CURRENT_STATE<3>
+   2.366            syn363
+   2.258            syn605
+   2.129            syn325
+   2.127            DSP_Three_MEM_C41_N31
+---------------------------------
+
+-------------------------------------------------------------------------------
+                               Net Delays
+-------------------------------------------------------------------------------
+
+Asm_Config_Three_CURRENT_STATE<0>
+   Asm_Config_Three_CURRENT_STATE<0>.XQ
+         1.946  syn289.F2
+         2.555  syn1147.F2
+         2.085  syn1165.F4
+         2.072  syn1165.G1
+         2.505  syn1162.F4
+         2.505  syn1162.G4
+         1.115  Asm_Config_Three_CURRENT_STATE<0>.F2
+         1.993  Asm_Config_Three_CURRENT_STATE<5>.F2
+         2.477  syn1195.G3
+         2.505  syn325.G2
+
+Asm_Config_Three_CURRENT_STATE<1>
+   Asm_Config_Three_CURRENT_STATE<0>.YQ
+         1.244  Asm_Config_Three_CURRENT_STATE<2>.F2
+
+Asm_Config_Three_CURRENT_STATE<2>
+   Asm_Config_Three_CURRENT_STATE<2>.YQ
+         1.574  syn325.F4
+         1.985  syn1147.F1
+         1.985  syn1147.G1
+         1.347  syn1165.F1
+         1.546  syn1165.G2
+         0.469  Asm_Config_Three_CURRENT_STATE<2>.G3
+
+Asm_Config_Three_CURRENT_STATE<3>
+   Asm_Config_Three_CURRENT_STATE<2>.XQ
+         2.405  syn1162.F2
+         2.168  syn1162.G3
+         0.745  syn1166.F4
+         2.535  syn318.G1
+
+Asm_Config_Three_CURRENT_STATE<4>
+   syn1166.YQ
+         1.626  syn325.F1
+         1.458  syn1147.F3
+         1.459  syn1147.G3
+         0.675  syn1162.F1
+         0.675  syn1162.G1
+         0.675  syn1166.F3
+         2.054  syn1165.G4
+         1.459  syn318.G3
+
+Asm_Config_Three_CURRENT_STATE<5>
+   Asm_Config_Three_CURRENT_STATE<5>.YQ
+         3.434  syn318.F3
+         2.840  syn1147.F4
+         3.762  syn1147.G2
+         3.622  syn1162.F3
+         2.469  Asm_Config_Three_CURRENT_STATE<5>.G4
+         3.895  syn1195.G4
+         3.316  syn325.G1
+
+Asm_Config_Three_CURRENT_STATE<6>
+   Asm_Config_Three_CURRENT_STATE<5>.XQ
+         2.943  syn318.F2
+         1.638  syn325.F2
+         1.986  syn325.G3
+         5.377  syn351.F1
+         4.275  syn1195.F4
+         5.350  syn1195.G2
+         0.643  Asm_Config_Three_CURRENT_STATE<5>.G2
+         3.384  syn1165.G3
+
+Asm_Config_Three_CURRENT_STATE<7>
+   syn1166.XQ
+         1.740  syn318.F1
+         1.837  syn318.G2
+         1.519  syn1195.F1
+         1.519  syn1195.G1
+         0.464  syn1166.G2
+         1.343  syn1162.G2
+         1.778  syn1147.G4
+         1.665  syn325.G4
+
+CLK
+   CLK.CLKIN
+         0.010  C639.I
+
+CLK_BUFGed
+   C639.O
+         1.807  Asm_Config_Three_CURRENT_STATE<5>.K
+         1.791  syn1166.K
+         1.799  Asm_Config_Three_CURRENT_STATE<2>.K
+         1.798  Asm_Config_Three_CURRENT_STATE<0>.K
+         1.764  A0B0_A1B2<0>.OK
+         1.772  A0B0_A1B2<1>.OK
+         1.794  A0B1_A1B3<2>.OK
+         1.797  A2B0_A3B2<0>.OK
+
+DSP_Three_MEM_C40_N20
+   DSP_Three_MEM_C40_N20.X
+         3.018  A0B0_A1B2<0>.O
+         3.024  A0B0_A1B2<1>.O
+
+DSP_Three_MEM_C40_N40
+   DSP_Three_MEM_C40_N75.Y
+         3.259  A0B1_A1B3<2>.O
+
+DSP_Three_MEM_C40_N75
+   DSP_Three_MEM_C40_N75.X
+         2.760  A2B0_A3B2<0>.O
+
+DSP_Three_MEM_C41_N31
+   DSP_Three_MEM_C41_N31.X
+         2.127  A0B1_A1B3<2>.EC
+
+DSP_Three_MEM_C41_N56
+   DSP_Three_MEM_C41_N56.X
+         2.613  A2B0_A3B2<0>.EC
+
+DSP_Three_MEM_C41_N6
+   DSP_Three_MEM_C41_N56.Y
+         3.122  A0B0_A1B2<0>.EC
+         2.534  A0B0_A1B2<1>.EC
+
+N_MODE_SEL<0>
+   MODE_SEL<0>.I2
+         3.703  syn289.F3
+         3.703  Asm_Config_Three_CURRENT_STATE<0>.F1
+         3.017  Asm_Config_Three_CURRENT_STATE<5>.F4
+
+N_MODE_SEL<1>
+   MODE_SEL<1>.I2
+         2.376  Asm_Config_Three_CURRENT_STATE<0>.F4
+         2.376  Asm_Config_Three_CURRENT_STATE<0>.G4
+         2.469  Asm_Config_Three_CURRENT_STATE<5>.F1
+         2.579  syn1166.G4
+
+N_RESET
+   RESET.I1
+         5.799  DSP_Three_MEM_C40_N20.F1
+         5.491  syn1179.F3
+         4.162  syn1171.F2
+         4.203  syn1171.G2
+         2.901  Asm_Config_Three_CURRENT_STATE<0>.F3
+         2.901  Asm_Config_Three_CURRENT_STATE<0>.G3
+         3.846  Asm_Config_Three_CURRENT_STATE<2>.F1
+         3.846  Asm_Config_Three_CURRENT_STATE<2>.G1
+         3.846  syn1166.G1
+         3.841  syn1166.C1
+         2.912  Asm_Config_Three_CURRENT_STATE<5>.F3
+         2.912  Asm_Config_Three_CURRENT_STATE<5>.G3
+         5.491  DSP_Three_MEM_C41_N56.G1
+
+syn1076
+   syn1147.Y
+         1.316  syn351.F2
+
+syn1103
+   syn325.Y
+         1.328  DSP_Three_MEM_C41_N31.G4
+
+syn1111
+   syn1162.Y
+         2.006  DSP_Three_MEM_C41_N31.F2
+         2.006  DSP_Three_MEM_C41_N31.G2
+         1.316  syn1179.F2
+         1.316  syn1179.G2
+         0.726  syn1171.G1
+         2.006  syn363.G4
+
+syn1118
+   syn1165.Y
+         1.481  DSP_Three_MEM_C41_N31.F1
+         1.481  DSP_Three_MEM_C41_N31.G1
+         1.481  syn1179.F1
+         1.481  syn1179.G1
+         1.473  syn1171.F3
+         1.498  syn363.G1
+
+syn1122
+   DSP_Three_MEM_C41_N31.Y
+         1.280  DSP_Three_MEM_C41_N56.G3
+
+syn1147
+   syn1147.X
+         0.190  syn1171.G4
+
+syn1150
+   syn1171.Y
+         1.050  DSP_Three_MEM_C41_N31.F4
+
+syn1162
+   syn1162.X
+         1.683  syn1171.F1
+
+syn1165
+   syn1165.X
+         2.015  syn363.F4
+
+syn1166
+   syn1166.X
+         2.724  syn363.F3
+
+syn1171
+   syn1171.X
+         1.938  DSP_Three_MEM_C41_N56.F4
+
+syn1179
+   syn1179.X
+         2.628  DSP_Three_MEM_C40_N75.F4
+         2.633  DSP_Three_MEM_C40_N75.G4
+
+syn1195
+   syn1195.X
+         2.155  syn363.F2
+         2.644  syn1171.F4
+         2.381  syn1171.G3
+
+syn289
+   syn289.X
+         1.798  Asm_Config_Three_CURRENT_STATE<0>.G2
+         2.942  syn1166.G3
+
+syn290
+   syn351.Y
+         1.669  DSP_Three_MEM_C40_N20.F4
+
+syn318
+   syn318.X
+         1.365  DSP_Three_MEM_C40_N75.F2
+         1.365  DSP_Three_MEM_C40_N75.G2
+         1.365  syn351.G2
+
+syn321
+   syn1195.Y
+         1.252  DSP_Three_MEM_C41_N31.F3
+         1.252  DSP_Three_MEM_C41_N31.G3
+         0.709  syn363.F1
+         1.912  syn363.G2
+         1.252  syn1179.G3
+
+syn325
+   syn325.X
+         2.129  DSP_Three_MEM_C40_N75.F3
+         2.129  DSP_Three_MEM_C40_N75.G3
+         2.129  syn351.G1
+
+syn331
+   syn318.Y
+         1.316  syn351.F4
+         1.316  syn351.G4
+         0.239  DSP_Three_MEM_C40_N75.F1
+         0.239  DSP_Three_MEM_C40_N75.G1
+
+syn337
+   syn1179.Y
+         1.427  DSP_Three_MEM_C41_N56.F1
+         2.002  DSP_Three_MEM_C41_N56.G4
+
+syn351
+   syn351.X
+         1.216  DSP_Three_MEM_C40_N20.F2
+
+syn363
+   syn363.X
+         2.366  DSP_Three_MEM_C41_N56.F3
+
+syn605
+   syn363.Y
+         2.258  DSP_Three_MEM_C40_N20.F3
+         1.714  DSP_Three_MEM_C41_N56.F2
+         1.714  DSP_Three_MEM_C41_N56.G2
+

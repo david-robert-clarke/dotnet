@@ -1,0 +1,9 @@
+file {
+  .version = 1;
+  entity {
+    .name = "gsr_test";
+    .mra_file = "gsr_test.mra";
+    .arch = {"gsr_test_arch"};
+    .syn_files = {"GSR_TEST.syn", "GSR_TEST__GSR_TEST_ARCH.syn"};
+   }
+}

@@ -1,0 +1,183 @@
+package I;
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.*;
+
+  /**
+     The Edit Stock Interface
+   
+     This allows a staff member to update 
+     <ul>
+     <il>the retail price of the cds
+     <il>the number of stocked items of a particulr cd
+     <il>the wholesale price of stock for a particular supplier
+     <il>the supplier
+     </ul>
+  **/
+  class EditStockUI extends JFrame
+  {    
+    //instance variables
+  
+    //ArrayLists
+    ArrayList cdEntry, stockEntries;
+    
+    //Strings
+    String cdText;
+    String artistText;
+    String genreText;
+    String typeText;
+    
+    String rDateText; 
+    String rPriceText;
+
+    //Swing Components
+    JLabel blankLabel0, blankLabel1;
+    JLabel titleLabel;  
+    JLabel artistLabel;
+    JTextField artistTextField; 
+    JLabel cdLabel;
+    JTextField cdTextField;
+    JLabel rPriceLabel;
+    JTextField rPriceTextField;
+    JLabel supplierLabel;
+    JComboBox supplierComboBox;
+    JLabel wPriceLabel;
+    JTextField wPriceTextField;
+    JLabel numberItemsLabel;
+    JTextField numberItemsTextField;
+    JButton cancelButton, okayButton;  
+     
+    //Panels
+    JPanel buttonPanel;
+    JPanel editPanel;
+
+    //constructor
+    public EditStockUI(ArrayList cdArtistTitle)
+    {
+      //use SQL statement to get the tuple corresponding to the 2 entries in the
+      //arraylist "entry".
+      cdEntry = new ArrayList();
+      stockEntries = new ArrayList();
+   
+      String cdTitle = (String)cdArtistTitle.get(1);
+      String cdArtist = (String)cdArtistTitle.get(0);
+      
+
+      
+      CDSearchQuery searchForCD = new CDSearchQuery(cdArtist,cdTitle);
+      cdEntry = searchForCD.exeQueryCD(); //returns a complete cd entry 
+      stockEntries = searchForCD.exeQueryStock();//returns the cds stock entries
+
+      cdText = (String)cdEntry.get(0);
+      artistText = (String)cdEntry.get(1);
+      rPriceText =(String)cdEntry.get(2);
+
+      //supplier =(String)stockEntries(xn);//there will be many stockists
+      
+
+      //editing fields for cd
+      blankLabel0 = new JLabel();
+      blankLabel1 = new JLabel();
+      editPanel = new JPanel();
+      editPanel.setLayout(new GridLayout(15,1));
+      titleLabel = new JLabel("Enter your new CD details below"); 
+      artistLabel = new JLabel("Artist");
+      artistTextField = new JTextField(artistText);
+      cdLabel = new JLabel("CD name");   
+      cdTextField = new JTextField(cdText);
+      rPriceLabel = new JLabel("Retail Price");
+      rPriceTextField = new JTextField(rPriceText);
+    
+      //editing fields for stock
+      supplierLabel = new JLabel("Supplier");
+      supplierComboBox = new JComboBox();
+      int noOfSuppliers = stockEntries.size()/3;
+	for(int i=0; i<noOfSuppliers; i=i+3)
+	{
+	  supplierComboBox.addItem((String)stockEntries.get(i));
+	}
+      wPriceLabel = new JLabel("Wholesale Price");
+      wPriceTextField = new JTextField();
+      numberItemsLabel = new JLabel("Number of Items stocked");
+      numberItemsTextField = new JTextField();
+    
+
+      //examples  ----genreComboBox.setSelectedItem(genreText);
+      //examples  ----typeComboBox.setSelectedItem(typeText);
+
+
+      editPanel.add(titleLabel);
+      editPanel.add(blankLabel0);
+      editPanel.add(artistLabel);
+      editPanel.add(artistTextField);  
+      editPanel.add(cdLabel);
+      editPanel.add(cdTextField);
+      editPanel.add(rPriceLabel);
+      editPanel.add(rPriceTextField);
+      editPanel.add(supplierLabel);
+      editPanel.add(supplierComboBox);
+      editPanel.add(wPriceLabel);
+      editPanel.add(wPriceTextField);
+      editPanel.add(numberItemsLabel);
+      editPanel.add(numberItemsTextField);
+      editPanel.add(blankLabel1);
+
+      //confirmation buttons
+      buttonPanel = new JPanel();
+      buttonPanel.setLayout(new GridLayout(1,2));
+      okayButton = new JButton("OK");
+      okayButton.addActionListener(new ButtonListener());
+      cancelButton = new JButton("Cancel");
+      cancelButton.addActionListener(new ButtonListener());
+      buttonPanel.add(okayButton);
+      buttonPanel.add(cancelButton);
+
+      Container contentPane = getContentPane();
+      contentPane.add(editPanel,"Center");
+      contentPane.add(buttonPanel, "South");
+    
+    }
+
+    public class ButtonListener implements ActionListener
+    {
+      public void actionPerformed(ActionEvent event)
+      {
+        Object source = event.getSource();
+        
+        if(source == okayButton)
+	{     
+	  //if the okay button has been pressed, take all information present
+	  //on the Edit CD details page and overwrite the details present in the
+	  //cdEntry ArrayList(excluding the iid),
+	  /*
+	  cdEntry.set(1,cdTextField.getText());
+	  cdEntry.set(2,artistTextField.getText());
+	  cdEntry.set(3,(String)genreComboBox.getSelectedItem());
+	  cdEntry.set(4,(String)typeComboBox.getSelectedItem());
+	  cdEntry.set(5,rDateTextField.getText());
+	  cdEntry.set(6,rPriceTextField.getText());
+	  */
+
+	  for(int i=0;i<cdEntry.size();i++)
+	  {
+	    System.out.println((String)cdEntry.get(i));
+	  }
+	
+	  //pass this arrayList directly to the EditCDEntryQuery class
+	  //new java query, which then updates the database      
+	  UpdateCDEntryQuery updateCD = new UpdateCDEntryQuery(cdEntry);
+	  updateCD.exeQuery();
+	
+	  //Then exit this window
+	  dispose();
+	}
+        else if(source == cancelButton)
+	{
+	  dispose();//closes this window
+	}
+      }      
+    }
+  }
+

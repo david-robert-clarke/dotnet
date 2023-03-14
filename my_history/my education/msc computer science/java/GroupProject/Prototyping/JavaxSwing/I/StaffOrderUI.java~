@@ -1,0 +1,32 @@
+package I;
+import javax.swing.*;
+import java.awt.*;
+
+public class StaffDetailsUI
+{
+    public static void main(String[] args)
+    {
+        StaffDetailsFrame frame = new StaffDetailsFrame();
+        frame.setTitle("Staff Details"); 
+        frame.setSize(300,300);
+        frame.show();
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setResizable(false);       
+    }
+}   
+
+class StaffDetailsFrame extends JFrame
+{
+    private String fname;
+    private JPanel topPanel,bottomPanel,areaPanel;
+    private JLabel greeting, advice;
+    private JButton changePWButton, editConDetButton;
+
+    public StaffDetailsFrame()
+    {
+        JLabel 
+
+        Container contentPane = getContentPane();
+        contentPane.add(areaPanel, "Center");
+    }
+} 

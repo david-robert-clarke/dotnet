@@ -1,0 +1,16 @@
+
+Inferred memory devices in process 'state_update'
+	in routine ASM_CONFIG line
+         44 in file 'C:/fndtn/active/projects/cons_int/asm_config_three.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  CURRENT_STATE_reg  | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+CURRENT_STATE_reg (width 8)
+---------------------------
+    set/reset/toggle: none
+
+
+Writing to hnl file 'c:\Fndtn\Active\Projects\CONS_INT\cons_int/workdirs/WORK/ASM_CONFIG.hnl'

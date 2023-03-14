@@ -1,0 +1,190 @@
+package I;
+import java.sql.*;
+import java.io.*;
+import java.util.*;
+
+public class MyConnection 
+{
+  public static Connection C;
+  
+  public static void main (String args[])
+  {
+    // BufferedReader reader = 
+    // new BufferedReader (new InputStreamReader(System.in));
+        
+    try 
+    {
+      Class driver = Class.forName("org.postgresql.Driver");
+      DriverManager.registerDriver((Driver)driver.newInstance());
+	
+      // get the values required to connect to the database.
+	
+      System.out.print("Input the database: ");
+      String dbname = "msc67lxb";
+      String username = "msc88drc";
+      String pw = "charlie";
+
+      // the elements of the database connection url are
+      // protocol (jdbc:), subprotocol (postgresql:), 
+      // server (//dbhost), and database name (/<dbname>)
+	
+      String dbUrl = "jdbc:postgresql://dbhost/" + dbname;
+      System.out.println("Successfully found database!");
+      System.out.println();
+	
+      C = DriverManager.getConnection(dbUrl, username, pw);
+      System.out.println("Successfully connected to database!");
+      System.out.println();
+      
+      //new stuff
+      /*
+      DeleteCDTupleQuery thisSearch = 
+          new DeleteCDTupleQuery("Foo Fighters","One by One");
+      thisSearch.exeQuery();
+      */
+ 
+
+      /*
+      //Adding cd tuples
+      String cd_name = "Nevermind"; 
+      String artist = "Nirvana";
+      String genre = "Rock";
+      String type = "Album";
+      String release_date = "1991-01-30";
+      String r_price = "7.99";  
+      String supplier_name = "Soonee";
+      String stock_level = "20";
+      String w_price = "2.99";
+      
+      ArrayList cdEntry = new ArrayList();
+      cdEntry.add(cd_name);
+      cdEntry.add(artist);
+      cdEntry.add(genre);
+      cdEntry.add(type);
+      cdEntry.add(release_date);
+      cdEntry.add(r_price);
+      cdEntry.add(supplier_name);
+      cdEntry.add(stock_level);
+      cdEntry.add(w_price);
+      AddCDTupleQuery thisQuery = new AddCDTupleQuery(cdEntry);
+      thisQuery.exeQuery();
+      */
+      
+      /*
+      //cd Search - returns information such as the
+      //cd artist
+      //cd_name
+      //cd retail price
+      //stock suppliers
+      //stock wholesale prices -- related to supplier
+      //number of items stocked -- relating to supplier
+      ArrayList cdEntry = new ArrayList();
+      ArrayList stockEntries = new ArrayList();
+      CDSearchQuery thisSearch = new CDSearchQuery("Red Hot Chili Peppers",
+			   "Californication");
+      cdEntry = thisSearch.exeQueryCD();
+      stockEntries = thisSearch.exeQueryStock();
+      
+	for(int i=0;i<cdEntry.size();i++)
+	{
+	  System.out.println((String)cdEntry.get(i));
+	}
+
+	System.out.println();
+
+	for(int i=0;i<stockEntries.size();i++)
+	{
+	  System.out.println((String)stockEntries.get(i));
+	}
+      
+	//The information gathered from the CDSearch is displayed in the
+	//editCDEntry User interface, when the user clicks on okay, the data
+	//from the UI is passed to the Update CDEntry program, which then 
+	//updates the cd entry in the cd table and the stock table.
+	//The editCDEntry interface must pass two lots of information
+	//(Arraylists) to the UpdateCDEntryQuery class, which then updates
+	//the two databases.
+	*/	
+	
+
+      
+      /*
+      //Adding supplier tuples
+      String sup_name = "Haichemvee";
+      String sup_addr1 = "142 Wordour Street";
+      String sup_addr2 = "London";
+      String sup_pcode = "W1F 8LN";
+      String sup_phone = "02006845786";
+      
+      ArrayList supplierEntry = new ArrayList();
+      supplierEntry.add(sup_name);
+      supplierEntry.add(sup_addr1);
+      supplierEntry.add(sup_addr2);
+      supplierEntry.add(sup_pcode);
+      supplierEntry.add(sup_phone);
+      AddSupplierQuery thisQuery = new AddSupplierQuery(supplierEntry);
+      thisQuery.exeQuery();
+      */
+      
+      /*
+      //Deleting supplier tuples
+      String sup_name ="Haichemvee";
+      DeleteSupplierQuery thisQuery = new DeleteSupplierQuery(sup_name);
+      thisQuery.exeQuery();
+      */
+	
+	/*
+      //Update supplier tuples
+      String supid = "000004";
+      String supaddr_1 = "1 Drunk Skunk Street";
+      String supaddr_2  = "Birmingham";
+      String sup_pcode = "B39 2KF";
+      String sup_phone = "01214257958"; 
+      ArrayList newDetails = new ArrayList();
+      newDetails.add(supid);
+      newDetails.add(supaddr_1);
+      newDetails.add(supaddr_2);
+      newDetails.add(sup_pcode);
+      newDetails.add(sup_phone);
+      UpdateSupplierQuery thisQuery = new UpdateSupplierQuery(newDetails);
+      thisQuery.exeQuery();
+	*/
+      /*
+      //Edit staff details
+      String sid = "000003";
+      String sfirstname = "Shamus";
+      String slastname = "McDougan";
+      String staffaddr_1 = "1 Paddy Lane";
+      String staffaddr_2 = "Paddyton";
+      String staff_pcode = "PYU YTE";
+      String staff_mobphone = "7899062558";
+      String staff_phone = "555 5895";
+      String position = "Staff";
+      ArrayList staffEntry = new ArrayList();
+      staffEntry.add(sid);
+      staffEntry.add(sfirstname);
+      staffEntry.add(slastname);
+      staffEntry.add(staffaddr_1);
+      staffEntry.add(staffaddr_2);
+      staffEntry.add(staff_pcode);
+      staffEntry.add(staff_mobphone);
+      staffEntry.add(staff_phone);
+      staffEntry.add(position);
+      StaffDetailsUpdateQuery thisQuery = new StaffDetailsUpdateQuery(staffEntry);
+      thisQuery.exeQuery();
+      */
+
+      //Edit Staff Password
+      String sid = "000003";
+      String password = "cheese";
+      StaffPWUpdateQuery thisQuery = new StaffPWUpdateQuery(sid,password);
+      thisQuery.exeQuery();
+      
+    }
+    catch ( Exception e ) 
+    {
+      System.out.println( "An exception occurred in MyConnection. " + e);
+    }
+  }
+}
+

@@ -1,0 +1,54 @@
+
+Inferred memory devices in process 
+	in routine Pinoutdecode line 13 in file
+         'C:/fndtn/active/projects/rs232_st/pinoutdecode.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       S0_reg        |   Latch   |   1   |  -  | -  | N  | N  | -  | -  | -  |
+|       S1_reg        |   Latch   |   1   |  -  | -  | N  | N  | -  | -  | -  |
+|       S2_reg        |   Latch   |   1   |  -  | -  | N  | N  | -  | -  | -  |
+|       S3_reg        |   Latch   |   1   |  -  | -  | N  | N  | -  | -  | -  |
+|       S4_reg        |   Latch   |   1   |  -  | -  | N  | N  | -  | -  | -  |
+|       S5_reg        |   Latch   |   1   |  -  | -  | N  | N  | -  | -  | -  |
+|       S6_reg        |   Latch   |   1   |  -  | -  | N  | N  | -  | -  | -  |
+===============================================================================
+
+S0_reg
+------
+    reset/set: none
+
+
+S1_reg
+------
+    reset/set: none
+
+
+S2_reg
+------
+    reset/set: none
+
+
+S3_reg
+------
+    reset/set: none
+
+
+S4_reg
+------
+    reset/set: none
+
+
+S5_reg
+------
+    reset/set: none
+
+
+S6_reg
+------
+    reset/set: none
+
+
+Warning: Latch inferred in design 'Pinoutdecode' read with
+	'hdlin_check_no_latch'. (HDL-307)
+Writing to hnl file 'c:\Fndtn\Active\Projects\RS232_ST\rs232_st/workdirs/WORK/Pinoutdecode.hnl'

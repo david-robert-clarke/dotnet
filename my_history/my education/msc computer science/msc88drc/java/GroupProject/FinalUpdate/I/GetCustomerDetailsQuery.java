@@ -1,0 +1,61 @@
+package I;
+import java.sql.*;
+import java.util.ArrayList;
+
+/**
+   Used by StaffUI, returns the details of a particular customer
+   
+   @author Helen Loynes
+ **/
+public class GetCustomerDetailsQuery
+{
+  private Connection c;
+  private String cid;
+  private ArrayList customerDetails;
+
+  /**
+   * Constructor to create a get customer's details query
+   *
+   * @param cID the customer ID
+   **/
+  public GetCustomerDetailsQuery(String cID)
+  {
+    c = MyConnection.C;
+    cid = cID;
+  }
+
+  /**
+   * Execute the query 
+   *
+   * @return an arraylist of customer details
+   **/
+  public ArrayList exeQuery()
+  {
+    try 
+    {
+      customerDetails = new ArrayList();
+      // Create a result set containing all data from my_table
+      Statement stmt = c.createStatement();
+      ResultSet rs = stmt.executeQuery("SELECT * FROM customer WHERE "+
+				       "cid = '" + cid 
+				       + "'");
+
+      while (rs.next())
+      {
+	customerDetails.add(rs.getString("cfirstname"));
+	customerDetails.add(rs.getString("clastname")); 
+	customerDetails.add(rs.getString("home_addr1"));
+	customerDetails.add(rs.getString("home_addr2")); 
+	customerDetails.add(rs.getString("home_pcode"));
+	customerDetails.add(rs.getString("cphone"));
+	customerDetails.add(rs.getString("mob_phone"));
+      }
+    } 
+    catch (SQLException e) 
+    {
+      System.out.println( "An exception occurred in GetCustomerNames. " + e);
+    }
+        
+    return(customerDetails);
+  }
+}

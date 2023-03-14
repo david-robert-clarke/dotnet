@@ -1,0 +1,19 @@
+Xilinx Floorplanner Netlist Translation Utility
+n2f Version 2.1i
+ 
+0:00.00
+n2f options:
+ -n C:\Fndtn\Active\Projects\PROJ_3x3\xproj\ver1\rev1\proj_3x3.ngd
+ -o _fplan.fnf
+ -log n2f.log
+ 
+0:01.00
+N2F: building fpdesign
+0:01.00
+N2F: loading ngd file: C:\Fndtn\Active\Projects\PROJ_3x3\xproj\ver1\rev1\proj_3x3.ngd
+0:02.00
+N2F: applying ngd to fpdesign
+0:02.00
+done applying ngd prims...
+0:02.00
+N2F: writing fnf file: _fplan.fnf

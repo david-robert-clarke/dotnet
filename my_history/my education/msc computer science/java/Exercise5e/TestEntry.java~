@@ -1,0 +1,26 @@
+import addressbook.*;
+
+/**
+   program that tests each method in the Entry class to see if everything 
+   behaves correctly
+
+   @author David Clarke
+**/
+
+class TestEntry
+{
+    public static void main (String [] args)
+    {
+	Person thisPerson = new Person ("Bowen", "Jim");
+	Address thisAddress = new Address ("6", "Cutshill Close", 
+					   "Castle Bromwich", "West Midlands", 
+					   "England", "B36 9SZ");
+
+	Entry thisEntry = new Entry(thisPerson, thisAddress);
+
+	System.out.println(thisEntry.getAddress());
+
+
+    }
+}
+

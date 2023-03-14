@@ -1,0 +1,159 @@
+<HTML>
+<HEAD>
+<TITLE>ShellyLibV2.2: Changes</TITLE>
+</HEAD>
+<BODY>
+<A HREF="sl-2.html">Previous</A>
+<A HREF="sl-4.html">Next</A>
+<A HREF="sl.html#toc3">Table of Contents</A>
+<HR>
+<H2><A NAME="sec-chang"></A> <A NAME="s3">3. Changes</A></H2>
+
+<P>Changes from V2.1 to V2.2 are:
+<UL>
+<LI>General Changes:
+<UL>
+<LI>A new parameter named <CODE>"alpha2</CODE>" has been introduced.
+This works much like alpha. It allows to adjust the growth rate
+of the generating curve without affecting the helico spiral.
+Oops? Read section
+<A HREF="sl-5.html#sec-para">Parameters of the Shell Generator</A>
+for more information.</LI>
+<LI>The 3DMF (3D MetaFile) output format has been added;
+NURBS and triangles are supported.</LI>
+<LI>The RIB output now contains own texture coordinates, that improve
+the texture mapping quality. This change is only visible for
+custom generating curves (GCURVE-mode) where the points are not
+uniformly distributed.</LI>
+<LI>A new simple shader (SLtxtsrf) for RenderMan has been added,
+that maps the generated textures on the shells just like the <CODE>"Shell
+Laboratory"</CODE> does. Besides that, it shows how to use the custom
+texture coordinates of the RIB output.</LI>
+</UL>
+</LI>
+<LI>Changes to the Shell Laboratory:
+<UL>
+<LI>Several changes to the hotkeys in the 3D-View and other places
+have been made.</LI>
+<LI>A new RIB output mode (export scene) has been added.
+This mode saves all movements and rotations etc. you made in the
+3D-View as well as the shell.</LI>
+<LI>Texture-mapping quality in the 3D-View has been improved
+for the NURBS rendering mode. This change is only visible for
+custom generating curves (GCURVE-mode) where the points are not
+uniformly distributed.</LI>
+<LI>Loading of values (via .shy-files) with higher resolution
+as the corresponding slider allows has been corrected.
+The sliders resolution is now recalculated according to the loaded value.</LI>
+<LI>Added Antialiasing via viewing-volume-jittering to the
+rendering code.
+This improves overall rendering quality and works in all rendering modes,
+although it is not meant to be used with the wireframe mode.
+Two levels of antialiasing are available.</LI>
+<LI>Added a status-bar, that keeps you informed about whats going
+on at the moment.</LI>
+<LI>Added simple (single step) undo to the texture generator.</LI>
+<LI>Added simple image operations (mix, add, sub) to the texture
+generator. The new texture may be combined with the older one using
+this operations.</LI>
+<LI>Exporting the image of the 3D-View did not work when it
+was resized, fixed.</LI>
+<LI>The ambient, diffuse, specular and background color of
+the shell/view may be changed separately now. Check
+the <CODE>"Color"</CODE> submenu of the <CODE>"Preferences"</CODE> menu.</LI>
+</UL>
+</LI>
+</UL>
+</P>
+<P>Changes from V2.0 to V2.1 are:
+<UL>
+<LI>General Changes:
+<UL>
+<LI>Due to the low registration moral (I received one (!)
+registration request, thank you!) the license changed again.
+Please read the file <CODE>"License"</CODE> in the top level of the distribution.
+Important changes are that I do not release the source for free
+anymore and I crippled
+the free available executables of the Shell Laboratory.
+Registered users can still get the full source, however.</LI>
+<LI><CODE>"libshelly"</CODE> now simulates that the walls of the generated
+shells have a certain thickness, new parameters are <CODE>"wall"</CODE>
+and <CODE>"wlen"</CODE> (see section 
+<A HREF="sl-5.html#sec-para">Parameters of the Shell Generator</A> for more information).</LI>
+<LI>Nodules are now possible in the <CODE>"GCurve"</CODE> mode.</LI>
+<LI>The DXF output format has been added;
+Splines, polyface-meshes and 3dfaces are supported.</LI>
+<LI>The RIB output now contains NURBS instead of B-Splines.</LI>
+<LI>The RenderMan shaders have been rewritten. They do respect
+the new wall feature now. </LI>
+</UL>
+</LI>
+<LI>Changes to the Shell Laboratory:
+<UL>
+<LI>The Shell Laboratory has been ported to WinNT/95.</LI>
+<LI>The Shell Laboratory is now available as
+stand-alone executable that does not need a bunch of .tcl-files or an
+installed Tcl/Tk at all. Precompiled executables are available for
+Linux, WinNT/95 and Irix.</LI>
+<LI>Several changes to the GUI (menu layout, hotkeys etc.)
+have been made.</LI>
+<LI>The smooth-shaded rendering mode has been replaced by NURBS
+rendering using GLU.</LI>
+<LI>Another rendering mode (NURBS+Wire) has been
+introduced. This mode displays a NURBS surface and the associated
+control polygon.</LI>
+<LI>A generation curve editor has been added to the Shell Laboratory,
+see section 
+<A HREF="sl-4.html#sec-gce">The Generation Curve Editor</A>
+for more information.</LI>
+<LI>A texture generator has been added, that utilizes the algorithms
+published in "The Algorithmic Beauty of Sea Shells" by H. Meinhardt (see
+section 
+<A HREF="sl-9.html#sec-poin">Addresses, Pointers, Literature</A>
+for a complete reference, and section 
+<A HREF="sl-4.html#sec-te">The Texture Editor</A> for the documentation).</LI>
+<LI>It is now possible to export the rendered image.</LI>
+</UL>
+</LI>
+</UL>
+</P>
+<P>A lot has changed from version 1.6 of Shelly (the ancestor of ShellyLib)
+to version 2.0:
+<UL>
+<LI>Legalities have changed, read the file <CODE>"License"</CODE>!</LI>
+<LI>Almost everything has been completely rewritten,
+therefore, I suggest to reread the whole documentation, even if you feel
+familiar with Shelly!</LI>
+<LI>Bezier output for POV-Ray creates really smooth surfaces now.</LI>
+<LI>Several new output formats, e.g. Truespace, RIB, SCED, have been added.</LI>
+<LI>The handling of scale factors has changed. There are file format
+dependant scale factors now, to ensure a unique size of the generated
+shells over the variety of output formats.</LI>
+<LI>ShellyLib has a really cool GUI now, unfortunately, it is not as
+nearly as portable as the library itself.</LI>
+<LI>The former "NewNod" mode is now called "Nodule" and has been
+improved in terms of speed and usability. The old "Nodule"
+mode is gone.</LI>
+<LI>The code has been split into several parts.
+The shell generation is done by a small library called <CODE>"libshelly"</CODE>.
+Furthermore, there are two example frontends that use the library
+<CODE>"shelly"</CODE> and the <CODE>"Shell Laboratory"</CODE>.</LI>
+<LI>The original algorithm of M.B. Cortie is limited to ellipsoid
+generation curves. ShellyLibV2.0 allows the user to define any generation
+curve in a special new calculation mode called "GenCurve".
+This is useful for Cones or the "Miraculous Thatcheria", which were
+impossible to generate with the old algorithm.</LI>
+<LI>Some special keywords regarding POV-Ray are gone. </LI>
+<LI>Various other goodies have been included in the distribution,
+for instance displacement and surface shaders for RenderMan
+and a reference sheet that helps to understand the algorithm.</LI>
+</UL>
+</P>
+
+
+<HR>
+<A HREF="sl-2.html">Previous</A>
+<A HREF="sl-4.html">Next</A>
+<A HREF="sl.html#toc3">Table of Contents</A>
+</BODY>
+</HTML>

@@ -1,0 +1,415 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff28\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f28\fnil\fcharset0\fprq0{\*\panose 00000000000000000000}Nimbus Roman;}
+{\f31\fnil\fcharset0\fprq0{\*\panose 00000000000000000000}Nimbus Sans;}{\f32\fnil\fcharset0\fprq0{\*\panose 00000000000000000000}Nimbus Mono;}{\f62\froman\fcharset238\fprq2 Times New Roman CE;}{\f63\froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\f65\froman\fcharset161\fprq2 Times New Roman Greek;}{\f66\froman\fcharset162\fprq2 Times New Roman Tur;}{\f67\froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\f68\froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\f69\froman\fcharset186\fprq2 Times New Roman Baltic;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;
+\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red255\green37\blue49;\red255\green19\blue23;\red1\green0\blue0;
+\red1\green1\blue1;}{\stylesheet{\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \f28\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext0 Normal;}{\s1\ql \li0\ri0\sb440\sa60\nowidctlpar\faauto\rin0\lin0\itap0 
+\b\f31\fs34\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 1;}{\s2\ql \li0\ri0\sb440\sa60\nowidctlpar\faauto\rin0\lin0\itap0 \b\f31\fs28\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 2;}{
+\s3\ql \li0\ri0\sb440\sa60\nowidctlpar\faauto\rin0\lin0\itap0 \b\f31\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 3;}{\*\cs10 \additive Default Paragraph Font;}{
+\s15\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \f28\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext15 Dashed List;}{\s16\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 
+\f28\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext16 Box List;}{\s17\ql \li0\ri0\nowidctlpar\tx1584\faauto\rin0\lin0\itap0 \f28\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon31 \snext0 Section Heading;}{
+\s18\ql \li0\ri0\nowidctlpar\tx431\faauto\rin0\lin0\itap0 \f28\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon2 \snext0 Numbered Heading 2;}{\s19\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 
+\f32\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext19 Plain Text;}{\s20\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \f28\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext20 Implies List;}{
+\s21\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \f28\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon29 \snext21 Upper Case List;}{\s22\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 
+\f28\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext22 Hand List;}{\s23\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \f28\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon29 \snext23 Upper Roman List;}{
+\s24\ql \li1440\ri1440\sa120\nowidctlpar\faauto\rin1440\lin1440\itap0 \f28\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext24 Block Text;}{\s25\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 
+\f28\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext25 Lower Roman List;}{\s26\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \f28\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext26 Heart List;}{
+\s27\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \f28\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon29 \snext27 Lower Case List;}{\s28\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 
+\f28\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext28 Tick List;}{\s29\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \f28\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext29 Numbered List;}{
+\s30\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \f28\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext30 Star List;}{\s31\ql \li0\ri0\nowidctlpar\tx431\faauto\rin0\lin0\itap0 
+\f28\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon1 \snext0 Numbered Heading 1;}{\s32\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \f28\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext32 Diamond List;}{
+\s33\ql \li0\ri0\nowidctlpar\tx431\faauto\rin0\lin0\itap0 \f28\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon3 \snext0 Numbered Heading 3;}{\s34\ql \li0\ri0\nowidctlpar\tx1584\faauto\rin0\lin0\itap0 
+\f28\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon31 \snext0 Chapter Heading;}{\s35\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \f28\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext35 Square List;}{
+\s36\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \f28\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext36 Triangle List;}{\s37\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 
+\f28\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext37 Bullet List;}}{\info{\author msc67lxb}{\operator msc67lxb}{\creatim\yr2003\mo5\dy1\hr19\min3}{\revtim\yr2003\mo5\dy1\hr19\min15}{\version2}{\edmins12}{\nofpages8}{\nofwords2288}
+{\nofchars13046}{\*\company The University of Birmingham}{\nofcharsws16021}{\vern8283}}\paperw11905\paperh16837\margl851\margr851\margt1134\margb1134 
+\deftab794\widowctrl\ftnbj\aenddoc\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\hyphcaps0\horzdoc\dghspace120\dgvspace120\dghorigin1701\dgvorigin1984\dghshow0\dgvshow3\jcompress\viewkind1\viewscale100\nolnhtadjtbl \fet0\sectd 
+\sbknone\linex0\headery567\footery567\colsx360\sectdefaultcl {\header \pard\plain \qr \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \f28\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\field{\*\fldinst { PAGE  \\* MERGEFORMAT }}{\fldrslt {
+\lang1024\langfe1024\noproof 1}}}{
+\par }}{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}
+{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8
+\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \qc \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \f28\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\b\ul Staff Interface: Test report}{
+\par }{\ul 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\ul Test:}{\tab \tab \tab \tab \tab     }{\ul Required Response}{\tab \tab             }{\ul Test passed}{?
+\par 
+\par }{\b MY DETAILS}{
+\par }{\b 
+\par }{Click on 'MY DETAILS' tab\tab \tab MY DETAILS screen is shown\tab \tab \tab pass\tab 
+\par Click on 'Change Password'\tab \tab Change password window appears\tab \tab \tab pass
+\par 
+\par Change password but type two\tab Password should not be changed\tab \tab \tab pass
+\par different values in each box
+\par 
+\par Change password and type\tab \tab Password should be changed\tab  \tab \tab \tab pass
+\par exactly matching values
+\par 
+\par }\pard \ql \fi284\li-284\ri0\nowidctlpar\faauto\rin0\lin-284\itap0 {Enter any characters into new\tab \tab All characters should be allowed\tab \tab \tab pass
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {password box - including letters,\tab as part of the password
+\par integers and miscellaneous
+\par characters (eg. +,!,\'a3)
+\par 
+\par Open change password screen, \tab Password should not be changed and \tab \tab pass
+\par enter new values but then select\tab the user should return to the main
+\par cancel\tab \tab \tab \tab \tab staff interface
+\par 
+\par Click on 'Edit Contact Details'\tab \tab New window appears containing the\tab \tab \tab pass
+\par \tab \tab \tab \tab \tab correct user information
+\par 
+\par Slightly edit each individual\tab \tab Any field that is changed should have\tab \tab pass
+\par field within edit screen\tab \tab \tab the new value saved in the database
+\par 
+\par Edit each individual field using \tab All characters should be allowed in each\tab \tab pass
+\par any character - eg. t, 1, \'a3, "\tab \tab field and any changes saved
+\par 
+\par Edit each field but fill in too many\tab No changes should be made to the\tab \tab \tab pass
+\par characters - eg. 29 characters in\tab database, and the system must not crash
+\par a field with a maximum of 28
+\par 
+\par Edit some details but then select\tab The details should not be changed and \tab \tab pass
+\par cancel\tab \tab \tab \tab \tab the user should return to the main
+\par \tab \tab \tab \tab \tab staff interface
+\par 
+\par }{\b STOCK}{
+\par 
+\par Click on 'STOCK' tab\tab \tab \tab STOCK screen is shown\tab \tab \tab \tab pass
+\par 
+\par Scroll through CDs\tab \tab \tab Screen should scroll down and show\tab \tab \tab pass
+\par \tab \tab \tab \tab \tab the full collection of CDs
+\par 
+\par Click on a CD\tab \tab \tab \tab CD name and artist should be highlighted\tab \tab pass
+\par \page 
+\par }{\ul Test:}{\tab \tab \tab \tab \tab     }{\ul Required Response}{\tab \tab             }{\ul Test passed}{?
+\par 
+\par Highlight a CD and click\tab \tab A confirmation screen should appear\tab \tab \tab pass
+\par 'Remove'\tab \tab \tab \tab showing CD details and asking the user
+\par \tab \tab \tab \tab \tab to confirm the deletion
+\par 
+\par Remove --> Click on 'OK'\tab \tab The user is returned the CD screen and\tab \tab pass
+\par \tab \tab \tab \tab \tab the CD is removed from the database\tab 
+\par 
+\par Remove --> Click on 'Cancel'\tab \tab The user is returned the CD screen and\tab \tab pass
+\par \tab \tab \tab \tab \tab the CD remains in the database
+\par 
+\par Highlight a CD and click \tab \tab A new window should open detailing the\tab \tab pass
+\par 'View Levels'\tab \tab \tab \tab CD item ID and the stock levels for each
+\par \tab \tab \tab \tab \tab supplier that stocks it
+\par 
+\par Highlight a CD and click\tab \tab New window appears containing the\tab \tab \tab pass
+\par 'Edit Details'\tab \tab \tab \tab correct CD information
+\par 
+\par Slightly edit each individual\tab \tab Any field that is changed should have\tab \tab pass
+\par field within edit screen\tab \tab \tab the new value saved in the database
+\par 
+\par Try to edit Item ID, CD name or\tab These fields are protected and no changes\tab \tab pass
+\par Artist\tab \tab \tab \tab \tab should be allowed
+\par 
+\par Edit each individual field using \tab Only integers should be allowed. If any other\tab \tab pass
+\par any character - eg. t, 1, \'a3, "\tab \tab characters are entered, no changes should
+\par \tab \tab \tab \tab \tab occur and the user returned to the CD screen
+\par 
+\par Enter excessively high numbers\tab Only reasonable values should be allowed, so \tab }{\cf17 fail}{
+\par \tab \tab \tab \tab \tab no changes should be saved
+\par 
+\par Enter negative values\tab \tab \tab Only positive values should be allowed, so no\tab }{\cf18 fail}{
+\par \tab \tab \tab \tab \tab changes should be saved
+\par 
+\par Edit some details but then click\tab The details should not be changed and \tab \tab pass
+\par on cancel\tab \tab \tab \tab the user should return to the main
+\par \tab \tab \tab \tab \tab staff interface
+\par 
+\par NB/ On all CD tests, a large number of different CDs in the database were tested; it was not sufficient to simply test one or two CDs and assume that this meant the entire database was correct.
+\par 
+\par Select 'Add' a CD\tab \tab \tab A new window should open containing\tab \tab pass
+\par \tab \tab \tab \tab \tab the new CD fields to complete
+\par 
+\par Add a new CD containing \tab \tab The CD should be successfully added to\tab \tab pass
+\par valid data in each field\tab \tab \tab the database
+\par 
+\par 
+\par \page }{\ul Test:}{\tab \tab \tab \tab \tab     }{\ul Required Response}{\tab \tab             }{\ul Test passed}{?
+\par 
+\par Add a new CD with some blank\tab A message should appear informing the user\tab pass
+\par fields\tab \tab \tab \tab \tab that there are blank fields. No changes should
+\par \tab \tab \tab \tab \tab be made to the database
+\par 
+\par Add a new CD which has\tab \tab All characters should be allowed in text\tab \tab pass
+\par fields containing different\tab \tab fields and any changes saved. In integer
+\par characters, eg. 1, r, \'a3 \tab \tab \tab only fields, these characters should not be
+\par \tab \tab \tab \tab \tab allowed and the changes not saved
+\par 
+\par Add certain fields with too many\tab No changes should be made to the\tab \tab \tab pass
+\par characters - eg. 29 characters in\tab database, and the system must not crash
+\par a field with a maximum of 28
+\par 
+\par Add fields with excessively high\tab Only reasonable values should be allowed, so \tab }{\cf17 fail}{
+\par numbers\tab \tab \tab \tab }{\cf19 no changes should be saved}{
+\par }{\cf17 
+\par }{\cf19 Add fields with negative values\tab Only positive values should be allowed, so no}{\cf17 \tab }{\cf18 fail}{
+\par }{\cf18 \tab \tab \tab \tab \tab }{\cf19 changes should be saved}{
+\par }{\cf19 
+\par Add a CD that already exists in\tab The system should find that the CD already\tab \tab pass}{
+\par }{\cf19 the database\tab \tab \tab \tab exists, and no new entries should be added}{
+\par }{\cf19 
+\par Check all scrollbars within add\tab Each scrollbar - Genre, Type and Supplier\tab \tab pass}{
+\par }{\cf19 CD screen\tab \tab \tab \tab Name - should correctly scroll up and down}{
+\par }{\cf19 \tab \tab \tab \tab \tab and allow all relevant values to be selected}{
+\par }{\cf19 
+\par Add a CD but then select cancel\tab No changes should be made to the database, \tab pass}{
+\par }{\cf19 \tab \tab \tab \tab \tab and the user returned to the main interface}{
+\par }{\cf19 
+\par }{\b\cf19 CUSTOMER}{
+\par }{\b\cf19 
+\par }{Click on 'CUSTOMER' tab\tab \tab CUSTOMER screen is shown\tab \tab \tab \tab pass
+\par 
+\par Scroll through customers\tab \tab Screen should scroll down and show\tab \tab \tab pass
+\par \tab \tab \tab \tab \tab the full collection of customers
+\par 
+\par Click on a customer\tab \tab \tab Customer name and id should be highlighted\tab \tab pass
+\par 
+\par Highlight a customer and \tab \tab New window appears containing the\tab \tab \tab pass
+\par click 'View Details'\tab \tab \tab correct customer information
+\par }{\cf19 
+\par }{\b\cf19 SUPPLIER}{
+\par }{\cf19 
+\par }{Click on 'SUPPLIER' tab\tab \tab SUPPLIER screen is shown\tab \tab \tab \tab pass
+\par 
+\par Scroll through suppliers\tab \tab Screen should scroll down and show\tab \tab \tab pass
+\par \tab \tab \tab \tab \tab the full collection of suppliers
+\par }{\ul \page Test:}{\tab \tab \tab \tab \tab     }{\ul Required Response}{\tab \tab             }{\ul Test passed}{?
+\par 
+\par 
+\par Click on a supplier\tab \tab \tab Supplier name should be highlighted\tab \tab \tab pass
+\par 
+\par Highlight a supplier and click\tab \tab A confirmation screen should appear\tab \tab \tab pass
+\par 'Remove'\tab \tab \tab \tab showing suppler details and asking the
+\par \tab \tab \tab \tab \tab user to confirm the deletion
+\par 
+\par Remove --> Click on 'OK'\tab \tab The user is returned the supplier screen and\tab \tab pass
+\par \tab \tab \tab \tab \tab the supplier is removed from the database\tab 
+\par 
+\par Remove --> Click on 'Cancel'\tab \tab The user is returned the supplier screen and\tab \tab pass
+\par \tab \tab \tab \tab \tab the supplier rem}{\cf20 ains in the database}{
+\par }{\cf20 
+\par Highlight a supplier and click \tab \tab A new window should open showing all\tab \tab pass}{
+\par }{\cf20 'Edit / View Details'\tab \tab \tab of the supplier details}{
+\par }{\cf20 \tab \tab \tab \tab \tab }{
+\par }{\cf20 Slightly edit each individual\tab \tab Any field that is changed should have\tab \tab pass}{
+\par }{\cf20 field within edit screen\tab \tab \tab the new value saved in the database}{
+\par }{\cf20 
+\par Try to edit Supplier ID or Name\tab These fields are protected and no changes\tab \tab pass}{
+\par }{\cf20 \tab \tab \tab \tab \tab should be allowed}{
+\par }{\cf20 
+\par Edit each individual field using \tab All characters should be allowed in each\tab \tab pass}{
+\par }{\cf20 any character - eg. t, 1, \'a3, "\tab \tab field and any changes saved}{
+\par }{\cf20 
+\par }{Add certain fields with too many\tab No changes should be made to the\tab \tab \tab pass
+\par characters - eg. 29 characters in\tab database, and the system must not crash
+\par a field with a maximum of 28
+\par 
+\par }{\cf20 Edit some details but then click\tab The details should not be changed and \tab \tab pass}{
+\par }{\cf20 on cancel\tab \tab \tab \tab the user should return to the main}{
+\par }{\cf20 \tab \tab \tab \tab \tab staff interface}{
+\par }{\cf20 
+\par Select 'Add' a supplier\tab \tab \tab A new window should open containing\tab \tab pass}{
+\par }{\cf20 \tab \tab \tab \tab \tab the new supplier fields to complete}{
+\par }{\cf20 
+\par Add a new supplier containing \tab The supplier should be successfully added\tab \tab pass}{
+\par }{\cf20 valid data in each field\tab \tab \tab to the database}{
+\par }{\cf20 
+\par Add a new supplier with some\tab A message should appear informing the user\tab pass}{
+\par }{\cf20 blank fields\tab \tab \tab \tab that there are blank fields. No changes should}{
+\par }{\cf20 \tab \tab \tab \tab \tab be made to the database}{
+\par }{\cf20 
+\par Add a new supplier which has\tab \tab All characters should be allowed in each\tab \tab pass}{
+\par }{\cf20 fields containing different\tab \tab field and any changes saved. }{
+\par }{\cf20 characters, eg. 1, r, \'a3 \tab \tab \tab }{
+\par }{\cf20 
+\par Add certain fields with too many\tab No changes should be made to the\tab \tab \tab pass}{
+\par }{\cf20 characters - eg. 29 characters in\tab database, and the system must not crash}{
+\par }{\cf20 a field with a maximum of 28
+\par \page }{\ul Test:}{\tab \tab \tab \tab \tab     }{\ul Required Response}{\tab \tab             }{\ul Test passed}{?
+\par }{\cf19 
+\par Add a supplier that already exists \tab The system should find that the supplier \tab \tab pass}{
+\par }{\cf19 in the database\tab \tab \tab already exists in the database, and display}{
+\par }{\cf19 \tab \tab \tab \tab \tab an error message. No new entries should }{
+\par }{\cf19 \tab \tab \tab \tab \tab be added to the database.}{
+\par }{\cf19 
+\par Add a supplier but then select \tab No changes should be made to the database, \tab pass}{
+\par }{\cf19 cancel\tab \tab \tab \tab \tab and the user returned to the main interface}{
+\par }{\cf19 
+\par }{\b\cf19 STAFF}{
+\par }{\b\cf19 
+\par }{\cf19 Check STAFF tab is only \tab \tab Managers logging on should be able to \tab \tab pass}{
+\par }{\cf19 accessible to managers\tab \tab select the STAFF tab. Regular members of }{
+\par }{\cf19 \tab \tab \tab \tab \tab staff should not be able to.}{
+\par }{\cf19 
+\par }{Click on 'STAFF' tab\tab \tab \tab STAFF screen is shown\tab \tab \tab \tab pass
+\par 
+\par Scroll through members\tab \tab Screen should scroll down and show\tab \tab \tab pass
+\par of staff\tab \tab \tab \tab \tab the full list of members of staff
+\par 
+\par Click on a member of staff\tab \tab Staff name and id should be highlighted\tab \tab pass
+\par 
+\par Highlight a member of staff and\tab A confirmation screen should appear\tab \tab \tab pass
+\par click 'Remove'\tab \tab \tab \tab showing staff details and asking the
+\par \tab \tab \tab \tab \tab user to confirm the deletion
+\par 
+\par Remove --> Click on 'OK'\tab \tab The user is returned the staff screen and\tab \tab pass
+\par \tab \tab \tab \tab \tab the member of staff is removed from the
+\par \tab \tab \tab \tab \tab database\tab 
+\par 
+\par Remove --> Click on 'Cancel'\tab \tab The user is returned the staff screen and\tab \tab pass
+\par \tab \tab \tab \tab \tab the member of staff rem}{\cf20 ains in the database}{
+\par }{\cf20 
+\par Highlight a member of staff and \tab A new window should open showing all\tab \tab pass}{
+\par }{\cf20 click 'Edit / View Details'\tab \tab of the staff details}{
+\par }{\cf20 \tab \tab \tab \tab \tab }{
+\par }{\cf20 Slightly edit each individual\tab \tab Any field that is changed should have\tab \tab pass}{
+\par }{\cf20 field within edit screen\tab \tab \tab the new value saved in the database}{
+\par }{\cf20 
+\par Try to edit Staff ID or Name\tab \tab These fields are protected and no changes\tab \tab pass}{
+\par }{\cf20 \tab \tab \tab \tab \tab should be allowed}{
+\par }{\cf20 
+\par Edit each individual field using \tab All characters should be allowed in each\tab \tab pass}{
+\par }{\cf20 any character - eg. t, 1, \'a3, "\tab \tab field and any changes saved}{
+\par }{\cf20 
+\par Add certain fields with too many\tab No changes should be made to the\tab \tab \tab pass}{
+\par }{\cf20 characters - eg. 29 characters in\tab database, and the system must not crash}{
+\par }{\cf20 a field with a maximum of 28
+\par \page }{\ul Test:}{\tab \tab \tab \tab \tab     }{\ul Required Response}{\tab \tab             }{\ul Test passed}{?
+\par }{\cf20 
+\par Edit some details but then click\tab The details should not be changed and \tab \tab pass}{
+\par }{\cf20 on cancel\tab \tab \tab \tab the user should return to the main}{
+\par }{\cf20 \tab \tab \tab \tab \tab staff interface}{
+\par }{\cf20 
+\par Select 'Add' a member of staff\tab A new window should open containing\tab \tab pass}{
+\par }{\cf20 \tab \tab \tab \tab \tab the new staff fields to complete}{
+\par }{\cf20 
+\par Add a new member of staff \tab \tab The member of staff should be successfully\tab \tab pass}{
+\par }{\cf20 with valid data in each field\tab \tab added to the database}{
+\par }{\cf20 
+\par Add a new member of staff\tab \tab A message should appear informing the user\tab pass}{
+\par }{\cf20 with some blank fields\tab \tab \tab that there are blank fields. No changes should}{
+\par }{\cf20 \tab \tab \tab \tab \tab be made to the database}{
+\par }{\cf20 
+\par Add a new member of staff\tab \tab All characters should be allowed in each\tab \tab pass}{
+\par }{\cf20 that has fields containing various\tab field and any changes saved. }{
+\par }{\cf20 different characters, eg. 1, r, \'a3 \tab \tab \tab }{
+\par }{\cf20 
+\par Add certain fields with too many\tab No changes should be made to the\tab \tab \tab pass}{
+\par }{\cf20 characters - eg. 29 characters in\tab database, and the system must not crash}{
+\par }{\cf20 a field with a maximum of 28}{
+\par }{\cf19 
+\par Add a member of staff but then\tab No changes should be made to the database, \tab pass}{
+\par }{\cf19 select cancel\tab \tab \tab \tab and the user returned to the main interface}{
+\par }{\cf19 
+\par }{\b\cf19 STAFF ORDER}{
+\par }{\b\cf19 
+\par }{Click on 'STAFF ORDER' tab\tab \tab STAFF ORDER screen is shown\tab \tab \tab pass
+\par 
+\par Scroll through orders\tab \tab \tab Screen should scroll down and show\tab \tab \tab pass
+\par \tab \tab \tab \tab \tab the full list of orders
+\par 
+\par Click on a member of staff\tab \tab Order id should be highlighted\tab \tab \tab pass
+\par 
+\par }{\cf20 Highlight a an order and\tab  \tab A new window should open showing all\tab \tab pass}{
+\par }{\cf20 click 'View'\tab \tab \tab \tab of the selected staff order details}{
+\par 
+\par }{\cf20 Select 'Add' a staff order\tab \tab A new window should open containing\tab \tab pass}{
+\par }{\cf20 \tab \tab \tab \tab \tab the new staff order fields to complete}{
+\par }{\cf20 
+\par Add an order with all fields\tab \tab The staff order should be successfully \tab \tab pass}{
+\par }{\cf20 correctly filled in\tab \tab \tab added to the database}{
+\par }{\cf20 
+\par Check that stock levels are\tab \tab Following a successful staff order, the\tab \tab pass}{
+\par }{\cf20 correctly updated\tab \tab \tab relevant CD items and the correct}{
+\par }{\cf20 \tab \tab \tab \tab \tab amounts of each item that were ordered }{
+\par }{\cf20 \tab \tab \tab \tab \tab should update in the stock database}{
+\par }{\cf20 \page }{\ul Test:}{\tab \tab \tab \tab \tab     }{\ul Required Response}{\tab \tab             }{\ul Test passed}{?
+\par }{\cf20 
+\par Add an order containing\tab \tab The system should detect that there are\tab \tab pass}{
+\par }{\cf20 incorrect supplier or item \tab \tab no valid IDs entered and no changes }{
+\par }{\cf20 IDs\tab \tab \tab \tab \tab should be saved to the database. The}{
+\par }{\cf20 \tab \tab \tab \tab \tab system must not crash.}{
+\par }{\cf20 
+\par Add an order containing\tab \tab Only integers should be allowed in the\tab \tab pass}{
+\par }{\cf20 correct IDs but a non-\tab \tab \tab quantity field. Any other characters }{
+\par }{\cf20 integer quantity\tab \tab \tab should result in no new order being }{
+\par }{\cf20 \tab \tab \tab \tab \tab saved in the database.}{
+\par }{\cf20 
+\par }{Add an order containing\tab \tab Only reasonable values should be allowed, so \tab }{\cf17 fail}{
+\par }{\cf19 excessively high quantities\tab }{\cf17 \tab }{\cf19 no changes should be saved}{
+\par }{\cf19 
+\par Add an order containing\tab \tab Only positive values should be allowed, so no}{\cf17 \tab }{\cf18 fail}{
+\par }{\cf19 negative quantities}{\cf18 \tab \tab }{\cf19 \tab changes should be made}{
+\par }{\cf19 
+\par Add an order containing a CD\tab \tab The system should find that the given \tab \tab }{\cf18 fail}{
+\par }{\cf19 that is not supplied by the \tab \tab Supplier ID does not actually stock the}{
+\par }{\cf19 stated Supplier ID.\tab \tab \tab given Item ID, and should not allow any}{
+\par }{\cf19 \tab \tab \tab \tab \tab changes to be made to the database.}{
+\par }{\cf19 
+\par }{\b\cf19 SALES FIGURES}{
+\par }{\cf19 
+\par Check SALES FIGURES \tab \tab Managers logging on should be able to \tab \tab pass}{
+\par }{\cf19 tab is only accessible to \tab \tab select the SALES FIGURES tab. Regular  }{
+\par }{\cf19 managers\tab \tab \tab \tab members of staff should not be able to.}{
+\par }{\cf19 
+\par Click on 'SALES FIGURES'\tab \tab SALES FIGURES screen is shown\tab \tab \tab pass}{
+\par }{\cf19 tab}{
+\par }{\cf19 
+\par Ensure date scrollbars work\tab \tab Both date scrollbars should enable the\tab \tab pass}{
+\par }{\cf19 \tab \tab \tab \tab \tab user to select from values of 1 day, 1}{
+\par }{\cf19 \tab \tab \tab \tab \tab week, 1 month, 6 months or 1 year}{
+\par }{\cf19 
+\par Test 'Summary of All Sales'\tab \tab On clicking 'SELECT', a new window\tab \tab \tab pass}{
+\par }{\cf19 \tab \tab \tab \tab \tab should open containing the correct}{
+\par }{\cf19 \tab \tab \tab \tab \tab information. It should be correct for any}{
+\par }{\cf19 \tab \tab \tab \tab \tab time period that is selected. The new}{
+\par }{\cf19 \tab \tab \tab \tab \tab window should contain horizontal}{
+\par }{\cf19 \tab \tab \tab \tab \tab and vertical scrollbars, and should close}{
+\par }{\cf19 \tab \tab \tab \tab \tab when 'X' is clicked on.}{
+\par }{\cf19 
+\par Add new customer orders \tab \tab The system should correctly show any\tab \tab pass}{
+\par }{\cf19 and repeat above test\tab \tab \tab new orders}{
+\par }{\cf19 
+\par Type incorrect Item ID and\tab \tab System must not crash, or show any\tab \tab \tab pass}{
+\par }{\cf19 try to view product sales\tab \tab incorrect information}{
+\par }{\cf19 \page }{\ul Test:}{\tab \tab \tab \tab \tab     }{\ul Required Response}{\tab \tab             }{\ul Test passed}{?
+\par }{\cf19 
+\par Type correct Item ID and\tab \tab System should open a new window\tab \tab \tab pass}{
+\par }{\cf19 try to view product sales\tab \tab that shows a complete history of all}{
+\par }{\cf19 \tab \tab \tab \tab \tab sales of the selected Item ID. This }{
+\par }{\cf19 \tab \tab \tab \tab \tab must show accurate information for}{
+\par }{\cf19 \tab \tab \tab \tab \tab any CD that is entered.}{
+\par }{\cf19 
+\par Add new customer orders \tab \tab The system should correctly show any\tab \tab pass}{
+\par }{\cf19 and repeat above test\tab \tab \tab new orders}{
+\par }{\cf19 
+\par Test 'Summary of All Profits'\tab \tab On clicking 'SELECT', a new window\tab \tab \tab pass}{
+\par }{\cf19 \tab \tab \tab \tab \tab should open containing the correct}{
+\par }{\cf19 \tab \tab \tab \tab \tab information. It should be correct for any}{
+\par }{\cf19 \tab \tab \tab \tab \tab time period that is selected. The new}{
+\par }{\cf19 \tab \tab \tab \tab \tab window should contain horizontal}{
+\par }{\cf19 \tab \tab \tab \tab \tab and vertical scrollbars, and should close}{
+\par }{\cf19 \tab \tab \tab \tab \tab when 'X' is clicked on.}{
+\par }{\cf19 
+\par Add new customer orders \tab \tab The system should correctly show any\tab \tab pass}{
+\par }{\cf19 and repeat above test\tab \tab \tab new orders}{
+\par }{\cf19 
+\par General interface commands \tab \tab All window commands, eg. minimise,  \tab \tab pass}{
+\par }{\cf19 execute correctly\tab \tab \tab close etc. function correctly and will not}{
+\par }{\cf19 \tab \tab \tab \tab \tab cause any system crashes}{
+\par }{\cf19 
+\par 
+\par }{\b\ul\cf19 Failed Tests:}{
+\par }{\ul\cf19 
+\par }{\cf19 \tab The principal failed test was that the system does n
+ot guard against the input of negative numbers, nor against the input of ridiculously large numbers. The drawback of this is that if such numbers are entered into the system, stock levels may become negative and the correct calculation of any profits will
+ 
+be affected. However, this is the staff interface and it would be stressed to staff that they should ensure they are recording accurate figures. Seeing as this is part of their job, it is not unreasonable to expect that all data entering the system should
+ be viable and the system will therefore function correctly.}{
+\par }{\cf19 \tab The only other test failed was that if a CD is ordered in a staff order, but it is not actually supplied by the given supplier ID, the information will still be recorded in the staff order databa
+se but not in the stock database. This could lead to inconsistencies in expected stock levels, as stock that has apparently been ordered is not appearing in the database. The solution to this problem is to make sure that CD items are only ever ordered fro
+m a supplier that actually supplies them! This is a perfectly sensible expectation, and again assuming that the staff know how to do their job there shouldn't be any instances where the database accuracy is compromised.}{
+\par }}

@@ -1,0 +1,13 @@
+Library IEEE;
+Use IEEE.STD_LOGIC_1164.ALL;
+Use IEEE.STD_LOGIC_unsigned.all;
+
+Entity ADDER IS
+Port (a, b : IN STD_LOGIC_VECTOR(1 downto 0); z : OUT STD_LOGIC_VECTOR(3 downto 0));
+END Entity ADDER;
+
+ARCHITECTURE Behavioural OF ADDER IS
+Begin
+	z <= a * b;
+
+END ARCHITECTURE Behavioural;

@@ -1,0 +1,16 @@
+;
+; memfile arse.mem for LogiBLOX symbol 
+; Created on Monday, January 22, 2001 17:02:10
+;
+; Header Section
+RADIX 10
+DEPTH 16
+WIDTH 32
+DEFAULT 0
+;
+; Data Section
+; Specifies data to be stored in different addresses
+; e.g., DATA 0:A, 1:0
+RADIX 16
+DATA
+; end of LogiBLOX memfile

@@ -1,0 +1,139 @@
+CM:  0 error(s) 0 warning(s) found
+CM: c:\fndtn\active\projects\cons_int\data_store_drc.edn Error   L-1/C0 : #0 Error: Trouble reading EDIF file 'c:\fndtn\active\projects\cons_int\data_store_drc.edn'.  (FPGA-EDFN-1) 
+CM: c:\fndtn\active\projects\cons_int\data_store_drc.edn Error   L454/C0 : #0 Error:  Line 454: multiple definition of net 'N20' in view 'view_1'.   (EDFN-39) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L26/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 26   Integer overflow while scanning numeric literal. (VSS-973)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L17/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 17   ROM_TABLE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 31   ROM is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  3 error(s) 0 warning(s) found
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L9/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 9   No selected element named MATRIX_PACKAGE is defined for this prefix.  (VSS-573) 
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L13/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 13   U_LONG_WORD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L16/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 16   The intermediate file for entity DATA_STORE is not in the library bound to WORK.  (VSS-1084) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\cons_int\answer_store_three.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/cons_int/answer_store_three.vhd  line 27   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\cons_int\answer_store_three.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/cons_int/answer_store_three.vhd  line 31   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\cons_int\answer_store_three.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/cons_int/answer_store_three.vhd  line 33   Syntax error.  (VSS-1081) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\cons_int\answer_store_three.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/cons_int/answer_store_three.vhd  line 31   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\cons_int\answer_store_three.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/cons_int/answer_store_three.vhd  line 33   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\cons_int\asm_config_three.vhd Error   L11/C0 : #0 Error: C:/fndtn/active/projects/cons_int/asm_config_three.vhd  line 11   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\cons_int\asm_config_three.vhd Error   L15/C0 : #0 Error: C:/fndtn/active/projects/cons_int/asm_config_three.vhd  line 15   The intermediate file for entity ASM_CONFIG is not in the library bound to WORK.  (VSS-1084) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\cons_int\asm_config_three.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/cons_int/asm_config_three.vhd  line 39   ERROR not covered by choices. (VSS-834)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\cons_int\asm_config_three.vhd Error   L77/C0 : #0 Error: C:/fndtn/active/projects/cons_int/asm_config_three.vhd  line 77   ERROR not covered by choices. (VSS-834)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\cons_int\systems_three.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/cons_int/systems_three.vhd  line 34   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\cons_int\systems_three.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/cons_int/systems_three.vhd  line 36   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\cons_int\systems_three.vhd Error   L37/C0 : #0 Error: C:/fndtn/active/projects/cons_int/systems_three.vhd  line 37   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\cons_int\systems_three.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/cons_int/systems_three.vhd  line 41   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\cons_int\systems_three.vhd Error   L42/C0 : #0 Error: C:/fndtn/active/projects/cons_int/systems_three.vhd  line 42   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\cons_int\systems_three.vhd Error   L53/C0 : #0 Error: C:/fndtn/active/projects/cons_int/systems_three.vhd  line 53   MEM_SEL_BUS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\cons_int\systems_three.vhd Error   L57/C0 : #0 Error: C:/fndtn/active/projects/cons_int/systems_three.vhd  line 57   MEM_SEL_BUS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\cons_int\systems_three.vhd Error   L53/C0 : #0 Error: C:/fndtn/active/projects/cons_int/systems_three.vhd  line 53   Not enough element associations - 5 expected. (VSS-538)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\cons_int\systems_three.vhd Error   L57/C0 : #0 Error: C:/fndtn/active/projects/cons_int/systems_three.vhd  line 57   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\cons_int\systems_three.vhd Error   L53/C0 : #0 Error: C:/fndtn/active/projects/cons_int/systems_three.vhd  line 53   MODE_SEL is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\cons_int\systems_three.vhd Error   L57/C0 : #0 Error: C:/fndtn/active/projects/cons_int/systems_three.vhd  line 57   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\cons_int\systems_three.vhd Error   L57/C0 : #0 Error: C:/fndtn/active/projects/cons_int/systems_three.vhd  line 57   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: c:\fndtn\active\projects\cons_int\asm_config_three.vhd Error   L77/C0 : #0 Error: C:/fndtn/active/projects/cons_int/asm_config_three.vhd  line 77   S_INIT not covered by choices. (VSS-834)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 25   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful

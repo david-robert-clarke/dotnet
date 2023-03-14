@@ -1,0 +1,97 @@
+Compuware COMNET III  Release 2.5.1.324  Wed Apr 25 12:20:41 2001   PAGE     1
+
+                                      ex1                                       
+
+                       CALL SOURCES: BLOCKED CALL COUNTS                        
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+ORIGIN / CALL NAME:                        CALLS    CALLS  BLOCK       HOPS
+  DESTINATION LIST                        ATTEMPTD  RETRY  PROB    AVG     MAX
+________________________________________  ________  _____  _____  ______  _____
+
+Node2 / call Call1:
+  Node4                                          7      0  0.000     1.0      1
+                                          ________  _____  _____  ______  _____
+  SUBTOTAL                                       7      0  0.000     1.0      1
+
+                                          ________  _____  _____  ______  _____
+  Node2 (TOTAL)                                  7      0  0.000     1.0      1
+
+Node4 / call Call5:
+  Node2                                          7      0  0.000     1.0      1
+                                          ________  _____  _____  ______  _____
+  SUBTOTAL                                       7      0  0.000     1.0      1
+
+                                          ________  _____  _____  ______  _____
+  Node4 (TOTAL)                                  7      0  0.000     1.0      1
+
+                                          ________  _____  _____  ______  _____
+                                          ________  _____  _____  ______  _____
+  ** T O T A L S  **                            14      0  0.000     1.0      1
+
+
+Compuware COMNET III  Release 2.5.1.324  Wed Apr 25 12:20:41 2001   PAGE     2
+
+                                      ex1                                       
+
+                     CALL SOURCES: DISCONNECTED CALL COUNTS                     
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+ORIGIN / CALL NAME:                           CALLS     CALLS    CALLS   CALLS
+  DESTINATION LIST                      PRI  ATTEMPTD  CARRIED   DISCON  REROUT
+______________________________________  ___  ________  ________  ______  ______
+
+Node2 / call Call1:                       1
+  Node4                                             7         7       0       0
+                                        ___  ________  ________  ______  ______
+  SUBTOTAL                                          7         7       0       0
+
+                                        ___  ________  ________  ______  ______
+  Node2 (TOTAL)                                     7         7       0       0
+
+Node4 / call Call5:                       1
+  Node2                                             7         7       0       0
+                                        ___  ________  ________  ______  ______
+  SUBTOTAL                                          7         7       0       0
+
+                                        ___  ________  ________  ______  ______
+  Node4 (TOTAL)                                     7         7       0       0
+
+                                        ___  ________  ________  ______  ______
+                                        ___  ________  ________  ______  ______
+  ** T O T A L S  **                               14        14       0       0
+
+
+Compuware COMNET III  Release 2.5.1.324  Wed Apr 25 12:20:41 2001   PAGE     3
+
+                                      ex1                                       
+
+                      CALL SOURCES: PREEMPTED CALL COUNTS                       
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+ORIGIN / CALL NAME:                                CALLS     CALLS      CALLS
+  DESTINATION LIST                          PRI  ATTEMPTED  CARRIED   PREEMPTED
+__________________________________________  ___  _________  ________  _________
+
+Node2 / call Call1:                           1
+  Node4                                                  7         7          0
+                                            ___  _________  ________  _________
+  SUBTOTAL                                               7         7          0
+
+                                            ___  _________  ________  _________
+  Node2 (TOTAL)                                          7         7          0
+
+Node4 / call Call5:                           1
+  Node2                                                  7         7          0
+                                            ___  _________  ________  _________
+  SUBTOTAL                                               7         7          0
+
+                                            ___  _________  ________  _________
+  Node4 (TOTAL)                                          7         7          0
+
+                                            ___  _________  ________  _________
+                                            ___  _________  ________  _________
+  ** T O T A L S  **                                    14        14          0

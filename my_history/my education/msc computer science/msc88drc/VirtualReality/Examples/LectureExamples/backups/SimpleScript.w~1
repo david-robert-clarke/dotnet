@@ -1,0 +1,97 @@
+#VRML V2.0 utf8
+
+DEF TIMER TimeSensor {
+   cycleInterval 100
+   enabled FALSE
+   loop TRUE
+}
+
+
+
+DEF myScript Script{
+    eventIn  SFBool valueChange
+    eventOut SFFloat outputValue
+    eventOut SFInt32 i
+    eventOut SFFloat floater
+         url "javascript:
+            function initialize() {
+               outputValue = 0;
+               i = 0;
+               floater = 0.01
+            }
+            function valueChange(value, ts){
+               if(value){
+                  if(outputValue > 0.5){
+                     outputValue = 0;
+                  }
+                  else {
+                     outputValue = (0.6 * (i*floater));
+                     i++;
+                  }
+               }
+            }"
+}
+
+
+
+
+Transform{
+   scale 1 0.9 1
+   translation -3 0 0
+   children[
+      Shape{
+         geometry Cone{}
+         appearance Appearance{
+            material Material{
+               diffuseColor 0 0 1
+            }
+         }
+      }
+
+      DEF touch TouchSensor{}
+   ]
+}
+Transform{
+    children[
+    	 DEF COLINT ColorInterpolator {
+         key [0, 0.33, 0.66, 1]
+         keyValue [    1 0 0,
+               0 1 0,
+               0 0 1,
+               1 0 0 ]
+               }
+
+      Shape{
+         geometry Box{}
+         appearance Appearance{
+            material DEF boxMaterial Material{
+               diffuseColor 0 1 0
+            }
+         }
+      }
+   ]
+}
+
+#### add the routing to make use of the script
+
+# use the boolean output from the TouchSensor to call
+# valueChange.
+   ROUTE touch.isActive TO myScript.valueChange
+   ROUTE touch.isActive TO TIMER.enabled
+   ROUTE TIMER.fraction_changed TO COLINT.set_fraction
+   ROUTE COLINT.value_changed TO boxMaterial.set_diffuseColor
+
+# route the new value of outputValue to the transparency
+# defined in the Material node.
+   ROUTE myScript.outputValue TO boxMaterial.transparency
+
+
+
+#### add the background
+Background {
+  skyAngle [0.0, 1.1, 1.57]
+  skyColor [0 0 1, 0 0 0.5, 0.8 0.8 1, 0.9 0.9 0.9 ]
+  groundAngle [0.0, 1.1, 1.57]
+  groundColor [0.8 0.8 0.4, 0.8 0.8 0.4, 0.8 0.8 0.7, 0.8 0.8 0.8 ]
+}
+

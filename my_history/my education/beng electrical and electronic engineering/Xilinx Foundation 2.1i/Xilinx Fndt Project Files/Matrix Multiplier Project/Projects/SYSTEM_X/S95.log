@@ -1,0 +1,1240 @@
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L16/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 16   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L19/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 19   The intermediate file for entity DATA_STORAGE_4X4 is not in the library bound to WORK.  (VSS-1084) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 30   Invalid character in bit string literal.  (VSS-964) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 31   Case statement closing name is not allowed when there is no corresponding opening name. (VSS-1083)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L102/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 102   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L102/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 102   Invalid character in bit string literal.  (VSS-964) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L103/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 103   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L103/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 103   Syntax error - keyword IF expected after keyword END.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L104/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 104   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L104/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 104   Syntax error - keyword CASE expected after keyword END.  (VSS-1081) 
+CM:  24 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L16/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 16   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L19/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 19   The intermediate file for entity DATA_STORAGE_4X4 is not in the library bound to WORK.  (VSS-1084) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 30   Invalid character in bit string literal.  (VSS-964) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 31   Case statement closing name is not allowed when there is no corresponding opening name. (VSS-1083)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L102/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 102   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L102/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 102   Invalid character in bit string literal.  (VSS-964) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L103/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 103   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L103/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 103   Syntax error - keyword IF expected after keyword END.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L104/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 104   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L104/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 104   Syntax error - keyword CASE expected after keyword END.  (VSS-1081) 
+CM:  32 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L16/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 16   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L19/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 19   The intermediate file for entity DATA_STORAGE_X is not in the library bound to WORK.  (VSS-1084) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 30   Invalid character in bit string literal.  (VSS-964) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 31   Case statement closing name is not allowed when there is no corresponding opening name. (VSS-1083)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L102/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 102   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L102/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 102   Invalid character in bit string literal.  (VSS-964) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L103/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 103   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L103/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 103   Syntax error - keyword IF expected after keyword END.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L104/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 104   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L104/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 104   Syntax error - keyword CASE expected after keyword END.  (VSS-1081) 
+CM:  32 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 30   Invalid character in bit string literal.  (VSS-964) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 31   Case statement closing name is not allowed when there is no corresponding opening name. (VSS-1083)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L102/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 102   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L102/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 102   Invalid character in bit string literal.  (VSS-964) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L103/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 103   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L103/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 103   Syntax error - keyword IF expected after keyword END.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L104/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 104   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L104/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 104   Syntax error - keyword CASE expected after keyword END.  (VSS-1081) 
+CM:  30 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 31   Case statement closing name is not allowed when there is no corresponding opening name. (VSS-1083)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L102/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 102   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L102/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 102   Invalid character in bit string literal.  (VSS-964) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L103/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 103   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L103/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 103   Syntax error - keyword IF expected after keyword END.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L104/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 104   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L104/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 104   Syntax error - keyword CASE expected after keyword END.  (VSS-1081) 
+CM:  14 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L102/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 102   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L102/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 102   Invalid character in bit string literal.  (VSS-964) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L103/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 103   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L103/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 103   Syntax error - keyword IF expected after keyword END.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L104/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 104   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L104/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 104   Syntax error - keyword CASE expected after keyword END.  (VSS-1081) 
+CM:  13 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L102/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 102   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L103/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 103   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L103/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 103   Syntax error - keyword IF expected after keyword END.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L104/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 104   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L104/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 104   Syntax error - keyword CASE expected after keyword END.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L102/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 102   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L103/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 103   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L103/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 103   Syntax error - keyword IF expected after keyword END.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L104/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 104   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L104/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 104   Syntax error - keyword CASE expected after keyword END.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L102/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 102   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L102/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 102   Invalid character in bit string literal.  (VSS-964) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L103/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 103   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L103/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 103   Syntax error - keyword IF expected after keyword END.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L104/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 104   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L104/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 104   Syntax error - keyword CASE expected after keyword END.  (VSS-1081) 
+CM:  8 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L103/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 103   Invalid character in bit string literal.  (VSS-964) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L105/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 105   Process statement closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L105/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 105   Process statement closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L29/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 29   Type mismatch over assignment operation (Target data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 39   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 41   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L43/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 43   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 45   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L47/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 47   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L49/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 49   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L51/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 51   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L53/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 53   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L55/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 55   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L57/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 57   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L59/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 59   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L61/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 61   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L63/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 63   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L65/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 65   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L67/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 67   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L69/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 69   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L71/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 71   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L73/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 73   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L75/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 75   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L77/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 77   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L79/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 79   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L81/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 81   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L83/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 83   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L85/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 85   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L87/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 87   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L89/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 89   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L91/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 91   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L93/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 93   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L95/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 95   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L97/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 97   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L99/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 99   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L101/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 101   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM:  33 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L29/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 29   Expression is not of the required type; expecting type STD_ULOGIC declared in PACKAGE IEEE.STD_LOGIC_1164. (VSS-791)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L29/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 29   Type mismatch over assignment operation (Target data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 39   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 41   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L43/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 43   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 45   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L47/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 47   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L49/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 49   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L51/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 51   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L53/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 53   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L55/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 55   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L57/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 57   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L59/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 59   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L61/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 61   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L63/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 63   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L65/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 65   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L67/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 67   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L69/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 69   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L71/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 71   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L73/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 73   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L75/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 75   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L77/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 77   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L79/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 79   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L81/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 81   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L83/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 83   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L85/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 85   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L87/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 87   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L89/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 89   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L91/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 91   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L93/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 93   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L95/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 95   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L97/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 97   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L99/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 99   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L101/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 101   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM:  34 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L29/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 29   Type mismatch over assignment operation (Target data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 39   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 41   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L43/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 43   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 45   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L47/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 47   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L49/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 49   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L51/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 51   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L53/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 53   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L55/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 55   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L57/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 57   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L59/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 59   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L61/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 61   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L63/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 63   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L65/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 65   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L67/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 67   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L69/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 69   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L71/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 71   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L73/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 73   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L75/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 75   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L77/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 77   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L79/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 79   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L81/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 81   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L83/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 83   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L85/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 85   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L87/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 87   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L89/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 89   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L91/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 91   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L93/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 93   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L95/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 95   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L97/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 97   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L99/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 99   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L101/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 101   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM:  33 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L29/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 29   Type mismatch over assignment operation (Target data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 39   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 41   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L43/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 43   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 45   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L47/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 47   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L49/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 49   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L51/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 51   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L53/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 53   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L55/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 55   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L57/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 57   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L59/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 59   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L61/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 61   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L63/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 63   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L65/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 65   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L67/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 67   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L69/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 69   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L71/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 71   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L73/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 73   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L75/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 75   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L77/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 77   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L79/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 79   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L81/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 81   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L83/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 83   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L85/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 85   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L87/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 87   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L89/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 89   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L91/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 91   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L93/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 93   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L95/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 95   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L97/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 97   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L99/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 99   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L101/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 101   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM:  33 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L99/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 99   Process statement closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 31   Range 'U' to 'X' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 31   Range 'Z' to '-' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L94/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 94   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 27   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 25   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Warning   L25/C0 : #0 Warning: Initial values for signals are not supported for synthesis. They are ignored  on line 25  (VHDL-2022) 
+CM:  0 error(s) 1 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L98/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 98   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L98/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 98   Syntax error - keyword PROCESS expected.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L101/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 101   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L116/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 116   Syntax error - unexpected end of input.  (VSS-1081) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L118/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 118   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L133/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 133   Syntax error - unexpected end of input.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L40/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 40   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L47/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 47   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L49/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 49   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L51/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 51   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L53/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 53   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L55/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 55   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L57/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 57   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L59/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 59   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L61/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 61   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L63/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 63   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L65/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 65   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L67/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 67   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L69/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 69   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L71/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 71   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L73/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 73   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L75/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 75   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L77/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 77   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L79/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 79   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L81/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 81   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L83/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 83   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L85/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 85   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L87/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 87   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L89/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 89   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L91/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 91   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L93/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 93   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L95/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 95   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L97/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 97   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L99/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 99   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L101/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 101   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L103/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 103   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L105/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 105   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L107/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 107   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L109/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 109   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L111/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 111   Syntax error.  (VSS-1081) 
+CM:  34 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 39   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L46/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 46   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L48/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 48   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L50/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 50   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L52/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 52   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L54/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 54   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 56   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L58/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 58   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L60/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 60   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L62/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 62   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L64/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 64   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L66/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 66   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L68/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 68   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L70/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 70   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L72/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 72   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L74/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 74   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L76/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 76   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L78/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 78   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L80/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 80   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L82/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 82   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L84/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 84   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L86/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 86   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L88/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 88   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L90/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 90   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L92/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 92   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L94/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 94   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L96/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 96   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L98/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 98   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L100/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 100   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L102/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 102   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L104/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 104   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L106/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 106   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L108/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 108   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L110/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 110   Syntax error.  (VSS-1081) 
+CM:  34 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 39   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L53/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 53   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L55/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 55   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L57/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 57   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L59/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 59   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L61/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 61   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L63/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 63   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L65/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 65   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L67/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 67   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L69/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 69   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L71/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 71   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L73/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 73   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L75/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 75   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L77/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 77   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L79/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 79   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L81/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 81   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L83/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 83   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L85/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 85   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L87/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 87   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L89/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 89   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L91/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 91   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L93/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 93   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L95/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 95   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L97/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 97   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L99/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 99   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L101/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 101   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L103/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 103   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L105/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 105   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L107/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 107   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L109/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 109   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L111/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 111   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L113/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 113   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L115/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 115   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L117/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 117   Syntax error.  (VSS-1081) 
+CM:  34 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L127/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 127   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L117/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 117   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L117/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 117   Invalid character in bit string literal.  (VSS-964) 
+CM:  17 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L117/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 117   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L117/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 117   Invalid character in bit string literal.  (VSS-964) 
+CM:  17 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L117/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 117   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L117/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 117   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L118/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 118   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L118/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 118   Invalid character in bit string literal.  (VSS-964) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L118/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 118   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L118/C0 : #0 Error: Empty string constants are not supported for synthesis  on line 118 .  (VHDL-2159) 
+CM:  18 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L118/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 118   Type mismatch over assignment operation (Target data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_ULOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L118/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 118   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L130/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 130   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L130/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 130   Syntax error - keyword IF expected after keyword END.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L14/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 14   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 20   RD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 20   WR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 20   NCS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 20   ADDRESS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 20   DATA is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L23/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 23   NCS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L24/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 24   RD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 25   DATA is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L26/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 26   WR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 27   INTVAL is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 27   DATA is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 30   DATA is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  13 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 25   INTVAL is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 27   INTVAL is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 25   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 27   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 25   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 27   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 25   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 27   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 27   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 28   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 30   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L26/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 26   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 28   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L26/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 26   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 28   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L26/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 26   Type mismatch over assignment operation (Target data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: Anonymous subtype of BIT_VECTOR declared in PACKAGE STD.STANDARD).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 28   Type mismatch over assignment operation (Target data type: Anonymous subtype of BIT_VECTOR declared in PACKAGE STD.STANDARD, Source data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L26/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 26   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 28   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L26/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 26   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 28   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L24/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 24   Process statement closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L99/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 99   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L98/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 98   Array index range length mismatch (string literal too long). (VSS-737)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L38/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 38   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L40/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 40   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L40/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 40   Syntax error - keyword PROCESS expected.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L136/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 136   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L151/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 151   Syntax error - unexpected end of input.  (VSS-1081) 
+CM:  6 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L130/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 130   Process statement closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L124/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 124   Process statement closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 25   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 25   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L24/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 24   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 33   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 25   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 36   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 25   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L24/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 24   RESET is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L35/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 35   RESET is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 27   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L38/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 38   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L126/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 126   Process statement closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L22/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 22   READ_WRITE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 25   Can not update ports of mode IN or LINKAGE. (VSS-798)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 25   Can not update ports of mode IN or LINKAGE. (VSS-798)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 30   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L17/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 17   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L18/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 18   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L22/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 22   The intermediate file for entity DATA_STORE is not in the library bound to WORK.  (VSS-1084) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L15/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 15   Illegal redeclaration of ADDR_1. (VSS-1072)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L22/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 22   The intermediate file for entity DATA_STORE is not in the library bound to WORK.  (VSS-1084) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 25   Discrete range is not consistent with corresponding index subtype (too few elements). (VSS-734)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 25   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 28   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L29/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 29   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 30   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 31   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 32   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 33   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 34   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L35/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 35   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 36   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L37/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 37   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L38/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 38   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 39   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L40/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 40   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 41   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L42/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 42   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L43/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 43   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L44/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 44   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 45   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L46/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 46   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L47/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 47   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L48/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 48   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L49/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 49   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L50/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 50   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L51/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 51   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L52/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 52   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L53/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 53   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L54/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 54   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L55/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 55   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 56   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L57/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 57   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L58/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 58   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L59/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 59   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM:  37 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 28   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L29/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 29   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 30   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 31   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 32   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 33   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 34   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L35/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 35   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 36   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L37/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 37   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L38/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 38   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 39   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L40/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 40   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 41   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L42/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 42   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L43/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 43   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L44/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 44   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 45   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L46/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 46   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L47/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 47   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L48/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 48   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L49/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 49   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L50/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 50   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L51/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 51   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L52/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 52   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L53/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 53   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L54/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 54   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L55/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 55   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 56   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L57/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 57   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L58/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 58   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L59/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 59   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM:  32 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L29/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 29   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 30   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 31   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 32   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 33   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 34   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L35/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 35   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 36   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L37/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 37   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L38/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 38   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 39   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L40/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 40   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 41   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L42/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 42   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L43/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 43   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L44/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 44   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 45   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L46/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 46   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L47/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 47   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L48/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 48   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L49/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 49   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L50/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 50   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L51/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 51   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L52/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 52   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L53/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 53   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L54/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 54   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L55/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 55   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 56   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L57/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 57   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L58/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 58   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L59/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 59   Index expression not of the correct type - INTEGER expected. (VSS-537)  (FPGA-dm-hdlc-unknown) 
+CM:  31 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L7/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 7   Trailing underscore in identifier. (VSS-972)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L7/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 7   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L16/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 16   The intermediate file for entity RAM_STORAGE is not in the library bound to WORK.  (VSS-1084) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L38/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 38   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L38/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 38   Syntax error - keyword PROCESS expected.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L38/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 38   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L38/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 38   Syntax error - keyword PROCESS expected.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L23/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 23   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 32   All possible string values of selector type not covered by choices.  (VSS-1032) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L23/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 23   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 32   All possible string values of selector type not covered by choices.  (VSS-1032) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 32   All possible string values of selector type not covered by choices.  (VSS-1032) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 32   All possible string values of selector type not covered by choices.  (VSS-1032) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L12/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 12   UNSIGNED is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 21   INT_STORAGE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 28   CONV_INTEGER is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 32   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 33   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 34   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L35/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 35   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 36   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L37/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 37   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L38/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 38   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 39   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L40/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 40   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L44/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 44   Type mismatch over assignment operation (Target data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: Anonymous subtype of MEM_ARRAY declared in ARCHITECTURE BEHAVIOURAL).  (VSS-1023) 
+CM:  13 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L22/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 22   INT_STORAGE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L22/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 22   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 33   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 34   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L35/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 35   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 36   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L37/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 37   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L38/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 38   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 39   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L40/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 40   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 41   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 45   Type mismatch over assignment operation (Target data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: Anonymous subtype of MEM_ARRAY declared in ARCHITECTURE BEHAVIOURAL).  (VSS-1023) 
+CM:  12 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 33   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 34   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L35/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 35   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 36   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L37/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 37   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L38/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 38   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 39   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L40/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 40   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 41   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 45   Type mismatch over assignment operation (Target data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: Anonymous subtype of MEM_ARRAY declared in ARCHITECTURE BEHAVIOURAL).  (VSS-1023) 
+CM:  10 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 45   Type mismatch over assignment operation (Target data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: Anonymous subtype of MEM_ARRAY declared in ARCHITECTURE BEHAVIOURAL).  (VSS-1023) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Warning   L23/C0 : #0 Warning: Initial values for signals are not supported for synthesis. They are ignored  on line 23  (VHDL-2022) 
+CM:  0 error(s) 1 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L13/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 13   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 56   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L13/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 13   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 56   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 56   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 56   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 56   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 56   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L49/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 49   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L75/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 75   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L75/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 75   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L75/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 75   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L75/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 75   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L87/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 87   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L87/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 87   Syntax error - keyword CASE expected after keyword END.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L87/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 87   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L87/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 87   Syntax error - keyword CASE expected after keyword END.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L69/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 69   Can not determine type of right hand side.  The following interpretations were considered for the right hand side:   (none). (VSS-1049)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L74/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 74   Expression is not of the required type; expecting type STD_LOGIC_VECTOR declared in ENTITY RAM_STORAGE. (VSS-791)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L75/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 75   Type mismatch over assignment operation (Target data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: Anonymous subtype of MEM_ARRAY declared in ARCHITECTURE BEHAVIOURAL).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L76/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 76   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L77/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 77   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L78/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 78   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L79/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 79   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L80/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 80   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L81/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 81   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L82/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 82   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L72/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 72   Range 'U' to 'X' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L72/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 72   Range 'Z' to '-' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM:  12 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L69/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 69   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L71/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 71   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L71/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 71   Syntax error - keyword CASE expected after keyword END.  (VSS-1081) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L76/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 76   Expression is not of the required type; expecting type STD_LOGIC_VECTOR declared in ENTITY RAM_STORAGE. (VSS-791)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L77/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 77   Type mismatch over assignment operation (Target data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: Anonymous subtype of MEM_ARRAY declared in ARCHITECTURE BEHAVIOURAL).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L78/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 78   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L79/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 79   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L80/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 80   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L81/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 81   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L82/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 82   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L83/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 83   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L84/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 84   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L74/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 74   Range 'U' to 'X' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L74/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 74   Range 'Z' to '-' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM:  11 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L76/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 76   Expression is not of the required type; expecting type STD_LOGIC_VECTOR declared in ENTITY RAM_STORAGE. (VSS-791)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L77/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 77   Type mismatch over assignment operation (Target data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: Anonymous subtype of MEM_ARRAY declared in ARCHITECTURE BEHAVIOURAL).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L78/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 78   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L79/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 79   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L80/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 80   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L81/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 81   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L82/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 82   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L83/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 83   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L84/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 84   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L74/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 74   Range 'U' to 'X' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L74/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 74   Range 'Z' to '-' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM:  11 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L77/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 77   Expression is not of the required type; expecting type STD_LOGIC_VECTOR declared in ENTITY RAM_STORAGE. (VSS-791)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L78/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 78   Type mismatch over assignment operation (Target data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: Anonymous subtype of MEM_ARRAY declared in ARCHITECTURE BEHAVIOURAL).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L79/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 79   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L80/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 80   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L81/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 81   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L82/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 82   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L83/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 83   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L84/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 84   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L85/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 85   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L74/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 74   Range 'U' to 'X' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L74/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 74   Range 'Z' to '-' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM:  11 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L77/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 77   Expression is not of the required type; expecting type STD_LOGIC_VECTOR declared in ENTITY RAM_STORAGE. (VSS-791)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L78/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 78   Type mismatch over assignment operation (Target data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: Anonymous subtype of MEM_ARRAY declared in ARCHITECTURE BEHAVIOURAL).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L79/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 79   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L80/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 80   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L81/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 81   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L82/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 82   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L83/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 83   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L84/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 84   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L85/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 85   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L74/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 74   Range 'U' to 'X' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L74/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 74   Range 'Z' to '-' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM:  11 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L74/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 74   Expression is not of the required type; expecting type STD_ULOGIC declared in PACKAGE IEEE.STD_LOGIC_1164. (VSS-791)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L77/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 77   Expression is not of the required type; expecting type STD_LOGIC_VECTOR declared in ENTITY RAM_STORAGE. (VSS-791)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L78/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 78   Type mismatch over assignment operation (Target data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: Anonymous subtype of MEM_ARRAY declared in ARCHITECTURE BEHAVIOURAL).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L79/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 79   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L80/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 80   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L81/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 81   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L82/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 82   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L83/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 83   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L84/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 84   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L85/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 85   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L74/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 74   Range 'U' to '0' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L74/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 74   Range 'Z' to '-' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM:  12 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L77/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 77   Expression is not of the required type; expecting type STD_LOGIC_VECTOR declared in ENTITY RAM_STORAGE. (VSS-791)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L78/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 78   Type mismatch over assignment operation (Target data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: Anonymous subtype of MEM_ARRAY declared in ARCHITECTURE BEHAVIOURAL).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L79/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 79   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L80/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 80   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L81/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 81   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L82/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 82   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L83/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 83   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L84/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 84   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L85/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 85   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L74/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 74   Range 'U' to 'X' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L74/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 74   Range 'Z' to '-' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM:  11 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L74/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 74   Range 'U' to 'X' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L74/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 74   Range 'Z' to '-' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L82/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 82   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L82/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 82   Syntax error - keyword CASE expected after keyword END.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L76/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 76   Expression is not of the required type; expecting type STD_LOGIC_VECTOR declared in ENTITY RAM_STORAGE. (VSS-791)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L77/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 77   Type mismatch over assignment operation (Target data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: Anonymous subtype of MEM_ARRAY declared in ARCHITECTURE BEHAVIOURAL).  (VSS-1023) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L76/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 76   All possible string values of selector type not covered by choices.  (VSS-1032) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L76/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 76   Expression is not of the required type; expecting type STD_LOGIC_VECTOR declared in ENTITY RAM_STORAGE. (VSS-791)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L76/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 76   All possible string values of selector type not covered by choices.  (VSS-1032) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L76/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 76   Expression is not of the required type; expecting type STD_LOGIC_VECTOR declared in ENTITY RAM_STORAGE. (VSS-791)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L76/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 76   All possible string values of selector type not covered by choices.  (VSS-1032) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L76/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 76   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L76/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 76   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L76/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 76   All possible string values of selector type not covered by choices.  (VSS-1032) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L76/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 76   All possible string values of selector type not covered by choices.  (VSS-1032) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L114/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 114   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L111/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 111   Choice is already covered by a previous choice. (VSS-1028)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L76/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 76   Array index range length mismatch (string literal too long). (VSS-737)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L76/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 76   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L111/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 111   Array index range length mismatch (string literal too long). (VSS-737)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L111/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 111   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L136/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 136   Array index range length mismatch (string literal too long). (VSS-737)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L136/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 136   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM:  6 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 27   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L35/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 35   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L40/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 40   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 45   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L50/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 50   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L55/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 55   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L60/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 60   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L65/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 65   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L70/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 70   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L72/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 72   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L72/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 72   Syntax error - keyword PROCESS expected.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L161/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 161   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L162/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 162   Syntax error - unexpected end of input.  (VSS-1081) 
+CM:  13 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 25   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L160/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 160   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L160/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 160   Syntax error - keyword PROCESS expected.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L166/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 166   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L167/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 167   Syntax error - unexpected end of input.  (VSS-1081) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\system_x\ram_storage.vhd Error   L23/C0 : #0 Error: C:/fndtn/active/projects/system_x/ram_storage.vhd  line 23   STARTUP is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful

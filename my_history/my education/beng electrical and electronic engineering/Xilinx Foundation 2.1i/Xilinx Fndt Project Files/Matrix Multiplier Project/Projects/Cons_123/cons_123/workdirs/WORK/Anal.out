@@ -1,0 +1,13 @@
+C:/fndtn/active/projects/cons_123/system_3.vhd:
+DSP_Three    : DSP_CONFIG_3  PORT MAP  (CLK => CLK, RESET => RESET,
+                             ^
+**Error: C:/fndtn/active/projects/cons_123/system_3.vhd  line 54
+	Not enough element associations - 23 expected. (VSS-538)
+Data_Store_Three  : Data_Store   PORT MAP (DATA => Elem_DBUS);
+                                 ^
+**Error: C:/fndtn/active/projects/cons_123/system_3.vhd  line 66
+	Not enough element associations - 2 expected. (VSS-538)
+Asm_Config_Three  : Asm_Config PORT MAP (CLK => CLK, RESET => RESET, MEM_SEL_OUT => Mem_SelBus);
+                                                                                    ^
+**Error: C:/fndtn/active/projects/cons_123/system_3.vhd  line 68
+	Actual designator not of the correct type - STD_LOGIC_VECTOR expected. (VSS-543)

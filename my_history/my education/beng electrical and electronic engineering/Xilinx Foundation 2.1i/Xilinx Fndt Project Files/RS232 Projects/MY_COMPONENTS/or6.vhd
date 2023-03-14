@@ -1,0 +1,16 @@
+-- Created by David Clarke for the RS232 assignment
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity OR6 is
+    port (a : in STD_LOGIC; b : in STD_LOGIC; c: in STD_LOGIC; 
+          d : in STD_LOGIC; e : in STD_LOGIC; f: in STD_LOGIC;
+          z: out STD_LOGIC);
+end OR6;
+
+architecture behavioural of OR6 is
+begin
+  
+  z <= a or b or c or d or e or f;
+  
+end behavioural;

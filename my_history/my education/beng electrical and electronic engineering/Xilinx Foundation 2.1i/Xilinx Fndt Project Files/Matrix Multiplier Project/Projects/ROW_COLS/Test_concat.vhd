@@ -1,0 +1,16 @@
+-- Final Year Project
+-- David Clarke
+Library IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_ARITH.ALL;
+
+ENTITY DAVE IS
+PORT (A, B : IN STD_ULOGIC; Z : OUT UNSIGNED (1 downto 0));
+END ENTITY DAVE;
+
+ARCHITECTURE BEHAVIOURAL OF DAVE IS
+BEGIN
+     Z <= (a & '0') + (a & '0');
+     
+     END ARCHITECTURE;
+     

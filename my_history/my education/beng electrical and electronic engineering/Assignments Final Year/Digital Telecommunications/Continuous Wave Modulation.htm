@@ -1,0 +1,2801 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0064)http://benedick.aston.ac.uk:8080/tutorials/paths/cwm/entire_html -->
+<HTML><HEAD><TITLE>Continuous Wave Modulation</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252"><LINK 
+href="Continuous Wave Modulation_files/main.css" type=text/css rel=stylesheet>
+<META content=INDEX,NOFOLLOW name=ROBOTS>
+<META content="" name=keywords>
+<META content="" name=description>
+<META content="" name=author>
+<META content="MSHTML 6.00.2462.0" name=GENERATOR></HEAD>
+<BODY class=seas text=#003366 vLink=#000080 aLink=#000080 link=#000080 
+bgColor=white>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD class=header colSpan=5 height=24>Aston University <B>School of 
+      Engineering &amp; Applied Science</B> <BR>Telecoms and Internet Tutorials 
+    </TD>
+    <TD class=header align=right><A title="Aston University Home" 
+      href="http://www.aston.ac.uk/"><IMG height=24 alt="Aston University Home" 
+      hspace=1 src="Continuous Wave Modulation_files/corp-home_f01.gif" width=24 
+      border=0 name=corphome></A> <A title="Aston University Information" 
+      href="http://www.aston.ac.uk/aston/info"><IMG height=24 
+      alt="Aston University Information" hspace=1 
+      src="Continuous Wave Modulation_files/corp-info_f01.gif" width=24 border=0 
+      name=corpinfo></A> <A title="Aston University Web Search" 
+      href="http://www.aston.ac.uk/search/"><IMG height=24 
+      alt="Aston University Web Search" hspace=1 
+      src="Continuous Wave Modulation_files/corp-map_f01.gif" width=24 border=0 
+      name=corpmap></A> <A title="Aston University Contact and Communications" 
+      href="http://www.aston.ac.uk/contact"><IMG height=24 
+      alt="Aston University Contact and Communications" hspace=1 
+      src="Continuous Wave Modulation_files/corp-contact_f01.gif" width=24 
+      border=0 name=corpcontact></A> </TD></TR></TBODY></TABLE>
+<TABLE class=topmenu cellSpacing=1 cellPadding=2 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD class=navoff vAlign=top align=middle width="25%"><A 
+      title="Tutorial Home" 
+      href="http://benedick.aston.ac.uk:8080/tutorials">Home</A></TD>
+    <TD class=navoff vAlign=top align=middle width="25%"><A 
+      title="Learning Paths" 
+      href="http://benedick.aston.ac.uk:8080/tutorials/paths">Paths</A></TD>
+    <TD class=navoff vAlign=top align=middle width="25%"><A title="All Topics" 
+      href="http://benedick.aston.ac.uk:8080/tutorials/list">Topics</A></TD>
+    <TD class=navoff vAlign=top align=middle width="25%">
+      <FORM action=http://benedick.aston.ac.uk:8080/tutorials/search 
+      method=get>Search <INPUT size=15 name=PrincipiaSearchSource> 
+  </FORM></TD></TR></TBODY></TABLE>
+<H1 class=title>Continuous Wave Modulation </H1>
+<P><A 
+href="http://benedick.aston.ac.uk:8080/tutorials/paths/cwm/index_html">View 
+Tutorial Path Index</A></P>
+<H2>Continuous Wave Modulation</H2>
+<P>A look in detail at amplitude modulation and angle modulation using a 
+sinusoidal carrier. </P>
+<HR>
+
+<DL>
+  <H3>DSB-SC Modulation</H3>
+  <P>On completing this section you should be able to graphically and 
+  mathematically describe the double sideband suppressed carrier (DSB-SC) signal 
+  in time and frequency domains and describe how such signals are modulated and 
+  demodulated</P>
+  <P>
+  <P><IMG height=91 alt="wpeE.jpg (4282 bytes)" 
+  src="Continuous Wave Modulation_files/DSB-SC7.jpg" width=336 
+  align=right>Double sideband suppressed carrier (DSB-SC) is the simplest form 
+  of amplitude modulation where we take a baseband signal <IMG height=22 
+  alt="wpe8.jpg (949 bytes)" src="Continuous Wave Modulation_files/DSB-SC8.jpg" 
+  width=39 align=middle> and multiply it by a sinusoidal carrier signal <IMG 
+  height=22 alt="wpe6.jpg (1200 bytes)" 
+  src="Continuous Wave Modulation_files/DSB-SC9.jpg" width=96 align=middle>: the 
+  resulting signal <IMG height=22 alt="wpe7.jpg (1453 bytes)" 
+  src="Continuous Wave Modulation_files/DSB-SC10.jpg" width=125 align=middle> is 
+  in effect a sinusoidal signal whose amplitude is proportional to <IMG 
+  height=22 alt="wpe8.jpg (949 bytes)" 
+  src="Continuous Wave Modulation_files/DSB-SC8.jpg" width=39 align=middle>. 
+  This process is represented in the figure right. The frequency <EM><FONT 
+  face=Symbol>w</FONT><SUB>c</SUB></EM> is called the carrier frequency. In 
+  amplitude modulation the&nbsp; carrier frequency is generally much greater 
+  than the baseband frequency, <EM><FONT 
+  face=Symbol>w</FONT><SUB>c</SUB></EM>&gt;&gt;<EM><FONT 
+  face=Symbol>w</FONT><SUB>m</SUB></EM>.The process of multiplication of a 
+  signal <IMG height=22 alt="wpe8.jpg (949 bytes)" 
+  src="Continuous Wave Modulation_files/DSB-SC8.jpg" width=39 align=middle> by a 
+  sinusoidal carrier is referred to as <STRONG>heterodyning</STRONG> or 
+  <STRONG>mixing</STRONG>. This technique does not produce any resulting 
+  component at the carrier frequency hence the term <STRONG>double sideband 
+  suppressed carrier</STRONG>. </P>
+  <P></P>
+  <P>
+  <P>In the frequency domain if we start with the double sided spectrum of <IMG 
+  height=22 alt="wpe8.jpg (949 bytes)" 
+  src="Continuous Wave Modulation_files/DSB-SC8.jpg" width=39 align=middle>, 
+  then the frequencies which were originally positive and negative are 
+  translated to positive frequencies in the spectrum of <EM><FONT 
+  face=Symbol>f</FONT>(t)</EM>. The implication is that the bandwidth of the 
+  signal is doubled by DSB-SC modulation. On the positive frequency side the 
+  part of the spectrum between <EM><FONT face=Symbol>w</FONT><SUB>c 
+  </SUB></EM>and <EM><FONT face=Symbol>w</FONT><SUB>c</SUB></EM>+<EM><FONT 
+  face=Symbol>w</FONT><SUB>m</SUB></EM>. is called the <STRONG>upper 
+  sideband</STRONG>, and the part between<EM><FONT face=Symbol>w</FONT><SUB>c 
+  </SUB></EM>and <EM><FONT face=Symbol>w</FONT><SUB>c</SUB><FONT 
+  face=Symbol>-w</FONT><SUB>m</SUB></EM>. is called the <STRONG>lower 
+  sideband</STRONG>. These components of course appear also on the negative 
+  frequency side of the spectrum where the upper sideband is between <EM><FONT 
+  face=Symbol>-w</FONT><SUB>c </SUB></EM>and <EM><FONT 
+  face=Symbol>-w</FONT><SUB>c</SUB><FONT face=Symbol>-w</FONT><SUB>m</SUB></EM> 
+  and the lower sideband is between <EM><FONT face=Symbol>-w</FONT><SUB>c 
+  </SUB></EM>and <EM><FONT face=Symbol>-w</FONT><SUB>c</SUB><FONT 
+  face=Symbol>+w</FONT><SUB>m</SUB></EM>. This is shown below.</P>
+  <DIV align=center>
+  <CENTER>
+  <P></P>
+  <P>
+  <TABLE cellPadding=0 border=0>
+    <TBODY>
+    <TR>
+      <TD width="50%"><IMG height=127 alt="wpeF.jpg (3042 bytes)" 
+        src="Continuous Wave Modulation_files/DSB-SC11.jpg" width=133>
+        <P><STRONG>Original double spectrum</STRONG></P></TD>
+      <TD width="50%"><IMG height=129 alt="wpe10.jpg (5240 bytes)" 
+        src="Continuous Wave Modulation_files/DSB-SC12.jpg" width=225>
+        <P><STRONG>Modulated 
+  Spectrum</STRONG></P></TD></TR></TBODY></TABLE></CENTER></P></DIV>
+  <P></P>
+  <P>
+  <P>Recovery of the baseband signal from the modulated signal requires that the 
+  DSB-SC signal be translated in frequency to shift the spectrum of <IMG 
+  height=22 alt="wpe8.jpg (949 bytes)" 
+  src="Continuous Wave Modulation_files/DSB-SC8.jpg" width=39 align=middle> to 
+  its original position. This is called <STRONG>demodulation</STRONG>. It is 
+  achieved by multiplying the transmitted signal <EM><FONT 
+  face=Symbol>f</FONT>(t)</EM> by the carrier <IMG height=24 
+  alt="wpe12.jpg (886 bytes)" 
+  src="Continuous Wave Modulation_files/DSB-SC13.jpg" width=50 align=middle>once 
+  again giving the resultant</P>
+  <P></P>
+  <P>
+  <P><IMG height=26 alt="wpe13.jpg (2613 bytes)" 
+  src="Continuous Wave Modulation_files/DSB-SC14.jpg" width=273></P>
+  <P></P>
+  <P>
+  <P>for which we have used a trigonometrical identity. Taking the Fourier 
+  transform of both sides we get the spectrum</P>
+  <P></P>
+  <P>
+  <P><IMG height=187 alt="wpe15.jpg (10770 bytes)" 
+  src="Continuous Wave Modulation_files/DSB-SC15.jpg" width=483></P>
+  <P></P>
+  <P>
+  <P><IMG height=99 alt="wpe16.jpg (8061 bytes)" 
+  src="Continuous Wave Modulation_files/DSB-SC16.jpg" width=558 align=right>We 
+  see that this spectrum has components at the original baseband frequency and 
+  at 2<EM><FONT face=Symbol>w</FONT><SUB>c</SUB>t</EM>, twice the carrier 
+  frequency. A low pass filter can then be used to remove the wanted components 
+  leaving the original signal. The demodulation process is illustrated 
+right.</P>
+  <P></P>
+  <P>
+  <TABLE cellPadding=0 border=0>
+    <TBODY>
+    <TR>
+      <TD width="50%">As an example of the process of DSB-SC modulation and 
+        demodulation we shall take the case of a sinusoidal <STRONG>baseband 
+        signal</STRONG>.</TD>
+      <TD><IMG height=123 alt="wpe17.jpg (3957 bytes)" 
+        src="Continuous Wave Modulation_files/DSB-SC17.jpg" width=240></TD></TR>
+    <TR>
+      <TD width="50%">Multiplying this by the carrier produces the following 
+        <STRONG>modulated signal</STRONG></TD>
+      <TD><IMG height=122 alt="wpe18.jpg (7585 bytes)" 
+        src="Continuous Wave Modulation_files/DSB-SC18.jpg" width=240></TD></TR>
+    <TR>
+      <TD width="50%">The <STRONG>demodulated signal</STRONG> has components 
+        has a high frequency component at twice the carrier. Filtering this 
+        recreates the low frequency baseband signal as shown here.</TD>
+      <TD><IMG height=123 alt="wpe19.jpg (5708 bytes)" 
+        src="Continuous Wave Modulation_files/DSB-SC19.jpg" 
+    width=240></TD></TR></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:16.64 GMT+1</I></P>
+  <H3>DSB-SC Synchronous Demodulation</H3>
+  <P>On completing this section you should be able to describe and explain the 
+  effects of phase and frequency error on synchronous detection of DSB-SC 
+  signals</P>
+  <P>
+  <P>Demodulation of a DSB-SC signal invariably takes place at a receiver 
+  located some distance from the transmitter. Consequently it is necessary to 
+  generate the carrier at the receiver. Although the principle of demodulation 
+  of DSB-SC signals is very straightforward it is very sensitive to any phase or 
+  frequencies in the locally generated carrier. This can be shown by introducing 
+  a small frequency error <FONT face=Symbol><EM>Dw</EM></FONT> and phase error 
+  <EM><FONT face=Symbol>f</FONT></EM><SUB>0</SUB> into the locally generated 
+  carrier. The demodulator then gives the output signal</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=62 alt="wpe2.jpg (6286 bytes)" 
+  src="Continuous Wave Modulation_files/DSB-SC1.jpg" width=551></P>
+  <P></P>
+  <P>
+  <P>Again we have a component at twice the carrier frequency which can be 
+  removed by a low pass filter to give the overall output at the demodulator as 
+  </P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=27 alt="wpe4.jpg (2016 bytes)" 
+  src="Continuous Wave Modulation_files/DSB-SC2.jpg" width=195></P>
+  <P></P>
+  <P>
+  <P>Consequently, if we consider the case where there is only a phase error, 
+  and <FONT face=Symbol><EM>Dw</EM></FONT> =0, then we have</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=27 alt="wpe6.jpg (1653 bytes)" 
+  src="Continuous Wave Modulation_files/DSB-SC3.jpg" width=142></P>
+  <P></P>
+  <P>
+  <P>The presence of <STRONG>a phase error causes a variable gain factor in the 
+  output signal</STRONG>. If this is small it is no problem, but if <EM><FONT 
+  face=Symbol>f</FONT></EM><SUB>0</SUB>-&gt;<FONT face=Symbol>p</FONT>/2 the the 
+  received signal amplitude can go to zero. In practice a fixed phase error can 
+  be removed simply by passing the local generated carrier through a phase 
+  shifter. However random fluctuations in phase may give rise to a randomly 
+  fluctuating output signal amplitude and unacceptable performance.</P>
+  <P></P>
+  <P>
+  <P>Now if we consider the case where there is only a frequency error, and 
+  <EM><FONT face=Symbol>f</FONT></EM><SUB>0</SUB>=0 then</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=25 alt="wpe7.jpg (1828 bytes)" 
+  src="Continuous Wave Modulation_files/DSB-SC4.jpg" width=159></P>
+  <P></P>
+  <P>
+  <P>A <STRONG>frequency error causes the output to be multiplied by a low 
+  frequency sinusoidal frequency</STRONG>,&nbsp; resulting in unacceptable 
+  performance if <FONT face=Symbol><EM>Dw </EM></FONT>is comparable with the 
+  frequencies present in the baseband signal (referred to as warbling). For 
+  telephony and radio systems a frequency error of &lt;30Hz is usually 
+  required.</P>
+  <P></P>
+  <P>
+  <P>Thus, the process whereby demodulation is carried out by a second 
+  multiplication requires that the carrier available at the receiver by 
+  precisely synchronous with the carrier used in the modulation process, it is 
+  therefore referred to as <STRONG>synchronous</STRONG> or 
+  <STRONG>coherent</STRONG> detection. Strictly speaking the locally generated 
+  carrier need not be sinusoidal, it is essential that it be periodic at 
+  precisely the same frequency as the original carrier.</P>
+  <P></P>
+  <P>
+  <P>Sometimes more complicated techniques are used to recover the carrier 
+  frequency from the received DSB-SC signal. One example is to use a non-linear 
+  device such as a square law device as shown here.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=49 alt="wpeF.jpg (5933 bytes)" 
+  src="Continuous Wave Modulation_files/DSB-SC5.jpg" width=517></P>
+  <P></P>
+  <P>
+  <P>The output of the square law device is given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=62 alt="wpe10.jpg (6048 bytes)" 
+  src="Continuous Wave Modulation_files/DSB-SC6.jpg" width=533></P>
+  <P></P>
+  <P>
+  <P>As can be seen this contains a component at exactly twice the carrier 
+  frequency. Filtering out this component and dividing by two will give a 
+  synchronous signal which can be used as the locally generated carrier and 
+  multiplied by the received signal.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:16.515 GMT+1</I></P>
+  <H3>DSB-AM Modulation</H3>
+  <P>On completing this section you should be able to&nbsp; graphically and 
+  mathematically describe the double sideband amplitude modulated (DSB-AM) 
+  signal in time and frequency domains and describe how such signals are 
+  modulated and demodulated</P>
+  <P>
+  <P>Recovery of the baseband signal from a DSB-SC signal is made more difficult 
+  by the absence of the carrier wave at the receiver. One way of overcoming this 
+  is to transmit a relatively low power <STRONG>pilot tone</STRONG> carrying the 
+  carrier frequency and phase information which can be used to simplify 
+  demodulation. The pilot tone must be transmitted outside the frequency band 
+  occupied by the modulated signal. If the low frequency response in the signal 
+  is unimportant (e.g. in audio) then the carrier can be transmitted within the 
+  same spectral band as the DSB-SC signal considerably simplifying detection. 
+  This is referred to as <STRONG>double sideband amplitude modulation</STRONG> 
+  (DSB-AM).</P>
+  <P></P>
+  <P>
+  <P>The modulated DSB-AM signal is found simply by adding a carrier term of 
+  amplitude <EM>A<SUB>c</SUB></EM> to a DSB-SC giving</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=27 alt="wpe11.jpg (1890 bytes)" 
+  src="Continuous Wave Modulation_files/DSBAM7.jpg" width=188></P>
+  <P></P>
+  <P>
+  <P>The Fourier transform of this consists of the DSB-SC signal together with 
+  the delta functions corresponding to the carrier frequency. The different 
+  signals in time and frequency are illustrated below.</P>
+  <P></P>
+  <P>
+  <TABLE cellPadding=0 border=0>
+    <TBODY>
+    <TR>
+      <TH vAlign=top width="33%"></TH>
+      <TH>Time</TH>
+      <TH>Frequency</TH></TR>
+    <TR>
+      <TH vAlign=top width="33%">The modulating signal</TH>
+      <TD><IMG height=144 alt="wpe14.jpg (3386 bytes)" 
+        src="Continuous Wave Modulation_files/DSBAM8.jpg" width=147></TD>
+      <TD><IMG height=137 alt="wpe1A.jpg (2240 bytes)" 
+        src="Continuous Wave Modulation_files/DSBAM9.jpg" width=76></TD></TR>
+    <TR>
+      <TH vAlign=top width="33%">The sinusoidal carrier signal</TH>
+      <TD><IMG height=163 alt="wpe1B.jpg (7553 bytes)" 
+        src="Continuous Wave Modulation_files/DSBAM10.jpg" width=146></TD>
+      <TD><IMG height=105 alt="wpe1C.jpg (2343 bytes)" 
+        src="Continuous Wave Modulation_files/DSBAM11.jpg" width=124></TD></TR>
+    <TR>
+      <TH vAlign=top width="33%">The DSB-SC signal</TH>
+      <TD><IMG height=173 alt="wpe1D.jpg (5855 bytes)" 
+        src="Continuous Wave Modulation_files/DSBAM12.jpg" width=149></TD>
+      <TD><IMG height=100 alt="wpe1E.jpg (3150 bytes)" 
+        src="Continuous Wave Modulation_files/DSBAM13.jpg" width=158></TD></TR>
+    <TR>
+      <TH vAlign=top width="33%">The DSB-AM Signal</TH>
+      <TD><IMG height=188 alt="wpe26.jpg (8964 bytes)" 
+        src="Continuous Wave Modulation_files/DSBAM16.jpg" width=179></TD>
+      <TD><IMG height=147 alt="wpe20.jpg (5941 bytes)" 
+        src="Continuous Wave Modulation_files/DSBAM15.jpg" 
+    width=179></TD></TR></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:16.312 GMT+1</I></P>
+  <H3>DSB-SC Modulation</H3>
+  <P>On completing this section you should be able to calculate the modulation 
+  index for DSB-AM signals and appreciate its relevance.</P>
+  <P>
+  <P>If we consider the&nbsp; DSB-AM of a sinusoidal baseband signal of the form 
+  <IMG height=22 alt="wpe28.jpg (1378 bytes)" 
+  src="Continuous Wave Modulation_files/Modula17.jpg" width=124 align=middle> to 
+  which we are adding a carrier component of amplitude <EM>A<SUB>c</SUB></EM> 
+  then the modulated signal is of the form</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=57 alt="wpe29.jpg (3057 bytes)" 
+  src="Continuous Wave Modulation_files/Modula18.jpg" width=216></P>
+  <P></P>
+  <P>
+  <P>where <EM>m</EM> is the <STRONG>modulation index</STRONG> defined as the 
+  ratio of the peak amplitude of the modulating signal to the peak amplitude of 
+  the carrier</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=46 alt="wpe2A.jpg (1145 bytes)" 
+  src="Continuous Wave Modulation_files/Modula19.jpg" width=54></P>
+  <P></P>
+  <P>
+  <P>Alternatively we can write the modulation index in terms of the maximum and 
+  minimum amplitude of the transmitted signal given respectively by.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=22 alt="wpe2B.jpg (1679 bytes)" 
+  src="Continuous Wave Modulation_files/Modula20.jpg" width=174><BR><IMG 
+  height=22 alt="wpe2C.jpg (1594 bytes)" 
+  src="Continuous Wave Modulation_files/Modula21.jpg" width=172></P>
+  <P></P>
+  <P>
+  <P>The ratio of these gives </P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=46 alt="wpe2D.jpg (1615 bytes)" 
+  src="Continuous Wave Modulation_files/Modula22.jpg" width=87></P>
+  <P></P>
+  <P>
+  <P>from which we determine the modulation index to be given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=46 alt="wpe2E.jpg (1902 bytes)" 
+  src="Continuous Wave Modulation_files/Modula23.jpg" width=135></P>
+  <P></P>
+  <P>
+  <P>Shown below are the modulated signals for different values of modulation 
+  index.</P>
+  <P></P>
+  <P>
+  <TABLE cellPadding=0 border=0>
+    <TBODY>
+    <TR>
+      <TD vAlign=top><EM>m</EM>&gt;1: <STRONG>overmodulated</STRONG>
+        <P>In this case the carrier is small. As can bee seen&nbsp; the envelope 
+        crosses over the origin corresponding to a phase reversal. Envelope 
+        detection will not demodulate the signal although more complicated 
+        demodulation techniques can be used.</P></TD>
+      <TD><IMG height=130 alt="wpe31.jpg (9420 bytes)" 
+        src="Continuous Wave Modulation_files/Modula24.jpg" width=262></TD></TR>
+    <TR>
+      <TD vAlign=top><EM>m</EM>=1
+        <P>This corresponds to having a carrier component just large enough such 
+        that the envelope of the modulated waveform is an exact replica of the 
+        modulating signal. In this case demodulation is particularly simple as 
+        we only have to detect the envelope.</P></TD>
+      <TD><IMG height=120 alt="wpe30.jpg (8741 bytes)" 
+        src="Continuous Wave Modulation_files/Modula25.jpg" width=262></TD></TR>
+    <TR>
+      <TD vAlign=top><EM>m</EM>&lt;1: <STRONG>undermodulated</STRONG>
+        <P>This corresponds to having a large carrier. We can use envelope 
+        detection, but we are transmitting more carrier than is absolutely 
+        necessary.</P></TD>
+      <TD><IMG height=120 alt="wpe2F.jpg (9467 bytes)" 
+        src="Continuous Wave Modulation_files/Modula26.jpg" 
+    width=262></TD></TR></TBODY></TABLE></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:17.781 GMT+1</I></P>
+  <H3>Power in DSB-AM Signals</H3>
+  <P>On completing this section you should be able to calculate the power 
+  distribution in the sidebands of DSB-AM signals</P>
+  <P>
+  <P>Our DSB-AM signal is given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=57 alt="wpe29.jpg (3057 bytes)" 
+  src="C:\My Documents\Assignments Final Year\Digital Telecommunications\Continuous Wave Modulation_files\Modula18(1).jpg" 
+  width=216></P>
+  <P></P>
+  <P>
+  <P>The power in this signal is given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=86 alt="wpe2.jpg (6372 bytes)" 
+  src="Continuous Wave Modulation_files/Power%201.jpg" width=419></P>
+  <P></P>
+  <P>
+  <P>which can be written in terms of the power components in the carrier and in 
+  the upper and lower sidebands as</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=50 alt="wpe4.jpg (5121 bytes)" 
+  src="Continuous Wave Modulation_files/Power%202.jpg" width=383></P>
+  <P></P>
+  <P>
+  <P>We then have for the fraction of power in the sidebands</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=49 alt="wpe7.jpg (4759 bytes)" 
+  src="Continuous Wave Modulation_files/Power%203.jpg" width=302></P>
+  <P></P>
+  <P>
+  <P>Thus we see that If the modulation index <EM>m</EM>=1 for maximum 
+  modulation then there is 1/3 of the power in the sidebands. 2/3 of the power 
+  is expended in transmitting the carrier which carries no information and so is 
+  effectively wasted.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:18.859 GMT+1</I></P>
+  <H3>Amplitude Modulators</H3>
+  <P>On completing this section you should be able to describe the operation of 
+  a range of amplitude modulators</P>
+  <P>
+  <H2 align=left>Non-linear or Square Law Modulator</H2>
+  <P></P>
+  <P>
+  <P><IMG height=113 alt="wpeE.jpg (5136 bytes)" 
+  src="Continuous Wave Modulation_files/Amplit4.jpg" width=310 align=right>The 
+  Non-linear or Square Law Modulator generates DSB-AM and has 3 parts (i) A 
+  means of adding together the carrier and modulating signals, (ii) A device 
+  with a non-linear input/output characteristic and (iii) A bandpass filter to 
+  separate out the desired modulation products. A semiconductor diode (as 
+  illustrated right) or transistor is commonly used as the non-linear device. 
+  The modulating signal and the carrier are added together and applied to the 
+  input of the non-linear device.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=22 alt="wpeD.jpg (1780 bytes)" 
+  src="Continuous Wave Modulation_files/Amplit5.jpg" width=185></P>
+  <P></P>
+  <P>
+  <P>The applied signal amplitude is made sufficiently small such that it is 
+  confined to the non-linear (curved) part of the characteristic for which we 
+  can write the output as a polynomial expansion of the input</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=26 alt="wpeF.jpg (2590 bytes)" 
+  src="Continuous Wave Modulation_files/Amplit6.jpg" width=255></P>
+  <P></P>
+  <P>
+  <P>Commonly only the first 2 terms of this expansion are important (hence 
+  square law). Substituting in the the input gives</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=26 alt="wpe11.jpg (4267 bytes)" 
+  src="Continuous Wave Modulation_files/Amplit7.jpg" width=495></P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=51 alt="wpe14.jpg (3304 bytes)" 
+  src="Continuous Wave Modulation_files/Amplit8.jpg" width=315></P>
+  <P></P>
+  <P>
+  <P>The bandpass filter at <EM><FONT face=Symbol>w</FONT><SUB>c</SUB></EM> 
+  removes all the unwanted terms leaving the DSB-AM signal.</P>
+  <P></P>
+  <P>
+  <P>When higher order terms contribute some of the "other terms" must be 
+  considered. The cubic term for example has <STRONG>distortion 
+  products</STRONG> at frequencies <EM><FONT 
+  face=Symbol>w</FONT><SUB>c</SUB></EM> <FONT face=Symbol>± 
+  2<EM>w</FONT><SUB>m</SUB></EM> . If such terms cannot be adequately removed by 
+  the filter (generally they cannot) then the additional terms represent 
+  distortion caused by overdriving the modulator. Similarly the cubic term also 
+  gives rise to <STRONG>intermodulation distortion </STRONG>products between 
+  different frequency components of the baseband signal.</P>
+  <P></P>
+  <P>
+  <H2 align=left>Switching Modulator</H2>
+  <P></P>
+  <P>
+  <P><IMG height=177 alt="wpe1A.jpg (7171 bytes)" 
+  src="Continuous Wave Modulation_files/Amplit9.jpg" width=344 align=right>In 
+  the switching modulator (shown right) the amplifier has a gain of +1 when the 
+  switch is closed and -1 when it is open. If the switch is opened and closed at 
+  the carrier frequency <EM><FONT face=Symbol>w</FONT><SUB>c</SUB></EM> (using a 
+  transistor or diode) then the output is the input multiplied by a square wave 
+  with amplitude <FONT face=Symbol>±1. </FONT>The Fourier series representing 
+  the rectangular wave may be written</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=25 alt="wpe1B.jpg (2385 bytes)" 
+  src="Continuous Wave Modulation_files/Amplit10.jpg" width=303></P>
+  <P></P>
+  <P>
+  <P>If <IMG height=22 alt="wpeD.jpg (1780 bytes)" 
+  src="Continuous Wave Modulation_files/Amplit5.jpg" width=185 align=middle> 
+  then the output is given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=51 alt="wpe1C.jpg (3772 bytes)" 
+  src="Continuous Wave Modulation_files/Amplit11.jpg" width=365></P>
+  <P></P>
+  <P>
+  <P>Thus we have the DSB-AM output + other terms at frequencies of <EM><FONT 
+  face=Symbol>2w</FONT><SUB>c</SUB></EM>&nbsp; , <EM><FONT 
+  face=Symbol>4w</FONT><SUB>c</SUB></EM> &nbsp; etc and <EM><FONT 
+  face=Symbol>3w</FONT><SUB>c</SUB></EM> <FONT face=Symbol>±</FONT> &nbsp; 
+  <EM><FONT face=Symbol>w</FONT><SUB>m</SUB></EM> ,<EM><FONT 
+  face=Symbol>5w</FONT><SUB>c</SUB></EM> <FONT face=Symbol>±</FONT>&nbsp; 
+  <EM><FONT face=Symbol>w</FONT><SUB>m</SUB></EM> etc which can be eliminated 
+  using a bandpass filter centred on <EM><FONT 
+  face=Symbol>w</FONT><SUB>c</SUB></EM> . In this case, in contrast to the 
+  non-linear modulator there are no distortion terms and no intermodulation 
+  products. Also this modulator can be used to produce <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/cwm/DSBSCModulation">DSB-SC 
+  modulation</A> by removing the d.c. bias <EM>A<SUB>c</SUB></EM> from the input 
+  signal.</P>
+  <P></P>
+  <P>
+  <H2 align=left>Balanced Modulator</H2>
+  <P></P>
+  <P>
+  <P><IMG height=207 alt="wpe1E.jpg (10909 bytes)" 
+  src="Continuous Wave Modulation_files/Amplit13.jpg" width=435 align=right>The 
+  balanced modulator (right) uses two identical AM modulators (could be either 
+  non-linear or switched modulator) to produce DSB-SC output. The input signal 
+  is applied to both modulators but with the sign reversed for one. The 
+  respective outputs of the 2 modulators are</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=49 alt="wpe1F.jpg (3126 bytes)" 
+  src="Continuous Wave Modulation_files/Amplit14.jpg" width=178></P>
+  <P></P>
+  <P>
+  <P>Subtracting gives</P>
+  <P></P>
+  <P>
+  <P><IMG height=24 alt="wpe20.jpg (2193 bytes)" 
+  src="Continuous Wave Modulation_files/Amplit15.jpg" width=227></P>
+  <P></P>
+  <P>
+  <P>Giving the product of the modulating signal and carrier as required. If 
+  switching diodes are used in each of the AM modulators then energy is only 
+  transferred for half the time. This is overcome using a <STRONG>double 
+  balanced modulator</STRONG> configuration.</P>
+  <P></P>
+  <P>
+  <H2 align=left>Ring Modulator</H2>
+  <P></P>
+  <P>
+  <P><IMG height=226 alt="wpe21.jpg (13730 bytes)" 
+  src="Continuous Wave Modulation_files/Amplit16.jpg" width=486 align=right>The 
+  ring modulator is an example of a double balanced modulator or 
+  <STRONG>mixer</STRONG>. A square wave carrier is applied to the centre tapped 
+  transformers. During the +ve of the cycle diodes <EM>a</EM> are switched on 
+  and diodes <EM>b</EM> are switched off and the output equals input signal 
+  times +1. During the negative half cycles diodes <EM>a</EM> are switched off 
+  and diodes <EM>b</EM> are switched on resulting in the output equals -1 times 
+  the input signal. Thus we have the product of the carrier and signal giving 
+  DSB-SC modulation. The advantage of the ring modulator is that it gives 
+  (i)very little distortion, (ii) good stability, (iii) no need for power 
+  supplies, (iv) small size and (v) low cost. Since it produces output double 
+  sidebands at <EM><FONT face=Symbol>w</FONT><SUB>c</SUB></EM> &nbsp; , 
+  <EM><FONT face=Symbol>3w</FONT><SUB>c</SUB></EM>, <EM><FONT 
+  face=Symbol>5w</FONT><SUB>c</SUB></EM> &nbsp;&nbsp; etc and no output at 
+  either <EM><FONT face=Symbol>w</FONT><SUB>c </SUB></EM>or<EM><FONT 
+  face=Symbol>w</FONT><SUB>m</SUB></EM> it can be used where <EM><FONT 
+  face=Symbol>w</FONT><SUB>c</SUB></EM> is just greater than <EM><FONT 
+  face=Symbol>w</FONT><SUB>m</SUB></EM>. </P>
+  <P></P>
+  <P>
+  <P>The ring modulator is very commonly used in <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/cwm/DSBSCModulation">DSB-SC 
+  modulation</A> since does not require ideal components although their 
+  characteristics have to be well matched to suppress the carrier. Its 
+  functionality is identical to that of the switching modulator.</P>
+  <P></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:15.531 GMT+1</I></P>
+  <H3>DSB-AM Demodulation</H3>
+  <P>On completing this section you should be able to describe how DSB-AM 
+  signals are demodulated non-coherently</P>
+  <P>
+  <P>DSB-AM signals can be demodulated using two different approaches, 
+  <STRONG>noncoherent</STRONG> detection and <STRONG>coherent</STRONG> or 
+  <STRONG>synchronous </STRONG>detection. The mostly widely used noncoherent 
+  detection technique is <STRONG>envelope</STRONG> detection, this is widely 
+  employed in commercial AM receivers.</P>
+  <P></P>
+  <P>
+  <P><IMG height=151 alt="wpe2.jpg (9804 bytes)" 
+  src="Continuous Wave Modulation_files/Demodu1.jpg" width=455 align=right>An 
+  envelope detector produces an output signal which follows the envelope of the 
+  DSB-AM signal which, for a modulation index <EM>m</EM>&lt;=1 is proportional 
+  to the modulating signal. The simplest implementation is based on half wave 
+  rectification using a diode followed by an RC smoothing filter as shown 
+  here.</P>
+  <P></P>
+  <P>
+  <P><IMG height=264 alt="wpe6.jpg (11028 bytes)" 
+  src="Continuous Wave Modulation_files/Demodu2.jpg" width=352 align=right>The 
+  effect of diode is thus to rectify the incoming signal. When the incoming 
+  signal is greater than the voltage on the capacitor C the diode conducts and 
+  the capacitor charges causing V<SUB>c</SUB> to increase. When the input signal 
+  falls below V<SUB>c</SUB> the capacitor discharges and the voltage decreases. 
+  The time constant RC is chosen to be much larger than the carrier period but 
+  small enough that V<SUB>c</SUB> can follow the highest frequency component of 
+  the envelope. With these criteria V<SUB>c</SUB> rises rapidly to the peak of 
+  the input signal during the positive half-cycles of the carrier; during 
+  negative half-cycles V<SUB>c</SUB> falls slowly as C discharges.</P>
+  <P></P>
+  <P>
+  <P><IMG height=200 alt="wpe7.jpg (8596 bytes)" 
+  src="Continuous Wave Modulation_files/Demodu3.jpg" width=397 align=left>If RC 
+  is too large then C cannot discharge sufficiently to permit V<SUB>c</SUB> to 
+  follow the envelope (diagonal peak clipping). If too small then some component 
+  of the carrier will be passed through <IMG height=140 
+  alt="wpeA.jpg (6122 bytes)" src="Continuous Wave Modulation_files/Demodu4.jpg" 
+  width=320></P>
+  <P></P>
+  <P>
+  <P>Note that envelope detection requires that the carrier component be large 
+  enough to ensure that the whole of the signal envelope sits on the linear 
+  portion of the diode I-V characteristic to obtain undistorted detection. Thus 
+  in practice <EM>m</EM> must be less than 1; values up to ~0.95 can be 
+used.</P>
+  <P></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:16.421 GMT+1</I></P>
+  <H3>Synchronous Detection</H3>
+  <P>On completing this section you should be able to describe the operation of 
+  synchronous detection for DSB-AM signals</P>
+  <P>
+  <P>The advantage of envelope detection is its extreme simplicity, however, 
+  since it can only be used with DSB-AM signals it has the advantage that the 
+  modulation efficiency is low. With synchronous detection it is necessary to 
+  have the carrier available at the receiver and demodulation is carried out by 
+  multiplying this locally generated carrier with the signal. The carrier may be 
+  received as a pilot tone or recovered from the signal using square law 
+  detection. The key issue is one of maintaining the phase and frequency of the 
+  local carrier identical to that used to generate the incoming signal. This is 
+  the purpose of the <STRONG>phase-locked loop (PLL)</STRONG> illustrated below. 
+  Envelope has been the standard in broadcast receivers since their inception 
+  since PLLS are significantly more complicated and, hence, costly to implement. 
+  However this situation has changed with modern PLLs readily implemented in 
+  chip form.</P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=0 cellPadding=0 border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG height=191 alt="wpe6.jpg (17860 bytes)" 
+        src="Continuous Wave Modulation_files/Synchr2.jpg" width=641></TD></TR>
+    <TR>
+      <TH>A phase Locked Loop</TH></TR></TBODY></TABLE></P>
+  <P>
+  <P>The basic PLL consists of a phase comparator and a voltage controlled 
+  oscillator in a closed loop control circuit. The phase comparator is a 
+  multiplier followed by a low pass filter. The input signal 
+  <EM>V<SUB>i</SUB>(t)</EM> is multiplied by the output signal. Initially their 
+  will probably be a phase difference between the two signals so the multiplier 
+  output will be</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=49 alt="wpeA.jpg (3636 bytes)" 
+  src="Continuous Wave Modulation_files/Synchr3.jpg" width=252></P>
+  <P></P>
+  <P>
+  <P>The low pass filter (LPF) blocks the high frequency component and passes 
+  the phase component cos<FONT face=Symbol>f</FONT> which becomes an error 
+  signal <EM>v<SUB>e</SUB>(t); </EM>this changes the frequency of the voltage 
+  controlled oscillator (VCO) changing the phase of its output 
+  <EM>v<SUB>o</SUB>(t)</EM> towards that of the input <EM>v<SUB>i</SUB>(t)</EM>. 
+  Noting that frequency is the rate of change of phase, so it is clear that this 
+  procedure continues to lock the frequency and phase of 
+  <EM>v<SUB>o</SUB>(t)</EM> to that of <EM>v<SUB>i</SUB>(t)</EM>.</P>
+  <P></P>
+  <P>
+  <P>In application to DSB-AM demodulation, the DSB-AM signal is applied 
+  directly to the PLL which provides the phase (and frequency) locked carrier 
+  which is then multiplied by the DSB-AM signal as shown below</P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=0 cellPadding=0 border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG height=71 alt="wpeC.jpg (7987 bytes)" 
+        src="Continuous Wave Modulation_files/Synchr4.jpg" width=584></TD></TR>
+    <TR>
+      <TH>Synchronous Detector for DSB-AM</TH></TR></TBODY></TABLE></P>
+  <P>
+  <P align=center><IMG height=67 alt="wpeE.jpg (3779 bytes)" 
+  src="Continuous Wave Modulation_files/Synchr5.jpg" width=254></P>
+  <P></P>
+  <P>
+  <P>The unwanted terms are easily blocked by low-pass filtering</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:20.5 GMT+1</I></P>
+  <H3>COSTAS Loop Detector</H3>
+  <P>On completing this section you should be able to describe the operation of 
+  the COSTAS Loop detector for DSB-SC</P>
+  <P>
+  <P>Phase locked loops techniques can also be used to demodulate DSB-SC 
+  signals, although the task is complicated by the lack of carrier component in 
+  the incoming signal. The Costas loop (shown below) is one PLL implementation 
+  for this case.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=396 alt="wpe6.jpg (29387 bytes)" 
+  src="Continuous Wave Modulation_files/COSTAS2.jpg" width=610></P>
+  <P></P>
+  <P>
+  <P>The incoming signal, <IMG height=24 alt="wpe4.jpg (1592 bytes)" 
+  src="Continuous Wave Modulation_files/COSTAS3.jpg" width=142 align=middle> is 
+  sent to 2 synchronous detectors and is multiplied by two local oscillator 
+  signals that are in quadrature with each other. These are provided from one 
+  VCO whose output is split in 2, with one component passed through a 
+  90<SUP>o</SUP> phase shifter thereby generating the two phase quadrature 
+  signals, referred to as the in-phase (I) and quadrature (Q) channels. </P>
+  <P></P>
+  <P>
+  <P>The output of the in-phase synchronous detector is proportional to 
+  <EM>V<SUB>m</SUB>(t)</EM>cos<EM><FONT face=symbol>f</FONT></EM> and the output 
+  of the quadrature detector is proportional to 
+  <EM>V<SUB>m</SUB>(t)</EM>sin<EM><FONT face=symbol>f</FONT></EM> where 
+  <EM><FONT face=symbol>f</FONT></EM> is the phase difference between the 
+  incoming signal and the VCO.&nbsp; If the the VCO is initially in-phase with 
+  the incoming signal, then the output of the I-channel will&nbsp; be 
+  cos<EM><FONT face=symbol>f</FONT></EM> and the output of the quadrature 
+  channel will be 0. If there is a small change in the VCO by and amount 
+  <EM><FONT face=symbol>f </FONT></EM>the the output of the I-channel will not 
+  change by much (we are at the top of the cosine function) but a small signal 
+  will appear at the Q-channel. The phase comparator multiplies together the 
+  I-channel and Q-channel to give the resulting signal </P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=28 alt="wpeB.jpg (3250 bytes)" 
+  src="Continuous Wave Modulation_files/COSTAS4.jpg" width=339></P>
+  <P></P>
+  <P>
+  <P>The low pass filter in the phase comparator removes all the terms except 
+  the sin2<EM><FONT face=symbol>f</FONT></EM> component which is input to the 
+  VCO controlling its frequency and phase locking the oscillator output as 
+  described for a PLL.</P>
+  <P></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:15.828 GMT+1</I></P>
+  <H3>Superheterodyne AM Radio Receiver</H3>
+  <P>On completing this section you should be able to describe the basic 
+  building blocks and operation of a superheterodyne AM radio receiver</P>
+  <P>
+  <P>Broadcast AM radio uses DSB-AM. Individual channels are transmitted on 
+  their own specific carrier frequencies and the radio receiver selects the one 
+  desired carrier. To achieve this a bandpass filter response is required, 
+  however in practice it is very difficult to achieve tuneable RF filters or 
+  amplifiers with adequate range and performance. The solution to this is to use 
+  the <STRONG>superheterodyne</STRONG> receiver principle, illustrated 
+below.</P>
+  <P></P>
+  <P>
+  <P><IMG height=172 alt="wpe2.jpg (16371 bytes)" 
+  src="Continuous Wave Modulation_files/Superh1.jpg" width=646></P>
+  <P></P>
+  <P>
+  <P><IMG height=119 alt="wpe4.jpg (4465 bytes)" 
+  src="Continuous Wave Modulation_files/Superh2.jpg" width=202 align=right>The 
+  basic principle is to use a fixed centre frequency bandpass filter of very 
+  high performance such as a ceramic resonator filter (shown right), and to 
+  frequency shift the incoming DSB-AM signal to the frequency of that fixed 
+  filter - the <STRONG>intermediate frequency (IF)</STRONG>. A standard IF of 
+  470kHz is used in the UK for MW AM transmissions (540-1640kHz). Frequency 
+  shifting is accomplished by mixing (multiplying) the incoming carrier with the 
+  output of a variable frequency oscillator (VFO), the <STRONG>local oscillator 
+  (LO)</STRONG>. </P>
+  <P></P>
+  <P>
+  <P><IMG height=278 alt="wpe6.jpg (12136 bytes)" 
+  src="Continuous Wave Modulation_files/Superh3.jpg" width=401 align=right>For a 
+  carrier at <EM>f<SUB>c</SUB></EM> and an IF at <EM>f<SUB>IF</SUB></EM> the LO 
+  frequency <EM>f<SUB>LO</SUB></EM> must lie either above or below 
+  <EM>f<SUB>c</SUB></EM> by <EM>f<SUB>IF</SUB></EM> so that multiplication of 
+  <EM>f<SUB>c</SUB></EM> and <EM>f<SUB>LO</SUB></EM> will shift the carrier and 
+  its sidebands to <EM>f<SUB>IF</SUB></EM>. If 
+  <EM>f<SUB>LO</SUB></EM>&lt;<EM>f<SUB>c</SUB></EM> then in our example of the 
+  MW band the LO would need to tune between 70kHz and 1170kHz. This is an 
+  extremely wide band to cover with a ratio between the highest and lowest 
+  frequency of 17:1. If on the other hand we choose 
+  <EM>f<SUB>LO</SUB></EM>&gt;<EM>f<SUB>c</SUB></EM> then the necessary LO tuning 
+  range is 1010 to 2110kHz, a ratio of only ~2:1 or 1 octave which is readily 
+  achievable. This is the superheterodyne principle.</P>
+  <P></P>
+  <P>
+  <P>There is another important precaution that must be taken in implementing a 
+  superheterodyne receiver. Our wanted RF signal is at a frequency of&nbsp; 
+  <EM>f<SUB>LO</SUB></EM>-<EM>f<SUB>IF</SUB></EM>. If a carrier sits at a 
+  frequency of 2<EM>f<SUB>IF</SUB></EM> above the desired carrier 
+  (<EM>f<SUB>LO</SUB></EM>+<EM>f<SUB>IF</SUB></EM>) then multiplication of this 
+  second carrier with the LO will also produce a signal at 
+  <EM>f<SUB>IF</SUB></EM> and this will also be transmitted through the IF 
+  filter. This second carrier frequency is called the <STRONG>image 
+  frequency</STRONG>. Interference from this frequency is eliminated by giving 
+  the RF input amplifier a bandpass response with a tuneable centre frequency 
+  gang tuned with the LO. The response of this filter need not be sharp since it 
+  only has to attenuate frequencies displaced from its centre frequency by 
+  2<EM>f<SUB>IF</SUB></EM> , 940kHz in MW broadcast radio.</P>
+  <P></P>
+  <P>
+  <P>The remainder of&nbsp; the superheterodyne receiver is as before , with an 
+  DSB-AM detector (and a synchronous oscillator at <EM>f<SUB>IF</SUB></EM> if 
+  coherent detection is used). Higher performance radio designs may have 2 or 3 
+  stages with decreasing intermediate frequencies to obtain the maximum 
+  performance in terms of image frequency rejection and band selectivity. Only 
+  one of these stages need be tuned.</P>
+  <P></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:20.406 GMT+1</I></P>
+  <H3>SSB-AM Modulation</H3>
+  <P>On completing this section you should be able to graphically and 
+  mathematically describe single sideband signals signal in time and frequency 
+  domains and describe how such signals are modulated and demodulated</P>
+  <P>
+  <P>DSB transmission requires twice the bandwidth of the baseband signal, and 
+  since the upper and lower sidebands contain identical information it is clear 
+  than the bandwidth could be halved by transmitting only one sideband without 
+  loss of information. The resulting modulation is referred to as <STRONG>single 
+  sideband amplitude modulation (SSB-AM)</STRONG> and is used in radio, line 
+  telephony and telegraphy systems.</P>
+  <P></P>
+  <P>
+  <P>The SSB-AM signal is obtained from a DSB-SC or DSB-AM signal by eliminating 
+  one sideband and the carrier giving</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=25 alt="wpe7.jpg (1578 bytes)" 
+  src="Continuous Wave Modulation_files/SSB-AM4.jpg" width=147></P>
+  <P></P>
+  <P>
+  <P><IMG height=150 alt="wpeA.jpg (8023 bytes)" 
+  src="Continuous Wave Modulation_files/SSB-AM5.jpg" width=332 align=right>The 
+  most obvious way to generate SSB-AM is to take a DSB-SC signal and filter out 
+  one of the two sidebands (shown right), however this is relatively difficult 
+  to accomplish, particularly at high frequencies where the two sidebands would 
+  be separated by a relatively small proportion of the carrier frequency. The 
+  task is made much simpler if the initial modulation is carrier out at&nbsp; a 
+  low carrier frequency, the unwanted sideband filtered out and the remaining 
+  sideband remodulated to the required higher frequency as illustrated below. In 
+  this example we have an initial signal frequency of 1kHz which is modulated on 
+  a carrier of 100kHz to generate the two sidebands at 99kHz and 101kHz. The 
+  upper sideband (USB) at 101kHz is filtered our and then used to modulate a 
+  carrier at 2MHz generating two new sidebands at 1899kHz and 2101kHz, and again 
+  a filter can be used to filter out the upper of these sidebands to generate 
+  the USB for transmission. To achieve this in a single step would require 
+  separating sidebands at 2099kHz and 2101kHz which is extremely difficult.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=225 alt="wpeB.jpg (15994 bytes)" 
+  src="Continuous Wave Modulation_files/SSB-AM6.jpg" width=421></P>
+  <P></P>
+  <P>
+  <P><IMG height=398 alt="wpeF.jpg (20517 bytes)" 
+  src="Continuous Wave Modulation_files/SSB-AM8.jpg" width=460 align=right>The 
+  other principle technique for generating SSB-AM follows by noting that the 
+  SSB-AM signal <IMG height=25 alt="wpe7.jpg (1578 bytes)" 
+  src="Continuous Wave Modulation_files/SSB-AM4.jpg" width=147 align=middle> can 
+  be written as</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=25 alt="wpeC.jpg (2350 bytes)" 
+  src="Continuous Wave Modulation_files/SSB-AM7.jpg" width=277></P>
+  <P></P>
+  <P>
+  <P>show SSB can be produced by subtracting (for USB or adding for LSB) the 
+  outputs of two (balanced) modulators when the signal can carrier are fed to 
+  one modulator and in phase quadrature to the other modulator as shown right. 
+  This is often called the <STRONG>Hartley Modulator</STRONG>. The technique is 
+  called the <STRONG>Hilbert Transform</STRONG> modulation method as the Hilbert 
+  transform of a function is formed by phase shifting all the components of the 
+  waveform by 90<SUP>o</SUP>. With this technique no sideband filters are 
+  required, but the modulator does require wideband phaseshifters which are not 
+  trivial to produce.</P>
+  <P></P>
+  <P>
+  <P>Demodulation of SSB-AM requires <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/cwm/SynchronousDetection">synchronous 
+  detection</A> using a local oscillator to generate the carrier since no 
+  carrier is transmitted.</P>
+  <P></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:20.218 GMT+1</I></P>
+  <H3>Frequency Division Multiplexing</H3>
+  <P>On completing this section you should be able to describe the principles 
+  and issues behind frequency division multiplexing (FDM), and how it may be 
+  used in analogue telephony.</P>
+  <P>
+  <P>We have already mentioned that multiplexing is a process whereby a number 
+  of independent channels can be combined and sent over the same connumications 
+  link. It is clear from the previous discussion that several independent 
+  signals can be sent simultaneously over a common transmission path if each one 
+  is modulated by a carrier different carrier frequency such that the signal 
+  (sidebands) do not overlap. A receiver can then select out one signal from all 
+  the others by filtering (e.g. an AM radio receiver). This is the principle 
+  behind <STRONG>Frequency Division Multiplexing (FDM)</STRONG>. FDM enables 
+  efficient use of the available;e bandwidth of the communications link; for 
+  example a coaxial cable has a bandwidth of several MHz and can accommodate 
+  around 1000 voice (telephone) calls of 3.1kHz bandwidth.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=335 alt="wpe10.jpg (30549 bytes)" 
+  src="Continuous Wave Modulation_files/Freque9.jpg" width=658></P>
+  <P></P>
+  <P>
+  <P>If <EM>N</EM> signals each bandlimited to <EM>B</EM> Hz are to be 
+  transmitted simultaneously we require <EM>N</EM> carrier frequencies 
+  <EM>f<SUB>1</SUB></EM>, <EM>f<SUB>2</SUB></EM>,... <EM>f<SUB>N</SUB></EM> . If 
+  DSB-AM is used each modulated signal has a bandwidth of 2<EM>B</EM> Hz centred 
+  at one of the carrier frequencies which must be separated by at least 
+  2<EM>B</EM> Hz. If SSB is used the signal bandwidth and minimum carrier 
+  separation are <EM>B</EM>Hz. Note that the composite signal (multiplex) made 
+  up of all the frequency separated signals may itself be frequency shifted 
+  (modulated by another carrier <EM>f<SUB>c</SUB></EM> in which the frequencies 
+  <EM>f<SUB>1</SUB></EM>, <EM>f<SUB>2</SUB></EM>,... <EM>f<SUB>N</SUB></EM> are 
+  referred to <STRONG>sub-carriers</STRONG> to distinguish them from 
+  <EM>f<SUB>c</SUB></EM> i. At the receiver the incoming signals may be 
+  separated by a series of bandpass filters followed by demodulators permitting 
+  simultaneous detection of all signals or one signal at a time may be selected 
+  by a tuneable bandpass filter. Since practical filters cannot have infinitely 
+  sharp cut-off characteristics it is necessary to separate the FDM signals by 
+  regions of unused spectrum referred to as <STRONG>guard bands</STRONG>.</P>
+  <P></P>
+  <P>
+  <P>Historically FDM has extensively been used for signal multiplexing in 
+  analogue telephony although it has now been superseded by time division 
+  multiplexed digital signals. The FDM hierarchy, illustrated below, is by 
+  international agreement permitting large national and international telephone 
+  networks to be interconnected.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=362 alt="wpe11.jpg (29205 bytes)" 
+  src="Continuous Wave Modulation_files/Freque10.jpg" width=660></P>
+  <P></P>
+  <P>
+  <P>A nominal bandwidth is allocated for each voice channel, the audio signal 
+  is filtered to be in the range 300Hz to 3.4kHZ leaving a guard bandwidth of 
+  300Hz below and 600Hz above this spectrum to aid channel separation. Each 
+  channel is translated to higher frequencies a balanced modulator giving DSB-SC 
+  modulation. The Lower sideband (LSB) is filtered out and transmitted. 
+  Prescribed carrier frequencies in the 64kHZ to 108kHz range are used giving a 
+  multiplex (referred to as a FDM <STRONG>group</STRONG>) of 12 channels in the 
+  60-108kHz frequency range.</P>
+  <P></P>
+  <P>
+  <P>This modulation process is repeated to translate each group of channels to 
+  higher frequencies using once again a prescribed set of frequencies and 
+  retaining only the LSB. For this stage 5 carrier frequencies at 48kHz 
+  intervals in the range 420 to 612kHz are used forming a 
+  <STRONG>supergroup</STRONG> of 60 independent 4kHz channels. This process may 
+  be repeated again to give a 300 channel <STRONG>mastergroup</STRONG> and once 
+  more to give a 600 or 900 channel (<STRONG>supermastergroup</STRONG>) FDM 
+  assembly.</P>
+  <P></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:17.64 GMT+1</I></P>
+  <H3>VSB-AM</H3>
+  <P>
+  <P>On completing this section you should be able to&nbsp; graphically and 
+  mathematically describe vestigial sideband signals.</P>
+  <P></P>
+  <P>
+  <P>When a baseband signal has significant information content at the lowest 
+  frequencies (approaching d.c.) then SSB modulation cannot be used due to the 
+  difficulty in separating the LSB and the USB. Television signals fall into 
+  that category, and since the bandwidth requirements for video transmission are 
+  high (~5MHz) use of DSB requires excessive bandwidth to be economical. The 
+  solution is to use an amplitude modulation scheme where one nearly complete 
+  sideband and a small fraction, or vestige, of the other are transmitted. This 
+  is called <STRONG>vestigial sideband</STRONG> or VSB-AM.</P>
+  <P></P>
+  <P>
+  <P><IMG height=128 alt="wpe8.jpg (6321 bytes)" 
+  src="Continuous Wave Modulation_files/VSB-AM1.jpg" width=423 align=right>A 
+  VSB-AM signal can be obtained by passing a DSB-SC signal through a suitable 
+  filter with some transfer function <EM><FONT 
+  face="Times New Roman">H(</FONT><FONT face=Symbol>w</FONT><FONT 
+  face="Times New Roman">)</FONT></EM>. The amplitude spectrum <EM><FONT 
+  face="Times New Roman">V(</FONT><FONT face=Symbol>w</FONT><FONT 
+  face="Times New Roman">)</FONT></EM> of the signal is the given by</P>
+  <P></P>
+  <P>
+  <P><IMG height=31 alt="wpeC.jpg (3185 bytes)" 
+  src="Continuous Wave Modulation_files/VSB-AM2.jpg" width=353></P>
+  <P></P>
+  <P>
+  <P>where <EM><FONT face="Times New Roman">F<SUB>m</SUB>(</FONT><FONT 
+  face=Symbol>w</FONT><FONT face="Times New Roman">)</FONT></EM> is the Fourier 
+  transform of the baseband signal <FONT 
+  face="Times New Roman"><EM>f<SUB>m</SUB>(t)</EM></FONT>. <IMG height=146 
+  alt="wpe9.jpg (6841 bytes)" src="Continuous Wave Modulation_files/VSB-AM3.jpg" 
+  width=364 align=right>The resultant spectrum is then of the form as shown 
+  right - the red line represents the original DSB-SC spectrum and the blue line 
+  the resultant VSB-AM spectrum.&nbsp; Most of the upper sideband spectrum (USB) 
+  is transmitted by the spectrum but only a small vestige of the lower sideband 
+  is transmitted.</P>
+  <P></P>
+  <P>
+  <P>We wish to find the filter characteristic <EM><FONT 
+  face="Times New Roman">H(</FONT><FONT face=Symbol>w</FONT><FONT 
+  face="Times New Roman">)</FONT></EM> such that the resultant VSB-AM spectrum 
+  <EM><FONT face="Times New Roman">V(</FONT><FONT face=Symbol>w</FONT><FONT 
+  face="Times New Roman">)</FONT></EM> gives a desired signal <FONT 
+  face="Times New Roman"><EM>v(t)</EM></FONT> that we can demodulate (cheaply) 
+  using <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/cwm/SynchronousDetection">synchronous 
+  detection</A> with a locally generated carrier <FONT 
+  face="Times New Roman">A<SUP>'</SUP><SUB>c</SUB></FONT><EM>cos<FONT 
+  face="Times New Roman">w<SUB>c</SUB>t</FONT></EM>&nbsp; i.e. we have at the 
+  receiver</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=31 alt="wpeD.jpg (1880 bytes)" 
+  src="Continuous Wave Modulation_files/VSB-AM6.jpg" width=173></P>
+  <P></P>
+  <P>
+  <P>Taking the Fourier transform of this signal we get</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=52 alt="wpeE.jpg (2877 bytes)" 
+  src="Continuous Wave Modulation_files/VSB-AM7.jpg" width=289></P>
+  <P></P>
+  <P>
+  <P>If we substitute in to this our expression for the VSB spectrum <EM><FONT 
+  face="Times New Roman">V(</FONT><FONT face=Symbol>w</FONT><FONT 
+  face="Times New Roman">)</FONT></EM> we get</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=104 alt="wpeF.jpg (7226 bytes)" 
+  src="Continuous Wave Modulation_files/VSB-AM8.jpg" width=512></P>
+  <P></P>
+  <P>
+  <P>The second high frequency component of this is removed by filtering leaving 
+  the expression for the received spectrum</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=52 alt="wpe10.jpg (3508 bytes)" 
+  src="Continuous Wave Modulation_files/VSB-AM9.jpg" width=365></P>
+  <P></P>
+  <P>
+  <P>If we are to recover the original baseband signal <EM><FONT 
+  face="Times New Roman">F<SUB>m</SUB>(</FONT><FONT face=Symbol>w</FONT><FONT 
+  face="Times New Roman">)</FONT></EM> without distortion this received spectrum 
+  must only be proportional to it for all frequencies i.e. </P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=31 alt="wpe11.jpg (1655 bytes)" 
+  src="Continuous Wave Modulation_files/VSB-AM10.jpg" width=134></P>
+  <P></P>
+  <P>
+  <P>where <FONT face="Times New Roman"><EM>k</EM></FONT> is a constant i.e.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=31 alt="wpe12.jpg (2140 bytes)" 
+  src="Continuous Wave Modulation_files/VSB-AM11.jpg" width=227></P>
+  <P></P>
+  <P>
+  <P>in words</P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=0 border=1>
+    <TBODY>
+    <TR>
+      <TD bgColor=#ffff80>For distortionless demodulation of a VSB-AM signal 
+        the filter characteristic must be such that the sum of the frequency 
+        components equally spaced above and below the carrier are a 
+    constant</TD></TR></TBODY></TABLE></P>
+  <P>
+  <P><IMG height=145 alt="wpe6.jpg (7160 bytes)" 
+  src="Continuous Wave Modulation_files/VSB-AM4.jpg" width=344 align=right>A 
+  suitable filter characteristic is shown right. If the baseband signal is 
+  limited to a bandwidth (-<EM>B</EM>,<EM>B</EM>) the the expression for the 
+  filter characteristic need hold only between (<FONT 
+  face=Symbol><EM>w</EM></FONT><SUB>c</SUB>-<EM>B</EM>,<FONT 
+  face=Symbol><EM>w</EM></FONT><SUB>c</SUB><EM>+B</EM>)</P>
+  <P></P>
+  <P>
+  <P>VSB-AM modulation is commonly used for the transmission of (analogue) video 
+  signals. Shown below is the frequency spectrum of the PAL television system 
+  used in the UK. The total bandwidth occupied by the signal is 6.75MHz. This 
+  consists of both audio and video signals. The audio signal is first modulated 
+  on a carrier at 6MHz before being added to a baseband video signal. The total 
+  signal is then modulated using VSB-AM to the UHF transmission frequency. 
+  Synchronous demodulation can then be carried out at the receiver followed by 
+  another stage of demodulation to separate the sound from the video 
+  component.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=176 alt="wpe7.jpg (9245 bytes)" 
+  src="Continuous Wave Modulation_files/VSB-AM5.jpg" width=384></P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:20.734 GMT+1</I></P>
+  <H3>Comparison of AM Signals</H3>
+  <P>On completing this section you should be able to produce a comparison 
+  between different forms of AM signals</P>
+  <P>
+  <TABLE cellSpacing=0 border=1>
+    <TBODY>
+    <TR>
+      <TH>DSM-AM</TH>
+      <TD><IMG height=57 alt="wpeC.jpg (2067 bytes)" 
+        src="Continuous Wave Modulation_files/Compar1.jpg" width=144></TD>
+      <TD>+ Envelope detection easy 
+        <P>-Low modulation efficiency</P></TD>
+      <TD>Broadcast AM radio 
+        <P>Point-to-point voice links</P></TD></TR>
+    <TR>
+      <TH>DSB-SC</TH>
+      <TD><IMG height=31 alt="wpe9.jpg (1823 bytes)" 
+        src="Continuous Wave Modulation_files/Compar2.jpg" width=145></TD>
+      <TD>+ High modulation efficiency 
+        <P>– <A 
+        href="http://benedick.aston.ac.uk:8080/tutorials/cwm/SynchronousDetection">Synchronous 
+        detection</A> required</P></TD>
+      <TD>Precursor to SSB-SC generation 
+        <P>Multiplexing </P>
+        <P>Instrumentation</P></TD></TR>
+    <TR>
+      <TH>SSB-SC</TH>
+      <TD><IMG height=62 alt="wpeA.jpg (2399 bytes)" 
+        src="Continuous Wave Modulation_files/Compar3.jpg" width=144></TD>
+      <TD>+ Half the bandwidth of DSB 
+        <P>– Demodulation complicated</P></TD>
+      <TD>Radio and line FDM telephony 
+        <P>Point-to-point links; telegraphy</P></TD></TR>
+    <TR>
+      <TH>VSB-AM</TH>
+      <TD><IMG height=59 alt="wpeB.jpg (1948 bytes)" 
+        src="Continuous Wave Modulation_files/Compar4.jpg" width=144></TD>
+      <TD>Compromise between lower bandwidth of SSB and ease of detection of 
+        DSB-AM</TD>
+      <TD>Broadcast television 
+        <P>VSB-SC for FAX, digital data</P></TD></TR></TBODY></TABLE></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:12.984 GMT+1</I></P>
+  <H3>Angle Modulation</H3>
+  <P>
+  <P>On completing this section you should be able to graphically and 
+  mathematically compare phase and frequency (angle) modulation schemes</P>
+  <P></P>
+  <P>
+  <P>Consider the optical carrier signal given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=28 alt="wpe2.jpg (1686 bytes)" 
+  src="Continuous Wave Modulation_files/Angle%201.jpg" width=150></P>
+  <P></P>
+  <P>
+  <P>where <FONT face="Times New Roman"><EM>A<SUB>c</SUB></EM></FONT> is a 
+  constant and <IMG height=31 alt="wpe3.jpg (1374 bytes)" 
+  src="Continuous Wave Modulation_files/Angle%202.jpg" width=113 align=middle>. 
+  In <STRONG>angle modulation</STRONG> <EM><FONT face=Symbol>q</FONT><FONT 
+  face="Times New Roman">(t)</FONT></EM> is made to vary proportional to some 
+  modulating signal <FONT 
+  face="Times New Roman"><EM>f<SUB>m</SUB>(t)</EM></FONT>. We need to define an 
+  <STRONG>instantaneous frequency </STRONG>given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=52 alt="wpe5.jpg (1890 bytes)" 
+  src="Continuous Wave Modulation_files/Angle%203.jpg" width=144></P>
+  <P></P>
+  <P>
+  <P>There are two ways in which <EM><FONT face=Symbol>q</FONT><FONT 
+  face="Times New Roman">(t)</FONT></EM> can be varied proportional to <FONT 
+  face="Times New Roman"><EM>f<SUB>m</SUB>(t)</EM></FONT>. In the first case we 
+  can have </P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=33 alt="wpe8.jpg (2089 bytes)" 
+  src="Continuous Wave Modulation_files/Angle%204.jpg" width=195></P>
+  <P></P>
+  <P>
+  <P>where <EM>k<SUB>p</SUB></EM> is a constant. The <STRONG>phase</STRONG> is 
+  linearly proportional to <FONT 
+  face="Times New Roman"><EM>f<SUB>m</SUB>(t)</EM></FONT> and we refer to this 
+  as <STRONG>phase modulation</STRONG>. The instantaneous <IMG height=507 
+  alt="wpeE.jpg (43727 bytes)" 
+  src="Continuous Wave Modulation_files/Angle_6.jpg" width=368 
+  align=right>frequency of the phase modulated signal is</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=52 alt="wpe9.jpg (2887 bytes)" 
+  src="Continuous Wave Modulation_files/Angle%205.jpg" width=247></P>
+  <P></P>
+  <P>
+  <P>In the second case <EM><FONT face=Symbol>w</FONT><SUB>i</SUB></EM> is 
+  varied with <FONT face="Times New Roman"><EM>f<SUB>m</SUB>(t)</EM></FONT></P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=33 alt="wpeA.jpg (1946 bytes)" 
+  src="Continuous Wave Modulation_files/Angle%207.jpg" width=165></P>
+  <P></P>
+  <P>
+  <P>where&nbsp; <EM>k<SUB>f</SUB></EM> is a constant. The 
+  <STRONG>frequency</STRONG> is linearly proportional to <FONT 
+  face="Times New Roman"><EM>f<SUB>m</SUB>(t)</EM></FONT> and we refer to this 
+  as <STRONG>frequency modulation</STRONG>. The total phase angle of the 
+  frequency modulated signal is then</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=64 alt="wpeB.jpg (2623 bytes)" 
+  src="Continuous Wave Modulation_files/Angle%208.jpg" width=234></P>
+  <P></P>
+  <P>
+  <P>Shown right are comparisons of the various signals.</P>
+  <P></P>
+  <P>
+  <P>By comparing the expressions for phase and frequency modulation the close 
+  relationship between them can be seen. </P>
+  <P></P>
+  <P>
+  <P>If a signal is applied to a differentiator and then frequency modulated the 
+  output is exactly equivalent to that obtained by phase modulating the signal. 
+  </P>
+  <P></P>
+  <P>
+  <P><IMG height=164 alt="wpe6.jpg (15541 bytes)" 
+  src="Continuous Wave Modulation_files/Angle%209.jpg" width=646></P>
+  <P></P>
+  <P>
+  <P>Likewise, if a signal is applied to an integrator and then phase modulated, 
+  the output is precisely equivalent to that obtained by frequency modulating 
+  the signal.</P>
+  <P></P>
+  <P>
+  <P><IMG height=173 alt="wpe7.jpg (15565 bytes)" 
+  src="Continuous Wave Modulation_files/Angle%2010.jpg" width=649></P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:15.734 GMT+1</I></P>
+  <H3>Peak Frequency And Phase Deviation</H3>
+  <P>
+  <P>On completing this section you should be able to define the peak phase 
+  deviation for phase modulation and peak frequency deviation and modulation 
+  index for frequency modulation.</P>
+  <P></P>
+  <P>
+  <P>If we have a carrier defined by <IMG height=22 alt="wpeB.jpg (1318 bytes)" 
+  src="Continuous Wave Modulation_files/Peak%20P3.jpg" width=113 align=middle> 
+  and a modulating signal defined by<IMG height=22 alt="wpeA.jpg (1383 bytes)" 
+  src="Continuous Wave Modulation_files/Peak%20P4.jpg" width=121 align=middle> 
+  the phase modulated (PM) output signal is then given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=24 alt="wpeC.jpg (2099 bytes)" 
+  src="Continuous Wave Modulation_files/Peak%20P5.jpg" width=218></P>
+  <P></P>
+  <P>
+  <P>and the frequency modulated (FM) output signal is</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=105 alt="wpeF.jpg (4755 bytes)" 
+  src="Continuous Wave Modulation_files/Peak%20P6.jpg" width=262></P>
+  <P></P>
+  <P>
+  <P>For phase modulation we define the <STRONG>(peak) phase 
+  deviation</STRONG></P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=25 alt="wpe10.jpg (1586 bytes)" 
+  src="Continuous Wave Modulation_files/Peak%20P7.jpg" width=174></P>
+  <P></P>
+  <P>
+  <P>which represents the maximum excursion of the carrier phase from the 
+  unmodulated value.</P>
+  <P></P>
+  <P>
+  <P>Similarly for FM we define the <STRONG>(peak) frequency 
+  deviation</STRONG></P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=25 alt="wpe11.jpg (1758 bytes)" 
+  src="Continuous Wave Modulation_files/Peak%20P8.jpg" width=209></P>
+  <P></P>
+  <P>
+  <P>which represents the maximum excursion of the carrier angular frequency 
+  from the unmodulated value. For FM we can make a further definition for the 
+  <STRONG>modulation index</STRONG></P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=48 alt="wpe14.jpg (2466 bytes)" 
+  src="Continuous Wave Modulation_files/Peak%20P9.jpg" width=223></P>
+  <P></P>
+  <P>
+  <P>so then we have</P>
+  <P></P>
+  <P>
+  <P align=center>&nbsp;<IMG height=29 alt="wpe1A.jpg (2002 bytes)" 
+  src="Continuous Wave Modulation_files/Peak%20P10.jpg" width=200></P>
+  <P></P>
+  <P>
+  <P>It is important to note that if the modulation process for PM and FM is 
+  non-linear (if we expand the above expression we get terms in higher order 
+  powers of the modulating signal). The spectrum of such signals therefore 
+  cannot be obtained from the superposition principle and are not related in any 
+  simple manner to that of the modulating &nbsp;signal. We will proceed to look 
+  at the spectrum of FM signals, but bear in mind that the same principles are 
+  true for PM signals as determined by the above relations.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:18.765 GMT+1</I></P>
+  <H3>Narrowband Frequency Modulation</H3>
+  <P>
+  <P>On completing this section you should be able to derive the expression for 
+  narrowband FM and give a comparison between narrowband FM and DSB-AM signals 
+  in terms of the relative phases of the sidebands.</P>
+  <P></P>
+  <P>
+  <P>Detailed analysis of FM is mathematically intractable and detailed analysis 
+  applicable to most real signals has to be deduced from the simple case of a 
+  single frequency sinusoidal modulating signal.</P>
+  <P></P>
+  <P>
+  <P>The expression for FM output may be expanded as follows</P>
+  <P></P>
+  <P>
+  <P align=center>&nbsp;<IMG height=54 alt="wpe1B.jpg (4679 bytes)" 
+  src="Continuous Wave Modulation_files/Narrow11.jpg" width=393></P>
+  <P></P>
+  <P>
+  <P>For small values of <EM><FONT face=Symbol>b</FONT></EM>, (<EM><FONT 
+  face=Symbol>b</FONT></EM>&lt;~0.3 usually) we can make the approximations <IMG 
+  height=25 alt="wpe1E.jpg (1355 bytes)" 
+  src="Continuous Wave Modulation_files/Narrow12.jpg" width=118 align=middle> 
+  and <IMG height=24 alt="wpe1F.jpg (1681 bytes)" 
+  src="Continuous Wave Modulation_files/Narrow13.jpg" width=164 align=middle> 
+  giving us the expression</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=29 alt="wpe20.jpg (2604 bytes)" 
+  src="Continuous Wave Modulation_files/Narrow14.jpg" width=281></P>
+  <P></P>
+  <P>
+  <P>This is referred to as <STRONG>narrowband FM</STRONG> or 
+  <STRONG>NBFM</STRONG>. This can be expanded to give us upper and lower 
+  sideband frequencies at <EM><FONT face=Symbol>w</FONT><SUB>c</SUB></EM><FONT 
+  face=Symbol>±<EM>w</FONT><SUB>m</SUB></EM> as in the AM case</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=42 alt="wpe21.jpg (3578 bytes)" 
+  src="Continuous Wave Modulation_files/Narrow15.jpg" width=396></P>
+  <P></P>
+  <P>
+  <P>However, this is not AM which we can see be comparing this expression with 
+  that for the AM case</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=42 alt="wpe22.jpg (3544 bytes)" 
+  src="Continuous Wave Modulation_files/Narrow16.jpg" width=393></P>
+  <P></P>
+  <P>
+  <P><IMG height=98 alt="wpe23.jpg (2272 bytes)" 
+  src="Continuous Wave Modulation_files/Narrow17.jpg" width=155 align=left><IMG 
+  height=138 alt="wpe24.jpg (7090 bytes)" 
+  src="Continuous Wave Modulation_files/Narrow18.jpg" width=306 align=right>With 
+  Narrowband FM the sidebands are in antiphase as shown left. The phasor 
+  representation is given right. We see that with NBFM the modulation adds in 
+  phase quadrature with the carrier to produce phase variations with only a 
+  small amplitude variation.&nbsp; That is, looking at the phasor diagram, we 
+  see that changes in the lengths of the sidebands causes small changes in the 
+  length of the resultant relative to the carrier but causes significant changes 
+  in the angle between them.</P>
+  <P></P>
+  <P>
+  <P><IMG height=90 alt="wpe25.jpg (2393 bytes)" 
+  src="Continuous Wave Modulation_files/Narrow19.jpg" width=157 align=left><IMG 
+  height=129 alt="wpe26.jpg (4373 bytes)" 
+  src="Continuous Wave Modulation_files/Narrow20.jpg" width=205 align=right>With 
+  amplitude modulation the sidebands are in phase and the resultant exhibits 
+  large amplitude variations but no phase variation relative to the carrier as 
+  can be seen from the phasor shown right.</P>
+  <P></P>
+  <P>
+  <P><IMG height=261 alt="wpe27.jpg (9064 bytes)" 
+  src="Continuous Wave Modulation_files/Narrow21.jpg" width=214 align=left>NBFM 
+  however occupies the same bandwidth as the AM signal (<FONT 
+  face=Symbol>2<EM>w</FONT><SUB>m</SUB></EM>). It does not exhibit the main 
+  advantage of FM systems which is better noise immunity, the reason being that 
+  the noise immunity requires a somewhat larger bandwidth of unrestricted or 
+  wideband FM.</P>
+  <P></P>
+  <P>
+  <P>Narrowband FM generation is fairly simple, as shown right, which follows 
+  from the expression for NBFM<BR><IMG height=29 alt="wpe20.jpg (2604 bytes)" 
+  src="Continuous Wave Modulation_files/Narrow14.jpg" width=281></P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:17.968 GMT+1</I></P>
+  <H3>Simultaneous Amplitude and Frequency Modulation</H3>
+  <P>
+  <P>On completing this section you should be able to explain the spectrum 
+  obtained if AM and NBFM are simultaneously applied</P>
+  <P></P>
+  <P>
+  <P><IMG height=278 alt="wpe33.jpg (8585 bytes)" 
+  src="Continuous Wave Modulation_files/Simult22.jpg" width=234 align=right>We 
+  have seen that AM and NBFM each produce sidebands at <EM><FONT 
+  face=Symbol>w</FONT><SUB>c</SUB></EM><FONT 
+  face=Symbol>±<EM>w</FONT><SUB>m</SUB></EM> ; while the AM sidebands are in 
+  phase the NBFM sidebands are out of phase by <FONT face=Symbol>p</FONT>. Thus 
+  if they are simultaneously present the overall spectrum will exhibit side 
+  frequencies which have unequal amplitudes. This is an important observation 
+  for the characterisation of modulator performance using as spectrum analyser. 
+  If we examine the output of an AM modulator and find that the sidebands are of 
+  unequal amplitudes we can conclude that it is imperfect. </P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:20.343 GMT+1</I></P>
+  <H3>Wideband Frequency Modulation</H3>
+  <P>On completing this section you should be able to describe the spectrum for 
+  wideband frequency modulation, and, given a table or graph of Bessel function 
+  plot the spectrum of a sinusoidal modulated FM signal for varying modulation 
+  index. </P>
+  <P>
+  <P>The expression for FM output may be expanded as follows</P>
+  <P></P>
+  <P>
+  <P align=center>&nbsp;<IMG height=54 alt="wpe1B.jpg (4679 bytes)" 
+  src="C:\My Documents\Assignments Final Year\Digital Telecommunications\Continuous Wave Modulation_files\Narrow11(1).jpg" 
+  width=393></P>
+  <P></P>
+  <P>
+  <P>If <FONT face=Symbol><EM>b</EM></FONT> is not small the terms in cos(<FONT 
+  face=Symbol><EM>b</EM></FONT>sin<FONT 
+  face=Symbol><EM>w</EM></FONT><SUB>m</SUB>t) and sin(<FONT 
+  face=Symbol><EM>b</EM></FONT>cos<FONT 
+  face=Symbol><EM>w</EM></FONT><SUB>m</SUB>t) are complicated. If we expand 
+  these functions as a Taylor series we will find terms in powers of <FONT 
+  face=Symbol><EM>b</EM></FONT> which will become more important as <FONT 
+  face=Symbol><EM>b</EM></FONT> increases. Since these functions are periodic we 
+  can expand them in Fourier series </P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=48 alt="wpe35.jpg (4804 bytes)" 
+  src="Continuous Wave Modulation_files/Wideba23.jpg" width=345></P>
+  <P></P>
+  <P>
+  <P>The coefficients are themselves functions of <FONT 
+  face=Symbol><EM>b</EM></FONT> and are known as <STRONG>Bessel functions of the 
+  first kind</STRONG> denoted by <EM>J<SUB>n</SUB>(<FONT face=Symbol>b</FONT> 
+  ).</EM> These functions are available in tables or can be calculated by 
+  computer (e.g. in Matlab).</P>
+  <P></P>
+  <P>
+  <P>With this definition for Bessel functions our FM output for a single 
+  sinusoidal modulating signal becomes</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=46 alt="wpe37.jpg (2555 bytes)" 
+  src="Continuous Wave Modulation_files/Wideba24.jpg" width=238></P>
+  <P></P>
+  <P>
+  <P><IMG height=281 alt="wpe39.jpg (22292 bytes)" 
+  src="Continuous Wave Modulation_files/Wideba25.jpg" width=433 align=right>i.e. 
+  we know have a set of sidebands separated by multiples of the modulating 
+  frequency with amplitudes given by the Bessel function of the corresponding 
+  order of the modulation index. The Bessel functions are shown for several 
+  values of order <EM>n</EM>. Knowing these functions we can now calculate the 
+  spectra for differing values of <FONT face=Symbol><EM>b</EM></FONT>.</P>
+  <P></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:23.125 GMT+1</I></P>
+  <H3>FM Bandwidth</H3>
+  <P>
+  <P>On completing this section you should be able to estimate the bandwidth 
+  required for FM transmission.</P>
+  <P></P>
+  <P>
+  <P>The expression for <EM>V<SUB>FM</SUB>(t)</EM> given above has an infinite 
+  number of sidebands and therefore an infinite bandwidth, however in practice 
+  all higher orders above some value of <EM>n</EM> will tend to zero. For large 
+  values of <EM>n</EM> <IMG height=22 alt="wpe3B.jpg (1361 bytes)" 
+  src="Continuous Wave Modulation_files/FM%20Ban27.jpg" width=111 
+  align=middle>so when <FONT face=Symbol><EM>b </EM></FONT>is large only the 
+  first <FONT face=Symbol><EM>b</EM></FONT> +1 values of <EM>J<SUB>n</SUB>(<FONT 
+  face=Symbol>b</FONT> )</EM> are significant (including <EM>J<SUB>0</SUB>(<FONT 
+  face=Symbol>b</FONT> )</EM>) and their are <FONT face=Symbol><EM>b</EM></FONT> 
+  pairs of frequencies separated by <EM><FONT 
+  face=Symbol>w</FONT><SUB>m</SUB></EM> .</P>
+  <P></P>
+  <P>
+  <P>In practice the bandwidth required for FM transmission is given by 
+  <STRONG>Carson's rule</STRONG></P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=25 alt="wpe3C.jpg (1811 bytes)" 
+  src="Continuous Wave Modulation_files/FM%20Ban28.jpg" width=194></P>
+  <P></P>
+  <P>
+  <P>or equivalently</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=25 alt="wpe3D.jpg (1945 bytes)" 
+  src="Continuous Wave Modulation_files/FM%20Ban29.jpg" width=191></P>
+  <P></P>
+  <P>
+  <P>We see that if <FONT face=Symbol><EM>b </EM></FONT>is small this reduces to 
+  W=2<FONT face=Symbol>w</FONT><SUB><EM>m</EM></SUB><FONT face=Symbol> 
+  </FONT>and for large <FONT face=Symbol><EM>b </EM></FONT>to W=2<FONT 
+  face=Symbol>Dw </FONT>as expected. In between these limits Carson's rule is a 
+  useful rule but the only way to be completely accurate is to use the values of 
+  the Bessel functions to determine the number of significant sidebands 
+  <EM>n</EM> and the to apply W=2<EM>n</EM><FONT 
+  face=Symbol>w</FONT><SUB><EM>m</EM></SUB>. A significant side frequency is 
+  usually taken to be more than 1% of the unmodulated carrier amplitude which 
+  means all those for which <EM>J<SUB>n</SUB>(<FONT face=Symbol>b</FONT> )</EM> 
+  &gt;0.01As an example, with a 100MHz deviation a modulating signal of 1MHz has 
+  <FONT face=Symbol><EM>b </EM></FONT>=0.1;<FONT face=Symbol></FONT>this is NBFM 
+  and B=2MHz (Carson's rule gives 2.2MHz). With the same deviation a modulating 
+  frequency has <FONT face=Symbol><EM>b </EM></FONT>=100;<FONT 
+  face=Symbol></FONT>this is WBFM and B=2<FONT 
+  face=Symbol>D</FONT>F=200kHz(Carsons rule gives 202kHz). Still with the same 
+  deviation and a modulating frequency of 20kHz we have <FONT face=Symbol><EM>b 
+  </EM></FONT>=5 and Carson's rule gives B~240kHz. Using a table of Bessel 
+  functions we find that there are 8 significant side frequencies so 
+  B=2x8x20=320kHz. Carson's rule tends to underestimate the bandwidth required 
+  for <FONT face=Symbol><EM>b</EM></FONT> in the middle range.</P>
+  <P></P>
+  <P>
+  <P><IMG height=373 alt="wpe3F.jpg (18256 bytes)" 
+  src="Continuous Wave Modulation_files/FM%20Ban30.jpg" width=410 
+  align=right>Shown right are various FM spectra for varying modulation indices 
+  and modulating frequencies. With FM the modulated bandwidth varies with the 
+  modulation index <FONT face=Symbol><EM>b</EM></FONT> which is in contrast with 
+  AM where the bandwidth is independent of the modulation index <EM>m</EM>. Note 
+  also what happens if the deviation <FONT face=Symbol>Dw</FONT> is held 
+  constant and the modulating frequency <FONT 
+  face=Symbol>w</FONT><SUB><EM>m</EM></SUB> is varied: as <FONT 
+  face=Symbol>w</FONT><SUB><EM>m</EM></SUB> decreases B<FONT 
+  face=Symbol><EM>b</EM></FONT> increases and the number of significant side 
+  frequencies (spaced from each other by <FONT 
+  face=Symbol>w</FONT><SUB><EM>m</EM></SUB>) also increases.</P>
+  <P></P>
+  <P>
+  <P>The spectrum of a two tone modulating signal is illustrated below. <IMG 
+  height=346 alt="wpe40.jpg (10424 bytes)" 
+  src="Continuous Wave Modulation_files/FM%20Ban31.jpg" width=267 align=left> 
+  Two effects should be noted: the simultaneous presence of both tones changes 
+  the side frequency amplitudes due to the individual tomes and new side 
+  frequencies are generated at <FONT 
+  face=Symbol>w</FONT><SUB><EM>c</EM></SUB><FONT 
+  face=Symbol>±</FONT><EM>m</EM><FONT 
+  face=Symbol>w</FONT><SUB><EM>1</EM></SUB><FONT 
+  face=Symbol>±</FONT><EM>n</EM><FONT face=Symbol>w</FONT><SUB><EM>2</EM></SUB> 
+  where <EM>n</EM> and<EM> m </EM>are integers. Obviously the number of tones 
+  increases rapidly as more signals are added. It is therefore impossible to 
+  obtain the Fourier transform of an FM signal analytically and so, for design 
+  purposes, digital computational techniques are used. Carson's rule can still 
+  however be applied for estimating the bandwidth of the spectrum if the maximum 
+  frequency in the bandlimited modulating signal is substituted in.</P>
+  <P></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:17.093 GMT+1</I></P>
+  <H3>FM Stereo Radio Transmission</H3>
+  <P>
+  <P>On completing this section you should be able to describe FM stereo radio 
+  transmission illustrating the spectral components and a block diagram of an FM 
+  stereo encoder and modulator and an FM stereo decoder</P>
+  <P></P>
+  <P>
+  <P>Commercial FM Radio uses the internationally agreed 88-108MHz VHF band 
+  which is divided to allow one carrier per 200kHz interval. To achieve stereo 
+  transmission it is necessary that two separate audio channels (Left L and 
+  Right R) must be detectable at the receiver. The approach taken is to transmit 
+  L+R and L-R such that a monophonic receiver needs only detect and demodulate 
+  the L+R signal while a stereophonic receiver will use the sum and difference 
+  of these two to produce separate L and R outputs.</P>
+  <P></P>
+  <P>
+  <P><IMG height=165 alt="wpe41.jpg (8612 bytes)" 
+  src="Continuous Wave Modulation_files/FM%20ste32.jpg" width=367 align=left>A 
+  maximum deviation <EM><FONT face=Symbol>D</FONT>f</EM> of 75kHz is adopted for 
+  commercial FM with an audio base bandwidth of 30Hz-15kHz. The L+R channel 
+  occupies the baseband while the L-R signal is carried by DSB-SC on a 38kHz 
+  <STRONG>subcarrier</STRONG>. A 19kHz pilot tone is also transmitted to enable 
+  <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/cwm/SynchronousDetection">synchronous 
+  detection</A> of the L-R channel at the receiver. These signals are 
+  multiplexed together to produce a composite baseband signal as shown here, and 
+  this composite signal is then frequency modulated and transmitted. <IMG 
+  height=190 alt="wpe42.jpg (12695 bytes)" 
+  src="Continuous Wave Modulation_files/FM%20ste33.jpg" width=492 
+  align=right>The FM coder and modulation process is shown here. Note that the 
+  audio signal is filtered to emphasise the higher frequencies 
+  (<STRONG>pre-emphasis</STRONG>) which improves noise rejection while 
+  <STRONG>deemphasis</STRONG> is performed at the receiver reducing hiss. This 
+  principle is used in other noise reduction systems such as Dolby.</P>
+  <P></P>
+  <P>
+  <P>Carson's rule gives a bandwidth B=2(75+53)=256kHz for the resulting FM 
+  signal which is somewhat greater than the 200kHz channel separation. 
+  Interference is avoided by the relatively short range of VHF transmission and 
+  allocating adjacent carriers to widely separated geographical areas.</P>
+  <P></P>
+  <P>
+  <P><IMG height=257 alt="wpe43.jpg (14536 bytes)" 
+  src="Continuous Wave Modulation_files/FM%20ste34.jpg" width=402 align=right>As 
+  with AM radio, FM receiver systems (shown right) use the superheterodyne 
+  principle to achieve frequency tuning with a standard IF of 10.7MHz.&nbsp; 
+  <IMG height=211 alt="wpe44.jpg (8107 bytes)" 
+  src="Continuous Wave Modulation_files/FM%20ste35.jpg" width=252 
+  align=left>Input signal amplitude fluctuations are compensated using an 
+  <STRONG>automatic gain control (AGC)</STRONG> loop in which a signal 
+  proportional to the demodulated output level is fed back to a variable gain RF 
+  amplifier. This same signal may be used to provide an indication of 
+tuning.</P>
+  <P></P>
+  <P>
+  <P><IMG height=181 alt="wpe45.jpg (6931 bytes)" 
+  src="Continuous Wave Modulation_files/FM%20ste36.jpg" width=252 
+  align=left>Additionally fluctuations in the local oscillator frequency can be 
+  severely detrimental in FM systems so a second feedback loop providing 
+  <STRONG>automatic frequency control (AFC)</STRONG> is used to control a 
+  voltage controlled oscillator to compensate and stabilise the IF.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:17.39 GMT+1</I></P>
+  <H3>Wideband FM Modulators</H3>
+  <P>
+  <P>On completing this section you should be able to describe the principles 
+  behind FM modulation and various techniques that can be used to achieve it</P>
+  <P></P>
+  <P>
+  <H2 align=left>Direct Method</H2>
+  <P></P>
+  <P>
+  <P><IMG height=126 alt="wpe47.jpg (5242 bytes)" 
+  src="Continuous Wave Modulation_files/Wideba37.jpg" width=286 align=left>FM 
+  may be generated simply, in principle, by using a sine wave oscillator whose 
+  output frequency varies in proportion to the input modulating signal i.e. 
+  using a voltage controlled oscillator (VCO). The simplest approach uses a 
+  variable capacitor in&nbsp; the LC tuning circuit of an oscillator as shown 
+  right; the capacitance of a reverse-biased varactor diode varies in this way 
+  and this device is used in practical system. The total capacitance in the 
+  circuit is given by <IMG height=25 alt="wpe48.jpg (1539 bytes)" 
+  src="Continuous Wave Modulation_files/Wideba38.jpg" width=122 align=middle> so 
+  we obtain for the frequency of the oscillator </P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=150 alt="wpe49.jpg (7934 bytes)" 
+  src="Continuous Wave Modulation_files/Wideba39.jpg" width=350></P>
+  <P></P>
+  <P>
+  <P>which is as required for an FM signal (provided the change in frequency is 
+  much smaller than the carrier frequency). The fractional frequency change 
+  achievable with a varactor diode is small and to achieve larger deviations the 
+  FM is often carried out at higher frequencies and then heterodyned down to the 
+  required frequency. A difficult issue with direct FM is the need to maintain a 
+  stable carrier frequency. This issue overcome using indirect methods where the 
+  carrier frequency generator is isolated from the modulating signal and does 
+  not respond to it.</P>
+  <P></P>
+  <P>
+  <H2 align=left>Indirect Method (Armstrong Method)</H2>
+  <P></P>
+  <P>
+  <P>We have already looked at the <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/paths/cwm/Narrowband%20Frequency%20Modulation.htm">method 
+  for NBFM generation</A>. This technique is simple but the achievable&nbsp; 
+  <FONT face=Symbol><EM>b</EM></FONT> is low (&lt;0.5). It does however form the 
+  basis for WBFM using frequency multiplication in increase <FONT 
+  face=Symbol><EM>b</EM></FONT>.</P>
+  <P></P>
+  <P>
+  <P>&nbsp;<IMG height=183 alt="wpe4A.jpg (14612 bytes)" 
+  src="Continuous Wave Modulation_files/Wideba40.jpg" width=647></P>
+  <P></P>
+  <P>
+  <P>A frequency multiplier is simply a non-linear element followed by a 
+  bandpass filter. An <EM>n</EM><SUP>th</SUP> order linearity will give rise to 
+  a term at a frequency of <EM>n<FONT face=Symbol>w</FONT><SUB>c</SUB></EM> and 
+  with a modulation index of <EM>n<FONT face=Symbol>b</FONT></EM> i.e. a 
+  frequency deviation <EM>n<FONT face=Symbol>Dw</FONT></EM>. Note the modulating 
+  frequency is unaltered in the multiplication process. In practice very large 
+  non-linearities can be generated using <STRONG>step-recover diodes</STRONG> 
+  capable of producing single-step multiplications of an order of magnitude. 
+  Losses in the multiplication process are overcome using amplification. The use 
+  of multiplication can leave the carrier at a much higher frequency that we 
+  wish so frequency shifting using a mixer followed by a bandpass filter is 
+  used. The example below illustrates the generation of WBFM from NBFM by the 
+  indirect method. </P>
+  <P></P>
+  <P>
+  <P><IMG height=177 alt="wpe4B.jpg (19005 bytes)" 
+  src="Continuous Wave Modulation_files/Wideba41.jpg" width=639></P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:23.015 GMT+1</I></P>
+  <H3>FM Demodulation</H3>
+  <P>
+  <P>On completing this section you should be able to describe the principles 
+  behind FM demodulation and the various techniques that can be used to achieve 
+  it.</P>
+  <P></P>
+  <P>
+  <P><IMG height=108 alt="wpe4D.jpg (3094 bytes)" 
+  src="Continuous Wave Modulation_files/FM%20Dem42.jpg" width=153 
+  align=left>Since FM is generated by producing an output frequency proportional 
+  to an input voltage, FM demodulation is the inverse of this process by which 
+  an output voltage is produced in proportion to the instantaneous frequency of 
+  an input signal. Ideally any device which exhibits a linear voltage-frequency 
+  characteristic (a <STRONG>frequency discriminator</STRONG> or just 
+  <STRONG>discrimintator</STRONG>) will perform the demodulation. <IMG 
+  height=153 alt="wpe4C.jpg (7772 bytes)" 
+  src="Continuous Wave Modulation_files/FM%20Dem43.jpg" width=322 
+  align=right>Generally the processes involved in FM demodulation may be 
+  understood in two equivalent ways: (i) a differentiation step followed by 
+  envelope detection or (ii) FM-&gt;AM conversion followed by AM demodulation. 
+  </P>
+  <P></P>
+  <P>
+  <P>The FM waveform is generally given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=51 alt="wpe51.jpg (2403 bytes)" 
+  src="Continuous Wave Modulation_files/FM%20Dem44.jpg" width=225></P>
+  <P></P>
+  <P>
+  <P>Differentiating gives</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=51 alt="wpe52.jpg (3666 bytes)" 
+  src="Continuous Wave Modulation_files/FM%20Dem45.jpg" width=340></P>
+  <P></P>
+  <P>
+  <P>We see that this signal has an envelope proportional to the amplitude of 
+  the modulating signal <EM>f<SUB>m</SUB>(t)</EM> which can then be removed by 
+  envelope detection.</P>
+  <P></P>
+  <P>
+  <P>There are many forms of FM demodulator. We will consider 3 here.</P>
+  <P></P>
+  <P>
+  <H3 align=left>Tuned Circuit Demodulator</H3>
+  <P></P>
+  <P>
+  <P><IMG height=121 alt="wpe4E.jpg (4556 bytes)" 
+  src="Continuous Wave Modulation_files/FM%20Dem46.jpg" width=213 align=left>The 
+  ideal linear voltage-frequency relation can be approximated by a 
+  differentiator circuit shown here. <IMG height=155 
+  alt="wpe4F.jpg (4585 bytes)" 
+  src="Continuous Wave Modulation_files/FM%20Dem47.jpg" width=227 
+  align=right>The filter characteristic can the be approximated as follows</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=70 alt="wpe50.jpg (2900 bytes)" 
+  src="Continuous Wave Modulation_files/FM%20Dem48.jpg" width=179></P>
+  <P></P>
+  <P>
+  <P>so that the characteristic is proportional to frequency as required. </P>
+  <P></P>
+  <P>
+  <P><IMG height=164 alt="wpe53.jpg (9107 bytes)" 
+  src="Continuous Wave Modulation_files/FM%20Dem49.jpg" width=345 
+  align=left><IMG height=178 alt="wpe54.jpg (6160 bytes)" 
+  src="Continuous Wave Modulation_files/FM%20Dem50.jpg" width=281 
+  align=right>The linear range of the tuned circuit discriminator can be 
+  extended by using two tuned circuits, each with a different resonant 
+  frequency, fed in antiphase as shown here. The composite characteristic is 
+  also shown. This principle form the basis of many FM demodulators referred to 
+  as <STRONG>balanced discriminators</STRONG>.</P>
+  <P></P>
+  <P>
+  <H3 align=left>Zero-crossing detector</H3>
+  <P></P>
+  <P>
+  <P>Ideally the FM signal has constant amplitude, however, noise can contribute 
+  some amplitude variation which will not be eliminated by the discriminator and 
+  will, therefore, contribute to distortion in the demodulated signal. In 
+  practical FM systems the FM discriminator is preceded by a limiter circuit to 
+  eliminate the amplitude fluctuations. The limiter consists of a comparator 
+  circuit which effectively squares of the FM waveform, followed by a bandpass 
+  filter.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=196 alt="wpe56.jpg (15515 bytes)" 
+  src="Continuous Wave Modulation_files/FM%20Dem51.jpg" width=558></P>
+  <P></P>
+  <P>
+  <P>It is apparent that the FM information in the limiter output is contained 
+  at the points where the signal crosses the zero axis, and this forms the basis 
+  of a digital FM demodulator called the <STRONG>zero-crossing detector</STRONG> 
+  illustrated below.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=175 alt="wpe57.jpg (10882 bytes)" 
+  src="Continuous Wave Modulation_files/FM%20Dem52.jpg" width=565></P>
+  <P></P>
+  <P>
+  <P>In the circuit a gating pulse sets a fixed time interval in which the the 
+  number of zero crossings in the limiter output is accumulated in a binary 
+  counter. The counter outputs is passed to a digital-to-analogue converter 
+  (DAC) which produces an output voltage proportional to the number of crossings 
+  in the fixed time interval which is, thus, a measure of the instantaneous 
+  frequency of the original modulating signal.</P>
+  <P></P>
+  <P>
+  <H3 align=left>Phase-locked Loop FM Demodulator</H3>
+  <P></P>
+  <P>
+  <P><IMG height=145 alt="wpe58.jpg (8630 bytes)" 
+  src="Continuous Wave Modulation_files/FM%20Dem53.jpg" width=373 
+  align=right>The third method of FM demodulation is based on the use of a 
+  phase-locked loop, which, with the availability of integrated circuit 
+  versions, is now commonly used. Recall that the PLL operates by nulling the 
+  phase difference between an input signal and the VCO output and that the VCO 
+  has a linear frequency-voltage response. In the PLL, shown above, the loop 
+  responds such that the signal required to drive the VCO to achieve the phase 
+  locking condition is precisely the FM demodulated output.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:17.25 GMT+1</I></P>
+  <H3>Random Time-Varying Signals</H3>
+  <P>
+  <P>On completing this section you should be able to Calculate the dc power and 
+  ac power for random time-varying signals in terms of signal amplitude and 
+  probability density function.</P>
+  <P></P>
+  <P>
+  <P><IMG height=185 alt="wpe4.jpg (9362 bytes)" 
+  src="Continuous Wave Modulation_files/Random1.jpg" width=314 align=right>Shown 
+  right is an example of a random time-varying signal <FONT 
+  face="Times New Roman"><EM>x(t)</EM></FONT>. The <STRONG>mean </STRONG>value 
+  <IMG height=26 alt="wpe7.jpg (919 bytes)" 
+  src="Continuous Wave Modulation_files/Random2.jpg" width=30 align=middle>of 
+  the signal <FONT face="Times New Roman"><EM>x(t)</EM></FONT> gives the average 
+  or d.c. value of <FONT face="Times New Roman"><EM>x(t)</EM></FONT>:</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=44 alt="wpe6.jpg (2032 bytes)" 
+  src="Continuous Wave Modulation_files/Random3.jpg" width=150></P>
+  <P></P>
+  <P>
+  <P>It is calculated by integrating over the signal amplitude in time.</P>
+  <P></P>
+  <P>
+  <P>While we can calculate this average if a time-varying record of <FONT 
+  face="Times New Roman"><EM>x(t)</EM></FONT> is known, if it is a continuous 
+  random variable it may be much more convenient to use the <IMG height=174 
+  alt="wpeA.jpg (10539 bytes)" 
+  src="Continuous Wave Modulation_files/Random4.jpg" width=312 
+  align=right>signal <STRONG>probability density function (PDF)</STRONG>. The 
+  PDF <FONT face="Times New Roman"><EM>p(x)</EM></FONT> for a random signal is 
+  the probability that the signal will take the value <FONT 
+  face="Times New Roman"><EM>x</EM></FONT>. This is illustrated right for our 
+  random signal. If we look at a particular signal amplitude we can determine 
+  the number of occurrences of that amplitude. Expressing this, relative to all 
+  the other signal amplitude values in terms of a probability gives the PDF 
+  shown by the red curve in the figure. The average value of the signal can then 
+  be expressed in terms of <FONT face="Times New Roman"><EM>p(x) </EM></FONT>as 
+  follows</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=52 alt="wpeB.jpg (1423 bytes)" 
+  src="Continuous Wave Modulation_files/Random5.jpg" width=100></P>
+  <P></P>
+  <P>
+  <P>The power in a signal is proportional to its amplitude squared so the 
+  <STRONG>mean square</STRONG> value <IMG height=27 alt="wpe10.jpg (988 bytes)" 
+  src="Continuous Wave Modulation_files/Random6.jpg" width=37 align=middle> of 
+  the signal gives the <STRONG>total time-averaged power </STRONG>in <FONT 
+  face="Times New Roman"><EM>x(t)</EM></FONT> and is given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=43 alt="wpeE.jpg (2187 bytes)" 
+  src="Continuous Wave Modulation_files/Random7.jpg" width=172></P>
+  <P></P>
+  <P>
+  <P>or alternatively in terms of the PDF</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=50 alt="wpeC.jpg (1613 bytes)" 
+  src="Continuous Wave Modulation_files/Random8.jpg" width=108></P>
+  <P></P>
+  <P>
+  <P>The mean square value is not the same as the mean value squared; the two 
+  are related by the <STRONG>variance</STRONG> <EM><FONT 
+  face=Symbol>s</FONT><FONT 
+  face="Times New Roman"><SUP>2</SUP>(t)</FONT></EM></P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=43 alt="wpe11.jpg (2262 bytes)" 
+  src="Continuous Wave Modulation_files/Random9.jpg" 
+  width=183>&nbsp;&nbsp;&nbsp; <IMG height=35 alt="wpe14.jpg (1683 bytes)" 
+  src="Continuous Wave Modulation_files/Random10.jpg" width=154></P>
+  <P></P>
+  <P>
+  <P>which gives the <STRONG>time averaged power in the ac component </STRONG>of 
+  the signal. <EM><FONT face=Symbol>s</FONT><FONT 
+  face="Times New Roman">(t)</FONT></EM> is the <STRONG>standard 
+  deviation</STRONG> which gives the root mean square (rms.) value of <FONT 
+  face="Times New Roman"><EM>x(t)</EM></FONT>. The relationship between all of 
+  the terms is illustrated in the figure below</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=160 alt="wpe1A.jpg (10773 bytes)" 
+  src="Continuous Wave Modulation_files/Random11.jpg" width=342></P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:19.593 GMT+1</I></P>
+  <H3>Sources of Noise</H3>
+  <P>On completing this section you should be able to list and describe a range 
+  of external and internal sources of noise occurring in a communications 
+  system</P>
+  <P>
+  <TABLE cellSpacing=1 bgColor=#ffff00 border=1>
+    <TBODY>
+    <TR>
+      <TD><FONT color=#ff0000>Noise may be defined as any unwanted electrical 
+        signal which is present simultaneously with the desired 
+    signal</FONT></TD></TR></TBODY></TABLE></P>
+  <P>
+  <P>Generally, in a communications system the effects of noise are encountered 
+  in the receiver where it masks or interferes with the desired signal and so 
+  acts against accurate detection and reproduction of the signal.</P>
+  <P></P>
+  <P>
+  <P>Noise may be categorised as originating either external or internal to the 
+  receiver</P>
+  <P></P>
+  <P>
+  <H2>External Sources of Noise</H2>
+  <P></P>
+  <P>
+  <P>These include</P>
+  <P></P>
+  <P>
+  <DL>
+    <DT><STRONG>Man-made Noise</STRONG> 
+    <DD>Electromagnetic emissions from industrial electrical machinery, high 
+    voltage transmission lines and switch gear, aircraft and automobile 
+    ignitions, fluorescent lighting and numerous electric motors constitute a 
+    massive noise source 
+    <DT><STRONG>Atmospheric Noise</STRONG> 
+    <DD>Consists or randomly occurring bursts of radio waves originating from 
+    lighting discharges and other electrical activity in the atmosphere - 
+    commonly experienced inn radio reception where its is referred to as static. 
+    Generally occurs as short impulses so that the noise is spread over a wide 
+    frequency range. 
+    <DT><STRONG>Solar Noise</STRONG> 
+    <DD>The sun radiates electromagnetic energy over a wide frequency range 
+    including the spectrum used for communications. In addition the sun has 
+    cyclical periods of activity associated with sunspots and solar flares which 
+    generate intense bursts of electromagnetic energy. 
+    <DT><STRONG>Cosmic Noise</STRONG> 
+    <DD>All stars are intense sources of electromagnetic energy giving rise to 
+    noise distributed fairly uniformly across the entire sky. Additionally we 
+    receive intense noise from the centre of our own galaxy, from more distance 
+    galaxies, and from pulsars and quasars, all of which appear as point 
+    sources. </DD></DL>
+  <P></P>
+  <P>
+  <P>Noise from all of these sources may be picked up by communications 
+  antennas, and, in the first two cases particularly, by imperfectly screened 
+  electrical circuits.</P>
+  <P></P>
+  <P>
+  <H2>Internal Sources of Noise</H2>
+  <P></P>
+  <P>
+  <P>There are many sources of noise internal to electrical circuits</P>
+  <P></P>
+  <P>
+  <DL>
+    <DT><STRONG>Crosstalk</STRONG> 
+    <DD>is caused by electromagnetic coupling between adjacent signal paths. It 
+    can be minimised or eliminated by proper design. The coupling is usually 
+    either by inductive or capacitive pickup and is prone to happen when 
+    metallic conductors are closely spaced and when the signal has significant 
+    high frequency content. Digital systems are less prone to this interference 
+    than analogues system, and fibre optic systems are immune to crosstalk 
+    effects (except where the signals are processed electrically) 
+    <DT><STRONG>Thermal </STRONG>or<STRONG> Johnson Noise</STRONG> 
+    <DD>Any resistive electrical component contains electrons which are in 
+    random motion due to their thermal kinetic energy. This is zero at absolute 
+    zero 0K of temperature. The random motions of the electrons constitute a 
+    fluctuating current, the magnitude of which increases with temperature, and 
+    therefore any resistive component will have a randomly varying potential 
+    difference across it due to this fluctuating current. On the average the 
+    potential difference is of course zero and won't register on a dc meter. 
+    This random current or voltage is referred to as thermal or Johnson 
+    Noise.<BR>The mean square noise current density for thermal noise is given 
+    by <IMG height=26 alt="wpe1C.jpg (1744 bytes)" 
+    src="Continuous Wave Modulation_files/Source12.jpg" width=150 
+    align=middle><BR>The statistical nature of thermal noise means that we must 
+    always deal with the mean square or rms. value of the noisy current or 
+    voltage since the instantaneous values are unpredictable. Also thermal noise 
+    occurs uniformly across the frequency spectrum with a constant power 
+    spectral density - referred to as <STRONG>white noise</STRONG>. (actually 
+    quantum mechanical analysis reveals that thermal noise has a cut off of 
+    ~10<SUP>12</SUP> Hz - well beyond the response of conventional electronics 
+    so the white noise approximation is accurate over the frequency ranges of 
+    interest to most telecommunications) 
+    <DT><STRONG>Shot </STRONG>or<STRONG> Quantum noise</STRONG> 
+    <DD>This the second important fundamental source of noise which occurs in 
+    all active electronic devices. This also has, for practical purposes, the 
+    properties of white noise. Its origins lie in the discrete nature of the 
+    electric charge carriers, the motion of which constitutes a current. There 
+    may be slight random variations in their rate of flow across a semiconductor 
+    junction giving rise to small random variations in the current.<BR>Shot 
+    noise can be modelled as a noise current source with mean square spectral 
+    density given by <IMG height=26 alt="wpe1D.jpg (1527 bytes)" 
+    src="Continuous Wave Modulation_files/Source13.jpg" width=125 align=middle> 
+    e.g. a sinusoidal current of 10mA (rms.) gives rise to a mean square shot 
+    noise current of (2)(1.6x10<SUP>-19</SUP>)(1x10<SUP>-2</SUP> 
+    )=3.2x10<SUP>-21</SUP>A<SUP>2</SUP>/Hz. If this current is measured in a 
+    bandwidth of 1MHz, the mean square shot noise current is 
+    3.2x10<SUP>-15</SUP>A<SUP>2</SUP>, or an rms. shot noise current of 
+    5.7x10<SUP>-8</SUP>A=57nA. If this flows into a resistance of 1kohm the shot 
+    noise power developed is 3.2 pW. 
+    <DT><STRONG>1/f </STRONG>or<STRONG> flicker noise</STRONG> 
+    <DD>At low frequencies, typically less than 500hz active devices exhibit 
+    a&nbsp; poorly understood form of noise which has a mean square current 
+    spectral density which varies as 1/f (i.e. its power decreases with 
+    increasing frequency). It is the result of several different phenomena but 
+    it may be thought of as drift noise, arising from the drift, at low 
+    frequencies, of the operating points of physical devices. </DD></DL>
+  <P></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:18.421 GMT+1</I></P>
+  <H3>Noise Transmission Through a Linear System</H3>
+  <P></P>
+  <P>
+  <P><IMG height=157 alt="wpe1E.jpg (9393 bytes)" 
+  src="Continuous Wave Modulation_files/Noise%2014.jpg" width=466 align=right>If 
+  white noise of power spectral density <EM><FONT face=Symbol>h</FONT>/2</EM> is 
+  passed through an ideal low pass filter, the single sided power spectrums as 
+  shown (bandlimited white noise). The noise power in a bandwidth B will then be 
+  given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=51 alt="wpe34.jpg (1602 bytes)" 
+  src="Continuous Wave Modulation_files/Noise%2015.jpg" width=116></P>
+  <P></P>
+  <P>
+  <P>If the filter is not ideal and is represented by its transfer function 
+  <FONT face="Times New Roman"><EM>H(f)</EM></FONT> then we can determine the 
+  noise power from the relation</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=61 alt="wpe1F.jpg (2524 bytes)" 
+  src="Continuous Wave Modulation_files/Noise%2016.jpg" width=157></P>
+  <P></P>
+  <P>
+  <P><IMG height=72 alt="wpe24.jpg (3425 bytes)" 
+  src="Continuous Wave Modulation_files/Noise%2017.jpg" width=218 align=right>If 
+  we consider the transfer of white noise through an RC low-pass filter which 
+  has a transfer characteristic</P>
+  <P></P>
+  <P>
+  <P><IMG height=65 alt="wpe25.jpg (1716 bytes)" 
+  src="Continuous Wave Modulation_files/Noise%2018.jpg" width=110 align=top></P>
+  <P></P>
+  <P>
+  <P><IMG height=95 alt="wpe32.jpg (3237 bytes)" 
+  src="Continuous Wave Modulation_files/Noise%2019.jpg" width=166 
+  align=right>with a cut-off frequency <IMG height=42 
+  alt="wpe26.jpg (1310 bytes)" 
+  src="Continuous Wave Modulation_files/Noise%2020.jpg" width=77 align=middle> 
+  then we will have <CODE>coloured</CODE> noise as shown. The output noise power 
+  will be given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=102 alt="wpe27.jpg (3477 bytes)" 
+  src="Continuous Wave Modulation_files/Noise%2021.jpg" width=184></P>
+  <P></P>
+  <P>
+  <P>The 3dB bandwidth of the filter is given by <EM><FONT 
+  face="Times New Roman">B<SUB>s</SUB>=1/2</FONT><FONT face=Symbol>p</FONT><FONT 
+  face="Times New Roman">RC</FONT></EM>, and the output noise power is given by 
+  <EM><FONT face="Times New Roman">P<SUB>no</SUB>=2</FONT><FONT 
+  face=Symbol>p</FONT><FONT face="Times New Roman">B<SUB>s</SUB>/4</FONT></EM> ; 
+  it is thus clear that as the filter bandwidth increases so does the output 
+  noise power. <IMG height=204 alt="wpe35.jpg (7867 bytes)" 
+  src="Continuous Wave Modulation_files/Noise%2022.jpg" width=260 
+  align=right>This leads to the concept of the <STRONG>noise equivalent 
+  bandwidth</STRONG> <FONT face="Times New Roman"><EM>B<SUB>n</SUB></EM></FONT> 
+  which is defined as the bandwidth of the ideal filter which passes the same 
+  noise power as the actual system (as shown). For the RC filter , this is 
+  obviously <FONT face="Times New Roman"><EM>B<SUB>n</SUB>=1/4RC</EM></FONT>. 
+  </P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:18.328 GMT+1</I></P>
+  <H3>Narrowband Noise</H3>
+  <P>
+  <P>On completing this section you should be able to derive expressions for the 
+  in-phase and quadrature components of narrowband (filtered white) noise. </P>
+  <P></P>
+  <P>
+  <P>The complete analysis of noise is complicated and beyond the level of this 
+  tutorial, however we need to obtain some insight into the behaviour of AM and 
+  FM systems in the presence of noise, and in this section the aim is to provide 
+  elementary but accurate and useful descriptions.</P>
+  <P></P>
+  <P>
+  <P><IMG height=108 alt="wpe36.jpg (2327 bytes)" 
+  src="Continuous Wave Modulation_files/Narrow23.jpg" width=109 align=right>We 
+  shall start by looking at narrowband noise.&nbsp; We assume that white noise 
+  of power density <FONT face=Symbol><EM>h</EM></FONT> is biased through a 
+  filter of bandwidth <FONT face="Times New Roman"><EM>B</EM></FONT> with centre 
+  frequency <FONT face="Times New Roman"><EM>f<SUB>0</SUB></EM></FONT> and with 
+  <FONT face="Times New Roman"><EM>B</EM></FONT>&lt;&lt;<FONT 
+  face="Times New Roman"><EM>f<SUB>0</SUB></EM></FONT>; the total noise power 
+  passed by the filter is <EM><FONT face=Symbol>h</FONT><FONT 
+  face="Times New Roman">B</FONT></EM> W. We divide <FONT 
+  face="Times New Roman"><EM>B</EM></FONT> into small frequency intervals 
+  <EM><FONT face=Symbol>D</FONT><FONT face="Times New Roman">f</FONT></EM> and 
+  we consider the band-limited noise voltage in each interval <EM><FONT 
+  face=Symbol>D</FONT><FONT face="Times New Roman">f</FONT></EM> to have the 
+  form</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=28 alt="wpe37.jpg (1830 bytes)" 
+  src="Continuous Wave Modulation_files/Narrow24.jpg" width=176></P>
+  <P></P>
+  <P>
+  <P>where&nbsp; <FONT face="Times New Roman"><EM>f<SUB>k</SUB></EM></FONT> is 
+  the centre frequency of the interval and <EM><FONT face=Symbol>q</FONT><FONT 
+  face="Times New Roman"><SUB>k</SUB>(t)</FONT></EM> is a randomly varying phase 
+  factor. The average power in <FONT face="Times New Roman"><EM>n(t)</EM></FONT> 
+  is <IMG height=25 alt="wpe38.jpg (1262 bytes)" 
+  src="Continuous Wave Modulation_files/Narrow25.jpg" width=85> so <IMG 
+  height=27 alt="wpe39.jpg (1280 bytes)" 
+  src="Continuous Wave Modulation_files/Narrow26.jpg" width=89>. The total noise 
+  voltage is the summ over all intervals</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=37 alt="wpe3A.jpg (2127 bytes)" 
+  src="Continuous Wave Modulation_files/Narrow27.jpg" width=199></P>
+  <P></P>
+  <P>
+  <P>Now substituting<FONT 
+  face="Times New Roman"><EM>f<SUB>k</SUB>=(f<SUB>k</SUB> - f<SUB>0</SUB>)+ 
+  f<SUB>0</SUB> </EM></FONT>into expression for<FONT face="Times New Roman"><EM> 
+  n(t)</EM></FONT> gives</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=62 alt="wpe3B.jpg (6050 bytes)" 
+  src="Continuous Wave Modulation_files/Narrow28.jpg" width=523></P>
+  <P></P>
+  <P>
+  <P>Comparing this expression with that for the total noise voltage we see that 
+  the total noise voltage can be written in the form</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=79 alt="wpe41.jpg (6141 bytes)" 
+  src="Continuous Wave Modulation_files/Narrow29.jpg" width=278></P>
+  <P></P>
+  <P>
+  <P align=center>where</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=75 alt="wpe3D.jpg (4690 bytes)" 
+  src="Continuous Wave Modulation_files/Narrow30.jpg" width=264></P>
+  <P></P>
+  <P>
+  <P>What we have done is represent the total noise voltage as the sum of two 
+  amplitude modulated carriers in phase quadrature. The amplitudes of the two 
+  carriers are <STRONG>randomly varying</STRONG> and</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=45 alt="wpe3F.jpg (2395 bytes)" 
+  src="Continuous Wave Modulation_files/Narrow31.jpg" width=198></P>
+  <P></P>
+  <P>
+  <P><IMG height=102 alt="wpe3E.jpg (2278 bytes)" 
+  src="Continuous Wave Modulation_files/Narrow32.jpg" width=152 align=right>The 
+  cosine term is referred to as the <STRONG>in-phase noise component</STRONG> 
+  (I) and the sine term as the <STRONG>quadrature noise component</STRONG> (Q). 
+  The phasor representation is shown here. Clearly the total noise power is 
+  given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=33 alt="wpe40.jpg (2779 bytes)" 
+  src="Continuous Wave Modulation_files/Narrow33.jpg" width=273></P>
+  <P></P>
+  <P>
+  <P>Thus the power in the random noise is equally distributed between the 
+  inphase and quadrature components and the resultant <FONT 
+  face="Times New Roman"><EM>v<SUB>n</SUB></EM></FONT> varies randomly in 
+  amplitude and phase.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:18.125 GMT+1</I></P>
+  <H3>SNR in DSB-AM</H3>
+  <P>
+  <P>On completing this section you should be able to calculate the effect on 
+  the signal to noise ratio of DSB-AM with synchronous detection </P>
+  <P></P>
+  <P>
+  <P>Consider synchronous demodulation of a DSB-AM signal. With a modulating 
+  signal <FONT face="Times New Roman"><EM>f<SUB>m</SUB>(t)</EM></FONT> the 
+  signal to the multiplier is given by <IMG height=27 
+  alt="wpe11.jpg (1890 bytes)" 
+  src="C:\My Documents\Assignments Final Year\Digital Telecommunications\Continuous Wave Modulation_files\DSBAM7(1).jpg" 
+  width=188> . For the purposes of analysis we shall restrict our attention to 
+  single tone modulation although the results are general and remain valid for 
+  arbitrary modulating signal. Thus we have in terms of ModulationIndex</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=57 alt="wpe29.jpg (3057 bytes)" 
+  src="C:\My Documents\Assignments Final Year\Digital Telecommunications\Continuous Wave Modulation_files\Modula18(2).jpg" 
+  width=216></P>
+  <P></P>
+  <P>
+  <P>and we can write for the normalised input signal power</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=25 alt="wpe42.jpg (1567 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in34.jpg" width=120></P>
+  <P></P>
+  <P>
+  <P>where <FONT 
+  face="Times New Roman"><EM>(A<SUB>c</SUB></EM><SUP>2</SUP><EM>)/</EM>2</FONT>is 
+  the input carrier power and <FONT 
+  face="Times New Roman"><EM>(mA<SUB>c</SUB>)</EM><SUP>2</SUP><EM>/</EM>4</FONT> 
+  is the total power in the two sidebands.</P>
+  <P></P>
+  <P>
+  <P>Using the representation previously introduced we add in noise to the 
+  received signal</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=59 alt="wpe48.jpg (2148 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in35.jpg" width=129></P>
+  <P></P>
+  <P>
+  <P>The situation is shown below</P>
+  <P></P>
+  <P>
+  <P><IMG height=206 alt="wpe44.jpg (16756 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in36.jpg" width=608></P>
+  <P></P>
+  <P>
+  <P>We can now define three different versions of the input signal to noise 
+  ratio SNR<SUB>i</SUB> </P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=0 cellPadding=0 border=0>
+    <TBODY>
+    <TR>
+      <TD>Carrier power-to-noise ratio</TD>
+      <TD>&nbsp;<IMG height=53 alt="wpe45.jpg (1930 bytes)" 
+        src="Continuous Wave Modulation_files/SNR%20in37.jpg" width=107></TD></TR>
+    <TR>
+      <TD>Sideband power-to-noise ratio</TD>
+      <TD><IMG height=55 alt="wpe46.jpg (2096 bytes)" 
+        src="Continuous Wave Modulation_files/SNR%20in38.jpg" width=109></TD></TR>
+    <TR>
+      <TD>Total power-to-noise ratio</TD>
+      <TD><IMG height=53 alt="wpe47.jpg (2344 bytes)" 
+        src="Continuous Wave Modulation_files/SNR%20in39.jpg" 
+    width=143></TD></TR></TBODY></TABLE></P>
+  <P>
+  <P>Now proceed with the demodulation process by multiplying by the synchronous 
+  carrier <IMG height=22 alt="wpe49.jpg (1026 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in40.jpg" width=65 align=middle> 
+  and applying the low pass filter to determine the output</P>
+  <P></P>
+  <P>
+  <P><IMG height=25 alt="wpe4B.jpg (2493 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in41.jpg" width=271></P>
+  <P></P>
+  <P>
+  <P>Note that the filter rejects the quadrature term. The output signal power 
+  is <IMG height=25 alt="wpe4C.jpg (1449 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in42.jpg" width=104> and the 
+  output noise power is <IMG height=25 alt="wpe4D.jpg (1449 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in43.jpg" width=104> giving an 
+  output SNR<SUB>o</SUB> of</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=50 alt="wpe4E.jpg (1921 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in44.jpg" width=90></P>
+  <P></P>
+  <P>
+  <P>We wish to compare SNR<SUB>o</SUB> with SNR<SUB>i</SUB> . It is common to 
+  define a <STRONG>figure-of-merit</STRONG> for noise performance as the ratio 
+  SNR<SUB>o</SUB> /SNR<SUB>i</SUB>. Care must be taken as there are several 
+  different measures of SNR<SUB>i</SUB>.</P>
+  <P></P>
+  <P>
+  <DL>
+    <DT>Comparison with input carrier power-to-noise ratio: <FONT 
+    face="Times New Roman"><EM>SNR<SUB>o</SUB>/(S<SUB>c</SUB>/N)<SUB>i</SUB> = 
+    m<SUP>2</SUP></EM></FONT> . 
+    <DD>With 100% modulation <FONT face="Times New Roman"><EM>m</EM></FONT>=1 
+    which shows that the maximum SNR<SUB>o</SUB> is equal to the carrier 
+    power-to-noise ratio at the input. This is the least useful measure of 
+    performance although it is often used, misleadingly, to state the the 
+    maximum SNR<SUB>o</SUB> equals SNR<SUB>i</SUB> for DSM-AM. This statement 
+    should be avoided. 
+    <DT>Comparison with input sideband power-to-noise ratio: <FONT 
+    face="Times New Roman"><EM>SNR<SUB>o</SUB>/(S<SUB>c</SUB>/N)<SUB>i</SUB> = 
+    2</EM></FONT> . 
+    <DD>which shows that DSB-AM provides an improvement of 3dB in 
+    SNR<SUB>o</SUB> with respect to SNR<SUB>i</SUB> although again this can be 
+    misleading and should be avoided for DSM-AM although as we shall see it is 
+    applicable to DSB-SC. 
+    <DT>Comparison with total power-to-noise ratio: <IMG height=55 
+    alt="wpe4F.jpg (2093 bytes)" 
+    src="Continuous Wave Modulation_files/SNR%20in45.jpg" width=105 
+    align=middle> 
+    <DD>This is the most meaningful expression for DSB-AM and is the one that 
+    should be used to quantify the noise performance of DSB-AM. When <FONT 
+    face="Times New Roman"><EM>m</EM></FONT>=1 this shows that the maximum 
+    SNR<SUB>o</SUB> is only 2/3 that of SNR<SUB>i</SUB>. </DD></DL>
+  <P></P>
+  <P>
+  <P>Further care must be exscercised when referring to textbooks which define 
+  SNR<SUB>i</SUB> as that of the equivalent baseband system which leads to an 
+  expression half of that derived here.</P>
+  <P></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:19.734 GMT+1</I></P>
+  <H3>SNR in DSB-SC</H3>
+  <P>
+  <P>On completing this section you should be able to calculate the effect on 
+  the signal to noise ratio of DSB-SC and SSB-SC with synchronous detection. 
+</P>
+  <P></P>
+  <P>
+  <P>An equivalent analysis to that performed for DSB-AM can be performed for 
+  DSB-SC, eliminating the carrier term from the calculations. </P>
+  <P></P>
+  <P>
+  <P><IMG height=146 alt="wpe51.jpg (9241 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in46.jpg" width=487></P>
+  <P></P>
+  <P>
+  <P>We then find the following that since the carrier is suppressed the input 
+  carrier-to-noise ratio is zero and this measure has no meaning. All of the 
+  input power is carried in the sidebands and the input sideband power-to-noise 
+  ratio is equal to the total power-to-noise ratio. Thus for DSB-SC</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=46 alt="wpe52.jpg (1432 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in47.jpg" width=66></P>
+  <P></P>
+  <P>
+  <P>DSB-SC provides a 3dB improvement in the SNR. The origin of this 
+  improvement lies in the rejection of half the noise power (the quadrature 
+  component) in the synchronous demodulation process. This is illustrated in the 
+  figure below showing the noise spectrum before and after demodulation.</P>
+  <P></P>
+  <P>
+  <P><IMG height=164 alt="wpe53.jpg (15313 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in48.jpg" width=658></P>
+  <P></P>
+  <P>
+  <P>After demodulation half the noise power (the quadrature component) is 
+  shifted to twice the carrier frequency and is therefore eliminated by the low 
+  pass filter.</P>
+  <P></P>
+  <P>
+  <P>Finally we can perform the same analysis for SSB-SC. In this case the 
+  figure of merit is </P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=46 alt="wpe54.jpg (1419 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in49.jpg" width=63></P>
+  <P></P>
+  <P>
+  <P>It might appear from this that SSB is inferior to DSB but that is not so, 
+  because, since the bandwidth of the SSB signal is half that of the DSB signal 
+  the noise power at the input to the demodulator is also half that of the DSB 
+  signal. This if the same signal power is transmitted there is no advantage of 
+  one over the other on the basis of noise performance.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:19.875 GMT+1</I></P>
+  <H3>SNR in FM</H3>
+  <P>
+  <P>On completing this section you should be able to calculate the effect on 
+  the signal to noise ratio of FM reception, derive the expression for the 
+  spectrum of output noise in FM reception (assuming SNR is large) and compare 
+  the performance of FM and AM reception. </P>
+  <P></P>
+  <P>
+  <P>We have already seen the details of <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/paths/cwm/FM%20Demodulation.htm">FM 
+  reception</A>. We define the SNR for FM to be</P>
+  <P></P>
+  <P>
+  <P><IMG height=49 alt="wpe2.jpg (5675 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in1.jpg" width=504></P>
+  <P></P>
+  <P>
+  <P>The various signals at the receiver are as shown below</P>
+  <P></P>
+  <P>
+  <P><IMG height=327 alt="wpe4.jpg (19115 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in2.jpg" width=666></P>
+  <P></P>
+  <P>
+  <P>We will assume that the limiter is perfect and removes all amplitude 
+  variations then the FM signal, for a single tone modulating signal, will be 
+  <IMG height=29 alt="wpe1A.jpg (2002 bytes)" 
+  src="C:\My Documents\Assignments Final Year\Digital Telecommunications\Continuous Wave Modulation_files\Peak%20P10(1).jpg" 
+  width=200 align=middle> and the input signal plus noise (represented by the 
+  two orthogonal components as for the AM case) will be</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=28 alt="wpe6.jpg (3111 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in3.jpg" width=364></P>
+  <P></P>
+  <P>
+  <P>where <EM><FONT face=Symbol>b=Dw/w</FONT><FONT 
+  face="Times New Roman"><SUB>m</SUB></FONT></EM> . Recall that in FM, in 
+  contrast to FM, the signal has constant amplitude and so the signal power at 
+  the discriminator will be <FONT 
+  face="Times New Roman"><EM>A<SUB>c</SUB><SUP>2</SUP>/2</EM></FONT> .</P>
+  <P></P>
+  <P>
+  <H2 align=left>Input signal in the absence of noise</H2>
+  <P></P>
+  <P>
+  <P>In the absence of noise, the FM discriminator output is a voltage <FONT 
+  face="Times New Roman"><EM>V<SUB>o</SUB>(t)</EM></FONT> which is proportional 
+  to the separation of the instantaneous frequency from the carrier frequency. 
+  The instantaneous frequency is given by </P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=42 alt="wpe7.jpg (2820 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in4.jpg" width=291></P>
+  <P></P>
+  <P>
+  <P>and so the discriminator output is</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=22 alt="wpeA.jpg (2029 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in5.jpg" width=236></P>
+  <P></P>
+  <P>
+  <P>Thus the average output signal power in the presence of noise is</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=22 alt="wpeB.jpg (2029 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in6.jpg" width=236></P>
+  <P></P>
+  <P>
+  <H2 align=left>Noise in the presence of unmodulated Carrier</H2>
+  <P></P>
+  <P>
+  <P>In this case we have</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=28 alt="wpeC.jpg (3519 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in7.jpg" width=422></P>
+  <P></P>
+  <P>
+  <P><IMG height=89 alt="wpe10.jpg (3421 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in8.jpg" width=194 
+  align=right>where <IMG height=30 alt="wpeE.jpg (2028 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in9.jpg" width=177 align=middle> 
+  and <IMG height=46 alt="wpeF.jpg (1906 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in10.jpg" width=138 
+  align=middle>.&nbsp; The noise and carrier expressed here can be represented 
+  using the phasor diagram shown. If we assume that the SNR is relatively large 
+  i.e. that the input noise is relatively small then we can use the 
+  approximation <IMG height=46 alt="wpe11.jpg (2064 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in11.jpg" width=157 
+  align=middle>.</P>
+  <P></P>
+  <P>
+  <P>Again the discriminator responds only to the instantaneous frequency and 
+  noise appears at its output only because it affects the instantaneous 
+  frequency. The output (+unmodulated carrier) voltage is</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=46 alt="wpe14.jpg (2487 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in12.jpg" width=192></P>
+  <P></P>
+  <P>
+  <P>However the voltage <FONT 
+  face="Times New Roman"><EM>V<SUB>o</SUB>(t)</EM></FONT> expressed here is but 
+  one component of many elemental noise contributions. The total noise input 
+  <FONT face="Times New Roman"><EM>y(t)</EM></FONT> is given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=37 alt="wpe1C.jpg (2439 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in13.jpg" width=235></P>
+  <P></P>
+  <P>
+  <P>We shall define <FONT 
+  face="Times New Roman"><EM>f<SUB>=</SUB>f<SUB>0</SUB>-f<SUB>k</SUB></EM></FONT>. 
+  Each component therefore produces a voltage <EM><FONT 
+  face=Symbol>d</FONT><FONT face="Times New Roman">V<SUB>0</SUB>(t) 
+  </FONT></EM>at the discriminator output given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=46 alt="wpe1E.jpg (2663 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in14.jpg" width=234></P>
+  <P></P>
+  <P>
+  <P>The average power produced by this component is</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=54 alt="wpe1F.jpg (2167 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in15.jpg" width=146></P>
+  <P></P>
+  <P>
+  <P>But the input noise amplitude <FONT 
+  face="times new roman"><EM>A<SUB>n</SUB></EM></FONT> for a white noise over 
+  the narrow range of frequencies is given by <IMG height=28 
+  alt="wpe21.jpg (1272 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in16.jpg" width=84 align=middle> 
+  where <FONT face=Symbol><EM>h</EM></FONT> is the input noise power spectral 
+  density. Substituting into the above and differentiating gives us</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=54 alt="wpe22.jpg (2067 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in17.jpg" width=128></P>
+  <P></P>
+  <P>
+  <P>the output noise power spectral density. This is an important result as it 
+  shows us that at the FM discriminator output the noise is no longer white 
+  noise (as at the input) but is now proportional fo <FONT 
+  face="Times New Roman"><EM>f<SUP>2</SUP></EM></FONT>. This is illustrated 
+  below</P>
+  <P></P>
+  <P>
+  <P><IMG height=294 alt="wpe26.jpg (20859 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in18.jpg" width=618></P>
+  <P></P>
+  <P>
+  <P>In the FM demodulator, the discriminator is followed by a filter with cut 
+  off frequency <FONT face="Times New Roman"><EM>f<SUB>0</SUB></EM></FONT>. 
+  Hence the total noise power at the discriminator output is found by 
+  integrating over the whole filter bandwidth</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=54 alt="wpe23.jpg (2787 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in19.jpg" width=222></P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=54 alt="wpe24.jpg (2053 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in20.jpg" width=131></P>
+  <P></P>
+  <P>
+  <P>This expression shows that the output noise power actually decreases with 
+  increasing input carrier power: this effect is called <STRONG>noise 
+  quieting</STRONG>.</P>
+  <P></P>
+  <P>
+  <P>Combining the expressions obtained above gives us the final result for the 
+  output signal-to-noise ratio for FM</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=54 alt="wpe25.jpg (2540 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in21.jpg" width=167></P>
+  <P></P>
+  <P>
+  <P>Note that if we set the filter bandwidth equal to the modulation frequency 
+  <FONT face="Times New Roman"><EM>f<SUB>0</SUB>-f<SUB>m</SUB></EM></FONT> then 
+  <EM><FONT face=Symbol>D</FONT><FONT 
+  face="Times New Roman">f/f<SUB>0</SUB>=</FONT><FONT face=Symbol>b</FONT></EM> 
+  and we get </P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=49 alt="wpe27.jpg (2086 bytes)" 
+  src="Continuous Wave Modulation_files/SNR%20in22.jpg" width=134></P>
+  <P></P>
+  <P>
+  <P>This suggests that the SNR<SUB>o</SUB> can be increased virtually without 
+  limit by increasing <FONT face=Symbol><EM>b</EM></FONT>: of course this is not 
+  so since with increasing <FONT face=Symbol><EM>b</EM></FONT> we increase the 
+  noise power passed by the filter and we will eventually reach a point where 
+  the noise is no longer much less than the carrier, which was one of our 
+  conditions for the foregoing analysis. This is the region of <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/paths/cwm/Threshold%20Effect%20in%20FM.htm">FM 
+  threshold </A>discussed subsequently. The carrier power can be increased, 
+  however, as <FONT face=Symbol><EM>b</EM></FONT> is increased thereby 
+  increasing the noise performance advantage of FM and the limit to SNRo may be 
+  considered to be set by the carrier power available.</P>
+  <P></P>
+  <P>
+  <H2 align=left>Comparison of AM with FM</H2>
+  <P></P>
+  <P>
+  <P>In order to carry out a comparison of the SNR performance of FM with AM we 
+  must appreciate that the factor <EM><FONT face="Times New Roman">2</FONT><FONT 
+  face=Symbol>h</FONT><FONT face="Times New Roman">f<SUB>0</SUB></FONT></EM> 
+  which appears in the denominator is exactly the same as the noise power that 
+  would be passed by a DSB-AM system with the same low pass filter bandwidth. 
+  Now taking the 100% modulated AM carrier power equal to the FM carrier power 
+  we obtain the result SNR<SUB>FM</SUB>/SNR<SUB>AM</SUB>=3<FONT 
+  face=Symbol><EM>b</EM></FONT><SUP>2</SUP> . The noise performance of FM can be 
+  substantially superior to that of AM. With <FONT 
+  face=Symbol><EM>b=5</EM></FONT> the SNR<SUB>FM</SUB> is 75 times larger than 
+  SNR<SUB>AM</SUB> but the <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/cwm/FMBandwidth">FM 
+  bandwidth</A> is 8 times larger. In order to obtain the SNR advantage of FM it 
+  is necessary that 3<FONT face=Symbol><EM>b</EM></FONT><SUP>2</SUP>&gt;1, i.e. 
+  <FONT face=Symbol><EM>b</EM></FONT>&gt;0.58&nbsp; , which corresponds closely 
+  to our previously arbitrarily defined transition from narrowband to wideband 
+  FM for <FONT face=Symbol><EM>b</EM></FONT>&gt;0.5 . This is not surprising 
+  since NBFM has only 2 sidebands as with DSB-AM and so does not exchange 
+  increased bandwidth for improved noise performance.</P>
+  <P></P>
+  <P>
+  <H2 align=left>Pre-emphasis and de-emphasis</H2>
+  <P></P>
+  <P>
+  <P>The predictions of the above analysis extend to real signals but the full 
+  theoretical SNR advantage applies only if the real signal occupies the full FM 
+  bandwidth. For many baseband signals (e.g. voice or music) the spectral 
+  density is much greater at lower frequencies. The higher frequencies may be 
+  amplified more than the lower frequencies prior to transmission 
+  (<STRONG>pre-emphasis</STRONG>) to counter this and the inverse process 
+  carried out at the receiver (<STRONG>de-emphasis</STRONG>). This conditions 
+  the signal so that the theoretical maximum SNR is more nearly achievable.</P>
+  <P></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:19.984 GMT+1</I></P>
+  <H3>Threshold Effect in FM</H3>
+  <P>
+  <P>On completing this section you should be able to Describe (using graphical 
+  arguments) the threshold effect in FM reception. </P>
+  <P></P>
+  <P>
+  <P>When the signal and noise levels in FM reception are of comparable 
+  magnitude (low SNR) there is a pronounced threshold effect which is difficult 
+  to analyse precisely. We shall consider here a simplified graphical account of 
+  this effect. <IMG height=85 alt="wpe32.jpg (2704 bytes)" 
+  src="Continuous Wave Modulation_files/Thresh23.jpg" width=135 
+  align=right>Consider two phasors A (representing the signal) and B 
+  (representing the noise) which add together to produce a resultant C as shown 
+  here. Take A and B to have fixed magnitudes but let the angle between them 
+  <EM><FONT face=Symbol>q</FONT></EM> take all values in the range -<FONT 
+  face=Symbol><EM>p</EM></FONT> to <FONT face=Symbol><EM>p</EM></FONT> with 
+  equal weighting. We calculate the angle between the signal A and the resultant 
+  C when we have added in the noise and then determine its mean square value 
+  which will be given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=246 alt="wpe34.jpg (4858 bytes)" 
+  src="Continuous Wave Modulation_files/Thresh24.jpg" width=192 align=right><IMG 
+  height=53 alt="wpe33.jpg (3132 bytes)" 
+  src="Continuous Wave Modulation_files/Thresh25.jpg" width=230></P>
+  <P></P>
+  <P>
+  <P>This equation can be solved numerically, it is plotted against A/B here. 
+  From this plot it is clear that <EM><FONT 
+  face=Symbol>f</FONT></EM><SUB>RMS</SUB> varies extremely rapidly in the region 
+  A=B and that it is vary small for A/B&gt;~3. As a result for A/B&gt;~3 the 
+  system discriminates strongly in favour of the carrier A which effectively 
+  captures the system - hence the name <STRONG>FM capture effect</STRONG>. This 
+  represents a very pronounced discrimination in favour of the strongest signal 
+  over all others (commonly experienced when tuning an FM radio receiver) and is 
+  highly advantageous if a is the desired carrier and B a secondary or 
+  interfering signal. Conversely if A/B&lt;1, B captures the system equally 
+  strongly representing a rapid performance deterioration.</P>
+  <P></P>
+  <P>
+  <P><IMG height=283 alt="wpe35.jpg (10463 bytes)" 
+  src="Continuous Wave Modulation_files/Thresh26.jpg" width=212 align=right>The 
+  rapid transition from powerful to poor noise rejection is indicative of the 
+  <STRONG>FM threshold effect</STRONG> which is shown graphically here as a 
+  series of plots of SNR<SUB>o</SUB> against SNR<SUB>i</SUB> for increasing 
+  values of <FONT face=Symbol>b</FONT>. It can be shown that SNR<SUB>i</SUB> at 
+  the discriminator input at the FM threshold can be approximated by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=25 alt="wpe36.jpg (1606 bytes)" 
+  src="Continuous Wave Modulation_files/Thresh27.jpg" width=133></P>
+  <P></P>
+  <P>
+  <P>Thus in selecting a <FONT face=Symbol>b</FONT> value to give a desired 
+  value of SNR<SUB>o</SUB> it is first necessary to establish that the required 
+  SNR<SUB>i</SUB> is available to ensure FM operation is above threshold.</P>
+  <P></P>
+  <P>
+  <P><IMG height=108 alt="wpe37.jpg (4525 bytes)" 
+  src="Continuous Wave Modulation_files/Thresh28.jpg" width=230 align=left> The 
+  preceding discussion does not describe the origin of the threshold. This can 
+  be understood by looking at the phasor diagram. Note that the tip of the 
+  resultant phasor <FONT face="Times New Roman"><EM>r(t)</EM></FONT>, labelled P 
+  moves about in the plane of the diagram due to the random fluctuations in the 
+  noise <FONT face="Times New Roman"><EM>n(t)</EM></FONT>. If <FONT 
+  face="Times New Roman"><EM>n(t)&lt;&lt;A<SUB>c</SUB></EM></FONT> P is always 
+  fairly close to the tip of the carrier phase and we can use our approximation 
+  for the small angle <EM><FONT face=Symbol>f</FONT></EM> adequately.</P>
+  <P></P>
+  <P>
+  <P><IMG height=174 alt="wpe39.jpg (6257 bytes)" 
+  src="Continuous Wave Modulation_files/Thresh29.jpg" width=264 align=right>As 
+  the noise increases the extent of P away from the carrier phasor increases and 
+  so the discriminator output noise also increases. It is possible that <FONT 
+  face="Times New Roman"><EM>n(t)&gt;A<SUB>c</SUB></EM></FONT> and <EM><FONT 
+  face=Symbol>f</FONT><FONT face="Times New Roman">(t)</FONT></EM> may then 
+  change by 2<FONT face=Symbol><EM>p</EM></FONT> radians in a short period of 
+  time. Since the discriminator output is proportional to <EM><FONT 
+  face=Symbol>f</FONT><FONT face="Times New Roman">(t)/dt</FONT></EM> this will 
+  produce an impulse-like voltage spike in the output. The magnitudes and 
+  polarities of these noise spikes will vary according to the path taken by P 
+  but the area under each will approximate 2<FONT face=Symbol><EM>p</EM></FONT>. 
+  This phenomenon is called <STRONG>spike noise</STRONG> or <STRONG>impulse 
+  noise</STRONG> or sometimes <STRONG>click noise</STRONG> or 
+  <STRONG>splutter</STRONG> and its occasional occurrence is heard as individual 
+  clicks in the FM receiver output.</P>
+  <P></P>
+  <P>
+  <P>With further decrease in signal-to-noise ratio the individual clicks merger 
+  to produce a distinct crackling sound. These spikes can be observed 
+  superimposed on the thermal noise background of the receiver. It is the onset 
+  of this noise that is responsible for the threshold in FM systems.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:17.515 GMT+1</I></P></DL>
+<HR>
+
+<P><I>Tutorial Path created by willijar at 2001/04/05 08:19:45.703 GMT+1</I></P>
+<TABLE width="100%" border=0>
+  <STYLE type=text/css>A {
+	TEXT-DECORATION: none
+}
+</STYLE>
+
+  <TBODY>
+  <TR>
+    <TD align=middle colSpan=3><BR><IMG height=2 alt=HR 
+      src="Continuous Wave Modulation_files/hr.gif" width=500> </TD></TR>
+  <TR>
+    <TD vAlign=top width=120><A href="http://www.aston.ac.uk/"><IMG 
+      alt="Aston University - the real world university" 
+      src="Continuous Wave Modulation_files/unilogomidsmall.gif" border=0> 
+    </A></TD>
+    <TD vAlign=top align=middle><A class=corporategreen 
+      href="http://www.aston.ac.uk/"><B>w w w . a s t o n . a c . u 
+      k</B></A><BR><SMALL class=blue>Aston University, Aston Triangle, 
+      Birmingham B4 7ET, United Kingdom</SMALL> <BR><SMALL>t: +44 (0) 121 359 
+      3611&nbsp;&nbsp;&nbsp;&nbsp;f: +44 (0) 121 359 0156 
+      &nbsp;&nbsp;&nbsp;&nbsp;<A style="COLOR: black" 
+      href="mailto:J.A.R.Williams@aston.ac.uk">mailto:J.A.R.Williams@aston.ac.uk</A> 
+      <BR>Last modified: Apr 22, 2001 1:41 pm</SMALL> <BR><SMALL 
+      class=copyright>Copyright © 2000,2001 Aston University.</SMALL><BR><A 
+      href="http://benedick.aston.ac.uk:8080/legalise">Legalise</A> | <A 
+      href="http://benedick.aston.ac.uk:8080/privacy">Privacy Statement</A> | <A 
+      href="http://benedick.aston.ac.uk:8080/tutorials/paths/cwm/entire_html?printable=1">Printable 
+      Version</A> </TD>
+    <TD vAlign=top width=120 rowSpan=2></TD></TR></TBODY></TABLE></BODY></HTML>

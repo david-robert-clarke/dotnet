@@ -1,0 +1,115 @@
+CM: 
+CM: Checking...
+CM:  Error   L12/C0 : #0 Error: C:/fndtn/active/projects/text/fig_10_2.vhd  line 12   LINE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L14/C0 : #0 Error: C:/fndtn/active/projects/text/fig_10_2.vhd  line 14   TEXT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/text/fig_10_2.vhd  line 17   ENDFILE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/projects/text/fig_10_2.vhd  line 18   READLINE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/text/fig_10_2.vhd  line 19   READ is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L-1/C0 : #0 Error: Object LINE not found  on line 0  (VHDL-2234) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/text/delete.vhd  line 21   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/text/delete.vhd  line 22   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  9 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/text/delete.vhd  line 22   C is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/text/delete.vhd  line 22   I is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/text/delete.vhd  line 22   I2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/text/delete.vhd  line 22   S is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/text/delete.vhd  line 22   CO is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/text/delete.vhd  line 23   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  9 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/text/delete.vhd  line 23   X is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/text/delete.vhd  line 23   Y is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/text/delete.vhd  line 23   SUM is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/text/delete.vhd  line 23   CARRY is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Warning   L17/C0 : #0 Warning: Configuration specifications are not supported for synthesis  on line 17  (VHDL-2091) 
+CM:  Warning   L18/C0 : #0 Warning: Configuration specifications are not supported for synthesis  on line 18  (VHDL-2091) 
+CM:  0 error(s) 2 warning(s) found
+CM: 
+CM: Checking...
+CM:  Warning   L17/C0 : #0 Warning: Configuration specifications are not supported for synthesis  on line 17  (VHDL-2091) 
+CM:  Warning   L18/C0 : #0 Warning: Configuration specifications are not supported for synthesis  on line 18  (VHDL-2091) 
+CM:  0 error(s) 2 warning(s) found
+CM: 
+CM: Checking...
+CM:  Warning   L18/C0 : #0 Warning: Configuration specifications are not supported for synthesis  on line 18  (VHDL-2091) 
+CM:  Warning   L19/C0 : #0 Warning: Configuration specifications are not supported for synthesis  on line 19  (VHDL-2091) 
+CM:  0 error(s) 2 warning(s) found
+CM: 
+CM: Checking...
+CM:  Warning   L19/C0 : #0 Warning: Configuration specifications are not supported for synthesis  on line 19  (VHDL-2091) 
+CM:  Warning   L20/C0 : #0 Warning: Configuration specifications are not supported for synthesis  on line 20  (VHDL-2091) 
+CM:  0 error(s) 2 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L-1/C0 : #0 Error: Object LINE not found  on line 0  (VHDL-2234) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L-1/C0 : #0 Error: Object LINE not found  on line 0  (VHDL-2234) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/text/fig_10_2.vhd  line 10   Syntax error.  (VSS-1081) 
+CM:  Error   L14/C0 : #0 Error: C:/fndtn/active/projects/text/fig_10_2.vhd  line 14   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/text/fig_10_2.vhd  line 10   Syntax error.  (VSS-1081) 
+CM:  Error   L14/C0 : #0 Error: C:/fndtn/active/projects/text/fig_10_2.vhd  line 14   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/text/fig_10_2.vhd  line 10   Syntax error.  (VSS-1081) 
+CM:  Error   L15/C0 : #0 Error: C:/fndtn/active/projects/text/fig_10_2.vhd  line 15   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L34/C0 : #0 Error: C:/fndtn/active/projects/text/fig_10_2.vhd  line 34   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L35/C0 : #0 Error: C:/fndtn/active/projects/text/fig_10_2.vhd  line 35   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L34/C0 : #0 Error: C:/fndtn/active/projects/text/fig_10_2.vhd  line 34   Syntax error.  (VSS-1081) 
+CM:  Error   L35/C0 : #0 Error: C:/fndtn/active/projects/text/fig_10_2.vhd  line 35   Syntax error.  (VSS-1081) 
+CM:  Error   L36/C0 : #0 Error: C:/fndtn/active/projects/text/fig_10_2.vhd  line 36   Syntax error.  (VSS-1081) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/text/fig_10_2.vhd  line 39   Syntax error.  (VSS-1081) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L34/C0 : #0 Error: C:/fndtn/active/projects/text/fig_10_2.vhd  line 34   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L37/C0 : #0 Error: C:/fndtn/active/projects/text/fig_10_2.vhd  line 37   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L34/C0 : #0 Error: C:/fndtn/active/projects/text/fig_10_2.vhd  line 34   Syntax error.  (VSS-1081) 
+CM:  Error   L44/C0 : #0 Error: C:/fndtn/active/projects/text/fig_10_2.vhd  line 44   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/text/fig_10_2.vhd  line 39   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found

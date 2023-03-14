@@ -1,0 +1,160 @@
+
+===================
+Chip ver1-Optimized
+===================
+
+Summary Information:
+--------------------
+Type: Optimized implementation
+Source: ver1, up to date
+Status: 0 errors, 75 warnings, 0 messages
+Export: exported after last optimization
+
+Target Information:
+-------------------
+Vendor: Xilinx
+Family: XC4000XL
+Device: 4010XLPC84
+Speed: xl-09
+
+Chip Parameters:
+----------------
+Optimize for: Speed
+Optimization effort: Low
+Frequency: 50 MHz
+Is module: No
+Keep io pads: No
+Number of flip-flops: 19
+Number of latches: 28
+
+Chip Design Hierarchy:
+----------------------
+wholesystem: defined in c:\fndtn\active\projects\rs232con\sch\wholesystem\wholesystem.vhd
+
+Primitive reference count:
+--------------------------
+BUFG          8
+DFF          19
+FMAP        145
+HMAP         14
+IBUF          2
+LD_1         28
+OBUF         21
+
+Clocks:
+-------
+                           Required  Estimated                       
+Period   Rise     Fall     Freq      Freq       Signal               
+(ns)     (ns)     (ns)     (MHz)     (MHz)                           
+...............................................................
+ 20        0       10       50.00     -1.00     default              
+ -1       -1       -1      -1000.00   18.57     X36_NET00053_X95     
+ -1       -1       -1      -1000.00  100.00     X36_NET00033_X95     
+ -1       -1       -1      -1000.00  100.00     X36_NET00055_X95     
+ -1       -1       -1      -1000.00  100.00     U4/N65               
+
+Timing Groups:
+--------------
+                                                              
+                                                              
+Name                 Description                              
+............................................................
+(I)                  Input ports                              
+(O)                  Output ports                             
+(RC,X36_NET00053_X95)Clocked by rising edge of X36_NET00053_X9
+(HL,X36_NET00033_X95)Latched by high-value of X36_NET00033_X95
+(HL,X36_NET00055_X95)Latched by high-value of X36_NET00055_X95
+(LL,U4/N65)          Latched by low-value of U4/N65           
+
+Timing Path Groups:
+-------------------
+                                          Required   Estimated  
+                                          Delay      Delay      
+From                 To                   (ns)       (ns)       
+............................................................
+(I)                  (RC,X36_NET00053_X95) 20.00      13.91     
+(RC,X36_NET00053_X95)(O)                   20.00       8.84     
+(RC,X36_NET00053_X95)(RC,X36_NET00053_X95) 20.00      53.84     
+(HL,X36_NET00033_X95)(O)                   10.00       8.02     
+(HL,X36_NET00055_X95)(O)                   10.00       8.02     
+(HL,X36_NET00055_X95)(RC,X36_NET00053_X95) 10.00       6.74     
+(LL,U4/N65)          (O)                   20.00       8.02     
+
+Input Port Timing:
+------------------
+                     Required   Estimated                       
+Port                 Delay      Slack                           
+Name                 (ns)       (ns)       To-Group             
+............................................................
+X36_NET00053_X95      17.36      17.36     (RC,X36_NET00053_X95)
+X36_NET00055_X95        n/a        n/a     (RC,X36_NET00053_X95)
+X36_NET00056_X95       6.09       6.09     (RC,X36_NET00053_X95)
+
+Output Port Timing:
+-------------------
+                     Required   Estimated                       
+Port                 Delay      Slack                           
+Name                 (ns)       (ns)       From-Group           
+............................................................
+Q<15>                 20.00      11.16     (RC,X36_NET00053_X95)
+Q<14>                 20.00      11.16     (RC,X36_NET00053_X95)
+Q<13>                 20.00      11.16     (RC,X36_NET00053_X95)
+Q<12>                 20.00      11.16     (RC,X36_NET00053_X95)
+Q<11>                 20.00      11.16     (RC,X36_NET00053_X95)
+Q<10>                 20.00      11.16     (RC,X36_NET00053_X95)
+Q<9>                  20.00      11.16     (RC,X36_NET00053_X95)
+Q<8>                  20.00      11.16     (RC,X36_NET00053_X95)
+Q<7>                  20.00      11.16     (RC,X36_NET00053_X95)
+Q<6>                  20.00      11.16     (RC,X36_NET00053_X95)
+Q<5>                  20.00      11.16     (RC,X36_NET00053_X95)
+Q<4>                  20.00      11.16     (RC,X36_NET00053_X95)
+Q<3>                  20.00      11.16     (RC,X36_NET00053_X95)
+Q<2>                  20.00      11.16     (RC,X36_NET00053_X95)
+Q<1>                  20.00      11.16     (RC,X36_NET00053_X95)
+Q<0>                  20.00      11.16     (RC,X36_NET00053_X95)
+X36_NET00043_X95      20.00      11.98     (RC,X36_NET00053_X95)
+X36_NET00044_X95      20.00      11.98     (RC,X36_NET00053_X95)
+X36_NET00052_X95      20.00      11.98     (RC,X36_NET00053_X95)
+X36_NET00054_X95      10.00       1.98     (RC,X36_NET00053_X95)
+X36_NET00058_X95      10.00       1.98     (RC,X36_NET00053_X95)
+
+Critical Path Timing:
+---------------------
+           Arrival    Required                                
+Cell       Time       Time       Fanout                       
+Type       (ns)       (ns)       Count   Pin-Name             
+.........................................................
+DFF         53.84      20.00      19     /ver1-Optimized/H1/$I
+DFF         53.84      20.00       1     /ver1-Optimized/H1/$I
+EQN         51.72      17.88       1     /ver1-Optimized/H1/$I
+EQN         50.82      16.98       1     /ver1-Optimized/H1/$I
+EQN         48.70      14.86       1     /ver1-Optimized/H1/$I
+EQN         47.40      13.56       1     /ver1-Optimized/H1/$I
+EQN         45.28      11.44       1     /ver1-Optimized/H1/C3
+EQN         43.98      10.14       5     /ver1-Optimized/H1/C3
+EQN         41.86       8.02       5     /ver1-Optimized/X36_I
+EQN         40.56       6.72       1     /ver1-Optimized/X36_I
+EQN         38.44       4.60       1     /ver1-Optimized/X36_I
+EQN         37.14       3.30       1     /ver1-Optimized/X36_I
+EQN         35.02       1.18       1     /ver1-Optimized/X36_I
+EQN         34.12       0.28       1     /ver1-Optimized/X36_I
+EQN         32.00      -1.84       1     /ver1-Optimized/X36_I
+EQN         30.70      -3.14       9     /ver1-Optimized/X36_I
+EQN         28.58      -5.26       9     /ver1-Optimized/X36_I
+EQN         27.28      -6.56       1     /ver1-Optimized/X36_I
+EQN         25.16      -8.68       1     /ver1-Optimized/X36_I
+EQN         24.26      -9.58       1     /ver1-Optimized/X36_I
+EQN         22.14     -11.70       1     /ver1-Optimized/X36_I
+EQN         20.84     -13.00       9     /ver1-Optimized/X36_I
+EQN         18.72     -15.12       9     /ver1-Optimized/X36_I
+EQN         17.42     -16.42       1     /ver1-Optimized/X36_I
+EQN         15.30     -18.54       1     /ver1-Optimized/X36_I
+EQN         14.40     -19.44       1     /ver1-Optimized/X36_I
+EQN         12.28     -21.56       1     /ver1-Optimized/X36_I
+EQN         10.98     -22.86       9     /ver1-Optimized/X36_I
+EQN          8.86     -24.98       9     /ver1-Optimized/X36_I
+EQN          7.56     -26.28       1     /ver1-Optimized/X36_I
+EQN          5.44     -28.40       1     /ver1-Optimized/X36_I
+EQN          4.14     -29.70       4     /ver1-Optimized/X36_I
+DFF          1.60     -32.24       4     /ver1-Optimized/X36_I
+DFF          0.00     -33.84      19     /ver1-Optimized/X36_I

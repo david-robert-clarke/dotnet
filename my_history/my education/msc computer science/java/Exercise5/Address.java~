@@ -1,0 +1,10 @@
+class Address
+{
+	public Address(
+	
+}
+		String line6 = thisAddress.getHouse() + ", " + thisAddress.getStreet());
+		String line7 = thisAddress.getTown());
+		String line8 = thisAddress.getRegion());
+		String line9 = thisAddress.getCountry());
+		String line10 = thisAddress.getPostCode());

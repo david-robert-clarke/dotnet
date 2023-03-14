@@ -1,0 +1,49 @@
+<%@ page import="com.cdshop.product.Product" %>
+<% Product prod = null;
+if (((request.getParameter("CD_ID") != null) &&  
+     (prod = Product.findProduct(request.getParameter("CD_ID"))) != null)) {
+%>
+<head>
+<title><%= prod.getTitle() %></title>
+</head>
+
+<%@ include file="/jsp/includes/header.jsp" %>
+
+<h2 align="center"><span style="font-family: Times New Roman">
+<%= prod.getTitle() %>
+</span></h2>
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="639" id="AutoNumber3">
+ <tr>
+   <td width="128">
+    <img border="0" src="/cdshop/jsp/images/products/<%= prod.getCdId() %>.jpg"
+         align="left" width="125" height="155">
+   </td>
+   <td valign="top" width="511">
+     <p align="center">
+     <span style="font-size: 10.0pt; font-family: Times New Roman">
+        By <%= prod.getArtist() %>
+     </span></p>
+        <p align="center"><font size="2" face="Times New Roman">Publication 
+        date: </font>
+        <span style="font-size: 10.0pt; font-family: Times New Roman">
+         <%= prod.getPubDate() %>, <font color=#990000>&pound;<%= prod.getPrice() %></font></span></td>
+   </tr>
+</table>
+<p><span style="font-size: 10.0pt"><%= prod.getDescription() %></span></p>
+    <p><font size="2"><a href="buyit.jsp? CD_ID=<%= prod.getCdId() %>" TARGET="tempwindow">[Buy It!]
+</a></font></p>
+<p align="center">&nbsp;</td>
+
+<%@ include file="/jsp/includes/footer.jsp" %>
+<% } else {%>
+
+<head>
+<title>CD_ID Not Found</title>
+</head>
+
+<%@ include file="/jsp/includes/header.jsp" %>
+ 
+<H1>The requested CD_ID was not found </H1>
+If you believe you have reached this page in error, please contact
+<A HREF="mailto: info@G6C.com">info@G6C.com</A>
+<% } %>

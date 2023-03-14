@@ -1,0 +1,760 @@
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\rom_matrix_a_store.vhd Error   L43/C0 : #0 Error: C:/fndtn/active/projects/row_cols/rom_matrix_a_store.vhd  line 43   ADDR_MATRIX_A is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\rom_matrix_a_store.vhd Error   L44/C0 : #0 Error: C:/fndtn/active/projects/row_cols/rom_matrix_a_store.vhd  line 44   ADDR_MATRIX_A is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\rom_matrix_a_store.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/row_cols/rom_matrix_a_store.vhd  line 45   ADDR_MATRIX_A is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\rom_matrix_a_store.vhd Error   L46/C0 : #0 Error: C:/fndtn/active/projects/row_cols/rom_matrix_a_store.vhd  line 46   ADDR_MATRIX_A is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\rom_matrix_a_store.vhd Error   L43/C0 : #0 Error: C:/fndtn/active/projects/row_cols/rom_matrix_a_store.vhd  line 43   ADDR3_MATRIX_A is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\rom_matrix_a_store.vhd Error   L44/C0 : #0 Error: C:/fndtn/active/projects/row_cols/rom_matrix_a_store.vhd  line 44   ADDR2_MATRIX_A is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\rom_matrix_a_store.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/row_cols/rom_matrix_a_store.vhd  line 45   ADDR1_MATRIX_A is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\rom_matrix_a_store.vhd Error   L46/C0 : #0 Error: C:/fndtn/active/projects/row_cols/rom_matrix_a_store.vhd  line 46   ADDR0_MATRIX_A is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\rom_matrix_a_store.vhd Error   L19/C0 : #0 Error: C:/fndtn/active/projects/row_cols/rom_matrix_a_store.vhd  line 19   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\rom_matrix_a_store.vhd Error   L24/C0 : #0 Error: C:/fndtn/active/projects/row_cols/rom_matrix_a_store.vhd  line 24   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\rom_matrix_a_store.vhd Error   L29/C0 : #0 Error: C:/fndtn/active/projects/row_cols/rom_matrix_a_store.vhd  line 29   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\rom_matrix_a_store.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/row_cols/rom_matrix_a_store.vhd  line 34   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L6/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 6   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L10/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 10   The intermediate file for entity MULTIPLIERS_TWO_BITS_X64 is not in the library bound to WORK.  (VSS-1084) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L19/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 19   Syntax error.  (VSS-1081) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L19/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 19   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 20   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L19/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 19   AIN1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L19/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 19   AIN0 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 20   BIN1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 20   BIN0 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 21   ZOUT3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 21   ZOUT2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L22/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 22   ZOUT1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L22/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 22   ZOUT0 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  8 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L7/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 7   UNSIGNED is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L8/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 8   UNSIGNED is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L9/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 9   UNSIGNED is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L10/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 10   UNSIGNED is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L11/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 11   STD_LOGIC_VECTOR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L12/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 12   STD_LOGIC_VECTOR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L13/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 13   STD_LOGIC_VECTOR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L14/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 14   STD_LOGIC_VECTOR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Warning   L-1/C0 : #0 Warning: The entity 'Multipliers_two_bits_x64' is out of date with respect to its   source file 'C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd'.  (LBR-3) 
+CM:  8 error(s) 1 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L9/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 9   UNSIGNED is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L10/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 10   UNSIGNED is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L11/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 11   UNSIGNED is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L12/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 12   UNSIGNED is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Warning   L-1/C0 : #0 Warning: The entity 'Multipliers_two_bits_x64' is out of date with respect to its   source file 'C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd'.  (LBR-3) 
+CM:  4 error(s) 1 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L10/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 10   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L29/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 29   Prefix of name can not be interpreted as a subprogram or array.  (VSS-568) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 30   Prefix of name can not be interpreted as a subprogram or array.  (VSS-568) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 20   Prefix of name can not be interpreted as a subprogram or array.  (VSS-568) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 21   Prefix of name can not be interpreted as a subprogram or array.  (VSS-568) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 20   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 21   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 20   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 21   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L7/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 7   UNSIGNED is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L8/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 8   UNSIGNED is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L9/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 9   UNSIGNED is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L10/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 10   UNSIGNED is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L11/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 11   STD_LOGIC_VECTOR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L12/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 12   STD_LOGIC_VECTOR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L13/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 13   STD_LOGIC_VECTOR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L14/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 14   STD_LOGIC_VECTOR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Warning   L-1/C0 : #0 Warning: The entity 'Multipliers_two_bits_x64' is out of date with respect to its   source file 'C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd'.  (LBR-3) 
+CM:  8 error(s) 1 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L29/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 29   AIN is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 30   AIN is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 31   BIN is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 32   BIN is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 33   ZOUT3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 33   ZOUT2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 34   ZOUT1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 34   ZOUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  8 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\multiplier_two_bits.vhd Error   L17/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multiplier_two_bits.vhd  line 17   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\multiplier_two_bits.vhd Error   L17/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multiplier_two_bits.vhd  line 17   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\test_concat.vhd Error   L13/C0 : #0 Error: C:/fndtn/active/projects/row_cols/test_concat.vhd  line 13   Type mismatch over assignment operation (Target data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH).  (VSS-1023) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\adders_sixteen_bits_x16.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/row_cols/adders_sixteen_bits_x16.vhd  line 20   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\adders_sixteen_bits_x16.vhd Error   L17/C0 : #0 Error: C:/fndtn/active/projects/row_cols/adders_sixteen_bits_x16.vhd  line 17   Type mismatch over assignment operation (Target data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Synthesizing...
+CM: C:\Fndtn\Active\Projects\ROW_COLS\Adders_sixteen_bits_x16.vhd Error   L7/C0 : #0 Error: C:/Fndtn/Active/Projects/ROW_COLS/Adders_sixteen_bits_x16.vhd  line 7   No selected element named MATRIX_PACKAGE is defined for this prefix.  (VSS-573) 
+CM: C:\Fndtn\Active\Projects\ROW_COLS\Adders_sixteen_bits_x16.vhd Error   L13/C0 : #0 Error: C:/Fndtn/Active/Projects/ROW_COLS/Adders_sixteen_bits_x16.vhd  line 13   The intermediate file for entity ADDERS_SIXTEEN_BITS_X16 is not in the library bound to WORK.  (VSS-1084) 
+CM:  2 error(s) 0 warning(s) found
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Synthesizing...
+CM: C:\Fndtn\Active\Projects\ROW_COLS\Adders_sixteen_bits_x16.vhd Error   L7/C0 : #0 Error: C:/Fndtn/Active/Projects/ROW_COLS/Adders_sixteen_bits_x16.vhd  line 7   No selected element named MATRIX_PACKAGE is defined for this prefix.  (VSS-573) 
+CM: C:\Fndtn\Active\Projects\ROW_COLS\Adders_sixteen_bits_x16.vhd Error   L13/C0 : #0 Error: C:/Fndtn/Active/Projects/ROW_COLS/Adders_sixteen_bits_x16.vhd  line 13   The intermediate file for entity ADDERS_SIXTEEN_BITS_X16 is not in the library bound to WORK.  (VSS-1084) 
+CM:  2 error(s) 0 warning(s) found
+CM: Use Synthesis/View Report for detailed synthesis report
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\adders_sixteen_bits_x16.vhd Error   L17/C0 : #0 Error: C:/fndtn/active/projects/row_cols/adders_sixteen_bits_x16.vhd  line 17   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\adders_sixteen_bits_x16.vhd Error   L17/C0 : #0 Error: C:/fndtn/active/projects/row_cols/adders_sixteen_bits_x16.vhd  line 17   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\adders_sixteen_bits_x16.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/row_cols/adders_sixteen_bits_x16.vhd  line 20   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\adders_sixteen_bits_x16.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/row_cols/adders_sixteen_bits_x16.vhd  line 21   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\adders_sixteen_bits_x16.vhd Error   L22/C0 : #0 Error: C:/fndtn/active/projects/row_cols/adders_sixteen_bits_x16.vhd  line 22   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\adders_sixteen_bits_x16.vhd Error   L23/C0 : #0 Error: C:/fndtn/active/projects/row_cols/adders_sixteen_bits_x16.vhd  line 23   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\adders_sixteen_bits_x16.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/row_cols/adders_sixteen_bits_x16.vhd  line 25   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\adders_sixteen_bits_x16.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/row_cols/adders_sixteen_bits_x16.vhd  line 21   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\adders_sixteen_bits_x16.vhd Error   L22/C0 : #0 Error: C:/fndtn/active/projects/row_cols/adders_sixteen_bits_x16.vhd  line 22   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\adders_sixteen_bits_x16.vhd Error   L23/C0 : #0 Error: C:/fndtn/active/projects/row_cols/adders_sixteen_bits_x16.vhd  line 23   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\adders_sixteen_bits_x16.vhd Error   L24/C0 : #0 Error: C:/fndtn/active/projects/row_cols/adders_sixteen_bits_x16.vhd  line 24   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\adders_sixteen_bits_x16.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/row_cols/adders_sixteen_bits_x16.vhd  line 20   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\adders_sixteen_bits_x16.vhd Error   L22/C0 : #0 Error: C:/fndtn/active/projects/row_cols/adders_sixteen_bits_x16.vhd  line 22   CON_STD_LOGIC_VECTOR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\adders_sixteen_bits_x16.vhd Error   L24/C0 : #0 Error: C:/fndtn/active/projects/row_cols/adders_sixteen_bits_x16.vhd  line 24   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 32   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 33   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 33   Generate statement closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\multipliers_two_bits_x64.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/row_cols/multipliers_two_bits_x64.vhd  line 32   MUL is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\adders_sixteen_bits_x16.vhd Error   L9/C0 : #0 Error: C:/fndtn/active/projects/row_cols/adders_sixteen_bits_x16.vhd  line 9   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\row_cols\adders_sixteen_bits_x16.vhd Error   L15/C0 : #0 Error: C:/fndtn/active/projects/row_cols/adders_sixteen_bits_x16.vhd  line 15   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\row_cols\adders_sixteen_bits_x16.vhd Error   L16/C0 : #0 Error: C:/fndtn/active/projects/row_cols/adders_sixteen_bits_x16.vhd  line 16   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\row_cols\adders_sixteen_bits_x16.vhd Error   L17/C0 : #0 Error: C:/fndtn/active/projects/row_cols/adders_sixteen_bits_x16.vhd  line 17   Syntax error.  (VSS-1081) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\adders_sixteen_bits_x16.vhd Error   L13/C0 : #0 Error: C:/fndtn/active/projects/row_cols/adders_sixteen_bits_x16.vhd  line 13   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\row_cols\adders_sixteen_bits_x16.vhd Error   L19/C0 : #0 Error: C:/fndtn/active/projects/row_cols/adders_sixteen_bits_x16.vhd  line 19   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\row_cols\adders_sixteen_bits_x16.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/row_cols/adders_sixteen_bits_x16.vhd  line 20   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\row_cols\adders_sixteen_bits_x16.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/row_cols/adders_sixteen_bits_x16.vhd  line 21   Syntax error.  (VSS-1081) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\answer_store.vhd Error   L42/C0 : #0 Error: C:/fndtn/active/projects/row_cols/answer_store.vhd  line 42   Syntax error - unexpected end of input.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\answer_store.vhd Error   L44/C0 : #0 Error: C:/fndtn/active/projects/row_cols/answer_store.vhd  line 44   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\row_cols\answer_store.vhd Error   L44/C0 : #0 Error: C:/fndtn/active/projects/row_cols/answer_store.vhd  line 44   Syntax error - keyword PROCESS expected.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\answer_store.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/row_cols/answer_store.vhd  line 45   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\row_cols\answer_store.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/row_cols/answer_store.vhd  line 45   Syntax error - keyword CASE expected after keyword END.  (VSS-1081) 
+CM: c:\fndtn\active\projects\row_cols\answer_store.vhd Error   L47/C0 : #0 Error: C:/fndtn/active/projects/row_cols/answer_store.vhd  line 47   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\row_cols\answer_store.vhd Error   L47/C0 : #0 Error: C:/fndtn/active/projects/row_cols/answer_store.vhd  line 47   Syntax error - keyword IF expected after keyword END.  (VSS-1081) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\answer_store.vhd Error   L43/C0 : #0 Error: C:/fndtn/active/projects/row_cols/answer_store.vhd  line 43   Range 'U' to 'X' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\answer_store.vhd Error   L43/C0 : #0 Error: C:/fndtn/active/projects/row_cols/answer_store.vhd  line 43   Range 'Z' to '-' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\answer_store.vhd Error   L43/C0 : #0 Error: C:/fndtn/active/projects/row_cols/answer_store.vhd  line 43   Range 'U' to 'X' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\answer_store.vhd Error   L43/C0 : #0 Error: C:/fndtn/active/projects/row_cols/answer_store.vhd  line 43   Range 'Z' to '-' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L126/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 126   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L126/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 126   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L57/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 57   INPUT_A24 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L83/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 83   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L84/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 84   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L85/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 85   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L86/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 86   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L87/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 87   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L88/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 88   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L89/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 89   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L90/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 90   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L91/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 91   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L92/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 92   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L93/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 93   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L94/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 94   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L95/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 95   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L96/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 96   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L97/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 97   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L97/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 97   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L98/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 98   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L98/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 98   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L99/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 99   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L99/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 99   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L100/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 100   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L100/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 100   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L101/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 101   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L101/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 101   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L102/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 102   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L102/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 102   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L103/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 103   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L103/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 103   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L104/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 104   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L104/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 104   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L105/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 105   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L105/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 105   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L106/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 106   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L106/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 106   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L107/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 107   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L107/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 107   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L108/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 108   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L108/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 108   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L109/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 109   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L109/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 109   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L110/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 110   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L110/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 110   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L111/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 111   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L111/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 111   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L112/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 112   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L112/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 112   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L113/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 113   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L113/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 113   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L114/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 114   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L114/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 114   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L116/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 116   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L117/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 117   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L118/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 118   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L119/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 119   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L120/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 120   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L121/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 121   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L122/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 122   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L123/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 123   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L125/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 125   ENABLE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L125/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 125   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L125/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 125   RESET is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  84 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L79/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 79   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L83/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 83   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L84/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 84   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L85/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 85   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L86/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 86   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L87/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 87   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L88/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 88   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L89/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 89   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L90/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 90   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L91/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 91   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L92/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 92   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L93/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 93   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L94/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 94   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L95/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 95   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L96/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 96   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L97/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 97   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L97/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 97   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L98/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 98   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L98/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 98   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L99/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 99   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L99/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 99   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L100/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 100   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L100/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 100   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L101/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 101   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L101/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 101   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L102/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 102   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L102/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 102   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L103/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 103   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L103/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 103   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L104/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 104   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L104/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 104   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L105/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 105   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L105/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 105   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L106/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 106   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L106/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 106   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L107/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 107   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L107/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 107   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L108/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 108   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L108/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 108   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L109/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 109   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L109/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 109   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L110/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 110   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L110/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 110   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L111/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 111   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L111/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 111   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L112/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 112   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L112/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 112   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L113/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 113   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L113/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 113   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L114/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 114   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L114/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 114   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L116/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 116   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L117/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 117   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L118/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 118   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L119/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 119   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L120/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 120   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L121/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 121   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L122/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 122   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L123/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 123   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L125/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 125   ENABLE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L125/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 125   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L125/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 125   RESET is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  84 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L64/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 64   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L83/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 83   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L84/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 84   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L85/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 85   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L86/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 86   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L87/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 87   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L88/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 88   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L89/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 89   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L90/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 90   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L91/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 91   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L92/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 92   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L93/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 93   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L94/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 94   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L95/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 95   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L96/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 96   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L97/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 97   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L97/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 97   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L98/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 98   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L98/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 98   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L99/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 99   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L99/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 99   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L100/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 100   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L100/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 100   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L101/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 101   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L101/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 101   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L102/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 102   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L102/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 102   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L103/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 103   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L103/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 103   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L104/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 104   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L104/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 104   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L105/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 105   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L105/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 105   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L106/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 106   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L106/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 106   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L107/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 107   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L107/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 107   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L108/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 108   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L108/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 108   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L109/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 109   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L109/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 109   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L110/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 110   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L110/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 110   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L111/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 111   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L111/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 111   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L112/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 112   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L112/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 112   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L113/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 113   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L113/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 113   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L114/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 114   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L114/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 114   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L116/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 116   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L117/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 117   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L118/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 118   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L119/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 119   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L120/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 120   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L121/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 121   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L122/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 122   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L123/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 123   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L125/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 125   ENABLE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L125/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 125   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L125/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 125   RESET is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  84 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L64/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 64   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L97/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 97   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L98/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 98   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L99/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 99   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L100/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 100   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L101/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 101   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L102/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 102   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L103/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 103   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L104/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 104   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L105/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 105   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L106/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 106   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L107/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 107   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L108/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 108   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L109/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 109   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L110/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 110   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L111/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 111   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L112/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 112   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L113/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 113   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L114/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 114   Element association associates the same formal more than once.  (VSS-542) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L125/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 125   ENABLE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L125/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 125   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L125/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 125   RESET is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  22 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L61/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 61   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L82/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 82   All subelements of this formal must be associated. (VSS-995)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L90/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 90   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L122/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 122   ENABLE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L122/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 122   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L122/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 122   RESET is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  7 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L62/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 62   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L83/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 83   All subelements of this formal must be associated. (VSS-995)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L91/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 91   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L123/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 123   ENABLE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L62/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 62   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L83/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 83   All subelements of this formal must be associated. (VSS-995)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L91/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 91   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L83/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 83   All subelements of this formal must be associated. (VSS-995)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L91/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 91   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L91/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 91   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\adders_six_bits_x16.vhd Error   L128/C0 : #0 Error: C:/fndtn/active/projects/row_cols/adders_six_bits_x16.vhd  line 128   ASUM_TEMP is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\row_cols\adders_six_bits_x16.vhd Error   L128/C0 : #0 Error: C:/fndtn/active/projects/row_cols/adders_six_bits_x16.vhd  line 128   BSUM_TEMP is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L42/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 42   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\row_cols\dsp.vhd Error   L43/C0 : #0 Error: C:/fndtn/active/projects/row_cols/dsp.vhd  line 43   Syntax error.  (VSS-1081) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found

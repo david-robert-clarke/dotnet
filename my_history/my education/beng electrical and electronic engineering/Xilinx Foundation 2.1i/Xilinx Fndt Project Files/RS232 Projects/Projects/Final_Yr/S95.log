@@ -1,0 +1,1244 @@
+CM: 
+CM: Checking...
+CM:  Error   L14/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 14   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L14/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 14   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L14/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 14   Type mismatch over assignment operation (Target data type: INTEGER declared in PACKAGE STD.STANDARD, Source data type: CHARACTER declared in PACKAGE STD.STANDARD).  (VSS-1023) 
+CM:  Error   L15/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 15   Type mismatch over assignment operation (Target data type: INTEGER declared in PACKAGE STD.STANDARD, Source data type: CHARACTER declared in PACKAGE STD.STANDARD).  (VSS-1023) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L14/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 14   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L14/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 14   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 33   Syntax error.  (VSS-1081) 
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 41   Syntax error.  (VSS-1081) 
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 41   Syntax error - keyword IF expected after keyword END.  (VSS-1081) 
+CM:  Error   L46/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 46   Syntax error.  (VSS-1081) 
+CM:  Error   L46/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 46   Syntax error - keyword LOOP expected.  (VSS-1081) 
+CM:  Error   L48/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 48   Syntax error.  (VSS-1081) 
+CM:  Error   L48/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 48   Syntax error - keyword LOOP expected.  (VSS-1081) 
+CM:  7 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 33   Syntax error.  (VSS-1081) 
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 41   Syntax error.  (VSS-1081) 
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 41   Syntax error - keyword IF expected after keyword END.  (VSS-1081) 
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 43   Syntax error.  (VSS-1081) 
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 43   Syntax error - keyword LOOP expected.  (VSS-1081) 
+CM:  Error   L48/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 48   Syntax error.  (VSS-1081) 
+CM:  Error   L48/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 48   Syntax error - keyword LOOP expected.  (VSS-1081) 
+CM:  Error   L50/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 50   Syntax error.  (VSS-1081) 
+CM:  Error   L50/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 50   Syntax error - keyword IF expected after keyword END.  (VSS-1081) 
+CM:  9 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 33   Syntax error.  (VSS-1081) 
+CM:  Error   L48/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 48   Process statement closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L48/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 48   Process statement closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 29   Wait statement must not appear in a function or a process which has a sensitivity list. (VSS-1044)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Warning   L15/C0 : #0 Warning: Initial values for signals are not supported for synthesis. They are ignored  on line 15  (VHDL-2022) 
+CM:  Warning   L16/C0 : #0 Warning: Initial values for signals are not supported for synthesis. They are ignored  on line 16  (VHDL-2022) 
+CM:  0 error(s) 2 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 29   Static signal name required in wait statement sensitivity clause. (VSS-1043)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L29/C0 : #0 Error: This form of wait statement is not supported for synthesis  on line 29  (VHDL-2150) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L44/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 44   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze.vhd  line 28   Static signal name required in wait statement sensitivity clause. (VSS-1043)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L5/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 5   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L5/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 5   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L5/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 5   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L7/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 7   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L7/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 7   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L8/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 8   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L7/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 7   Syntax error.  (VSS-1081) 
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 18   Syntax error.  (VSS-1081) 
+CM:  Error   L20/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 20   Syntax error.  (VSS-1081) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 21   Syntax error.  (VSS-1081) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 22   Syntax error.  (VSS-1081) 
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 24   Syntax error.  (VSS-1081) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 26   Syntax error.  (VSS-1081) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 26   Syntax error - unexpected end of input.  (VSS-1081) 
+CM:  8 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L7/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 7   Syntax error.  (VSS-1081) 
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 18   Syntax error.  (VSS-1081) 
+CM:  Error   L20/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 20   Syntax error.  (VSS-1081) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 21   Syntax error.  (VSS-1081) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 22   Syntax error.  (VSS-1081) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 23   Syntax error.  (VSS-1081) 
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 25   Syntax error.  (VSS-1081) 
+CM:  Error   L27/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 27   Syntax error.  (VSS-1081) 
+CM:  Error   L27/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 27   Syntax error - unexpected end of input.  (VSS-1081) 
+CM:  9 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 18   Syntax error.  (VSS-1081) 
+CM:  Error   L20/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 20   Syntax error.  (VSS-1081) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 21   Syntax error.  (VSS-1081) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 22   Syntax error.  (VSS-1081) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 23   Syntax error.  (VSS-1081) 
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 25   Syntax error.  (VSS-1081) 
+CM:  Error   L27/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 27   Syntax error.  (VSS-1081) 
+CM:  Error   L27/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 27   Syntax error - unexpected end of input.  (VSS-1081) 
+CM:  8 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 21   Can not determine type of right hand side.  The following interpretations were considered for the right hand side:   (none). (VSS-1049)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 22   Can not determine type of right hand side.  The following interpretations were considered for the right hand side:   (none). (VSS-1049)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 23   Can not determine type of right hand side.  The following interpretations were considered for the right hand side:   (none). (VSS-1049)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 24   Can not determine type of right hand side.  The following interpretations were considered for the right hand side:   (none). (VSS-1049)  (FPGA-dm-hdlc-unknown) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 21   Can not determine type of right hand side.  The following interpretations were considered for the right hand side:   (none). (VSS-1049)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 22   Can not determine type of right hand side.  The following interpretations were considered for the right hand side:   (none). (VSS-1049)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 23   Can not determine type of right hand side.  The following interpretations were considered for the right hand side:   (none). (VSS-1049)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/final_yr/eraze2.vhd  line 24   Can not determine type of right hand side.  The following interpretations were considered for the right hand side:   (none). (VSS-1049)  (FPGA-dm-hdlc-unknown) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 13   Array subscript out of bounds (Left bound of slice). (VSS-1011)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 13   Array subscript out of bounds (Right bound of slice). (VSS-1011)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 21   Expression must be the name of an object whose subtype is locally static, or it must be a qualified expression or type conversion whose type mark denotes a locally static subtype.  (VSS-1029) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 21   Expression must be the name of an object whose subtype is locally static, or it must be a qualified expression or type conversion whose type mark denotes a locally static subtype.  (VSS-1029) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 13   NEXT_BYTE_A is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 21   NEXT_BYTE_A is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L200/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 200   NEXT_BYTE_B is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L208/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 208   NEXT_BYTE_B is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 22   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 23   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 24   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 25   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 26   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L27/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 27   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 28   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 29   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 30   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 31   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 32   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 33   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L34/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 34   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L35/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 35   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L36/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 36   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L37/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 37   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 38   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 39   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 41   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 42   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 43   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L44/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 44   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L45/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 45   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L46/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 46   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L47/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 47   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L48/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 48   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L49/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 49   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L50/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 50   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L51/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 51   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L52/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 52   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L53/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 53   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L54/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 54   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L55/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 55   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L56/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 56   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L57/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 57   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L58/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 58   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L60/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 60   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L61/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 61   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L62/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 62   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L63/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 63   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L64/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 64   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L65/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 65   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L66/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 66   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L67/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 67   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L68/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 68   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L69/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 69   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L70/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 70   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L71/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 71   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L72/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 72   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L73/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 73   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L74/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 74   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L75/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 75   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L76/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 76   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L77/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 77   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L79/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 79   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L80/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 80   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L81/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 81   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L82/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 82   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L83/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 83   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L84/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 84   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L85/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 85   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L86/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 86   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L87/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 87   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L88/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 88   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L89/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 89   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L90/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 90   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L91/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 91   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L92/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 92   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L93/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 93   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L94/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 94   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L95/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 95   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L96/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 96   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L98/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 98   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L99/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 99   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L100/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 100   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L101/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 101   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L102/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 102   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L103/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 103   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L104/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 104   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L105/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 105   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L106/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 106   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L107/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 107   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L108/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 108   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L109/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 109   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L110/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 110   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L111/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 111   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L112/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 112   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L113/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 113   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L114/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 114   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L115/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 115   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L117/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 117   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L118/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 118   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L119/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 119   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L120/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 120   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L121/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 121   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L122/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 122   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L123/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 123   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L124/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 124   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L125/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 125   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L126/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 126   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L127/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 127   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L128/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 128   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L129/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 129   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L130/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 130   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L131/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 131   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L132/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 132   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L133/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 133   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L134/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 134   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L136/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 136   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L137/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 137   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L138/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 138   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L139/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 139   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L140/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 140   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L141/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 141   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L142/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 142   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L143/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 143   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L144/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 144   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L145/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 145   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L146/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 146   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L147/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 147   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L148/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 148   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L149/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 149   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L150/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 150   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L151/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 151   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L152/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 152   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L153/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 153   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L155/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 155   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L156/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 156   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L157/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 157   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L158/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 158   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L159/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 159   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L160/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 160   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L161/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 161   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L162/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 162   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L163/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 163   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L164/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 164   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L165/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 165   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L166/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 166   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L167/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 167   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L168/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 168   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L169/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 169   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L170/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 170   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L171/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 171   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L172/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 172   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L174/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 174   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L175/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 175   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L176/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 176   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L177/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 177   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L178/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 178   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L179/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 179   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L180/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 180   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L181/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 181   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L182/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 182   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L183/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 183   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L184/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 184   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L185/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 185   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L186/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 186   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L187/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 187   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L188/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 188   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L189/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 189   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L190/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 190   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L191/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 191   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L194/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 194   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L195/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 195   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L209/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 209   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L210/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 210   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L211/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 211   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L212/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 212   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L213/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 213   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L214/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 214   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L215/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 215   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L216/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 216   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L217/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 217   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L218/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 218   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L219/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 219   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L220/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 220   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L221/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 221   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L222/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 222   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L223/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 223   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L224/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 224   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L225/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 225   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L226/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 226   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L228/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 228   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L229/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 229   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L230/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 230   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L231/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 231   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L232/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 232   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L233/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 233   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L234/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 234   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L235/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 235   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L236/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 236   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L237/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 237   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L238/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 238   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L239/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 239   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L240/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 240   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L241/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 241   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L242/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 242   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L243/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 243   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L244/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 244   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L245/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 245   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L247/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 247   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L248/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 248   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L249/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 249   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L250/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 250   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L251/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 251   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L252/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 252   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L253/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 253   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L254/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 254   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L255/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 255   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L256/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 256   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L257/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 257   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L258/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 258   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L259/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 259   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L260/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 260   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L261/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 261   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L262/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 262   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L263/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 263   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L264/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 264   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L266/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 266   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L267/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 267   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L268/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 268   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L269/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 269   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L270/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 270   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L271/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 271   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L272/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 272   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L273/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 273   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L274/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 274   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L275/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 275   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L276/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 276   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L277/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 277   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L278/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 278   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L279/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 279   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L280/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 280   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L281/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 281   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L282/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 282   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L283/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 283   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L285/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 285   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L286/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 286   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L287/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 287   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L288/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 288   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L289/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 289   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L290/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 290   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L291/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 291   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L292/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 292   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L293/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 293   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L294/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 294   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L295/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 295   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L296/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 296   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L297/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 297   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L298/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 298   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L299/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 299   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L300/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 300   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L301/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 301   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L302/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 302   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L304/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 304   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L305/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 305   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L306/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 306   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L307/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 307   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L308/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 308   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L309/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 309   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L310/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 310   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L311/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 311   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L312/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 312   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L313/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 313   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L314/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 314   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L315/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 315   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L316/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 316   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L317/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 317   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L318/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 318   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L319/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 319   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L320/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 320   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L321/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 321   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L323/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 323   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L324/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 324   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L325/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 325   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L326/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 326   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L327/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 327   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L328/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 328   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L329/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 329   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L330/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 330   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L331/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 331   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L332/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 332   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L333/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 333   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L334/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 334   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L335/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 335   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L336/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 336   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L337/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 337   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L338/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 338   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L339/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 339   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L340/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 340   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L342/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 342   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L343/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 343   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L344/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 344   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L345/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 345   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L346/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 346   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L347/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 347   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L348/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 348   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L349/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 349   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L350/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 350   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L351/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 351   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L352/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 352   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L353/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 353   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L354/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 354   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L355/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 355   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L356/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 356   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L357/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 357   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L358/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 358   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L359/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 359   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L361/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 361   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L362/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 362   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L363/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 363   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L364/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 364   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L365/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 365   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L366/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 366   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L367/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 367   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L368/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 368   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L369/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 369   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L370/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 370   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L371/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 371   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L372/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 372   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L373/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 373   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L374/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 374   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L375/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 375   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L376/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 376   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L377/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 377   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L378/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 378   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L381/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 381   NO_OF_ROWS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L382/C0 : #0 Error: C:/fndtn/active/projects/final_yr/size_comparator.vhd  line 382   NO_OF_COLS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  328 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: 
+CM: Checking...
+CM:  Error   L2/C0 : #0 Error: C:/fndtn/active/projects/final_yr/fd.vhd  line 2   Syntax error.  (VSS-1081) 
+CM:  Error   L8/C0 : #0 Error: C:/fndtn/active/projects/final_yr/fd.vhd  line 8   The intermediate file for entity FD is not in the library bound to WORK.  (VSS-1084) 
+CM:  Error   L15/C0 : #0 Error: C:/fndtn/active/projects/final_yr/fd.vhd  line 15   Syntax error.  (VSS-1081) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L15/C0 : #0 Error: C:/fndtn/active/projects/final_yr/fd.vhd  line 15   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L7/C0 : #0 Error: C:/fndtn/active/projects/final_yr/inv.vhd  line 7   Entity closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L9/C0 : #0 Error: C:/fndtn/active/projects/final_yr/inv.vhd  line 9   The intermediate file for entity INV is not in the library bound to WORK.  (VSS-1084) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L5/C0 : #0 Error: C:/fndtn/active/projects/final_yr/parallelin_serialout_sr.vhd  line 5   Invalid delimiter character: `D'. (VSS-965)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L5/C0 : #0 Error: C:/fndtn/active/projects/final_yr/parallelin_serialout_sr.vhd  line 5   Syntax error.  (VSS-1081) 
+CM:  Error   L9/C0 : #0 Error: C:/fndtn/active/projects/final_yr/parallelin_serialout_sr.vhd  line 9   The intermediate file for entity PISO is not in the library bound to WORK.  (VSS-1084) 
+CM:  Error   L12/C0 : #0 Error: C:/fndtn/active/projects/final_yr/parallelin_serialout_sr.vhd  line 12   Syntax error.  (VSS-1081) 
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/final_yr/parallelin_serialout_sr.vhd  line 13   Syntax error.  (VSS-1081) 
+CM:  Error   L36/C0 : #0 Error: C:/fndtn/active/projects/final_yr/parallelin_serialout_sr.vhd  line 36   Invalid delimiter character: `D'. (VSS-965)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/final_yr/parallelin_serialout_sr.vhd  line 38   Invalid delimiter character: `D'. (VSS-965)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/final_yr/parallelin_serialout_sr.vhd  line 40   Invalid delimiter character: `D'. (VSS-965)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L54/C0 : #0 Error: C:/fndtn/active/projects/final_yr/parallelin_serialout_sr.vhd  line 54   Architecture closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  13 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L2/C0 : #0 Error: C:/fndtn/active/projects/final_yr/parallelin_serialout_sr.vhd  line 2   No selected element named STD_LOGIC is defined for this prefix.  (VSS-573) 
+CM:  Error   L5/C0 : #0 Error: C:/fndtn/active/projects/final_yr/parallelin_serialout_sr.vhd  line 5   STD_LOGIC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L6/C0 : #0 Error: C:/fndtn/active/projects/final_yr/parallelin_serialout_sr.vhd  line 6   STD_LOGIC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L9/C0 : #0 Error: C:/fndtn/active/projects/final_yr/parallelin_serialout_sr.vhd  line 9   The intermediate file for entity PISO is not in the library bound to WORK.  (VSS-1084) 
+CM:  Error   L12/C0 : #0 Error: C:/fndtn/active/projects/final_yr/parallelin_serialout_sr.vhd  line 12   Syntax error.  (VSS-1081) 
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/final_yr/parallelin_serialout_sr.vhd  line 13   Syntax error.  (VSS-1081) 
+CM:  Error   L54/C0 : #0 Error: C:/fndtn/active/projects/final_yr/parallelin_serialout_sr.vhd  line 54   Architecture closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  8 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L12/C0 : #0 Error: C:/fndtn/active/projects/final_yr/parallelin_serialout_sr.vhd  line 12   Syntax error.  (VSS-1081) 
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/final_yr/parallelin_serialout_sr.vhd  line 13   Syntax error.  (VSS-1081) 
+CM:  Error   L54/C0 : #0 Error: C:/fndtn/active/projects/final_yr/parallelin_serialout_sr.vhd  line 54   Architecture closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L12/C0 : #0 Error: C:/fndtn/active/projects/final_yr/parallelin_serialout_sr.vhd  line 12   Syntax error.  (VSS-1081) 
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/final_yr/parallelin_serialout_sr.vhd  line 13   Syntax error.  (VSS-1081) 
+CM:  Error   L54/C0 : #0 Error: C:/fndtn/active/projects/final_yr/parallelin_serialout_sr.vhd  line 54   Architecture closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L54/C0 : #0 Error: C:/fndtn/active/projects/final_yr/parallelin_serialout_sr.vhd  line 54   Architecture closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L11/C0 : #0 Error: C:/fndtn/active/projects/final_yr/parallelin_serialout_sr.vhd  line 11   Illegal redeclaration of INV. (VSS-1072)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: 
+CM: Checking...
+CM:  Error   L7/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_dec.vhd  line 7   Syntax error.  (VSS-1081) 
+CM:  Error   L12/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_dec.vhd  line 12   The intermediate file for entity PART_DEC is not in the library bound to WORK.  (VSS-1084) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L9/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_dec.vhd  line 9   VECTOR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L12/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_dec.vhd  line 12   The intermediate file for entity PART_DEC is not in the library bound to WORK.  (VSS-1084) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_dec.vhd  line 17   Array subscript out of bounds.  (VSS-1) 
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_dec.vhd  line 18   Array subscript out of bounds.  (VSS-1) 
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_dec.vhd  line 19   Array subscript out of bounds.  (VSS-1) 
+CM:  Error   L20/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_dec.vhd  line 20   Array subscript out of bounds.  (VSS-1) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_dec.vhd  line 22   Array subscript out of bounds.  (VSS-1) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_dec.vhd  line 23   Array subscript out of bounds.  (VSS-1) 
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_dec.vhd  line 24   Array subscript out of bounds.  (VSS-1) 
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_dec.vhd  line 25   Array subscript out of bounds.  (VSS-1) 
+CM:  Error   L27/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_dec.vhd  line 27   Array subscript out of bounds.  (VSS-1) 
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_dec.vhd  line 28   Array subscript out of bounds.  (VSS-1) 
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_dec.vhd  line 29   Array subscript out of bounds.  (VSS-1) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_dec.vhd  line 30   Array subscript out of bounds.  (VSS-1) 
+CM:  12 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: 
+CM: 
+CM: Checking...
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/final_yr/en_decoder.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/final_yr/en_decoder.vhd  line 29   Syntax error - keyword IF expected after keyword END.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  Error   L9/C0 : #0 Error: C:/fndtn/active/projects/final_yr/part_latch_a.vhd  line 9   Syntax error.  (VSS-1081) 
+CM:  Error   L15/C0 : #0 Error: C:/fndtn/active/projects/final_yr/part_latch_a.vhd  line 15   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  Error   L8/C0 : #0 Error: C:/fndtn/active/projects/final_yr/part_latch_b.vhd  line 8   Syntax error.  (VSS-1081) 
+CM:  Error   L11/C0 : #0 Error: C:/fndtn/active/projects/final_yr/part_latch_b.vhd  line 11   The intermediate file for entity PART_LATCH_B is not in the library bound to WORK.  (VSS-1084) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  Error   L9/C0 : #0 Error: C:/fndtn/active/projects/final_yr/part_latch_c.vhd  line 9   Syntax error.  (VSS-1081) 
+CM:  Error   L15/C0 : #0 Error: C:/fndtn/active/projects/final_yr/part_latch_c.vhd  line 15   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  Error   L9/C0 : #0 Error: C:/fndtn/active/projects/final_yr/part_latch_d.vhd  line 9   Syntax error.  (VSS-1081) 
+CM:  Error   L15/C0 : #0 Error: C:/fndtn/active/projects/final_yr/part_latch_d.vhd  line 15   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L9/C0 : #0 Error: C:/fndtn/active/projects/final_yr/part_latch_a.vhd  line 9   Syntax error.  (VSS-1081) 
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/final_yr/part_latch_a.vhd  line 16   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/final_yr/bring_out_cs.vhd  line 10   Can not update ports of mode IN or LINKAGE. (VSS-798)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L11/C0 : #0 Error: C:/fndtn/active/projects/final_yr/bring_out_cs.vhd  line 11   Can not update ports of mode IN or LINKAGE. (VSS-798)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L12/C0 : #0 Error: C:/fndtn/active/projects/final_yr/bring_out_cs.vhd  line 12   Can not update ports of mode IN or LINKAGE. (VSS-798)  (FPGA-dm-hdlc-unknown) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L11/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_dec_2.vhd  line 11   Entity closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_dec_2.vhd  line 13   The intermediate file for entity PART_DEC_2 is not in the library bound to WORK.  (VSS-1084) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/final_yr/bring_out_cs.vhd  line 10   Can not update ports of mode IN or LINKAGE. (VSS-798)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L11/C0 : #0 Error: C:/fndtn/active/projects/final_yr/bring_out_cs.vhd  line 11   Can not update ports of mode IN or LINKAGE. (VSS-798)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L12/C0 : #0 Error: C:/fndtn/active/projects/final_yr/bring_out_cs.vhd  line 12   Can not update ports of mode IN or LINKAGE. (VSS-798)  (FPGA-dm-hdlc-unknown) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L6/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 6   STD_LOGIC_VECTOR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L7/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 7   STD_LOGIC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L8/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 8   STD_LOGIC_VECTOR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L9/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 9   STD_LOGIC_VECTOR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L12/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 12   The intermediate file for entity CONFIG2_LATCHES is not in the library bound to WORK.  (VSS-1084) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: 
+CM: 
+CM: Checking...
+CM:  Error   L11/C0 : #0 Error: C:/fndtn/active/projects/final_yr/mux_sel2.vhd  line 11   Entity closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/final_yr/mux_sel2.vhd  line 13   The intermediate file for entity MUX_SEL3 is not in the library bound to WORK.  (VSS-1084) 
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/final_yr/mux_sel2.vhd  line 16   Syntax error.  (VSS-1081) 
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/final_yr/mux_sel2.vhd  line 19   Syntax error.  (VSS-1081) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/final_yr/mux_sel2.vhd  line 21   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/final_yr/mux_sel2.vhd  line 16   Syntax error.  (VSS-1081) 
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/final_yr/mux_sel2.vhd  line 19   Syntax error.  (VSS-1081) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/final_yr/mux_sel2.vhd  line 21   Syntax error.  (VSS-1081) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/final_yr/mux_sel2.vhd  line 16   Syntax error.  (VSS-1081) 
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/final_yr/mux_sel2.vhd  line 19   Syntax error.  (VSS-1081) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/final_yr/mux_sel2.vhd  line 21   Syntax error.  (VSS-1081) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/final_yr/mux_sel2.vhd  line 16   Syntax error.  (VSS-1081) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/final_yr/mux_sel2.vhd  line 21   Syntax error.  (VSS-1081) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/final_yr/mux_sel2.vhd  line 23   Syntax error.  (VSS-1081) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/final_yr/mux_sel2.vhd  line 16   Syntax error.  (VSS-1081) 
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/projects/final_yr/mux_sel2.vhd  line 18   Syntax error.  (VSS-1081) 
+CM:  Error   L20/C0 : #0 Error: C:/fndtn/active/projects/final_yr/mux_sel2.vhd  line 20   Syntax error.  (VSS-1081) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/final_yr/mux_sel2.vhd  line 22   Syntax error.  (VSS-1081) 
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/final_yr/mux_sel2.vhd  line 24   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/final_yr/mux_sel2.vhd  line 19   EX_DATA is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/final_yr/mux_sel2.vhd  line 21   EX_DATA is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/final_yr/mux_sel2.vhd  line 23   EX_DATA is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/projects/final_yr/mux_sel3.vhd  line 18   EX_DATA is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L20/C0 : #0 Error: C:/fndtn/active/projects/final_yr/mux_sel3.vhd  line 20   EX_DATA is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 23   Index constraint illegal with this type mark. (VSS-898)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 28   Index constraint illegal with this type mark. (VSS-898)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: 
+CM: 
+CM: Checking...
+CM:  Error   L8/C0 : #0 Error: C:/fndtn/active/projects/final_yr/latch_en_dec.vhd  line 8   Syntax error - unexpected end of input.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L6/C0 : #0 Error: C:/fndtn/active/projects/final_yr/latch_en_dec.vhd  line 6   IEEE_STD_LOGIC_1164 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L9/C0 : #0 Error: C:/fndtn/active/projects/final_yr/latch_en_dec.vhd  line 9   STD_LOGIC_VECTOR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/final_yr/latch_en_dec.vhd  line 10   STD_LOGIC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/final_yr/latch_en_dec.vhd  line 13   The intermediate file for entity LATCH_EN_DECODE is not in the library bound to WORK.  (VSS-1084) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/final_yr/latch_en_dec.vhd  line 13   The intermediate file for entity LATCH_EN_DECODE is not in the library bound to WORK.  (VSS-1084) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: 
+CM: 
+CM: Checking...
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/final_yr/en_conflict_res_mux2.vhd  line 17   Syntax error.  (VSS-1081) 
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/final_yr/en_conflict_res_mux2.vhd  line 19   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/final_yr/en_conflict_res_mux2.vhd  line 16   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/projects/final_yr/en_conflict_res_mux2.vhd  line 18   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/final_yr/en_conflict_res_mux2.vhd  line 10   Entity closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L14/C0 : #0 Error: C:/fndtn/active/projects/final_yr/en_conflict_res_mux2.vhd  line 14   IN2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/final_yr/en_conflict_res_mux2.vhd  line 16   IN2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L27/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 27   Component closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 42   Syntax error.  (VSS-1081) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 42   Syntax error - keyword COMPONENT expected after keyword END.  (VSS-1081) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 42   Syntax error.  (VSS-1081) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 42   Syntax error - keyword COMPONENT expected after keyword END.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L52/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 52   LATCH_EN2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L52/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 52   LATCH_EN1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L53/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 53   LATCH_EN3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L53/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 53   LATCH_EN2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L54/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 54   LATCH_EN3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L54/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 54   LATCH_EN2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L54/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 54   LATCH_EN1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L56/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 56   LATCH_EN_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L57/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 57   LATCH_EN_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L58/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 58   LATCH_EN_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L59/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 59   LATCH_EN_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L61/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 61   A1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L62/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 62   B1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L63/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 63   C1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L64/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 64   D1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L66/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 66   LATCH_EN_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L67/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 67   LATCH_EN_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L68/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 68   LATCH_EN_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L69/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 69   LATCH_EN_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L71/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 71   E1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L73/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 73   F1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L75/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 75   G1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L77/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 77   H1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L84/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 84   LATCH_EN_2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L85/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 85   LATCH_EN_2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L86/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 86   LATCH_EN_2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L87/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 87   LATCH_EN_2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L106/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 106   LATCH_EN_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L107/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 107   LATCH_EN_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L108/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 108   LATCH_EN_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L109/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 109   LATCH_EN_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L110/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 110   LATCH_EN_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L111/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 111   LATCH_EN_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L112/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 112   LATCH_EN_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L113/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 113   LATCH_EN_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  35 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L52/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 52   LATCH_EN_2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L52/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 52   LATCH_EN_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L53/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 53   LATCH_EN_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L53/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 53   LATCH_EN_2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L54/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 54   LATCH_EN_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L54/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 54   LATCH_EN_2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L54/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 54   LATCH_EN_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L56/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 56   LATCH_EN_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L57/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 57   LATCH_EN_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L58/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 58   LATCH_EN_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L59/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 59   LATCH_EN_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L61/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 61   A1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L62/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 62   B1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L63/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 63   C1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L64/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 64   D1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L66/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 66   LATCH_EN_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L67/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 67   LATCH_EN_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L68/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 68   LATCH_EN_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L69/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 69   LATCH_EN_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L71/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 71   E1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L73/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 73   F1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L75/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 75   G1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L77/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 77   H1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L84/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 84   LATCH_EN_2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L85/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 85   LATCH_EN_2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L86/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 86   LATCH_EN_2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L87/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 87   LATCH_EN_2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L106/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 106   LATCH_EN_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L107/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 107   LATCH_EN_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L108/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 108   LATCH_EN_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L109/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 109   LATCH_EN_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L110/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 110   LATCH_EN_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L111/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 111   LATCH_EN_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L112/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 112   LATCH_EN_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L113/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 113   LATCH_EN_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  35 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L54/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 54   LATCH_EN_2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L54/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 54   LATCH_EN_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L55/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 55   LATCH_EN_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L55/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 55   LATCH_EN_2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L56/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 56   LATCH_EN_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L56/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 56   LATCH_EN_2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L56/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 56   LATCH_EN_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L58/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 58   LATCH_EN_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L59/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 59   LATCH_EN_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L60/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 60   LATCH_EN_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L61/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 61   LATCH_EN_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L63/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 63   A1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L64/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 64   B1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L65/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 65   C1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L66/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 66   D1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L68/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 68   LATCH_EN_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L69/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 69   LATCH_EN_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L70/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 70   LATCH_EN_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L71/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 71   LATCH_EN_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L73/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 73   E1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L75/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 75   F1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L77/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 77   G1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L79/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 79   H1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L86/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 86   LATCH_EN_2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L87/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 87   LATCH_EN_2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L88/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 88   LATCH_EN_2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L89/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 89   LATCH_EN_2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L108/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 108   LATCH_EN_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L109/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 109   LATCH_EN_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L110/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 110   LATCH_EN_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L111/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 111   LATCH_EN_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L112/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 112   LATCH_EN_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L113/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 113   LATCH_EN_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L114/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 114   LATCH_EN_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L115/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 115   LATCH_EN_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  35 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L63/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 63   A1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L64/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 64   B1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L65/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 65   C1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L66/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 66   D1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L73/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 73   E1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L75/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 75   F1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L77/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 77   G1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L79/C0 : #0 Error: C:/fndtn/active/projects/final_yr/configuration_2_latches.vhd  line 79   H1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  8 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_decode.vhd  line 17   Based literal terminator missing (check the seperator for the bus slice to be either to or downto). (VSS-970)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_decode.vhd  line 17   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: 
+CM: Checking...
+CM:  Error   L67/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 67   Syntax error - unexpected end of input.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 23   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 23   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 24   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 24   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 25   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 25   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 26   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 26   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 28   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 28   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 29   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 29   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 30   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 30   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 31   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 31   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 32   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 32   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 33   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 33   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L34/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 34   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L34/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 34   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L35/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 35   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L35/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 35   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L37/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 37   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L37/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 37   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 38   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 38   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 39   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 39   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 40   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 40   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 41   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 41   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 42   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 42   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 43   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 43   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L44/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 44   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L44/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 44   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L45/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 45   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L45/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 45   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L46/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 46   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L46/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 46   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L47/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 47   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L47/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 47   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L48/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 48   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L48/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 48   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L50/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 50   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L50/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 50   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L51/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 51   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L51/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 51   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L52/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 52   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L52/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 52   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L53/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 53   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L53/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 53   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L54/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 54   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L54/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 54   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L55/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 55   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L55/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 55   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L56/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 56   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L56/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 56   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L57/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 57   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L57/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 57   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L58/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 58   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L58/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 58   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L59/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 59   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L59/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 59   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L60/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 60   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L60/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 60   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L61/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 61   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L61/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 61   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L62/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 62   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L62/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 62   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L63/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 63   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L63/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 63   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L64/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 64   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L64/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 64   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L65/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 65   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L65/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 65   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  80 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 24   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 25   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 26   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L27/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 27   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 29   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 30   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 31   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 32   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 33   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L34/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 34   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L35/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 35   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L36/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 36   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 38   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 39   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 40   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 41   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 42   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 43   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L44/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 44   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L45/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 45   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L46/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 46   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L47/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 47   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L48/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 48   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L49/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 49   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L51/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 51   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L52/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 52   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L53/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 53   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L54/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 54   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L55/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 55   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L56/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 56   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L57/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 57   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L58/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 58   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L59/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 59   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L60/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 60   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L61/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 61   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L62/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 62   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L63/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 63   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L64/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 64   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L65/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 65   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L66/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 66   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  80 error(s) 0 warning(s) found
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 24   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 25   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 26   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L27/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 27   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 29   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 30   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 31   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 32   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 33   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L34/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 34   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L35/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 35   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L36/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 36   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 38   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 39   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 40   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 41   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 42   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 43   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L44/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 44   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L45/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 45   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L46/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 46   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L47/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 47   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L48/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 48   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L49/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 49   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L51/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 51   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L52/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 52   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L53/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 53   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L54/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 54   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L55/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 55   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L56/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 56   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L57/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 57   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L58/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 58   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L59/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 59   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L60/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 60   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L61/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 61   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L62/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 62   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L63/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 63   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L64/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 64   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L65/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 65   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  Error   L66/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_latches.vhd  line 66   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  80 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: 
+CM: Checking...
+CM:  Error   L9/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_synchronise.vhd  line 9   Index constraint illegal with this type mark. (VSS-898)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_synchronise.vhd  line 13   The intermediate file for entity PART_SYNC is not in the library bound to WORK.  (VSS-1084) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_synchronise.vhd  line 31   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/final_yr/partitioner_synchronise.vhd  line 31   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: 
+CM: Checking...
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/final_yr/1bit_adder.vhd  line 10   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/final_yr/1bit_adder.vhd  line 10   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/final_yr/1bit_adder.vhd  line 10   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/final_yr/1bit_adder.vhd  line 10   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L11/C0 : #0 Error: C:/fndtn/active/projects/final_yr/1bit_adder.vhd  line 11   Z is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L11/C0 : #0 Error: C:/fndtn/active/projects/final_yr/1bit_adder.vhd  line 11   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L11/C0 : #0 Error: C:/fndtn/active/projects/final_yr/1bit_adder.vhd  line 11   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L11/C0 : #0 Error: C:/fndtn/active/projects/final_yr/1bit_adder.vhd  line 11   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L11/C0 : #0 Error: C:/fndtn/active/projects/final_yr/1bit_adder.vhd  line 11   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L11/C0 : #0 Error: C:/fndtn/active/projects/final_yr/1bit_adder.vhd  line 11   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L11/C0 : #0 Error: C:/fndtn/active/projects/final_yr/1bit_adder.vhd  line 11   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful

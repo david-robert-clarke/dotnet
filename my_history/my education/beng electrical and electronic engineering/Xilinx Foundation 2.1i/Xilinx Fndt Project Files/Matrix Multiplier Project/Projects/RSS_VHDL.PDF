@@ -1,0 +1,77 @@
+[project]
+name=rss_vhdl
+netlist=rss_vhdl
+contents=
+date=11/17/100
+time=01:58:20
+version=3.1.5.00.33
+Type=F21i
+top_level=VHDL
+HDL netlist format=Auto
+generics=MAX
+sim_mode=FUNC
+pdf_dir=c:\fndtn\active\projects\
+lib_order=1006 1007 133 155
+
+[libraries]
+1006=
+1007=c:\fndtn\active\projects\work
+133=c:\fndtn\active\syslib\simprims
+155=c:\fndtn\active\syslib\xc4000x
+
+[APP_95]
+lid=0
+oid=0
+format=19
+source=c:\fndtn\active\projects\rss_vhdl\structural_rs232.vhd
+server_hwnd=3624
+
+[OpenDoc]
+
+[hdl_sheets]
+STRUCTURAL_RS232.vhd=
+
+[Top Doc]
+STRUCTURAL_RS232.vhd=21
+
+[netlist]
+external=FALSE
+
+[Log]
+netlist.log=Simulator Netlist Log
+
+[implement_HDL]
+family=2
+xfam=XC4000XL
+part=4010XLBG256-09
+xilinx=4010XLBG256-09
+functional=ver1
+optimized=ver1-Optimized
+design=structural_rs232,c:\fndtn\active\projects\rss_vhdl\structural_rs232.vhd
+
+[xilinx]
+family=2
+xfam=XC4000XL
+xact9=On
+
+[device]
+part=4010XLBG256-09
+xilinx=4010XLBG256-09
+
+[current]
+compiler=FPGA Express
+
+[OPEN32]
+nMaxFile=261
+lpstrFile=
+lpstrFilter=All Files (*.*)|*.*||
+lpstrInitialDir=C:\FNDTN\ACTIVE\PROJECTS\RSS_VHDL
+lpstrTitle=Select file
+nFilterIndex=0
+Flags=530436
+cmdLine=-h 3284 -hp 868 -m PCM_OPEN_32_MESSAGE -f C:\FNDTN\ACTIVE\PROJECTS\current.pdf
+
+[implement_XIE]
+version=ver1
+revision=rev1
+

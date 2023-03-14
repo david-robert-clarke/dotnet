@@ -1,0 +1,2 @@
+C:\Fndtn\Active\Projects\RS232SCH\Parity_Test.vhd -1 0:W:#0 Warning: Latch inferred in design 'Parity_Test' read with   'hdlin_check_no_latch'.  (HDL-307) 
+

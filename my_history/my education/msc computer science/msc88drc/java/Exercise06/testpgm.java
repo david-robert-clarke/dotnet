@@ -1,0 +1,11 @@
+import pgm.*;
+
+public class testpgm
+{
+    public static void main (String[] args) throws InvalidDataException 
+    {
+        short mymax = 256;
+        GreymapImage myGreymapImage = new GreymapImage(10, 10);
+        myGreymapImage.simpleResize(99, 26);
+    }
+}

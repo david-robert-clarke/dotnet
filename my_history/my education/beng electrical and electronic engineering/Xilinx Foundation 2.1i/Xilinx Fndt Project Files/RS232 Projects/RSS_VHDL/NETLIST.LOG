@@ -1,0 +1,57 @@
+EDIF netlist 'c:\FNDTN\ACTIVE\PROJECTS\RSS_VHDL\RSS_VHDL.EDF' loading v.2.99.1.10
+EDIF parser completed successfully
+Loading - c:\fndtn\active\projects\rss_vhdl\rss_vhdl.edf
+Warning 9218: LDNODE: G(CB16CLED).CE0 - Unknown pin name
+Info 9240: The following node is sourceless:
+   NODE: B.CT1Z, S16.
+Loading - RS232_ASM_CB_PT2
+   Loading library default timing values
+Loading - FDC
+   Loading library default timing values
+Loading - OR6
+   Loading library default timing values
+Loading - RS232_BAUDRATE_DECODE
+   Loading library default timing values
+Loading - LD_1
+   Loading library default timing values
+Loading - RS232_LED_DECODE
+   Loading library default timing values
+Loading - RS232_PARITY_TESTER
+   Loading library default timing values
+Loading - RS232_PRECNTDWNTMR_DECODE
+   Loading library default timing values
+Loading - CB16CLED
+   Loading library default timing values
+Loading - FTCLEX
+   Loading library default timing values
+Loading - M2_1
+   Loading library default timing values
+Loading - M2_1B1
+   Loading library default timing values
+Info 9240: The following node is sourceless:
+   NODE:       S16,       B/CT1Z
+===============================
+EDIF Netlist Loading Statistics
+===============================
+Number of hierarchical blocks: 1
+Total number of cell types: 11
+Total number of cell instances: 16
+Total number of EDIF blocks: 0
+Total number of models taken from libraries: 10
+Total number of automatic/internal models: 0
+Total number of missing models: 0
+Total number of signals (block ports and labels): 53
+Total number of labels: 45
+Total number of nets: 53
+Total number of net elements: 167
+Total number of generic values: 0
+Total number of port generic values: 0
+Memory usage statistics:
+    Total number of allocated memory blocks: 1163 (54)
+    Total number of memory reallocations: 8
+    Total length of memory used to load the netlist: 769 kB (1)
+    Total length of memory used by EDIF parser: 256 kB
+    Number of system memory blocks (total/long): 2/0
+Netlist loaded in: 5 seconds
+Parsing time: 0 seconds
+===============================

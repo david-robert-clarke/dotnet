@@ -1,0 +1,65 @@
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L12/C0 : #0 Error: C:/fndtn/active/projects/config_3/data_store.vhd  line 12   U_LONGWORD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/config_3/data_store.vhd  line 16   ROM_TABLE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/config_3/data_store.vhd  line 19   ROM is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  3 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/config_3/data_store.vhd  line 16   ROM_TABLE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/config_3/data_store.vhd  line 19   ROM is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L51/C0 : #0 Error: C:/fndtn/active/projects/config_3/dsp_config_2.vhd  line 51   Array subscript out of bounds (Left bound of slice). (VSS-1011)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L51/C0 : #0 Error: C:/fndtn/active/projects/config_3/dsp_config_2.vhd  line 51   Array subscript out of bounds (Right bound of slice). (VSS-1011)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L51/C0 : #0 Error: C:/fndtn/active/projects/config_3/dsp_config_2.vhd  line 51   All subelements of this formal must be associated. (VSS-995)  (FPGA-dm-hdlc-unknown) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L62/C0 : #0 Error: C:/fndtn/active/projects/config_3/system_3.vhd  line 62   MEM_SELBUS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found

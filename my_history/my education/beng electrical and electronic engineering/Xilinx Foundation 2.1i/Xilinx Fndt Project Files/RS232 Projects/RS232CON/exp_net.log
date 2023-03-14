@@ -1,0 +1,15 @@
+CONV_ACS, 2.5.5.67, Wed Nov 15 18:47:53 2000
+
+	: Exporting wholesystem.alb to Xilinx netlist
+	: Exporting c:\fndtn\active\projects\rs232con\wholesystem.alb netlist...
+	: Netlist exported successfully
+	: Exporting macro CONTROLBEAST to Xilinx netlist
+	: Exporting CONTROLBEAST macro...
+	: Macro exported successfully
+	: Exporting macro CB16CLED to Xilinx netlist
+	: Netlist CB16CLED is up to date.
+	: Exporting macro FDC to Xilinx netlist
+	: Netlist FDC is up to date.
+	: Exporting macro OR6 to Xilinx netlist
+	: Netlist OR6 is up to date.
+	: Export netlist completed in: 00:00:09:

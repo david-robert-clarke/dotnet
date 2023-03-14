@@ -1,0 +1,3 @@
+Analyze of c:\fndtn\active\vhdl\libraries\textio.vhd file started.
+Analyze of c:\fndtn\active\vhdl\libraries\textio.vhd file finished.
+Error: Access types are not supported for synthesis  on line 12  (VHDL-2093) 

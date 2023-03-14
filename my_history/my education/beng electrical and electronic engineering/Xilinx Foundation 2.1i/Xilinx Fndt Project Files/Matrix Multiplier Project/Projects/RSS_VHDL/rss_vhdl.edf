@@ -1,0 +1,698 @@
+(edif rss_vhdl
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap
+    (keywordLevel 0))
+  (status
+    (written
+      (timeStamp 100 11 17 3 38 31)
+      (author "ALDEC")
+      (program "Xnf2Edf - Aldec's Edif 2.0.0 Netlist Generator"
+        (version "2.0.3.28"))))
+  (library Active_lib
+    (edifLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 1 -11)(unit TIME))))
+    (cell BUF
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I
+            (direction INPUT))
+          (port O
+            (direction OUTPUT)))))
+    (cell CB16CLED
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port C
+            (direction INPUT))
+          (port CE
+            (direction INPUT))
+          (port CE0
+            (direction OUTPUT))
+          (port CLR
+            (direction INPUT))
+          (port (rename aldecPort_5 "D<0>")
+            (direction INPUT))
+          (port (rename aldecPort_6 "D<10>")
+            (direction INPUT))
+          (port (rename aldecPort_7 "D<11>")
+            (direction INPUT))
+          (port (rename aldecPort_8 "D<12>")
+            (direction INPUT))
+          (port (rename aldecPort_9 "D<13>")
+            (direction INPUT))
+          (port (rename aldecPort_10 "D<14>")
+            (direction INPUT))
+          (port (rename aldecPort_11 "D<15>")
+            (direction INPUT))
+          (port (rename aldecPort_12 "D<1>")
+            (direction INPUT))
+          (port (rename aldecPort_13 "D<2>")
+            (direction INPUT))
+          (port (rename aldecPort_14 "D<3>")
+            (direction INPUT))
+          (port (rename aldecPort_15 "D<4>")
+            (direction INPUT))
+          (port (rename aldecPort_16 "D<5>")
+            (direction INPUT))
+          (port (rename aldecPort_17 "D<6>")
+            (direction INPUT))
+          (port (rename aldecPort_18 "D<7>")
+            (direction INPUT))
+          (port (rename aldecPort_19 "D<8>")
+            (direction INPUT))
+          (port (rename aldecPort_20 "D<9>")
+            (direction INPUT))
+          (port L
+            (direction INPUT))
+          (port (rename aldecPort_22 "Q<10>")
+            (direction OUTPUT))
+          (port (rename aldecPort_23 "Q<11>")
+            (direction OUTPUT))
+          (port (rename aldecPort_24 "Q<6>")
+            (direction OUTPUT))
+          (port (rename aldecPort_25 "Q<7>")
+            (direction OUTPUT))
+          (port (rename aldecPort_26 "Q<8>")
+            (direction OUTPUT))
+          (port (rename aldecPort_27 "Q<9>")
+            (direction OUTPUT))
+          (port UP
+            (direction INPUT)))))
+    (cell FMAP
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I1
+            (direction INPUT))
+          (port O
+            (direction INPUT)))))
+    (cell IBUF
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I
+            (direction INPUT))
+          (port O
+            (direction OUTPUT)))))
+    (cell OBUF
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I
+            (direction INPUT))
+          (port O
+            (direction OUTPUT)))))
+    (cell RS232_ASM_CB_PT2
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port CDDEN
+            (direction OUTPUT))
+          (port CLK
+            (direction INPUT))
+          (port CLR
+            (direction INPUT))
+          (port CT1EN
+            (direction OUTPUT))
+          (port CT1Z
+            (direction INPUT))
+          (port DECEN
+            (direction OUTPUT))
+          (port LOAD
+            (direction OUTPUT))
+          (port PTEN
+            (direction OUTPUT))
+          (port S
+            (direction INPUT))
+          (port UP
+            (direction OUTPUT)))))
+    (cell RS232_BAUDRATE_DECODE
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port B10
+            (direction INPUT))
+          (port B11
+            (direction INPUT))
+          (port B6
+            (direction INPUT))
+          (port B7
+            (direction INPUT))
+          (port B8
+            (direction INPUT))
+          (port B9
+            (direction INPUT))
+          (port DECEN
+            (direction INPUT))
+          (port RESET
+            (direction INPUT))
+          (port S1200
+            (direction OUTPUT))
+          (port S19200
+            (direction OUTPUT))
+          (port S2400
+            (direction OUTPUT))
+          (port S300
+            (direction OUTPUT))
+          (port S4800
+            (direction OUTPUT))
+          (port S600
+            (direction OUTPUT))
+          (port S9600
+            (direction OUTPUT)))))
+    (cell RS232_LED_DECODE
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port RESET
+            (direction INPUT))
+          (port S1200
+            (direction INPUT))
+          (port S19200
+            (direction INPUT))
+          (port S2400
+            (direction INPUT))
+          (port S300
+            (direction INPUT))
+          (port S4
+            (direction OUTPUT))
+          (port S4800
+            (direction INPUT))
+          (port S5
+            (direction OUTPUT))
+          (port S6
+            (direction OUTPUT))
+          (port S600
+            (direction INPUT))
+          (port S9600
+            (direction INPUT)))))
+    (cell RS232_PARITY_TESTER
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port EVEN
+            (direction OUTPUT))
+          (port ODD
+            (direction OUTPUT))
+          (port PTEN
+            (direction INPUT))
+          (port RESET
+            (direction INPUT))
+          (port S
+            (direction INPUT)))))
+    (cell RS232_PRECNTDWNTMR_DECODE
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port CDDEN
+            (direction INPUT))
+          (port (rename aldecPort_2 "CNT<0>")
+            (direction OUTPUT))
+          (port (rename aldecPort_3 "CNT<10>")
+            (direction OUTPUT))
+          (port (rename aldecPort_4 "CNT<11>")
+            (direction OUTPUT))
+          (port (rename aldecPort_5 "CNT<12>")
+            (direction OUTPUT))
+          (port (rename aldecPort_6 "CNT<13>")
+            (direction OUTPUT))
+          (port (rename aldecPort_7 "CNT<14>")
+            (direction OUTPUT))
+          (port (rename aldecPort_8 "CNT<15>")
+            (direction OUTPUT))
+          (port (rename aldecPort_9 "CNT<1>")
+            (direction OUTPUT))
+          (port (rename aldecPort_10 "CNT<2>")
+            (direction OUTPUT))
+          (port (rename aldecPort_11 "CNT<3>")
+            (direction OUTPUT))
+          (port (rename aldecPort_12 "CNT<4>")
+            (direction OUTPUT))
+          (port (rename aldecPort_13 "CNT<5>")
+            (direction OUTPUT))
+          (port (rename aldecPort_14 "CNT<6>")
+            (direction OUTPUT))
+          (port (rename aldecPort_15 "CNT<7>")
+            (direction OUTPUT))
+          (port (rename aldecPort_16 "CNT<8>")
+            (direction OUTPUT))
+          (port (rename aldecPort_17 "CNT<9>")
+            (direction OUTPUT))
+          (port RESET
+            (direction INPUT))
+          (port S1200
+            (direction INPUT))
+          (port S19200
+            (direction INPUT))
+          (port S2400
+            (direction INPUT))
+          (port S300
+            (direction INPUT))
+          (port S4800
+            (direction INPUT))
+          (port S600
+            (direction INPUT))
+          (port S9600
+            (direction INPUT)))))
+    (cell RSS_VHDL
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port CLK
+            (direction INPUT))
+          (port CLR
+            (direction INPUT))
+          (port EVEN
+            (direction OUTPUT))
+          (port ODD
+            (direction OUTPUT))
+          (port RS232IN
+            (direction INPUT))
+          (port S4
+            (direction OUTPUT))
+          (port S5
+            (direction OUTPUT))
+          (port S6
+            (direction OUTPUT)))
+        (contents
+          (instance B
+            (viewRef net
+              (cellRef RS232_ASM_CB_PT2))
+            (property LIBVER (string "2.0.0")))
+          (instance C
+            (viewRef net
+              (cellRef RS232_BAUDRATE_DECODE))
+            (property LIBVER (string "2.0.0")))
+          (instance C12
+            (viewRef net
+              (cellRef IBUF))
+            (property LIBVER (string "2.0.0")))
+          (instance C13
+            (viewRef net
+              (cellRef IBUF))
+            (property LIBVER (string "2.0.0")))
+          (instance C14
+            (viewRef net
+              (cellRef IBUF))
+            (property LIBVER (string "2.0.0")))
+          (instance C15
+            (viewRef net
+              (cellRef OBUF))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance C16
+            (viewRef net
+              (cellRef OBUF))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance C17
+            (viewRef net
+              (cellRef OBUF))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance C18
+            (viewRef net
+              (cellRef OBUF))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance C19
+            (viewRef net
+              (cellRef OBUF))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance C22_C0
+            (viewRef net
+              (cellRef BUF))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance D
+            (viewRef net
+              (cellRef RS232_LED_DECODE))
+            (property LIBVER (string "2.0.0")))
+          (instance E
+            (viewRef net
+              (cellRef RS232_PARITY_TESTER))
+            (property LIBVER (string "2.0.0")))
+          (instance F
+            (viewRef net
+              (cellRef RS232_PRECNTDWNTMR_DECODE))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_0
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance G
+            (viewRef net
+              (cellRef CB16CLED))
+            (property LIBVER (string "2.0.0")))
+          (net CLK
+            (joined 
+              (portRef clk)
+              (portRef I
+                (instanceRef C13))))
+          (net CLR
+            (joined 
+              (portRef clr)
+              (portRef I
+                (instanceRef C14))))
+          (net EVEN
+            (joined 
+              (portRef EVEN)
+              (portRef O
+                (instanceRef C18))))
+          (net N20
+            (joined 
+              (portRef s
+                (instanceRef B))
+              (portRef s
+                (instanceRef E))
+              (portRef O
+                (instanceRef c22_c0))
+              (portRef O
+                (instanceRef FMAP_0))))
+          (net N_CLK
+            (joined 
+              (portRef clk
+                (instanceRef B))
+              (portRef c
+                (instanceRef G))
+              (portRef O
+                (instanceRef C13))))
+          (net N_CLR
+            (joined 
+              (portRef clr
+                (instanceRef B))
+              (portRef reset
+                (instanceRef C))
+              (portRef reset
+                (instanceRef D))
+              (portRef reset
+                (instanceRef E))
+              (portRef clr
+                (instanceRef G))
+              (portRef reset
+                (instanceRef F))
+              (portRef O
+                (instanceRef C14))))
+          (net N_EVEN
+            (joined 
+              (portRef EVEN
+                (instanceRef E))
+              (portRef I
+                (instanceRef C18))))
+          (net N_ODD
+            (joined 
+              (portRef ODD
+                (instanceRef E))
+              (portRef I
+                (instanceRef C19))))
+          (net N_RS232IN
+            (joined 
+              (portRef O
+                (instanceRef C12))
+              (portRef I
+                (instanceRef c22_c0))
+              (portRef I1
+                (instanceRef FMAP_0))))
+          (net N_S4
+            (joined 
+              (portRef s4
+                (instanceRef D))
+              (portRef I
+                (instanceRef C17))))
+          (net N_S5
+            (joined 
+              (portRef s5
+                (instanceRef D))
+              (portRef I
+                (instanceRef C16))))
+          (net N_S6
+            (joined 
+              (portRef s6
+                (instanceRef D))
+              (portRef I
+                (instanceRef C15))))
+          (net ODD
+            (joined 
+              (portRef ODD)
+              (portRef O
+                (instanceRef C19))))
+          (net RS232IN
+            (joined 
+              (portRef RS232IN)
+              (portRef I
+                (instanceRef C12))))
+          (net (rename aldecNet_15 "S0<0>")
+            (joined 
+              (portRef aldecPort_5
+                (instanceRef G))
+              (portRef aldecPort_2
+                (instanceRef F))))
+          (net (rename aldecNet_16 "S0<10>")
+            (joined 
+              (portRef aldecPort_6
+                (instanceRef G))
+              (portRef aldecPort_3
+                (instanceRef F))))
+          (net (rename aldecNet_17 "S0<11>")
+            (joined 
+              (portRef aldecPort_7
+                (instanceRef G))
+              (portRef aldecPort_4
+                (instanceRef F))))
+          (net (rename aldecNet_18 "S0<12>")
+            (joined 
+              (portRef aldecPort_8
+                (instanceRef G))
+              (portRef aldecPort_5
+                (instanceRef F))))
+          (net (rename aldecNet_19 "S0<13>")
+            (joined 
+              (portRef aldecPort_9
+                (instanceRef G))
+              (portRef aldecPort_6
+                (instanceRef F))))
+          (net (rename aldecNet_20 "S0<14>")
+            (joined 
+              (portRef aldecPort_10
+                (instanceRef G))
+              (portRef aldecPort_7
+                (instanceRef F))))
+          (net (rename aldecNet_21 "S0<15>")
+            (joined 
+              (portRef aldecPort_11
+                (instanceRef G))
+              (portRef aldecPort_8
+                (instanceRef F))))
+          (net (rename aldecNet_22 "S0<1>")
+            (joined 
+              (portRef aldecPort_12
+                (instanceRef G))
+              (portRef aldecPort_9
+                (instanceRef F))))
+          (net (rename aldecNet_23 "S0<2>")
+            (joined 
+              (portRef aldecPort_13
+                (instanceRef G))
+              (portRef aldecPort_10
+                (instanceRef F))))
+          (net (rename aldecNet_24 "S0<3>")
+            (joined 
+              (portRef aldecPort_14
+                (instanceRef G))
+              (portRef aldecPort_11
+                (instanceRef F))))
+          (net (rename aldecNet_25 "S0<4>")
+            (joined 
+              (portRef aldecPort_15
+                (instanceRef G))
+              (portRef aldecPort_12
+                (instanceRef F))))
+          (net (rename aldecNet_26 "S0<5>")
+            (joined 
+              (portRef aldecPort_16
+                (instanceRef G))
+              (portRef aldecPort_13
+                (instanceRef F))))
+          (net (rename aldecNet_27 "S0<6>")
+            (joined 
+              (portRef aldecPort_17
+                (instanceRef G))
+              (portRef aldecPort_14
+                (instanceRef F))))
+          (net (rename aldecNet_28 "S0<7>")
+            (joined 
+              (portRef aldecPort_18
+                (instanceRef G))
+              (portRef aldecPort_15
+                (instanceRef F))))
+          (net (rename aldecNet_29 "S0<8>")
+            (joined 
+              (portRef aldecPort_19
+                (instanceRef G))
+              (portRef aldecPort_16
+                (instanceRef F))))
+          (net (rename aldecNet_30 "S0<9>")
+            (joined 
+              (portRef aldecPort_20
+                (instanceRef G))
+              (portRef aldecPort_17
+                (instanceRef F))))
+          (net S10
+            (joined 
+              (portRef cdden
+                (instanceRef B))
+              (portRef cdden
+                (instanceRef F))))
+          (net S11
+            (joined 
+              (portRef up
+                (instanceRef B))
+              (portRef up
+                (instanceRef G))))
+          (net S12
+            (joined 
+              (portRef load
+                (instanceRef B))
+              (portRef l
+                (instanceRef G))))
+          (net S13
+            (joined 
+              (portRef ct1en
+                (instanceRef B))
+              (portRef ce
+                (instanceRef G))))
+          (net S14
+            (joined 
+              (portRef decen
+                (instanceRef B))
+              (portRef decen
+                (instanceRef C))))
+          (net S15
+            (joined 
+              (portRef pten
+                (instanceRef B))
+              (portRef pten
+                (instanceRef E))))
+          (net S16
+            (joined 
+              (portRef ct1z
+                (instanceRef B))
+              (portRef ce0
+                (instanceRef G))))
+          (net (rename aldecNet_38 "S17<10>")
+            (joined 
+              (portRef b10
+                (instanceRef C))
+              (portRef aldecPort_22
+                (instanceRef G))))
+          (net (rename aldecNet_39 "S17<11>")
+            (joined 
+              (portRef b11
+                (instanceRef C))
+              (portRef aldecPort_23
+                (instanceRef G))))
+          (net (rename aldecNet_40 "S17<6>")
+            (joined 
+              (portRef b6
+                (instanceRef C))
+              (portRef aldecPort_24
+                (instanceRef G))))
+          (net (rename aldecNet_41 "S17<7>")
+            (joined 
+              (portRef b7
+                (instanceRef C))
+              (portRef aldecPort_25
+                (instanceRef G))))
+          (net (rename aldecNet_42 "S17<8>")
+            (joined 
+              (portRef b8
+                (instanceRef C))
+              (portRef aldecPort_26
+                (instanceRef G))))
+          (net (rename aldecNet_43 "S17<9>")
+            (joined 
+              (portRef b9
+                (instanceRef C))
+              (portRef aldecPort_27
+                (instanceRef G))))
+          (net S2
+            (joined 
+              (portRef s300
+                (instanceRef C))
+              (portRef s300
+                (instanceRef D))
+              (portRef s300
+                (instanceRef F))))
+          (net S3
+            (joined 
+              (portRef s600
+                (instanceRef C))
+              (portRef s600
+                (instanceRef D))
+              (portRef s600
+                (instanceRef F))))
+          (net S4
+            (joined 
+              (portRef S4)
+              (portRef O
+                (instanceRef C17))))
+          (net S40
+            (joined 
+              (portRef s1200
+                (instanceRef C))
+              (portRef s1200
+                (instanceRef D))
+              (portRef s1200
+                (instanceRef F))))
+          (net S5
+            (joined 
+              (portRef S5)
+              (portRef O
+                (instanceRef C16))))
+          (net S50
+            (joined 
+              (portRef s2400
+                (instanceRef C))
+              (portRef s2400
+                (instanceRef D))
+              (portRef s2400
+                (instanceRef F))))
+          (net S6
+            (joined 
+              (portRef S6)
+              (portRef O
+                (instanceRef C15))))
+          (net S60
+            (joined 
+              (portRef s4800
+                (instanceRef C))
+              (portRef s4800
+                (instanceRef D))
+              (portRef s4800
+                (instanceRef F))))
+          (net S7
+            (joined 
+              (portRef s9600
+                (instanceRef C))
+              (portRef s9600
+                (instanceRef D))
+              (portRef s9600
+                (instanceRef F))))
+          (net S8
+            (joined 
+              (portRef s19200
+                (instanceRef C))
+              (portRef s19200
+                (instanceRef D))
+              (portRef s19200
+                (instanceRef F))))))))
+  (design rss_vhdl
+    (cellRef rss_vhdl
+      (libraryRef Active_lib))
+    (property PART (string "4010XL-BG256-09"))))

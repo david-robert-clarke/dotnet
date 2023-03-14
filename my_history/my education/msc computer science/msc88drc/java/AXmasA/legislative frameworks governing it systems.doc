@@ -1,0 +1,347 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+{\f29\fnil\fcharset0\fprq0{\*\panose 00000000000000000000}Nimbus Sans;}{\f30\fnil\fcharset0\fprq0{\*\panose 00000000000000000000}Nimbus Roman;}{\f33\fnil\fcharset0\fprq0{\*\panose 00000000000000000000}Nimbus Mono;}
+{\f62\froman\fcharset238\fprq2 Times New Roman CE;}{\f63\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f65\froman\fcharset161\fprq2 Times New Roman Greek;}{\f66\froman\fcharset162\fprq2 Times New Roman Tur;}
+{\f67\froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\f68\froman\fcharset178\fprq2 Times New Roman (Arabic);}{\f69\froman\fcharset186\fprq2 Times New Roman Baltic;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;
+\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;
+\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \f30\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext0 Normal;}{\s1\ql \li0\ri0\sb440\sa60\nowidctlpar\faauto\rin0\lin0\itap0 
+\b\f29\fs34\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 1;}{\s2\ql \li0\ri0\sb440\sa60\nowidctlpar\faauto\rin0\lin0\itap0 \b\f29\fs28\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 2;}{
+\s3\ql \li0\ri0\sb440\sa60\nowidctlpar\faauto\rin0\lin0\itap0 \b\f29\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 3;}{\*\cs10 \additive Default Paragraph Font;}{
+\s15\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext15 Dashed List;}{\s16\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext16 Box List;}{\s17\ql \li0\ri0\nowidctlpar\tx1584\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon31 \snext0 Section Heading;}{
+\s18\ql \li0\ri0\nowidctlpar\tx431\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon2 \snext0 Numbered Heading 2;}{\s19\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 
+\f33\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext19 Plain Text;}{\s20\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext20 Implies List;}{
+\s21\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon29 \snext21 Upper Case List;}{\s22\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext22 Hand List;}{\s23\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon29 \snext23 Upper Roman List;}{
+\s24\ql \li1440\ri1440\sa120\nowidctlpar\faauto\rin1440\lin1440\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext24 Block Text;}{\s25\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext25 Lower Roman List;}{\s26\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext26 Heart List;}{
+\s27\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon29 \snext27 Lower Case List;}{\s28\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext28 Tick List;}{\s29\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext29 Numbered List;}{
+\s30\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext30 Star List;}{\s31\ql \li0\ri0\nowidctlpar\tx431\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+\sbasedon1 \snext0 Numbered Heading 1;}{\s32\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext32 Diamond List;}{\s33\ql \li0\ri0\nowidctlpar\tx431\faauto\rin0\lin0\itap0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon3 \snext0 Numbered Heading 3;}{\s34\ql \li0\ri0\nowidctlpar\tx1584\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon31 \snext0 Chapter Heading;}{
+\s35\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext35 Square List;}{\s36\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext36 Triangle List;}{\s37\ql \fi-431\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext37 Bullet List;}{
+\s38\ql \li0\ri0\sb360\sa360\nowidctlpar\faauto\rin0\lin0\itap0 \b\caps\fs24\ul\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd toc 1;}{\s39\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 
+\b\scaps\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd toc 2;}{\s40\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \scaps\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd toc 3;}{
+\s41\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd toc 4;}{\s42\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+\sbasedon0 \snext0 \sautoupd toc 5;}{\s43\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd toc 6;}{\s44\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd toc 7;}{\s45\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd toc 8;}{
+\s46\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd toc 9;}{\*\cs47 \additive \ul\cf2 \sbasedon10 Hyperlink;}{
+\s48\ql \fi-240\li240\ri0\nowidctlpar\faauto\rin0\lin240\itap0 \f30\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd index 1;}{\s49\ql \fi-240\li480\ri0\nowidctlpar\faauto\rin0\lin480\itap0 
+\f30\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd index 2;}{\s50\ql \fi-240\li720\ri0\nowidctlpar\faauto\rin0\lin720\itap0 \f30\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd 
+index 3;}{\s51\ql \fi-240\li960\ri0\nowidctlpar\faauto\rin0\lin960\itap0 \f30\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd index 4;}{\s52\ql \fi-240\li1200\ri0\nowidctlpar\faauto\rin0\lin1200\itap0 
+\f30\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd index 5;}{\s53\ql \fi-240\li1440\ri0\nowidctlpar\faauto\rin0\lin1440\itap0 \f30\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd 
+index 6;}{\s54\ql \fi-240\li1680\ri0\nowidctlpar\faauto\rin0\lin1680\itap0 \f30\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd index 7;}{\s55\ql \fi-240\li1920\ri0\nowidctlpar\faauto\rin0\lin1920\itap0 
+\f30\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd index 8;}{\s56\ql \fi-240\li2160\ri0\nowidctlpar\faauto\rin0\lin2160\itap0 \f30\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd 
+index 9;}{\s57\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \f30\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext48 index heading;}}{\*\listtable{\list\listtemplateid1877220176\listsimple{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'b7;}{\levelnumbers;}\f3\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 }{\listname ;}\listid251744723}{\list\listtemplateid1823903334\listsimple{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'b7;}{\levelnumbers;}\f3\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 }{\listname ;}\listid259803364}{\list\listtemplateid151015524
+\listsimple{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 }{\listname ;}\listid322127928}
+{\list\listtemplateid1546608100\listsimple{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'b7;}{\levelnumbers;}\f3\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 }{\listname 
+;}\listid443574465}{\list\listtemplateid1704678527\listsimple{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'b7;}{\levelnumbers;}\f3\chbrdr\brdrnone\brdrcf1 
+\chshdng0\chcfpat1\chcbpat1 }{\listname ;}\listid1202135705}{\list\listtemplateid1159305706\listsimple{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 }{\listname ;}\listid1287808243}{\list\listtemplateid1947198089\listsimple{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'01\'b7;}{\levelnumbers;}\f3\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 }{\listname ;}\listid1287808267}{\list\listtemplateid-817085744\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\leveltemplateid67698703\'02\'00.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li720\jclisttab\tx720 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\leveltemplateid67698713\'02\'01.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li1440\jclisttab\tx1440 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\leveltemplateid67698715\'02\'02.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li2160\jclisttab\tx2160 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\leveltemplateid67698703\'02\'03.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li2880\jclisttab\tx2880 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\leveltemplateid67698713\'02\'04.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li3600\jclisttab\tx3600 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\leveltemplateid67698715\'02\'05.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li4320\jclisttab\tx4320 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\leveltemplateid67698703\'02\'06.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li5040\jclisttab\tx5040 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\leveltemplateid67698713\'02\'07.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li5760\jclisttab\tx5760 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\leveltemplateid67698715\'02\'08.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li6480\jclisttab\tx6480 }{\listname ;}\listid1422141781}{\list\listtemplateid1240172788\listsimple{\listlevel
+\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 }{\listname ;}\listid1707830716}}{\*\listoverridetable
+{\listoverride\listid1287808243\listoverridecount0\ls1}{\listoverride\listid1707830716\listoverridecount0\ls2}{\listoverride\listid443574465\listoverridecount0\ls3}{\listoverride\listid1202135705\listoverridecount0\ls4}{\listoverride\listid1287808267
+\listoverridecount0\ls5}{\listoverride\listid259803364\listoverridecount0\ls6}{\listoverride\listid322127928\listoverridecount0\ls7}{\listoverride\listid251744723\listoverridecount0\ls8}{\listoverride\listid1422141781\listoverridecount0\ls9}}{\info
+{\author msc88drc}{\operator msc88drc}{\creatim\yr2003\mo1\dy13\hr10\min46}{\revtim\yr2003\mo1\dy13\hr10\min57}{\version3}{\edmins11}{\nofpages7}{\nofwords2138}{\nofchars12192}{\*\company The University of Birmingham}{\nofcharsws14972}{\vern8283}}
+\paperw11905\paperh16837\margl1417\margr851\margt1417\margb1417 \widowctrl\ftnbj\aenddoc\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\hyphcaps0\horzdoc\dghspace120\dgvspace120\dghorigin1701\dgvorigin1984\dghshow0\dgvshow3
+\jcompress\viewkind1\viewscale100\nolnhtadjtbl \fet0\sectd \sbknone\linex0\colsx360\sectdefaultcl {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3
+\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \ql \li0\ri0\nowidctlpar
+\tx2520\tqc\tx4152\tqc\tx8306\faauto\rin0\lin0\itap0 \f30\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }{\f0\lang2057\langfe1033\langnp2057 Title of Assignment: \tab The legislative frameworks governing IT systems and their development.}{\f0 
+\par }{
+\par }{\f0\lang2057\langfe1033\langnp2057 Name of Candidate:}{\f0\fs32\lang2057\langfe1033\langnp2057  \tab }{\i\f0\fs36\lang2057\langfe1033\langnp2057 David Robert Clarke}{\f0 
+\par }{
+\par }{\f0\lang2057\langfe1033\langnp2057 Degree Program: \tab MSc Computer Science}{\f0 
+\par }{
+\par }{\f0\lang2057\langfe1033\langnp2057 Lecturer: \tab Mr Bob Hendley}{\f0 
+\par }{
+\par }\pard \ql \li0\ri0\nowidctlpar\tx2520\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 Name of Institution: \tab School of Computer Science}{\f0 
+\par }{\f0\lang2057\langfe1033\langnp2057 \tab The University of Birmingham}{\f0 
+\par }{
+\par }\pard \ql \li0\ri0\nowidctlpar\tx2520\tqc\tx4152\tqc\tx8306\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 Date of Submission: \tab 13}{\f0\lang2057\langfe1033\super\langnp2057 th}{\f0\lang2057\langfe1033\langnp2057  January 2003}{\f0 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }\pard\plain \s1\ql \li0\ri0\sb440\sa60\nowidctlpar\tqc\tx4152\tqc\tx8306\faauto\outlinelevel0\rin0\lin0\itap0 \b\f29\fs34\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\lang2057\langfe1033\langnp2057 
+\par }\pard\plain \s38\ql \li0\ri0\sb360\sa360\nowidctlpar\tqr\tldot\tx9627\faauto\rin0\lin0\itap0 \b\caps\fs24\ul\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\field\fldedit{\*\fldinst {\lang2057\langfe1033\langnp2057  TOC \\o "1-3" \\h \\z }}{\fldrslt 
+{\field\fldedit{\*\fldinst {\cs47\cf2\lang1024\langfe1024\noproof  }{\lang1024\langfe1024\noproof HYPERLINK \\l "_Toc30218773"}{\cs47\cf2\lang1024\langfe1024\noproof  }{\cf2\lang1024\langfe1024\noproof {\*\datafield 
+08d0c9ea79f9bace118c8200aa004ba90b02000000080000000d0000005f0054006f006300330030003200310038003700370033000000}}}{\fldrslt {\cs47\cf2\lang1024\langfe1024\noproof\langnp2057 Abstract}{\lang1024\langfe1024\noproof\webhidden \tab }{\field{\*\fldinst {
+\lang1024\langfe1024\noproof\webhidden  PAGEREF _Toc30218773 \\h }{\lang1024\langfe1024\noproof {\*\datafield 08d0c9ea79f9bace118c8200aa004ba90b02000000080000000d0000005f0054006f006300330030003200310038003700370033000000}}}{\fldrslt {
+\lang1024\langfe1024\noproof\webhidden 3}}}}}{\b0\caps0\ulnone\lang1024\langfe1024\noproof\langnp2057 
+\par }{\field\fldedit{\*\fldinst {\cs47\cf2\lang1024\langfe1024\noproof  }{\lang1024\langfe1024\noproof HYPERLINK \\l "_Toc30218774"}{\cs47\cf2\lang1024\langfe1024\noproof  }{\cf2\lang1024\langfe1024\noproof {\*\datafield 
+08d0c9ea79f9bace118c8200aa004ba90b02000000080000000d0000005f0054006f006300330030003200310038003700370034000000}}}{\fldrslt {\cs47\cf2\lang1024\langfe1024\noproof\langnp2057 Abstract}{\lang1024\langfe1024\noproof\webhidden \tab }{\field{\*\fldinst {
+\lang1024\langfe1024\noproof\webhidden  PAGEREF _Toc30218774 \\h }{\lang1024\langfe1024\noproof {\*\datafield 08d0c9ea79f9bace118c8200aa004ba90b02000000080000000d0000005f0054006f006300330030003200310038003700370034000000}}}{\fldrslt {
+\lang1024\langfe1024\noproof\webhidden 3}}}}}{\b0\caps0\ulnone\lang1024\langfe1024\noproof\langnp2057 
+\par }{\field\fldedit{\*\fldinst {\cs47\cf2\lang1024\langfe1024\noproof  }{\lang1024\langfe1024\noproof HYPERLINK \\l "_Toc30218775"}{\cs47\cf2\lang1024\langfe1024\noproof  }{\cf2\lang1024\langfe1024\noproof {\*\datafield 
+08d0c9ea79f9bace118c8200aa004ba90b02000000080000000d0000005f0054006f006300330030003200310038003700370035000000}}}{\fldrslt {\cs47\cf2\lang1024\langfe1024\noproof\langnp2057 Introduction}{\lang1024\langfe1024\noproof\webhidden \tab }{\field{\*\fldinst {
+\lang1024\langfe1024\noproof\webhidden  PAGEREF _Toc30218775 \\h }{\lang1024\langfe1024\noproof {\*\datafield 08d0c9ea79f9bace118c8200aa004ba90b02000000080000000d0000005f0054006f006300330030003200310038003700370035000000}}}{\fldrslt {
+\lang1024\langfe1024\noproof\webhidden 3}}}}}{\b0\caps0\ulnone\lang1024\langfe1024\noproof\langnp2057 
+\par }{\field\fldedit{\*\fldinst {\cs47\cf2\lang1024\langfe1024\noproof  }{\lang1024\langfe1024\noproof HYPERLINK \\l "_Toc30218776"}{\cs47\cf2\lang1024\langfe1024\noproof  }{\cf2\lang1024\langfe1024\noproof {\*\datafield 
+08d0c9ea79f9bace118c8200aa004ba90b02000000080000000d0000005f0054006f006300330030003200310038003700370036000000}}}{\fldrslt {\cs47\cf2\lang1024\langfe1024\noproof\langnp2057 Review & Analysis}{\lang1024\langfe1024\noproof\webhidden \tab }
+{\field{\*\fldinst {\lang1024\langfe1024\noproof\webhidden  PAGEREF _Toc30218776 \\h }{\lang1024\langfe1024\noproof {\*\datafield 08d0c9ea79f9bace118c8200aa004ba90b02000000080000000d0000005f0054006f006300330030003200310038003700370036000000}}}{\fldrslt {
+\lang1024\langfe1024\noproof\webhidden 3}}}}}{\b0\caps0\ulnone\lang1024\langfe1024\noproof\langnp2057 
+\par }\pard\plain \s40\ql \li0\ri0\nowidctlpar\tqr\tldot\tx9627\faauto\rin0\lin0\itap0 \scaps\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\field\fldedit{\*\fldinst {\cs47\ul\cf2\lang1024\langfe1024\noproof  }{\lang1024\langfe1024\noproof HYPERLINK 
+\\l "_Toc30218777"}{\cs47\ul\cf2\lang1024\langfe1024\noproof  }{\ul\cf2\lang1024\langfe1024\noproof {\*\datafield 08d0c9ea79f9bace118c8200aa004ba90b02000000080000000d0000005f0054006f006300330030003200310038003700370037000000}}}{\fldrslt {
+\cs47\ul\cf2\lang1024\langfe1024\noproof\langnp2057 Identifying the Legislative Framework}{\lang1024\langfe1024\noproof\webhidden \tab }{\field{\*\fldinst {\lang1024\langfe1024\noproof\webhidden  PAGEREF _Toc30218777 \\h }{\lang1024\langfe1024\noproof 
+{\*\datafield 08d0c9ea79f9bace118c8200aa004ba90b02000000080000000d0000005f0054006f006300330030003200310038003700370037000000}}}{\fldrslt {\lang1024\langfe1024\noproof\webhidden 3}}}}}{\scaps0\lang1024\langfe1024\noproof\langnp2057 
+\par }{\field\fldedit{\*\fldinst {\cs47\ul\cf2\lang1024\langfe1024\noproof  }{\lang1024\langfe1024\noproof HYPERLINK \\l "_Toc30218778"}{\cs47\ul\cf2\lang1024\langfe1024\noproof  }{\ul\cf2\lang1024\langfe1024\noproof {\*\datafield 
+08d0c9ea79f9bace118c8200aa004ba90b02000000080000000d0000005f0054006f006300330030003200310038003700370038000000}}}{\fldrslt {\cs47\ul\cf2\lang1024\langfe1024\noproof\langnp2057 Review of the Most Significant Laws}{\lang1024\langfe1024\noproof\webhidden 
+\tab }{\field{\*\fldinst {\lang1024\langfe1024\noproof\webhidden  PAGEREF _Toc30218778 \\h }{\lang1024\langfe1024\noproof {\*\datafield 08d0c9ea79f9bace118c8200aa004ba90b02000000080000000d0000005f0054006f006300330030003200310038003700370038000000}}
+}{\fldrslt {\lang1024\langfe1024\noproof\webhidden 3}}}}}{\scaps0\lang1024\langfe1024\noproof\langnp2057 
+\par }{\field\fldedit{\*\fldinst {\cs47\ul\cf2\lang1024\langfe1024\noproof  }{\lang1024\langfe1024\noproof HYPERLINK \\l "_Toc30218779"}{\cs47\ul\cf2\lang1024\langfe1024\noproof  }{\ul\cf2\lang1024\langfe1024\noproof {\*\datafield 
+08d0c9ea79f9bace118c8200aa004ba90b02000000080000000d0000005f0054006f006300330030003200310038003700370039000000}}}{\fldrslt {\cs47\ul\cf2\lang1024\langfe1024\noproof\langnp2057 Detailed Discussion of the Computer Misuse Act}{
+\lang1024\langfe1024\noproof\webhidden \tab }{\field{\*\fldinst {\lang1024\langfe1024\noproof\webhidden  PAGEREF _Toc30218779 \\h }{\lang1024\langfe1024\noproof {\*\datafield 
+08d0c9ea79f9bace118c8200aa004ba90b02000000080000000d0000005f0054006f006300330030003200310038003700370039000000}}}{\fldrslt {\lang1024\langfe1024\noproof\webhidden 5}}}}}{\scaps0\lang1024\langfe1024\noproof\langnp2057 
+\par }\pard\plain \s38\ql \li0\ri0\sb360\sa360\nowidctlpar\tqr\tldot\tx9627\faauto\rin0\lin0\itap0 \b\caps\fs24\ul\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\field\fldedit{\*\fldinst {\cs47\cf2\lang1024\langfe1024\noproof  }{
+\lang1024\langfe1024\noproof HYPERLINK \\l "_Toc30218780"}{\cs47\cf2\lang1024\langfe1024\noproof  }{\cf2\lang1024\langfe1024\noproof {\*\datafield 
+08d0c9ea79f9bace118c8200aa004ba90b02000000080000000d0000005f0054006f006300330030003200310038003700380030000000}}}{\fldrslt {\cs47\cf2\lang1024\langfe1024\noproof\langnp2057 Conclusions}{\lang1024\langfe1024\noproof\webhidden \tab }{\field{\*\fldinst {
+\lang1024\langfe1024\noproof\webhidden  PAGEREF _Toc30218780 \\h }{\lang1024\langfe1024\noproof {\*\datafield 08d0c9ea79f9bace118c8200aa004ba90b02000000080000000d0000005f0054006f006300330030003200310038003700380030000000}}}{\fldrslt {
+\lang1024\langfe1024\noproof\webhidden 6}}}}}{\b0\caps0\ulnone\lang1024\langfe1024\noproof\langnp2057 
+\par }{\field\fldedit{\*\fldinst {\cs47\cf2\lang1024\langfe1024\noproof  }{\lang1024\langfe1024\noproof HYPERLINK \\l "_Toc30218781"}{\cs47\cf2\lang1024\langfe1024\noproof  }{\cf2\lang1024\langfe1024\noproof {\*\datafield 
+08d0c9ea79f9bace118c8200aa004ba90b02000000080000000d0000005f0054006f006300330030003200310038003700380031000000}}}{\fldrslt {\cs47\cf2\lang1024\langfe1024\noproof\langnp2057 References}{\lang1024\langfe1024\noproof\webhidden \tab }{\field{\*\fldinst {
+\lang1024\langfe1024\noproof\webhidden  PAGEREF _Toc30218781 \\h }{\lang1024\langfe1024\noproof {\*\datafield 08d0c9ea79f9bace118c8200aa004ba90b02000000080000000d0000005f0054006f006300330030003200310038003700380031000000}}}{\fldrslt {
+\lang1024\langfe1024\noproof\webhidden 7}}}}}{\b0\caps0\ulnone\lang1024\langfe1024\noproof\langnp2057 
+\par }\pard\plain \s1\ql \li0\ri0\sb440\sa60\nowidctlpar\tqc\tx4152\tqc\tx8306\faauto\outlinelevel0\rin0\lin0\itap0 \b\f29\fs34\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 }}\pard\plain \s1\ql \li0\ri0\sb440\sa60\nowidctlpar
+\tqc\tx4152\tqc\tx8306\faauto\outlinelevel0\rin0\lin0\itap0 \b\f29\fs34\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\lang2057\langfe1033\langnp2057  \page {\*\bkmkstart _Toc30218176}{\*\bkmkstart _Toc30218773}{\*\bkmkstart _Toc30218774}Abstract}{
+\b0\f0\fs24 {\*\bkmkend _Toc30218176}{\*\bkmkend _Toc30218773}{\*\bkmkend _Toc30218774}
+\par }\pard\plain \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \f30\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\par }{\f0\lang2057\langfe1033\langnp2057 Detailed in the following sections are reviews of the UK IT & communications legislation with a more detailed analysis applied to the Computer Misuse Act. It is shown that the
+ framework laid down by British law is just the foundation for tougher laws to build upon. A discussion into why an internal system needs to be set up to deal with the IT law frameworks within educational institutions is given. The role of the government 
+regarding on-line security is detailed. There is a final discussion on why major companies are reluctant to press charges concerning the Computer Misuse Act.}{\f0 
+\par }{
+\par 
+\par }\pard\plain \s1\ql \li0\ri0\sb440\sa60\nowidctlpar\tqc\tx4152\tqc\tx8306\faauto\outlinelevel0\rin0\lin0\itap0 \b\f29\fs34\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\lang2057\langfe1033\langnp2057  {\*\bkmkstart _Toc30218177}
+{\*\bkmkstart _Toc30218775}Introduction}{\b0\f0\fs24 {\*\bkmkend _Toc30218177}{\*\bkmkend _Toc30218775}
+\par }\pard\plain \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \f30\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\par }{\f0\lang2057\langfe1033\langnp2057 This report aims to identify the legislative frameworks within the UK, which IT pr
+ofessionals must adhere to. There is a breadth of issues to survey from health and safety to crime. The most significant laws will be briefly reviewed and summarised. One of these pieces of legislation which affects communication systems and IT is discuss
+ed in detail.}{\f0 
+\par }{
+\par 
+\par }\pard\plain \s1\ql \li0\ri0\sb440\sa60\nowidctlpar\tqc\tx4152\tqc\tx8306\faauto\outlinelevel0\rin0\lin0\itap0 \b\f29\fs34\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\lang2057\langfe1033\langnp2057 {\*\bkmkstart _Toc30218178}
+{\*\bkmkstart _Toc30218776}Review & Analysis}{\b0\f0\fs24 {\*\bkmkend _Toc30218178}{\*\bkmkend _Toc30218776}
+\par }\pard\plain \s3\ql \li0\ri0\sb440\sa60\nowidctlpar\faauto\outlinelevel2\rin0\lin0\itap0 \b\f29\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\lang2057\langfe1033\langnp2057 {\*\bkmkstart _Toc30218777}Identifying the Legislative Framework}{
+{\*\bkmkend _Toc30218777}
+\par }\pard\plain \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \f30\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\par }{\f0\lang2057\langfe1033\langnp2057 There are a number of legislations laid out by UK law:}{\f0 
+\par {\pntext\pard\plain\lang2057\langfe1033\langnp2057 \hich\af0\dbch\af0\loch\f0 1.\tab}}\pard \ql \li0\ri0\sb100\nowidctlpar{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec\pnstart1\pnindent360\pnsp120 {\pntxta .}}\faauto\ls2\rin0\lin0\itap0 {
+\f0\lang2057\langfe1033\langnp2057 Data protection & privacy }{
+\par {\pntext\pard\plain\lang2057\langfe1033\langnp2057 \hich\af0\dbch\af0\loch\f0 2.\tab}}\pard \ql \li0\ri0\sb100\nowidctlpar{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec\pnstart1\pnindent360\pnsp120 {\pntxta .}}\faauto\ls2\rin0\lin0\itap0 {
+\f0\lang2057\langfe1033\langnp2057 Intellectual property and Copyright }{
+\par {\pntext\pard\plain\lang2057\langfe1033\langnp2057 \hich\af0\dbch\af0\loch\f0 3.\tab}}\pard \ql \li0\ri0\sb100\nowidctlpar{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec\pnstart1\pnindent360\pnsp120 {\pntxta .}}\faauto\ls2\rin0\lin0\itap0 {
+\f0\lang2057\langfe1033\langnp2057 Health and Safety/Working Conditions }{
+\par {\pntext\pard\plain\lang2057\langfe1033\langnp2057 \hich\af0\dbch\af0\loch\f0 4.\tab}}\pard \ql \li0\ri0\sb100\nowidctlpar{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec\pnstart1\pnindent360\pnsp120 {\pntxta .}}\faauto\ls2\rin0\lin0\itap0 {
+\f0\lang2057\langfe1033\langnp2057 Computer Misuse}{
+\par {\pntext\pard\plain\lang2057\langfe1033\langnp2057 \hich\af0\dbch\af0\loch\f0 5.\tab}}\pard \ql \li0\ri0\sb100\nowidctlpar{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec\pnstart1\pnindent360\pnsp120 {\pntxta .}}\faauto\ls2\rin0\lin0\itap0 {
+\f0\lang2057\langfe1033\langnp2057 Freedom of Information}{
+\par {\pntext\pard\plain\lang2057\langfe1033\langnp2057 \hich\af0\dbch\af0\loch\f0 6.\tab}}\pard \ql \li0\ri0\sb100\nowidctlpar{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec\pnstart1\pnindent360\pnsp120 {\pntxta .}}\faauto\ls2\rin0\lin0\itap0 {
+\f0\lang2057\langfe1033\langnp2057 Data Base Protection }{
+\par {\pntext\pard\plain\lang2057\langfe1033\langnp2057 \hich\af0\dbch\af0\loch\f0 7.\tab}}\pard \ql \li0\ri0\sb100\nowidctlpar{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec\pnstart1\pnindent360\pnsp120 {\pntxta .}}\faauto\ls2\rin0\lin0\itap0 {
+\f0\lang2057\langfe1033\langnp2057 Legal implication of Use of the INTERNET }{
+\par {\pntext\pard\plain\lang2057\langfe1033\langnp2057 \hich\af0\dbch\af0\loch\f0 8.\tab}}\pard \ql \li0\ri0\sb100\nowidctlpar{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec\pnstart1\pnindent360\pnsp120 {\pntxta .}}\faauto\ls2\rin0\lin0\itap0 {
+\f0\lang2057\langfe1033\langnp2057 Regulation of Investigatory powers Act (RIPA)}{
+\par }\pard \ql \li0\ri0\sb100\nowidctlpar\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 From the plethora of Laws, legislations 1 to 4 are particularly relevant.}{\f0 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {
+\par }\pard\plain \s3\ql \li0\ri0\sb440\sa60\nowidctlpar\faauto\outlinelevel2\rin0\lin0\itap0 \b\f29\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\lang2057\langfe1033\langnp2057 {\*\bkmkstart _Toc30218778}Review of the Most Significant Laws}{
+{\*\bkmkend _Toc30218778}
+\par }\pard\plain \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \f30\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\par {\pntext\pard\plain\f3\lang2057\langfe1033\langnp2057 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \li0\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls3\pnrnot0\pnf3\pnstart1\pnindent360\pnsp120 {\pntxtb \'b7}}\faauto\ls3\rin0\lin0\itap0 {
+\f0\lang2057\langfe1033\langnp2057 Data Protection and privacy}{
+\par }\pard \ql \li0\ri0\sb100\nowidctlpar\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 Data Protection is one of the most significant laws in IT and communications and systems. According to HMSO (Her Majesty\rquote 
+s Stationary office) web site, Data Protection is the most frequently referenced act. The data protection act is split into seventy five sections and sixteen schedules. These sections range from \'93
+Rights to prevent processing likely to cause damage or distress\'94 to \'93Exercise of rights in Scotland by children\'94. The general overview of the act is as follows: Personal data processed and 
+stored using computers can be protected by the Data Protection and Privacy legislation. In 1986 the legislation came into effect in the UK and was later revised in 1998. It stated that all organisations are required to sign up to with the Data Protection 
+R
+egistrar. It follows that declarations of processing undertaken and details of information held must be disclosed. Organisations are required to give individuals information about themselves when requested under the Data Protection Act. Incorrect informat
+ion must be deleted or corrected.
+\par }{\f0 
+\par {\pntext\pard\plain\f3\lang2057\langfe1033\langnp2057 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \li0\ri0\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls4\pnrnot0\pnf3\pnstart1\pnindent360\pnsp120 {\pntxtb \'b7}}\faauto\ls4\rin0\lin0\itap0 {
+\f0\lang2057\langfe1033\langnp2057 Intellectual Property and Copyright }{
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 
+Protection of different types of creations, inventions and brand names are a series of legal rights which are collectively known as Intellectual Property. The most commonly known of these is copyright. This means that author\rquote 
+s permission is required if one needs to use their original work (such as film, writing or music). The copyright character is synonymous in publications. As soon as material is recorded the copyright symbol will exis
+t (whether in print or published on a website). Legally the symbol does not necessarily need to be used. The Copyright law does apply to any material on the web as well as that stored personally. Publishers of web material and users of the web in UK onlin
+e centres will be affected. }{\f0 
+\par }{
+\par {\*\bkmkstart _Toc29880666}{\*\bkmkstart _Toc29880758}{\pntext\pard\plain\f3\lang2057\langfe1033\langnp2057 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \li0\ri0\sb100\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls5\pnrnot0\pnf3\pnstart1\pnindent360\pnsp120 
+{\pntxtb \'b7}}\faauto\ls5\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 Health and Safety}{{\*\bkmkend _Toc29880666}{\*\bkmkend _Toc29880758}
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 
+The Health and safety at work regulation was introduced in 1992, subsequent regulations have been introduced. It states that it is put upon the Employer to communicate directly with their employee/employees wh
+o have been elected to represent them for consultation. Consultations consisting of information regarding habitual use of display screen, manual handling work and personal protective equipment. This information will be provided by the employer to the \'93
+representative/representatives of employee safety\'94
+ to allow a consultation to be effectively participated in. Time off and training will be sanctioned to ensure the employee representative meets the costs. Action in civil proceedings will not be granted if the representatives breach their duties.}{\f0 
+
+\par }{
+\par {\pntext\pard\plain\f3\lang2057\langfe1033\langnp2057 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \li0\ri0\sb100\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls6\pnrnot0\pnf3\pnstart1\pnindent360\pnsp120 {\pntxtb \'b7}}\faauto\ls6\rin0\lin0\itap0 {
+\f0\lang2057\langfe1033\langnp2057 Computer Misuse Act}{
+\par }\pard \ql \li0\ri0\sb100\nowidctlpar\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 
+Following controversy in the mid to late nineteen eighties the Computer Misuse Act was passed in 1990. Hacking in the early days was looked upon as just being a mischievous act; however it can caus
+e problems and loss, especially to large companies and organisations. Existing laws prior to the 1990 act were not written with the prospect of prosecution to individuals. The hacking \'93game\'94
+ was becoming increasingly frowned upon, it should be against the law to do this. The Computer Misuse Act was effective and passed in 1990. Three new offences were created because of the act.}{\f0 
+\par {\listtext\pard\plain\lang2057\langfe1033\langnp2057 \hich\af0\dbch\af0\loch\f0 1.\tab}}\pard \ql \fi-360\li720\ri0\sb100\nowidctlpar\jclisttab\tx720\faauto\ls9\rin0\lin720\itap0 {\f0\lang2057\langfe1033\langnp2057 
+Computer material cannot be accessed by unauthorised individuals}{
+\par {\listtext\pard\plain\lang2057\langfe1033\langnp2057 \hich\af0\dbch\af0\loch\f0 2.\tab}}\pard \ql \fi-360\li720\ri0\sb100\sa100\nowidctlpar\jclisttab\tx720\tx1440\faauto\ls9\rin0\lin720\itap0 {\f0\lang2057\langfe1033\langnp2057 
+Meaning to assist or commit commission of further offences with unauthorised access is not accepted.}{
+\par {\listtext\pard\plain\lang2057\langfe1033\langnp2057 \hich\af0\dbch\af0\loch\f0 3.\tab}}\pard \ql \fi-360\li720\ri0\sb100\nowidctlpar\jclisttab\tx720\faauto\ls9\rin0\lin720\itap0 {\f0\lang2057\langfe1033\langnp2057 
+Modification of computer material is unauthorised.}{
+\par }\pard \ql \li0\ri0\sb100\nowidctlpar\faauto\rin0\lin0\itap0 {
+\par }{\f0\lang2057\langfe1033\langnp2057 Section 1 offences are looked upon as being an unserious. Section 2 and 3 offences however are termed arrestable offences, if broken; the Police can detain an individual without the need for an arrest warrant.}{\f0 
+
+\par }\pard\plain \s3\ql \li0\ri0\sb440\sa60\nowidctlpar\faauto\outlinelevel2\rin0\lin0\itap0 \b\f29\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\lang2057\langfe1033\langnp2057 {\*\bkmkstart _Toc30218779}
+Detailed Discussion of the Computer Misuse Act}{{\*\bkmkend _Toc30218779}
+\par }\pard\plain \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \f30\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\par }{\f0\lang2057\langfe1033\langnp2057 To quash unauthorised access to computer systems, criminal activity in society or access to data stored on computers the Computer Misuse Act was created.}{\f0 
+\par }{
+\par }{\f0\lang2057\langfe1033\langnp2057 Section 1 offences could be problematic for educational institutions, especially secondary schools and below where the system administrative structure isn\rquote 
+t as sophisticated or reliable as that found in Universities and Colleges. Staff and system administrators are advised by the police that they should be aware of an offence such as Section 1 misconduct being committed.}{
+\f0\cf2\lang2057\langfe1033\langnp2057  }{\f0\lang2057\langfe1033\langnp2057 It is clear that educational institution appear to deal with unauthorised access as an internal disciplinary matter. }{\f0 
+\par }{\f0\lang2057\langfe1033\langnp2057 The police will have great d
+ifficulty providing any kind of framework in this area. In an institution like college or University I believe it should be left to the internal disciplinary board to deal with matters involving the computer misuse act. Then dependant on the seriousness o
+f
+ the situation and circumstances surrounding it, the educational institution has the option of seeking advice from the Police. It should be made aware to students that if Section 1 offences are committed, a lengthy jail sentence could result. It should be
+ 
+noted that if the education institution makes a complaint to the police because a user has passed their id and password information to an unauthorised user, could lead to a court appearance. Also if you do have access privileges to a system, because of th
+e way Section 1 is worded, the user could still find they commit an offence. It is illegal to access sections of the system for which you do not have the required privileges.}{\f0 
+\par }{
+\par }{\f0\lang2057\langfe1033\langnp2057 Each educational institution should elect an internal group to monitor and advert
+ise the information held in the Computer Misuse Act. By advertising the consequences of committing Section 1 offences, staff and student users should know exactly of their privileges and what that allows them to view. If this law is made unclear by the in
+stitution, it is up to the user to get in touch with the respected authorities. }{\f0 
+\par }{
+\par }{\f0\lang2057\langfe1033\langnp2057 Like many serious criminal offences sections 2 and 3 of the Computer Misuse Act states that the offender must have intended to break the law. If going on some evidence that th
+e offender was attempting to gain access in order to commit Section 2 or 3 offences then the police should be involved immediately. The Act takes a serious view on hacking, the following paragraphs describe why hacking in any institution is such a serious
+ crime.}{\f0 
+\par }{
+\par }{\f0\lang2057\langfe1033\langnp2057 In the year 2000, throughout the world computer users were victims of cyber crimes. Viruses such as \'93ILOVEYOU\'94
+ were being well publicised. Internet security was been brought to the attention of the world because of \'93denial of service\'94 attacks which devastate sites and overwhelmed computer systems.  }{\f0 
+\par }{
+\par }{\f0\lang2057\langfe1033\langnp2057 The fastest growing criminal activity on the planet is cyber crime. Opportunities have been spotted by high-tech criminals of the digital age. British police have defined cyber crime as use of any compu
+ter network for crime. Many different illegal activities include stalking by e-mail, using the internet to download pornographic images, financial crime, promoting racial hatred, virus attacks and computer hacking.}{\f0 
+\par }{
+\par }{\f0\lang2057\langfe1033\langnp2057 Prosecution of computer related crimes is nigh on impossible because of the lack of criminal laws. The cost to business is shocking; $40bn is the reported global figure. Some people say this is only the beginning.}{
+\f0 
+\par }{
+\par }{\f0\lang2057\langfe1033\langnp2057 To address this issue internationally, law enforcement officials and policy maker
+s are been urged to not use legislative or regulatory solutions. The global economy is undeniably affected by cyber-attacks. Customer confidence in the internet \'93the safe communications tool\'94
+ can be shaken adding to untold expenses. The problem with the internet is that it ignores borders. Regulatory regimes can be nationally imposed, but it is very difficult and impractical to police and would oppose the online growth. }{\f0 
+\par }{
+\par 
+\par }\pard\plain \s1\ql \li0\ri0\sb440\sa60\nowidctlpar\tqc\tx4152\tqc\tx8306\faauto\outlinelevel0\rin0\lin0\itap0 \b\f29\fs34\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\lang2057\langfe1033\langnp2057 {\*\bkmkstart _Toc30218179}
+{\*\bkmkstart _Toc30218780}Conclusions}{\b0\f0\fs24 {\*\bkmkend _Toc30218179}{\*\bkmkend _Toc30218780}
+\par }\pard\plain \ql \li0\ri0\sb100\nowidctlpar\faauto\rin0\lin0\itap0 \f30\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f0\lang2057\langfe1033\langnp2057 The legislative framework laid down by British law is just the foundation
+ for tougher laws to build upon. The Computer Misuse Act as discussed above is an example of a law in its infancy, and it does have its downsides, especially when the law is applied to all institutions. This law as adhered to in an educational institution
+ for example should be treated in a different manner than it is in industry.}{\f0 
+\par }{\f0\lang2057\langfe1033\langnp2057 If for example explicit material such as computer pornography is found on an educational institutions computer system, a press report or worried parent may confront that particular
+ institution. An internal system to solve an alleged misconduct needs to be set up to deal with the IT law frameworks. Once the internal system is in place, communications can be efficiently sent to parents, staff and pupils in advance. Staff would then n
+eed to investigate the following:}{\f0 
+\par {\pntext\pard\plain\f3\lang2057\langfe1033\langnp2057 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \li0\ri0\sb100\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls8\pnrnot0\pnf3\pnstart1\pnindent360\pnsp120 {\pntxtb \'b7}}\faauto\ls8\rin0\lin0\itap0 {
+\f0\lang2057\langfe1033\langnp2057 Find out when the incident happened and where}{
+\par {\pntext\pard\plain\f3\lang2057\langfe1033\langnp2057 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \li0\ri0\sb100\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls8\pnrnot0\pnf3\pnstart1\pnindent360\pnsp120 {\pntxtb \'b7}}\faauto\ls8\rin0\lin0\itap0 {
+\f0\lang2057\langfe1033\langnp2057 Find out if the educational institutions equipment was used, if so, to what extent}{
+\par {\pntext\pard\plain\f3\lang2057\langfe1033\langnp2057 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \li0\ri0\sb100\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls8\pnrnot0\pnf3\pnstart1\pnindent360\pnsp120 {\pntxtb \'b7}}\faauto\ls8\rin0\lin0\itap0 {
+\f0\lang2057\langfe1033\langnp2057 To what degree is the material offensive}{
+\par {\pntext\pard\plain\f3\lang2057\langfe1033\langnp2057 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ql \li0\ri0\sb100\nowidctlpar{\*\pn \pnlvlblt\ilvl0\ls8\pnrnot0\pnf3\pnstart1\pnindent360\pnsp120 {\pntxtb \'b7}}\faauto\ls8\rin0\lin0\itap0 {
+\f0\lang2057\langfe1033\langnp2057 Make a decision on whether to inform the police or LEA}{
+\par }\pard \ql \li0\ri0\sb100\nowidctlpar\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 
+Careful consideration of the matter should be sought before informing the police. Any police action will be directed towards finding the offensive material, rather than prosecuting recipients. }{\f0 
+\par }{\f0\lang2057\langfe1033\langnp2057 Most breaches of IT legislation are seen on the Internet. Wh
+en online security is involved the Government has a very important function. It can be seen that the most efficient way to harvest information sharing is for the government to work alongside industries and educational authorities. The laws we do have for 
+I
+T users need to be enhanced and applied to cyberspace to effectively combat computer hacking, fraud and copyright theft. In order for the majority to comply and understand the nature of cyber crimes the government must set an example and supply security t
+o their own IT systems. To go along way to protecting the internet, remaining controls on encryption technology (an indispensable tool for hackers) would need to be removed by the government.}{\f0 
+\par }{\f0\lang2057\langfe1033\langnp2057 The business communities approach towards computer crime is impor
+tant issue to consider. A report on computer issue was published by the Department of Trade in 1992. It stated that by bringing action under the Computer Misuse Act 1990, any major companies believe that the following cases would convey much unwanted pres
+s and publicity. Companies believe that by suing under the Computer Misuse Act, no direct benefit will result because there isn\rquote 
+t a possibility of compensation. There is a conflict of interest between the business community and the police. Businesses don\rquote t 
+believe that the police have the skills necessary to investigate and solve computer crime cases. There is a Metropolitan Police Computer Crime Unit that was set up to deal with such cases. However, because of the lack of reported cases, this task force ar
+e not provided with the opportunity to improve their skills.}{\f0 
+\par }{\f0\lang2057\langfe1033\langnp2057 To conclude the discussion detailed above about Computer Misuse, the best treatment for this act is prevention. For those people who may contemplate misusing computer systems, any institution shou
+ld make it very clear what the consequences will be. If staff, students or workers are unclear about any particular legislation involving computer systems then they should ask the nearest supervisor/head of faculty for more advice.   }{\f0 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {
+\par }\pard\plain \s1\ql \li0\ri0\sb440\sa60\nowidctlpar\tqc\tx4152\tqc\tx8306\faauto\outlinelevel0\rin0\lin0\itap0 \b\f29\fs34\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\lang2057\langfe1033\langnp2057 {\*\bkmkstart _Toc30218180}
+{\*\bkmkstart _Toc30218781}References}{\b0\f0\fs24 {\*\bkmkend _Toc30218180}{\*\bkmkend _Toc30218781}
+\par }\pard\plain \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 \f30\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\par }{\f0\lang2057\langfe1033\langnp2057  [1] \tab Data Protection Act 1998 from the Government Site}{\f0 
+\par }\pard \ql \fi720\li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 http://www.dataprotection.gov.uk/dpr/dpdoc.nsf}{\f0 
+\par }{
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 [2] \tab Intellectual property and the public domain from the foundation for information policy }{\f0 
+\par }{\f0\lang2057\langfe1033\langnp2057 \tab research site}{\f0 
+\par }\pard \ql \fi720\li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 http://www.fipr.org/intellectual.html}{\f0 
+\par }{
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 [3] \tab Her Majesty\rquote s Stationary Office, information regarding the popularity of IT acts}{\f0 
+\par }\pard \ql \fi720\li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 http:www.hmso.gov.uk/es/eservices-information.htm}{\f0 
+\par }{
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057  [4] \tab Super Highway Safety, information regarding Intellectual Property and Copyright}{\f0 
+\par }\pard \ql \fi720\li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 http://safety.ngfl.gov.uk/ukonline/document.php3?D=d7}{\f0 
+\par }{
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 [5] \tab Super Highway Safety, information regarding The Computer Misuse Act}{\f0 
+\par }\pard \ql \fi720\li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 http://safety.ngfl.gov.uk/ukonline/document.php3?D=d10}{\f0 
+\par }{
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 [6] \tab Super Highway Safety, information regarding The Data Protection Act}{\f0 
+\par }\pard \ql \fi720\li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 http://safety.ngfl.gov.uk/ukonline/document.php3?D=d8}{\f0 
+\par }{
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 [7] \tab Terry Street IT Legislation, information regarding Legislation and IT}{\f0 
+\par }\pard \ql \fi720\li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 http://www.tstreet.demon.co.uk/legit1.htm}{\f0 
+\par }{
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 [8] \tab The electro hippie Collective, the computer Misuse Amendment Bill }{\f0 
+\par }\pard \ql \fi720\li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 http://216.239.39.100/search?q=cache:zgoXhoTO3iUC:www.fraw.org.uk/archive/ehippies/}{\f0 
+\par }{\f0\lang2057\langfe1033\langnp2057 papers/op6.pdf+discussion+of+computer+misuse+act&hl=en&ie=UTF-8}{\f0 
+\par }{
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 [9] \tab The Computer Misuse Act 1990}{\f0 
+\par }\pard \ql \fi720\li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 http://us1.unix.geek.org.uk/~arny/cmuse.html}{\f0 
+\par }{
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 [10] \tab The Register, Cybercrime laws are super weak}{\f0 
+\par }\pard \ql \fi720\li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 http://www.theregister.co.uk/content/6/15311.html}{\f0 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {
+\par }{\f0\lang2057\langfe1033\langnp2057 [11] \tab The Computing Website, The Computer Misuse Act must be enforced}{\f0 
+\par }\pard \ql \fi720\li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 http://www.computing.co.uk/Analysis/1137029\tab }{\f0 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {
+\par }{\f0\lang2057\langfe1033\langnp2057 [12] \tab Computer Misuse Act 1990: an Antidote for Computer Viruses}{\f0 
+\par }\pard \ql \fi720\li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {\f0\lang2057\langfe1033\langnp2057 http://webjcli.ncl.ac.uk/1996/issue3/akdeniz3.html}{\f0 
+\par }\pard \ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 {
+\par }}

@@ -1,0 +1,44 @@
+EDIF netlist 'd:\fndtn\active\projects\s_design\bcd_acc\xproj\ver1\rev1\time_sim.edn' loading v.2.99.1.10
+EDIF parser completed successfully
+Loading - d:\fndtn\active\projects\s_design\bcd_acc\xproj\ver1\rev1\time_sim.edn
+Info 9240: The following node is sourceless:
+   NODE: ACC1_SUM_N71.GSR, ACC0_PREG_Q_reg<2>.RST, ACC0_PREG_Q_reg<3>.RST, ACC1_PREG_Q_reg<0>.RST, ACC1_PREG_Q_reg<1>.RST, ACC1_PREG_Q_reg<2>.RST, ACC1_PREG_Q_reg<3>.RST, ACC0_SUM_N71.GSR, CNT2_Q_reg<0>.RST, CNT2_Q_reg<1>.RST, CNT2_Q_reg<2>.RST, CNT2_Q_reg<3>.RST, CNT3_Q_reg<0>.RST, CNT3_Q_reg<1>.RST, CNT3_Q_reg<2>.RST, CNT3_Q_reg<3>.RST...
+Info 9240: The following node is sourceless:
+   NODE: C107.GTS.TRI_2_INV.IN, C109.GTS.TRI_2_INV.IN, C111.GTS.TRI_2_INV.IN, C113.GTS.TRI_2_INV.IN, C115.GTS.TRI_2_INV.IN, C117.GTS.TRI_2_INV.IN, C119.GTS.TRI_2_INV.IN, C105.GTS.TRI_2_INV.IN, C104.GTS.TRI_2_INV.IN, C106.GTS.TRI_2_INV.IN, C108.GTS.TRI_2_INV.IN, C110.GTS.TRI_2_INV.IN, C112.GTS.TRI_2_INV.IN, C114.GTS.TRI_2_INV.IN, C116.GTS.TRI_2_INV.IN, C118.GTS.TRI_2_INV.IN...
+Loading - ACC0_SUM_C6_C0_C1
+Loading - ACC0_SUM_C6_C0_C2
+Loading - ACC0_SUM_C6_C2_C2
+Loading - ACC0_SUM_C6_C2_C3
+Loading - ACC0_SUM_N71
+Loading - ACC1_SUM_C5_C0_C1
+Loading - ACC1_SUM_C5_C0_C2
+Loading - ACC1_SUM_C5_C2_C2
+Loading - ACC1_SUM_C5_C2_C3
+Loading - ACC1_SUM_N71
+Info 9240: The following node is sourceless:
+   NODE: 
+===============================
+EDIF Netlist Loading Statistics
+===============================
+Number of hierarchical blocks: 11
+Total number of cell types: 25
+Total number of cell instances: 582
+Total number of EDIF blocks: 10
+Total number of models taken from libraries: 7
+Total number of automatic/internal models: 7
+Total number of missing models: 0
+Total number of signals (block ports and labels): 699
+Total number of labels: 529
+Total number of nets: 663
+Total number of net elements: 2195
+Total number of generic values: 326
+Total number of port generic values: 258
+Memory usage statistics:
+    Total number of allocated memory blocks: 7852 (709)
+    Total number of memory reallocations: 1
+    Total length of memory used to load the netlist: 1039 kB (15)
+    Total length of memory used by EDIF parser: 512 kB
+    Number of system memory blocks (total/long): 3/0
+Netlist loaded in: 2 seconds
+Parsing time: 1 seconds
+===============================

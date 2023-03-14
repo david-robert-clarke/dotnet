@@ -1,0 +1,59 @@
+package I;
+
+/**
+ * Class designed to create a LogIn object everytime a member of staff logs in
+ * 
+ **/
+
+public class LogIn
+{
+  
+  private String sid;
+  private String slastName;
+  private String position;
+  
+
+  public LogIn(String staffID, String staffLastName, String staffPos)
+  {
+    sid = staffID;
+    slastName = staffLastName;
+    position = staffPos;
+  }
+  
+  public void setSid (String staffID)
+  {
+    sid = staffID;
+  }
+  
+  public void setLastName (String staffLastName)
+  {
+    slastName = staffLastName;
+  }
+  
+  public void setPosition (String staffPos)
+  {
+    position = staffPos;
+  }
+  
+  public String getSid()
+  {
+    return sid;
+  }
+  
+  public String getLastName()
+  {
+    return slastName;
+  }
+  
+  public String getPosition()
+  {
+    return position;
+  }
+  
+  public String toString()
+  {
+    return sid + slastName + position;
+  }  
+}
+
+    

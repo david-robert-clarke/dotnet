@@ -1,0 +1,112 @@
+Reading in the Synopsys vhdl primitives.
+
+Inferred memory devices in process 'SORT_DATA'
+	in routine STORED_ANSWER line
+         29 in file 'C:/fndtn/active/projects/matmul/stored_answer.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   MATRIX_PROD_reg   | Flip-flop |  20   |  N  | N  | ?  | ?  | ?  | ?  | ?  |
+===============================================================================
+
+MATRIX_PROD_reg<13>
+-------------------
+    set/reset/toggle: none
+
+
+MATRIX_PROD_reg<4>
+------------------
+    set/reset/toggle: none
+
+
+MATRIX_PROD_reg<0>
+------------------
+    set/reset/toggle: none
+
+
+MATRIX_PROD_reg<17>
+-------------------
+    set/reset/toggle: none
+
+
+MATRIX_PROD_reg<9>
+------------------
+    set/reset/toggle: none
+
+
+MATRIX_PROD_reg<2>
+------------------
+    set/reset/toggle: none
+
+
+MATRIX_PROD_reg<15>
+-------------------
+    set/reset/toggle: none
+
+
+MATRIX_PROD_reg<18>
+-------------------
+    set/reset/toggle: none
+
+
+MATRIX_PROD_reg<6>
+------------------
+    set/reset/toggle: none
+
+
+MATRIX_PROD_reg<11>
+-------------------
+    set/reset/toggle: none
+
+
+MATRIX_PROD_reg<19>
+-------------------
+    set/reset/toggle: none
+
+
+MATRIX_PROD_reg<7>
+------------------
+    set/reset/toggle: none
+
+
+MATRIX_PROD_reg<10>
+-------------------
+    set/reset/toggle: none
+
+
+MATRIX_PROD_reg<14>
+-------------------
+    set/reset/toggle: none
+
+
+MATRIX_PROD_reg<3>
+------------------
+    set/reset/toggle: none
+
+
+MATRIX_PROD_reg<1>
+------------------
+    set/reset/toggle: none
+
+
+MATRIX_PROD_reg<16>
+-------------------
+    set/reset/toggle: none
+
+
+MATRIX_PROD_reg<8>
+------------------
+    set/reset/toggle: none
+
+
+MATRIX_PROD_reg<5>
+------------------
+    set/reset/toggle: none
+
+
+MATRIX_PROD_reg<12>
+-------------------
+    set/reset/toggle: none
+
+
+Writing to hnl file 'c:\Fndtn\Active\Projects\MatmuL\matmul/workdirs/WORK/STORED_ANSWER.hnl'

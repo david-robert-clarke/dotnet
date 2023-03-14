@@ -1,0 +1,16 @@
+
+Inferred memory devices in process 'Tri'
+	in routine FDCE line 11 in file
+         'C:/fndtn/active/projects/rs232_st/fdce.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        Q_reg        | Flip-flop |   1   |  -  | -  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Q_reg
+-----
+    Async-reset: CLR
+
+
+Writing to hnl file 'c:\Fndtn\Active\Projects\RS232_ST\rs232_st/workdirs/WORK/FDCE.hnl'

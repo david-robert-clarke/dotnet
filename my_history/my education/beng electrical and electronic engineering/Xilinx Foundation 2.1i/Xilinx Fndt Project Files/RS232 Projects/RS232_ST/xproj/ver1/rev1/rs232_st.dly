@@ -1,0 +1,881 @@
+Fri Nov 24 01:36:06 2000
+
+File: rs232_st.dly
+
+ The 20 Worst Net Delays are:
+-------------------------------
+| Max Delay (ns)  | Netname   |
+-------------------------------
+   7.501            N194
+   7.138            CB16CLED_DC_Q1_COMP_X36_1I35_n3
+   6.890            DECEN
+   6.366            N196
+   6.343            N195
+   5.364            N_CLR
+   5.138            N198
+   5.010            N192
+   4.929            N193
+   4.862            THE_BEAST_OUTPUT_AND3B1_1_S_2_cell0
+   4.597            N197
+   4.526            syn851
+   4.247            S300
+   4.188            Q<11>
+   4.021            syn2334
+   3.934            syn837
+   3.882            Q<10>
+   3.828            S600
+   3.820            N158
+   3.516            N_S6
+---------------------------------
+
+-------------------------------------------------------------------------------
+                               Net Delays
+-------------------------------------------------------------------------------
+
+BAUDRATE_DECODE_C185
+   BAUDRATE_DECODE_C185.X
+         1.373  N196.G4
+
+CB16CLED_DC_Q1_COMP_X36_1I35_n3
+   CB16CLED_DC_Q1_COMP_X36_1I35_n3.X
+         4.887  CB16CLED_DC_Q<1>.C2
+         3.246  CB16CLED_DC_Q<14>.C4
+         6.381  CB16CLED_DC_Q<13>.C1
+         6.948  Q<9>.C3
+         2.052  syn2783.C4
+         5.523  Q<6>.C4
+         5.867  N155.C2
+         4.890  THE_BEAST_OUTPUT_AND3B1_1_S_2_cell0.C4
+         5.584  Q<10>.C1
+         5.412  CB16CLED_DC_Q<3>.C1
+         7.138  CB16CLED_DC_Q<5>.C3
+
+CB16CLED_DC_Q<0>
+   CB16CLED_DC_Q<1>.XQ
+         2.558  syn2887.F2
+         1.387  syn636.F2
+         1.906  syn636.G4
+         1.533  CB16CLED_DC_Q<1>.F1
+         1.533  CB16CLED_DC_Q<1>.G1
+
+CB16CLED_DC_Q<12>
+   CB16CLED_DC_Q<5>.XQ
+         1.807  syn934.F3
+         1.807  syn934.G3
+         1.807  syn955.F1
+         1.807  syn955.G1
+         0.561  CB16CLED_DC_Q<5>.G2
+
+CB16CLED_DC_Q<13>
+   CB16CLED_DC_Q<13>.YQ
+         1.250  syn955.F4
+         1.250  syn955.G4
+         0.192  CB16CLED_DC_Q<13>.G3
+         0.192  syn934.G1
+
+CB16CLED_DC_Q<14>
+   CB16CLED_DC_Q<14>.XQ
+         2.335  syn955.F2
+         0.433  CB16CLED_DC_Q<14>.F2
+         1.340  syn2783.G2
+
+CB16CLED_DC_Q<15>
+   syn2783.YQ
+         0.230  syn2783.F2
+         0.133  syn2783.G3
+
+CB16CLED_DC_Q<1>
+   CB16CLED_DC_Q<1>.YQ
+         1.908  syn636.F1
+         1.908  syn636.G1
+         1.504  syn2326.F4
+         1.504  syn2326.G4
+         1.504  CB16CLED_DC_Q<1>.G4
+
+CB16CLED_DC_Q<2>
+   THE_BEAST_OUTPUT_AND3B1_1_S_2_cell0.XQ
+         0.240  THE_BEAST_OUTPUT_AND3B1_1_S_2_cell0.G2
+         2.561  CB16CLED_DC_Q<3>.G2
+         1.707  syn2326.G3
+         2.467  syn636.G2
+
+CB16CLED_DC_Q<3>
+   CB16CLED_DC_Q<3>.XQ
+         1.159  CB16CLED_DC_Q<3>.G1
+         2.271  syn2326.G1
+         2.209  syn636.G3
+
+CB16CLED_DC_Q<4>
+   CB16CLED_DC_Q<3>.YQ
+         1.520  syn2821.F3
+         1.520  syn2821.G3
+         2.000  syn2638.F4
+         2.000  syn2638.G4
+         2.000  syn2765.F4
+         0.721  CB16CLED_DC_Q<3>.F3
+
+CB16CLED_DC_Q<5>
+   CB16CLED_DC_Q<5>.YQ
+         0.192  syn2821.F1
+         0.192  syn2821.G1
+         1.502  syn2638.F3
+         1.349  syn2638.G2
+         1.502  syn2765.F1
+
+CLK
+   CLK.CLKIN
+         0.010  C429.I
+
+CLK_BUFGed
+   C429.O
+         1.985  THE_BEAST_CS0.K
+         1.953  CB16CLED_DC_Q<1>.K
+         1.979  CB16CLED_DC_Q<14>.K
+         1.924  CB16CLED_DC_Q<13>.K
+         1.923  Q<9>.K
+         1.971  syn2783.K
+         1.926  Q<6>.K
+         1.937  N155.K
+         1.942  THE_BEAST_OUTPUT_AND3B1_1_S_2_cell0.K
+         1.957  Q<10>.K
+         1.927  CB16CLED_DC_Q<3>.K
+         1.935  CB16CLED_DC_Q<5>.K
+         1.977  CB16CLED_DC_Q1_COMP_X36_1I35_n3.K
+
+CNT<0>
+   TIME_ENCODER_C2_N73.XQ
+         0.997  CB16CLED_DC_Q<1>.F2
+
+CNT<10>
+   CNT<10>.XQ
+         1.971  Q<10>.C2
+
+CNT<11>
+   CNT<10>.YQ
+         1.761  N155.C1
+
+CNT<12>
+   TIME_ENCODER_C2_N13.XQ
+         1.262  CB16CLED_DC_Q<5>.G1
+
+CNT<13>
+   TIME_ENCODER_C2_N73.YQ
+         2.612  CB16CLED_DC_Q<13>.C3
+
+CNT<1>
+   CNT<1>.YQ
+         1.543  CB16CLED_DC_Q<1>.C1
+
+CNT<2>
+   CNT<1>.XQ
+         3.376  THE_BEAST_OUTPUT_AND3B1_1_S_2_cell0.C3
+
+CNT<3>
+   CNT<3>.YQ
+         2.873  CB16CLED_DC_Q<3>.C3
+
+CNT<4>
+   CNT<3>.XQ
+         2.030  CB16CLED_DC_Q<3>.F2
+
+CNT<5>
+   TIME_ENCODER_C2_N13.YQ
+         1.220  CB16CLED_DC_Q<5>.F2
+
+CNT<6>
+   CNT<6>.YQ
+         0.900  Q<6>.F1
+
+CNT<7>
+   CNT<6>.XQ
+         1.817  Q<6>.G1
+
+CNT<8>
+   CNT<8>.XQ
+         1.630  Q<9>.F4
+
+CNT<9>
+   CNT<8>.YQ
+         2.356  Q<9>.C4
+
+DECEN
+   syn2334.Y
+         1.249  syn719.F3
+         3.820  N159.F3
+         3.821  N159.G3
+         3.828  N196.F1
+         3.828  N196.G1
+         6.890  N193.G3
+         3.617  N155.F3
+
+LED_DISPLAY_C22_N5
+   LED_DISPLAY_C22_N5.X
+         2.769  N_S0.F1
+         2.396  N_S3.F2
+         3.037  CNT<6>.F2
+         1.184  CNT<8>.F4
+         1.835  CNT<1>.G3
+
+LED_DISPLAY_C269
+   LED_DISPLAY_C269.X
+         3.284  N_S5.F2
+         3.284  CNT<3>.F4
+         2.872  CNT<8>.F3
+         2.514  TIME_ENCODER_C2_N73.F1
+         2.514  TIME_ENCODER_C2_N13.G3
+         3.284  syn2727.F2
+
+N155
+   N155.X
+         2.845  syn2727.K
+
+N158
+   N196.Y
+         3.820  syn753.K
+
+N159
+   N159.X
+         2.856  syn639.K
+
+N185
+   N185.X
+         2.332  S9600.C1
+         1.197  syn640.C1
+         2.306  syn639.C1
+         1.624  syn753.C1
+         1.197  syn2727.C1
+         0.344  N193.C4
+
+N192
+   N193.Y
+         5.010  C430.I
+
+N192_BUFGed
+   C430.O
+         1.759  TIME_ENCODER_C2_N73.K
+         1.800  CNT<1>.K
+         1.817  CNT<3>.K
+         1.811  CNT<6>.K
+         1.816  CNT<8>.K
+         1.810  CNT<10>.K
+         1.803  TIME_ENCODER_C2_N13.K
+
+N193
+   N193.X
+         4.929  C431.I
+
+N193_BUFGed
+   C431.O
+         1.863  N_S3.K
+         1.877  N_S5.K
+         1.871  N_S0.K
+         1.843  LED_DISPLAY_C22_N5.K
+
+N194
+   N194.X
+         7.501  C432.I
+
+N194_BUFGed
+   C432.O
+         1.882  syn646.K
+         1.869  N194.K
+
+N195
+   N159.Y
+         6.343  C433.I
+
+N195_BUFGed
+   C433.O
+         1.698  N193.K
+
+N196
+   N196.X
+         6.366  C434.I
+
+N196_BUFGed
+   C434.O
+         1.764  S9600.K
+
+N197
+   N198.Y
+         4.597  C435.I
+
+N197_BUFGed
+   C435.O
+         1.701  N185.K
+
+N198
+   N198.X
+         5.138  C436.I
+
+N198_BUFGed
+   C436.O
+         1.775  syn640.K
+
+N_CLR
+   CLR.I1
+         4.698  THE_BEAST_CS0.C1
+         3.512  CB16CLED_DC_Q<1>.C4
+         4.698  CB16CLED_DC_Q<14>.C1
+         3.879  CB16CLED_DC_Q<13>.C4
+         5.296  Q<9>.C2
+         3.919  syn2783.C2
+         3.915  Q<6>.C2
+         5.218  N155.F4
+         5.211  N155.C4
+         3.875  THE_BEAST_OUTPUT_AND3B1_1_S_2_cell0.C2
+         5.211  Q<10>.C4
+         3.512  CB16CLED_DC_Q<3>.C4
+         5.189  CB16CLED_DC_Q<5>.C2
+         5.191  N193.G2
+         5.191  N193.C2
+         5.305  N196.F2
+         5.305  N196.G2
+         5.296  N196.C2
+         4.694  CB16CLED_DC_Q1_COMP_X36_1I35_n3.F3
+         4.688  CB16CLED_DC_Q1_COMP_X36_1I35_n3.C3
+         4.703  N194.F1
+         4.703  N194.G1
+         4.694  N198.F3
+         4.695  N198.G3
+         5.355  N159.F2
+         5.364  N159.G2
+         5.306  N_S0.F2
+         5.306  N_S0.G2
+         5.306  N_S3.G2
+         5.297  N_S3.C2
+         5.219  N_S5.F4
+         4.219  CNT<10>.F3
+         4.219  CNT<1>.F3
+         4.219  CNT<3>.F3
+         4.219  CNT<3>.G3
+         4.219  CNT<6>.F1
+         4.219  CNT<6>.G1
+         4.219  CNT<8>.F1
+         4.219  CNT<8>.G1
+         4.699  N185.F3
+         4.699  N185.G3
+         5.190  LED_DISPLAY_C22_N5.F1
+         3.508  TIME_ENCODER_C2_N73.F4
+         3.508  TIME_ENCODER_C2_N73.G4
+         4.219  TIME_ENCODER_C2_N13.F1
+         4.219  TIME_ENCODER_C2_N13.G1
+         5.219  syn2727.F4
+         5.190  syn639.F3
+         4.699  syn640.F3
+         4.699  syn640.G3
+         4.425  syn646.G2
+
+N_EVEN
+   syn646.YQ
+         1.933  EVEN.O
+
+N_ODD
+   N194.YQ
+         2.571  ODD.O
+
+N_S
+   S.I2
+         2.144  syn646.F1
+         2.144  syn646.G1
+         2.362  THE_BEAST_CS0.F1
+         2.360  N194.G2
+
+N_S0
+   N_S0.XQ
+         2.746  S0.O
+
+N_S1
+   N_S0.YQ
+         2.273  S1.O
+
+N_S2
+   LED_DISPLAY_C22_N5.YQ
+         2.168  S2.O
+
+N_S3
+   N_S3.XQ
+         2.872  S3.O
+
+N_S4
+   N_S3.YQ
+         3.469  S4.O
+
+N_S5
+   N_S5.XQ
+         2.402  S5.O
+
+N_S6
+   N_S5.YQ
+         3.516  S6.O
+
+Q<10>
+   Q<10>.XQ
+         3.391  syn2655.F4
+         3.391  syn2655.G4
+         3.602  N198.F2
+         3.882  N198.G1
+         2.750  BAUDRATE_DECODE_C185.F1
+         3.287  BAUDRATE_DECODE_C185.G4
+         1.042  Q<10>.G2
+
+Q<11>
+   N155.XQ
+         4.188  syn719.F4
+         3.753  syn2775.F4
+         3.753  syn2775.G4
+         1.630  BAUDRATE_DECODE_C185.F2
+         1.630  BAUDRATE_DECODE_C185.G2
+         1.110  N155.F2
+         1.112  N155.G2
+
+Q<6>
+   Q<6>.XQ
+         2.711  syn2759.F1
+         2.706  N196.C1
+         2.366  syn2633.F1
+         2.366  syn2633.G1
+         1.630  syn2765.G2
+
+Q<7>
+   Q<6>.YQ
+         2.797  syn2759.F2
+         2.831  N159.F4
+         2.797  N196.F4
+         2.797  syn2765.F2
+         1.063  Q<6>.G3
+
+Q<8>
+   Q<9>.XQ
+         2.289  syn2775.F2
+         2.289  syn2775.G2
+         2.147  syn2852.F2
+         2.147  syn2852.G2
+         0.630  Q<9>.F2
+         1.843  N196.G3
+         1.665  BAUDRATE_DECODE_C185.G1
+
+Q<9>
+   Q<9>.YQ
+         1.499  syn1000.C3
+         0.771  syn634.C1
+         1.742  syn2655.F1
+         1.742  syn2655.G1
+         1.742  BAUDRATE_DECODE_C185.F3
+         1.742  BAUDRATE_DECODE_C185.G3
+         0.771  Q<9>.G3
+         2.317  N198.G2
+
+S1200
+   N185.XQ
+         1.983  N_S5.G3
+         1.986  N185.G1
+         2.769  syn753.F4
+         2.776  syn753.G4
+         1.983  syn2727.F1
+         2.411  syn2727.G2
+
+S19200
+   N193.XQ
+         0.160  N193.F2
+         1.112  N193.G1
+
+S2400
+   syn753.YQ
+         1.930  N_S3.F1
+         1.630  N_S5.G4
+         0.192  syn753.F3
+         0.192  syn753.G3
+         1.630  syn2727.G4
+
+S300
+   syn2727.YQ
+         1.717  N_S3.F3
+         3.740  CNT<10>.F1
+         1.401  LED_DISPLAY_C22_N5.F2
+         4.188  TIME_ENCODER_C2_N13.F4
+         2.153  CNT<3>.G4
+         2.153  CNT<6>.G4
+         2.153  CNT<8>.G2
+         2.782  N_S0.G3
+         3.076  N185.G2
+         0.748  syn753.F1
+         0.748  syn753.G1
+         0.748  syn2727.F3
+         0.748  syn2727.G3
+         2.279  syn640.F1
+         2.279  syn640.G1
+         4.247  TIME_ENCODER_C2_N73.G2
+
+S4800
+   syn639.XQ
+         1.455  LED_DISPLAY_C269.F3
+         1.157  N_S3.G3
+         0.593  syn639.F2
+         0.593  syn639.G2
+
+S600
+   syn640.XQ
+         1.882  CNT<10>.F4
+         3.828  LED_DISPLAY_C22_N5.F3
+         2.598  TIME_ENCODER_C2_N13.F3
+         1.883  N_S0.G4
+         0.844  N185.G4
+         1.956  syn753.F2
+         1.956  syn753.G2
+         1.660  syn2727.G1
+         0.844  syn640.F2
+
+S9600
+   S9600.XQ
+         1.835  N_S3.G1
+         0.218  syn639.F4
+         0.218  syn639.G4
+
+THE_BEAST_CS0
+   THE_BEAST_CS0.XQ
+         2.218  syn646.F3
+         1.366  syn2334.F1
+         1.366  syn2334.G1
+         1.358  syn2887.F3
+         1.359  syn2887.G3
+         1.570  CB16CLED_DC_Q1_COMP_X36_1I35_n3.F4
+         1.359  CB16CLED_DC_Q1_COMP_X36_1I35_n3.G3
+         2.445  syn2852.F1
+         2.445  syn2852.G1
+         2.472  syn2765.G1
+         2.445  THE_BEAST_OUTPUT_AND3B1_1_S_2_cell0.F1
+         1.105  THE_BEAST_CS0.F2
+
+THE_BEAST_CS1
+   THE_BEAST_CS0.YQ
+         1.629  syn2334.F3
+         1.629  syn2334.G3
+         2.113  CB16CLED_DC_Q1_COMP_X36_1I35_n3.F2
+         2.122  CB16CLED_DC_Q1_COMP_X36_1I35_n3.G2
+         1.312  syn2852.F3
+         1.312  syn2852.G3
+         2.063  syn2326.F2
+         2.063  syn2326.G2
+         1.629  N194.F3
+         2.063  syn2765.G4
+         2.063  THE_BEAST_OUTPUT_AND3B1_1_S_2_cell0.F4
+         0.657  THE_BEAST_CS0.F3
+         0.657  THE_BEAST_CS0.G3
+
+THE_BEAST_CS2
+   CB16CLED_DC_Q1_COMP_X36_1I35_n3.XQ
+         2.528  syn646.F2
+         2.528  syn2334.F2
+         2.528  syn2334.G2
+         1.863  syn2887.F1
+         1.863  syn2887.G1
+         2.037  CB16CLED_DC_Q1_COMP_X36_1I35_n3.F1
+         2.037  CB16CLED_DC_Q1_COMP_X36_1I35_n3.G1
+         2.123  syn2852.F4
+         2.130  syn2852.G4
+         2.929  syn2765.G3
+         2.037  THE_BEAST_OUTPUT_AND3B1_1_S_2_cell0.F3
+         2.528  THE_BEAST_CS0.F4
+
+THE_BEAST_OUTPUT_AND3B1_1_S_2_cell0
+   THE_BEAST_OUTPUT_AND3B1_1_S_2_cell0.X
+         4.808  Q<10>.G3
+         4.805  Q<10>.C3
+         3.843  N155.G3
+         3.836  N155.C3
+         3.050  CB16CLED_DC_Q<13>.G2
+         3.050  CB16CLED_DC_Q<13>.C2
+         3.818  CB16CLED_DC_Q<14>.F4
+         3.870  syn2783.F4
+         4.808  CB16CLED_DC_Q<1>.F3
+         4.862  CB16CLED_DC_Q<1>.G2
+         4.805  CB16CLED_DC_Q<1>.C3
+         3.870  THE_BEAST_OUTPUT_AND3B1_1_S_2_cell0.G4
+         4.808  CB16CLED_DC_Q<3>.F1
+         3.870  CB16CLED_DC_Q<3>.C2
+         4.809  CB16CLED_DC_Q<5>.F3
+         4.809  CB16CLED_DC_Q<5>.G3
+         4.862  Q<6>.F4
+         4.862  Q<6>.G4
+         4.808  Q<9>.F1
+         4.808  Q<9>.G1
+         4.804  Q<9>.C1
+
+TIME_ENCODER_C2_N13
+   TIME_ENCODER_C2_N13.X
+         1.474  CNT<3>.F2
+         1.332  CNT<10>.G3
+
+TIME_ENCODER_C2_N48
+   TIME_ENCODER_C2_N13.Y
+         1.202  CNT<6>.G2
+
+TIME_ENCODER_C2_N73
+   TIME_ENCODER_C2_N73.X
+         1.503  CNT<8>.G4
+
+TIME_ENCODER_C59
+   syn639.Y
+         3.123  CNT<1>.F4
+         2.015  CNT<3>.F1
+         2.288  CNT<6>.F3
+         3.220  N193.F4
+         3.220  N193.G4
+         2.814  TIME_ENCODER_C2_N13.G4
+
+TIME_ENCODER_C69
+   syn2727.Y
+         1.731  N_S5.F3
+         2.108  CNT<6>.F4
+         2.108  CNT<8>.F2
+         1.882  TIME_ENCODER_C2_N73.F3
+         1.679  CNT<3>.G1
+
+syn1000
+   syn1000.X
+         1.328  Q<10>.G1
+
+syn1075
+   syn2821.Y
+         1.888  syn2633.F3
+         2.005  syn2633.G4
+
+syn1098
+   BAUDRATE_DECODE_C185.Y
+         1.896  N159.F1
+         1.896  N159.G1
+         1.733  N196.F3
+
+syn2326
+   syn2326.X
+         1.614  THE_BEAST_OUTPUT_AND3B1_1_S_2_cell0.G1
+         2.007  CB16CLED_DC_Q<3>.G4
+
+syn2334
+   syn2334.X
+         3.835  syn2775.F3
+         3.835  syn2775.G3
+         3.338  syn2821.F2
+         3.338  syn2821.G2
+         3.338  syn934.F2
+         3.338  syn934.G2
+         2.647  syn955.F3
+         2.648  syn955.G3
+         1.382  syn636.F4
+         4.021  syn2638.F1
+         4.021  syn2638.G1
+         3.129  syn837.F2
+         4.021  CB16CLED_DC_Q<1>.G3
+
+syn2633
+   syn2633.X
+         1.189  Q<6>.F3
+
+syn2638
+   syn2638.X
+         1.003  CB16CLED_DC_Q<5>.F4
+
+syn2655
+   syn2655.X
+         1.840  syn2775.F1
+         1.993  syn837.G1
+
+syn2727
+   syn2727.X
+         1.930  N_S0.F3
+         2.049  N_S3.F4
+
+syn2746
+   syn636.Y
+         1.885  syn837.F4
+
+syn2752
+   syn2326.Y
+         1.342  syn837.F1
+
+syn2759
+   syn2759.X
+         3.229  syn2638.G3
+         2.079  N159.G4
+
+syn2760
+   syn2638.Y
+         2.802  syn634.F4
+         2.802  syn634.G4
+         2.302  syn1000.F3
+         2.302  syn1000.G3
+         2.685  syn837.G3
+         2.514  syn974.F2
+         2.514  syn974.G2
+         2.800  syn851.F1
+
+syn2765
+   syn2765.X
+         1.809  syn634.F1
+         1.809  syn634.G1
+         2.064  syn1000.F2
+         2.064  syn1000.G2
+         2.265  syn837.G4
+         1.809  syn974.F1
+         1.809  syn974.G1
+         2.315  syn851.F2
+
+syn2771
+   syn2775.Y
+         1.324  syn851.F4
+
+syn2775
+   syn2775.X
+         1.784  syn851.F3
+
+syn2780
+   syn2887.Y
+         1.309  N194.F2
+         1.788  syn2783.G1
+
+syn2783
+   syn2783.Y
+         1.062  THE_BEAST_CS0.G2
+
+syn2821
+   syn2821.X
+         1.457  syn2633.F4
+         1.306  syn2633.G3
+
+syn2850
+   syn2852.Y
+         1.188  syn1000.F4
+         1.195  syn1000.G4
+         1.275  syn837.G2
+
+syn2852
+   syn2852.X
+         1.550  syn634.F2
+         1.550  syn634.G2
+         1.335  syn974.F3
+
+syn2878
+   syn2655.Y
+         1.640  syn974.F4
+         0.628  syn2775.G1
+
+syn2887
+   syn2887.X
+         1.142  syn2326.F3
+         1.223  syn837.F3
+
+syn630
+   syn955.Y
+         1.836  syn2783.G4
+
+syn631
+   syn753.Y
+         1.573  LED_DISPLAY_C269.F1
+         1.685  N_S3.G4
+         2.020  syn639.F1
+         2.020  syn639.G1
+
+syn634
+   syn634.X
+         1.366  Q<10>.G4
+
+syn636
+   syn636.X
+         1.746  THE_BEAST_OUTPUT_AND3B1_1_S_2_cell0.G3
+         1.491  CB16CLED_DC_Q<3>.G3
+
+syn638
+   N185.Y
+         2.558  CNT<1>.G4
+         2.895  CNT<8>.G3
+         0.947  CNT<10>.G1
+         2.558  TIME_ENCODER_C2_N13.G2
+
+syn639
+   syn639.X
+         2.206  N_S5.F1
+         2.048  LED_DISPLAY_C22_N5.F4
+         1.658  CNT<3>.G2
+         2.178  CNT<6>.G3
+
+syn640
+   syn640.X
+         1.598  N_S5.G2
+
+syn641
+   syn640.Y
+         1.621  N_S5.G1
+
+syn643
+   syn1000.Y
+         1.398  Q<9>.G2
+
+syn646
+   syn646.X
+         1.382  THE_BEAST_CS0.G4
+
+syn649
+   syn634.Y
+         1.274  Q<9>.G4
+
+syn719
+   syn719.X
+         1.082  N198.F4
+         1.082  N198.G4
+
+syn753
+   syn753.X
+         1.676  CNT<10>.F2
+         1.151  CNT<1>.F1
+
+syn837
+   syn837.X
+         2.766  syn974.G3
+         2.762  syn974.C3
+         3.493  syn851.C2
+         3.446  syn2633.F2
+         3.446  syn2633.G2
+         3.446  syn2638.F2
+         2.766  syn634.F3
+         2.766  syn634.G3
+         3.650  syn1000.F1
+         3.650  syn1000.G1
+         3.934  CB16CLED_DC_Q<3>.F4
+
+syn846
+   syn974.Y
+         1.265  Q<9>.F3
+
+syn851
+   syn851.X
+         4.092  CB16CLED_DC_Q<13>.G4
+         3.282  CB16CLED_DC_Q<14>.F1
+         3.273  syn2783.F3
+         4.526  CB16CLED_DC_Q<5>.G4
+         3.282  THE_BEAST_CS0.G1
+
+syn910
+   syn2633.Y
+         1.991  Q<6>.G2
+
+syn924
+   syn934.Y
+         1.782  CB16CLED_DC_Q<14>.F3
+
+syn934
+   syn934.X
+         1.228  CB16CLED_DC_Q<13>.G1
+
+syn955
+   syn955.X
+         1.894  syn2783.F1
+
+syn973
+   syn837.Y
+         2.625  N155.G4
+
+syn974
+   syn974.X
+         1.627  N155.G1
+

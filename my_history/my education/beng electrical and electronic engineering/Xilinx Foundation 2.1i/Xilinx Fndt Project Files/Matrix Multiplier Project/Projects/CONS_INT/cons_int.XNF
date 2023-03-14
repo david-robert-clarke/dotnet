@@ -1,0 +1,1047 @@
+LCANET, 6
+PROG, Synopsys, UNKNOWN, v3.2, Build 3.2.0.4201
+PART, 4010XL-PC84-09
+SYM, Asm_Config_Three_CURRENT_STATE_reg<7>, DFF, LIBVER=2.0.0
+PIN, D, I, Asm_Config_Three_C2_N5, , 
+PIN, C, I, CLK_BUFGed, , 
+PIN, Q, O, Asm_Config_Three_CURRENT_STATE<7>, , 
+END
+SYM, Asm_Config_Three_CURRENT_STATE_reg<6>, DFF, LIBVER=2.0.0
+PIN, D, I, Asm_Config_Three_C2_N10, , 
+PIN, C, I, CLK_BUFGed, , 
+PIN, Q, O, Asm_Config_Three_CURRENT_STATE<6>, , 
+END
+SYM, Asm_Config_Three_CURRENT_STATE_reg<5>, DFF, LIBVER=2.0.0
+PIN, D, I, Asm_Config_Three_C2_N15, , 
+PIN, C, I, CLK_BUFGed, , 
+PIN, Q, O, Asm_Config_Three_CURRENT_STATE<5>, , 
+END
+SYM, Asm_Config_Three_CURRENT_STATE_reg<4>, DFF, LIBVER=2.0.0
+PIN, D, I, Asm_Config_Three_C2_N20, , 
+PIN, C, I, CLK_BUFGed, , 
+PIN, Q, O, Asm_Config_Three_CURRENT_STATE<4>, , 
+END
+SYM, Asm_Config_Three_CURRENT_STATE_reg<3>, DFF, LIBVER=2.0.0
+PIN, D, I, Asm_Config_Three_C2_N25, , 
+PIN, C, I, CLK_BUFGed, , 
+PIN, Q, O, Asm_Config_Three_CURRENT_STATE<3>, , 
+END
+SYM, Asm_Config_Three_CURRENT_STATE_reg<2>, DFF, LIBVER=2.0.0
+PIN, D, I, Asm_Config_Three_C2_N30, , 
+PIN, C, I, CLK_BUFGed, , 
+PIN, Q, O, Asm_Config_Three_CURRENT_STATE<2>, , 
+END
+SYM, Asm_Config_Three_CURRENT_STATE_reg<1>, DFF, LIBVER=2.0.0
+PIN, D, I, Asm_Config_Three_C2_N35, , 
+PIN, C, I, CLK_BUFGed, , 
+PIN, Q, O, Asm_Config_Three_CURRENT_STATE<1>, , 
+END
+SYM, Asm_Config_Three_CURRENT_STATE_reg<0>, DFF, LIBVER=2.0.0
+PIN, D, I, Asm_Config_Three_C2_N42, , 
+PIN, C, I, CLK_BUFGed, , 
+PIN, Q, O, Asm_Config_Three_CURRENT_STATE<0>, , 
+END
+SYM, C509, IBUF, LIBVER=2.0.0
+PIN, O, O, N_RESET, , 
+PIN, I, I, RESET, , 
+END
+SYM, C510, IBUF, LIBVER=2.0.0
+PIN, O, O, N_MODE_SEL<1>, , 
+PIN, I, I, MODE_SEL<1>, , 
+END
+SYM, C511, IBUF, LIBVER=2.0.0
+PIN, O, O, N_MODE_SEL<0>, , 
+PIN, I, I, MODE_SEL<0>, , 
+END
+SYM, DSP_Three_MEM_Q_reg<19>, OFDX, LIBVER=2.0.0, SLOW
+PIN, D, I, N20, , 
+PIN, C, I, CLK_BUFGed, , 
+PIN, CE, I, DSP_Three_MEM_C41_N6, , 
+PIN, Q, O, A0B0_A1B2<4>, , 
+END
+SYM, DSP_Three_MEM_Q_reg<18>, OFDX, LIBVER=2.0.0, SLOW
+PIN, D, I, N20, , 
+PIN, C, I, CLK_BUFGed, , 
+PIN, CE, I, DSP_Three_MEM_C41_N6, , 
+PIN, Q, O, A0B0_A1B2<3>, , 
+END
+SYM, DSP_Three_MEM_Q_reg<17>, OFDX, LIBVER=2.0.0, SLOW
+PIN, D, I, N20, , 
+PIN, C, I, CLK_BUFGed, , 
+PIN, CE, I, DSP_Three_MEM_C41_N6, , 
+PIN, Q, O, A0B0_A1B2<2>, , 
+END
+SYM, DSP_Three_MEM_Q_reg<16>, OFDX, LIBVER=2.0.0, SLOW
+PIN, D, I, DSP_Three_MEM_C40_N20, , 
+PIN, C, I, CLK_BUFGed, , 
+PIN, CE, I, DSP_Three_MEM_C41_N6, , 
+PIN, Q, O, A0B0_A1B2<1>, , 
+END
+SYM, DSP_Three_MEM_Q_reg<15>, OFDX, LIBVER=2.0.0, SLOW
+PIN, D, I, DSP_Three_MEM_C40_N20, , 
+PIN, C, I, CLK_BUFGed, , 
+PIN, CE, I, DSP_Three_MEM_C41_N6, , 
+PIN, Q, O, A0B0_A1B2<0>, , 
+END
+SYM, DSP_Three_MEM_Q_reg<14>, OFDX, LIBVER=2.0.0, SLOW
+PIN, D, I, N20, , 
+PIN, C, I, CLK_BUFGed, , 
+PIN, CE, I, DSP_Three_MEM_C41_N31, , 
+PIN, Q, O, A0B1_A1B3<4>, , 
+END
+SYM, DSP_Three_MEM_Q_reg<13>, OFDX, LIBVER=2.0.0, SLOW
+PIN, D, I, N20, , 
+PIN, C, I, CLK_BUFGed, , 
+PIN, CE, I, DSP_Three_MEM_C41_N31, , 
+PIN, Q, O, A0B1_A1B3<3>, , 
+END
+SYM, DSP_Three_MEM_Q_reg<12>, OFDX, LIBVER=2.0.0, SLOW
+PIN, D, I, DSP_Three_MEM_C40_N40, , 
+PIN, C, I, CLK_BUFGed, , 
+PIN, CE, I, DSP_Three_MEM_C41_N31, , 
+PIN, Q, O, A0B1_A1B3<2>, , 
+END
+SYM, DSP_Three_MEM_Q_reg<11>, OFDX, LIBVER=2.0.0, SLOW
+PIN, D, I, N20, , 
+PIN, C, I, CLK_BUFGed, , 
+PIN, CE, I, DSP_Three_MEM_C41_N31, , 
+PIN, Q, O, A0B1_A1B3<1>, , 
+END
+SYM, DSP_Three_MEM_Q_reg<10>, OFDX, LIBVER=2.0.0, SLOW
+PIN, D, I, N20, , 
+PIN, C, I, CLK_BUFGed, , 
+PIN, CE, I, DSP_Three_MEM_C41_N31, , 
+PIN, Q, O, A0B1_A1B3<0>, , 
+END
+SYM, DSP_Three_MEM_Q_reg<9>, OFDX, LIBVER=2.0.0, SLOW
+PIN, D, I, N20, , 
+PIN, C, I, CLK_BUFGed, , 
+PIN, CE, I, DSP_Three_MEM_C41_N56, , 
+PIN, Q, O, A2B0_A3B2<4>, , 
+END
+SYM, DSP_Three_MEM_Q_reg<8>, OFDX, LIBVER=2.0.0, SLOW
+PIN, D, I, N20, , 
+PIN, C, I, CLK_BUFGed, , 
+PIN, CE, I, DSP_Three_MEM_C41_N56, , 
+PIN, Q, O, A2B0_A3B2<3>, , 
+END
+SYM, DSP_Three_MEM_Q_reg<7>, OFDX, LIBVER=2.0.0, SLOW
+PIN, D, I, N20, , 
+PIN, C, I, CLK_BUFGed, , 
+PIN, CE, I, DSP_Three_MEM_C41_N56, , 
+PIN, Q, O, A2B0_A3B2<2>, , 
+END
+SYM, DSP_Three_MEM_Q_reg<6>, OFDX, LIBVER=2.0.0, SLOW
+PIN, D, I, N20, , 
+PIN, C, I, CLK_BUFGed, , 
+PIN, CE, I, DSP_Three_MEM_C41_N56, , 
+PIN, Q, O, A2B0_A3B2<1>, , 
+END
+SYM, DSP_Three_MEM_Q_reg<5>, OFDX, LIBVER=2.0.0, SLOW
+PIN, D, I, DSP_Three_MEM_C40_N75, , 
+PIN, C, I, CLK_BUFGed, , 
+PIN, CE, I, DSP_Three_MEM_C41_N56, , 
+PIN, Q, O, A2B0_A3B2<0>, , 
+END
+SYM, DSP_Three_MEM_Q_reg<4>, OFDX, LIBVER=2.0.0, SLOW
+PIN, D, I, N20, , 
+PIN, C, I, CLK_BUFGed, , 
+PIN, CE, I, DSP_Three_MEM_C41_N81, , 
+PIN, Q, O, A2B1_A3B3<4>, , 
+END
+SYM, DSP_Three_MEM_Q_reg<3>, OFDX, LIBVER=2.0.0, SLOW
+PIN, D, I, N20, , 
+PIN, C, I, CLK_BUFGed, , 
+PIN, CE, I, DSP_Three_MEM_C41_N81, , 
+PIN, Q, O, A2B1_A3B3<3>, , 
+END
+SYM, DSP_Three_MEM_Q_reg<2>, OFDX, LIBVER=2.0.0, SLOW
+PIN, D, I, N20, , 
+PIN, C, I, CLK_BUFGed, , 
+PIN, CE, I, DSP_Three_MEM_C41_N81, , 
+PIN, Q, O, A2B1_A3B3<2>, , 
+END
+SYM, DSP_Three_MEM_Q_reg<1>, OFDX, LIBVER=2.0.0, SLOW
+PIN, D, I, N20, , 
+PIN, C, I, CLK_BUFGed, , 
+PIN, CE, I, DSP_Three_MEM_C41_N81, , 
+PIN, Q, O, A2B1_A3B3<1>, , 
+END
+SYM, DSP_Three_MEM_Q_reg<0>, OFDX, LIBVER=2.0.0, SLOW
+PIN, D, I, N20, , 
+PIN, C, I, CLK_BUFGed, , 
+PIN, CE, I, DSP_Three_MEM_C41_N81, , 
+PIN, Q, O, A2B1_A3B3<0>, , 
+END
+SYM, c588_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c588_n0, , , INV
+PIN, O, O, DSP_Three_MEM_C41_N81, , , INV
+END
+SYM, c588_c1, AND, LIBVER=2.0.0
+PIN, I0, I, syn396, , 
+PIN, I1, I, syn397, , 
+PIN, I2, I, syn412, , 
+PIN, I3, I, syn600, , 
+PIN, O, O, c588_n0, , 
+END
+SYM, FMAP_0, FMAP, LIBVER=2.0.0
+PIN, I1, I, syn396, , 
+PIN, I2, I, syn397, , 
+PIN, I3, I, syn412, , 
+PIN, I4, I, syn600, , 
+PIN, O, I, DSP_Three_MEM_C41_N81, , 
+END
+SYM, c589_c0, AND, LIBVER=2.0.0
+PIN, I0, I, syn596, , , INV
+PIN, I1, I, syn1111, , , INV
+PIN, I2, I, syn1118, , , INV
+PIN, I3, I, syn1200, , , INV
+PIN, O, O, syn600, , , INV
+END
+SYM, FMAP_1, FMAP, LIBVER=2.0.0
+PIN, I1, I, syn1111, , 
+PIN, I2, I, syn1118, , 
+PIN, I3, I, syn596, , 
+PIN, I4, I, syn1200, , 
+PIN, O, I, syn600, , 
+END
+SYM, c590_c0, AND, LIBVER=2.0.0
+PIN, I0, I, N_RESET, , , INV
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<5>, , , INV
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<6>, , , INV
+PIN, O, O, syn1200, , , INV
+END
+SYM, FMAP_2, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_RESET, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<5>, , 
+PIN, I3, I, Asm_Config_Three_CURRENT_STATE<6>, , 
+PIN, O, I, syn1200, , 
+END
+SYM, c591_c0, AND, LIBVER=2.0.0
+PIN, I0, I, Asm_Config_Three_CURRENT_STATE<0>, , , INV
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<7>, , , INV
+PIN, O, O, syn596, , , INV
+END
+SYM, FMAP_3, FMAP, LIBVER=2.0.0
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<0>, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<7>, , 
+PIN, O, I, syn596, , 
+END
+SYM, c592_c0, AND, LIBVER=2.0.0
+PIN, I0, I, N_RESET, , , INV
+PIN, I1, I, syn404, , , INV
+PIN, I2, I, syn1111, , , INV
+PIN, I3, I, syn1197, , , INV
+PIN, O, O, syn412, , , INV
+END
+SYM, FMAP_4, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_RESET, , 
+PIN, I2, I, syn1111, , 
+PIN, I3, I, syn404, , 
+PIN, I4, I, syn1197, , 
+PIN, O, I, syn412, , 
+END
+SYM, c593_c0, AND, LIBVER=2.0.0
+PIN, I0, I, Asm_Config_Three_CURRENT_STATE<0>, , , INV
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<7>, , , INV
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<6>, , , INV
+PIN, I3, I, Asm_Config_Three_CURRENT_STATE<4>, , , INV
+PIN, O, O, syn1197, , , INV
+END
+SYM, FMAP_5, FMAP, LIBVER=2.0.0
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<7>, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<6>, , 
+PIN, I3, I, Asm_Config_Three_CURRENT_STATE<4>, , 
+PIN, I4, I, Asm_Config_Three_CURRENT_STATE<0>, , 
+PIN, O, I, syn1197, , 
+END
+SYM, c594_c0, AND, LIBVER=2.0.0
+PIN, I0, I, Asm_Config_Three_CURRENT_STATE<5>, , , INV
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<2>, , , INV
+PIN, O, O, syn404, , , INV
+END
+SYM, FMAP_6, FMAP, LIBVER=2.0.0
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<5>, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<2>, , 
+PIN, O, I, syn404, , 
+END
+SYM, c595_c0, AND, LIBVER=2.0.0
+PIN, I0, I, N_RESET, , , INV
+PIN, I1, I, syn1118, , , INV
+PIN, I2, I, syn1187, , , INV
+PIN, I3, I, syn1191, , , INV
+PIN, O, O, syn397, , , INV
+END
+SYM, FMAP_7, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_RESET, , 
+PIN, I2, I, syn1118, , 
+PIN, I3, I, syn1187, , 
+PIN, I4, I, syn1191, , 
+PIN, O, I, syn397, , 
+END
+SYM, c596_c0, AND, LIBVER=2.0.0
+PIN, I0, I, Asm_Config_Three_CURRENT_STATE<7>, , , INV
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<5>, , , INV
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<6>, , , INV
+PIN, I3, I, Asm_Config_Three_CURRENT_STATE<4>, , , INV
+PIN, O, O, syn1191, , , INV
+END
+SYM, FMAP_8, FMAP, LIBVER=2.0.0
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<7>, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<6>, , 
+PIN, I3, I, Asm_Config_Three_CURRENT_STATE<4>, , 
+PIN, I4, I, Asm_Config_Three_CURRENT_STATE<5>, , 
+PIN, O, I, syn1191, , 
+END
+SYM, c597_c0, AND, LIBVER=2.0.0
+PIN, I0, I, Asm_Config_Three_CURRENT_STATE<0>, , , INV
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<3>, , , INV
+PIN, O, O, syn1187, , , INV
+END
+SYM, FMAP_9, FMAP, LIBVER=2.0.0
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<0>, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<3>, , 
+PIN, O, I, syn1187, , 
+END
+SYM, c598_c0, AND, LIBVER=2.0.0
+PIN, I0, I, syn321, , , INV
+PIN, I1, I, syn1118, , , INV
+PIN, I2, I, syn1182, , , INV
+PIN, I3, I, syn1190, , , INV
+PIN, O, O, syn396, , , INV
+END
+SYM, FMAP_10, FMAP, LIBVER=2.0.0
+PIN, I1, I, syn321, , 
+PIN, I2, I, syn1118, , 
+PIN, I3, I, syn1182, , 
+PIN, I4, I, syn1190, , 
+PIN, O, I, syn396, , 
+END
+SYM, c599_c0, AND, LIBVER=2.0.0
+PIN, I0, I, Asm_Config_Three_CURRENT_STATE<0>, , , INV
+PIN, I1, I, N_RESET, , , INV
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<3>, , , INV
+PIN, O, O, syn1190, , , INV
+END
+SYM, FMAP_11, FMAP, LIBVER=2.0.0
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<0>, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<3>, , 
+PIN, I3, I, N_RESET, , 
+PIN, O, I, syn1190, , 
+END
+SYM, c600_c0, AND, LIBVER=2.0.0
+PIN, I0, I, Asm_Config_Three_CURRENT_STATE<7>, , , INV
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<4>, , , INV
+PIN, O, O, syn1182, , , INV
+END
+SYM, FMAP_12, FMAP, LIBVER=2.0.0
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<7>, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<4>, , 
+PIN, O, I, syn1182, , 
+END
+SYM, c601_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c601_n0, , , INV
+PIN, I1, I, c601_n1, , , INV
+PIN, O, O, DSP_Three_MEM_C40_N75, , , INV
+END
+SYM, c601_c1, AND, LIBVER=2.0.0
+PIN, I0, I, syn318, , , INV
+PIN, I1, I, syn325, , 
+PIN, I2, I, syn1179, , 
+PIN, O, O, c601_n0, , 
+END
+SYM, c601_c2, AND, LIBVER=2.0.0
+PIN, I0, I, syn318, , 
+PIN, I1, I, syn325, , , INV
+PIN, I2, I, syn331, , 
+PIN, I3, I, syn1179, , 
+PIN, O, O, c601_n1, , 
+END
+SYM, FMAP_13, FMAP, LIBVER=2.0.0
+PIN, I1, I, syn318, , 
+PIN, I2, I, syn325, , 
+PIN, I3, I, syn331, , 
+PIN, I4, I, syn1179, , 
+PIN, O, I, DSP_Three_MEM_C40_N75, , 
+END
+SYM, c602_c0, AND, LIBVER=2.0.0
+PIN, I0, I, syn337, , , INV
+PIN, I1, I, syn363, , , INV
+PIN, I2, I, syn605, , , INV
+PIN, I3, I, syn1171, , , INV
+PIN, O, O, DSP_Three_MEM_C41_N56, , , INV
+END
+SYM, FMAP_14, FMAP, LIBVER=2.0.0
+PIN, I1, I, syn337, , 
+PIN, I2, I, syn363, , 
+PIN, I3, I, syn605, , 
+PIN, I4, I, syn1171, , 
+PIN, O, I, DSP_Three_MEM_C41_N56, , 
+END
+SYM, c603_c0, AND, LIBVER=2.0.0
+PIN, I0, I, N_RESET, , , INV
+PIN, I1, I, c603_n1, , , INV
+PIN, O, O, syn1171, , , INV
+END
+SYM, c603_c2, AND, LIBVER=2.0.0
+PIN, I0, I, syn1118, , , INV
+PIN, I1, I, syn1162, , 
+PIN, I2, I, syn1195, , 
+PIN, O, O, c603_n1, , 
+END
+SYM, FMAP_15, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_RESET, , 
+PIN, I2, I, syn1118, , 
+PIN, I3, I, syn1162, , 
+PIN, I4, I, syn1195, , 
+PIN, O, I, syn1171, , 
+END
+SYM, c604_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c604_n0, , , INV
+PIN, O, O, syn1162, , , INV
+END
+SYM, c604_c1, AND, LIBVER=2.0.0
+PIN, I0, I, Asm_Config_Three_CURRENT_STATE<5>, , , INV
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<0>, , , INV
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<3>, , , INV
+PIN, I3, I, Asm_Config_Three_CURRENT_STATE<4>, , , INV
+PIN, O, O, c604_n0, , 
+END
+SYM, FMAP_16, FMAP, LIBVER=2.0.0
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<5>, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<0>, , 
+PIN, I3, I, Asm_Config_Three_CURRENT_STATE<3>, , 
+PIN, I4, I, Asm_Config_Three_CURRENT_STATE<4>, , 
+PIN, O, I, syn1162, , 
+END
+SYM, c605_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c605_n0, , , INV
+PIN, O, O, syn363, , , INV
+END
+SYM, c605_c1, AND, LIBVER=2.0.0
+PIN, I0, I, syn321, , , INV
+PIN, I1, I, syn1165, , 
+PIN, I2, I, syn1166, , 
+PIN, I3, I, syn1195, , 
+PIN, O, O, c605_n0, , 
+END
+SYM, FMAP_17, FMAP, LIBVER=2.0.0
+PIN, I1, I, syn321, , 
+PIN, I2, I, syn1165, , 
+PIN, I3, I, syn1166, , 
+PIN, I4, I, syn1195, , 
+PIN, O, I, syn363, , 
+END
+SYM, c606_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c606_n0, , , INV
+PIN, O, O, syn1165, , , INV
+END
+SYM, c606_c1, AND, LIBVER=2.0.0
+PIN, I0, I, Asm_Config_Three_CURRENT_STATE<0>, , , INV
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<2>, , , INV
+PIN, O, O, c606_n0, , 
+END
+SYM, FMAP_18, FMAP, LIBVER=2.0.0
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<0>, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<2>, , 
+PIN, O, I, syn1165, , 
+END
+SYM, c607_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c607_n0, , , INV
+PIN, I1, I, c607_n1, , , INV
+PIN, O, O, DSP_Three_MEM_C40_N40, , , INV
+END
+SYM, c607_c1, AND, LIBVER=2.0.0
+PIN, I0, I, syn325, , 
+PIN, I1, I, syn331, , , INV
+PIN, I2, I, syn1179, , 
+PIN, O, O, c607_n0, , 
+END
+SYM, c607_c2, AND, LIBVER=2.0.0
+PIN, I0, I, syn318, , , INV
+PIN, I1, I, syn325, , , INV
+PIN, I2, I, syn331, , 
+PIN, I3, I, syn1179, , 
+PIN, O, O, c607_n1, , 
+END
+SYM, FMAP_19, FMAP, LIBVER=2.0.0
+PIN, I1, I, syn318, , 
+PIN, I2, I, syn325, , 
+PIN, I3, I, syn331, , 
+PIN, I4, I, syn1179, , 
+PIN, O, I, DSP_Three_MEM_C40_N40, , 
+END
+SYM, c608_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c608_n0, , , INV
+PIN, I1, I, c608_n1, , , INV
+PIN, O, O, syn1179, , , INV
+END
+SYM, c608_c1, AND, LIBVER=2.0.0
+PIN, I0, I, syn1111, , 
+PIN, I1, I, N_RESET, , , INV
+PIN, O, O, c608_n0, , 
+END
+SYM, c608_c2, AND, LIBVER=2.0.0
+PIN, I0, I, syn1118, , 
+PIN, I1, I, N_RESET, , , INV
+PIN, O, O, c608_n1, , 
+END
+SYM, FMAP_20, FMAP, LIBVER=2.0.0
+PIN, I1, I, syn1111, , 
+PIN, I2, I, syn1118, , 
+PIN, I3, I, N_RESET, , 
+PIN, O, I, syn1179, , 
+END
+SYM, c609_c0, AND, LIBVER=2.0.0
+PIN, I0, I, syn1150, , , INV
+PIN, I1, I, c609_n1, , , INV
+PIN, I2, I, c609_n2, , , INV
+PIN, O, O, DSP_Three_MEM_C41_N31, , , INV
+END
+SYM, c609_c2, AND, LIBVER=2.0.0
+PIN, I0, I, syn321, , , INV
+PIN, I1, I, syn1111, , , INV
+PIN, O, O, c609_n1, , 
+END
+SYM, c609_c3, AND, LIBVER=2.0.0
+PIN, I0, I, syn321, , , INV
+PIN, I1, I, syn1118, , , INV
+PIN, O, O, c609_n2, , 
+END
+SYM, FMAP_21, FMAP, LIBVER=2.0.0
+PIN, I1, I, syn321, , 
+PIN, I2, I, syn1111, , 
+PIN, I3, I, syn1118, , 
+PIN, I4, I, syn1150, , 
+PIN, O, I, DSP_Three_MEM_C41_N31, , 
+END
+SYM, c610_c0, AND, LIBVER=2.0.0
+PIN, I0, I, N_RESET, , , INV
+PIN, I1, I, c610_n1, , , INV
+PIN, O, O, syn1150, , , INV
+END
+SYM, c610_c2, AND, LIBVER=2.0.0
+PIN, I0, I, syn1111, , , INV
+PIN, I1, I, syn1147, , 
+PIN, I2, I, syn1195, , 
+PIN, O, O, c610_n1, , 
+END
+SYM, FMAP_22, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_RESET, , 
+PIN, I2, I, syn1111, , 
+PIN, I3, I, syn1147, , 
+PIN, I4, I, syn1195, , 
+PIN, O, I, syn1150, , 
+END
+SYM, c611_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c611_n0, , , INV
+PIN, O, O, syn1195, , , INV
+END
+SYM, c611_c1, AND, LIBVER=2.0.0
+PIN, I0, I, Asm_Config_Three_CURRENT_STATE<7>, , , INV
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<6>, , , INV
+PIN, O, O, c611_n0, , 
+END
+SYM, FMAP_23, FMAP, LIBVER=2.0.0
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<7>, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<6>, , 
+PIN, O, I, syn1195, , 
+END
+SYM, c612_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c612_n0, , , INV
+PIN, O, O, syn1147, , , INV
+END
+SYM, c612_c1, AND, LIBVER=2.0.0
+PIN, I0, I, Asm_Config_Three_CURRENT_STATE<5>, , , INV
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<4>, , , INV
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<2>, , , INV
+PIN, I3, I, Asm_Config_Three_CURRENT_STATE<0>, , , INV
+PIN, O, O, c612_n0, , 
+END
+SYM, FMAP_24, FMAP, LIBVER=2.0.0
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<5>, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<4>, , 
+PIN, I3, I, Asm_Config_Three_CURRENT_STATE<2>, , 
+PIN, I4, I, Asm_Config_Three_CURRENT_STATE<0>, , 
+PIN, O, I, syn1147, , 
+END
+SYM, c613_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c613_n0, , , INV
+PIN, I1, I, c613_n1, , , INV
+PIN, O, O, DSP_Three_MEM_C40_N20, , , INV
+END
+SYM, c613_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_RESET, , , INV
+PIN, I1, I, syn605, , , INV
+PIN, I2, I, syn290, , 
+PIN, O, O, c613_n0, , 
+END
+SYM, c613_c2, AND, LIBVER=2.0.0
+PIN, I0, I, N_RESET, , , INV
+PIN, I1, I, syn605, , , INV
+PIN, I2, I, syn351, , 
+PIN, O, O, c613_n1, , 
+END
+SYM, FMAP_25, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_RESET, , 
+PIN, I2, I, syn605, , 
+PIN, I3, I, syn290, , 
+PIN, I4, I, syn351, , 
+PIN, O, I, DSP_Three_MEM_C40_N20, , 
+END
+SYM, c614_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c614_n0, , , INV
+PIN, O, O, syn351, , , INV
+END
+SYM, c614_c1, AND, LIBVER=2.0.0
+PIN, I0, I, syn331, , , INV
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<6>, , , INV
+PIN, I2, I, syn1076, , 
+PIN, O, O, c614_n0, , 
+END
+SYM, FMAP_26, FMAP, LIBVER=2.0.0
+PIN, I1, I, syn331, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<6>, , 
+PIN, I3, I, syn1076, , 
+PIN, O, I, syn351, , 
+END
+SYM, c615_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c615_n0, , , INV
+PIN, I1, I, c615_n1, , , INV
+PIN, I2, I, c615_n2, , , INV
+PIN, I3, I, c615_n3, , , INV
+PIN, O, O, syn1076, , , INV
+END
+SYM, c615_c1, AND, LIBVER=2.0.0
+PIN, I0, I, Asm_Config_Three_CURRENT_STATE<5>, , , INV
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<4>, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<7>, , , INV
+PIN, O, O, c615_n0, , 
+END
+SYM, c615_c2, AND, LIBVER=2.0.0
+PIN, I0, I, Asm_Config_Three_CURRENT_STATE<5>, , , INV
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<2>, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<7>, , , INV
+PIN, O, O, c615_n1, , 
+END
+SYM, c615_c3, AND, LIBVER=2.0.0
+PIN, I0, I, Asm_Config_Three_CURRENT_STATE<4>, , , INV
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<2>, , , INV
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<7>, , 
+PIN, O, O, c615_n2, , 
+END
+SYM, c615_c4, AND, LIBVER=2.0.0
+PIN, I0, I, Asm_Config_Three_CURRENT_STATE<5>, , 
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<4>, , , INV
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<2>, , , INV
+PIN, O, O, c615_n3, , 
+END
+SYM, FMAP_27, FMAP, LIBVER=2.0.0
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<5>, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<4>, , 
+PIN, I3, I, Asm_Config_Three_CURRENT_STATE<2>, , 
+PIN, I4, I, Asm_Config_Three_CURRENT_STATE<7>, , 
+PIN, O, I, syn1076, , 
+END
+SYM, c616_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c616_n0, , , INV
+PIN, O, O, syn290, , , INV
+END
+SYM, c616_c1, AND, LIBVER=2.0.0
+PIN, I0, I, syn331, , 
+PIN, I1, I, syn318, , , INV
+PIN, I2, I, syn325, , , INV
+PIN, O, O, c616_n0, , 
+END
+SYM, FMAP_28, FMAP, LIBVER=2.0.0
+PIN, I1, I, syn331, , 
+PIN, I2, I, syn318, , 
+PIN, I3, I, syn325, , 
+PIN, O, I, syn290, , 
+END
+SYM, c617_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c617_n0, , , INV
+PIN, O, O, syn325, , , INV
+END
+SYM, c617_c1, AND, LIBVER=2.0.0
+PIN, I0, I, Asm_Config_Three_CURRENT_STATE<6>, , , INV
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<4>, , , INV
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<2>, , , INV
+PIN, O, O, c617_n0, , 
+END
+SYM, FMAP_29, FMAP, LIBVER=2.0.0
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<6>, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<4>, , 
+PIN, I3, I, Asm_Config_Three_CURRENT_STATE<2>, , 
+PIN, O, I, syn325, , 
+END
+SYM, c618_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c618_n0, , , INV
+PIN, O, O, syn318, , , INV
+END
+SYM, c618_c1, AND, LIBVER=2.0.0
+PIN, I0, I, Asm_Config_Three_CURRENT_STATE<7>, , , INV
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<6>, , , INV
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<5>, , , INV
+PIN, O, O, c618_n0, , 
+END
+SYM, FMAP_30, FMAP, LIBVER=2.0.0
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<7>, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<6>, , 
+PIN, I3, I, Asm_Config_Three_CURRENT_STATE<5>, , 
+PIN, O, I, syn318, , 
+END
+SYM, c619_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c619_n0, , , INV
+PIN, O, O, syn331, , , INV
+END
+SYM, c619_c1, AND, LIBVER=2.0.0
+PIN, I0, I, Asm_Config_Three_CURRENT_STATE<7>, , , INV
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<4>, , , INV
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<3>, , , INV
+PIN, O, O, c619_n0, , 
+END
+SYM, FMAP_31, FMAP, LIBVER=2.0.0
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<7>, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<4>, , 
+PIN, I3, I, Asm_Config_Three_CURRENT_STATE<3>, , 
+PIN, O, I, syn331, , 
+END
+SYM, c620_c0, AND, LIBVER=2.0.0
+PIN, I0, I, N_RESET, , , INV
+PIN, I1, I, syn337, , , INV
+PIN, I2, I, syn605, , , INV
+PIN, I3, I, syn1122, , , INV
+PIN, O, O, DSP_Three_MEM_C41_N6, , , INV
+END
+SYM, FMAP_32, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_RESET, , 
+PIN, I2, I, syn605, , 
+PIN, I3, I, syn337, , 
+PIN, I4, I, syn1122, , 
+PIN, O, I, DSP_Three_MEM_C41_N6, , 
+END
+SYM, c621_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c621_n0, , , INV
+PIN, I1, I, c621_n1, , , INV
+PIN, O, O, syn1122, , , INV
+END
+SYM, c621_c1, AND, LIBVER=2.0.0
+PIN, I0, I, syn321, , , INV
+PIN, I1, I, syn1111, , 
+PIN, I2, I, syn1118, , , INV
+PIN, O, O, c621_n0, , 
+END
+SYM, c621_c2, AND, LIBVER=2.0.0
+PIN, I0, I, syn1111, , , INV
+PIN, I1, I, syn1118, , , INV
+PIN, I2, I, syn1103, , 
+PIN, O, O, c621_n1, , 
+END
+SYM, FMAP_33, FMAP, LIBVER=2.0.0
+PIN, I1, I, syn321, , 
+PIN, I2, I, syn1111, , 
+PIN, I3, I, syn1118, , 
+PIN, I4, I, syn1103, , 
+PIN, O, I, syn1122, , 
+END
+SYM, c622_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c622_n0, , , INV
+PIN, O, O, syn1103, , , INV
+END
+SYM, c622_c1, AND, LIBVER=2.0.0
+PIN, I0, I, Asm_Config_Three_CURRENT_STATE<0>, , , INV
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<7>, , , INV
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<5>, , , INV
+PIN, I3, I, Asm_Config_Three_CURRENT_STATE<6>, , , INV
+PIN, O, O, c622_n0, , 
+END
+SYM, FMAP_34, FMAP, LIBVER=2.0.0
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<0>, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<7>, , 
+PIN, I3, I, Asm_Config_Three_CURRENT_STATE<5>, , 
+PIN, I4, I, Asm_Config_Three_CURRENT_STATE<6>, , 
+PIN, O, I, syn1103, , 
+END
+SYM, c623_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c623_n0, , , INV
+PIN, O, O, syn337, , , INV
+END
+SYM, c623_c1, AND, LIBVER=2.0.0
+PIN, I0, I, syn321, , , INV
+PIN, I1, I, syn1111, , , INV
+PIN, I2, I, syn1118, , 
+PIN, O, O, c623_n0, , 
+END
+SYM, FMAP_35, FMAP, LIBVER=2.0.0
+PIN, I1, I, syn321, , 
+PIN, I2, I, syn1111, , 
+PIN, I3, I, syn1118, , 
+PIN, O, I, syn337, , 
+END
+SYM, c624_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c624_n0, , , INV
+PIN, O, O, syn605, , , INV
+END
+SYM, c624_c1, AND, LIBVER=2.0.0
+PIN, I0, I, syn321, , , INV
+PIN, I1, I, syn1111, , , INV
+PIN, I2, I, syn1118, , , INV
+PIN, O, O, c624_n0, , 
+END
+SYM, FMAP_36, FMAP, LIBVER=2.0.0
+PIN, I1, I, syn321, , 
+PIN, I2, I, syn1111, , 
+PIN, I3, I, syn1118, , 
+PIN, O, I, syn605, , 
+END
+SYM, c625_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c625_n0, , , INV
+PIN, O, O, syn1118, , , INV
+END
+SYM, c625_c1, AND, LIBVER=2.0.0
+PIN, I0, I, Asm_Config_Three_CURRENT_STATE<6>, , , INV
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<4>, , , INV
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<2>, , , INV
+PIN, I3, I, Asm_Config_Three_CURRENT_STATE<0>, , , INV
+PIN, O, O, c625_n0, , 
+END
+SYM, FMAP_37, FMAP, LIBVER=2.0.0
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<6>, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<4>, , 
+PIN, I3, I, Asm_Config_Three_CURRENT_STATE<2>, , 
+PIN, I4, I, Asm_Config_Three_CURRENT_STATE<0>, , 
+PIN, O, I, syn1118, , 
+END
+SYM, c626_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c626_n0, , , INV
+PIN, O, O, syn1111, , , INV
+END
+SYM, c626_c1, AND, LIBVER=2.0.0
+PIN, I0, I, Asm_Config_Three_CURRENT_STATE<0>, , , INV
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<7>, , , INV
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<3>, , , INV
+PIN, I3, I, Asm_Config_Three_CURRENT_STATE<4>, , , INV
+PIN, O, O, c626_n0, , 
+END
+SYM, FMAP_38, FMAP, LIBVER=2.0.0
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<0>, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<7>, , 
+PIN, I3, I, Asm_Config_Three_CURRENT_STATE<3>, , 
+PIN, I4, I, Asm_Config_Three_CURRENT_STATE<4>, , 
+PIN, O, I, syn1111, , 
+END
+SYM, c627_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c627_n0, , , INV
+PIN, O, O, syn321, , , INV
+END
+SYM, c627_c1, AND, LIBVER=2.0.0
+PIN, I0, I, Asm_Config_Three_CURRENT_STATE<0>, , , INV
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<7>, , , INV
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<5>, , , INV
+PIN, I3, I, Asm_Config_Three_CURRENT_STATE<6>, , , INV
+PIN, O, O, c627_n0, , 
+END
+SYM, FMAP_39, FMAP, LIBVER=2.0.0
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<0>, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<7>, , 
+PIN, I3, I, Asm_Config_Three_CURRENT_STATE<5>, , 
+PIN, I4, I, Asm_Config_Three_CURRENT_STATE<6>, , 
+PIN, O, I, syn321, , 
+END
+PWR, 0, N20
+SYM, c629_c0, AND, LIBVER=2.0.0
+PIN, I0, I, N_RESET, , , INV
+PIN, I1, I, c629_n1, , , INV
+PIN, O, O, Asm_Config_Three_C2_N42, , , INV
+END
+SYM, c629_c2, AND, LIBVER=2.0.0
+PIN, I0, I, N_MODE_SEL<1>, , 
+PIN, I1, I, N_MODE_SEL<0>, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<0>, , 
+PIN, O, O, c629_n1, , 
+END
+SYM, FMAP_40, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_MODE_SEL<1>, , 
+PIN, I2, I, N_MODE_SEL<0>, , 
+PIN, I3, I, Asm_Config_Three_CURRENT_STATE<0>, , 
+PIN, I4, I, N_RESET, , 
+PIN, O, I, Asm_Config_Three_C2_N42, , 
+END
+SYM, c630_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c630_n0, , , INV
+PIN, O, O, Asm_Config_Three_C2_N35, , , INV
+END
+SYM, c630_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_MODE_SEL<1>, , , INV
+PIN, I1, I, N_RESET, , , INV
+PIN, I2, I, syn289, , 
+PIN, O, O, c630_n0, , 
+END
+SYM, FMAP_41, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_MODE_SEL<1>, , 
+PIN, I2, I, N_RESET, , 
+PIN, I3, I, syn289, , 
+PIN, O, I, Asm_Config_Three_C2_N35, , 
+END
+SYM, c631_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c631_n0, , , INV
+PIN, O, O, Asm_Config_Three_C2_N30, , , INV
+END
+SYM, c631_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_RESET, , , INV
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<1>, , 
+PIN, O, O, c631_n0, , 
+END
+SYM, FMAP_42, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_RESET, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<1>, , 
+PIN, O, I, Asm_Config_Three_C2_N30, , 
+END
+SYM, c632_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c632_n0, , , INV
+PIN, O, O, Asm_Config_Three_C2_N25, , , INV
+END
+SYM, c632_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_RESET, , , INV
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<2>, , 
+PIN, O, O, c632_n0, , 
+END
+SYM, FMAP_43, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_RESET, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<2>, , 
+PIN, O, I, Asm_Config_Three_C2_N25, , 
+END
+SYM, c633_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c633_n0, , , INV
+PIN, O, O, Asm_Config_Three_C2_N20, , , INV
+END
+SYM, c633_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_RESET, , , INV
+PIN, I1, I, syn1166, , , INV
+PIN, O, O, c633_n0, , 
+END
+SYM, HMAP_44, HMAP, LIBVER=2.0.0
+PIN, I1, I, N_RESET, , 
+PIN, I2, I, syn1166, , 
+PIN, O, I, Asm_Config_Three_C2_N20, , 
+END
+SYM, c634_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c634_n0, , , INV
+PIN, O, O, syn1166, , , INV
+END
+SYM, c634_c1, AND, LIBVER=2.0.0
+PIN, I0, I, Asm_Config_Three_CURRENT_STATE<3>, , , INV
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<4>, , , INV
+PIN, O, O, c634_n0, , 
+END
+SYM, FMAP_45, FMAP, LIBVER=2.0.0
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<3>, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<4>, , 
+PIN, O, I, syn1166, , 
+END
+SYM, c635_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c635_n0, , , INV
+PIN, O, O, Asm_Config_Three_C2_N15, , , INV
+END
+SYM, c635_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_MODE_SEL<1>, , , INV
+PIN, I1, I, N_MODE_SEL<0>, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<0>, , 
+PIN, I3, I, N_RESET, , , INV
+PIN, O, O, c635_n0, , 
+END
+SYM, FMAP_46, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_MODE_SEL<1>, , 
+PIN, I2, I, N_MODE_SEL<0>, , 
+PIN, I3, I, Asm_Config_Three_CURRENT_STATE<0>, , 
+PIN, I4, I, N_RESET, , 
+PIN, O, I, Asm_Config_Three_C2_N15, , 
+END
+SYM, c636_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c636_n0, , , INV
+PIN, I1, I, c636_n1, , , INV
+PIN, O, O, Asm_Config_Three_C2_N10, , , INV
+END
+SYM, c636_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_RESET, , , INV
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<5>, , 
+PIN, O, O, c636_n0, , 
+END
+SYM, c636_c2, AND, LIBVER=2.0.0
+PIN, I0, I, N_RESET, , , INV
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<6>, , 
+PIN, O, O, c636_n1, , 
+END
+SYM, FMAP_47, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_RESET, , 
+PIN, I2, I, Asm_Config_Three_CURRENT_STATE<5>, , 
+PIN, I3, I, Asm_Config_Three_CURRENT_STATE<6>, , 
+PIN, O, I, Asm_Config_Three_C2_N10, , 
+END
+SYM, c637_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c637_n0, , , INV
+PIN, I1, I, c637_n1, , , INV
+PIN, O, O, Asm_Config_Three_C2_N5, , , INV
+END
+SYM, c637_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_RESET, , , INV
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<7>, , 
+PIN, O, O, c637_n0, , 
+END
+SYM, c637_c2, AND, LIBVER=2.0.0
+PIN, I0, I, N_MODE_SEL<1>, , 
+PIN, I1, I, N_RESET, , , INV
+PIN, I2, I, syn289, , 
+PIN, O, O, c637_n1, , 
+END
+SYM, FMAP_48, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_MODE_SEL<1>, , 
+PIN, I2, I, N_RESET, , 
+PIN, I3, I, syn289, , 
+PIN, I4, I, Asm_Config_Three_CURRENT_STATE<7>, , 
+PIN, O, I, Asm_Config_Three_C2_N5, , 
+END
+SYM, c638_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c638_n0, , , INV
+PIN, O, O, syn289, , , INV
+END
+SYM, c638_c1, AND, LIBVER=2.0.0
+PIN, I0, I, Asm_Config_Three_CURRENT_STATE<0>, , 
+PIN, I1, I, N_MODE_SEL<0>, , , INV
+PIN, O, O, c638_n0, , 
+END
+SYM, FMAP_49, FMAP, LIBVER=2.0.0
+PIN, I1, I, Asm_Config_Three_CURRENT_STATE<0>, , 
+PIN, I2, I, N_MODE_SEL<0>, , 
+PIN, O, I, syn289, , 
+END
+SYM, C639, BUFG, LIBVER=2.0.0
+PIN, O, O, CLK_BUFGed, , 
+PIN, I, I, CLK, , 
+END
+EXT, CLK, I, 
+EXT, RESET, I, 
+EXT, MODE_SEL<1>, I, 
+EXT, MODE_SEL<0>, I, 
+EXT, A0B0_A1B2<4>, O, 
+EXT, A0B0_A1B2<3>, O, 
+EXT, A0B0_A1B2<2>, O, 
+EXT, A0B0_A1B2<1>, O, 
+EXT, A0B0_A1B2<0>, O, 
+EXT, A0B1_A1B3<4>, O, 
+EXT, A0B1_A1B3<3>, O, 
+EXT, A0B1_A1B3<2>, O, 
+EXT, A0B1_A1B3<1>, O, 
+EXT, A0B1_A1B3<0>, O, 
+EXT, A2B0_A3B2<4>, O, 
+EXT, A2B0_A3B2<3>, O, 
+EXT, A2B0_A3B2<2>, O, 
+EXT, A2B0_A3B2<1>, O, 
+EXT, A2B0_A3B2<0>, O, 
+EXT, A2B1_A3B3<4>, O, 
+EXT, A2B1_A3B3<3>, O, 
+EXT, A2B1_A3B3<2>, O, 
+EXT, A2B1_A3B3<1>, O, 
+EXT, A2B1_A3B3<0>, O, 
+EOF

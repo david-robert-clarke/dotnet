@@ -1,0 +1,1259 @@
+  ShellyLibV2.2
+  Randolf Schultz (rschultz@informatik.uni-rostock.de)
+  21. 1. 1998
+
+  This is the documentation of ShellyLibV2.2, the ShellShapeGenerator.
+  ______________________________________________________________________
+
+  Table of Contents:
+
+  1.      About this Document
+
+  2.      Introduction
+
+  3.      Changes
+
+  4.      Using the Shell Laboratory
+
+  4.1.    The Main Window
+
+  4.2.    The Menu
+
+  4.3.    The 3D-View
+
+  4.3.1.  NURBS
+
+  4.3.2.  Antialiasing
+
+  4.3.3.  Texturing
+
+  4.3.4.  Key and Mouse bindings
+
+  4.4.    The Generation Curve Editor
+
+  4.4.1.  The Menu
+
+  4.4.2.  Key and mouse bindings
+
+  4.4.3.  Inserting and deleting points
+
+  4.4.4.  Fetching the curve from Normal-Mode
+
+  4.5.    The Texture Editor
+
+  4.5.1.  The Menu
+
+  4.5.2.  Generating a texture
+
+  4.5.3.  Parameters of the texture generator
+
+  4.5.4.  Image operations
+
+  4.5.5.  Sundial Tutorial
+
+  5.      Parameters of the Shell Generator
+
+  6.      Calculation Modi
+
+  6.1.    The Nodule mode
+
+  6.2.    The GenCurve mode
+
+  7.      File Format
+
+  8.      Output Formats
+
+  8.1.    Surface Types
+
+  9.      Addresses, Pointers, Literature, Acknowledgements
+  ______________________________________________________________________
+
+  1.  About this Document
+
+  This document has been written using the SGML-Tools formatting system
+  to generate files in a variety of text formats from one source file.
+  There are plain ASCII, HTML and PostScript versions of this document
+  prepared for you.
+
+  In addition, you can use the provided SGML-source to generate other
+  formats.
+
+  Note, that the plain ASCII version probably misses a lot of formatting
+  information.
+
+  2.  Introduction
+
+  ShellyLib is a small set of C-programs for generating seashell or
+  snail shapes.  ShellyLib supports many common file formats, see
+  section ``Output Formats'', and has been designed to be as portable as
+  possible.
+
+  In contrast to Shelly (the ancestor), ShellyLib is not Freeware but
+  Shareware.  Please read the file "License"  in the top level of the
+  distribution for further information.
+
+  ShellyLib contains a small library ("libshelly") and a GUI called
+  "Shell Laboratory", in addition it is possible to compile a command
+  line driven shell generator ("shelly").
+
+  The "Shell Laboratory" is written in Tcl/Tk and C, and uses OpenGL for
+  immediate rendering of the generated shells.
+
+  The algorithm used to generate the shells is an extended version of
+  the algorithm by M.B. Cortie, found in Computer and Graphics, Vol. 17,
+  No. 1, pp. 79-84, 1993, "Digital Seashells".  See section ``Addresses,
+  Pointers, Literature'' for more references.
+
+  3.  Changes
+
+  Changes from V2.1 to V2.2 are:
+
+  o  General Changes:
+
+  o  A new parameter named "alpha2" has been introduced.  This works
+     much like alpha. It allows to adjust the growth rate of the
+     generating curve without affecting the helico spiral.  Oops? Read
+     section ``Parameters of the Shell Generator'' for more information.
+
+  o  The 3DMF (3D MetaFile) output format has been added; NURBS and
+     triangles are supported.
+
+  o  The RIB output now contains own texture coordinates, that improve
+     the texture mapping quality. This change is only visible for custom
+     generating curves (GCURVE-mode) where the points are not uniformly
+     distributed.
+
+  o  A new simple shader (SLtxtsrf) for RenderMan has been added, that
+     maps the generated textures on the shells just like the "Shell
+     Laboratory" does. Besides that, it shows how to use the custom
+     texture coordinates of the RIB output.
+  o  Changes to the Shell Laboratory:
+
+  o  Several changes to the hotkeys in the 3D-View and other places have
+     been made.
+
+  o  A new RIB output mode (export scene) has been added.  This mode
+     saves all movements and rotations etc. you made in the 3D-View as
+     well as the shell.
+
+  o  Texture-mapping quality in the 3D-View has been improved for the
+     NURBS rendering mode. This change is only visible for custom
+     generating curves (GCURVE-mode) where the points are not uniformly
+     distributed.
+
+  o  Loading of values (via .shy-files) with higher resolution as the
+     corresponding slider allows has been corrected.  The sliders
+     resolution is now recalculated according to the loaded value.
+
+  o  Added Antialiasing via viewing-volume-jittering to the rendering
+     code.  This improves overall rendering quality and works in all
+     rendering modes, although it is not meant to be used with the
+     wireframe mode.  Two levels of antialiasing are available.
+
+  o  Added a status-bar, that keeps you informed about whats going on at
+     the moment.
+
+  o  Added simple (single step) undo to the texture generator.
+
+  o  Added simple image operations (mix, add, sub) to the texture
+     generator. The new texture may be combined with the older one using
+     this operations.
+
+  o  Exporting the image of the 3D-View did not work when it was
+     resized, fixed.
+
+  o  The ambient, diffuse, specular and background color of the
+     shell/view may be changed separately now. Check the "Color" submenu
+     of the "Preferences" menu.
+
+  Changes from V2.0 to V2.1 are:
+
+  o  General Changes:
+
+  o  Due to the low registration moral (I received one (!)  registration
+     request, thank you!) the license changed again.  Please read the
+     file "License" in the top level of the distribution.  Important
+     changes are that I do not release the source for free anymore and I
+     crippled the free available executables of the Shell Laboratory.
+     Registered users can still get the full source, however.
+
+  o  "libshelly" now simulates that the walls of the generated shells
+     have a certain thickness, new parameters are "wall" and "wlen" (see
+     section ``Parameters of the Shell Generator'' for more
+     information).
+
+  o  Nodules are now possible in the "GCurve" mode.
+
+  o  The DXF output format has been added; Splines, polyface-meshes and
+     3dfaces are supported.
+
+  o  The RIB output now contains NURBS instead of B-Splines.
+
+  o  The RenderMan shaders have been rewritten. They do respect the new
+     wall feature now.
+
+  o  Changes to the Shell Laboratory:
+
+  o  The Shell Laboratory has been ported to WinNT/95.
+
+  o  The Shell Laboratory is now available as stand-alone executable
+     that does not need a bunch of .tcl-files or an installed Tcl/Tk at
+     all. Precompiled executables are available for Linux, WinNT/95 and
+     Irix.
+
+  o  Several changes to the GUI (menu layout, hotkeys etc.)  have been
+     made.
+
+  o  The smooth-shaded rendering mode has been replaced by NURBS
+     rendering using GLU.
+
+  o  Another rendering mode (NURBS+Wire) has been introduced. This mode
+     displays a NURBS surface and the associated control polygon.
+
+  o  A generation curve editor has been added to the Shell Laboratory,
+     see section ``The Generation Curve Editor'' for more information.
+
+  o  A texture generator has been added, that utilizes the algorithms
+     published in "The Algorithmic Beauty of Sea Shells" by H. Meinhardt
+     (see section ``Addresses, Pointers, Literature'' for a complete
+     reference, and section ``The Texture Editor'' for the
+     documentation).
+
+  o  It is now possible to export the rendered image.
+
+  A lot has changed from version 1.6 of Shelly (the ancestor of
+  ShellyLib) to version 2.0:
+
+  o  Legalities have changed, read the file "License"!
+
+  o  Almost everything has been completely rewritten, therefore, I
+     suggest to reread the whole documentation, even if you feel
+     familiar with Shelly!
+
+  o  Bezier output for POV-Ray creates really smooth surfaces now.
+
+  o  Several new output formats, e.g. Truespace, RIB, SCED, have been
+     added.
+
+  o  The handling of scale factors has changed. There are file format
+     dependant scale factors now, to ensure a unique size of the
+     generated shells over the variety of output formats.
+
+  o  ShellyLib has a really cool GUI now, unfortunately, it is not as
+     nearly as portable as the library itself.
+
+  o  The former "NewNod" mode is now called "Nodule" and has been
+     improved in terms of speed and usability. The old "Nodule" mode is
+     gone.
+
+  o  The code has been split into several parts.  The shell generation
+     is done by a small library called "libshelly".  Furthermore, there
+     are two example frontends that use the library "shelly" and the
+     "Shell Laboratory".
+
+  o  The original algorithm of M.B. Cortie is limited to ellipsoid
+     generation curves. ShellyLibV2.0 allows the user to define any
+     generation curve in a special new calculation mode called
+     "GenCurve".  This is useful for Cones or the "Miraculous
+     Thatcheria", which were impossible to generate with the old
+     algorithm.
+
+  o  Some special keywords regarding POV-Ray are gone.
+
+  o  Various other goodies have been included in the distribution, for
+     instance displacement and surface shaders for RenderMan and a
+     reference sheet that helps to understand the algorithm.
+
+  4.  Using the Shell Laboratory
+
+  The "Shell Laboratory" is a GUI for "libshelly".  It is mainly a
+  Tcl/Tk script and some C-code to interface to OpenGL (via Togl) and
+  "libshelly".
+
+  The main goal of this GUI is to ease the process of parameterization
+  through immediate display of the results.
+
+  4.1.  The Main Window
+
+  Each parameter of the shell generator is represented as a line,
+  containing
+
+  o  an entry (showing the value of that parameter)
+
+  o  a configurable slider (it's minimum and maximum values are
+     displayed in two labels to the right and left)
+
+  o  a button to start the calibration of the slider.
+
+  Since all those parameter-lines fit hardly on any screen, I put them
+  into a scroll-able canvas.  You might want to maximize the window size
+  to your full screen height.  You can cycle through the entries and
+  sliders with <TAB> and <Shift+TAB>.
+
+  Each change of a sliders value results in the following internal
+  actions.  At first, a new shell is generated via "libshelly" in the
+  mode selected in the "Preferences/SL-Mode" sub menu. Then, the shell
+  is displayed as wireframe, shaded polygonal or smooth NURBS model in
+  the second window called "3D-View". If you enter a value for a
+  parameter directly in the associated entry, the update process starts
+  when the focus leaves the entry (the <TAB>-key is pressed or another
+  entry is selected with the mouse).
+
+  The initial configuration of the sliders has been choosen to protect
+  you from potentially dangerous parameter values, that may crash the
+  lab, and to ensure greatest possible freedom in setting any parameter.
+  From time to time it may be necessary to reconfigure a slider, so that
+  other values than allowed by its initial configuration may be set.
+  Each slider may be configured using the associated "Cal." button.
+  This will open a modal dialog, where you can change minimum and
+  maximum value and, important, the step-size or resolution of the
+  slider.  Note, that you cannot set any other value than x = min + (n *
+  step-size), (x <= max) with the slider.
+
+  4.2.  The Menu
+
+  o  File
+
+  o  New: reset the lab
+
+  o  Load: loads a set of parameters
+
+  o  Save: saves a set of parameters
+
+  o  Import
+
+  o  Texture (PPM): import an image file in the PPM format to map on the
+     shell
+
+  o  Export
+
+  o  Shell: export the calculated shell as object in various formats
+     (see section ``Output Formats'' for more information)
+
+  o  POV
+
+  o  DXF
+
+  o  . . .
+
+  o  Scene: export the calculated shell and all transformations of the
+     3D-View in RIB format
+
+  o  Texture (PPM): export the current texture as image file in the PPM
+     format
+
+  o  3D-View Image (PPM): export the rendered shell as image file in the
+     PPM format; Note, that the front buffer will be used for this, make
+     sure that no other window destroys the content of this buffer. The
+     resulting image files are usually very large, because the ASCII
+     version of PPM is used, convert them!
+
+  o  Exit: quits the application
+
+  o  Preferences: (Configuring miscellaneous things)
+
+  o  Mode:
+
+  o  Wireframe: switches to wireframe display (default)
+
+  o  FlatShaded: switches to a flat (constant) shaded representation
+
+  o  NURBS: switches to a NURBS rendered representation
+
+  o  NURBS+Wire: NURBS + control polygon
+
+  o  Projection:
+
+  o  Perspective: Perspective projection (default)
+
+  o  Orthographic: Orthographic projection
+
+  o  Color: Change color and material properties of the shell
+
+  o  Set Ambient Color
+
+  o  Set Diffuse Color
+
+  o  Set Specular Color: color of the highlights
+
+  o  Set Shininess: specularity (0 - 128)
+
+  o  Set Background Color
+
+  o  Antialiasing:
+
+  o  None: disables antialiasing (default)
+
+  o  4 Passes: enables antialiasing using 4 rendering passes
+
+  o  8 Passes: enables antialiasing using 8 rendering passes
+
+  o  DrawCoordsys: switches display of the small coordinate system on or
+     off (default: on)
+
+  o  AutoUpdate: If this is enabled, every change of a parameter results
+     in an immediate update of the display.  Toggling the checkbox from
+     "off" to "on" will not result in an updated display. (default: on)
+
+  o  Set NURBS Quality: allows to change "GLU_SAMPLING_TOLERANCE"
+
+  o  SL-Mode:
+
+  o  Normal: (default)
+
+  o  Nodule:
+
+  o  GenCurve: see section ``Calculation Modi'' for more information on
+     these modes
+
+  o  Windows:
+
+  o  GenCurve-Editor: opens the generation curve editor
+
+  o  Texture-Editor: opens the texture editor
+
+  o  Help: (A small online help)
+
+  o  Shell Laboratory: Just a pointer to the original docs.
+
+  o  About Shell Laboratory
+
+  Shortcuts (accelerators) exist for some of these menu entries, see the
+  menu entries for more information.
+
+  4.3.  The 3D-View
+
+  This window uses OpenGL to draw the shell.  The shell may be displayed
+  as wireframe model or rendered using constant shading or as a NURBS-
+  surface.  You may configure this with the "Mode" sub-menu in the
+  "Preferences" menu.
+
+  You may rotate, zoom and move the shell (moving along z-axis only)
+  with your mouse and keyboard. See the listing of key and mouse
+  bindings to learn how to.
+
+  A coordinate system is drawn to help you to navigate. It might be
+  helpful to estimate the size of the object, as each axis is exactly 1
+  (whatever) long.  It can be switched off with the "DrawCoordsys"
+  check-button in the "Preferences" menu.
+
+  The view is updated every time you change the value of a parameter.
+  You may change this behavior with the "AutoUpdate" check-button.
+  Note, that changing "AutoUpdate" from off to on state does not result
+  in an updated display.
+
+  If you get annoyed by the perspective distortions that may occur when
+  viewing large objects, use the new orthographic projection mode
+  (submenu "Projection" in the "Preferences" menu).
+
+  If you are lost in space use <r> to reset to the default settings.
+
+  4.3.1.  NURBS
+
+  Some notes about the NURBS rendering mode.  Be warned, that NURBS
+  rendering may be a very lengthy process, especially if texturing is
+  enabled. Under certain conditions it may last too long, even for the
+  most patient.  A simple rule to avoid long rendering times:
+
+  Do not render shells that do not fit completely into the view.
+
+  Especially if you zoomed the view a lot, or if you have the impression
+  that the viewer is inside or very near the shell (after a rotation or
+  parameter change) do not activate NURBS!
+
+  Setting too small values for the "NURBS Quality" (which is actually
+  "GLU_SAMPLING_TOLERANCE") is dangerous too, I recommend not to set
+  values smaller than 10. However, I have to admit that you need to set
+  it to 5 to correctly render some example .shy-files (namely, the
+  rippled Cockle and Rapa).
+
+  Even though NURBS represent very smooth surfaces, occasional cracks
+  might be visible on the surfaces, dependig on the OpenGL
+  implementation.  The NURBS rendered with Mesa usually do not suffer
+  from this problem.  On an SGI decreasing "NURBS Quality" or sometimes
+  simply rotating the shell a bit helps.
+
+  Even the NURBS rendering speed of normal sized shells might not be
+  enough for interactive displays on nowadays commodity workstations
+  (Pentium class), thats why the representation is automatically
+  switched from NURBS to flat shaded, while rotating and changing
+  parameters with the sliders.
+
+  4.3.2.  Antialiasing
+
+  Antialiasing improves the rendering quality using a technique called
+  viewing-volume-jittering. The scene is rendered multiple times with
+  slightly different camera settings. All passes are accumulated to the
+  resulting image.  Note, that the rendering times do not increase
+  linearly with the number of rendering passes because of the buffer
+  operations (the accumulation process). This means, if you get 10
+  frames per second in wireframe rendering mode, you will not get a
+  fourth (2 fps) with 4 pass antialiasing, this depends on the speed of
+  the buffer operations.  In practice, expect something near 0.75 frames
+  per second in wireframe mode!  You see that antialiasing is very slow
+  and therefore it is switched off temporarily while rotating and
+  changing parameters with the sliders.
+
+  Two levels of antialiasing are available. The 4 passes mode increases
+  the quality considerably, while 8 passes give not much more quality
+  (compared to the increased effort). Your mileage may vary, however.
+
+  You may toggle antialiasing directly with the <a> hotkey in the 3D-
+  View.
+
+  4.3.3.  Texturing
+
+  Texturing can be enabled or disabled with the <t> hotkey.  You may use
+  imported textures or textures generated in the "Shell Laboratory" by
+  the built-in texture generator.
+
+  Textures should be sized properly in order to be used with OpenGL. Use
+  powers of two, otherwise the texture image will get scaled, which is
+  something you might not want.
+
+  The "Shell Laboratory" uses mipmaps and bilinear filtering in order to
+  achieve the highest possible texture mapped rendering quality
+  (depending on the OpenGL implementation). Some strange blurry
+  artifacts occurred lately using very large (2048x512) textures, I am
+  still investigating this...
+
+  Note, that the white highlight on the shell is not rendered correctly
+  if texturing is enabled. This is a limitation of OpenGL, which can be
+  circumvented by a multi pass rendering approach (like most limitations
+  of OpenGL), but I guess antialiasing is multi pass enough...
+
+  4.3.4.  Key and Mouse bindings
+
+  Here are all the key and mouse bindings:
+
+  <Mouse-Button-1> (the left one) click and drag: rotate around x- and
+  y-axis
+
+  <Cursor-Left>, <Cursor-Right>: rotate around z-axis
+
+  <Cursor-Up>, <Cursor-Down>: move along z-axis
+
+  <Shift+Cursor-Up/Down/Left/Right>: move view
+
+  <x/X/y/Y/z/Z>: view along x (y z) axis
+
+  <+>: zoom in
+
+  <->: zoom out
+
+  <r>: reset all transformations
+
+  <a>: toggle antialiasing
+
+  <t>: toggle texturing
+
+  Other useful keybindings are <w> (switch to wireframe), <f> (switch to
+  flat shading), <n> (switch to NURBS) and <c> (switch to NURBS +
+  control polygon).
+
+  Note, that these key and mouse bindings are available in the 3D-View
+  window only!
+
+  4.4.  The Generation Curve Editor
+
+  The generation curve editor (GCE) offers a facility to easily create
+  or modify a generation curve, used in the GenCurve-mode of
+  "libshelly".
+
+  Some basics:
+
+  o  The GCE always works on a local copy of the generation curve which
+     is used by the main part of the Shell Laboratory.  The original
+     generation curve, which is used for generating shells, is updated
+     only when you want it. (Check the "Update" menu.)
+
+  o  Changes to the generation curve will only have an effect on the
+     shell displayed in the 3D-View, if "libshelly" is in the "GenCurve"
+     mode.  The GCE will ask you to enable this mode on startup, in case
+     you did not activate it by yourself.
+  o  You may zoom and move the view of the generation curve with your
+     mouse or keyboard, see keybindings.
+
+  o  You may move, delete and insert points of the generation curve.
+
+  o  Atleast two points are needed in a generation curve!
+
+  4.4.1.  The Menu
+
+  The menu-items should be self explanatory.
+
+  o  Window
+
+  o  Close
+
+  o  Update
+
+  o  No automatic Update
+
+  o  Update after move
+
+  o  Update while moving
+
+  o  Update now!
+
+  o  Curve
+
+  o  Insert Point
+
+  o  Delete Point
+
+  o  Fetch from Normal-Mode
+
+  o  Help
+
+  o  Help
+
+  4.4.2.  Key and mouse bindings
+
+  Some accelerators exist for the menu:
+
+  <Ctrl+w>: close window
+
+  <Ctrl+i>: insert point
+
+  <Ctrl+d>: delete point
+
+  <Ctrl+f>: fetch curve from Normal-Mode
+
+  <Ctrl+u>: update generation curve of the main window
+
+  Key bindings for zooming and moving are:
+
+  <Mouse-Button-3>: (the right one) click and drag: move the view
+
+  <Up,Down,Left,Right>: move the view
+
+  <r>: reset all moves
+
+  <+,Add>: zoom into the view x2 (works upto a factor of 8)
+
+  <-,Sub>: zoom out of the view x0.5 (works upto a factor of 0.125)
+
+  4.4.3.  Inserting and deleting points
+
+  To insert a new point simply select the "Insert Point" menu entry,
+  then click on a point of the generation curve. Do not release the
+  mouse button, but simply drag the new point to it's position.
+  Deleting points is even more simple, use the "Delete Point" menu entry
+  and select the point to delete with your mouse. Note, that you cannot
+  delete any points if there are only two left.
+
+  4.4.4.  Fetching the curve from Normal-Mode
+
+  The fetched curve is the first curve, generated in Normal-Mode. This
+  means that certain transformations are applied to the original
+  centered ellipsoid curve before fetching!
+
+  You may preview the curve you will get, setting the following
+  parameters: "omin" 0 and "omax" 1.
+
+  If you want to start your work on the generating curve with the same
+  shell as would be generated in the Normal-Mode set temporarily the
+  following parameters:
+
+  "beta" to 90.0;
+
+  "phi","my","omega", "A" to 0.0;
+
+  "a", "b", "scale" to 1.0.
+
+  Now fetch the generating curve, and restore the original values.  This
+  does not give you exactly the same shell, but the changes should be
+  minimal.
+
+  4.5.  The Texture Editor
+
+  The texture editor (TE) offers a facility to easily create textures to
+  be mapped onto the shell shapes generated by "libshelly".  It utilizes
+  the algorithms published in "The Algorithmic Beauty of Sea Shells" by
+  H. Meinhardt (see section ``Addresses, Pointers, Literature'' for a
+  complete reference).  This section is not intended to explain these
+  algorithms and their parameters in depth. If you are interested read
+  the book.
+
+  Some basics:
+
+  o  The TE always works on a local copy of the texture which is used by
+     the main part of the Shell Laboratory.  The original texture, which
+     is used for rendering shells and texture export, is updated only
+     when you want it.  (Check the "Update" menu.)
+
+  o  Changes to the texture will only have an effect on the shell
+     displayed in the 3D-View, if texturing is enabled.  The TE will
+     automatically activate texturing when you update the texture.
+
+  4.5.1.  The Menu
+
+  The menu-items should be self explanatory.
+
+  o  Window
+
+  o  Close
+
+  o  Update
+
+  o  No automatic Update
+
+  o  Update after generate
+
+  o  Update now!
+
+  o  Help
+
+  o  Help
+
+  The following hot-keys are defined:
+
+  <Ctrl+w>: close window
+
+  <Ctrl+u>: update texture
+
+  <Ctrl+g>,<g>: generate texture
+
+  <Ctrl+s>,<s>: stop generator
+
+  <Ctrl+z>: Undo
+
+  4.5.2.  Generating a texture
+
+  For your first experiments just select a texture type using the
+  "Select type:" listbox and use the "Generate" button.
+
+  Follow these steps to create a texture:
+
+  1. At first, set the desired size of the texture.  If you plan to map
+     the generated texture onto a shape in the Shell Laboratory, you
+     should stick to sizes that are powers of two (64, 128, 256 etc.),
+     as OpenGL demands this. GLU does scale the texture to the next
+     power of two, but this might not deliver best results. This scaling
+     does not affect the size of the exported textures. Note, that some
+     OpenGL implementations impose even more constraints (a maximum
+     texture size of 256x256 for instance).  Also note, that some
+     texture type specific parameters may need to be adjusted, if you
+     select a different height than the default height of 128.
+
+  2. Now select the type of the texture, with the "Select type:"
+     listbox. Selecting a type will fill the next two sections of
+     adjustable parameters with default values.
+
+  3. You may alter the type specific settings now. Set colors and adjust
+     parameters of the texture generator, more information about these
+     settings can be found in the next section: ``Parameters of the
+     texture generator''.
+
+  4. Choose an image operation now. The default (Overwrite) simply
+     destroys the old texture.
+
+  5. Now you can generate the texture, using the "Generate" button. If
+     you find that the created texture does not come out right, you
+     might stop the generator with the "Stop!" button. Note, that while
+     generating a texture, the GUI might respond a little slower than
+     usual.
+
+  6. The generated texture can be mapped onto a shell now.  Simply press
+     "Ctrl+u", then change to a Flat-shaded or NURBS display. Texture
+     mapping may reduce performance drastically on software-only OpenGL
+     implementations; switch to the wireframe display before rotating or
+     changing parameters!
+
+  4.5.3.  Parameters of the texture generator
+
+  How does the texture generator work?
+
+  It simulates the distribution of substances (e.g. pigments) in the
+  cells of a shell over it's lifetime. Several different effects may
+  influence the distribution of substances like diffusion.  All these
+  different effects are put together in sets of equations. Each set
+  allows for the simulation of a specific type of shell pattern. There
+  is no general set of equations available that could simulate all
+  possible patterns of shells.
+
+  It is clearly beyond the scope of this documentation to explain all
+  the equations and their parameters, as they are really complex. I can
+  only point you to Meinhardt's book.
+
+  The texture generator implements many (not all!) equations from
+  Meinhardt's book "The Algorithmic Beauty of Sea Shells".  The
+  parameter names were taken from the example implementation given in
+  the book.
+
+  Some features of Meinhardt's software are not implemented in the
+  texture generator. It is not able to plot concentrations of different
+  substances, but just one (substance A). And the type of the plot is
+  always a continuous mapping of the concentration of substance A to
+  color values. This mapping can be adjusted with the "Set Color:"
+  parameters.  They define an interval of concentration values (the two
+  entries) and the accompanying interval in color (the two colored
+  buttons).  Two more things are important about this mapping: if the
+  concentration of substance A is smaller than the value in the first
+  entry, the resulting color is white; if the concentration is bigger
+  than the value in the second entry the resulting color will be that of
+  the second button.
+
+  Now on to the other parameters. You may select different parameter
+  sets with the pop-up-menu that comes up if you press the "Set
+  Parameter:" button.
+
+  Up to seven substances (named A to G) may be used for the simulations.
+  That's why there are seven numbers in each parameter list (except for
+  the "Misc."-section).  The first number in the list (if "Initial
+  Concentration (A)" is selected) is the initial concentration of
+  substance A, consequently.  The second number is the initial
+  concentration of substance B and so on.  Do not confuse the names of
+  substances (A to G) with the names of parameters (A, B, C, D, G, R,
+  S).
+
+  An important section of parameters is the "Misc."-section.  The
+  parameter names from this list (except for "RS") have been taken from
+  the example implementation by Meinhardt as well.
+
+  Some simulations depend on random numbers. You can set the amount of
+  randomness with the "KR" parameter. The "RS" parameter controls the
+  initialization of the random number generator. If "RS" has a value
+  other than zero, this value will be used to initialize the random
+  number generator.  This is done before each simulation run, this way
+  the results of random simulations become predictable.  If you set "RS"
+  to zero, the random number generator will not be initialized at all.
+  The resulting pattern is not predictable anymore, and you may generate
+  different patterns just by pressing the "Generate" button again and
+  again.
+
+  For the other parameters, consult the book.  I probably will extend
+  the documentation here, but I stop writing now to get the new version
+  out as quickly as possible.
+
+  Note, that not every set of equations uses all seven substances.
+  Nevertheless, you must have seven numbers in each parameter section
+  (except for the "Misc."-section of course).
+
+  Here is a short survival-guide to help you to get certain things done:
+
+  o  Problem; Solution
+
+  o  The pattern is to small/big in O-direction; Increase/decrease "KP"
+     (might not work for all texture types, as this actually controls
+     the number of iterations used to calculate a single row)
+
+  o  The pattern is to small/big in S-direction; Increase/decrease the
+     "Height"-value.
+
+  o  The texture generator seems to stop before the end, leaving a lot
+     of white space; If the "wall"-parameter has a value higher than
+     "0.0" the texture generator will smoothly fade generated textures
+     to white on the texture position that corresponds to the beginning
+     of the aperture of the shell.  This way the interior of the shell
+     is not textured at all.  If you change "wall" to "0.0" this will
+     not happen.
+
+  o  Texture comes out distorted or noisy; Sometimes simply generating a
+     new texture will help (if you did not fiddle with any parameters it
+     will), otherwise try to decrease "KR" (randomness) or the
+     diffusion-constants, which should not be higher than "0.4" to avoid
+     numeric instabilities.
+
+  4.5.4.  Image operations
+
+  Image operations may be used to combine generated images, this boasts
+  the number of possible patterns.  You may choose between three
+  effects, mix, add and sub; they should be self explanatory, if not:
+  simply try them out.  Press <Ctrl+z> (single step undo) if you are not
+  satisfied with the results.
+
+  Use the associated entry to determine the strength of the effect.
+
+  The two source images should have the same dimensions, unless you want
+  funny results.
+
+  4.5.5.  Sundial Tutorial
+
+  As you can see, a complete reference/documentation of all the
+  parameters is still missing in the V2.2-documentation.  I added this
+  small tutorial instead.
+
+  How was the texture for the Sundial shell on the ShellyLib Home Page
+  done?
+
+  1. Load the "Sundial.shy" from the shy archive.
+
+  2. Open the texture editor.
+
+  3. Set the texture width to 1024.
+
+  4. Choose the "IrregularStripes" texture, generate it.
+
+  5. Now we want to add the perpendicular white stripes to the texture.
+     Choose the "Stripes3" texture.
+  6. Set the  the start value to 0.0, start color to black (0, 0, 0).
+     Set the end value to 0.5 and the end color to a middle gray (128,
+     128, 128).  This makes the stripes a bit broader(start - end
+     values) and limits the generated color values to 128. For sharper
+     white perpendicular stripes experiment with higher end values. Use
+     "Ctrl+z" to undo the last change to the generated texture, if you
+     are unsatisfied with the result!
+
+  7. Set "KP" from 20 to 30 ("Set parameter:/Misc"). This increases the
+     number of stripes.
+
+  8. Switch to image operation "Brighten", change the strength of the
+     effect to about 80 percent.
+
+  9. Hit generate. Wait. We are done! Update, then render with NURBS.
+
+  5.  Parameters of the Shell Generator
+
+  The basic idea of the algorithm is to simulate a shell shape by
+  rotating a growing ellipse around the z-axis, and simultaneously
+  displacing it from the z-axis. This results in a flat spiral.  If we
+  move the ellipse along the z-axis while rotating, a shell like shape
+  will appear. The curve determined by all centers of all ellipses is a
+  so called helico-spiral.
+
+  The parameters of this process are divided into 5 groups.  Parameters
+  that need to be given in degrees are marked with an asterisk ("*").
+
+     Angular Parameters:
+        These parameters change the shape of the helico-spiral ("alpha"*
+        and "beta"*) and the tilt of the ellipse against the axes of the
+        local coordinate system of the ellipse ("phi"*, "my"*,
+        "omega"*). Note, that "alpha"* does determine the growth rate of
+        the ellipse too.
+
+        "alpha2"* is a new parameter that has been introduced with V2.2.
+        It works much like "alpha"* but it only changes the growth rate
+        of the generating curve. At its default setting of 90.0, no
+        change to the original growth rate takes place. At a higher
+        value it will decrease the growth rate determined by "alpha"*
+        and vice versa. Due to the dependence from "alpha"* you have to
+        find a new value for "alpha2"* every time "alpha"* is changed!
+        See the new "Snail.shy" for an example.
+
+     Linear Parameters:
+        They change the size (and shape) of the ellipse ("a", "b") and
+        the distance of the first ellipses center from the z-axis ("A").
+
+     Dimensional Parameters:
+        They set how many ellipses are calculated ("omin"*, "omax"*,
+        "od"*), and how many points on each ellipse are calculated
+        ("smin"*, "smax"*, "sd"*).  Finally, a global scale-factor,
+        independent from all file format specific scaling, might be
+        applied using "Scale".
+
+     Nodule Parameters:
+        Change all aspects of nodules, position on the ellipse ("P"*),
+        size ("W1"*, "W2"*), length ("L"), number of nodules per whorl
+        ("N") and starting point on the spiral ("Nstart"*).
+        There are three independent groups of nodules.  Add a "2" to
+        each nodule parameter to set parameters of the second nodule
+        group. Length of second nodule is therefore "L2".  Do the same
+        for the third nodule, with a "3".  There are two more parameters
+        to control an offset between the three groups of nodules,
+        "Off2"* is the offset between nodule 1 and nodule 2 and "Off3"*
+        is the offset between nodule 1 and nodule 3.
+
+     Nodule-Mode Parameters:
+        "Scano", "Scans", "Hdo", "Hds" refer to section ``Calculation
+        Modi'' for information on this parameters.
+
+     Wall Parameters:
+        "wall" defines the thickness of the wall in terms of "a" and "b"
+        and "wlen"* defines how many degrees into the interior of the
+        shell the wall should be computed. A simple trick allows the
+        calculation of the inner walls:
+
+        At the aperture of the shell "a" and "b" are multiplied with
+        "wall" and then the shell generator computes the interior with
+        negative "od".
+
+        The wall feature is a big win for realism, now even views of the
+        aperture of the shell do not reveal the synthetic nature of the
+        shell easily.
+
+        Unfortunately, simple scaling of the generating curve does not
+        yield best results in every case, namely the GCURVE-mode.
+
+  The most important parameters are "alpha", "beta", "A", "a" and "b".
+
+  Here are some hints on how certain values change the shape of the
+  shell.
+
+  o  Alpha 90 means no growing of the ellipse and no spiral shape at
+     all.  If beta is 90, too, this will produce a torus like shape. If
+     alpha gets smaller the spiral will form and the ellipse will grow.
+
+  o  Beta 90 means no moving of the ellipse along z-axis. This is fine
+     for shells like "Nautilus", "Planorbis", "Ammonite" or several
+     cockles. If you want to shape a "Turritella" or "Natalina" you have
+     to decrease beta.
+
+  o  The meaning of a certain value of A depends highly on a and b.
+     Generally, A should be higher as a and b, otherwise the shell may
+     look like a sphere.
+
+  6.  Calculation Modi
+
+  6.1.  The Nodule mode
+
+  The parameters "od" and "sd" determine the resolution of the generated
+  shell. But if the shell contains nodules that are thin and long you
+  would have to use very small "od" and "sd" values in order to shape
+  the nodules. This would lead to a real waste of memory, because
+  between the nodules the high resolution is not necessary.  To minimize
+  memory complexity, the special nodule calculation mode has been
+  written. This mode adapts both "od" and "sd" while calculating the
+  shell, so that small distances between the calculated points are only
+  used when needed, in the nodules.  This process may be controlled with
+  the parameters "Scano", "Scans", "Hdo" and "Hds".  "Scano" determines
+  the smallest possible distance of two points in O direction, the same
+  does "Scans" for the S direction.  "Hdo" defines the smallest possible
+  difference in height between two points in O direction, the same does
+  "Hds" for the S direction.  The difference in height is being
+  calculated using the height of the nodule.  The nodule mode may be
+  invoked by the "NODULE" keyword.
+
+  "Hdo" and "Hds" are multiplied by the nodule height of the first
+  nodule group, before they are passed to "libshelly", when using the
+  example frontends.  The height difference value is now dependant from
+  the nodule height.  It is now easier to estimate the effect of a
+  certain value, e.g.  0.1 means a tenth of the nodule height, no matter
+  how high the nodule actually is.  Note, that this multiplication is
+  not done by "libshelly".
+
+  Unfortunately, the result of this mode is of irregular structure.
+  This means the only possible output type is triangles. No spline
+  output, neither B-spline nor Bezier patches, may be generated using
+  this mode.
+
+  6.2.  The GenCurve mode
+
+  The original algorithm of M.B. Cortie is limited to ellipsoid
+  generation curves. ShellyLibV2.x allows the user to define any
+  generation curve, using the "GenCurve" mode.  This is useful for Cones
+  or the "Miraculous Thatcheria", which were impossible to generate with
+  the old algorithm.
+
+  The curve needs to be specified as a list of points with the "GCx:"
+  and "GCy:" keywords. The parameters "a" and "b" still scale the curve
+  as they do it in the other modes with the ellipse, and "A" moves the
+  curve.  However, "smin","smax" and "sd" are out of function!  Nodules
+  are possible within this mode, but the result depends highly on the
+  number of points of the generation curve.
+
+  Note, that the resolution of the shell depends directly on the list of
+  points. The spaces between the points are not interpolated.  The
+  curves provided in the example data files in the "shy" directory are
+  meant to be used with spline output formats like "RPL" or "RIB",
+  because the curves contain only few points.  Note that not every
+  output format is possible within this mode at present.  You may use:
+  "RPL", "RIB", "BEZ", "SCB".
+
+  Switch to this calculation mode with the "GCURVE" keyword.
+
+  7.  File Format
+
+  ShellyLib uses files in a simple format to store sets of parameters.
+  You should use a characteristic filename extension like ".shy" for
+  these files. However, this is not mandatory.
+
+  Every line of the file is scanned for keywords.  Lines that start with
+  an "#" are fully ignored.  If a line contains no keyword it is treated
+  like a comment.
+
+  Otherwise the number behind the keyword is copied into an internal
+  variable or a flag is set. This implies, that there are two types of
+  keywords, so called number-keywords and flag-keywords.  Number-
+  keywords need to be combined with a number, flag-keywords have just to
+  be there to set something. All names of the number-keywords correspond
+  to parameters of the shell generator.
+
+  Number-keywords contain a ":" to remind you to write a number behind
+  them. Flag-keywords are written in capital letters.
+
+  Keywords to change the so called "angular parameters" are "alpha:",
+  "beta:", "phi:", "omega:", "my:".
+
+  Keywords to change the "linear parameters" are "A:", "a:", "b:".
+
+  Keywords for "dimension parameters" are "Scale:", "smin:", "smax",
+  "sd:", "omin:", "omax:", "od:".
+
+  The keywords for nodule 1 are: "P:", "L:", "W1:", "W2:", "N:".
+
+  Nodule 2: "P2:", "L2:", "W12:", "W22:", "N2:", "Off2:".
+
+  Nodule 3: "P3:", "L3:", "W13:", "W23:", "N3:", "Off3:".
+
+  Keywords for wall thickness: "wall:" and "wlen:"
+
+  For an exact description of the parameters read section
+  ``Parameters''.
+
+  Keywords for switching output formats are "RPL", "T3D", "RAW", "X3D",
+  "BEZ", "RIB", "SCD", "SCB", "TSP", "DXF", "DXC", "DXP".  See section
+  ``Output Formats'' for more information regarding the formats.
+
+  Keywords for special calculation modi are "NORMAL", "NODULE",
+  "Scano:", "Hdo:", "Scans:", "Hds:", "GCURVE", "GCx:", "GCy:".  See
+  section ``Calculation Modi'' for more information.
+
+  Some remarks: Everything is case sensitive ("rpl" is not the same as
+  "RPL")!  Double use of the same keyword causes an overwriting of the
+  last set value.  Only one keyword per line is allowed. Maximum line
+  length is 255 characters.
+
+  8.  Output Formats
+
+  ShellyLib is able generate files in the following formats:
+
+  o  Format, Program, Output-Keyword,  file type (content), remarks.
+
+  o  POV, POV-Ray, "BEZ" / "POV", Bezier Patches, Does not work in
+     Nodule-mode! For Nodule-mode use "RAW" and RAW2POV.
+
+  o  RPL, Real3D, "RPL", executable RPL-macro, creates a B-Spline-mesh
+     in Normal-mode/GenCurve-mode or a Triset (triangles) in Nodule-
+     mode.
+
+  o  RIB, various, "RIB", RenderMan Interface Bytestream creates NURBS.
+     Does not work in Nodule-mode.
+
+  o  3DMF, various, "3DM" / "3DN", 3D MetaFile (ASCII) NURBS ("3DN") or
+     triangles ("3DM"), NURBS do not work in Nodule-mode.
+
+  o  DXF, various, "DXF" / "DXC" / "DXP", B-Splines ("DXF"), PolyFace-
+     Meshes ("DXP") or 3DFaces ("DXC"), "DXF" and "DXP" do not work in
+     Nodule-mode.
+
+  o  T3D, T3DLib / Imagine, "T3D", triangle mesh, Note, that Imagine
+     cannot directly read these files, convert them from ASCII to binary
+     using T3DLib first.
+
+  o  RAW, RAW2POV, "RAW", triangles,
+
+  o  COB, Truespace, "TSP", triangles
+
+  o  SCD, SCED, "SCD" / "SCB", contains a triangle mesh ("SCD") or
+     Bezier patches ("SCB"), "SCB" does not work in Nodule-mode.
+
+  o  X3D, X3D, "X3D", triangles, For fast previewing (wireframe) using
+     X11.
+
+  For more information regarding compatibility issues (will program xy
+  read the file?) refer to the compatibility section of the ShellyLib
+  Home Page <http://www.shelly.core.de/>.
+
+  8.1.  Surface Types
+
+  ShellyLib allows you to save the generated shells in a variety of
+  different representations, depending on the output format you have
+  choosen (and sometimes additionally from the calculation mode).  It is
+  important to know some things about the different surfaces, and how
+  they are generated:
+
+  o  Bezier-patches result from "POV" or "SCB" output mode.  POVRay and
+     SCED do only allow patches that contain 16 controlpoints, four in
+     each direction. Bezier surfaces interpolate only the four
+     controlpoints on the corners of the patch. Hence, it is not
+     possible to simply write Bezier-patches in a way that each point
+     calculated by the shell generator becomes a controlpoint of the
+     Bezier-patches.  This would result in discontinuities and even
+     holes at patch boundaries.  Instead, new controlpoints have to be
+     calculated so that the transition between two patches is smooth.
+     For each four points of the original data from the shell generator
+     a Bezier-patch with 16 controlpoints is being calculated. This may
+     increase filesizes considerably!  All generated points at the
+     boundaries of the shell will be discarded.  All other points
+     generated by ShellyLib will be interpolated by the resulting
+     surface. The algorithm used to calculate the controlpoints may
+     deliver bad results in highly curved regions (thin long nodules,
+     for example).  You need to generate atleast four points in each
+     direction to write a file in "POV" or "SCB" format!  Even though a
+     single Bezier-patch is built from four generated points, atleast 16
+     points are needed to write a single patch (four in each direction).
+     This is because the calculation of the controlpoints of the Bezier-
+     patch needs information about the surrounding patches.
+
+  o  B-Splines result from "RPL" output mode if ShellyLib is in Normal-
+     mode or GenCurve-mode.  The resulting surface does not interpolate
+     any generated points, and is much smoother than the Bezier-output.
+     You can make Real3D interpolate the outer points of the mesh using
+     "triple ends" in the "Modify/Freeform" menu (of Real3D, that is).
+     It may be necessary to increase the length of nodules (parameter
+     "L:", "L2:" and "L3:") to achieve proper nodule heights.
+
+  o  NURBS result from "RIB" output mode if ShellyLib is in Normal-mode
+     or GenCurve-mode.  The resulting surface does only interpolate all
+     the endpoints of the surface in S-direction. This is achieved by
+     high knotvalues for these points. This has been done to ease the
+     work with the generation curve editor (see section ``The Generation
+     Curve Editor''). This way start and end point of the specified
+     generation curve are touched by the surface. The endpoints in O-
+     direction are not interpolated in order to achieve a smooth round
+     surface.  Atleast four points in each direction are needed.  The
+     shells rendered with GLU-NURBS and the shells rendered using the
+     "RIB" output should look exactly the same.
+
+  9.  Addresses, Pointers, Literature, Acknowledgements
+
+  The author may be contacted via e-mail:
+
+  rschultz@informatik.uni-rostock.de
+
+  or snail mail:
+
+  Randolf Schultz
+  Unter den Linden 51
+  19079 Mirow
+  Germany
+
+  New versions and additional information may be obtained via the
+  ShellyLib Home Page <http://www.shelly.core.de/>.
+
+  Other resources:
+
+  o  Tcl/Tk:
+
+     Tcl/Tk home <http://www.sunscript.com>
+
+  o  Mesa (a 3D-library with an API similar to OpenGL):
+
+     The Mesa Home Page <http://www.ssec.wisc.edu/~brianp/Mesa.html>
+
+  o  Togl (The missing link between OpenGL and Tcl/Tk):
+
+     Togl Home Page <http://www.ssec.wisc.edu/~brianp/Togl.html>
+
+  o  The SGML-Tools (formerly named Linuxdox-SGML) Home Page:
+
+     SGML-Tools <http://pobox.com/~cg/sgmltools>
+
+  The following literature has been of much help
+
+  o  Digital Seashells, M.B. Cortie, Computer and Graphics, Vol. 17, No.
+     1, pp. 79-84, 1993
+
+  o  Shells, S. Peter Dance, Harper Collins Publishers 1992, ISBN 0 7322
+     0067 9
+
+  o  The Algorithmic Beauty of Sea Shells, Hans Meinhardt, Springer-
+     Verlag Berlin Heidelberg 1995, ISBN 3 540 57842 0
+
+  Last, but not least, I would like to thank the following people for
+  their invaluable help:
+
+  o  Gini, for moral support and improving my english
+
+  o  Juggi, for help with autoconf, ideas, Beta-test
+
+  o  Pink, for constructive criticism, lighting
+
+  o  Lefti, for WWW-design
+
+  o  coto, for Beta-test
+
+  o  ill, for providing a home for the website
+

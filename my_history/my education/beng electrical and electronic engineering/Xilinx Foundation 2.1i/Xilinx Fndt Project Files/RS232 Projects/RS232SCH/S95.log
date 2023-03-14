@@ -1,0 +1,79 @@
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM:  Warning   L-1/C0 : #0 Warning: Latch inferred in design 'Decoder' read with   'hdlin_check_no_latch'.  (HDL-307) 
+CM:  0 error(s) 1 warning(s) found
+CM: Synthesis successful (Warnings found)
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: Symbol 'DECODER' successfully created
+CM: 
+CM: Checking...
+CM:  Error   L8/C0 : #0 Error: C:/Fndtn/Active/Projects/RS232SCH/Decoder.vhd  line 8   B is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L8/C0 : #0 Error: C:/Fndtn/Active/Projects/RS232SCH/Decoder.vhd  line 8   RESET is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L8/C0 : #0 Error: C:/Fndtn/Active/Projects/RS232SCH/Decoder.vhd  line 8   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM:  Warning   L8/C0 : #0 Warning: Variable 'B11' is being read    in routine Decoder line 8 in file 'C:/Fndtn/Active/Projects/RS232SCH/Decoder.vhd',    but is not in the process sensitivity list of the block which begins    there.  (HDL-179) 
+CM:  Warning   L8/C0 : #0 Warning: Variable 'B8' is being read    in routine Decoder line 8 in file 'C:/Fndtn/Active/Projects/RS232SCH/Decoder.vhd',    but is not in the process sensitivity list of the block which begins    there.  (HDL-179) 
+CM:  Warning   L8/C0 : #0 Warning: Variable 'B10' is being read    in routine Decoder line 8 in file 'C:/Fndtn/Active/Projects/RS232SCH/Decoder.vhd',    but is not in the process sensitivity list of the block which begins    there.  (HDL-179) 
+CM:  Warning   L8/C0 : #0 Warning: Variable 'B9' is being read    in routine Decoder line 8 in file 'C:/Fndtn/Active/Projects/RS232SCH/Decoder.vhd',    but is not in the process sensitivity list of the block which begins    there.  (HDL-179) 
+CM:  Warning   L8/C0 : #0 Warning: Variable 'B7' is being read    in routine Decoder line 8 in file 'C:/Fndtn/Active/Projects/RS232SCH/Decoder.vhd',    but is not in the process sensitivity list of the block which begins    there.  (HDL-179) 
+CM:  Warning   L8/C0 : #0 Warning: Variable 'B6' is being read    in routine Decoder line 8 in file 'C:/Fndtn/Active/Projects/RS232SCH/Decoder.vhd',    but is not in the process sensitivity list of the block which begins    there.  (HDL-179) 
+CM:  Warning   L-1/C0 : #0 Warning: Latch inferred in design 'Decoder' read with   'hdlin_check_no_latch'.  (HDL-307) 
+CM:  0 error(s) 7 warning(s) found
+CM: Synthesis successful (Warnings found)
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: Symbol 'DECODER' successfully updated
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM:  Warning   L-1/C0 : #0 Warning: Latch inferred in design 'Decoder' read with   'hdlin_check_no_latch'.  (HDL-307) 
+CM:  0 error(s) 1 warning(s) found
+CM: Synthesis successful (Warnings found)
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: Symbol 'DECODER' successfully updated
+CM: 
+CM: Netlist is up-to-date
+CM: Symbol 'DECODER' successfully created
+CM: 
+CM:  Error   L2/C0 : #0 Error: C:/Fndtn/Active/Projects/RS232SCH/Decoder.vhd  line 2   Syntax error.  (VSS-1081) 
+CM:  Warning   L-1/C0 : #0 Warning: The entity 'Decoder' is out of date with respect to its   source file 'C:/Fndtn/Active/Projects/RS232SCH/Decoder.vhd'.  (LBR-3) 
+CM:  1 error(s) 1 warning(s) found
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM:  Warning   L-1/C0 : #0 Warning: Latch inferred in design 'Decoder' read with   'hdlin_check_no_latch'.  (HDL-307) 
+CM:  0 error(s) 1 warning(s) found
+CM: Synthesis successful (Warnings found)
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: Symbol 'DECODER' successfully updated
+CM: 
+CM: 
+CM: 
+CM:  Warning   L-1/C0 : #0 Warning: Latch inferred in design 'Parity_Test' read with   'hdlin_check_no_latch'.  (HDL-307) 
+CM:  0 error(s) 1 warning(s) found
+CM: Synthesis successful (Warnings found)
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: Symbol 'PARITY_TEST' successfully created
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM:  Warning   L-1/C0 : #0 Warning: Latch inferred in design 'Parity_Test' read with   'hdlin_check_no_latch'.  (HDL-307) 
+CM:  0 error(s) 1 warning(s) found
+CM: Synthesis successful (Warnings found)
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: Symbol 'PARITY_TEST' successfully created
+CM: 
+CM:  Warning   L-1/C0 : #0 Warning: Latch inferred in design 'Decoder' read with   'hdlin_check_no_latch'.  (HDL-307) 
+CM:  0 error(s) 1 warning(s) found
+CM: Synthesis successful (Warnings found)
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: Symbol 'DECODE' successfully created

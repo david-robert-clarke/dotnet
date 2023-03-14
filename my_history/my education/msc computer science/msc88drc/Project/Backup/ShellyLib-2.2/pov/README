@@ -1,0 +1,7 @@
+Example scene script for POV-Ray: 
+
+Save your .pov file as "shell.pov" into this directory, 
+then call pov this way:
+
+ >povray +i scene.pov +o ...
+

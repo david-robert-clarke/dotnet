@@ -1,0 +1,124 @@
+/**
+* A class to represent Hexagons, which can be printed on a simple character 
+* display. A hexagon has a size, and two char values, 
+* which are used to print the background and foreground of the figure.
+**/
+public class Hexagon
+{
+private int size;
+private char background,foreground;
+
+		/**
+		* Default constructor to create a Hexagon of size 5, with ' ' as the 
+		* background character, and '*' as the foreground character.
+		**/
+ 		Hexagon()
+		{
+			size = 5;
+			background = ' ';
+			foreground = '*';
+		}
+
+		/**
+		* Constructor to create a Hexagon with the specified values.
+		*
+		* @param s the size of the Hexagon.
+		* @param back the character to be used for printing the background.
+		* @param fore the character to be used for printing the foreground.
+		**/
+		Hexagon(int s, char back, char fore)
+		{
+			size = s;
+			background = back;
+			foreground = fore;
+		}
+
+		/**
+		* Set the character to be used for printing the background of the Hexagon.
+		* 
+		* @param back the background character
+		**/
+		void setBackground(char back)
+		{
+				background = back;
+		}
+
+		/**
+		* Set the character to be used for printing the foreground of the Hexagon.
+		* 
+		* @param fore the foreground character
+		**/
+		void setForeground(char fore)
+		{
+        foreground = fore;                     
+		}	
+
+		/**
+		* Set the size of the Hexagon.
+		*
+		* @param s the new size for the Hexagon
+		**/
+		void setSize(int s)
+		{
+				size = s;
+		}
+
+		/**
+		* Get the character used for printing the background of the Hexagon.
+		*
+		* @return the char used for the Hexagon's background.
+		**/
+		char getBackground()
+		{
+				return background;
+		}
+
+		/**
+		* Get the character used for printing the foreground of the Hexagon.
+		*
+		* @return the char used for the Hexagon's foreground.
+		**/
+		char getForeground()
+		{
+				return foreground;
+		}
+
+		/**
+		* Get the current size of the Hexagon.
+		*
+		* @return the size of the Hexagon as an int.
+		**/
+		int getSize()
+		{
+				return size;
+		}
+
+		/**
+		* Print a representation of the Hexagon to the standard output 
+		* (System.out).
+		**/
+		void print()
+		{
+
+		}
+
+		/**
+		* Print an inverse representation of the Hexagon to the standard 
+		* output - i.e. the background character is used in place of the foreground 
+		* character and vice-versa.
+		**/
+		void printInverse()
+		{
+
+		}
+
+		/**
+		* Print an outline representation of the Hexagon to the standard output. 
+		**/
+		void printOutline()
+		{
+
+	}
+
+	
+}

@@ -1,0 +1,138 @@
+package I;
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.Calendar;
+
+/**
+  Used by AddStaffOrderUI, inserts a new staff order into the staff table
+ 
+  @author David Clarke
+**/
+public class AddStaffOrderQuery
+{
+  private Connection c;
+  private ArrayList staffOrder;
+  private String sorder_no, sid, sorder_date, supid;
+  private String iid, sno_bought;
+  private String stockLevel;//currentStockLevel
+
+  /**
+   * Constructor to create a new add staff order query
+   *
+   * @param supplierInfo
+   **/
+  public AddStaffOrderQuery(ArrayList sOrder)
+  {      
+    c = MyConnection.C;
+    staffOrder = new ArrayList();
+    staffOrder = sOrder;
+    sid = (String)staffOrder.get(0);
+    supid = (String)staffOrder.get(1);  
+    sorder_date = (String)staffOrder.get(2); 
+    sorder_no = "";
+  }
+
+  /**
+   * Execute the query
+   **/
+  public void exeQuery()
+  {
+    try 
+    {
+      Statement stmt = c.createStatement();
+      ResultSet rs = stmt.executeQuery("SELECT MAX(sorder_no) " +
+				       "FROM staff_order");
+      
+      String sOrderNo ="";
+	
+      while (rs.next())
+      {
+	sOrderNo = rs.getString("max");//string order number
+      }
+      //calculates next order number
+      int iOrderNo = Integer.parseInt(sOrderNo);//integer order number
+      int niOrderNo = iOrderNo + 1; //new order number
+	
+      if(niOrderNo < 10)
+      {
+	sorder_no = "00000" + niOrderNo;
+      }
+      else if(niOrderNo < 100)
+      {
+	sorder_no = "0000" + niOrderNo;
+      }
+      else if(niOrderNo < 1000)
+      {
+	sorder_no = "000" + niOrderNo;
+      }
+      else if(niOrderNo < 10000)
+      {
+	sorder_no = "00" + niOrderNo;
+      }
+      else if(niOrderNo < 100000)
+      {
+	sorder_no = "0" + niOrderNo;
+      }
+      else
+      {
+	sorder_no = "" + niOrderNo;
+      }	
+	
+      //add staff order entry
+      stmt.executeUpdate("INSERT INTO staff_order VALUES ('" +
+			 sorder_no + "','"+
+			 sid + "', DATE '" +
+			 sorder_date + "','" +
+			 supid + "')");      
+	
+      //add staff order details entry
+      for(int i=3;i<staffOrder.size();i=i+2)
+      {
+	iid = (String)staffOrder.get(i);	
+	sno_bought = (String)staffOrder.get(i+1);
+	  
+	  
+	stmt.executeUpdate("INSERT INTO sorder_details " +
+			   "VALUES ('" + sorder_no +"','"
+			   + iid + "'," + sno_bought + ")");
+	  
+	//query that searches for a tuple in the stock table that matches
+	//one of the new added items
+	Statement stmt2 = c.createStatement();
+	  
+	ResultSet rs2 = stmt2.executeQuery("SELECT iid,supid,stock_level " +
+					   "FROM stock " +
+					   "WHERE iid = '" + iid + "' AND "+
+					   "supid = '" + supid + "'");
+	  
+	while (rs2.next())//careful, use before rs2.first()
+	{
+	  stockLevel = rs2.getString("stock_level");
+	}
+	  
+	boolean rowPresent = rs2.first();//is the row present	
+	System.out.println("" + rowPresent);
+	  
+	if(rowPresent) //if row is present, update it's stock level
+	{
+	    
+	  //new stock level is current stock level plus sno_bought
+	  int newStockLevel = Integer.parseInt(stockLevel) 
+	    + Integer.parseInt(sno_bought);
+	    
+	  String newStockLevelString = (newStockLevel + "");
+	    
+	  Statement stmt3 = c.createStatement();
+	  stmt3.executeUpdate("UPDATE stock SET stock_level ="+
+			      newStockLevelString +
+			      " WHERE iid = '" + iid + "' AND "+
+			      "supid = '" + supid + "'");
+	}	
+      }	
+    }
+    catch (SQLException e)
+    {
+      System.out.println( "An exception occurred in AddStaffOrderQuery. " + e);
+    }
+  }
+}

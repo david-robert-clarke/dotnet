@@ -1,0 +1,43 @@
+package I;
+import javax.swing.*;
+import java.awt.*;
+
+public class ScrollPaneJListDemo
+{
+    public static void main(String[] args)
+    {
+        ScrollPaneJListDeno frame = new ScrollPaneJListDeno();
+        frame.setTitle("Staff Details"); 
+        frame.setSize(300,300);
+        frame.show();
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setResizable(false);       
+    }
+}   
+
+class ScrollPaneJListDeno extends JFrame
+{
+    private JList list;
+    private JPanel areaPanel;
+    private JScrollBar thisBar;
+
+    public ScrollPaneJListDeno()
+    {
+         //Create the list of images and put it in a scroll pane
+        String[] dave = new String[]{"Alan", "Fred", "John", "Betty", "Winifred","BOB", "STEVE", "JIMBO", "GLYNN", "JOHN", "TONY", "TIMMY"};
+        list = new JList(dave);
+        list.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+        list.setSelectedIndex(0);
+        thisBar = new JScrollBar();
+        JScrollPane listScrollPane = new JScrollPane(list);
+
+        Dimension minimumSize = new Dimension(2, 2);
+        listScrollPane.setMinimumSize(minimumSize);
+        areaPanel = new JPanel();   
+        areaPanel.add(list);
+        areaPanel.add(thisBar);
+
+        Container contentPane = getContentPane();
+        contentPane.add(areaPanel, "Center");
+    }
+} 

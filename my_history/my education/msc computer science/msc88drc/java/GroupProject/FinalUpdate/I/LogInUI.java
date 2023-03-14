@@ -1,0 +1,122 @@
+package I;
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import java.awt.Component;
+import javax.swing.JOptionPane;
+/**
+   Log-In Screen for Staff and Managers 
+   
+   @author David Clarke 
+**/
+public class LogInUI extends JFrame
+{ 
+  private JFrame frame; 
+  private JLabel userNameLabel, passwordLabel, blankLabel;
+  private JTextField userNameField, passwordField;
+  private JButton okayButton, cancelButton;
+  private String staffID, password;
+  
+  /**
+   * Constructor to create a new Login screen
+   **/
+  public LogInUI()
+  {
+    blankLabel = new JLabel();
+    userNameLabel = new JLabel("Login: ");
+    userNameField = new JTextField();
+    passwordLabel = new JLabel("Password: ");
+    passwordField = new JPasswordField();
+    okayButton = new JButton("OK");
+    okayButton.addActionListener(new ButtonListener0());
+    cancelButton = new JButton("Cancel");
+    cancelButton.addActionListener(new ButtonListener1());
+	
+
+    //contentPane
+
+    JPanel blankPanel = new JPanel();        
+    blankPanel.add(blankLabel);
+    blankPanel.add(blankLabel);
+
+    JPanel loginPasswordPanel = new JPanel();
+    loginPasswordPanel.setLayout(new GridLayout(4,2));
+               
+    loginPasswordPanel.add(userNameLabel);
+    loginPasswordPanel.add(userNameField);
+    loginPasswordPanel.add(passwordLabel);
+    loginPasswordPanel.add(passwordField);
+
+    loginPasswordPanel.add(blankLabel);
+    loginPasswordPanel.add(blankLabel);
+    loginPasswordPanel.add(blankLabel);
+    loginPasswordPanel.add(blankLabel);
+       
+        
+    JPanel buttonPanel = new JPanel();
+    buttonPanel.setLayout(new GridLayout(1,2));//column, tuples
+    buttonPanel.add(okayButton);
+    buttonPanel.add(cancelButton);
+
+    Container contentPane = getContentPane();
+    contentPane.add(blankPanel, "North");
+    contentPane.add(loginPasswordPanel, "Center");
+    contentPane.add(buttonPanel, "South");
+	
+  }
+
+  private class ButtonListener0 implements ActionListener //okay button press
+  {
+    public void actionPerformed (ActionEvent event)
+    {	
+      staffID = userNameField.getText();
+      password = passwordField.getText();
+      System.out.println(staffID + "\t" + password);      
+      
+      //Create a connection to the database
+      MyConnection connect = new MyConnection();
+      MyConnectionPhil connect4 = new MyConnectionPhil();
+      
+      //use a query to search for staff user name and password
+      StaffUserNamePwQuery thisQuery = 
+	new StaffUserNamePwQuery(staffID,password);
+      boolean staffFound = thisQuery.exeQuery();
+      
+      if(staffFound)
+      {	
+	//open up the staff interface
+	FindStaffFNameQuery thisQuery2 = new FindStaffFNameQuery(staffID);
+	String staffName = thisQuery2.exeQuery0();
+	String position = thisQuery2.exeQuery1();
+	StaffUI staffUI = new StaffUI(staffID,staffName,position);
+	staffUI.setSize(500,500);
+	staffUI.setTitle("Staff/Managerial Options");
+	staffUI.setLocation(500,350);
+	staffUI.show();
+	staffUI.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	staffUI.setResizable(false);
+	setVisible(false);//hide the loginUI when opening up the StaffUI
+      }
+      else
+      {
+	//close connection
+	JOptionPane.showMessageDialog(frame,"ERROR: Username and password donot match"); 
+	/*
+	conn.commit(); //somehow implement this
+	conn.close();
+	*/
+      }
+    }   
+  }
+
+  private class ButtonListener1 implements ActionListener //cancel button press
+  {
+    public void actionPerformed (ActionEvent event)
+    {
+      System.exit(0); 
+    }   
+  }
+  
+}
+

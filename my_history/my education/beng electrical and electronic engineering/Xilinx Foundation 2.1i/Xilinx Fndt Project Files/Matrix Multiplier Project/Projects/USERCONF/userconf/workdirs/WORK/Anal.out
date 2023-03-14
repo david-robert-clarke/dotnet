@@ -1,0 +1,18 @@
+**Error: C:/fndtn/active/projects/userconf/ram_int_store.vhd  line -16
+	Library logical name LOGIBLOX is not mapped to a host directory. (VSS-1071)
+USE logiblox.mvlutil.ALL;
+             ^
+**Error: C:/fndtn/active/projects/userconf/ram_int_store.vhd  line 17
+	No selected element named MVLUTIL is defined for this prefix. (VSS-573)
+USE logiblox.mvlarith.ALL;
+             ^
+**Error: C:/fndtn/active/projects/userconf/ram_int_store.vhd  line 18
+	No selected element named MVLARITH is defined for this prefix. (VSS-573)
+USE logiblox.logiblox.ALL;
+             ^
+**Error: C:/fndtn/active/projects/userconf/ram_int_store.vhd  line 19
+	No selected element named LOGIBLOX is defined for this prefix. (VSS-573)
+ARCHITECTURE sim OF RAM_INT_STORE IS
+                    ^
+**Error: C:/fndtn/active/projects/userconf/ram_int_store.vhd  line 29
+	The intermediate file for entity RAM_INT_STORE is not in the library bound to WORK. (VSS-1084)

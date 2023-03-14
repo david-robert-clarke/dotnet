@@ -1,0 +1,26 @@
+module CD4518 (CLK, CLR, Q, CO, CE) ;
+
+input CLK ;
+input CLR ;
+output [3:0] Q ;
+output CO ;
+input CE ;
+wire CO;
+reg [3:0]Q;
+
+always @(posedge CLK)
+begin
+  if(CLR)
+    Q=4'b0000;
+  else
+    if(CE) 
+      begin     
+        if(Q<4'd8) Q=Q+1'b1;
+        else Q=4'b0000;
+      end  
+end
+
+assign
+  CO = Q[3] & ~Q[2] & ~Q[1] & Q[0];
+  
+endmodule 

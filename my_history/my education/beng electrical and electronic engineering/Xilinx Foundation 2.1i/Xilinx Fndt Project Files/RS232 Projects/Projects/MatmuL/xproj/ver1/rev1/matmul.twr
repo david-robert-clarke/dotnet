@@ -1,0 +1,106 @@
+--------------------------------------------------------------------------------
+Xilinx TRACE, Version C.22
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Design file:              matmul.ncd
+Physical constraint file: matmul.pcf
+Device,speed:             xc4010xl,-09 (C 1.1.2.2 PRELIMINARY)
+Report level:             error report
+--------------------------------------------------------------------------------
+
+WARNING:Timing:181 - No timing constraints found, doing default enumeration.
+
+================================================================================
+Timing constraint: Default period analysis
+ 160 items analyzed, 0 timing errors detected.
+ Minimum period is  22.280ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: Default net enumeration
+ 50 items analyzed, 0 timing errors detected.
+ Maximum net delay is  14.756ns.
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CLK
+---------------+------------+------------+
+               |  Setup to  |  Hold to   |
+Source Pad     | clk (edge) | clk (edge) |
+---------------+------------+------------+
+MEMORY_SEL<1>  |   20.230(R)|    0.000(R)|
+MEMORY_SEL<2>  |   12.849(R)|    0.000(R)|
+MEMORY_SEL<0>  |   10.660(R)|    0.000(R)|
+RESET          |   11.069(R)|    0.000(R)|
+SOP_IN<0>      |    3.626(R)|    0.000(R)|
+SOP_IN<10>     |    3.122(R)|    0.000(R)|
+SOP_IN<11>     |    2.387(R)|    0.000(R)|
+SOP_IN<12>     |    2.382(R)|    0.000(R)|
+SOP_IN<13>     |    3.130(R)|    0.000(R)|
+SOP_IN<14>     |    3.423(R)|    0.000(R)|
+SOP_IN<15>     |    4.388(R)|    0.000(R)|
+SOP_IN<16>     |    3.698(R)|    0.000(R)|
+SOP_IN<17>     |    2.792(R)|    0.000(R)|
+SOP_IN<18>     |    1.856(R)|    0.000(R)|
+SOP_IN<19>     |    2.869(R)|    0.000(R)|
+SOP_IN<1>      |    4.510(R)|    0.000(R)|
+SOP_IN<2>      |    3.889(R)|    0.000(R)|
+SOP_IN<3>      |    4.134(R)|    0.000(R)|
+SOP_IN<4>      |    3.362(R)|    0.000(R)|
+SOP_IN<5>      |    3.179(R)|    0.000(R)|
+SOP_IN<6>      |    2.908(R)|    0.000(R)|
+SOP_IN<7>      |    2.831(R)|    0.000(R)|
+SOP_IN<8>      |    5.799(R)|    0.000(R)|
+SOP_IN<9>      |    3.174(R)|    0.000(R)|
+---------------+------------+------------+
+
+Clock CLK to Pad
+---------------+------------+
+               | clk (edge) |
+Destination Pad|   to PAD   |
+---------------+------------+
+MATRIX_PROD<0> |    7.216(R)|
+MATRIX_PROD<10>|    7.202(R)|
+MATRIX_PROD<11>|    7.202(R)|
+MATRIX_PROD<12>|    7.280(R)|
+MATRIX_PROD<13>|    7.199(R)|
+MATRIX_PROD<14>|    7.281(R)|
+MATRIX_PROD<15>|    7.196(R)|
+MATRIX_PROD<16>|    7.271(R)|
+MATRIX_PROD<17>|    7.271(R)|
+MATRIX_PROD<18>|    7.194(R)|
+MATRIX_PROD<19>|    7.284(R)|
+MATRIX_PROD<1> |    7.217(R)|
+MATRIX_PROD<2> |    7.227(R)|
+MATRIX_PROD<3> |    7.198(R)|
+MATRIX_PROD<4> |    7.206(R)|
+MATRIX_PROD<5> |    7.204(R)|
+MATRIX_PROD<6> |    7.209(R)|
+MATRIX_PROD<7> |    7.284(R)|
+MATRIX_PROD<8> |    7.226(R)|
+MATRIX_PROD<9> |    7.281(R)|
+---------------+------------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 160 paths, 50 nets, and 122 connections (100.0% coverage)
+
+Design statistics:
+   Minimum period:  22.280ns (Maximum frequency:  44.883MHz)
+   Maximum net delay:  14.756ns
+
+
+Analysis completed Thu Dec 21 19:17:36 2000
+--------------------------------------------------------------------------------
+

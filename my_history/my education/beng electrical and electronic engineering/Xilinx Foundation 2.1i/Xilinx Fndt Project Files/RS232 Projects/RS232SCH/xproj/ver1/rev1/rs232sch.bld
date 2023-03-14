@@ -1,0 +1,29 @@
+ngdbuild:  version C.22
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -p xc4002xl-09-pc84 -uc rs232sch.ucf -dd ..
+c:\fndtn\active\projects\rs232sch\rs232sch.edn rs232sch.ngd 
+
+Launcher: Executing edif2ngd "c:\fndtn\active\projects\rs232sch\rs232sch.edn"
+"C:\Fndtn\Active\Projects\RS232SCH\xproj\ver1\rs232sch.ngo"
+edif2ngd:  version C.22
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+Writing the design to
+"C:/Fndtn/Active/Projects/RS232SCH/xproj/ver1/rs232sch.ngo"...
+Reading NGO file "C:/Fndtn/Active/Projects/RS232SCH/xproj/ver1/rs232sch.ngo"
+...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "rs232sch.ucf" ...
+
+Checking timing specifications ...
+
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "rs232sch.ngd" ...
+
+Writing NGDBUILD log file "rs232sch.bld"...

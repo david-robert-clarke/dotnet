@@ -1,0 +1,9 @@
+file {
+  .version = 1;
+  entity {
+    .name = "Decoder";
+    .mra_file = "Decoder.mra";
+    .arch = {"Decoder_Arch"};
+    .syn_files = {"DECODER.syn", "DECODER__DECODER_ARCH.syn"};
+   }
+}

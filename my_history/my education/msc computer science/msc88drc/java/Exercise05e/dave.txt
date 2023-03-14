@@ -1,0 +1,3 @@
+Java Address Book File Thu Nov 28 22:25:29 GMT 2002.
+1
+Brown,Edward,0121 333 2020,,,edbrown@freeserve.co.uk,650,Pershore Road,Selly Park,Birmingham,UK,B29 1AA

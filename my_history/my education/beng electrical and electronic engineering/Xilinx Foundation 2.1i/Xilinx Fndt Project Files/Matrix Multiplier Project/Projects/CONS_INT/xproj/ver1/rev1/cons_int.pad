@@ -1,0 +1,195 @@
+PAR: Xilinx Place And Route C.16.
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+Tue Jan 23 21:01:29 2001
+
+Xilinx PAD Specification File
+*****************************
+
+Input file:       map.ncd
+Output file:      cons_int.ncd
+Part type:        xc4010xl
+Speed grade:      -09
+Package:          pc84
+
+Tue Jan 23 21:01:29 2001
+
+Pinout by Pin Name:
++------------------------------------------------+-----------+--------------+
+|                    Pin Name                    | Direction |  Pin Number  |
++------------------------------------------------+-----------+--------------+
+| A0B0_A1B2<0>                                   |  OUTPUT   | P59          |
+| A0B0_A1B2<1>                                   |  OUTPUT   | P60          |
+| A0B0_A1B2<2>                                   |  OUTPUT   | P62          |
+| A0B0_A1B2<3>                                   |  OUTPUT   | P19          |
+| A0B0_A1B2<4>                                   |  OUTPUT   | P66          |
+| A0B1_A1B3<0>                                   |  OUTPUT   | P67          |
+| A0B1_A1B3<1>                                   |  OUTPUT   | P77          |
+| A0B1_A1B3<2>                                   |  OUTPUT   | P41          |
+| A0B1_A1B3<3>                                   |  OUTPUT   | P78          |
+| A0B1_A1B3<4>                                   |  OUTPUT   | P40          |
+| A2B0_A3B2<0>                                   |  OUTPUT   | P44          |
+| A2B0_A3B2<1>                                   |  OUTPUT   | P58          |
+| A2B0_A3B2<2>                                   |  OUTPUT   | P61          |
+| A2B0_A3B2<3>                                   |  OUTPUT   | P38          |
+| A2B0_A3B2<4>                                   |  OUTPUT   | P48          |
+| A2B1_A3B3<0>                                   |  OUTPUT   | P5           |
+| A2B1_A3B3<1>                                   |  OUTPUT   | P84          |
+| A2B1_A3B3<2>                                   |  OUTPUT   | P56          |
+| A2B1_A3B3<3>                                   |  OUTPUT   | P57          |
+| A2B1_A3B3<4>                                   |  OUTPUT   | P15          |
+| CLK                                            |  INPUT    | P13          |
+| MODE_SEL<0>                                    |  INPUT    | P26          |
+| MODE_SEL<1>                                    |  INPUT    | P25          |
+| RESET                                          |  INPUT    | P39          |
++------------------------------------------------+-----------+--------------+
+|                Dedicated or Special Pin Name               |  Pin Number  |
++------------------------------------------------------------+--------------+
+| /PROG                                                      | P55          |
+| CCLK                                                       | P73          |
+| DONE                                                       | P53          |
+| GND                                                        | P12          |
+| GND                                                        | P52          |
+| GND                                                        | P31          |
+| GND                                                        | P21          |
+| GND                                                        | P43          |
+| GND                                                        | P64          |
+| GND                                                        | P76          |
+| GND                                                        | P1           |
+| M0                                                         | P32          |
+| M1                                                         | P30          |
+| M2                                                         | P34          |
+| TDO                                                        | TDO          |
+| TDO                                                        | P75          |
+| VCC                                                        | P11          |
+| VCC                                                        | P74          |
+| VCC                                                        | P22          |
+| VCC                                                        | P33          |
+| VCC                                                        | P63          |
+| VCC                                                        | P54          |
+| VCC                                                        | P42          |
+| VCC                                                        | P2           |
++------------------------------------------------------------+--------------+
+
+Pinout by Pin Number:
++--------------+-----------------------------------+-----------+------------+
+|  Pin Number  |            Pin Name               | Direction | Constraint |
++--------------+-----------------------------------+-----------+------------+
+| P1           | (GND)                             |           |            |
+| P2           | (VCC)                             |           |            |
+| P3           | ---                               |  UNUSED   |            |
+| P4           | ---                               |  UNUSED   |            |
+| P5           | A2B1_A3B3<0>                      |  OUTPUT   |            |
+| P6           | ---                               |  UNUSED   |            |
+| P7           | ---                               |  UNUSED   |            |
+| P8           | ---                               |  UNUSED   |            |
+| P9           | ---                               |  UNUSED   |            |
+| P10          | ---                               |  UNUSED   |            |
+| P11          | (VCC)                             |           |            |
+| P12          | (GND)                             |           |            |
+| P13          | CLK                               |  INPUT    |            |
+| P14          | ---                               |  UNUSED   |            |
+| P15          | A2B1_A3B3<4>                      |  OUTPUT   |            |
+| P16          | ---                               |  UNUSED   |            |
+| P17          | ---                               |  UNUSED   |            |
+| P18          | ---                               |  UNUSED   |            |
+| P19          | A0B0_A1B2<3>                      |  OUTPUT   |            |
+| P20          | ---                               |  UNUSED   |            |
+| P21          | (GND)                             |           |            |
+| P22          | (VCC)                             |           |            |
+| P23          | ---                               |  UNUSED   |            |
+| P24          | ---                               |  UNUSED   |            |
+| P25          | MODE_SEL<1>                       |  INPUT    |            |
+| P26          | MODE_SEL<0>                       |  INPUT    |            |
+| P27          | ---                               |  UNUSED   |            |
+| P28          | ---                               |  UNUSED   |            |
+| P29          | ---                               |  UNUSED   |            |
+| P30          | (M1)                              |           |            |
+| P31          | (GND)                             |           |            |
+| P32          | (M0)                              |           |            |
+| P33          | (VCC)                             |           |            |
+| P34          | (M2)                              |           |            |
+| P35          | ---                               |  UNUSED   |            |
+| P36          | ---                               |  UNUSED   |            |
+| P37          | ---                               |  UNUSED   |            |
+| P38          | A2B0_A3B2<3>                      |  OUTPUT   |            |
+| P39          | RESET                             |  INPUT    |            |
+| P40          | A0B1_A1B3<4>                      |  OUTPUT   |            |
+| P41          | A0B1_A1B3<2>                      |  OUTPUT   |            |
+| P42          | (VCC)                             |           |            |
+| P43          | (GND)                             |           |            |
+| P44          | A2B0_A3B2<0>                      |  OUTPUT   |            |
+| P45          | ---                               |  UNUSED   |            |
+| P46          | ---                               |  UNUSED   |            |
+| P47          | ---                               |  UNUSED   |            |
+| P48          | A2B0_A3B2<4>                      |  OUTPUT   |            |
+| P49          | ---                               |  UNUSED   |            |
+| P50          | ---                               |  UNUSED   |            |
+| P51          | ---                               |  UNUSED   |            |
+| P52          | (GND)                             |           |            |
+| P53          | (DONE)                            |           |            |
+| P54          | (VCC)                             |           |            |
+| P55          | (/PROG)                           |           |            |
+| P56          | A2B1_A3B3<2>                      |  OUTPUT   |            |
+| P57          | A2B1_A3B3<3>                      |  OUTPUT   |            |
+| P58          | A2B0_A3B2<1>                      |  OUTPUT   |            |
+| P59          | A0B0_A1B2<0>                      |  OUTPUT   |            |
+| P60          | A0B0_A1B2<1>                      |  OUTPUT   |            |
+| P61          | A2B0_A3B2<2>                      |  OUTPUT   |            |
+| P62          | A0B0_A1B2<2>                      |  OUTPUT   |            |
+| P63          | (VCC)                             |           |            |
+| P64          | (GND)                             |           |            |
+| P65          | ---                               |  UNUSED   |            |
+| P66          | A0B0_A1B2<4>                      |  OUTPUT   |            |
+| P67          | A0B1_A1B3<0>                      |  OUTPUT   |            |
+| P68          | ---                               |  UNUSED   |            |
+| P69          | ---                               |  UNUSED   |            |
+| P70          | ---                               |  UNUSED   |            |
+| P71          | ---                               |  UNUSED   |            |
+| P72          | ---                               |  UNUSED   |            |
+| P73          | (CCLK)                            |           |            |
+| P74          | (VCC)                             |           |            |
+| P75          | (TDO)                             |           |            |
+| P76          | (GND)                             |           |            |
+| P77          | A0B1_A1B3<1>                      |  OUTPUT   |            |
+| P78          | A0B1_A1B3<3>                      |  OUTPUT   |            |
+| P79          | ---                               |  UNUSED   |            |
+| P80          | ---                               |  UNUSED   |            |
+| P81          | ---                               |  UNUSED   |            |
+| P82          | ---                               |  UNUSED   |            |
+| P83          | ---                               |  UNUSED   |            |
+| P84          | A2B1_A3B3<1>                      |  OUTPUT   |            |
+| TDO          | (TDO)                             |           |            |
++--------------+-----------------------------------+-----------+------------+
+
+#
+# To preserve the pinout above for future design iterations,
+# simply run "Lock Pins..." from the Design Manager's Design 
+# menu, or invoke PIN2UCF from the command line. The location constraints
+# above will be written into your specified UCF file. (The constraints
+# listed below are in PCF format and cannot be directly used in the UCF file).
+#
+COMP "A0B0_A1B2<0>" LOCATE = SITE "P59" ; 
+COMP "A0B0_A1B2<1>" LOCATE = SITE "P60" ; 
+COMP "A0B0_A1B2<2>" LOCATE = SITE "P62" ; 
+COMP "A0B0_A1B2<3>" LOCATE = SITE "P19" ; 
+COMP "A0B0_A1B2<4>" LOCATE = SITE "P66" ; 
+COMP "A0B1_A1B3<0>" LOCATE = SITE "P67" ; 
+COMP "A0B1_A1B3<1>" LOCATE = SITE "P77" ; 
+COMP "A0B1_A1B3<2>" LOCATE = SITE "P41" ; 
+COMP "A0B1_A1B3<3>" LOCATE = SITE "P78" ; 
+COMP "A0B1_A1B3<4>" LOCATE = SITE "P40" ; 
+COMP "A2B0_A3B2<0>" LOCATE = SITE "P44" ; 
+COMP "A2B0_A3B2<1>" LOCATE = SITE "P58" ; 
+COMP "A2B0_A3B2<2>" LOCATE = SITE "P61" ; 
+COMP "A2B0_A3B2<3>" LOCATE = SITE "P38" ; 
+COMP "A2B0_A3B2<4>" LOCATE = SITE "P48" ; 
+COMP "A2B1_A3B3<0>" LOCATE = SITE "P5" ; 
+COMP "A2B1_A3B3<1>" LOCATE = SITE "P84" ; 
+COMP "A2B1_A3B3<2>" LOCATE = SITE "P56" ; 
+COMP "A2B1_A3B3<3>" LOCATE = SITE "P57" ; 
+COMP "A2B1_A3B3<4>" LOCATE = SITE "P15" ; 
+COMP "CLK" LOCATE = SITE "P13" ; 
+COMP "MODE_SEL<0>" LOCATE = SITE "P26" ; 
+COMP "MODE_SEL<1>" LOCATE = SITE "P25" ; 
+COMP "RESET" LOCATE = SITE "P39" ; 
+#

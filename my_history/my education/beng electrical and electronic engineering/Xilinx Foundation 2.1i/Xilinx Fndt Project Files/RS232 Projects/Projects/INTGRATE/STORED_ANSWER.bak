@@ -1,0 +1,44 @@
+-- FINAL YEAR PROJECT
+-- BY DAVID_R_CLARKE
+-- CREATED 21_12_2000
+
+-- PACKAGE DECLARATIONS
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE WORK.MATRIX_PACKAGE.ALL;
+-- NAME OF ENTITY WITH INPUT AND OUTPUT PORTS
+ENTITY STORED_ANSWER IS
+     PORT (CLK, RESET  : IN ONE_BIT; 
+           MEMORY_SEL  : IN THREE_BITS;
+           SOP_IN      : IN TWENTY_BITS; 
+           MATRIX_PROD : OUT TWENTY_BITS);
+END ENTITY STORED_ANSWER;
+-- ENTITIES ARCHITECTURE, LOGIC BLOCKS
+ARCHITECTURE BEHAVIOURAL OF STORED_ANSWER IS
+     BEGIN
+          SORT_DATA : PROCESS IS
+               BEGIN
+                    IF RISING_EDGE(CLK) THEN
+                         IF RESET = '1' THEN
+                             MATRIX_PROD <= X"00000";
+                         ELSE
+                              IF MEMORY_SEL = "111" THEN
+                                   MATRIX_PROD <= SOP_IN;
+                              ELSIF MEMORY_SEL = "110" THEN
+                                   MATRIX_PROD(19 DOWNTO 10) <= SOP_IN(19 DOWNTO 10);
+                              ELSIF MEMORY_SEL = "101" THEN
+                                   MATRIX_PROD(9 DOWNTO 0)   <= SOP_IN(9 DOWNTO 0);
+                              ELSIF MEMORY_SEL = "100" THEN
+                                   MATRIX_PROD(19 DOWNTO 15) <= SOP_IN(19 DOWNTO 15);
+                              ELSIF MEMORY_SEL = "011" THEN
+                                   MATRIX_PROD(14 DOWNTO 10) <= SOP_IN(14 DOWNTO 10);
+                              ELSIF MEMORY_SEL = "010" THEN
+                                   MATRIX_PROD(9 DOWNTO 5)   <= SOP_IN(9 DOWNTO 5);
+                              ELSIF MEMORY_SEL = "001" THEN
+                                   MATRIX_PROD(4 DOWNTO 0)   <= SOP_IN(4 DOWNTO 0);
+                              END IF;
+                         END IF;
+                    END IF;
+                               
+               END PROCESS SORT_DATA;
+     END ARCHITECTURE BEHAVIOURAL;

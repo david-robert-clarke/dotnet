@@ -1,0 +1,63 @@
+<HTML>
+<HEAD>
+<TITLE>ShellyLibV2.2: File Format</TITLE>
+</HEAD>
+<BODY>
+<A HREF="sl-6.html">Previous</A>
+<A HREF="sl-8.html">Next</A>
+<A HREF="sl.html#toc7">Table of Contents</A>
+<HR>
+<H2><A NAME="sec-fifo"></A> <A NAME="s7">7. File Format</A> </H2>
+
+<P>ShellyLib uses files in a simple format to store sets of parameters.
+You should use a characteristic filename extension like <CODE>".shy"</CODE>
+for these files. However, this is not mandatory.</P>
+<P>Every line of the file is scanned for keywords.
+Lines that start with an <CODE>"#"</CODE> are fully ignored.
+If a line contains no keyword it is treated like a comment.</P>
+<P>Otherwise the number behind the keyword is copied into an internal 
+variable or a flag is set. This implies, that there are two types
+of keywords, so called number-keywords and flag-keywords.
+Number-keywords need to be combined with a number, flag-keywords
+have just to be there to set something. All names of the number-keywords
+correspond to parameters of the shell generator.</P>
+<P>Number-keywords contain a <CODE>":"</CODE> to remind you to write a number
+behind them. Flag-keywords are written in capital letters.</P>
+<P>Keywords to change the so called "angular parameters" are <CODE>"alpha:"</CODE>,
+<CODE>"beta:"</CODE>, <CODE>"phi:"</CODE>, <CODE>"omega:"</CODE>, <CODE>"my:"</CODE>.</P>
+<P>Keywords to change the "linear parameters" are <CODE>"A:"</CODE>, <CODE>"a:"</CODE>, <CODE>"b:"</CODE>.</P>
+<P>Keywords for "dimension parameters" are <CODE>"Scale:"</CODE>, <CODE>"smin:"</CODE>,
+<CODE>"smax"</CODE>, <CODE>"sd:"</CODE>, <CODE>"omin:"</CODE>, <CODE>"omax:"</CODE>, <CODE>"od:"</CODE>.</P>
+<P>The keywords for nodule 1 are: <CODE>"P:"</CODE>, <CODE>"L:"</CODE>, <CODE>"W1:"</CODE>,
+<CODE>"W2:"</CODE>, <CODE>"N:"</CODE>.</P>
+<P>Nodule 2: <CODE>"P2:"</CODE>, <CODE>"L2:"</CODE>, <CODE>"W12:"</CODE>, <CODE>"W22:"</CODE>,
+<CODE>"N2:"</CODE>, <CODE>"Off2:"</CODE>.</P>
+<P>Nodule 3: <CODE>"P3:"</CODE>, <CODE>"L3:"</CODE>, <CODE>"W13:"</CODE>, <CODE>"W23:"</CODE>,
+<CODE>"N3:"</CODE>, <CODE>"Off3:"</CODE>.</P>
+<P>Keywords for wall thickness:
+<CODE>"wall:"</CODE> and <CODE>"wlen:"</CODE></P>
+<P>For an exact description of the parameters read section
+<A HREF="sl-5.html#sec-para">Parameters</A>.</P>
+<P>Keywords for switching output formats are <CODE>"RPL"</CODE>, <CODE>"T3D"</CODE>,
+<CODE>"RAW"</CODE>, <CODE>"X3D"</CODE>, <CODE>"BEZ"</CODE>, <CODE>"RIB"</CODE>, <CODE>"SCD"</CODE>, <CODE>"SCB"</CODE>,
+<CODE>"TSP"</CODE>, <CODE>"DXF"</CODE>, <CODE>"DXC"</CODE>, <CODE>"DXP"</CODE>.
+See section 
+<A HREF="sl-8.html#sec-outp">Output Formats</A> for more 
+information regarding the formats.</P>
+<P>Keywords for special calculation modi are <CODE>"NORMAL"</CODE>, <CODE>"NODULE"</CODE>,
+<CODE>"Scano:"</CODE>, <CODE>"Hdo:"</CODE>, <CODE>"Scans:"</CODE>, <CODE>"Hds:"</CODE>, <CODE>"GCURVE"</CODE>,
+<CODE>"GCx:"</CODE>, <CODE>"GCy:"</CODE>.
+See section 
+<A HREF="sl-6.html#sec-calc">Calculation Modi</A> for more
+information.   </P>
+<P>Some remarks: Everything is case sensitive (<CODE>"rpl"</CODE> is not the same as
+<CODE>"RPL"</CODE>)!
+Double use of the same keyword causes an overwriting of the last set value.
+Only one keyword per line is allowed. Maximum line length is 255 characters.</P>
+
+<HR>
+<A HREF="sl-6.html">Previous</A>
+<A HREF="sl-8.html">Next</A>
+<A HREF="sl.html#toc7">Table of Contents</A>
+</BODY>
+</HTML>

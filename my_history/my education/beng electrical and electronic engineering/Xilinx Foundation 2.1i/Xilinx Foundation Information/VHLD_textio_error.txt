@@ -1,0 +1,8 @@
+SEARCH'97 Information Server Error 
+
+ Error in handling your request 
+  
+ Error E1-0111 (Query Builder): Syntax error in query string near character 179 
+ Error E1-0114 (Query Builder): Error parsing query: <Accrue> ( [.10] ( <AND>( (<ACCRUE>(Foundation, *2.1i*, Error, , , *L,1/C0*, ,, *#0*, Error,, Object, LINE not found * on line 0 (VHDL,2234)*)) , (url < 
+ VdkSearchNew failed, error -40 
+

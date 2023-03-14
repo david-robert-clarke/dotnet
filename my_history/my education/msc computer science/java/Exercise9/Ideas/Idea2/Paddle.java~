@@ -1,0 +1,47 @@
+import java.applet.*;
+import java.awt.*;
+import java.awt.Graphics2D;
+import java.lang.Math;
+
+public class Paddle
+{    
+    //instance variables
+    private int x;
+    private int y;
+    private int height, width;
+    private Color color; 
+
+    // used to create the graphical instances of the ball
+    private Graphics graphics; 
+    private Applet applet;
+
+    /**
+     * Default constructor which sets up a white Ball that has a diameter of 5
+     **/
+    public Paddle(int x1, int y1, int wid, int hi, Applet a)
+    {
+        x = x1;
+        y = y1;
+        height = hi;
+        width = wid;
+        color = Color.red;
+        applet = a; 
+        graphics = applet.getGraphics(); 
+    }
+
+    //creates a graphical representation of a ball
+    public void draw()
+    {
+        Graphics2D g2 = (Graphics2D)graphics;
+        graphics.setColor(color);
+        graphics.fill3DRect(x, y, height, width, true);
+    }
+
+    public String toString()
+    {
+        String this1 = "Color : " + color;
+        String this2 = "x = " + x;
+        String this3 = "y = " + y;
+        return (this1 + "\n" + this2 + "\n" + this3);
+    }
+}

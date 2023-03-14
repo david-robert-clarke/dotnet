@@ -1,0 +1,179 @@
+
+===================
+Chip ver1-Optimized
+===================
+
+Summary Information:
+--------------------
+Type: Optimized implementation
+Source: ver1, up to date
+Status: 0 errors, 0 warnings, 1 messages
+Export: exported after last optimization
+
+Target Information:
+-------------------
+Vendor: Xilinx
+Family: XC4000XL
+Device: 4085XLPG559
+Speed: xl-09
+
+Chip Parameters:
+----------------
+Optimize for: Speed
+Optimization effort: Low
+Frequency: 50 MHz
+Is module: No
+Keep io pads: No
+Number of flip-flops: 128
+Number of latches: 0
+
+Chip Design Hierarchy:
+----------------------
+RAM_STORAGE: defined in c:\fndtn\active\projects\system_x\ram_storage.vhd
+
+Primitive reference count:
+--------------------------
+BUFG          1
+DFF          56
+FMAP         75
+IBUF         15
+IFDX          8
+OFDX         64
+STARTUP       1
+
+Clocks:
+-------
+                           Required  Estimated                       
+Period   Rise     Fall     Freq      Freq       Signal               
+(ns)     (ns)     (ns)     (MHz)     (MHz)                           
+...............................................................
+ 20        0       10       50.00     -1.00     default              
+ -1       -1       -1      -1000.00   70.92     clk_BUFGed           
+
+Timing Groups:
+--------------
+                                                              
+                                                              
+Name                 Description                              
+............................................................
+(I)                  Input ports                              
+(O)                  Output ports                             
+(RC,clk_BUFGed)      Clocked by rising edge of clk_BUFGed     
+
+Timing Path Groups:
+-------------------
+                                          Required   Estimated  
+                                          Delay      Delay      
+From                 To                   (ns)       (ns)       
+............................................................
+(I)                  (RC,clk_BUFGed)       20.00      14.10     
+(RC,clk_BUFGed)      (O)                   20.00      10.42     
+(RC,clk_BUFGed)      (RC,clk_BUFGed)       20.00       9.36     
+
+Input Port Timing:
+------------------
+                     Required   Estimated                       
+Port                 Delay      Slack                           
+Name                 (ns)       (ns)       To-Group             
+............................................................
+RESET                   n/a        n/a     (RC,clk_BUFGed)      
+clk                   11.58      11.58     (RC,clk_BUFGed)      
+R_W                     n/a        n/a     (RC,clk_BUFGed)      
+SEL_IN<2>               n/a        n/a     (RC,clk_BUFGed)      
+SEL_IN<1>               n/a        n/a     (RC,clk_BUFGed)      
+SEL_IN<0>               n/a        n/a     (RC,clk_BUFGed)      
+DATA_IN<7>            12.10      12.10     (RC,clk_BUFGed)      
+DATA_IN<6>            12.10      12.10     (RC,clk_BUFGed)      
+DATA_IN<5>            12.10      12.10     (RC,clk_BUFGed)      
+DATA_IN<4>            12.10      12.10     (RC,clk_BUFGed)      
+DATA_IN<3>            12.10      12.10     (RC,clk_BUFGed)      
+DATA_IN<2>            12.10      12.10     (RC,clk_BUFGed)      
+DATA_IN<1>            12.10      12.10     (RC,clk_BUFGed)      
+DATA_IN<0>            12.10      12.10     (RC,clk_BUFGed)      
+ADDRESS<1>             5.90       5.90     (RC,clk_BUFGed)      
+ADDRESS<0>             5.90       5.90     (RC,clk_BUFGed)      
+
+Output Port Timing:
+-------------------
+                     Required   Estimated                       
+Port                 Delay      Slack                           
+Name                 (ns)       (ns)       From-Group           
+............................................................
+DATA_OUT<63>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<62>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<61>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<60>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<59>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<58>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<57>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<56>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<55>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<54>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<53>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<52>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<51>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<50>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<49>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<48>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<47>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<46>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<45>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<44>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<43>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<42>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<41>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<40>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<39>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<38>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<37>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<36>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<35>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<34>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<33>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<32>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<31>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<30>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<29>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<28>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<27>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<26>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<25>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<24>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<23>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<22>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<21>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<20>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<19>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<18>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<17>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<16>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<15>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<14>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<13>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<12>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<11>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<10>          20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<9>           20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<8>           20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<7>           20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<6>           20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<5>           20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<4>           20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<3>           20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<2>           20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<1>           20.00       9.58     (RC,clk_BUFGed)      
+DATA_OUT<0>           20.00       9.58     (RC,clk_BUFGed)      
+
+Critical Path Timing:
+---------------------
+           Arrival    Required                                
+Cell       Time       Time       Fanout                       
+Type       (ns)       (ns)       Count   Pin-Name             
+.........................................................
+OFDX        14.10      20.00     128     /ver1-Optimized/DATA_
+OFDX        13.80      19.70       1     /ver1-Optimized/DATA_
+EQN         10.72      16.62       1     /ver1-Optimized/C2695
+EQN          9.42      15.32      66     /ver1-Optimized/C2695
+IBUF         1.10       7.00      66     /ver1-Optimized/C2419
+IBUF         0.00       5.90       1     /ver1-Optimized/C2419
+port         0.00       5.90       1     /ver1-Optimized/ADDRE

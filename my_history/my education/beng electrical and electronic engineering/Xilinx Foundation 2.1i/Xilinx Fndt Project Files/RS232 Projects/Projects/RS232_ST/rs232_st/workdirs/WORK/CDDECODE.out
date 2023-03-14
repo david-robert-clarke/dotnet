@@ -1,0 +1,18 @@
+
+Inferred memory devices in process 
+	in routine CDDECODE line 12 in file
+         'C:/fndtn/active/projects/rs232_st/decodecnt.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       CNT_reg       |   Latch   |  16   |  Y  | N  | N  | N  | -  | -  | -  |
+===============================================================================
+
+CNT_reg (width 16)
+------------------
+    reset/set: none
+
+
+Warning: Latch inferred in design 'CDDECODE' read with
+	'hdlin_check_no_latch'. (HDL-307)
+Writing to hnl file 'c:\Fndtn\Active\Projects\RS232_ST\rs232_st/workdirs/WORK/CDDECODE.hnl'

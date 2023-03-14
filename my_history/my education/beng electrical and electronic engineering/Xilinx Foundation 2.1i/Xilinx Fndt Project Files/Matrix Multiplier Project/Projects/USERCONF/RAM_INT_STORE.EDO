@@ -1,0 +1,310 @@
+(edif RAM_INT_STORE
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2001 1 25 21 16 17)
+      (program "Xilinx NGD2EDIF" (version "C.16"))
+      (comment "Command line: -v fndtn -w -n C:/WINDOWS/TEMP/RAM_INT_STORE.ngd RAM_INT_STORE ")))
+  (external SIMPRIMS
+    (edifLevel 0)
+    (technology (numberDefinition
+      (scale 1 (E 1 -12) (unit TIME))))
+    (cell x_ram16
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port ADR0
+            (direction INPUT))
+          (port ADR1
+            (direction INPUT))
+          (port ADR2
+            (direction INPUT))
+          (port ADR3
+            (direction INPUT))
+          (port IN
+            (direction INPUT))
+          (port WE
+            (direction INPUT))
+          (port OUT
+            (direction OUTPUT))
+      )))
+  )
+  (library RAM_INT_STORE_lib
+    (edifLevel 0)
+    (technology (numberDefinition
+      (scale 1 (E 1 -12) (unit TIME))))
+    (cell RAM_INT_STORE
+      (cellType GENERIC)
+      (view view_1
+        (viewType NETLIST)
+        (interface
+          (port (rename A_0_ "A<0>")
+            (direction INPUT)
+            )
+          (port (rename A_1_ "A<1>")
+            (direction INPUT)
+            )
+          (port (rename A_2_ "A<2>")
+            (direction INPUT)
+            )
+          (port (rename A_3_ "A<3>")
+            (direction INPUT)
+            )
+          (port (rename DO_0_ "DO<0>")
+            (direction OUTPUT)
+            )
+          (port (rename DO_1_ "DO<1>")
+            (direction OUTPUT)
+            )
+          (port (rename DO_2_ "DO<2>")
+            (direction OUTPUT)
+            )
+          (port (rename DO_3_ "DO<3>")
+            (direction OUTPUT)
+            )
+          (port (rename DO_4_ "DO<4>")
+            (direction OUTPUT)
+            )
+          (port (rename DO_5_ "DO<5>")
+            (direction OUTPUT)
+            )
+          (port (rename DO_6_ "DO<6>")
+            (direction OUTPUT)
+            )
+          (port (rename DO_7_ "DO<7>")
+            (direction OUTPUT)
+            )
+          (port (rename DI_0_ "DI<0>")
+            (direction INPUT)
+            )
+          (port (rename DI_1_ "DI<1>")
+            (direction INPUT)
+            )
+          (port (rename DI_2_ "DI<2>")
+            (direction INPUT)
+            )
+          (port (rename DI_3_ "DI<3>")
+            (direction INPUT)
+            )
+          (port (rename DI_4_ "DI<4>")
+            (direction INPUT)
+            )
+          (port (rename DI_5_ "DI<5>")
+            (direction INPUT)
+            )
+          (port (rename DI_6_ "DI<6>")
+            (direction INPUT)
+            )
+          (port (rename DI_7_ "DI<7>")
+            (direction INPUT)
+            )
+          (port WR_EN
+            (direction INPUT)
+            )
+          (designator "xc4000xl")
+        )
+        (contents
+          (instance MEM0_0
+            (viewRef view_1 (cellRef x_ram16 (libraryRef SIMPRIMS)))
+            (property INIT (string "0000"))
+          )
+          (instance MEM1_0
+            (viewRef view_1 (cellRef x_ram16 (libraryRef SIMPRIMS)))
+            (property INIT (string "0000"))
+          )
+          (instance MEM2_0
+            (viewRef view_1 (cellRef x_ram16 (libraryRef SIMPRIMS)))
+            (property INIT (string "0000"))
+          )
+          (instance MEM3_0
+            (viewRef view_1 (cellRef x_ram16 (libraryRef SIMPRIMS)))
+            (property INIT (string "0000"))
+          )
+          (instance MEM4_0
+            (viewRef view_1 (cellRef x_ram16 (libraryRef SIMPRIMS)))
+            (property INIT (string "0000"))
+          )
+          (instance MEM5_0
+            (viewRef view_1 (cellRef x_ram16 (libraryRef SIMPRIMS)))
+            (property INIT (string "0000"))
+          )
+          (instance MEM6_0
+            (viewRef view_1 (cellRef x_ram16 (libraryRef SIMPRIMS)))
+            (property INIT (string "0000"))
+          )
+          (instance MEM7_0
+            (viewRef view_1 (cellRef x_ram16 (libraryRef SIMPRIMS)))
+            (property INIT (string "0000"))
+          )
+          (net WR_EN
+            (joined
+              (portRef WR_EN)
+              (portRef WE (instanceRef MEM0_0))
+              (portRef WE (instanceRef MEM1_0))
+              (portRef WE (instanceRef MEM2_0))
+              (portRef WE (instanceRef MEM3_0))
+              (portRef WE (instanceRef MEM4_0))
+              (portRef WE (instanceRef MEM5_0))
+              (portRef WE (instanceRef MEM6_0))
+              (portRef WE (instanceRef MEM7_0))
+            )
+          )
+          (net (rename A_0_ "A<0>")
+            (joined
+              (portRef A_0_)
+              (portRef ADR0 (instanceRef MEM0_0))
+              (portRef ADR0 (instanceRef MEM1_0))
+              (portRef ADR0 (instanceRef MEM2_0))
+              (portRef ADR0 (instanceRef MEM3_0))
+              (portRef ADR0 (instanceRef MEM4_0))
+              (portRef ADR0 (instanceRef MEM5_0))
+              (portRef ADR0 (instanceRef MEM6_0))
+              (portRef ADR0 (instanceRef MEM7_0))
+            )
+          )
+          (net (rename A_1_ "A<1>")
+            (joined
+              (portRef A_1_)
+              (portRef ADR1 (instanceRef MEM0_0))
+              (portRef ADR1 (instanceRef MEM1_0))
+              (portRef ADR1 (instanceRef MEM2_0))
+              (portRef ADR1 (instanceRef MEM3_0))
+              (portRef ADR1 (instanceRef MEM4_0))
+              (portRef ADR1 (instanceRef MEM5_0))
+              (portRef ADR1 (instanceRef MEM6_0))
+              (portRef ADR1 (instanceRef MEM7_0))
+            )
+          )
+          (net (rename A_2_ "A<2>")
+            (joined
+              (portRef A_2_)
+              (portRef ADR2 (instanceRef MEM0_0))
+              (portRef ADR2 (instanceRef MEM1_0))
+              (portRef ADR2 (instanceRef MEM2_0))
+              (portRef ADR2 (instanceRef MEM3_0))
+              (portRef ADR2 (instanceRef MEM4_0))
+              (portRef ADR2 (instanceRef MEM5_0))
+              (portRef ADR2 (instanceRef MEM6_0))
+              (portRef ADR2 (instanceRef MEM7_0))
+            )
+          )
+          (net (rename A_3_ "A<3>")
+            (joined
+              (portRef A_3_)
+              (portRef ADR3 (instanceRef MEM0_0))
+              (portRef ADR3 (instanceRef MEM1_0))
+              (portRef ADR3 (instanceRef MEM2_0))
+              (portRef ADR3 (instanceRef MEM3_0))
+              (portRef ADR3 (instanceRef MEM4_0))
+              (portRef ADR3 (instanceRef MEM5_0))
+              (portRef ADR3 (instanceRef MEM6_0))
+              (portRef ADR3 (instanceRef MEM7_0))
+            )
+          )
+          (net (rename DI_0_ "DI<0>")
+            (joined
+              (portRef DI_0_)
+              (portRef IN (instanceRef MEM0_0))
+            )
+          )
+          (net (rename DI_1_ "DI<1>")
+            (joined
+              (portRef DI_1_)
+              (portRef IN (instanceRef MEM1_0))
+            )
+          )
+          (net (rename DI_2_ "DI<2>")
+            (joined
+              (portRef DI_2_)
+              (portRef IN (instanceRef MEM2_0))
+            )
+          )
+          (net (rename DI_3_ "DI<3>")
+            (joined
+              (portRef DI_3_)
+              (portRef IN (instanceRef MEM3_0))
+            )
+          )
+          (net (rename DI_4_ "DI<4>")
+            (joined
+              (portRef DI_4_)
+              (portRef IN (instanceRef MEM4_0))
+            )
+          )
+          (net (rename DI_5_ "DI<5>")
+            (joined
+              (portRef DI_5_)
+              (portRef IN (instanceRef MEM5_0))
+            )
+          )
+          (net (rename DI_6_ "DI<6>")
+            (joined
+              (portRef DI_6_)
+              (portRef IN (instanceRef MEM6_0))
+            )
+          )
+          (net (rename DI_7_ "DI<7>")
+            (joined
+              (portRef DI_7_)
+              (portRef IN (instanceRef MEM7_0))
+            )
+          )
+          (net MO0_0
+            (joined
+              (portRef DO_0_)
+              (portRef OUT (instanceRef MEM0_0))
+            )
+          )
+          (net MO0_1
+            (joined
+              (portRef DO_1_)
+              (portRef OUT (instanceRef MEM1_0))
+            )
+          )
+          (net MO0_2
+            (joined
+              (portRef DO_2_)
+              (portRef OUT (instanceRef MEM2_0))
+            )
+          )
+          (net MO0_3
+            (joined
+              (portRef DO_3_)
+              (portRef OUT (instanceRef MEM3_0))
+            )
+          )
+          (net MO0_4
+            (joined
+              (portRef DO_4_)
+              (portRef OUT (instanceRef MEM4_0))
+            )
+          )
+          (net MO0_5
+            (joined
+              (portRef DO_5_)
+              (portRef OUT (instanceRef MEM5_0))
+            )
+          )
+          (net MO0_6
+            (joined
+              (portRef DO_6_)
+              (portRef OUT (instanceRef MEM6_0))
+            )
+          )
+          (net MO0_7
+            (joined
+              (portRef DO_7_)
+              (portRef OUT (instanceRef MEM7_0))
+            )
+          )
+        )
+    ))
+  )
+  (design RAM_INT_STORE
+    (cellRef RAM_INT_STORE
+      (libraryRef RAM_INT_STORE_lib))
+  )
+)

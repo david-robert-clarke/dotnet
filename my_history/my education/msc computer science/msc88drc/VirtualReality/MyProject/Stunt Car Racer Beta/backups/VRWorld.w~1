@@ -1,0 +1,75 @@
+#VRML V2.0 utf8
+
+NavigationInfo{
+type "FLY"
+headlight TRUE
+}
+
+EXTERNPROTO theArenaFloor[
+]"Ground.wrl"
+
+EXTERNPROTO theStuntCar[
+field SFVec3f stuntCarPosition
+eventIn SFRotation set_frontWheelsTurnAngle
+eventIn SFVec3f set_frontWheelsAngularSpeed
+]"Car.wrl"
+
+EXTERNPROTO theCrane[
+field SFVec3f cranePosition
+field SFRotation craneOrientation
+]"Crane.wrl"
+
+EXTERNPROTO theCourse[
+field SFVec3f coursePosition]
+"Course.wrl"
+
+EXTERNPROTO theBlimp[
+#field SFVec3f blimpPosition
+]"Blimp.wrl"
+
+EXTERNPROTO theStand[
+field SFVec3f standPosition
+]"Stand.wrl"
+
+EXTERNPROTO theController[
+eventIn SFVec3f set_controllerPosition
+eventIn SFRotation set_controllerOrientation
+eventOut SFRotation frontWheelsTurnAngle
+eventOut SFRotation carRotationAngle
+eventOut SFVec3f frontWheelsAngularSpeed
+]"Controller.wrl"
+
+#Instantiate the individual Objects
+DEF arenaFloor theArenaFloor{}
+DEF stand theStand{standPosition 175 -4 -100}
+DEF stand2 theStand{standPosition 175 -4 100}
+DEF stuntCar theStuntCar{stuntCarPosition 135 0.5 -100}
+DEF crane theCrane{cranePosition 50 4 0 craneOrientation 0 0 0 0}
+DEF crane2 theCrane{cranePosition -50 4 100 craneOrientation 0 1 0 1.57}
+DEF crane3 theCrane{cranePosition -175 4 -175 craneOrientation 0 1 0 3.14}
+DEF course theCourse{coursePosition 0 50 75}
+DEF blimp theBlimp{}#blimpPosition 0 0 0}
+DEF controller theController{}
+
+Background {
+  skyAngle [0.0, 1.1, 1.57]
+  skyColor [0 0 1, 0 0 0.5, 0.8 0.8 1, 0.9 0.9 0.9]
+  groundAngle [0.0, 1.1, 1.57]
+  groundColor [0.9 0.9 0.2, 0.9 0.9 0.4, 0.9 0.9 0.6, 0.9 0.9 0.8]
+}
+
+#Large proximity sensor provides user position & orientation values for the tracking interface, and for the tracking viewpoint.
+DEF PS ProximitySensor{size 2000000 2000000 2000000}
+
+ROUTE PS.position_changed		TO controller.set_controllerPosition
+ROUTE PS.orientation_changed 		TO controller.set_controllerOrientation
+ROUTE controller.frontWheelsTurnAngle 	TO stuntCar.set_frontWheelsTurnAngle
+ROUTE controller.frontWheelsAngularSpeed TO stuntCar.set_frontWheelsAngularSpeed
+ROUTE controller.carRotationAngle	TO stuntCar.set_carTurningCircle
+
+
+
+
+
+
+

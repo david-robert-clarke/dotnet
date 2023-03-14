@@ -1,0 +1,25 @@
+// last edit: 26-Mar-2002  rfrank@rfrank.net
+
+public class Student implements Comparable
+{
+    private int studentId;
+    private String studentName;
+
+    Student(int i, String name)
+    {
+        studentId = i;
+        studentName = name;
+    }
+
+    public int compareTo( Object obj )
+    {
+        if (this.studentId > ((Student)obj).studentId) return -1;
+        if (this.studentId < ((Student)obj).studentId) return +1;
+        return 0;
+    }
+
+    void print()
+    {
+        System.out.println("name: " + studentName + "  ID: " + studentId);
+    }
+}

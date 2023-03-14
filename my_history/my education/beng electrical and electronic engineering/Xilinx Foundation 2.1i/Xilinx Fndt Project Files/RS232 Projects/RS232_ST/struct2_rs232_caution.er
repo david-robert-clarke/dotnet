@@ -1,0 +1,7 @@
+c:\fndtn\active\projects\rs232_st\struct2_rs232_caution.vhd 50 0:E:#0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232_caution.vhd  line 50   Illegal redeclaration of CT1Z. (VSS-1072)  (FPGA-dm-hdlc-unknown) 
+c:\fndtn\active\projects\rs232_st\struct2_rs232_caution.vhd 50 0:E:#0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232_caution.vhd  line 50   Illegal redeclaration of CDDEN. (VSS-1072)  (FPGA-dm-hdlc-unknown) 
+c:\fndtn\active\projects\rs232_st\struct2_rs232_caution.vhd 50 0:E:#0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232_caution.vhd  line 50   Illegal redeclaration of UP. (VSS-1072)  (FPGA-dm-hdlc-unknown) 
+c:\fndtn\active\projects\rs232_st\struct2_rs232_caution.vhd 50 0:E:#0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232_caution.vhd  line 50   Illegal redeclaration of LOAD. (VSS-1072)  (FPGA-dm-hdlc-unknown) 
+c:\fndtn\active\projects\rs232_st\struct2_rs232_caution.vhd 50 0:E:#0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232_caution.vhd  line 50   Illegal redeclaration of CT1EN. (VSS-1072)  (FPGA-dm-hdlc-unknown) 
+c:\fndtn\active\projects\rs232_st\struct2_rs232_caution.vhd 50 0:E:#0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232_caution.vhd  line 50   Illegal redeclaration of DECEN. (VSS-1072)  (FPGA-dm-hdlc-unknown) 
+c:\fndtn\active\projects\rs232_st\struct2_rs232_caution.vhd 50 0:E:#0 Error: C:/fndtn/active/projects/rs232_st/struct2_rs232_caution.vhd  line 50   Illegal redeclaration of PTEN. (VSS-1072)  (FPGA-dm-hdlc-unknown) 

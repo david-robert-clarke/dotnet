@@ -1,0 +1,139 @@
+PAR: Xilinx Place And Route C.22.
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Sun Dec 03 20:14:04 2000
+
+par -w -ol 2 -d 0 map.ncd rs232_st.ncd rs232_st.pcf
+
+
+Constraints file: rs232_st.pcf
+
+Loading device database for application par from file "map.ncd".
+   "rs232_st" is an NCD, version 2.28, device xc4010xl, package pc84, speed -09
+Loading device for application par from file '4010xl.nph' in environment
+C:/Fndtn.
+Device speed data version:  C 1.1.2.2 PRELIMINARY.
+
+
+Device utilization summary:
+
+   Number of External IOBs            11 out of 61     18%
+      Flops:                           0
+      Latches:                         0
+   Number of Global Buffer IOBs        1 out of 8      12%
+      Flops:                           0
+      Latches:                         0
+
+   Number of CLBs                     58 out of 400    14%
+      Total Latches:                  30 out of 800     3%
+      Total CLB Flops:                19 out of 800     2%
+      4 input LUTs:                  106 out of 800    13%
+      3 input LUTs:                   18 out of 400     4%
+
+   Number of BUFGLSs                   8 out of 8     100%
+
+
+
+Overall effort level (-ol):   2 (set by user)
+Placer effort level (-pl):    2 (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    2 (set by user)
+
+Starting initial Placement phase.  REAL time: 6 secs 
+Finished initial Placement phase.  REAL time: 6 secs 
+
+Starting Constructive Placer.  REAL time: 6 secs 
+Placer score = 44760
+Placer score = 35250
+Placer score = 29040
+Placer score = 28350
+Placer score = 26640
+Placer score = 26370
+Placer score = 26190
+Placer score = 23550
+Placer score = 21720
+Placer score = 19770
+Placer score = 18810
+Placer score = 18120
+Placer score = 18000
+Placer score = 17880
+Placer score = 17700
+Placer score = 17070
+Placer score = 16710
+Placer score = 16470
+Finished Constructive Placer.  REAL time: 10 secs 
+
+Writing design to file "rs232_st.ncd".
+
+Starting Optimizing Placer.  REAL time: 10 secs 
+Optimizing  
+Swapped 16 comps.
+Xilinx Placer [1]   15900   REAL time: 11 secs 
+
+Finished Optimizing Placer.  REAL time: 11 secs 
+
+Writing design to file "rs232_st.ncd".
+
+Total REAL time to Placer completion: 12 secs 
+Total CPU time to Placer completion: 11 secs 
+
+0 connection(s) routed; 466 unrouted.
+Starting router resource preassignment
+Completed router resource preassignment. REAL time: 14 secs 
+Starting iterative routing. 
+Routing active signals.
+End of iteration 1 
+466 successful; 0 unrouted; (0) REAL time: 15 secs 
+Constraints are met. 
+Routing PWR/GND nets.
+Power and ground nets completely routed. 
+Writing design to file "rs232_st.ncd".
+Starting cleanup 
+Improving routing.
+End of cleanup iteration 1 
+466 successful; 0 unrouted; (0) REAL time: 18 secs 
+Writing design to file "rs232_st.ncd".
+Total REAL time: 18 secs 
+Total CPU  time: 17 secs 
+End of route.  466 routed (100.00%); 0 unrouted.
+No errors found. 
+Completely routed. 
+
+This design was run without timing constraints.  It is likely that much better
+circuit performance can be obtained by trying either or both of the following:
+
+  - Enabling the Delay Based Cleanup router pass, if not already enabled
+  - Supplying timing constraints in the input design
+
+
+Total REAL time to Router completion: 18 secs 
+Total CPU time to Router completion: 17 secs 
+
+Generating PAR statistics.
+
+   The Delay Summary Report
+
+   The Score for this design is: 371
+
+
+The Number of signals not completely routed for this design is: 0
+
+   The Average Connection Delay for this design is:        2.559 ns
+   The Maximum Pin Delay is:                               7.501 ns
+   The Average Connection Delay on the 10 Worst Nets is:   5.802 ns
+
+   Listing Pin Delays by value: (ns)
+
+    d < 1.00   < d < 2.00  < d < 3.00  < d < 4.00  < d < 8.00  d >= 8.00
+   ---------   ---------   ---------   ---------   ---------   ---------
+          34         176         114          61          81           0
+
+Writing design to file "rs232_st.ncd".
+
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 19 secs 
+Total CPU time to PAR completion: 18 secs 
+
+PAR done.

@@ -1,0 +1,60 @@
+#
+#
+#
+# Created by Synplify VHDL Compiler version 6.0.0 from Synplicity, Inc.
+# Copyright 1994-1999 Synplicity, Inc. , All rights reserved.
+# Synthesis Netlist written on Fri Nov 03 18:38:54 2000
+#
+#
+#OPTIONS:"|-ram|-autosm|-fid2|-sharing|off|-encrypt|-ui|-lite|-lib|work"
+#CUR:"C:\\SYNPLICITY\\SYNPLIFY\\BIN\\C_VHDL.EXE":958758942l
+#CUR:"C:\\SYNPLICITY\\SYNPLIFY\\lib\\vhd\\location.map":954956512l
+#CUR:"C:\\SYNPLICITY\\SYNPLIFY\\lib\\vhd\\std.vhd":951511216l
+#CUR:"c:\\fndtn\\active\\projects\\rs232sch\\decodecnt.vhd":973183486l
+f "C:\SYNPLICITY\SYNPLIFY\lib\vhd\std.vhd"; # file 0
+f "c:\fndtn\active\projects\rs232sch\decodecnt.vhd"; # file 1
+@E@MR@44::4(::R4cI	FsR7B7 7Bm 8RO8FCO8NC_s;OE
+RNP3PH#ER8D4H;
+R4@@:n.::4.:j7RB7R hB 77hH;
+R4@@:4.:d::.4)(R a1 R1)  
+a;H@R@4::...j::R.61.4gj1jR4jg.jH;
+R4@@:..:U::.d1.RgjnjRn1gj
+j;H@R@4::.d.6::Rdg1jcUjcR1U;jj
+@HR@.4:::c..n:cRc1.j1jR.jcj;R
+H@:@4.g:c:6.:d4R1.Rjj1j4.jH;
+R4@@:6.:n::.61gRnRjj1jnj;R
+H@:@4..:n:n.:6dR1j1jRd;jj
+@FR@.4:::((.g:(RaBhr:46jV9RNCD#,DVN#OC,M40rd9:j;R
+b@:@4..:n:n.:6MRHPMRk4d_#jkjRM#4_dRjj1jdj;R
+b@:@j4::44R:.0CskRk0sCsR0k
+C;b@R@j::44::4.NRVDR#CV#NDCNRVD;#C
+@bR@44:6::g4.6:jsRFPMRk4O._8M8CR4kM.8_O8RCM1jdjRj1njb;
+R4@@::46g6:4:R.jHRMPk_M4k.M4_8O8CkMRMk4_M_4.OC88MMRk4O._8M8C;R
+b@:@44g6:::46.NjRMR8PkdM4_8O8CkMRM_4dOC88MnR1jkjRM#4_d;jj
+@bR@44:n::g4.n:jsRFPMRk4O(_8M8CR4kM(8_O8RCMk.M4_8O8C1MR4j.j;R
+b@:@44gn:::4n.HjRMkPRMk4_M_4(OC88MMRk4M_k4O(_8M8CR4kM(8_O8;CM
+@bR@44:n::g4.n:jMRN8kPRM_4UOC88MMRk4OU_8M8CR.14jkjRMk4_M_4.OC88Mb;
+R4@@::4(g(:4:R.jFRsPk.M._8O8CkMRM_..OC88MMRk4O(_8M8CRc1.j
+j;b@R@4(:4:4g:(j:.RPHMR4kM_.kM.8_O8RCMk_M4k.M._8O8CkMRM_..OC88Mb;
+R4@@::4(g(:4:R.jNPM8R.kMd8_O8RCMkdM._8O8C1MR.jcjR4kM_4kM(8_O8;CM
+@bR@44:U::g4.U:jsRFPMRk.O(_8M8CR.kM(8_O8RCMk.M._8O8C1MRcjUj;R
+b@:@44gU:::4U.HjRMkPRMk4_M_.(OC88MMRk4M_k.O(_8M8CR.kM(8_O8;CM
+@bR@44:U::g4.U:jMRN8kPRM_.UOC88MMRk.OU_8M8CRU1cjkjRMk4_M_..OC88Mb;
+R4@@::4ggg:4:R.jFRsPk.Md_8O8CkMRM_d.OC88MMRk.O(_8M8CRn1gj
+j;b@R@4g:4:4g:gj:.RPHMR4kM_dkM.8_O8RCMk_M4k.Md_8O8CkMRM_d.OC88Mb;
+R4@@::4ggg:4:R.jNPM8RdkMd8_O8RCMkdMd_8O8C1MRgjnjR4kM_.kM(8_O8;CM
+@bR@.4:j::g..j:jsRFPMRkdO(_8M8CRdkM(8_O8RCMk.Md_8O8C1MR4jg.jb;
+R4@@::.jgj:.:R.jHRMPk_M4k(Md_8O8CkMRMk4_M_d(OC88MMRkdO(_8M8C;R
+b@:@4.gj:::.j.NjRMR8PkUMd_8O8CkMRM_dUOC88M4R1gj.jR4kM_dkM.8_O8;CM
+@bR@44:j::.4dj:RPHMR4kM_4kM_dkM(8_O8RCMk_M4k_M4k(Md_8O8CkMRMk4_M_d(OC88Mb;
+R4@@::4j.j:4:bdRlRkGO_M0O0M#r:4djO9RMO0_Mr#04jd:9sR0k0C,s,kC0Csk,DVN#0C,s,kCV#NDCs,0kVC,NCD#,DVN#0C,s,kC0Csk,DVN#VC,NCD#,DVN#1C,d
+jjRRRRV#NDCs,0k0C,s,kC0Csk,DVN#0C,s,kCV#NDCs,0kVC,NCD#,DVN#0C,s,kC0Csk,DVN#VC,NCD#,4kMd8_O8
+CMRRRRV#NDCN,VD,#C0Csk,k0sCs,0kVC,NCD#,k0sCN,VD,#C0Csk,DVN#VC,NCD#,k0sCs,0kVC,NCD#,4kMU8_O8
+CMRRRRV#NDCN,VD,#CV#NDCs,0k0C,s,kC0Csk,DVN#0C,s,kCV#NDCs,0kVC,NCD#,DVN#0C,s,kC0Csk,.kMd8_O8
+CMRRRRV#NDCN,VD,#CV#NDCN,VD,#C0Csk,k0sCs,0kVC,NCD#,k0sCN,VD,#C0Csk,DVN#VC,NCD#,k0sCM,k.OU_8M8C
+RRRRDVN#VC,NCD#,DVN#VC,NCD#,DVN#0C,s,kC0Csk,k0sCN,VD,#C0Csk,DVN#0C,s,kCV#NDCN,VD,#CkdMd_8O8CRM
+RVRRNCD#,DVN#VC,NCD#,DVN#VC,NCD#,DVN#0C,s,kC0Csk,k0sCN,VD,#C0Csk,DVN#0C,s,kCV#NDCM,kdOU_8M8C;R
+b@:@44.j:::4jdlRbkOGRM40_r:4djO9RM40_r:4djO9RM40rd9:j,4kM_dkM(8_O8RCMO_M0O0M#r:4djk9,Mk4_Mk4_M_d(OC88Mb;
+R4@@::4j.j:4:DdRNR0sOrM04jd:9MRO0dr4:Rj9O_M04dr4:Rj9B 77h R)1; a
+
+C;

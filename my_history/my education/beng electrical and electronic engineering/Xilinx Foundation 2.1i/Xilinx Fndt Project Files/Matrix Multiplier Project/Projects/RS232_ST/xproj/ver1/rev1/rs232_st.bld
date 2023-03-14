@@ -1,0 +1,32 @@
+ngdbuild:  version C.16
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -p xc4010xl-09-pc84 -uc rs232_st.ucf -dd ..
+c:\fndtn\active\projects\rs232_st\rs232_st.xnf rs232_st.ngd 
+
+Launcher: Executing xnf2ngd -p xc4000xl -u
+"c:\fndtn\active\projects\rs232_st\rs232_st.xnf"
+"C:\Fndtn\Active\Projects\RS232_ST\xproj\ver1\rs232_st.ngo"
+xnf2ngd:  version C.16
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+   using XNF gate model
+   reading XNF file "c:/fndtn/active/projects/rs232_st/rs232_st.xnf" ...
+   Writing NGO file "C:/Fndtn/Active/Projects/RS232_ST/xproj/ver1/rs232_st.ngo"
+...
+Reading NGO file "C:/Fndtn/Active/Projects/RS232_ST/xproj/ver1/rs232_st.ngo"
+...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "rs232_st.ucf" ...
+
+Checking timing specifications ...
+
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "rs232_st.ngd" ...
+
+Writing NGDBUILD log file "rs232_st.bld"...

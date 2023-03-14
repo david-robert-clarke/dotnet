@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<directory>
+  <file name="WordSplit.java" icon_position="479,282"/>
+  <file name="UpdateCDEntryQuery.java" icon_position="189,282"/>
+  <file name="StaffUI.java" icon_position="334,166"/>
+  <file name="MyConnection.java" icon_position="479,66"/>
+  <file name="LogInUI.java" icon_position="189,66"/>
+  <file name="EditStockUI.java" icon_position="334,-166"/>
+  <file name="CDSearch.java" icon_position="334,-282"/>
+</directory>

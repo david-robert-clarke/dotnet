@@ -1,0 +1,160 @@
+
+===================
+Chip ver1-Optimized
+===================
+
+Summary Information:
+--------------------
+Type: Optimized implementation
+Source: ver1, up to date
+Status: 0 errors, 0 warnings, 0 messages
+Export: exported after last optimization
+
+Target Information:
+-------------------
+Vendor: Xilinx
+Family: XC4000XL
+Device: 4010XLPC84
+Speed: xl-3
+
+Chip Parameters:
+----------------
+Optimize for: Speed
+Optimization effort: Low
+Frequency: 50 MHz
+Is module: No
+Keep io pads: No
+Number of flip-flops: 0
+Number of latches: 0
+
+Chip Design Hierarchy:
+----------------------
+DECODER: defined in c:\fndtn\active\projects\test_it\decoder.vhd
+
+Primitive reference count:
+--------------------------
+FMAP         15
+IBUF          4
+OBUF         64
+
+Clocks:
+-------
+                           Required  Estimated                       
+Period   Rise     Fall     Freq      Freq       Signal               
+(ns)     (ns)     (ns)     (MHz)     (MHz)                           
+...............................................................
+ 20        0       10       50.00     -1.00     default              
+
+Timing Groups:
+--------------
+                                                              
+                                                              
+Name                 Description                              
+............................................................
+(I)                  Input ports                              
+(O)                  Output ports                             
+
+Timing Path Groups:
+-------------------
+                                          Required   Estimated  
+                                          Delay      Delay      
+From                 To                   (ns)       (ns)       
+............................................................
+(I)                  (O)                   20.00      21.60     
+
+Input Port Timing:
+------------------
+                     Required   Estimated                       
+Port                 Delay      Slack                           
+Name                 (ns)       (ns)       To-Group             
+............................................................
+SEL<3>                -1.60      -1.60     (O)                  
+SEL<2>                -1.60      -1.60     (O)                  
+SEL<1>                -1.60      -1.60     (O)                  
+SEL<0>                -1.60      -1.60     (O)                  
+
+Output Port Timing:
+-------------------
+                     Required   Estimated                       
+Port                 Delay      Slack                           
+Name                 (ns)       (ns)       From-Group           
+............................................................
+DATA<63>                n/a        n/a     (I)                  
+DATA<62>                n/a        n/a     (I)                  
+DATA<61>                n/a        n/a     (I)                  
+DATA<60>              20.00      -1.60     (I)                  
+DATA<59>                n/a        n/a     (I)                  
+DATA<58>                n/a        n/a     (I)                  
+DATA<57>                n/a        n/a     (I)                  
+DATA<56>              20.00      -1.60     (I)                  
+DATA<55>                n/a        n/a     (I)                  
+DATA<54>                n/a        n/a     (I)                  
+DATA<53>                n/a        n/a     (I)                  
+DATA<52>              20.00      -1.60     (I)                  
+DATA<51>                n/a        n/a     (I)                  
+DATA<50>                n/a        n/a     (I)                  
+DATA<49>                n/a        n/a     (I)                  
+DATA<48>              20.00      -1.60     (I)                  
+DATA<47>                n/a        n/a     (I)                  
+DATA<46>                n/a        n/a     (I)                  
+DATA<45>                n/a        n/a     (I)                  
+DATA<44>              20.00      -1.60     (I)                  
+DATA<43>                n/a        n/a     (I)                  
+DATA<42>                n/a        n/a     (I)                  
+DATA<41>                n/a        n/a     (I)                  
+DATA<40>              20.00      -1.60     (I)                  
+DATA<39>                n/a        n/a     (I)                  
+DATA<38>                n/a        n/a     (I)                  
+DATA<37>                n/a        n/a     (I)                  
+DATA<36>              20.00      -1.60     (I)                  
+DATA<35>                n/a        n/a     (I)                  
+DATA<34>                n/a        n/a     (I)                  
+DATA<33>                n/a        n/a     (I)                  
+DATA<32>              20.00      -1.60     (I)                  
+DATA<31>                n/a        n/a     (I)                  
+DATA<30>                n/a        n/a     (I)                  
+DATA<29>                n/a        n/a     (I)                  
+DATA<28>                n/a        n/a     (I)                  
+DATA<27>                n/a        n/a     (I)                  
+DATA<26>                n/a        n/a     (I)                  
+DATA<25>                n/a        n/a     (I)                  
+DATA<24>              20.00      -1.60     (I)                  
+DATA<23>                n/a        n/a     (I)                  
+DATA<22>                n/a        n/a     (I)                  
+DATA<21>                n/a        n/a     (I)                  
+DATA<20>              20.00      -1.60     (I)                  
+DATA<19>                n/a        n/a     (I)                  
+DATA<18>                n/a        n/a     (I)                  
+DATA<17>                n/a        n/a     (I)                  
+DATA<16>              20.00      -1.60     (I)                  
+DATA<15>                n/a        n/a     (I)                  
+DATA<14>                n/a        n/a     (I)                  
+DATA<13>                n/a        n/a     (I)                  
+DATA<12>              20.00      -1.60     (I)                  
+DATA<11>                n/a        n/a     (I)                  
+DATA<10>                n/a        n/a     (I)                  
+DATA<9>                 n/a        n/a     (I)                  
+DATA<8>               20.00      -1.60     (I)                  
+DATA<7>                 n/a        n/a     (I)                  
+DATA<6>                 n/a        n/a     (I)                  
+DATA<5>                 n/a        n/a     (I)                  
+DATA<4>               20.00      -1.60     (I)                  
+DATA<3>                 n/a        n/a     (I)                  
+DATA<2>                 n/a        n/a     (I)                  
+DATA<1>                 n/a        n/a     (I)                  
+DATA<0>               20.00      -1.60     (I)                  
+
+Critical Path Timing:
+---------------------
+           Arrival    Required                                
+Cell       Time       Time       Fanout                       
+Type       (ns)       (ns)       Count   Pin-Name             
+.........................................................
+port        21.60      20.00       0     /ver1-Optimized/DATA<
+OBUF        21.60      20.00       0     /ver1-Optimized/C539/
+OBUF        14.50      12.90       1     /ver1-Optimized/C539/
+EQN         11.35       9.75       1     /ver1-Optimized/C671/
+EQN         10.05       8.45      12     /ver1-Optimized/C671/
+IBUF         1.60       0.00      12     /ver1-Optimized/C535/
+IBUF         0.00      -1.60       1     /ver1-Optimized/C535/
+port         0.00      -1.60       1     /ver1-Optimized/SEL<0

@@ -1,0 +1,29 @@
+[project]
+name=cfig_4x4
+netlist=cfig_4x4
+contents=
+date=01/23/01
+time=21:33:22
+lib_order=1012 133
+version=3.1.5.00.33
+Type=F21i
+pdf_dir=c:\fndtn\active\projects\
+
+[libraries]
+1012=
+133=c:\fndtn\active\syslib\simprims
+
+[xilinx]
+libraries=unified
+
+[OPEN32]
+nMaxFile=10000
+lpstrFile=
+lpstrFilter=Schematic (*.SCH)|*.sch|FSM (*.ASF)|*.asf|HDE (*.VHD;*.ABL)|*.vhd;*.abl|All Files (*.*)|*.*||
+lpstrInitialDir=C:\FNDTN\ACTIVE\PROJECTS\CFIG_4X4
+lpstrTitle=Add Document
+nFilterIndex=0
+Flags=530964
+HelpID=10380
+HelpFileName=C:\FNDTN\ACTIVE\EXE\PCM.HLP
+cmdLine=-h 1464 -hp 1180 -m PCM_OPEN_32_MESSAGE -f C:\FNDTN\ACTIVE\PROJECTS\current.pdf

@@ -1,0 +1,17 @@
+control .sav=3
+control .savcell=0
+control .disk=1000M
+file .sav=4076
+input d:\fndtn\active\projects\bcd_acc\4076t.v
+sim to 0
+sim 
+scope cd4076t
+scope cd4076t
+vprobe clk
+scope cd4076t
+vprobe clr
+scope cd4076t
+vprobe din[3:0]
+scope cd4076t
+vprobe q[3:0]
+sim to 200

@@ -1,0 +1,55 @@
+--------------------------------------------------------------------------------
+Release 2.1i_sp6 - Timing Analyzer C.22
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Design file:              rs232_st.ncd
+Physical constraint file: rs232_st.pcf
+Device,speed:             xc4010xl,-09 (C 1.1.2.2 PRELIMINARY)
+Report level:             error report, limited to 1 item per constraint
+--------------------------------------------------------------------------------
+
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+No constraints were found to generate data for the Data Sheet Report section.
+Use the Advanced Analysis (-a) option or generate global constraints for each
+clock, its pad to setup and clock to pad paths, and a pad to pad constraint.
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 0 paths, 0 nets, and 0 connections (0.0% coverage)
+
+Design statistics:
+No global statistics to report.  This generally means that either the timing
+analysis was performed on fully combinatorial portions of the design, or the
+constraints specified did not cover any paths.
+
+Analysis completed Fri Nov 24 01:51:13 2000
+--------------------------------------------------------------------------------
+
+
+Timing Analyzer Settings:
+-------------------------
+OpenPCF rs232_st.pcf
+Speed -09
+DoHoldRaceCheck False
+IncludeNets
+ExcludeNets
+SelectFailingTimingConstraint True
+IncludeNoTimingConstraint False
+Report Normal
+MaxPathsPerTimingConstraint 1
+DefineEndpoints ToAll
+DefineEndpoints FromAll
+OmitUserConstraints False
+DropTimingConstraint
+SetForce Off
+ProratingOptions Volts Temp

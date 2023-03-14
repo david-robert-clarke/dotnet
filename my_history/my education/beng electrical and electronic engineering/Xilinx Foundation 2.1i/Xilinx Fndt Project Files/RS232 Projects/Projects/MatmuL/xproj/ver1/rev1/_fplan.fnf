@@ -1,0 +1,790 @@
+# Created by n2f version 2.1i
+version 1
+begin device 4010xlpc84-09
+ family XC4000XL
+ rows 22 columns 22
+ long_line_breakers
+end
+begin bonding
+ begin topiobs
+  iob 0 1 APAD PAD1 P10
+  iob 0 1 BPAD PAD2 P9
+  iob 0 2 APAD PAD3 unbonded
+  iob 0 2 BPAD PAD4 unbonded
+  iob 0 3 APAD PAD5 P8
+  iob 0 3 BPAD PAD6 P7
+  iob 0 4 APAD PAD7 unbonded
+  iob 0 4 BPAD PAD8 unbonded
+  iob 0 5 APAD PAD9 unbonded
+  iob 0 5 BPAD PAD10 unbonded
+  iob 0 6 APAD PAD11 unbonded
+  iob 0 6 BPAD PAD12 unbonded
+  iob 0 7 APAD PAD13 P6
+  iob 0 7 BPAD PAD14 P5
+  iob 0 8 APAD PAD15 unbonded
+  iob 0 8 BPAD PAD16 unbonded
+  iob 0 9 APAD PAD17 unbonded
+  iob 0 9 BPAD PAD18 unbonded
+  iob 0 10 APAD PAD19 P4
+  iob 0 10 BPAD PAD20 P3
+  iob 0 11 APAD PAD21 P84
+  iob 0 11 BPAD PAD22 P83
+  iob 0 12 APAD PAD23 unbonded
+  iob 0 12 BPAD PAD24 unbonded
+  iob 0 13 APAD PAD25 unbonded
+  iob 0 13 BPAD PAD26 unbonded
+  iob 0 14 APAD PAD27 P82
+  iob 0 14 BPAD PAD28 P81
+  iob 0 15 APAD PAD29 unbonded
+  iob 0 15 BPAD PAD30 unbonded
+  iob 0 16 APAD PAD31 unbonded
+  iob 0 16 BPAD PAD32 unbonded
+  iob 0 17 APAD PAD33 unbonded
+  iob 0 17 BPAD PAD34 unbonded
+  iob 0 18 APAD PAD35 P80
+  iob 0 18 BPAD PAD36 P79
+  iob 0 19 APAD PAD37 unbonded
+  iob 0 19 BPAD PAD38 unbonded
+  iob 0 20 APAD PAD39 P78
+  iob 0 20 BPAD PAD40 P77
+ end
+ begin leftiobs
+  iob 20 0 APAD PAD121 P29
+  iob 20 0 BPAD PAD122 P28
+  iob 19 0 APAD PAD123 unbonded
+  iob 19 0 BPAD PAD124 unbonded
+  iob 18 0 APAD PAD125 unbonded
+  iob 18 0 BPAD PAD126 P27
+  iob 17 0 APAD PAD127 unbonded
+  iob 17 0 BPAD PAD128 unbonded
+  iob 16 0 APAD PAD129 unbonded
+  iob 16 0 BPAD PAD130 unbonded
+  iob 15 0 APAD PAD131 unbonded
+  iob 15 0 BPAD PAD132 unbonded
+  iob 14 0 APAD PAD133 P26
+  iob 14 0 BPAD PAD134 P25
+  iob 13 0 APAD PAD135 unbonded
+  iob 13 0 BPAD PAD136 unbonded
+  iob 12 0 APAD PAD137 unbonded
+  iob 12 0 BPAD PAD138 unbonded
+  iob 11 0 APAD PAD139 P24
+  iob 11 0 BPAD PAD140 P23
+  iob 10 0 APAD PAD141 P20
+  iob 10 0 BPAD PAD142 P19
+  iob 9 0 APAD PAD143 unbonded
+  iob 9 0 BPAD PAD144 unbonded
+  iob 8 0 APAD PAD145 unbonded
+  iob 8 0 BPAD PAD146 unbonded
+  iob 7 0 APAD PAD147 P18
+  iob 7 0 BPAD PAD148 P17
+  iob 6 0 APAD PAD149 unbonded
+  iob 6 0 BPAD PAD150 unbonded
+  iob 5 0 APAD PAD151 unbonded
+  iob 5 0 BPAD PAD152 unbonded
+  iob 4 0 APAD PAD153 unbonded
+  iob 4 0 BPAD PAD154 unbonded
+  iob 3 0 APAD PAD155 P16
+  iob 3 0 BPAD PAD156 P15
+  iob 2 0 APAD PAD157 unbonded
+  iob 2 0 BPAD PAD158 unbonded
+  iob 1 0 APAD PAD159 P14
+  iob 1 0 BPAD PAD160 P13
+ end
+ begin bottomiobs
+  iob 21 1 APAD PAD120 P35
+  iob 21 1 BPAD PAD119 P36
+  iob 21 2 APAD PAD118 unbonded
+  iob 21 2 BPAD PAD117 unbonded
+  iob 21 3 APAD PAD116 unbonded
+  iob 21 3 BPAD PAD115 P37
+  iob 21 4 APAD PAD114 unbonded
+  iob 21 4 BPAD PAD113 unbonded
+  iob 21 5 APAD PAD112 unbonded
+  iob 21 5 BPAD PAD111 unbonded
+  iob 21 6 APAD PAD110 unbonded
+  iob 21 6 BPAD PAD109 unbonded
+  iob 21 7 APAD PAD108 P38
+  iob 21 7 BPAD PAD107 P39
+  iob 21 8 APAD PAD106 unbonded
+  iob 21 8 BPAD PAD105 unbonded
+  iob 21 9 APAD PAD104 unbonded
+  iob 21 9 BPAD PAD103 unbonded
+  iob 21 10 APAD PAD102 P40
+  iob 21 10 BPAD PAD101 P41
+  iob 21 11 APAD PAD100 P44
+  iob 21 11 BPAD PAD99 P45
+  iob 21 12 APAD PAD98 unbonded
+  iob 21 12 BPAD PAD97 unbonded
+  iob 21 13 APAD PAD96 unbonded
+  iob 21 13 BPAD PAD95 unbonded
+  iob 21 14 APAD PAD94 P46
+  iob 21 14 BPAD PAD93 P47
+  iob 21 15 APAD PAD92 unbonded
+  iob 21 15 BPAD PAD91 unbonded
+  iob 21 16 APAD PAD90 unbonded
+  iob 21 16 BPAD PAD89 unbonded
+  iob 21 17 APAD PAD88 unbonded
+  iob 21 17 BPAD PAD87 unbonded
+  iob 21 18 APAD PAD86 P48
+  iob 21 18 BPAD PAD85 P49
+  iob 21 19 APAD PAD84 unbonded
+  iob 21 19 BPAD PAD83 unbonded
+  iob 21 20 APAD PAD82 P50
+  iob 21 20 BPAD PAD81 P51
+ end
+ begin rightiobs
+  iob 20 21 APAD PAD80 P56
+  iob 20 21 BPAD PAD79 P57
+  iob 19 21 APAD PAD78 unbonded
+  iob 19 21 BPAD PAD77 unbonded
+  iob 18 21 APAD PAD76 P58
+  iob 18 21 BPAD PAD75 unbonded
+  iob 17 21 APAD PAD74 unbonded
+  iob 17 21 BPAD PAD73 unbonded
+  iob 16 21 APAD PAD72 unbonded
+  iob 16 21 BPAD PAD71 unbonded
+  iob 15 21 APAD PAD70 unbonded
+  iob 15 21 BPAD PAD69 unbonded
+  iob 14 21 APAD PAD68 P59
+  iob 14 21 BPAD PAD67 P60
+  iob 13 21 APAD PAD66 unbonded
+  iob 13 21 BPAD PAD65 unbonded
+  iob 12 21 APAD PAD64 unbonded
+  iob 12 21 BPAD PAD63 unbonded
+  iob 11 21 APAD PAD62 P61
+  iob 11 21 BPAD PAD61 P62
+  iob 10 21 APAD PAD60 P65
+  iob 10 21 BPAD PAD59 P66
+  iob 9 21 APAD PAD58 unbonded
+  iob 9 21 BPAD PAD57 unbonded
+  iob 8 21 APAD PAD56 unbonded
+  iob 8 21 BPAD PAD55 unbonded
+  iob 7 21 APAD PAD54 P67
+  iob 7 21 BPAD PAD53 P68
+  iob 6 21 APAD PAD52 unbonded
+  iob 6 21 BPAD PAD51 unbonded
+  iob 5 21 APAD PAD50 unbonded
+  iob 5 21 BPAD PAD49 unbonded
+  iob 4 21 APAD PAD48 unbonded
+  iob 4 21 BPAD PAD47 unbonded
+  iob 3 21 APAD PAD46 P69
+  iob 3 21 BPAD PAD45 P70
+  iob 2 21 APAD PAD44 unbonded
+  iob 2 21 BPAD PAD43 unbonded
+  iob 1 21 APAD PAD42 P71
+  iob 1 21 BPAD PAD41 P72
+ end
+end
+begin links
+ begin topleftgbufs
+  gbuf 0 0 BUFGLS_WNW BUFGLS_WNW
+  gbuf 0 0 BUFGE_WNW BUFGE_WNW
+  gbuf 0 0 BUFGLS_NNW BUFGLS_NNW
+  gbuf 0 0 BUFGE_NNW BUFGE_NNW
+ end
+ begin toprightgbufs
+  gbuf 0 21 BUFGE_NNE BUFGE_NNE
+  gbuf 0 21 BUFGLS_NNE BUFGLS_NNE
+  gbuf 0 21 BUFGE_ENE BUFGE_ENE
+  gbuf 0 21 BUFGLS_ENE BUFGLS_ENE
+ end
+ begin bottomleftgbufs
+  gbuf 21 0 BUFGLS_WSW BUFGLS_WSW
+  gbuf 21 0 BUFGE_WSW BUFGE_WSW
+  gbuf 21 0 BUFGE_SSW BUFGE_SSW
+  gbuf 21 0 BUFGLS_SSW BUFGLS_SSW
+ end
+ begin bottomrightgbufs
+  gbuf 21 21 BUFGE_ESE BUFGE_ESE
+  gbuf 21 21 BUFGE_SSE BUFGE_SSE
+  gbuf 21 21 BUFGLS_SSE BUFGLS_SSE
+  gbuf 21 21 BUFGLS_ESE BUFGLS_ESE
+ end
+end
+design matmul
+device 010XLPC84-09
+nets
+n 1 N306
+n 2 C0_N3
+n 3 CLK_BUFGed
+n 4 N307
+n 5 C2_N3
+n 6 C4_N3
+n 7 C6_N3
+n 8 C8_N3
+n 9 C10_N3
+n 10 N312
+n 11 C12_N3
+n 12 C14_N3
+n 13 C16_N3
+n 14 C18_N3
+n 15 C20_N3
+n 16 N317
+n 17 C22_N3
+n 18 C24_N3
+n 19 C26_N3
+n 20 C28_N3
+n 21 C30_N3
+n 22 N322
+n 23 C32_N3
+n 24 C34_N3
+n 25 C36_N3
+n 26 C38_N3
+n 27 N_MEMORY_SEL<0>
+n 28 N_SOP_IN<0>
+n 29 N_SOP_IN<1>
+n 30 N_SOP_IN<2>
+n 31 N_SOP_IN<3>
+n 32 N_MEMORY_SEL<2>
+n 33 N_MEMORY_SEL<1>
+n 34 N_SOP_IN<4>
+n 35 N_SOP_IN<5>
+n 36 N_SOP_IN<6>
+n 37 N_SOP_IN<7>
+n 38 N_SOP_IN<8>
+n 39 N_SOP_IN<9>
+n 40 N_SOP_IN<10>
+n 41 N_SOP_IN<11>
+n 42 N_SOP_IN<12>
+n 43 N_SOP_IN<13>
+n 44 N_SOP_IN<14>
+n 45 N_SOP_IN<15>
+n 46 N_SOP_IN<16>
+n 47 N_SOP_IN<17>
+n 48 N_SOP_IN<18>
+n 49 N_SOP_IN<19>
+n 50 CLK
+n 51 MATRIX_PROD<0>
+n 52 MATRIX_PROD<0>.OUTFF
+n 53 MATRIX_PROD<10>
+n 54 MATRIX_PROD<10>.OUTFF
+n 55 MATRIX_PROD<11>
+n 56 MATRIX_PROD<11>.OUTFF
+n 57 MATRIX_PROD<12>
+n 58 MATRIX_PROD<12>.OUTFF
+n 59 MATRIX_PROD<13>
+n 60 MATRIX_PROD<13>.OUTFF
+n 61 MATRIX_PROD<14>
+n 62 MATRIX_PROD<14>.OUTFF
+n 63 MATRIX_PROD<15>
+n 64 MATRIX_PROD<15>.OUTFF
+n 65 MATRIX_PROD<16>
+n 66 MATRIX_PROD<16>.OUTFF
+n 67 MATRIX_PROD<17>
+n 68 MATRIX_PROD<17>.OUTFF
+n 69 MATRIX_PROD<18>
+n 70 MATRIX_PROD<18>.OUTFF
+n 71 MATRIX_PROD<19>
+n 72 MATRIX_PROD<19>.OUTFF
+n 73 MATRIX_PROD<1>
+n 74 MATRIX_PROD<1>.OUTFF
+n 75 MATRIX_PROD<2>
+n 76 MATRIX_PROD<2>.OUTFF
+n 77 MATRIX_PROD<3>
+n 78 MATRIX_PROD<3>.OUTFF
+n 79 MATRIX_PROD<4>
+n 80 MATRIX_PROD<4>.OUTFF
+n 81 MATRIX_PROD<5>
+n 82 MATRIX_PROD<5>.OUTFF
+n 83 MATRIX_PROD<6>
+n 84 MATRIX_PROD<6>.OUTFF
+n 85 MATRIX_PROD<7>
+n 86 MATRIX_PROD<7>.OUTFF
+n 87 MATRIX_PROD<8>
+n 88 MATRIX_PROD<8>.OUTFF
+n 89 MATRIX_PROD<9>
+n 90 MATRIX_PROD<9>.OUTFF
+n 91 MEMORY_SEL<0>
+n 92 MEMORY_SEL<1>
+n 93 MEMORY_SEL<2>
+n 94 RESET
+n 95 SOP_IN<0>
+n 96 SOP_IN<10>
+n 97 SOP_IN<11>
+n 98 SOP_IN<12>
+n 99 SOP_IN<13>
+n 100 SOP_IN<14>
+n 101 SOP_IN<15>
+n 102 SOP_IN<16>
+n 103 SOP_IN<17>
+n 104 SOP_IN<18>
+n 105 SOP_IN<19>
+n 106 SOP_IN<1>
+n 107 SOP_IN<2>
+n 108 SOP_IN<3>
+n 109 SOP_IN<4>
+n 110 SOP_IN<5>
+n 111 SOP_IN<6>
+n 112 SOP_IN<7>
+n 113 SOP_IN<8>
+n 114 SOP_IN<9>
+end
+hnode * matmul
+s FMAP_0 FGF
+ place CLB_R2C20.F
+ p O O 26
+ p I0 I 27
+ p I1 I 28
+s FMAP_1 FGF
+ place CLB_R1C19.F
+ p O O 25
+ p I0 I 29
+ p I2 I 27
+s FMAP_2 FGF
+ place CLB_R10C20.F
+ p O O 24
+ p I0 I 27
+ p I1 I 30
+s FMAP_3 FGF
+ place CLB_R19C20.F
+ p O O 23
+ p I0 I 27
+ p I1 I 31
+s FMAP_4 FGF
+ place CLB_R3C20.F
+ p O O 22
+ p I0 I 33
+ p I1 I 32
+ p I2 I 1
+ p I3 I 27
+s FMAP_5 FGF
+ place CLB_R13C20.F
+ p O O 21
+ p I0 I 27
+ p I2 I 34
+s FMAP_6 FGG
+ place CLB_R19C20.G
+ p O O 20
+ p I0 I 27
+ p I1 I 35
+ p I2 I 33
+s FMAP_7 FGG
+ place CLB_R10C20.G
+ p O O 19
+ p I0 I 27
+ p I2 I 33
+ p I3 I 36
+s FMAP_8 FGG
+ place CLB_R1C19.G
+ p O O 18
+ p I1 I 27
+ p I2 I 33
+ p I3 I 37
+s FMAP_9 FGG
+ place CLB_R2C20.G
+ p O O 17
+ p I1 I 38
+ p I2 I 33
+ p I3 I 27
+s FMAP_10 FGF
+ place CLB_R1C20.F
+ p O O 16
+ p I0 I 27
+ p I2 I 1
+ p I3 I 32
+s FMAP_11 FGF
+ place CLB_R20C17.F
+ p O O 15
+ p I0 I 39
+ p I1 I 27
+ p I2 I 33
+s FMAP_12 FGF
+ place CLB_R20C10.F
+ p O O 14
+ p I0 I 33
+ p I1 I 40
+s FMAP_13 FGF
+ place CLB_R20C1.F
+ p O O 13
+ p I0 I 41
+ p I1 I 33
+s FMAP_14 FGG
+ place CLB_R20C1.G
+ p O O 12
+ p I0 I 42
+ p I1 I 33
+s FMAP_15 FGG
+ place CLB_R20C10.G
+ p O O 11
+ p I0 I 33
+ p I2 I 43
+s FMAP_16 FGG
+ place CLB_R13C20.G
+ p O O 10
+ p I0 I 27
+ p I1 I 32
+ p I2 I 33
+ p I3 I 1
+s FMAP_17 FGG
+ place CLB_R20C17.G
+ p O O 9
+ p I1 I 44
+ p I2 I 33
+s FMAP_18 FGF
+ place CLB_R1C10.F
+ p O O 8
+ p I2 I 45
+ p I3 I 32
+s FMAP_19 FGF
+ place CLB_R1C3.F
+ p O O 7
+ p I1 I 46
+ p I3 I 32
+s FMAP_20 FGG
+ place CLB_R1C3.G
+ p O O 6
+ p I1 I 47
+ p I3 I 32
+s FMAP_21 FGG
+ place CLB_R1C10.G
+ p O O 5
+ p I2 I 32
+ p I3 I 48
+s FMAP_22 FGG
+ place CLB_R3C20.G
+ p O O 4
+ p I0 I 33
+ p I1 I 32
+ p I2 I 1
+ p I3 I 27
+s FMAP_23 FGG
+ place CLB_R1C20.G
+ p O O 2
+ p I2 I 49
+ p I3 I 32
+s C634 BUFGLS
+ place BUFGLS_WNW
+ p O O 3
+ p I I 50
+s RESET IOB
+ext
+ place P51
+ p I2 O 1
+ p PAD X 94
+ p IBUFOUT X 1
+s MEMORY_SEL<2> IOB
+ext
+ place P82
+ p I1 O 32
+ p PAD X 93
+ p IBUFOUT X 32
+s MEMORY_SEL<1> IOB
+ext
+ place P37
+ p I2 O 33
+ p PAD X 92
+ p IBUFOUT X 33
+s MEMORY_SEL<0> IOB
+ext
+ place P50
+ p I2 O 27
+ p PAD X 91
+ p IBUFOUT X 27
+s SOP_IN<19> IOB
+ext
+ place P72
+ p I2 O 49
+ p PAD X 105
+ p IBUFOUT X 49
+s SOP_IN<18> IOB
+ext
+ place P4
+ p I2 O 48
+ p PAD X 104
+ p IBUFOUT X 48
+s SOP_IN<17> IOB
+ext
+ place P9
+ p I1 O 47
+ p PAD X 103
+ p IBUFOUT X 47
+s SOP_IN<16> IOB
+ext
+ place P14
+ p I1 O 46
+ p PAD X 102
+ p IBUFOUT X 46
+s SOP_IN<15> IOB
+ext
+ place P5
+ p I2 O 45
+ p PAD X 101
+ p IBUFOUT X 45
+s SOP_IN<14> IOB
+ext
+ place P46
+ p I2 O 44
+ p PAD X 100
+ p IBUFOUT X 44
+s SOP_IN<13> IOB
+ext
+ place P44
+ p I1 O 43
+ p PAD X 99
+ p IBUFOUT X 43
+s SOP_IN<12> IOB
+ext
+ place P28
+ p I2 O 42
+ p PAD X 98
+ p IBUFOUT X 42
+s SOP_IN<11> IOB
+ext
+ place P35
+ p I1 O 41
+ p PAD X 97
+ p IBUFOUT X 41
+s SOP_IN<10> IOB
+ext
+ place P40
+ p I2 O 40
+ p PAD X 96
+ p IBUFOUT X 40
+s SOP_IN<9> IOB
+ext
+ place P47
+ p I2 O 39
+ p PAD X 114
+ p IBUFOUT X 39
+s SOP_IN<8> IOB
+ext
+ place P81
+ p I2 O 38
+ p PAD X 113
+ p IBUFOUT X 38
+s SOP_IN<7> IOB
+ext
+ place P80
+ p I2 O 37
+ p PAD X 112
+ p IBUFOUT X 37
+s SOP_IN<6> IOB
+ext
+ place P66
+ p I1 O 36
+ p PAD X 111
+ p IBUFOUT X 36
+s SOP_IN<5> IOB
+ext
+ place P56
+ p I2 O 35
+ p PAD X 110
+ p IBUFOUT X 35
+s SOP_IN<4> IOB
+ext
+ place P61
+ p I2 O 34
+ p PAD X 109
+ p IBUFOUT X 34
+s SOP_IN<3> IOB
+ext
+ place P57
+ p I1 O 31
+ p PAD X 108
+ p IBUFOUT X 31
+s SOP_IN<2> IOB
+ext
+ place P62
+ p I1 O 30
+ p PAD X 107
+ p IBUFOUT X 30
+s SOP_IN<1> IOB
+ext
+ place P79
+ p I1 O 29
+ p PAD X 106
+ p IBUFOUT X 29
+s SOP_IN<0> IOB
+ext
+ place P70
+ p I1 O 28
+ p PAD X 95
+ p IBUFOUT X 28
+s MATRIX_PROD<19> IOB
+ext
+ place P77
+ p O I 2
+ p OK I 3
+ p EC I 4
+ p PAD X 71
+ p OBUFIN X 72
+ p XOUT X 72
+s MATRIX_PROD<18> IOB
+ext
+ place P84
+ p O I 5
+ p OK I 3
+ p EC I 4
+ p PAD X 69
+ p OBUFIN X 70
+ p XOUT X 70
+s MATRIX_PROD<17> IOB
+ext
+ place P7
+ p O I 6
+ p OK I 3
+ p EC I 4
+ p PAD X 67
+ p OBUFIN X 68
+ p XOUT X 68
+s MATRIX_PROD<16> IOB
+ext
+ place P8
+ p O I 7
+ p OK I 3
+ p EC I 4
+ p PAD X 65
+ p OBUFIN X 66
+ p XOUT X 66
+s MATRIX_PROD<15> IOB
+ext
+ place P3
+ p O I 8
+ p OK I 3
+ p EC I 4
+ p PAD X 63
+ p OBUFIN X 64
+ p XOUT X 64
+s MATRIX_PROD<14> IOB
+ext
+ place P48
+ p O I 9
+ p OK I 3
+ p EC I 10
+ p PAD X 61
+ p OBUFIN X 62
+ p XOUT X 62
+s MATRIX_PROD<13> IOB
+ext
+ place P41
+ p O I 11
+ p OK I 3
+ p EC I 10
+ p PAD X 59
+ p OBUFIN X 60
+ p XOUT X 60
+s MATRIX_PROD<12> IOB
+ext
+ place P36
+ p O I 12
+ p OK I 3
+ p EC I 10
+ p PAD X 57
+ p OBUFIN X 58
+ p XOUT X 58
+s MATRIX_PROD<11> IOB
+ext
+ place P29
+ p O I 13
+ p OK I 3
+ p EC I 10
+ p PAD X 55
+ p OBUFIN X 56
+ p XOUT X 56
+s MATRIX_PROD<10> IOB
+ext
+ place P45
+ p O I 14
+ p OK I 3
+ p EC I 10
+ p PAD X 53
+ p OBUFIN X 54
+ p XOUT X 54
+s MATRIX_PROD<9> IOB
+ext
+ place P49
+ p O I 15
+ p OK I 3
+ p EC I 16
+ p PAD X 89
+ p OBUFIN X 90
+ p XOUT X 90
+s MATRIX_PROD<8> IOB
+ext
+ place P71
+ p O I 17
+ p OK I 3
+ p EC I 16
+ p PAD X 87
+ p OBUFIN X 88
+ p XOUT X 88
+s MATRIX_PROD<7> IOB
+ext
+ place P78
+ p O I 18
+ p OK I 3
+ p EC I 16
+ p PAD X 85
+ p OBUFIN X 86
+ p XOUT X 86
+s MATRIX_PROD<6> IOB
+ext
+ place P67
+ p O I 19
+ p OK I 3
+ p EC I 16
+ p PAD X 83
+ p OBUFIN X 84
+ p XOUT X 84
+s MATRIX_PROD<5> IOB
+ext
+ place P58
+ p O I 20
+ p OK I 3
+ p EC I 16
+ p PAD X 81
+ p OBUFIN X 82
+ p XOUT X 82
+s MATRIX_PROD<4> IOB
+ext
+ place P60
+ p O I 21
+ p OK I 3
+ p EC I 22
+ p PAD X 79
+ p OBUFIN X 80
+ p XOUT X 80
+s MATRIX_PROD<3> IOB
+ext
+ place P59
+ p O I 23
+ p OK I 3
+ p EC I 22
+ p PAD X 77
+ p OBUFIN X 78
+ p XOUT X 78
+s MATRIX_PROD<2> IOB
+ext
+ place P65
+ p O I 24
+ p OK I 3
+ p EC I 22
+ p PAD X 75
+ p OBUFIN X 76
+ p XOUT X 76
+s MATRIX_PROD<1> IOB
+ext
+ place P68
+ p O I 25
+ p OK I 3
+ p EC I 22
+ p PAD X 73
+ p OBUFIN X 74
+ p XOUT X 74
+s MATRIX_PROD<0> IOB
+ext
+ place P69
+ p O I 26
+ p OK I 3
+ p EC I 22
+ p PAD X 51
+ p OBUFIN X 52
+ p XOUT X 52
+s CLK IOB
+ext
+ place P13
+ p CLKIN O 50
+ p PAD X 50
+end
+end
+# End

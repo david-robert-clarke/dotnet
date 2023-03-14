@@ -1,0 +1,17 @@
+Library IEEE;
+USE IEEE.std_logic_1164.all;
+--
+Entity full_adder is
+Port (A, B, C_IN : IN std_logic; 
+      SUM, C_OUT : OUT std_logic);
+END Entity full_adder;
+--
+Architecture Structural OF full_adder is
+Begin
+
+SUM <= A xor B xor C_IN;
+C_OUT <= (A and B) or (A and C_IN) or (B and C_IN); 
+	
+End architecture Structural;
+
+

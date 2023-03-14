@@ -1,0 +1,184 @@
+package I;
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.*;
+
+/**
+   The Edit Customer Interface
+   
+   This allows a staff member to edit a existing customer entry, 
+   this class automatically updates the Customer Tables
+
+**/
+class EditCustomerUI extends JFrame
+{  
+  private String cid;
+  private String cfirstname;
+  private String clastname;
+  private String email;
+  private String home_addr1; 
+  private String home_addr2;
+  private String home_pcode;
+  private String cphone;
+  private String mob_phone;
+ 
+  private JLabel blankLabel0, blankLabel1;
+  private JLabel titleLabel;
+  private JLabel cidLabel;
+  private JLabel customerFirstNameLabel;
+  private JLabel customerLastNameLabel;
+  private JLabel customerStreetLabel;
+  private JLabel customerCityLabel;  
+  private JLabel customerPCodeLabel;
+  private JLabel customerPhoneNumberLabel;
+  private JLabel customerMPhoneNumberLabel;
+
+  private JTextField cidTextField;
+  private JTextField customerFirstNameTextField;  
+  private JTextField customerLastNameTextField; 
+  private JTextField customerStreetTextField; 
+  private JTextField customerCityTextField;
+  private JTextField customerPCodeTextField;
+  private JTextField customerPhoneNumberTextField;
+  private JTextField customerMPhoneNumberTextField;
+
+  private JButton cancelButton;
+  private JButton okayButton;
+  
+  private JPanel editPanel;
+  private JPanel buttonPanel;
+
+  //ArrayList
+  ArrayList customerEntry;
+
+  //Constructor
+  public EditCustomerUI(String cName)
+  {
+    clastname = cName;
+    GetCustomerDetailsQuery cDQuery = new GetCustomerDetailsQuery(clastname);
+    customerEntry = cDQuery.exeQuery();   
+    cid = (String)customerEntry.get(0);
+    cfirstname = (String)customerEntry.get(1);
+    clastname = (String)customerEntry.get(2);
+    home_addr1 = (String)customerEntry.get(3);
+    home_addr2 = (String)customerEntry.get(4); 
+    home_pcode = (String)customerEntry.get(5); 
+    cphone = (String)customerEntry.get(6);
+    mob_phone = (String)customerEntry.get(7);
+    
+    //Use a query that gets all the customer info for a given 
+    //customer
+    //customerEntry = new ArrayList();//always initialise these bloody arraylists
+    //editing fields
+    blankLabel0 = new JLabel();
+    blankLabel1 = new JLabel();
+    editPanel = new JPanel();
+    editPanel.setLayout(new GridLayout(13,1));
+    titleLabel = new JLabel("Enter new Customer details:");  
+    cidLabel = new JLabel("Customer Identification Number:");
+    cidTextField = new JTextField(cid);
+    cidTextField.setEnabled(false);
+    customerFirstNameLabel = new JLabel("Customer First Name:");
+    customerFirstNameTextField = new JTextField(cfirstname);
+    customerFirstNameTextField.setEnabled(false);
+    customerLastNameLabel = new JLabel("Customer Last Name:");
+    customerLastNameTextField = new JTextField(clastname);
+    customerLastNameTextField.setEnabled(false);
+    customerStreetLabel = new JLabel("Street Name:");
+    customerStreetTextField = new JTextField(home_addr1);
+    customerCityLabel = new JLabel("City:");
+    customerCityTextField = new JTextField(home_addr2);
+    customerPCodeLabel = new JLabel("Post Code:");
+    customerPCodeTextField = new JTextField(home_pcode);
+    customerPhoneNumberLabel = new JLabel("Home Number:");
+    customerPhoneNumberTextField = new JTextField(cphone);
+    customerMPhoneNumberLabel = new JLabel("Mobile Number:");
+    customerMPhoneNumberTextField = new JTextField(mob_phone);
+
+    editPanel.add(titleLabel);
+    editPanel.add(blankLabel0);
+    editPanel.add(cidLabel);
+    editPanel.add(cidTextField);
+    editPanel.add(customerFirstNameLabel);
+    editPanel.add(customerFirstNameTextField);
+    editPanel.add(customerLastNameLabel);
+    editPanel.add(customerLastNameTextField);
+    editPanel.add(customerStreetLabel);
+    editPanel.add(customerStreetTextField);
+    editPanel.add(customerCityLabel);
+    editPanel.add(customerCityTextField);
+    editPanel.add(customerPCodeLabel);
+    editPanel.add(customerPCodeTextField);
+    editPanel.add(customerPhoneNumberLabel);
+    editPanel.add(customerPhoneNumberTextField);
+    editPanel.add(customerMPhoneNumberLabel);
+    editPanel.add(customerMPhoneNumberTextField);
+    editPanel.add(blankLabel1);
+
+    //confirmation buttons
+    buttonPanel = new JPanel();
+    buttonPanel.setLayout(new GridLayout(1,2));
+    cancelButton = new JButton("Cancel");
+    cancelButton.addActionListener(new ButtonListener());
+    okayButton = new JButton("OK");
+    okayButton.addActionListener(new ButtonListener());
+    buttonPanel.add(cancelButton);
+    buttonPanel.add(okayButton);
+
+    Container contentPane = getContentPane();
+    contentPane.add(editPanel,"Center");
+    contentPane.add(buttonPanel, "South");
+    
+  }
+
+  public class ButtonListener implements ActionListener
+  {
+    public void actionPerformed(ActionEvent event)
+    {
+      Object source = event.getSource();
+      
+      if(source == okayButton)
+      {
+	
+	//if the okay button has been pressed, take all information present
+	//on the Edit CD details page and overwrite the details present in the
+	//supplierEntry ArrayList(excluding the iid),
+	customerEntry.set(0,cidTextField.getText());
+	customerEntry.set(1,customerFirstNameTextField.getText());
+	customerEntry.set(2,customerLastNameTextField.getText());
+	customerEntry.set(3,customerStreetTextField.getText());
+	customerEntry.set(4,customerCityTextField.getText());
+	customerEntry.set(5,customerPCodeTextField.getText());
+	customerEntry.set(6,customerPhoneNumberTextField.getText());
+	customerEntry.set(7,customerMPhoneNumberTextField.getText());
+
+	System.out.println((String)customerEntry.get(0));
+	System.out.println((String)customerEntry.get(1));
+	System.out.println((String)customerEntry.get(2));
+	System.out.println((String)customerEntry.get(3));
+	System.out.println((String)customerEntry.get(4));
+	System.out.println((String)customerEntry.get(5));
+	System.out.println((String)customerEntry.get(6));
+	System.out.println((String)customerEntry.get(7));
+	
+	
+	//pass this arrayList directly to the UpdateCustomerQuery class
+	//new java query, which edits the relevant tuples in the database      
+	UpdateCustomerEntryQuery upCustomer =
+	  new UpdateCustomerEntryQuery(customerEntry);
+	upCustomer.exeQuery();
+	
+	
+	//Then exit this window
+	dispose();
+      }
+      else if(source == cancelButton)
+      {
+	dispose();
+      }
+      
+    }      
+  }
+}

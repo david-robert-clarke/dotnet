@@ -1,0 +1,9 @@
+{
+    "AllAutocomplete.showCurrentDocument": false,
+    "workbench.colorCustomizations": {
+    
+    },
+    "cSpell.enableFiletypes": [
+        "markdown"
+    ]
+}

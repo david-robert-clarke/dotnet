@@ -1,0 +1,16 @@
+
+Inferred memory devices in process 
+	in routine Answer_Store_3 line 18 in file
+         'C:/fndtn/active/projects/cons_123/answer_store_3.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        Q_reg        | Flip-flop |  20   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Q_reg (width 20)
+----------------
+    set/reset/toggle: none
+
+
+Writing to hnl file 'c:\Fndtn\Active\Projects\Cons_123\cons_123/workdirs/WORK/Answer_Store_3.hnl'

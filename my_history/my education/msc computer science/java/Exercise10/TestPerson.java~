@@ -1,0 +1,220 @@
+import family.Person;
+import family.GenderException;
+import family.IdentityException;
+
+class TestPerson
+{
+    public static void main(String[] args)throws IdentityException,GenderException
+    {
+        //Person helen = new Person(false);
+        //Person helen = new Person(false);
+        //Person dave = new Person(true);
+        //Person dave = new Person("dave",true);
+        //Person dave = new Person(null,true);
+        //Person helen = new Person("helen",false);
+        //Person dave = new Person("dave",true,"12/01/1981","12/01/2081");
+        //Person dave = new Person(null,true,"12/01/1981","12/01/2081");
+        //Person helen = new Person("helen",false,"14/08/1979","16/02/2091");
+        /*
+        System.out.println(dave.getAncestors()); 
+        System.out.println(dave.getBirth()) ;
+        System.out.println(dave.getChild(0)); 
+        System.out.println(dave.getCousins());
+        System.out.println(dave.getDeath());
+        System.out.println(dave.getDescendants()); 
+        System.out.println(dave.getFather()); 
+        System.out.println(dave.getGender());
+        System.out.println(dave.getMother());
+        System.out.println(dave.getName()); 
+        System.out.println(dave.getNotes());
+        System.out.println(dave.getNumberOfChildren());
+        System.out.println(dave.getOccupation()); 
+        */
+        /*
+        System.out.println(helen.getAncestors()); 
+        System.out.println(helen.getBirth()) ;
+        System.out.println(helen.getChild(0)); 
+        System.out.println(helen.getCousins());
+        System.out.println(helen.getDeath());
+        System.out.println(helen.getDescendants()); 
+        System.out.println(helen.getFather()); 
+        System.out.println(helen.getGender());
+        System.out.println(helen.getMother());
+        System.out.println(helen.getName()); 
+        System.out.println(helen.getNotes());
+        System.out.println(helen.getNumberOfChildren());
+        System.out.println(helen.getOccupation()); 
+        */
+        
+        //create about seven people
+        Person winnie = new Person("winnie",false,"16/02/1912","16/02/2010");
+        Person charlie = new Person("charlie",true);
+
+        Person jenny = new Person("jenny",false,"14/08/2002","18/09/3002");
+        Person helen = new Person("helen",false,"14/08/1979","16/02/2091");
+        Person dave1 = new Person("dave",true,"28/07/1979","12/01/2081");
+        Person alan = new Person("alan",true,"25/05/1981","25/05/2081");
+        Person fred = new Person("fred",true,"12/04/1943","12/04/2023");
+        Person margaret=new Person("margaret",false,"01/04/1946","12/04/2030");
+        
+        Person dave2 = new Person("dave",true,"12/10/1952","12/10/2042");
+        Person richard = new Person("richard",true,"12/03/1981","19/12/2081");
+        Person neil = new Person("neil",true,"12/10/1984","05/06/2084");
+
+        Person hazel = new Person("hazel",false);
+        Person gaynor = new Person("gaynor",false);
+        Person joanna = new Person("joanna",false);
+
+        Person christine = new Person("christine",false);
+        Person paul = new Person("paul",true);
+        Person sarah = new Person("sarah",false);
+
+        fred.setMother(winnie);
+        fred.setFather(charlie);
+        helen.setMother(margaret);
+        dave1.setMother(margaret);
+        alan.setMother(margaret);
+        helen.setFather(fred);
+        dave1.setFather(fred);
+        alan.setFather(fred);      
+        dave2.setMother(winnie);
+        dave2.setFather(charlie);
+        neil.setFather(dave2);
+        richard.setFather(dave2);                
+        hazel.setMother(winnie);
+        hazel.setFather(charlie);
+        gaynor.setMother(hazel);
+        joanna.setMother(hazel);
+        christine.setMother(winnie);
+        christine.setFather(charlie);
+        paul.setMother(christine);
+        sarah.setMother(christine);
+
+        System.out.println(winnie.getDescendants());
+        System.out.println(winnie.getAncestors());
+        System.out.println(winnie.getSiblings());
+        System.out.println(winnie.getCousins());
+
+        System.out.println(charlie.getDescendants());
+        System.out.println(charlie.getAncestors());
+        System.out.println(charlie.getSiblings());
+        System.out.println(charlie.getCousins());
+
+        System.out.println(fred.getDescendants());
+        System.out.println(fred.getAncestors());//p2
+        System.out.println(fred.getSiblings());//p3
+        System.out.println(fred.getCousins());//p4
+
+        System.out.println(margaret.getDescendants());//p1
+        System.out.println(margaret.getAncestors());//p2
+        System.out.println(margaret.getSiblings());//p3
+        System.out.println(margaret.getCousins());//p4
+
+        System.out.println(christine.getDescendants());//p1
+        System.out.println(christine.getAncestors());//p2
+        System.out.println(christine.getSiblings());//p3
+        System.out.println(christine.getCousins());//p4
+
+        System.out.println(hazel.getDescendants());//p1
+        System.out.println(hazel.getAncestors());//p2
+        System.out.println(hazel.getSiblings());//p3
+        System.out.println(hazel.getCousins());//p4
+
+        System.out.println(dave2.getDescendants());//p1
+        System.out.println(dave2.getAncestors());//p2
+        System.out.println(dave2.getSiblings());//p3
+        System.out.println(dave2.getCousins());//p4
+
+        System.out.println(dave1.getDescendants());//p1
+        System.out.println(dave1.getAncestors());//p2
+        System.out.println(dave1.getSiblings());//p3
+        System.out.println(dave1.getCousins());//p4
+
+        System.out.println(alan.getDescendants());//p1
+        System.out.println(alan.getAncestors());//p2
+        System.out.println(alan.getSiblings());//p3
+        System.out.println(alan.getCousins());//p4
+
+       System.out.println(helen.getDescendants());//p1
+       System.out.println(helen.getAncestors());//p2
+       System.out.println(helen.getSiblings());//p3
+       System.out.println(helen.getCousins());//p4
+ 
+       System.out.println(joanna.getDescendants());//p1
+       System.out.println(joanna.getAncestors());//p2
+       System.out.println(joanna.getSiblings());//p3
+       System.out.println(joanna.getCousins());//p4
+
+       System.out.println(gaynor.getDescendants());//p1
+       System.out.println(gaynor.getAncestors());//p2
+       System.out.println(gaynor.getSiblings());//p3
+       System.out.println(gaynor.getCousins());//p4
+       
+       System.out.println(paul.getDescendants());//p1
+       System.out.println(paul.getAncestors());//p2
+       System.out.println(paul.getSiblings());//p3
+       System.out.println(paul.getCousins());//p4
+
+       System.out.println(sarah.getDescendants());//p1
+       System.out.println(sarah.getAncestors());//p2
+       System.out.println(sarah.getSiblings());//p3
+       System.out.println(sarah.getCousins());//p4
+
+       System.out.println(richard.getDescendants());//p1
+       System.out.println(richard.getAncestors());//p2
+       System.out.println(richard.getSiblings());//p3
+       System.out.println(richard.getCousins());//p4
+
+       System.out.println(neil.getDescendants());//p1
+       System.out.println(neil.getAncestors());//p2
+       System.out.println(neil.getSiblings());//p3
+       System.out.println(neil.getCousins());//p4
+
+       //no of children, parents
+       System.out.println(winnie.getNumberOfChildren());
+       System.out.println(winnie.getFather());
+       System.out.println(winnie.getMother());
+
+        //helen.setName(null);
+        //helen.addChild(helen);
+        //jenny.setFather(helen);
+        //dave1.setFather(dave1);
+        //dave1.setFather(fred);
+        //fred.setFather(dave1);
+
+        //helen.setMother(dave1);
+        //helen.setMother(helen);
+
+        //jenny.setMother(helen);
+        //helen.setMother(jenny);
+
+        /*
+        helen.setBirth("19/05/2002");
+        helen.setDeath("45/56/2084");
+        helen.setFather(fred);
+        helen.setMother(margaret);
+        helen.setName("mary");
+        helen.setNotes("Eat food every day");
+        helen.addChild(jenny);
+        helen.setOccupation("Lawyer");
+        */
+        /*
+        System.out.println(helen.getFather()); 
+        System.out.println(helen.getGender());
+        System.out.println(helen.getMother());
+        System.out.println(helen.getName()); 
+        System.out.println(helen.getNotes());
+        System.out.println(helen.getNumberOfChildren());
+        System.out.println(helen.hasChild(jenny));
+        System.out.println(helen.getOccupation()); 
+        */
+        /*
+        System.out.println(jenny.getMother());
+        helen.removeChild(jenny);
+        System.out.println(helen.hasChild(jenny));
+        System.out.println(helen.getNumberOfChildren());
+        System.out.println(jenny.getMother());
+        */
+       
+    }
+}

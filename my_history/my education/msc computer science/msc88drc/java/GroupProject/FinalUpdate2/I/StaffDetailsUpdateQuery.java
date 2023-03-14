@@ -1,0 +1,60 @@
+package I;
+import java.sql.*;
+import java.util.ArrayList;
+
+/**
+   Used by the UI, this allows a manager to update the staff details of a 
+   particular member of staff.
+
+   @author David Clarke
+**/
+class StaffDetailsUpdateQuery
+{
+  private Connection c;
+  private ArrayList staffDetails;
+  private String sid,sfirstname,slastname,staffaddr_1,staffaddr_2;
+  private String staff_pcode,staff_mobphone;
+  private String staff_phone,position;
+  
+  /**
+   * Constructor to create a get all staff orders query
+   *
+   * @param staffD the staff details
+   **/
+  public StaffDetailsUpdateQuery(ArrayList staffD)
+  {
+    c = MyConnection.C;
+    staffDetails = staffD;
+    sid = (String)staffDetails.get(0);
+    sfirstname = (String)staffDetails.get(1);
+    slastname = (String)staffDetails.get(2);
+    staffaddr_1 = (String)staffDetails.get(3);
+    staffaddr_2 = (String)staffDetails.get(4);
+    staff_pcode = (String)staffDetails.get(5);
+    staff_mobphone = (String)staffDetails.get(6);
+    staff_phone = (String)staffDetails.get(7);
+    position = (String)staffDetails.get(8);
+        
+  }
+  /**
+   * Execute the query
+   **/
+  public void exeQuery()
+  {   
+    try
+    {
+      Statement stmt = c.createStatement();
+      stmt.executeUpdate("UPDATE staff SET sfirstname ='" + sfirstname 
+			 + "', slastname = '" + slastname + "', staff_addr1= '"
+			 + staffaddr_1 + "', staff_addr2 = '" + staffaddr_2 
+			 + "', staff_pcode ='"+ staff_pcode 
+			 + "', staff_mobphone ='" + staff_mobphone 
+			 + "', staff_phone ='" + staff_phone 
+			 + "' WHERE sid ='" + sid + "'");
+    } 
+    catch (SQLException e) 
+    {
+      System.out.println( "An exception occurred in UpdateCDEntryQuery. " + e);
+    }
+  }
+}

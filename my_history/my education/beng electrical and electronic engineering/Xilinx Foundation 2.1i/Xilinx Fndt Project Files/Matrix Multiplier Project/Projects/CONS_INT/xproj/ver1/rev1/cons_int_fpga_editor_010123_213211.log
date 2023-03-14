@@ -1,0 +1,129 @@
+#:C49    
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 C.16
+#Design Path Name:
+#:N   cons_int.ncd
+#Current Working Directory:
+#:D   C:\Fndtn\Active\Projects\CONS_INT\xproj\ver1\rev1
+#Part Type:
+#:P  Xilinx xc4010xl pc84 -09
+#Date/Time:
+#:T   Tue Jan 23 21:07:02 2001
+#------------------------------
+	#1
+setattr main edit-mode read-only
+	#2
+unselect -all
+	#3
+setattr main  disable_draw TRUE
+	#4
+setattr layer * color GREY
+	#5
+setattr layer macros color BLACK fill SOLID
+	#6
+setattr layer hilite color BLACK
+	#7
+setattr layer select color BLACK
+	#8
+setattr layer text color BLACK
+	#9
+setattr layer block_prim color BLACK
+	#10
+setattr layer block_config color BLACK
+	#11
+setattr layer block_name color BLACK
+	#12
+setattr main disable_draw FALSE
+	#13
+post saveas
+	#14
+unpost saveas
+	#15
+echo save design Cons_Int.ncd Cons_Int.pcf
+	#16
+save design Cons_Int.ncd Cons_Int.pcf
+	#17
+setattr main  disable_draw TRUE
+	#18
+setattr layer * color GREY fill HOLLOW
+	#19
+setattr layer long_lines  color MAGENTA
+	#20
+setattr layer pinwires color DARK_GREEN
+	#21
+setattr layer components color BLUE fill SOLID
+	#22
+setattr layer macros color WHITE fill SOLID
+	#23
+setattr layer ratsnests color GREEN fill SOLID
+	#24
+setattr layer routes color CYAN fill SOLID
+	#25
+setattr layer hilite color YELLOW
+	#26
+setattr layer select color RED
+	#27
+setattr layer text color WHITE
+	#28
+setattr layer block_prim color WHITE
+	#29
+setattr layer block_wire color MAGENTA
+	#30
+setattr layer block_config color CYAN
+	#31
+setattr layer block_name color GREEN
+	#32
+setattr main disable_draw FALSE
+	#33
+setattr main  disable_draw TRUE
+	#34
+setattr layer * color GREY
+	#35
+setattr layer macros color BLACK fill SOLID
+	#36
+setattr layer hilite color BLACK
+	#37
+setattr layer select color BLACK
+	#38
+setattr layer text color BLACK
+	#39
+setattr layer block_prim color BLACK
+	#40
+setattr layer block_config color BLACK
+	#41
+setattr layer block_name color BLACK
+	#42
+setattr main disable_draw FALSE
+	#43
+setattr main  disable_draw TRUE
+	#44
+setattr layer * color GREY fill HOLLOW
+	#45
+setattr layer long_lines  color MAGENTA
+	#46
+setattr layer pinwires color DARK_GREEN
+	#47
+setattr layer components color BLUE fill SOLID
+	#48
+setattr layer macros color WHITE fill SOLID
+	#49
+setattr layer ratsnests color GREEN fill SOLID
+	#50
+setattr layer routes color CYAN fill SOLID
+	#51
+setattr layer hilite color YELLOW
+	#52
+setattr layer select color RED
+	#53
+setattr layer text color WHITE
+	#54
+setattr layer block_prim color WHITE
+	#55
+setattr layer block_wire color MAGENTA
+	#56
+setattr layer block_config color CYAN
+	#57
+setattr layer block_name color GREEN
+	#58
+setattr main disable_draw FALSE

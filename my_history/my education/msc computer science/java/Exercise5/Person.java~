@@ -1,0 +1,185 @@
+package addressbook;
+
+/**
+ * This class manages details about a single person
+ *
+ * @author David Clarke
+ **/
+public class Person
+{
+	private String familyName;
+	private String givenNames;
+	private String homePhoneNumber;
+	private String workPhoneNumber;
+	private String mobilePhoneNumber;
+	private String emailAddress;
+	/**
+	* Constructor to create a Person with the specified family and given names. 
+	* All the remaining fields will be blank.
+	*
+	* @param fn the person's family name
+	* @param gn the person's given names
+	**/
+	public Person(String name, String names)
+	{
+		familyName = name;
+		givenNames = names;
+	}
+	
+	/**
+	* Constructor to create a Person with the specified details. 
+	*
+	* @param name the person's family name
+	* @param names the person's given names
+	* @param home their home phone number
+	* @param work their work phone number
+	* @param mobile their mobile phone number
+	* @param mail their e-mail address
+	**/
+	public Person(String name, String names, String homeNo, String workNo, 
+								String mobile, String mail)
+	{
+		familyName = name;
+		givenNames = names;
+		homePhoneNumber = homeNo;
+		workPhoneNumber = workNo;
+		mobilePhoneNumber = mobile;
+		emailAddress = mail;
+	}
+	
+	/**
+	* Set the person's family name
+	*
+	* @param name the family name
+	**/
+	public void setFamilyName(String name)
+	{
+		familyName = name;
+	}
+	
+	/**
+	* Set the person's given name(s).
+	*
+	* @param names the given name(s)
+	**/
+	public void setGivenNames(String names)
+	{
+		givenNames = names;
+	}
+	
+	/**
+	* Set the person's home phone number.
+	*
+	* @param home the home phone number
+	**/
+	public void setHomePhone(String homeNo)
+	{
+		homePhoneNumber = homeNo;
+	}
+	
+	/**
+	* Set the person's work phone number.
+	*
+	* @param number the mobile phone number
+	**/
+	public void setWorkPhone(String workNo)
+	{
+		workPhoneNumber = workNo;
+	}
+	
+	/**
+	* Set the person's mobile phone number.
+	*
+	* @param number the mobile phone number
+	**/
+	public void setMobilePhone(String mobile)
+	{
+		mobilePhoneNumber = mobile;
+	}
+	
+	/**
+	* Set the person's e-mail address.
+	*
+	* @param mail the e-mail address
+	**/
+	public void setEMail(String mail)
+	{
+		emailAddress = mail;
+	}
+	
+	/**
+	* Get the person's family name.
+	*
+	* @return the family name
+	**/
+	public String getFamilyName()
+	{
+		return familyName;
+	}
+	
+	/**
+	* Get the person's given name(s).
+	*
+	* @return the given name(s)
+	**/
+	public String getGivenNames()
+	{
+		return givenNames;
+	}
+	
+	/**
+	* Get the person's home phone number 
+	*
+	* @return the home phone number
+	**/
+	public String getHomePhone()
+	{
+		return homePhoneNumber;
+	}
+	
+	/**
+	* Get the person's work phone number 
+	*
+	* @return the work phone number
+	**/
+	public String getWorkPhone()
+	{
+		return workPhoneNumber;
+	}
+	
+	/**
+	* Get the person's mobile phone number 
+	*
+	* @return the mobile phone number
+	**/
+	public String getMobilePhone()
+	{
+		return mobilePhoneNumber;
+	}
+	
+	/**
+	* Get the person's e-mail address
+	*
+	* @return the e-mail address
+	**/
+	public String getEMail()
+	{
+		return emailAddress;
+	}
+	
+	/**
+	* Get a string representation of this Person.
+	*
+	* @return a multi-line string containing all the person's details
+	**/
+	public String toString()
+	{
+		String line1 = "\nName: " + getFamilyName() + " " + getGivenNames() + "\n";
+		String line2 = "Home Phone: " + getHomePhone() + "\n";
+		String line3 = "Work Phone: " + getWorkPhone() + "\n";
+		String line4 = "Mobile: " + getMobilePhone() + "\n";
+		String line5 = "E-Mail: " + getEMail();
+	
+		return (line1 + line2 + line3 + line4 + line5);
+	}
+}

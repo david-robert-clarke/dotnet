@@ -1,0 +1,91 @@
+-- Final Year Project
+-- Xilinx Project "proj_3x3"
+-- Created 10_02_2001
+-- By David Clarke
+Library IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_ARITH.ALL;
+USE WORK.MATRIX_PACKAGE.ALL;
+
+ENTITY DATA_STORE IS
+PORT (CLK_EXT: IN ONE_BIT;
+      D_IN   : IN U_THREE_BITS; 
+      FF_SEL : IN NIBBLE;
+      -- TOTAL OF ONE BYTE OF INPUT DATA CORRESPONDING TO ONE BYTE OF DATA RECIEVED FROM THE PROGRAM
+      -- XSPORT
+      A11, A12, A13, B11, B12, B13,
+      A21, A22, A23, B21, B22, B23,
+      A31, A32, A33, B31, B32, B33 : OUT U_TWO_BITS);
+      -- EIGTHEEN ELEMENTS, THE MAGNITUDE OF A MATRIX ELEMENT IS TWO BITS WIDE EQUALLING 36 OUTPUT BIT
+      -- THE ERROR OUTPUT IS USED AS AN ERROR DETECTION METHOD, TO SEE IF THE SYSTEM INPUT DATA IS BEHAVING
+END ENTITY DATA_STORE;
+
+ARCHITECTURE BEHAVIOURAL OF DATA_STORE IS
+BEGIN
+	GATHER_IN : PROCESS (CLK_EXT, D_IN, FF_SEL)
+	    BEGIN
+		IF RISING_EDGE(CLK_EXT) THEN
+	            -- 9 SETS OF FOUR BIT LATCHES, REQUIRES 9 SELECT SIGNALS (8 DOWNTO 0) TO GET DATA TO ITS 
+	            -- CORRECT DESTINATION
+	            CASE FF_SEL IS 
+	                WHEN "1011" => A11    <= D_IN(2 DOWNTO 1);
+	                               A12(1) <= D_IN(0);
+	                       
+	                WHEN "1010" => A12(0) <= D_IN(2);
+	                               A13    <= D_IN(1 DOWNTO 0);
+	                       
+	                WHEN "1001" => A21    <= D_IN(2 DOWNTO 1);
+	                               A22(1) <= D_IN(0);
+	                       
+	                WHEN "1000" => A22(0) <= D_IN(2);
+	                               A23    <= D_IN(1 DOWNTO 0);
+	                       
+	                WHEN "0111" => A31    <= D_IN(2 DOWNTO 1);
+	                               A32(1) <= D_IN(0);
+	                       
+	                WHEN "0110" => A32(0) <= D_IN(2);
+	                               A33    <= D_IN(1 DOWNTO 0);
+	                       
+	                WHEN "0101" => B11    <= D_IN(2 DOWNTO 1);
+	                               B12(1) <= D_IN(0);
+	                       
+	                WHEN "0100" => B12(0) <= D_IN(2);
+	                               B13    <= D_IN(1 DOWNTO 0);
+	                       
+	                WHEN "0011" => B21    <= D_IN(2 DOWNTO 1);
+	                               B22(1) <= D_IN(0);
+	                      
+	                WHEN "0010" => B22(0) <= D_IN(2);
+	                               B23    <= D_IN(1 DOWNTO 0);
+	                           
+	                WHEN "0001" => B31    <= D_IN(2 DOWNTO 1);
+	                               B32(1) <= D_IN(0);
+	              
+	                WHEN "0000" => B32(0) <= D_IN(2);
+	                               B33    <= D_IN(1 DOWNTO 0);
+	            
+	                WHEN OTHERS => A11 <= "00";
+	                               A12 <= "00";
+	                               A13 <= "00";
+	                               A21 <= "00";
+	                               A22 <= "00";
+	                               A23 <= "00";
+	                               A31 <= "00";
+	                               A32 <= "00";
+	                               A33 <= "00";
+	                               B11 <= "00";
+	                               B12 <= "00";
+	                               B13 <= "00";
+	                               B21 <= "00";
+	                               B22 <= "00";
+	                               B23 <= "00";
+	                               B31 <= "00";
+	                               B32 <= "00";
+	                               B33 <= "00";
+	            
+	            END CASE;
+	        END IF;
+	    END PROCESS GATHER_IN;
+	
+END ARCHITECTURE BEHAVIOURAL;
+      		

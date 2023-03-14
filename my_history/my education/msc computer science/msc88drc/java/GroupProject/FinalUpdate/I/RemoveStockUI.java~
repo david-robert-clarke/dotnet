@@ -1,0 +1,129 @@
+package I;
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.*;
+import javax.swing.JOptionPane;
+
+  /**
+     The Remove Stock Interface
+   
+     This allows a staff member to delete a specific cd,
+     this class automatically updates the cd 
+ 
+  **/
+  class RemoveStockUI extends JFrame
+  {    
+    //instance variables
+  
+    //ArrayLists
+    private ArrayList cdEntry;
+    
+    //Strings
+    private String cdText;
+    private String artistText;
+    private String iidText;
+
+    //Frame
+    private JFrame frame;
+
+    //Swing Components
+    private JLabel blankLabel0, blankLabel1;
+    private JLabel cdLabel; 
+    private JTextField cdTextField;
+    private JLabel artistLabel;
+    private JTextField artistTextField;
+    private JLabel iidLabel;
+    private JTextField iidTextField;
+    private JLabel confirmDeleteLabel;
+   
+    private JButton cancelButton, okayButton;  
+     
+    //Panels
+    private JPanel buttonPanel;
+    private JPanel editPanel;
+
+    //constructor
+    public RemoveStockUI(ArrayList cdEntry)
+    {
+      //use SQL statement to get the tuple corresponding to the 2 entries in the
+      //arraylist "entry".
+      cdEntry = new ArrayList();
+   
+      String cdTitle = (String)cdEntry.get(1);
+      String cdArtist = (String)cdEntry.get(0);
+      
+      //
+      CDSearchQuery cdSearch =
+	new CDSearchQuery(cdArtist,cdTitle);
+
+      cdEntry = cdSearch.exeQuery(); //returns a complete cd entry
+
+      iidText = (String)cdEntry.get(0);
+      cdText = (String)cdEntry.get(1);
+      artistText =(String)cdEntry.get(2);
+
+      //editing fields for CD
+      blankLabel0 = new JLabel();
+      blankLabel1 = new JLabel();
+      editPanel = new JPanel();
+      editPanel.setLayout(new GridLayout(15,1)); 
+      iidLabel = new JLabel("Item ID:");
+      iidTextField = new JTextField(iidText);
+      iidTextField.setEnabled(false);
+      cdLabel = new JLabel("CD name:");   
+      cdTextField = new JTextField(cdText);
+      cdTextField.setEnabled(false);
+      artistLabel = new JLabel("Artist:");
+      artistTextField = new JTextField(artistText);
+      artistTextField.setEnabled(false);
+      confirmDeleteLabel = new JLabel("To confirm delete, press ok.");
+
+      editPanel.add(blankLabel0);
+      editPanel.add(iidLabel);
+      editPanel.add(iidTextField);  
+      editPanel.add(cdLabel);
+      editPanel.add(cdTextField);
+      editPanel.add(artistLabel);
+      editPanel.add(artistTextField);
+      editPanel.add(blankLabel1);
+
+      //confirmation buttons
+      buttonPanel = new JPanel();
+      buttonPanel.setLayout(new GridLayout(1,2));
+      okayButton = new JButton("OK");
+      okayButton.addActionListener(new ButtonListener());
+      cancelButton = new JButton("Cancel");
+      cancelButton.addActionListener(new ButtonListener());
+      buttonPanel.add(okayButton);
+      buttonPanel.add(cancelButton);
+
+      Container contentPane = getContentPane();
+      contentPane.add(editPanel,"Center");
+      contentPane.add(buttonPanel, "South");
+    
+    }
+
+    public class ButtonListener implements ActionListener
+    {
+      public void actionPerformed(ActionEvent event)
+      {
+        Object source = event.getSource();
+        
+        if(source == okayButton)
+	{
+	  
+	  DeleteCDTupleQuery thisQuery =new DeleteCDTupleQuery(cdEntry);
+	  thisQuery.exeQuery();
+	    //Then exit this window
+	  dispose();
+	}
+        else if(source == cancelButton)
+	{
+	  dispose();//closes this window
+	}
+      }      
+    }
+  }
+

@@ -1,0 +1,25 @@
+--
+--  Behavioural 8x2 ROM 
+--       
+--
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_arith.all;
+USE WORK.MATRIX_PACKAGE.ALL;
+--
+entity data_store is
+     port (ADDR: in INTEGER range 3 downto 0;
+           DATA: out U_BYTE);
+end data_store;
+
+architecture Behavioural of data_store is
+    constant ROM: ROM_TABLE := ROM_TABLE'(ROM_BITS'("01101101"),
+                                          ROM_BITS'("01101111"),
+                                          ROM_BITS'("10100101"),
+                                          ROM_BITS'("10100111"));
+
+    begin
+        DATA <= ROM(ADDR);  -- Read from the ROM
+end Behavioural;
+

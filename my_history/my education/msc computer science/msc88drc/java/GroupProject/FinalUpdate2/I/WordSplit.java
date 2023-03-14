@@ -1,0 +1,58 @@
+package I;
+import java.io.*;
+import java.util.*;
+/**
+   Class that receives an arraylist of string data. It procedes to split the 
+   String data up into individual words using a hyphen as a delimeter.
+   
+   @author David Clarke
+**/
+public class WordSplit
+{
+  //instance variables
+  private ArrayList wordList;
+  private String word;
+  private int size;
+  private final char hyphen;
+
+  /**
+   * Constructor to create an Empty Wordsplit
+   *
+   * @param cdDetails the cd Details
+   **/
+  public WordSplit(String cdDetails)
+  {
+    word = "";
+    wordList = new ArrayList();
+    size = cdDetails.length();
+    hyphen = '-';
+      
+    for(int i=0; i<size; i++)
+    {
+      char thisChar = cdDetails.charAt(i);
+	
+      if(thisChar == hyphen)//end of word, add to arraylist, initialise String
+      {
+	wordList.add(word);
+	word = "";
+      }	
+      else //add characters to the String word
+      {
+	word = word + thisChar;
+      }
+	
+    }
+    wordList.add(word);//gets the final word      
+  }
+  
+  /**
+   * Get the list of words
+   * 
+   * @return the list of words
+   **/  
+  public ArrayList getWords()
+  {
+    return wordList;
+  }
+  
+}

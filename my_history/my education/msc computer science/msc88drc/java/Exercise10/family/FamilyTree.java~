@@ -1,0 +1,57 @@
+package family;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import javax.swing.event.EventListenerList;
+
+public class FamilyTree implements java.io.Serializable
+{
+  private HashSet persons;
+  private Iterator iterator;
+  private EventListenerList listenerList;
+  private FamilyTreeEvent familyTreeEvent;
+
+  public FamilyTree()
+  {
+    System.out.println("Constructor"); 
+    persons = new HashSet();
+    listenerList = new EventListenerList();
+    iterator = persons.iterator();
+  }
+    
+  public void addPerson(Person person) throws FamilyException
+  {
+    System.out.println("addPerson");  
+    persons.add(person);
+    firePersonAdded(person);
+  }
+
+  public Iterator getTreeIterator()
+  {
+      System.out.println("getTreeIterator");
+      iterator = persons.iterator(); //initialise iterator
+      return(iterator);
+  }
+  
+  public void addFamilyTreeListener(FamilyTreeListener ftl)
+  {    
+      System.out.println("addFamilyTreeListener");
+      listenerList.add(FamilyTreeListener.class, ftl);
+  }
+
+  protected void firePersonAdded(Person p)
+  {
+    System.out.println("firePersonAdded");  
+    Object[] listeners = listenerList.getListenerList();
+    
+    for (int i = listeners.length-2; i>=0; i-=2) 
+    {
+      if (listeners[i]==FamilyTreeListener.class) 
+      {
+          familyTreeEvent = new FamilyTreeEvent(this,p);          
+          ((FamilyTreeListener)listeners[i+1]).personAdded(familyTreeEvent);  
+      }
+    }
+  }  
+
+}// FamilyTree

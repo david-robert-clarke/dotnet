@@ -1,0 +1,195 @@
+
+Xilinx Mapping Report File for Design 'row_cols'
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Design Information
+------------------
+Command Line   : m1map -p xc4085xl-09-pg559 -o map.ncd row_cols.ngd
+row_cols.pcf 
+Target Device  : x4085xl
+Target Package : pg559
+Target Speed   : -09
+Mapper Version : xc4000xl -- C.16
+
+Design Summary
+--------------
+   Number of errors:        0
+   Number of warnings:      1
+   Number of CLBs:            290 out of  3136    9%
+      CLB Flip Flops:       0
+      CLB Latches:          0
+      4 input LUTs:       512
+      3 input LUTs:         0
+   Number of bonded IOBs:     163 out of   448   36%
+      IOB Flops:           96
+      IOB Latches:          0
+   Number of clock IOB pads:    1 out of    12    8%
+   Number of BUFGLSs:           1 out of     8   12%
+   Number of startup:           1 out of     1  100%
+Total equivalent gate count for design: 5104
+Additional JTAG gate count for IOBs:    7824
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Design Attributes
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - Added Logic
+Section 7 - Expanded Logic
+Section 8 - Signal Cross-Reference
+Section 9 - Symbol Cross-Reference
+Section 10 - IOB Properties
+Section 11 - RPMs
+Section 12 - Guide Report
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:OldMap:78 - All of the external outputs in this design are using
+   slew-rate-limited output drivers.  The delay on speed critical outputs can be
+   dramatically reduced by designating them as fast outputs in the original
+   design.  Please see your vendor interface documentation for specific
+   information on how to do this within your design-entry tool.
+   Note: You should be careful not to designate too many outputs which switch
+   together as fast, because this can cause excessive ground bounce.  For more
+   information on this subject, please refer to the IOB switching characteristic
+   guidelines for the device you are using in the Programmable Logic Data Book.
+
+Section 3 - Design Attributes
+-----------------------------
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   1 block(s) optimized away
+
+Section 5 - Removed Logic
+-------------------------
+
+Optimized Block(s):
+TYPE 		BLOCK
+X_ZERO 		ADD6x16_N0.ZERO
+
+Section 6 - Added Logic
+-----------------------
+
+Section 7 - Expanded Logic
+--------------------------
+To enable this section, set the detailed map report option and rerun map.
+
+Section 8 - Signal Cross-Reference
+----------------------------------
+To enable this section, set the detailed map report option and rerun map.
+
+Section 9 - Symbol Cross-Reference
+----------------------------------
+To enable this section, set the detailed map report option and rerun map.
+
+Section 10 - IOB Properties
+---------------------------
+"FOURxFOUR<0>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<10>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<11>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<12>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<13>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<14>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<15>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<16>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<17>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<18>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<19>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<1>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<20>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<21>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<22>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<23>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<24>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<25>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<26>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<27>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<28>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<29>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<2>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<30>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<31>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<32>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<33>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<34>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<35>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<36>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<37>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<38>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<39>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<3>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<40>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<41>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<42>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<43>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<44>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<45>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<46>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<47>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<48>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<49>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<4>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<50>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<51>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<52>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<53>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<54>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<55>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<56>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<57>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<58>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<59>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<5>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<60>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<61>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<62>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<63>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<64>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<65>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<66>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<67>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<68>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<69>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<6>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<70>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<71>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<72>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<73>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<74>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<75>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<76>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<77>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<78>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<79>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<7>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<80>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<81>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<82>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<83>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<84>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<85>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<86>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<87>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<88>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<89>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<8>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<90>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<91>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<92>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<93>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<94>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<95>" (IOB) : SLEW=SLOW OUTFF
+"FOURxFOUR<9>" (IOB) : SLEW=SLOW OUTFF
+
+Section 11 - RPMs
+-----------------
+
+Section 12 - Guide Report
+-------------------------
+Guide not run on this design.

@@ -1,0 +1,50 @@
+package I;
+import java.sql.*;
+import java.util.ArrayList;
+
+
+/**
+ * CDSearchQuery
+ *
+ * Used by EditStockUI, inputs artist and cd name returns an array of both
+ * stock and cd information.
+ * 
+ **/
+public class GetAllStaffOrdersQuery
+{
+  private Connection c;
+  private ArrayList staffOrderData;
+
+  public GetAllStaffOrdersQuery()
+  {
+    c = MyConnection.C;
+  }
+ 
+  public ArrayList exeQuery()
+  {
+    try 
+    {
+      staffOrderData = new ArrayList();
+      Statement stmt = c.createStatement();
+      ResultSet rs = stmt.executeQuery("SELECT * FROM staff_order");
+
+     while (rs.next()) 
+      {
+	staffOrderData.add(rs.getString("sorder_no"));
+	staffOrderData.add(rs.getString("sid"));
+	staffOrderData.add(rs.getString("sorder_date"));
+	staffOrderData.add(rs.getString("supid"));
+      }
+      
+    } 
+    catch (SQLException e) 
+    {
+      System.out.println( "An exception occurred in GetAllStaffOrdersQuery " + e);
+    }
+        
+    return(staffOrderData);
+    
+  }
+}
+
+  

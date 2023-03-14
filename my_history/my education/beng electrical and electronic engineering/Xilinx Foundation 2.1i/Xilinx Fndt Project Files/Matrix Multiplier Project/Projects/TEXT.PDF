@@ -1,0 +1,66 @@
+[project]
+name=text
+netlist=text
+contents=text
+date=11/16/100
+time=16:37:42
+version=3.1.5.00.34e
+Type=F21i
+top_level=VHDL
+HDL netlist format=Auto
+generics=MAX
+library_net=ON
+sim_mode=FUNC
+lib_order=1011 149 1012 133 155
+pdf_dir=c:\fndtn\active\projects\
+
+[libraries]
+1011=
+149=c:\fndtn\active\syslib\xabelsim
+1012=c:\fndtn\active\projects\work
+133=c:\fndtn\active\syslib\simprims
+155=c:\fndtn\active\syslib\xc4000x
+
+[APP_95]
+lid=0
+oid=0
+format=19
+source=c:\fndtn\active\projects\text\fig_10_2.vhd
+server_hwnd=4052
+
+[OpenDoc]
+hde/Fig_10_2=0,0,-4,-4,1028,744,fig_10_2.vhd
+
+[netlist]
+external=FALSE
+
+[Schematic]
+Table01=Project
+Table02=Macro
+Table03=Date
+Table04=Date Last Modified
+
+[sc_desk]
+desk00=C:\FNDTN\ACTIVE\PROJECTS\TEXT\text1.SCH, 0, 0, 800, 478, 1
+
+[Top Doc]
+Fig_10_2.vhd=21
+
+[hdl_sheets]
+Fig_10_2.vhd=
+
+[Log]
+netlist.log=Simulator Netlist Log
+
+[OPEN32]
+nMaxFile=10000
+lpstrFile=
+lpstrFilter=HDL (*.VHD;*.VER;*.VE;*.V)|*.vhd;*.ver;*.ve;*.v|Schematic (*.SCH)|*.sch|FSM (*.ASF)|*.asf|Xnf Sources (*.XNF)|*.xnf|Edif Sources (*.EDF;*.EDN;*.EDO)|*.edf;*.edn;*.edo|All Files (*.*)|*.*||
+lpstrInitialDir=C:\FNDTN\ACTIVE\PROJECTS\TEXT
+lpstrTitle=Add Document
+nFilterIndex=0
+Flags=530964
+HelpID=10380
+HelpFileName=C:\FNDTN\ACTIVE\EXE\PCM.HLP
+cmdLine=-h 2464 -hp 852 -m PCM_OPEN_32_MESSAGE -f C:\FNDTN\ACTIVE\PROJECTS\current.pdf
+

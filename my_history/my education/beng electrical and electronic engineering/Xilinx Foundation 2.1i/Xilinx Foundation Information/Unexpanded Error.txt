@@ -1,0 +1,19 @@
+General Description: 
+A Foundation 2.1i schematic project targeting a Virtex device 
+yields a series of NgdHelpers errors similar to the following: 
+
+ERROR:NgdHelpers:312 - logical block "I_from_net_GND" 
+of type "GND" is unexpanded. 
+
+This is the result of making a functional copy of a user HDL macro. 
+When the copy is made of the macro, the associated edn file is not 
+copied to the new macro name. This results in Foundation exporting 
+the incorrect pins on the GND symbol. 
+
+
+Solution 1:
+
+
+Copy the HDL code to the new macro name, changing the associated 
+entity name also. Then recreate the macro. 
+

@@ -1,0 +1,1023 @@
+CM: 
+CM: Checking...
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 13   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L6/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 6   Syntax error.  (VSS-1081) 
+CM:  Error   L14/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 14   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L6/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 6   IEE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L14/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 14   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L6/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 6   No selected element named STD_LOGIC_ARITHMETIC is defined for this prefix.  (VSS-573) 
+CM:  Error   L14/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 14   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L14/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 14   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L15/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 15   Type mismatch over assignment operation (Target data type: Anonymous subtype of SIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH).  (VSS-1023) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 19   Syntax error.  (VSS-1081) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 23   Syntax error.  (VSS-1081) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 26   Syntax error.  (VSS-1081) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 26   Syntax error - unexpected end of input.  (VSS-1081) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 19   Syntax error.  (VSS-1081) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 23   Syntax error.  (VSS-1081) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 26   Syntax error.  (VSS-1081) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 26   Syntax error - unexpected end of input.  (VSS-1081) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 19   Syntax error.  (VSS-1081) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 21   Syntax error.  (VSS-1081) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 23   Syntax error.  (VSS-1081) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 26   Syntax error.  (VSS-1081) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 26   Syntax error - unexpected end of input.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 19   Syntax error.  (VSS-1081) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 21   Syntax error.  (VSS-1081) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 23   Syntax error.  (VSS-1081) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 26   Syntax error.  (VSS-1081) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 26   Syntax error - unexpected end of input.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 16   C is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM:  Error   L-17/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4a.vhd  line -17   Library logical name LOGIBLOX is not mapped to a host directory. (VSS-1071)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4a.vhd  line 18   No selected element named MVLUTIL is defined for this prefix.  (VSS-573) 
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4a.vhd  line 19   No selected element named MVLARITH is defined for this prefix.  (VSS-573) 
+CM:  Error   L20/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4a.vhd  line 20   No selected element named LOGIBLOX is defined for this prefix.  (VSS-573) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4a.vhd  line 30   The intermediate file for entity ADD4A is not in the library bound to WORK.  (VSS-1084) 
+CM:  5 error(s) 0 warning(s) found
+CM:  Error   L-17/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4a.vhd  line -17   Library logical name LOGIBLOX is not mapped to a host directory. (VSS-1071)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4a.vhd  line 18   No selected element named MVLUTIL is defined for this prefix.  (VSS-573) 
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4a.vhd  line 19   No selected element named MVLARITH is defined for this prefix.  (VSS-573) 
+CM:  Error   L20/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4a.vhd  line 20   No selected element named LOGIBLOX is defined for this prefix.  (VSS-573) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4a.vhd  line 30   The intermediate file for entity ADD4A is not in the library bound to WORK.  (VSS-1084) 
+CM:  5 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 16   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 16   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L12/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/full_adder.vhd  line 12   A is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L12/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/full_adder.vhd  line 12   B is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L12/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/full_adder.vhd  line 12   CI is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/full_adder.vhd  line 13   COUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/full_adder.vhd  line 13   COUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/full_adder.vhd  line 13   COUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L8/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 8   STD_LOGIC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L8/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 8   STD_LOGIC_VECTOR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L9/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 9   STD_LOGIC_VECTOR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L9/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 9   STD_LOGIC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 17   Syntax error.  (VSS-1081) 
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 17   Syntax error - keyword COMPONENT expected after keyword END.  (VSS-1081) 
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 28   Architecture closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  7 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 18   Syntax error.  (VSS-1081) 
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 18   Syntax error - keyword COMPONENT expected after keyword END.  (VSS-1081) 
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 29   Architecture closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 29   Architecture closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 24   Illegal redeclaration of ADDERN01. (VSS-1072)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 25   Illegal redeclaration of ADDERN01. (VSS-1072)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 26   Illegal redeclaration of ADDERN01. (VSS-1072)  (FPGA-dm-hdlc-unknown) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 23   Can not update ports of mode IN or LINKAGE. (VSS-798)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 23   FULL_ADDERIN is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/add4.vhd  line 22   Component closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 10   Trailing underscore in identifier. (VSS-972)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 10   Syntax error.  (VSS-1081) 
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 10   Leading underscore in identifier. (VSS-966)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 13   Syntax error.  (VSS-1081) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 21   Trailing underscore in identifier. (VSS-972)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 21   Leading underscore in identifier. (VSS-966)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 22   Trailing underscore in identifier. (VSS-972)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 22   Leading underscore in identifier. (VSS-966)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 23   Trailing underscore in identifier. (VSS-972)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 23   Leading underscore in identifier. (VSS-966)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 24   Trailing underscore in identifier. (VSS-972)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 24   Leading underscore in identifier. (VSS-966)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 25   Trailing underscore in identifier. (VSS-972)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 25   Leading underscore in identifier. (VSS-966)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 26   Trailing underscore in identifier. (VSS-972)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 26   Leading underscore in identifier. (VSS-966)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L27/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 27   Trailing underscore in identifier. (VSS-972)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L27/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 27   Leading underscore in identifier. (VSS-966)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 28   Trailing underscore in identifier. (VSS-972)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 28   Leading underscore in identifier. (VSS-966)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 29   Trailing underscore in identifier. (VSS-972)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 29   Leading underscore in identifier. (VSS-966)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 30   Trailing underscore in identifier. (VSS-972)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 30   Leading underscore in identifier. (VSS-966)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 31   Trailing underscore in identifier. (VSS-972)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 31   Leading underscore in identifier. (VSS-966)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 32   Trailing underscore in identifier. (VSS-972)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 32   Leading underscore in identifier. (VSS-966)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 33   Trailing underscore in identifier. (VSS-972)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 33   Leading underscore in identifier. (VSS-966)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L34/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 34   Trailing underscore in identifier. (VSS-972)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L34/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 34   Leading underscore in identifier. (VSS-966)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L35/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 35   Trailing underscore in identifier. (VSS-972)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L35/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 35   Leading underscore in identifier. (VSS-966)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L36/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 36   Trailing underscore in identifier. (VSS-972)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L36/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 36   Leading underscore in identifier. (VSS-966)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L37/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 37   Trailing underscore in identifier. (VSS-972)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L37/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 37   Leading underscore in identifier. (VSS-966)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 38   Trailing underscore in identifier. (VSS-972)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 38   Leading underscore in identifier. (VSS-966)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 39   Trailing underscore in identifier. (VSS-972)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 39   Leading underscore in identifier. (VSS-966)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 40   Trailing underscore in identifier. (VSS-972)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 40   Leading underscore in identifier. (VSS-966)  (FPGA-dm-hdlc-unknown) 
+CM:  53 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 13   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 13   The intermediate file for entity MEM_ELEMENT is not in the library bound to WORK.  (VSS-1084) 
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 17   Syntax error.  (VSS-1081) 
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 17   Syntax error - keyword COMPONENT expected after keyword END.  (VSS-1081) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 21   Syntax error.  (VSS-1081) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 22   Syntax error.  (VSS-1081) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 23   Syntax error.  (VSS-1081) 
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 24   Syntax error.  (VSS-1081) 
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 25   Syntax error.  (VSS-1081) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 26   Syntax error.  (VSS-1081) 
+CM:  Error   L27/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 27   Syntax error.  (VSS-1081) 
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 28   Syntax error.  (VSS-1081) 
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 32   Syntax error.  (VSS-1081) 
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 33   Syntax error.  (VSS-1081) 
+CM:  Error   L34/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 34   Syntax error.  (VSS-1081) 
+CM:  Error   L35/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 35   Syntax error.  (VSS-1081) 
+CM:  Error   L36/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 36   Syntax error.  (VSS-1081) 
+CM:  Error   L37/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 37   Syntax error.  (VSS-1081) 
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 38   Syntax error.  (VSS-1081) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 39   Syntax error.  (VSS-1081) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 40   Syntax error.  (VSS-1081) 
+CM:  23 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 17   Syntax error.  (VSS-1081) 
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 17   Syntax error - keyword COMPONENT expected after keyword END.  (VSS-1081) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 21   Syntax error.  (VSS-1081) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 22   Syntax error.  (VSS-1081) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 23   Syntax error.  (VSS-1081) 
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 24   Syntax error.  (VSS-1081) 
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 25   Syntax error.  (VSS-1081) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 26   Syntax error.  (VSS-1081) 
+CM:  Error   L27/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 27   Syntax error.  (VSS-1081) 
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 28   Syntax error.  (VSS-1081) 
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 32   Syntax error.  (VSS-1081) 
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 33   Syntax error.  (VSS-1081) 
+CM:  Error   L34/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 34   Syntax error.  (VSS-1081) 
+CM:  Error   L35/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 35   Syntax error.  (VSS-1081) 
+CM:  Error   L36/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 36   Syntax error.  (VSS-1081) 
+CM:  Error   L37/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 37   Syntax error.  (VSS-1081) 
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 38   Syntax error.  (VSS-1081) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 39   Syntax error.  (VSS-1081) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 40   Syntax error.  (VSS-1081) 
+CM:  22 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 21   Syntax error.  (VSS-1081) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 22   Syntax error.  (VSS-1081) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 23   Syntax error.  (VSS-1081) 
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 24   Syntax error.  (VSS-1081) 
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 25   Syntax error.  (VSS-1081) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 26   Syntax error.  (VSS-1081) 
+CM:  Error   L27/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 27   Syntax error.  (VSS-1081) 
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 28   Syntax error.  (VSS-1081) 
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 32   Syntax error.  (VSS-1081) 
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 33   Syntax error.  (VSS-1081) 
+CM:  Error   L34/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 34   Syntax error.  (VSS-1081) 
+CM:  Error   L35/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 35   Syntax error.  (VSS-1081) 
+CM:  Error   L36/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 36   Syntax error.  (VSS-1081) 
+CM:  Error   L37/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 37   Syntax error.  (VSS-1081) 
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 38   Syntax error.  (VSS-1081) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 39   Syntax error.  (VSS-1081) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 40   Syntax error.  (VSS-1081) 
+CM:  20 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L8/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 8   Syntax error.  (VSS-1081) 
+CM:  Error   L27/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 27   Syntax error.  (VSS-1081) 
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 28   Syntax error.  (VSS-1081) 
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 32   Syntax error.  (VSS-1081) 
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 33   Syntax error.  (VSS-1081) 
+CM:  Error   L34/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 34   Syntax error.  (VSS-1081) 
+CM:  Error   L35/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 35   Syntax error.  (VSS-1081) 
+CM:  Error   L36/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 36   Syntax error.  (VSS-1081) 
+CM:  Error   L37/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 37   Syntax error.  (VSS-1081) 
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 38   Syntax error.  (VSS-1081) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 39   Syntax error.  (VSS-1081) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 40   Syntax error.  (VSS-1081) 
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 41   Syntax error.  (VSS-1081) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 42   Syntax error.  (VSS-1081) 
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 43   Syntax error.  (VSS-1081) 
+CM:  Error   L44/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 44   Syntax error.  (VSS-1081) 
+CM:  Error   L45/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 45   Syntax error.  (VSS-1081) 
+CM:  20 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L8/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 8   Syntax error.  (VSS-1081) 
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 28   Syntax error.  (VSS-1081) 
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 32   Syntax error.  (VSS-1081) 
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 33   Syntax error.  (VSS-1081) 
+CM:  Error   L34/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 34   Syntax error.  (VSS-1081) 
+CM:  Error   L35/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 35   Syntax error.  (VSS-1081) 
+CM:  Error   L36/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 36   Syntax error.  (VSS-1081) 
+CM:  Error   L37/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 37   Syntax error.  (VSS-1081) 
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 38   Syntax error.  (VSS-1081) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 39   Syntax error.  (VSS-1081) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 40   Syntax error.  (VSS-1081) 
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 41   Syntax error.  (VSS-1081) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 42   Syntax error.  (VSS-1081) 
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 43   Syntax error.  (VSS-1081) 
+CM:  Error   L44/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 44   Syntax error.  (VSS-1081) 
+CM:  Error   L45/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 45   Syntax error.  (VSS-1081) 
+CM:  19 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L20/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 20   Component closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 28   FD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 29   FD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 30   FD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 31   FD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 32   FD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 33   FD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L34/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 34   FD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L35/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 35   FD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L36/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 36   FD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L37/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 37   FD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 38   FD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 39   FD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 40   FD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 41   FD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 42   FD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 43   FD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L44/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 44   FD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L45/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 45   FD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L46/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 46   FD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L47/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 47   FD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  20 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: 
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L4/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/test.vhd  line 4   Syntax error.  (VSS-1081) 
+CM:  Warning   L-1/C0 : #0 Warning: The package 'test' is out of date with respect to its   source file 'C:/fndtn/active/projects/p_fy_mk3/test.vhd'.  (LBR-3) 
+CM:  1 error(s) 1 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L7/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/test.vhd  line 7   Syntax error.  (VSS-1081) 
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/test.vhd  line 10   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L7/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/test.vhd  line 7   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 28   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 29   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 30   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 31   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 32   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 33   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  Error   L34/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 34   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  Error   L35/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 35   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  Error   L36/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 36   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  Error   L37/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 37   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 38   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 39   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 40   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 41   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 42   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 43   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  Error   L44/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 44   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  Error   L45/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 45   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  Error   L46/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 46   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  Error   L47/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 47   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  20 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 16   UNSIGNED is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 25   Syntax error.  (VSS-1081) 
+CM:  Error   L27/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 27   Syntax error.  (VSS-1081) 
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 28   Syntax error.  (VSS-1081) 
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 32   Syntax error.  (VSS-1081) 
+CM:  Error   L36/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 36   Syntax error.  (VSS-1081) 
+CM:  Error   L37/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 37   Syntax error.  (VSS-1081) 
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 38   Syntax error.  (VSS-1081) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 39   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 32   Syntax error.  (VSS-1081) 
+CM:  Error   L36/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 36   Syntax error.  (VSS-1081) 
+CM:  Error   L37/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 37   Syntax error.  (VSS-1081) 
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 38   Syntax error.  (VSS-1081) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 39   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 32   Syntax error.  (VSS-1081) 
+CM:  Error   L36/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 36   Syntax error.  (VSS-1081) 
+CM:  Error   L37/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 37   Syntax error.  (VSS-1081) 
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 38   Syntax error.  (VSS-1081) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 39   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 33   Syntax error.  (VSS-1081) 
+CM:  Error   L37/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 37   Syntax error.  (VSS-1081) 
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 38   Syntax error.  (VSS-1081) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 39   Syntax error.  (VSS-1081) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 40   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L37/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 37   Syntax error.  (VSS-1081) 
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 38   Syntax error.  (VSS-1081) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 39   Syntax error.  (VSS-1081) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 40   Syntax error.  (VSS-1081) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 39   Syntax error.  (VSS-1081) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 40   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 40   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 38   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 39   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 40   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 41   Not enough element associations - 7 expected. (VSS-538)  (FPGA-dm-hdlc-unknown) 
+CM:  8 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 38   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 39   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 40   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  7 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 38   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 39   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 40   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 40   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 41   Actual designator not of the correct type - STD_LOGIC_VECTOR expected.  (VSS-543) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: 
+CM: Checking...
+CM:  Error   L4/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/function_conv_arith.vhd  line 4   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L4/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/function_conv_arith.vhd  line 4   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L2/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/function_conv_arith.vhd  line 2   UNSIGNED is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L5/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/function_conv_arith.vhd  line 5   The intermediate file for package specification CONV_SIGN_LOGIC is not in the library bound to WORK.  (VSS-1085) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/function_conv_arith.vhd  line 16   DRINK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/function_conv_arith.vhd  line 18   DRINK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L12/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/function_conv_arith.vhd  line 12   Syntax error.  (VSS-1081) 
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/function_conv_arith.vhd  line 13   Syntax error.  (VSS-1081) 
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/function_conv_arith.vhd  line 16   Syntax error.  (VSS-1081) 
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/function_conv_arith.vhd  line 18   Syntax error.  (VSS-1081) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/function_conv_arith.vhd  line 22   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L12/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/function_conv_arith.vhd  line 12   Syntax error.  (VSS-1081) 
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/function_conv_arith.vhd  line 13   Syntax error.  (VSS-1081) 
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/function_conv_arith.vhd  line 16   Syntax error.  (VSS-1081) 
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/function_conv_arith.vhd  line 18   Syntax error.  (VSS-1081) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/function_conv_arith.vhd  line 22   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L6/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/function_conv_arith.vhd  line 6   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L6/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/function_conv_arith.vhd  line 6   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L6/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/function_conv_arith.vhd  line 6   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L6/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/function_conv_arith.vhd  line 6   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L6/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/function_conv_arith.vhd  line 6   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L14/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 14   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 13   Unconstrained array type is not allowed here. (VSS-907)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L15/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 15   ZU is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 16   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 16   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 16   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 16   CONV_STD_LOGIC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 16   Type mismatch over assignment operation (Target data type: Anonymous subtype of STD_LOGIC_VECTOR declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: INTEGER declared in PACKAGE STD.STANDARD).  (VSS-1023) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L15/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 15   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L15/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 15   Qualified expression argument can not be interpreted as the given type.  (VSS-576) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L20/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 20   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L15/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 15   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 16   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 13   Unconstrained array type is not allowed here. (VSS-907)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 16   A0 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 17   B0 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 18   A0 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 18   B0 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 16   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 17   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 16   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 17   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 16   Syntax error.  (VSS-1081) 
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 17   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 16   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 17   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L9/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 9   Index constraint illegal with this type mark. (VSS-898)  (FPGA-dm-hdlc-unknown) 
+CM:  Warning   L-1/C0 : #0 Warning: The entity 'MUL2' is out of date with respect to its   source file 'C:/fndtn/active/projects/p_fy_mk3/mul2.vhd'.  (LBR-3) 
+CM:  1 error(s) 1 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L9/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 9   Index constraint illegal with this type mark. (VSS-898)  (FPGA-dm-hdlc-unknown) 
+CM:  Warning   L-1/C0 : #0 Warning: The entity 'MUL2' is out of date with respect to its   source file 'C:/fndtn/active/projects/p_fy_mk3/mul2.vhd'.  (LBR-3) 
+CM:  1 error(s) 1 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L9/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 9   Index constraint illegal with this type mark. (VSS-898)  (FPGA-dm-hdlc-unknown) 
+CM:  Warning   L-1/C0 : #0 Warning: The entity 'MUL2' is out of date with respect to its   source file 'C:/fndtn/active/projects/p_fy_mk3/mul2.vhd'.  (LBR-3) 
+CM:  1 error(s) 1 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L9/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 9   Index constraint illegal with this type mark. (VSS-898)  (FPGA-dm-hdlc-unknown) 
+CM:  Warning   L-1/C0 : #0 Warning: The entity 'MUL2' is out of date with respect to its   source file 'C:/fndtn/active/projects/p_fy_mk3/mul2.vhd'.  (LBR-3) 
+CM:  1 error(s) 1 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 16   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 17   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 16   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 17   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 16   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 13   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L15/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 15   Type mismatch over assignment operation (Target data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH).  (VSS-1023) 
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 16   Type mismatch over assignment operation (Target data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH).  (VSS-1023) 
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mul2.vhd  line 17   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 40   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 41   Actual designator not of the correct type - STD_LOGIC_VECTOR expected.  (VSS-543) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 38   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 39   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 40   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 40   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 28   FDC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 29   FDC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 30   FDC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 31   FDC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 32   FDC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 33   FDC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L34/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 34   FDC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L35/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 35   FDC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L36/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 36   FDC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L37/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 37   FDC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 38   FDC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 39   FDC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 40   FDC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 41   FDC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 42   FDC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 43   FDC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L44/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 44   FDC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L45/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 45   FDC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L46/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 46   FDC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L47/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 47   FDC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  20 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 28   Signal or port name expected as actual in association element.  (VSS-806) 
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 29   Signal or port name expected as actual in association element.  (VSS-806) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 30   Signal or port name expected as actual in association element.  (VSS-806) 
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 31   Signal or port name expected as actual in association element.  (VSS-806) 
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 32   Signal or port name expected as actual in association element.  (VSS-806) 
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 33   Signal or port name expected as actual in association element.  (VSS-806) 
+CM:  Error   L34/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 34   Signal or port name expected as actual in association element.  (VSS-806) 
+CM:  Error   L35/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 35   Signal or port name expected as actual in association element.  (VSS-806) 
+CM:  Error   L36/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 36   Signal or port name expected as actual in association element.  (VSS-806) 
+CM:  Error   L37/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 37   Signal or port name expected as actual in association element.  (VSS-806) 
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 38   Signal or port name expected as actual in association element.  (VSS-806) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 39   Signal or port name expected as actual in association element.  (VSS-806) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 40   Signal or port name expected as actual in association element.  (VSS-806) 
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 41   Signal or port name expected as actual in association element.  (VSS-806) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 42   Signal or port name expected as actual in association element.  (VSS-806) 
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 43   Signal or port name expected as actual in association element.  (VSS-806) 
+CM:  Error   L44/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 44   Signal or port name expected as actual in association element.  (VSS-806) 
+CM:  Error   L45/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 45   Signal or port name expected as actual in association element.  (VSS-806) 
+CM:  Error   L46/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 46   Signal or port name expected as actual in association element.  (VSS-806) 
+CM:  Error   L47/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/mem_element_1.vhd  line 47   Signal or port name expected as actual in association element.  (VSS-806) 
+CM:  20 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/data_store.vhd  line 19   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L20/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/data_store.vhd  line 20   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/data_store.vhd  line 21   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/data_store.vhd  line 22   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/data_store.vhd  line 23   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/data_store.vhd  line 24   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/data_store.vhd  line 25   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/data_store.vhd  line 26   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM:  8 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/data_store.vhd  line 29   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/data_store.vhd  line 29   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L12/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/data_store.vhd  line 12   Syntax error.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/data_store.vhd  line 31   DATA2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: 
+CM: Checking...
+CM:  Error   L-7/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/global_set_reset.vhd  line -7   Library logical name UNISIM is not mapped to a host directory. (VSS-1071)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/global_set_reset.vhd  line 19   The intermediate file for entity USE_GSR is not in the library bound to WORK.  (VSS-1084) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/global_set_reset.vhd  line 23   Syntax error.  (VSS-1081) 
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/global_set_reset.vhd  line 24   Syntax error.  (VSS-1081) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/global_set_reset.vhd  line 39   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/data_store.vhd  line 19   Array index range length mismatch (string literal too long). (VSS-737)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/data_store.vhd  line 22   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/data_store.vhd  line 25   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L12/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/data_store.vhd  line 12   UNSIGNED is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/data_store.vhd  line 17   UNSIGNED is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/data_store.vhd  line 18   ROM_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/data_store.vhd  line 19   ROM_TABLE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/data_store.vhd  line 26   ROM is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/asm_config_1.vhd  line 21   Syntax error.  (VSS-1081) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/asm_config_1.vhd  line 23   Syntax error.  (VSS-1081) 
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/asm_config_1.vhd  line 28   Syntax error.  (VSS-1081) 
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/asm_config_1.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/asm_config_1.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/asm_config_1.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/asm_config_1.vhd  line 33   Syntax error.  (VSS-1081) 
+CM:  Error   L35/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/asm_config_1.vhd  line 35   Syntax error.  (VSS-1081) 
+CM:  Error   L36/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/asm_config_1.vhd  line 36   Syntax error - unexpected end of input.  (VSS-1081) 
+CM:  9 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/asm_config_1.vhd  line 25   CE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/asm_config_1.vhd  line 30   Can not update ports of mode IN or LINKAGE. (VSS-798)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/asm_config_1.vhd  line 30   Can not update ports of mode IN or LINKAGE. (VSS-798)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/asm_config_1.vhd  line 31   Process statement closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/asm_config_1.vhd  line 43   Expression is not of the required type; expecting type STATE_TYPE declared in ARCHITECTURE STATE_MACHINE. (VSS-791)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L64/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/asm_config_1.vhd  line 64   S0 not covered by choices. (VSS-834)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L64/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/asm_config_1.vhd  line 64   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/configuration_1.vhd  line 41   MEM_MATCH_SELBUS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/dsp.vhd  line 41   MEM_ELEMENT_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/configuration_1.vhd  line 39   Can not update ports of mode IN or LINKAGE. (VSS-798)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L15/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/fdc0.vhd  line 15   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L15/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/fdc0.vhd  line 15   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/fdc0.vhd  line 13   Type mismatch over assignment operation (Target data type: BOOLEAN declared in PACKAGE STD.STANDARD, Source data type: STD_ULOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/fdc0.vhd  line 13   Can not update ports of mode IN or LINKAGE. (VSS-798)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/projects/p_fy_mk3/fdc0.vhd  line 18   Ports of mode OUT or LINKAGE can not be read.  (VSS-793) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful

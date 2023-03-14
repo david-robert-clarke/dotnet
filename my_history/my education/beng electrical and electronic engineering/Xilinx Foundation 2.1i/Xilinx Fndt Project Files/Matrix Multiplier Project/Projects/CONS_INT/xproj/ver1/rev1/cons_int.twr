@@ -1,0 +1,66 @@
+--------------------------------------------------------------------------------
+Xilinx TRACE, Version C.16
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Design file:              cons_int.ncd
+Physical constraint file: cons_int.pcf
+Device,speed:             xc4010xl,-09 (C 1.1.2.2 PRELIMINARY)
+Report level:             error report
+--------------------------------------------------------------------------------
+
+WARNING:Timing - No timing constraints found, doing default enumeration.
+
+================================================================================
+Timing constraint: Default period analysis
+ 289 items analyzed, 0 timing errors detected.
+ Minimum period is  17.921ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: Default net enumeration
+ 42 items analyzed, 0 timing errors detected.
+ Maximum net delay is   5.799ns.
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CLK
+---------------+------------+------------+
+               |  Setup to  |  Hold to   |
+Source Pad     | clk (edge) | clk (edge) |
+---------------+------------+------------+
+RESET          |   13.338(R)|    0.000(R)|
+MODE_SEL<0>    |    7.983(R)|    0.000(R)|
+MODE_SEL<1>    |    2.727(R)|    0.000(R)|
+---------------+------------+------------+
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src/Dest| Src/Dest| Src/Dest| Src/Dest|
+Source Clock   |Rise/Rise|Fall/Rise|Rise/Fall|Fall/Fall|
+---------------+---------+---------+---------+---------+
+CLK            |   17.849|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 289 paths, 42 nets, and 140 connections (100.0% coverage)
+
+Design statistics:
+   Minimum period:  17.921ns (Maximum frequency:  55.800MHz)
+   Maximum net delay:   5.799ns
+
+
+Analysis completed Tue Jan 23 21:01:31 2001
+--------------------------------------------------------------------------------
+

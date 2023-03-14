@@ -1,0 +1,13 @@
+CONV_ACS, 2.5.5.70, Sat Nov 18 22:58:44 2000
+
+Macro 'RS232ASM' is not updated
+  Missing symbol pin - 'NS2'
+  Missing symbol pin - 'NS1'
+  Missing symbol pin - 'NS0'
+  Missing symbol pin - 'CS0'
+  Missing symbol pin - 'CS1'
+  Missing symbol pin - 'CS2'
+Different symbol pins number (10) and netlist terminals (16)
+  Total number of instances: 45
+  Total number of nets: 79
+EDIF netlist exported to file - C:\FNDTN\ACTIVE\PROJECTS\RS232SCH\rs232sch.edn

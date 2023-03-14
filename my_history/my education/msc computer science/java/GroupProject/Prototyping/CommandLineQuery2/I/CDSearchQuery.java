@@ -1,0 +1,120 @@
+package I;
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.Calendar;
+
+
+/**
+ * CDSearchQuery
+ *
+ * Used by EditStockUI, inputs artist and cd name returns an array of both
+ * stock and cd information.
+ * 
+ **/
+public class CDSearchQuery
+{
+  private String artist;
+  private String cdName;
+  private String iid;
+  private String sup_name;
+  private ArrayList cdArrayList, stockArrayList;
+  private Connection c;
+
+  public CDSearchQuery(String a, String cd_n)
+  {      
+    artist = a;
+    cdName = cd_n;
+    c = MyConnection.C;
+    cdArrayList = new ArrayList();
+    stockArrayList = new ArrayList();
+  }
+
+  /**
+   * Return an arraylist of cd details such as
+   * <ul>
+   * <il>artist
+   * <il>cd_name
+   * <il>retail_price
+   * </ul>
+   **/
+  public ArrayList exeQueryCD()
+  {
+    try 
+    {
+      // Create a result set containing all data from my_table
+      Statement stmt = c.createStatement();
+      ResultSet rs0 = stmt.executeQuery("SELECT iid FROM cd WHERE artist = '" +
+					artist + "' AND cd_name ='" + cdName 
+					+"'");    
+      while (rs0.next())
+      {
+	iid = rs0.getString("iid");
+      }
+      
+      
+      ResultSet rs1 =stmt.executeQuery("SELECT * FROM cd WHERE iid='"+iid+"'");
+      while(rs1.next())
+      {
+	cdArrayList.add(rs1.getString("cd_name"));
+	cdArrayList.add(rs1.getString("artist"));
+	cdArrayList.add(rs1.getString("r_price"));
+      }
+      
+      
+    } 
+    catch (SQLException e) 
+    {
+      System.out.println( "An exception occurred in CDSearch. " + e);
+    }
+        
+    return(cdArrayList);
+  }  
+  /**
+   * Return an arraylist of suppliers of the cd in question, along with the
+   * <ul>
+   * <il>stock level
+   * <il>w_price
+   * </ul>
+   * for each supplier
+   **/
+  public ArrayList exeQueryStock()
+  {
+    try 
+    {
+      // Create a result set containing all data from my_table
+      Statement stmt0 = c.createStatement();
+      Statement stmt1 = c.createStatement();
+ 
+      ResultSet rs3 =stmt0.executeQuery("SELECT * FROM stock WHERE iid='"+iid
+				       +"'");
+      while(rs3.next())
+      {
+	//get the supplier name corresponding to the sup_id
+	String supid = rs3.getString("supid");
+	ResultSet rs4 =stmt1.executeQuery("SELECT sup_name FROM supplier WHERE"
+					  + " supid='" + supid + "'");
+	while(rs4.next())
+	{
+	  sup_name = rs4.getString("sup_name");
+	  
+	}
+	
+	//add supplier name, stocklevel and w_price to stockArrayList
+	stockArrayList.add(sup_name);
+	stockArrayList.add(rs3.getString("stock_level")); 
+	stockArrayList.add(rs3.getString("w_price"));
+      }
+      
+
+      
+    } 
+    catch (SQLException e) 
+    {
+      System.out.println( "An exception occurred in CDSearch. " + e);
+    }
+        
+    return(stockArrayList);
+    
+  }
+  
+}

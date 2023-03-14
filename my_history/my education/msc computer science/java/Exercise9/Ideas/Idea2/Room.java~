@@ -1,0 +1,14 @@
+class Room extends Canvas
+{
+    Private Color colour; 
+
+    public Room()
+    {
+        colour = Color.black;
+    }
+
+    public void paint(Graphics g)
+    {
+        
+    }
+}

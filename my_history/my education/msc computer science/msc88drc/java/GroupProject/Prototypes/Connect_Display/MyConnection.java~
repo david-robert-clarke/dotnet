@@ -1,0 +1,58 @@
+package I;
+
+import java.sql.*;
+import java.io.*;
+
+public class MyConnection 
+{
+    
+  public MyConnection()
+  {
+    // BufferedReader reader = 
+    //    new BufferedReader (new InputStreamReader(System.in));
+        
+    try 
+    {
+      Class driver = Class.forName("org.postgresql.Driver");
+      DriverManager.registerDriver((Driver)driver.newInstance());
+	
+      // get the values required to connect to the database.
+	
+      System.out.print("Input the database: ");
+      String dbname = "msc67lxb";
+      String username = "msc88drc";
+      String pw = "charlie";
+
+      // the elements of the database connection url are
+      // protocol (jdbc:), subprotocol (postgresql:), 
+      // server (//dbhost), and database name (/<dbname>)
+	
+      String dbUrl = "jdbc:postgresql://dbhost/" + dbname;
+      System.out.println("Successfully found database!");
+      System.out.println();
+	
+      Connection c = DriverManager.getConnection(dbUrl, username, pw);
+      System.out.println("Successfully connected to database!");
+
+      // Create a result set containing all data from my_table
+      Statement stmt = c.createStatement();
+      System.out.println("Created Statement");
+      ResultSet rs = stmt.executeQuery("SELECT * FROM cd");
+       
+      String s = rs.getString(1);
+
+      System.out.println("Successfully executed query!"); 
+    }
+    catch ( Exception e ) 
+    {
+      System.out.println( "An exception occurred. " + e);
+    }
+    /*
+    catch (SQLException e)
+    {
+       System.out.println( "An exception occurred." );
+    }
+    */
+  }
+}
+

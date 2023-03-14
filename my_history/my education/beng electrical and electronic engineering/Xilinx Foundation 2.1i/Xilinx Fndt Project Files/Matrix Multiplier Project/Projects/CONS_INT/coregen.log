@@ -1,0 +1,50 @@
+# Xilinx CORE Generator 2.1i
+# User = David Clarke
+SETPROJECT C:\Fndtn\Active\Projects\CONS_INT
+# busformat=BusFormatNoDelimiter
+# designflow=Schematic
+# expandedprojectpath=C:\Fndtn\Active\Projects\CONS_INT
+# flowvendor=Viewlogic
+# simulationoutputproducts=None
+# xilinxfamily=XC4000
+# expandedprojectpath=C:\Fndtn\Active\Projects\CONS_INT
+# Set current Project to C:\Fndtn\Active\Projects\CONS_INT
+# Xilinx CORE Generator
+SET FoundationPath = C:\Fndtn
+SET XilinxFamily = XC4000
+SET BusFormat = BusFormatAngleBracket
+SET DesignFlow = Schematic
+SET FlowVendor = Foundation
+SET SimulationOutputProducts = VHDL Verilog
+SET OverwriteFiles=True
+#SET LockProjectProps = true
+SELECT Dual_Port_Block_Memory Virtex Xilinx,_Inc. 1.0
+SELECT Registered_ROM XC4000 Xilinx 1.0
+SELECT Registered_ROM XC4000 Xilinx 1.0
+SELECT Registered_ROM XC4000 Xilinx 1.0
+# ERROR: No coefficients specified.  ROM must specify at least one coefficient in the coe file.
+SELECT Registered_ROM XC4000 Xilinx 1.0
+SELECT Registered_ROM XC4000 Xilinx 1.0
+# ERROR: Coefficients have not been successfully loaded.
+# ERROR: Coefficients have not been successfully loaded.
+# ERROR: No coefficients specified.  ROM must specify at least one coefficient in the coe file.
+# ERROR: No coefficients specified.  ROM must specify at least one coefficient in the coe file.
+# ERROR: Coefficients have not been successfully loaded.
+SELECT Registered_SinglePort_RAM XC4000 Xilinx 1.0
+SELECT Registered_ROM XC4000 Xilinx 1.0
+SELECT Registered_ROM XC4000 Xilinx 1.0
+SELECT Registered_ROM XC4000 Xilinx 1.0
+SELECT Registered_ROM XC4000 Xilinx 1.0
+# ERROR: No coefficients specified.  ROM must specify at least one coefficient in the coe file.
+# ERROR: Some coefficient values are illegal.  Use the Show Init Values button to see the incorrect coefficients.
+# ERROR: Illegal name specified for param <Component Name>.  The name cannot contain upper case letters.
+CSET Depth = 16
+CSET Default = 0
+CSET Signed = true
+CSET Data_Width = 4
+CSET Component_Name = data_store_drc
+CSET MemData = 2, 1, 1, 1, 2, 2, 1, 0, 0, 1, 1, 1, 0, 2, 1, 0
+CSET Radix = 10
+GENERATE
+# Successfully generated data_store_drc (Registered_ROM 1.0)
+END

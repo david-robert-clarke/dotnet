@@ -1,0 +1,221 @@
+(edif final_yr
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap
+    (keywordLevel 0))
+  (status
+    (written
+      (timeStamp 100 12 12 13 19 25)
+      (author "ALDEC")
+      (program "Xnf2Edf - Aldec's Edif 2.0.0 Netlist Generator"
+        (version "2.0.3.28"))))
+  (library Active_lib
+    (edifLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 1 -11)(unit TIME))))
+    (cell AND2
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I0
+            (direction INPUT))
+          (port I1
+            (direction INPUT))
+          (port O
+            (direction OUTPUT)))))
+    (cell BUF
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I
+            (direction INPUT))
+          (port O
+            (direction OUTPUT)))))
+    (cell BUFG
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I
+            (direction INPUT))
+          (port O
+            (direction OUTPUT)))))
+    (cell FMAP
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I1
+            (direction INPUT))
+          (port I2
+            (direction INPUT))
+          (port O
+            (direction INPUT)))))
+    (cell IBUF
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I
+            (direction INPUT))
+          (port O
+            (direction OUTPUT)))))
+    (cell IFDX
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port C
+            (direction INPUT))
+          (port CE
+            (direction INPUT))
+          (port D
+            (direction INPUT))
+          (port GSR
+            (direction INPUT))
+          (port Q
+            (direction OUTPUT)))))
+    (cell OBUF
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I
+            (direction INPUT))
+          (port O
+            (direction OUTPUT)))))
+    (cell STARTUP
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port GSR
+            (direction INPUT)))))
+    (cell FINAL_YR
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port C
+            (direction INPUT))
+          (port CE
+            (direction INPUT))
+          (port CLR
+            (direction INPUT))
+          (port D
+            (direction INPUT))
+          (port Q
+            (direction OUTPUT)))
+        (contents
+          (instance C17
+            (viewRef net
+              (cellRef STARTUP))
+            (property LIBVER (string "2.0.0")))
+          (instance C18
+            (viewRef net
+              (cellRef IBUF))
+            (property LIBVER (string "2.0.0")))
+          (instance C23
+            (viewRef net
+              (cellRef IBUF))
+            (property LIBVER (string "2.0.0")))
+          (instance C24
+            (viewRef net
+              (cellRef OBUF))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance C25_C0
+            (viewRef net
+              (cellRef BUF))
+            (portInstance I
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C25_C1
+            (viewRef net
+              (cellRef AND2))
+            (portInstance I0
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C26
+            (viewRef net
+              (cellRef BUFG))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_0
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance Q_REG
+            (viewRef net
+              (cellRef IFDX))
+            (property LIBVER (string "2.0.0")))
+          (net C
+            (joined 
+              (portRef C)
+              (portRef I
+                (instanceRef C26))))
+          (net C25_N0
+            (joined 
+              (portRef I
+                (instanceRef c25_c0))
+              (portRef O
+                (instanceRef c25_c1))))
+          (net C_BUFGED
+            (joined 
+              (portRef C
+                (instanceRef Q_reg))
+              (portRef O
+                (instanceRef C26))))
+          (net CE
+            (joined 
+              (portRef CE)
+              (portRef I
+                (instanceRef C18))))
+          (net CLR
+            (joined 
+              (portRef CLR)
+              (portRef I
+                (instanceRef C23))))
+          (net D
+            (joined 
+              (portRef D)
+              (portRef D
+                (instanceRef Q_reg))))
+          (net N5
+            (joined 
+              (portRef GSR
+                (instanceRef C17))
+              (portRef O
+                (instanceRef C23))
+              (portRef I0
+                (instanceRef c25_c1))
+              (portRef I1
+                (instanceRef FMAP_0))
+              (portRef GSR
+                (instanceRef Q_reg))))
+          (net N6
+            (joined 
+              (portRef CE
+                (instanceRef Q_reg))
+              (portRef O
+                (instanceRef c25_c0))
+              (portRef O
+                (instanceRef FMAP_0))))
+          (net N_CE
+            (joined 
+              (portRef O
+                (instanceRef C18))
+              (portRef I1
+                (instanceRef c25_c1))
+              (portRef I2
+                (instanceRef FMAP_0))))
+          (net N_Q
+            (joined 
+              (portRef Q
+                (instanceRef Q_reg))
+              (portRef I
+                (instanceRef C24))))
+          (net Q
+            (joined 
+              (portRef Q)
+              (portRef O
+                (instanceRef C24))))))))
+  (design final_yr
+    (cellRef final_yr
+      (libraryRef Active_lib))
+    (property PART (string "4010XL-PC84-09"))))

@@ -1,0 +1,48 @@
+LCANET, 6
+PROG, Synopsys, UNKNOWN, v3.3, Build 3.3.0.4517
+PART, 4010XL-PC84-09
+SYM, C17, STARTUP, LIBVER=2.0.0
+PIN, GSR, I, N5, , 
+END
+SYM, C18, IBUF, LIBVER=2.0.0
+PIN, O, O, N_CE, , 
+PIN, I, I, CE, , 
+END
+SYM, Q_reg, IFDX, LIBVER=2.0.0
+PIN, D, I, D, , 
+PIN, C, I, C_BUFGed, , 
+PIN, CE, I, N6, , 
+PIN, Q, O, N_Q, , 
+END
+SYM, C23, IBUF, LIBVER=2.0.0
+PIN, O, O, N5, , 
+PIN, I, I, CLR, , 
+END
+SYM, C24, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, Q, , 
+PIN, I, I, N_Q, , 
+END
+SYM, c25_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c25_n0, , , INV
+PIN, O, O, N6, , , INV
+END
+SYM, c25_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N5, , , INV
+PIN, I1, I, N_CE, , 
+PIN, O, O, c25_n0, , 
+END
+SYM, FMAP_0, FMAP, LIBVER=2.0.0
+PIN, I1, I, N5, , 
+PIN, I2, I, N_CE, , 
+PIN, O, I, N6, , 
+END
+SYM, C26, BUFG, LIBVER=2.0.0
+PIN, O, O, C_BUFGed, , 
+PIN, I, I, C, , 
+END
+EXT, CE, I, 
+EXT, D, I, 
+EXT, C, I, 
+EXT, CLR, I, 
+EXT, Q, O, 
+EOF

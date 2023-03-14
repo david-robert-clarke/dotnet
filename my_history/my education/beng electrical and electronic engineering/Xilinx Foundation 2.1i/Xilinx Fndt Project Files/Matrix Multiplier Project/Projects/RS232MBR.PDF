@@ -1,0 +1,91 @@
+[project]
+name=rs232mbr
+netlist=rs232mbr
+contents=rs232mbr
+date=01/15/01
+time=20:02:34
+version=3.1.5.00.33
+generics=MAX
+Type=F21i
+top_level=schematic
+library_net=ON
+sim_mode=FUNC
+lib_order=1008 133 155
+
+[libraries]
+1008=
+133=c:\fndtn\active\syslib\simprims
+155=c:\fndtn\active\syslib\xc4000x
+
+[xilinx]
+libraries=unified
+family=2
+xact9=On
+xfam=XC4000XL
+
+[device]
+xilinx=4010XLPC84-09
+part=4010XLPC84-09
+
+[netlist]
+external=FALSE
+
+[Schematic]
+Table01=Project
+Table02=Sheet
+Table03=Date
+Table04=Date Last Modified
+
+[sheets]
+Complete_System=
+
+[Log]
+netlist.log=Simulator Netlist Log
+
+[timings]
+rs232mbr=
+decode=
+300=
+
+[OpenDoc]
+hde/DECOD=0,0,-4,-4,1028,744,DECOD.vhd
+
+[OPEN32]
+nMaxFile=10000
+lpstrFile=
+lpstrFilter=Schematic (*.SCH)|*.sch|ABEL6 (*.ABL)|*.abl|Test Vectors (*.ABV;*.ABL)|*.abv;*.abl|All Files (*.*)|*.*||
+lpstrInitialDir=C:\FNDTN\ACTIVE\PROJECTS\RS232MBR
+lpstrTitle=Add Document
+nFilterIndex=0
+Flags=530964
+HelpID=10380
+HelpFileName=C:\FNDTN\ACTIVE\EXE\PCM.HLP
+cmdLine=-h 1848 -hp 784 -m PCM_OPEN_32_MESSAGE -f C:\FNDTN\ACTIVE\PROJECTS\current.pdf
+
+[sim_config]
+Lower Bound=2048
+Upper Bound=2048
+B0 Period=25000
+Transport Delay=On
+Enable Global Netlist Analysis=On
+Forced State=Default
+Output Waveform=Overwrite
+Global Reset=On
+Keep Comments=Off
+Execute Preset=Off
+Models Stabilization=On
+Pulse Global Reset Net Enabled=On
+Pulse Global Reset Net=1000
+
+[APP_95]
+lid=0
+oid=0
+source=C:\FNDTN\ACTIVE\PROJECTS\RS232MBR\COMPLETE_SYSTEM.SCH
+
+[FILE7]
+DECOD=DECOD.vhd
+scan_time=979691284
+
+[sc_desk]
+desk00=C:\FNDTN\ACTIVE\PROJECTS\RS232MBR\COMPLETE_SYSTEM.SCH, 22, 22, 815, 448, 1
+

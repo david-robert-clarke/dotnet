@@ -1,0 +1,127 @@
+package I;
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.*;
+
+/**
+   This allows a manager to remove a new staff entry, 
+   this class automatically updates the Staff Tables
+
+   @author Helen Loynes
+**/
+class RemoveStaffUI extends JFrame
+{  
+  private String sid;
+  private String staffFirstName;
+  private String staffLastName;
+  private String staffPosition;;
+  private JLabel sidLabel;
+  private JLabel staffFirstNameLabel;
+  private JLabel staffLastNameLabel;
+  private JLabel staffPositionLabel;
+  private JLabel confirmDeleteLabel;
+  
+  private JTextField sidTextField;
+  private JTextField staffFirstNameTextField;  
+  private JTextField staffLastNameTextField;
+  private JTextField staffPositionTextField;
+  private JButton cancelButton;
+  private JButton okayButton;
+  
+  private JPanel editPanel;
+  private JPanel buttonPanel;
+
+  //ArrayList
+  ArrayList staffEntry;
+
+  //Constructor
+  public RemoveStaffUI(String sID)
+  {
+    sid = sID;
+    GetStaffDetailsQuery sDQuery = new GetStaffDetailsQuery(sid);
+    staffEntry = sDQuery.exeQuery();
+    sid = (String)staffEntry.get(0);
+    staffFirstName = (String)staffEntry.get(1);
+    staffLastName = (String)staffEntry.get(2);
+    staffPosition = (String)staffEntry.get(8);
+    
+    //Use a query that gets the staff info for a given 
+    //staff
+    //staffEntry = new ArrayList();//always initialise these bloody arraylists
+    //editing fields
+    editPanel = new JPanel();
+    editPanel.setLayout(new GridLayout(9,1));  
+    sidLabel = new JLabel("Staff ID:");
+    sidTextField = new JTextField(sid);
+    sidTextField.setEnabled(false);
+    staffFirstNameLabel = new JLabel("Staff First Name:");
+    staffFirstNameTextField = new JTextField(staffFirstName);
+    staffFirstNameTextField.setEnabled(false);
+    staffLastNameLabel = new JLabel("Staff Last Name:");
+    staffLastNameTextField = new JTextField(staffLastName);
+    staffLastNameTextField.setEnabled(false);
+    staffPositionLabel = new JLabel("Position:");
+    staffPositionTextField = new JTextField(staffPosition);
+    staffPositionTextField.setEnabled(false);
+    confirmDeleteLabel = new JLabel("To confirm delete, press ok.");
+
+    editPanel.add(sidLabel);
+    editPanel.add(sidTextField);
+    editPanel.add(staffFirstNameLabel);
+    editPanel.add(staffFirstNameTextField);
+    editPanel.add(staffLastNameLabel);
+    editPanel.add(staffLastNameTextField);
+    editPanel.add(staffPositionLabel);
+    editPanel.add(staffPositionTextField);
+    editPanel.add(confirmDeleteLabel);
+    
+
+    //confirmation buttons
+    buttonPanel = new JPanel();
+    buttonPanel.setLayout(new GridLayout(1,2));
+    cancelButton = new JButton("Cancel");
+    cancelButton.addActionListener(new ButtonListener());
+    okayButton = new JButton("OK");
+    okayButton.addActionListener(new ButtonListener());
+    buttonPanel.add(okayButton);
+    buttonPanel.add(cancelButton);
+
+    Container contentPane = getContentPane();
+    contentPane.add(editPanel,"Center");
+    contentPane.add(buttonPanel, "South");
+    
+  }
+
+  public class ButtonListener implements ActionListener
+  {
+    public void actionPerformed(ActionEvent event)
+    {
+      Object source = event.getSource();
+      
+      if(source == okayButton)
+      {
+	
+	//if the okay button has been pressed, remove the details for this member
+	// of staff from the staffEntry ArrayList(excluding the iid),
+
+	//staffEntry.set(0,sidTextField.getText());
+
+	//pass this arrayList directly to the DeleteStaffEntryQuery class
+	//new java query, which removes a tuple from the database      
+	DeleteStaffEntryQuery deleteStaff =new DeleteStaffEntryQuery(staffEntry);
+	deleteStaff.exeQuery();
+	
+	
+	//Then exit this window
+	dispose();
+      }
+      else if(source == cancelButton)
+      {
+	dispose();
+      }
+      
+    }      
+  }
+}

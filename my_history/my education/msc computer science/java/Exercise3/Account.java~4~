@@ -1,0 +1,73 @@
+/**
+ * This class manages details about a single bank account.
+ *
+ * @author David Clarke
+ **/
+
+public class Account
+{
+  private int accountNumber;
+  private char name;
+  private int balance;
+
+  /**
+   * Constructor to set up the account with some default values
+   *
+   * @param ac	the account number.
+   **/
+
+  public Account(int ac)
+  {
+    accountNumber = ac;
+    name = 'c';
+    balance = 0;
+  }
+
+  /**
+   * Constructor to set up the account with given information.
+   *
+   * @param ac    the account number.
+   * @param n     the account name.
+   * @param bal   the starting balance.
+   **/
+
+  public Account(int ac, char n, int bal)
+  {	accountNumber = ac;
+	name = n;
+	balance = bal;
+  }
+
+  public void setName(char n)
+  {	name = n;
+  }
+
+  public void setBalance(int b)
+  {	balance = b;
+  }
+
+  /**
+   * Return the account number of this account.
+   *
+   * @return the account number as an integer.
+   **/
+
+  public int getAccountNumber()
+  { return accountNumber;
+  }
+
+  public String getName()
+  { return name;
+  }
+
+  public int getBalance()
+  { return balance;
+  }
+
+  public void deposit(int value)
+  {	balance = balance + value;
+  }
+
+  public void withdraw(int value)
+  {	balance = balance - value;
+  }
+}

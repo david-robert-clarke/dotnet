@@ -1,0 +1,148 @@
+-- Final year Project
+-- By David Clarke
+-- Created on 30_01_2001
+Library IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_ARITH.ALL;
+USE WORK.MATRIX_PACKAGE.ALL;
+
+ENTITY ADDERS_SIX_BITS IS
+ PORT (A1, A0  : IN  UNSIGNED (3 downto 0);
+       B1, B0  : IN  UNSIGNED (3 downto 0);
+       OUTPUT  : OUT UNSIGNED (5 downto 0));
+END ENTITY ADDERS_SIX_BITS;
+ --
+ARCHITECTURE BEHAVIOURAL OF ADDERS_SIX_BITS IS
+BEGIN
+	PROCESS (A1, A0, B1, B0)
+	Variable ASUM_Temp, BSUM_Temp : UNSIGNED (4 downto 0);
+	Begin
+        ASUM_temp := ('0' & A1) + ('0' & A0);
+        BSUM_temp := ('0' & B1) + ('0' & B0);
+        OUTPUT15 <= ('0' & ASUM_temp) + ('0' & BSUM_temp);
+        END PROCESS;
+        
+        PROCESS (C1, C0, D1, D0)
+	Variable CSUM_Temp, DSUM_Temp : UNSIGNED (4 downto 0);
+	Begin
+        CSUM_temp := ('0' & C1) + ('0' & C0);
+        DSUM_temp := ('0' & D1) + ('0' & D0);
+        OUTPUT14 <= ('0' & CSUM_temp) + ('0' & DSUM_temp);
+        END PROCESS;
+        
+        PROCESS (E1, E0, F1, F0)
+	Variable ESUM_Temp, FSUM_Temp : UNSIGNED (4 downto 0);
+	Begin
+        ESUM_temp := ('0' & E1) + ('0' & E0);
+        FSUM_temp := ('0' & F1) + ('0' & F0);
+        OUTPUT13 <= ('0' & ESUM_temp) + ('0' & FSUM_temp);
+        END PROCESS;
+        
+        PROCESS (G1, G0, H1, H0)
+	Variable GSUM_Temp, HSUM_Temp : UNSIGNED (4 downto 0);
+	Begin
+        GSUM_temp := ('0' & G1) + ('0' & G0);
+        HSUM_temp := ('0' & H1) + ('0' & H0);
+        OUTPUT12 <= ('0' & GSUM_temp) + ('0' & HSUM_temp);
+        END PROCESS;
+        
+        PROCESS (I1, I0, J1, J0)
+	Variable ISUM_Temp, JSUM_Temp : UNSIGNED (4 downto 0);
+	Begin
+        ISUM_temp := ('0' & I1) + ('0' & I0);
+        JSUM_temp := ('0' & J1) + ('0' & J0);
+        OUTPUT11 <= ('0' & ISUM_temp) + ('0' & JSUM_temp);
+        END PROCESS;
+        
+        PROCESS (K1, K0, L1, L0)
+	Variable KSUM_Temp, LSUM_Temp : UNSIGNED (4 downto 0);
+	Begin
+        KSUM_temp := ('0' & K1) + ('0' & K0);
+        LSUM_temp := ('0' & L1) + ('0' & L0);
+        OUTPUT10 <= ('0' & KSUM_temp) + ('0' & LSUM_temp);
+        END PROCESS;
+        
+        PROCESS (M1, M0, N1, N0)
+	Variable MSUM_Temp, NSUM_Temp : UNSIGNED (4 downto 0);
+	Begin
+        MSUM_temp := ('0' & M1) + ('0' & M0);
+        NSUM_temp := ('0' & N1) + ('0' & N0);
+        OUTPUT9 <= ('0' & MSUM_temp) + ('0' & NSUM_temp);
+        END PROCESS;
+        
+        PROCESS (O1, O0, P1, P0)
+	Variable OSUM_Temp, PSUM_Temp : UNSIGNED (4 downto 0);
+	Begin
+        OSUM_temp := ('0' & O1) + ('0' & O0);
+        PSUM_temp := ('0' & P1) + ('0' & P0);
+        OUTPUT8 <= ('0' & OSUM_temp) + ('0' & PSUM_temp);
+        END PROCESS;
+
+	PROCESS (Q1, Q0, R1, R0)
+	Variable QSUM_Temp, RSUM_Temp : UNSIGNED (4 downto 0);
+	Begin
+        QSUM_temp := ('0' & Q1) + ('0' & Q0);
+        RSUM_temp := ('0' & R1) + ('0' & R0);
+        OUTPUT7 <= ('0' & QSUM_temp) + ('0' & RSUM_temp);
+        END PROCESS;
+        
+        PROCESS (S1, S0, T1, T0)
+	Variable SSUM_Temp, TSUM_Temp : UNSIGNED (4 downto 0);
+	Begin
+        SSUM_temp := ('0' & S1) + ('0' & S0);
+        TSUM_temp := ('0' & T1) + ('0' & T0);
+        OUTPUT6 <= ('0' & SSUM_temp) + ('0' & TSUM_temp);
+        END PROCESS;
+        
+        PROCESS (U1, U0, V1, V0)
+	Variable USUM_Temp, VSUM_Temp : UNSIGNED (4 downto 0);
+	Begin
+        USUM_temp := ('0' & U1) + ('0' & U0);
+        VSUM_temp := ('0' & V1) + ('0' & V0);
+        OUTPUT5 <= ('0' & USUM_temp) + ('0' & VSUM_temp);
+        END PROCESS;
+        
+        PROCESS (W1, W0, X1, X0)
+	Variable WSUM_Temp, XSUM_Temp : UNSIGNED (4 downto 0);
+	Begin
+        WSUM_temp := ('0' & W1) + ('0' & W0);
+        XSUM_temp := ('0' & X1) + ('0' & X0);
+        OUTPUT4 <= ('0' & WSUM_temp) + ('0' & XSUM_temp);
+        END PROCESS;
+
+	PROCESS (Y1, Y0, Z1, Z0)
+	Variable YSUM_Temp, ZSUM_Temp : UNSIGNED (4 downto 0);
+	Begin
+        YSUM_temp := ('0' & Y1) + ('0' & Y0);
+        ZSUM_temp := ('0' & Z1) + ('0' & Z0);
+        OUTPUT3 <= ('0' & YSUM_temp) + ('0' & ZSUM_temp);
+        END PROCESS;
+        
+        PROCESS (AA1, AA0, BB1, BB0)
+	Variable AASUM_Temp, BBSUM_Temp : UNSIGNED (4 downto 0);
+	Begin
+        AASUM_temp := ('0' & AA1) + ('0' & AA0);
+        BBSUM_temp := ('0' & BB1) + ('0' & BB0);
+        OUTPUT2 <= ('0' & ASUM_temp) + ('0' & BSUM_temp);
+        END PROCESS;
+        
+        PROCESS (CC1, CC0, DD1, DD0)
+	Variable CCSUM_Temp, DDSUM_Temp : UNSIGNED (4 downto 0);
+	Begin
+        CCSUM_temp := ('0' & CC1) + ('0' & CC0);
+        DDSUM_temp := ('0' & DD1) + ('0' & DD0);
+        OUTPUT1 <= ('0' & CCSUM_temp) + ('0' & DDSUM_temp);
+        END PROCESS;
+        
+        PROCESS (EE1, EE0, FF1, FF0)
+	Variable EESUM_Temp, FFSUM_Temp : UNSIGNED (4 downto 0);
+	Begin
+        EESUM_temp := ('0' & EE1) + ('0' & EE0);
+        FFSUM_temp := ('0' & FF1) + ('0' & FF0);
+        OUTPUT0 <= ('0' & EESUM_temp) + ('0' & FFSUM_temp);
+        END PROCESS;
+
+
+-- '0' & is the concatenation operator which allows the carry to be passed to the output 
+
+END ARCHITECTURE BEHAVIOURAL; 

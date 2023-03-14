@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0055)http://www.aston.ac.uk/lis/as/mail/forward.pophost.html -->
+<HTML><HEAD><TITLE>Delivering Your Aston Mail Elsewhere</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content="Gareth Owen" name=author>
+<META content="MSHTML 5.50.4611.1300" name=GENERATOR>
+<META content="Instructions on setting email forwarding" name=description>
+<META content="email mail forward hotmail" name=keywords></HEAD>
+<BODY aLink=#ffffff bgColor=#ffffff>
+<P><IMG alt="Aston University" 
+src="Delivering Your Aston Mail Elsewhere_files/minilogo.gif"></P>
+<H3>Forwarding Mail</H3>If you already have a mail account with an ISP or a 
+freemail site such as hotmail you may want mail addressed to your Aston mail 
+account to be delivered there. You may also want mail redirected elsewhere 
+during vacation. Here's where you do it.
+<P>What are you doing and why ? When mail is delivered to your account here your 
+home directory on <B>pophost.aston.ac.uk</B> is checked for a file called 
+<B>.forward</B> (pronounced <EM>dot forward</EM>) which contains one or more 
+addresses to send the mail to (normally) instead of delivering it to popmail. 
+For example , whilst I have accounts (and many guises such as 
+webmaster@aston.ac.uk) on all the central systems in Aston I only want to read 
+it in one place so all those accounts have a .forward file containing <PRE>                 oweng@aston.ac.uk
+    </PRE>so all my mail comes to the one drop. <B>pophost.aston.ac.uk</B> is a 
+Unix machine (as most Universities' heavy duty machines are) and generally folk 
+who aren't in the IT business haven't been exposed to Unix so don't know how to 
+go about it. And we got bored of repeatedly explaining it. Hence this form which 
+will set the forward for you painlessly. 
+<P>
+<FORM action=http://www-users.aston.ac.uk/cgi-bin/forward.cgi method=post>Enter 
+Username (thats <B>bloggsj</B> <EM>NOT</EM> <B>bloggsj.b.99</B>) <INPUT size=8 
+name=username><BR>Enter Unix/POP3 Password <INPUT type=password size=8 
+name=pwd1><BR>Re-enter Password for verification <INPUT type=password size=8 
+name=pwd2> 
+<P><SELECT name=choice> <OPTION selected>show</OPTION> <OPTION>remove</OPTION> 
+  <OPTION>set</OPTION></SELECT> forward<BR>If setting a forward enter the address 
+in this box <INPUT size=80 name=forward> otherwise this field is 
+ignored.<BR><B>NOTE</B> if the forward is not a valid mail address then mail 
+will not get delivered but returned to sender as unknown at that address 
+("Bounced" in the jargon). So <EM>concentrate</EM>.<BR>You can test whether it 
+has worked by sending an email to your Aston address and seeing what happens.
+<P><INPUT type=submit value="Do It"> </FORM>
+<HR>
+
+<P>The above only affects mail received after you have set the forward.<BR>To 
+download any mail previously sent to you at Aston temporarily configure your 
+mailer thus
+<P><PRE>    	Incoming (POP3) mailer: <B>pophost.aston.ac.uk</B>
+    	Username &amp; Password as setting the forward.
+    	Outgoing (SMTP) mailer: not relevant.
+    </PRE>With <B>Outlook</B> (which supports multiple POP3 mail servers) it 
+goes something like this 
+<OL>
+  <LI>Select <B>Accounts...</B> from the <B>Tools</B> menu 
+  <LI>From <B>Internet Accounts</B> select <B>Add</B>-&gt;<B>Mail</B> 
+  <LI>Display Name: <B>Not important</B> 
+  <LI>Internet E-mail Address: <B>Not Important</B> 
+  <LI>E-mail Server Names<BR>
+  <UL>
+    <LI>My incoming mail server is a <B>POP3</B> 
+    <LI>Incoming mail server: <B>pophost.aston.ac.uk</B> 
+    <LI>Outgoing mail(SMTP) server: <B>not.used.so.anything</B> </LI></UL>
+  <LI>Internet Mail Logon - Account name and Password as you used for setting 
+  the forward. Don't use SPA. </LI></OL>With <B>Netscape</B>
+<P>The Netscape mailer (upto 4.72 at least) only supports one POP3 server so you 
+have to temporarily EDIT your current settings (assuming that you are using a 
+POP3 server currently). So make a note of what you are changing so you can 
+restore without trouble. Alternatively take a copy of your preferences file 
+before you start - mine (Windows 98) can be found at <B>C:\Program 
+Files\Netscape\Users\oweng\prefs.js</B> and (Linux/Solaris) 
+<B>~/.netscape/preferences.js</B>. Then you can restore your defaults by putting 
+the copy back where it started. 
+<OL>
+  <LI>Select <B>Preferences</B> from the <B>Edit</B> menu 
+  <LI>From the <B>Mail &amp; Newsgroups</B> Category; select <B>Mail Servers</B> 
+
+  <LI><B>Edit</B>;
+  <UL>
+    <LI>Server Name: <B>pophost.aston.ac.uk</B> 
+    <LI>Server Type: POP3 
+    <LI>User Name: <B>As used to set forward</B> </LI></UL>
+  <LI>From <B>Communicator</B> menu select <B>Messenger</B> 
+  <LI>Select <B>Get Msg</B> from toolbar 
+  <LI>Use same password as setting forward when prompted. 
+  <LI>Mail is downloaded </LI></OL>
+<HR>
+<A href="http://www.aston.ac.uk/lis//"><IMG height=20 alt=[~LIS] 
+src="Delivering Your Aston Mail Elsewhere_files/back.gif" width=20 
+align=middle></A> LiS Home Page <A href="http://www.aston.ac.uk/"><IMG height=32 
+alt=[Aston] src="Delivering Your Aston Mail Elsewhere_files/trianhome.gif" 
+width=56 align=middle></A>Aston Home Page
+<HR>
+ <A href="mailto:oweng@aston.ac.uk">Gareth Owen</A> ,Network Systems Group , 
+LiS<BR><!-- hhmts start -->Last modified: Wed Dec 13 15:31:04 GMT 2000 <!-- hhmts end -->
+<P><A href="http://validator.w3.org/check/referer"><IMG height=31 
+alt="Valid HTML 4.01!" 
+src="Delivering Your Aston Mail Elsewhere_files/vh401.gif" width=88 
+border=0></A> </P></BODY></HTML>

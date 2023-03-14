@@ -1,0 +1,108 @@
+package I;
+import java.sql.*;
+import java.util.ArrayList;
+
+
+/**
+ * CDSearchQuery
+ *
+ * Used by EditStockUI, inputs artist and cd name returns an array of both
+ * stock and cd information.
+ * 
+ **/
+public class GetSupplierNamesQuery
+{
+
+  private ArrayList x;
+  private Connection c;
+
+  public GetSupplierNamesQuery(String a, String cd_n)
+  {      
+    artist = a;
+    cdName = cd_n;
+    c = MyConnection.C;
+    cdArrayList = new ArrayList();
+    stockArrayList = new ArrayList();
+  }
+
+  /**
+   * Return an arraylist of cd details such as
+   * <ul>
+   * <il>artist
+   * <il>cd_name
+   * <il>retail_price
+   * </ul>
+   **/
+  public ArrayList exeQueryCD()
+  {
+    try 
+    {
+      // Create a result set containing all data from my_table
+      Statement stmt = c.createStatement();
+      ResultSet rs0 = stmt.executeQuery("SELECT iid FROM cd WHERE artist = '" +
+					artist + "' AND cd_name ='" + cdName 
+					+"'");    
+      while (rs0.next())
+      {
+	iid = rs0.getString("iid");
+      }
+      
+      
+      ResultSet rs1 =stmt.executeQuery("SELECT * FROM cd WHERE iid='"+iid+"'");
+      while(rs1.next())
+      {
+	cdArrayList.add(rs1.getString("cd_name"));
+	cdArrayList.add(rs1.getString("artist"));
+	cdArrayList.add(rs1.getString("r_price"));
+      }
+      
+      
+    } 
+    catch (SQLException e) 
+    {
+      System.out.println( "An exception occurred in CDSearch. " + e);
+    }
+        
+    return(cdArrayList);
+  }  
+  /**
+   * Return an arraylist of suppliers of the cd in question, along with the
+   * <ul>
+   * <il>stock level
+   * <il>w_price
+   * </ul>
+   * for each supplier
+   **/
+  public ArrayList exeQueryStock()
+  {
+    try 
+    {
+      Connection c = MyConnection.C;
+      
+      Statement stmt = c.createStatement();
+      System.out.println("Created Statement");
+      ResultSet rs = stmt.executeQuery("SELECT * FROM cd");  
+    
+      cdData = new String[10];
+      int i=0;
+      while (rs.next()) 
+      {
+	String cd_name = rs.getString(2);
+	String artist = rs.getString(3);
+	String rowData = (artist + "-" + cd_name);      
+	cdData[i]= rowData;
+	i++;
+      }
+      stockList.setListData(cdData); 
+
+      
+    } 
+    catch (SQLException e) 
+    {
+      System.out.println( "An exception occurred in CDSearch. " + e);
+    }
+        
+    return(x);
+    
+  }
+  

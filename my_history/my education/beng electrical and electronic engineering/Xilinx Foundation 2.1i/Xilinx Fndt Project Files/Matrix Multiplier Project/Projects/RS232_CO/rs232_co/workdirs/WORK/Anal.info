@@ -1,0 +1,9 @@
+file {
+  .version = 1;
+  entity {
+    .name = "Pinoutdecode";
+    .mra_file = "Pinoutdecode.mra";
+    .arch = {"Arch"};
+    .syn_files = {"PINOUTDECODE.syn", "PINOUTDECODE__ARCH.syn"};
+   }
+}

@@ -1,0 +1,116 @@
+<project name="cdshop" default="dist" basedir=".">
+  <property name="tomcatdir" value="c:/tomcat"/>
+  <property name="appdir" value="${tomcatdir}/webapps/cdshop"/>
+  <property name="jarfile" value="cdpclasses.jar"/>
+
+  <target name="init">
+    <tstamp/>
+  </target>
+
+  <target name="compile" depends="init">
+     <javac srcdir="src">
+       <classpath>
+         <pathelement path="${classpath}"/>
+	 <pathelement path="src"/>
+         <fileset dir="c:\tomcat\lib">
+           <include name="**/*.jar"/>
+         </fileset>
+         <fileset dir="c:\tomcat\common\lib">
+           <include name="**/*.jar"/>
+         </fileset>
+         <fileset dir="c:\tomcat\webapps\cdshop\WEB-INF\lib\">
+           <include name="**/*.jar"/>
+	   <exclude name="cdpclasses.jar"/>
+         </fileset>
+       </classpath>
+     </javac>
+  </target>
+
+
+  <target name="clean">
+   <delete>
+    <fileset dir="src\com\cdshop" includes="**/*.class"/>
+   </delete>
+  </target>
+
+  <target name="dist" depends="compile">
+     <mkdir dir="${appdir}/WEB-INF/lib"/>
+     <jar jarfile="${appdir}/WEB-INF/lib/${jarfile}">
+        <fileset dir="src" includes="**/*.class"/>
+        <fileset dir="props" includes="**/*.properties"/>
+      </jar>
+     <copy todir="${appdir}/WEB-INF">
+        <fileset dir="." includes="web.xml"/>
+        <fileset dir="." includes="TurbineResources.properties"/>
+     </copy>
+     <mkdir dir="${appdir}/jsp"/>
+     <copy todir="${appdir}/jsp">
+        <fileset dir="jsp"/>
+     </copy>
+     <delete dir="${tomcatdir}/work/localhost/cdshop"/>
+  </target>
+
+  <target name="javadoc">
+     <mkdir dir="javadoc"/>
+     <javadoc sourcepath="src" destdir="javadoc" author="true"
+              version="true" use="true" packagenames="com.cdshop.*">
+       <classpath>
+         <pathelement path="${classpath}"/>
+         <fileset dir="c:\tomcat\lib">
+           <include name="**/*.jar"/>
+         </fileset>
+       </classpath>
+     </javadoc>
+  </target>
+
+  <target name="test" depends="dist">
+     <java classname="com.cdshop.customer.Customer" fork="yes">
+       <classpath>
+       <pathelement path="${java.class.path}"/>
+         <fileset dir="c:\tomcat\lib">
+           <include name="**/*.jar"/>
+         </fileset>
+         <pathelement path="c:\cd-shop\src"/>
+         <pathelement path="c:\cd-shop\props"/>
+       </classpath>
+     </java>
+     <java classname="com.cdshop.product.Product" fork="yes">
+       <classpath>
+       <pathelement path="${java.class.path}"/>
+         <fileset dir="c:\tomcat\lib">
+           <include name="**/*.jar"/>
+         </fileset>
+         <pathelement path="c:\cd-shop\src"/>
+         <pathelement path="c:\cd-shop\props"/>
+       </classpath>
+     </java>
+     <java classname="com.cdshop.product.Category" fork="yes">
+       <classpath>
+       <pathelement path="${java.class.path}"/>
+         <fileset dir="c:\tomcat\lib">
+           <include name="**/*.jar"/>
+         </fileset>
+         <pathelement path="c:\cd-shop\src"/>
+         <pathelement path="c:\cd-shop\props"/>
+       </classpath>
+     </java>
+  </target>
+
+  <target name="start">
+     <exec dir="${tomcatdir}/bin" executable="startup.bat" 
+           os="Windows 2000" vmlauncher="false">
+     </exec>
+  </target>
+
+  <target name="stop">
+     <exec dir="${tomcatdir}/bin" executable="shutdown.bat" 
+           os="Windows 2000" vmlauncher="false">
+     </exec>
+  </target>
+
+  <target name="restart" depends="stop,start">
+  </target>
+
+</project>
+
+

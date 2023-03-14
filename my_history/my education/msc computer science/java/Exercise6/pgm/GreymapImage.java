@@ -1,0 +1,751 @@
+package pgm;
+import java.lang.*;
+
+/**
+   This class represents a greyscale image. Pixel data for the image is stored 
+   as an array of short values. Each pixel value is a shade of grey in the 
+   range 0 (black) to maxValue (white). Typically, maxValue will be 255, 
+   allowing 256 possible shades of grey, however, it is possible to allow up 
+   to 32,768 different shades. 
+
+   @author David Clarke
+*/
+public class GreymapImage
+{
+    private int imageWidth;
+    private int imageHeight;
+    private short maxGreyVal;
+    private short[] pixel;
+		
+    /**
+     * Constructor to create an image object with the specified width and 
+     * height. Initially, all the pixels will have the value 0 (black), 
+     * and maxGreyVal will be set to 255. 
+     *
+     * @param imWidth the width of the image
+     * @param imHeight the height of the image
+     */
+    public GreymapImage(int imWidth, int imHeight)
+    {
+        // if the picture does not have any pixels do not construct a new 
+        // GreymapImage
+        if (imWidth > 0)
+            {
+	imageWidth = imWidth;
+	imageHeight = imHeight;
+	maxGreyVal = 255;
+
+	// calculate the number of pixels required by the image
+	int noOfPixels = (imHeight * imWidth);
+	// create a new array, specifying the noOfPixels
+	pixel = new short[noOfPixels];
+      
+	// initialise every array element value to zero (black)
+	for (int i=0; i < pixel.length; i++)
+	    {
+	        pixel[i] = 0;
+	    }
+            }
+    
+    }
+
+    /**
+     * Constructor to create an image object with the specified width and 
+     * height, and maximum grey value. Initially, all the pixels will have the 
+     * value 0 (black). 
+     *
+     * @param imWidth the width of the image
+     * @param imHeight the height of the image
+     * @param max the maximum grey value
+     */
+    public GreymapImage(int imWidth, int imHeight, short max)
+    {   
+        // if the picture does not have any pixels do not construct a new 
+        // GreymapImage
+        if (imWidth > 0)
+            {  
+	imageWidth = imWidth;
+	imageHeight = imHeight;
+	maxGreyVal = max;
+      
+	// calculate the number of pixels required by the image
+	int noOfPixels = (imHeight * imWidth);
+	// create a new array, with noOfPixels
+	pixel = new short[noOfPixels];
+      
+	// initialise every array element value to zero (black)
+	for (int i=0; i < pixel.length; i++)
+	    {
+	        pixel[i] = 0;
+	    }
+            }
+    }
+
+    /**
+     * Constructor to create an image object using the specified pixel array, 
+     * maximum grey value, and width. 
+     *
+     * @param pix an array containing the pixel data
+     * @param max the maximum grey value
+     * @param imWidth the width of the image. 
+     * @throws InvalidDataException if the length of the pixel array is not 
+     * an exact multiple of the specified width, or if any pixel in the array 
+     * has a value greater than max or less than 0.
+     */
+    public GreymapImage(short[] pix, short max, int imWidth) 
+        throws InvalidDataException
+    {
+      // if the picture does not have any pixels do not construct a new 
+      // GreymapImage
+      if (imWidth > 0)
+          {
+            if ((pix.length%imWidth)!= 0)
+	{
+	    throw new InvalidDataException("");
+	}
+            else
+	{
+	  for (int i=0; i < pix.length; i++)
+	      {
+	        if (pix[i] > max || pix[i] < 0)
+	          {
+	              throw new InvalidDataException("");
+	          }
+	      }
+	  
+	  // when those three criteria have been assessed, copy the local
+	    // variable values to the global variables
+	    pixel = pix;
+	    maxGreyVal = max;
+	    imageWidth = imWidth;
+	        imageHeight = (pixel.length/imageWidth);
+	    }
+      
+            }
+    }
+
+    /**
+     * Set the pixel data for the image. The height of the image is inferred 
+     * from the length of the array and the image width. If the number of 
+     * pixels is not a multiple of imWidth, then an exception is thrown. The 
+     * pixels from the parameter array are copied into a new internal array, 
+     * and each pixel is checked against the value of max. If any pixel is 
+     * greater than the specified maximum value or less than 0, an exception 
+     * is thrown. 
+     *
+     * @param pix an array containing the pixel data
+     * @param max the maximum grey value
+     * @param imWidth the width of the image. 
+     * @throws InvalidDataException if the length of the pixel array is not an 
+     * exact multiple of the specified width, or if any pixel in the array has 
+     * a value greater than max or less than 0.
+     */
+    public void setData(short[] pix, short max, int imWidth)
+        throws InvalidDataException
+    { 
+        // if the picture does not have any pixels do not create the new 
+        // GreymapImage
+        if (imWidth > 0)
+            {
+      
+	if (( pix.length%imWidth)!= 0)
+	    {
+	        throw new InvalidDataException(pix.length + 
+			       " is not an exact multiple of " + 
+			       imWidth + ".");
+	    }
+	else
+	    {
+	        for (int i=0; i < pix.length; i++)
+	            {
+		if (pix[i] > max || pix[i] < 0)
+		    {
+		        throw new InvalidDataException("a pixel in the array has a value"
+				       +" greater value than " + max 
+				       +" or is less than 0.");
+	    
+		    }
+	            }
+	    }
+      
+	
+	pixel = pix;
+	maxGreyVal = max;
+	imageWidth = imWidth;
+	imageHeight = (pix.length/imWidth);
+            } 
+    }
+
+    /**
+     * Get the width of the image. 
+     *
+     * @return the image width.
+     */
+    public int getWidth()
+    {
+        return imageWidth;
+    }
+
+    /**
+     * Get the height of the image. 
+     *
+     * @return the image height.
+     */
+    public int getHeight()
+    {
+        return imageHeight;
+    }
+
+    /**
+     * Get the maximum grey value used in this image. 
+     *
+     * @return the maximum grey value
+     */
+    public short getMaxValue()
+    {
+        return maxGreyVal;
+    }
+
+    /**  
+     * Get the pixel data for the image. This method returns a reference to 
+     * the array used by the image, not a copy so any changes made to the 
+     * array will affect the image. 
+     *
+     * @return the array containing the pixel values.
+     */
+    public short[] getPixelData()
+    {	
+        return pixel;
+    }
+
+    /**
+     * Get the value for the pixel at the specified index 
+     *
+     * @param index the position in the array  
+     * @return the value of the specified pixel
+     */
+    public short getPixel(int index)
+    {
+        return pixel[index];
+    }
+
+    /**
+     * Set the value of the pixel at the specified index. If value is less than
+     * 0, the specified pixel is set to 0. If it is greater than the maximum 
+     * grey value, the pixel is set to the maximum grey value. 
+     *
+     * @param index the position in the array
+     * @param value the new value for the pixel.
+     */
+    public void setPixel(int index, short value)
+    {
+        if (value < 0)
+            {
+	pixel[index] = 0;
+            }
+        else if (value > maxGreyVal)
+            {
+	pixel[index] = maxGreyVal;
+            }
+        else
+            {
+	pixel[index] = value;
+            }
+    }
+
+    /**
+     * Get a String representing this object 
+     *
+     * @return a String containing the width, height and maximum grey value of 
+     * the image.
+     */
+    public String toString()
+    {
+        String line1 = "Width: " + imageWidth + "\n";
+        String line2 = "Height: " + imageHeight + "\n";
+        String line3 = "Maximum Grey Value: " + maxGreyVal + "\n";
+        return (line1 + line2 + line3);
+    }
+
+    /**
+     * Allow the image to be rotated freely through any angle 
+     * Blank areas in the rotated image should be left black 
+     * It is not necessary to resize the image, portions which are rotated 
+     * outside the original image bounds may be clipped (though you're welcome 
+     * to resize the image if you'd like) 
+     *
+     * @param degrees angle at which the picture is rotated
+     */
+    public void freeRotate(double degrees)
+    {
+        // declare local variables
+        int x0 = (int) (imageWidth/2);
+        int y0 = (int) (imageHeight/2);
+        // destination array
+        short[] destPixel = new short[pixel.length];
+        double theta = degrees;
+
+       for (int y = 0; y < imageHeight; y++)
+            {
+	for(int x = 0; x <imageWidth; x++)
+	    {
+	        // destination pixel x2, y2
+	        int x2 = (int) (Math.cos(theta) * (x-x0) 
+		        - Math.sin(theta) * (y-y0) + x0);
+	        int y2 = (int) (Math.sin(theta) * (x-x0) 
+		        + Math.cos(theta) * (y-y0) + y0);
+	           
+	        if (x2 < 0)
+	            {
+		x2 = 0;
+	            }
+	        else if (x2 >= imageWidth)
+	            {
+		x2 = (imageWidth - 1);
+	            }
+	        
+	        if (y2 < 0)
+	            {
+		y2 = 0;
+	            }
+	        else if (y2 >= imageHeight)
+	            {
+		y2 = imageHeight - 1;
+	            }
+	        
+	        int source = (imageWidth * y2) + x2;
+	        int destination = (imageWidth * y) + x;
+
+	        destPixel[destination] = pixel[source];
+	    }
+            }
+       // copy the contents of the destination array to the source array
+       pixel = destPixel; 
+    }
+
+    /**
+     * Invert all of the pixel values, so that the black pixels become white, 
+     * etc..to produce a negative image. 
+     */
+    public void negativeImage()
+    {
+        for(int i = 0; i < pixel.length; i++)
+            {
+	pixel[i] = (short)(maxGreyVal - pixel[i]);
+            }
+    }
+
+    /**
+     * Test each pixel against the threshold value and set it to black or 
+     * white depending on whether it's value > threshold
+     *
+     * @param threshold 
+     */
+    public void thresholdImage(short threshold)
+    {
+        for(int i = 0; i < pixel.length; i++)
+            {
+	if (pixel[i] < threshold)
+	    {
+	        pixel[i] = 0;
+	    }
+	else
+	    {
+	        pixel[i] = maxGreyVal;
+	    }
+            }
+    }
+
+    /**
+     * Adjust the brightness of the image by the specified amount 
+     * Be careful not to leave any illegal values as a result
+     *
+     * @param brightFactor the brightness of the image
+     */
+    public void adjustBrightness(short brightFactor)
+    {
+        for(int i = 0; i < pixel.length; i++)
+            {
+	pixel[i] = (short)(pixel[i] + brightFactor);
+	    
+	if (pixel[i] > maxGreyVal)
+	    {
+	        pixel[i] = maxGreyVal;
+	    }
+	else if (pixel[i] < 0)
+	    {
+	        pixel[i] = 0;
+	    }
+            }
+    }
+
+    /**
+     * Flips the image vertically
+     */
+    public void flipImage()
+    {
+        // initialise local variables
+        short[] destPixel = new short[pixel.length];
+
+        // step through each row
+        for (int y=0; y<imageHeight; y++)
+            {
+	// step through each column
+	for (int x=0; x<imageWidth; x++)
+	    {
+	        int source = ((imageWidth*y) + x);
+	        int destination = ((pixel.length - (imageWidth*(y+1))) +x);
+	        destPixel[destination]= pixel[source];
+	    }
+            }
+        // copy the contents of the destination array to the source array
+        pixel = destPixel;
+    }
+
+    /**
+     * Mirror the image (flip it horizonatally)
+     */
+    public void mirrorImage()
+    {
+        // local variable declaration
+        short[] destPixel = new short[pixel.length];
+
+        // step through each row
+        for (int y=0; y<imageHeight; y++)
+            {
+	// step through each column
+	for (int x=0; x<imageWidth; x++)
+	    {
+	        int source = ((imageWidth*y) + x);
+	        int destination = (((imageWidth*y) + ((imageWidth - 1) - x)));
+	        destPixel[destination]= pixel[source];
+	    }
+            }
+        // copy the contents of the destination array to the source array
+        pixel = destPixel;
+    }
+
+    /**
+     * Resize the image using the 'nearest neighbour' approach
+     *
+     * @param width the width of the image
+     * @param height the height of the image
+     */
+    public void simpleResize(int width, int height)
+    {				
+        // initialise local variables
+        float xScale = (float)imageWidth/(float)width;
+        float yScale = (float)imageHeight/(float)height;
+        // create new destination resized array
+        short[] resizedPixel = new short[width*height];
+        int newX = 0;
+        int newY = 0;
+
+        for (int y=0; y<height; y++)
+            {
+	// the location of the new pixel on the Y-axis
+	newY = (int)((yScale*(y+1))-1);
+	    
+	for (int x=0; x<width; x++)
+	    {
+	        // the location of the new pixel on the X-axis
+	        newX = (int)((xScale*(x+1))-1);	         
+	        
+	        // the location of the new pixel in the array
+	        int source = ((imageWidth * newY) + newX);
+	        int destination = ((width*y)+ x);
+	        
+	        // copy the appropriate source pixel to the correct
+	        // position in the destination array
+	        resizedPixel[destination] = pixel[source];
+		       
+	    }
+            }
+        // after passing through the destination array, resize the source 
+        // array to the same dimensions as the destination
+        imageWidth = width; imageHeight = height;
+        
+        // copy the contents of the destination array to the source array
+        pixel = resizedPixel; 
+      
+    }
+    /**
+     * Resize the image using the bilinear interpolation to smooth the final 
+     * output
+     * 
+     * @param width the width of the image
+     * @param height the height of the image
+     */
+    public void bilinearResize(int width, int height)
+    {
+        // initialise local variables
+        float xScale = (float)imageWidth/(float)width;
+        float yScale = (float)imageHeight/(float)height;
+
+        // create new destination resized array
+        short[] resizedPixel = new short[width*height];
+        int newX = 0, newY = 0;
+        // fractional parts of the x and y scale respectively
+        float u = 0, v = 0;
+        // holds the values of p00..p11
+        //  ___ ___ 
+        // |p00|p01|
+        // |___|___|
+        // |p10|p11|
+        // |___|___|
+        //
+        short p00 = 0, p01 = 0, p10 = 0, p11 = 0;
+
+        for (int y=0; y<height; y++)
+            {
+              // the location of the new pixel on the Y-axis
+              newY = (int)((yScale*(y+1))-1);
+              v = (((yScale*(y+1))-1) - newY);
+              
+              for (int x=0; x<width; x++)
+	  {
+	    // the location of the new pixel on the X-axis
+	    newX = (int)((xScale*(x+1))-1);	
+	    u =(((xScale*(x+1))-1) - newX);
+	    
+	    // the location of the new pixel in the pixel array
+	    int source = (imageWidth * newY) + newX;
+	    
+	    p00 = pixel[source];
+	    // if p00 is not on the right side border and the bottom of 
+	    // the picture
+	    if (newX < (imageWidth - 1) && newY < (imageHeight - 1))
+	        {
+	            p01 = pixel[source + 1];
+	            p10 = pixel[source + imageWidth];
+	            p11 = pixel[(source + imageWidth) + 1];
+	        }
+	    else
+	        {
+	            p01 = p00;
+	            p10 = p00;
+	            p11 = p00;
+	        }
+	    
+	    // destination of the new pixel in the resizedPixel array
+	    short weightVal = (short) ((1-v) * ((1-u) * p00 + u * p01) 
+		         +  v * ((1 - u) * p10 + u * p11)); 
+	    int destination = (width * y) + x;
+	    // copy the appropriate source pixel to the correct
+	    // position in the destination array
+	    resizedPixel[destination] = weightVal;
+	    
+	    }
+            }
+        // after passing through the destination array, resize the source 
+        // array to the same dimensions as the destination
+        imageWidth = width; imageHeight = height;
+        
+        // copy the contents of the destination array to the source array
+        pixel = resizedPixel; 
+    }
+    
+    /**
+     * Use a filter to blur the image
+     *
+     * @throws InvalidDataException
+     */
+    public void blur() throws InvalidDataException
+    {
+        GreymapImage image = new GreymapImage(pixel, maxGreyVal, imageWidth);
+        Filter blurred = new Filter(Filter.BLUR_1, 0);
+        blurred.apply(image);
+        pixel = image.getPixelData();
+    }
+
+    /**
+     * Use a filter to sharpen the image
+     *
+     * @throws InvalidDataException
+     */ 
+    public void sharpen()throws InvalidDataException
+    {
+        GreymapImage image = new GreymapImage(pixel, maxGreyVal, imageWidth);
+        Filter sharp = new Filter(Filter.SHARPEN_1, 0);
+        sharp.apply(image);
+        pixel = image.getPixelData(); 
+    }
+
+    /**
+     * Use a filter to create an 'embossed' effect 
+     * The bias value for the filter should be maxValue / 2
+     *
+     * @throws InvalidDataException
+     */
+    public void emboss()throws InvalidDataException
+    {
+        GreymapImage image = new GreymapImage(pixel, maxGreyVal, imageWidth);
+        Filter gradient = new Filter(Filter.GRADIENT, (maxGreyVal/2));
+        gradient.apply(image);
+        pixel = image.getPixelData();  
+    }
+
+    /**
+     * Use a filter to detect the vertical edges in the image
+     *
+     * @throws InvalidDataException
+     */
+    public void detectVerticalEdges()throws InvalidDataException
+    {
+        GreymapImage image = new GreymapImage(pixel, maxGreyVal, imageWidth);
+        Filter detectVert = new Filter(Filter.SOBEL_X, 0);
+        detectVert.apply(image);
+        pixel = image.getPixelData();   
+    }
+
+    /**
+     * Use a filter to detect the horizontal edges in the image 
+     * 
+     * @throws InvalidDataException
+     */
+    public void detectHorizontalEdges()throws InvalidDataException
+    {
+        GreymapImage image = new GreymapImage(pixel, maxGreyVal, imageWidth);
+        Filter detectHoriz = new Filter(Filter.SOBEL_Y, 0);
+        detectHoriz.apply(image);
+        pixel = image.getPixelData();  
+    }
+
+    /**
+     * Use a filter to detect all of the edges in the image 
+     * 
+     * @throws InvalidDataException
+     */
+    public void detectEdges() throws InvalidDataException
+    {
+        GreymapImage image = new GreymapImage(pixel, maxGreyVal, imageWidth);
+        Filter detectHoriz = new Filter(Filter.SOBEL_Y, 0);
+        Filter detectVert = new Filter(Filter.SOBEL_X, 0);
+        detectHoriz.apply(image);
+        detectVert.apply(image);
+        pixel = image.getPixelData(); 
+    }
+
+    /**
+     * Produce a whirlpool or swirl effect in the image (see handout for
+     * details)
+     */
+    public void whirlpool()
+    {
+        double y0 = imageHeight/2;
+        double x0 = imageWidth/2;
+        double theta = 0;
+        double radius = 0;
+        int sourceX = 0;
+        int sourceY = 0;
+        short[] destPixel = new short[pixel.length];
+
+        for (int y=0; y < imageHeight; y++)
+            {
+	for (int x=0; x < imageWidth; x++)
+	    {
+	        // convert the cartesian co-ordinated (x1 - x0),
+	        // (y1 - y0) to polar co-ordinates:
+          
+	        theta  = Math.atan2((y-y0),(x-x0));
+	        radius = Math.sqrt(Math.pow((x-x0),2) + 
+		           Math.pow((y-y0),2));
+          
+	        // subtract the radius (scaled for radians) from theta
+	        theta -= Math.toRadians(radius);
+          
+	        // convert back to cartesian co-ordinates to find the 
+	        // source pixel:
+	        sourceX = (int)(radius * Math.cos(theta) + x0);
+	        sourceY = (int)(radius * Math.sin(theta) + y0);
+          
+	        if (sourceX < 0)
+	            {
+		sourceX = 0;
+	            }
+	        else if (sourceX >= imageWidth)
+	            {
+		sourceX = imageWidth - 1;
+	            }
+          
+	        if (sourceY < 0)
+	            {
+		sourceY = 0;
+	            }
+	        else if (sourceY >= imageHeight)
+	            {
+		sourceY = imageHeight - 1;
+	            }
+	        // assign the pixel at destination x1, y1 to 
+	        // have the value of the pixel at sourceX, Y
+	        int destination = ((imageWidth * y) + x);
+	        int source = (imageWidth * sourceY) + sourceX;
+	        destPixel[destination] = pixel[source];
+          
+          
+	    }
+            }
+        // copy the contents of the destination array to the source array
+        pixel = destPixel;
+    }
+    
+    /** 
+     * Produce the effect of looking through patterned glass, as in a bathroom 
+     * window (see handout for details)
+     */
+    public void bathroomWindow()
+    {
+        final int PANE_WIDTH = 32; 
+        int sourceX = 0;
+        short[] destPixel = new short[pixel.length];
+        
+        for (int y = 0; y < imageHeight; y++)
+            {
+	for(int x = 0; x <imageWidth; x++)
+	    {
+	        sourceX = x + (x % PANE_WIDTH) - (PANE_WIDTH / 2);
+	        
+	        if (sourceX < 0)
+	            {
+		sourceX = 0;
+	            }
+	        else if (sourceX >= imageWidth)
+	            {
+		sourceX = (imageWidth - 1);
+	            }
+	        
+	        int destination = (imageWidth * y) + x;
+	        int source = (imageWidth * y) + sourceX;
+	        destPixel[destination] = pixel[source];
+	        
+	    }
+            }
+        // copy the contents of the destination array to the source array
+        pixel = destPixel;
+    }
+    
+
+    /**
+     * Produce some kind of paint effect in the image. The details are left to 
+     * you as this is an extension. 
+     * The input parameter determines the size of the brushstrokes 
+     *
+     * @param brushSize the size of the brush used to create the paint effect
+     */
+    public void paintEffect(int brushSize)
+    {
+        short[] destPixel = new short[pixel.length];
+
+        for (int y = 0; y < imageHeight; y+= (brushSize))
+            {
+	for(int x = 0; x <imageWidth; x+= (brushSize))
+	    {
+	      int destination = (imageWidth * y) + x;
+	      int source = (imageWidth * y) + x;
+	      destPixel[destination] = pixel[source];  
+	    }
+            }
+        // copy the contents of the destination array to the source array
+        pixel = destPixel;
+    }
+}

@@ -1,0 +1,14 @@
+import word.*;
+
+/**
+  tests the word object
+**/
+class TestWord
+{
+  public static void main (String[] args)
+  {
+    Word myWord = new Word("Dave", 2);
+    system.out.println(" " + myWord.getWord());
+  }
+}
+

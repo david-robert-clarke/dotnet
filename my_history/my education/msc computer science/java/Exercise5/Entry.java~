@@ -1,0 +1,242 @@
+package addressbook;
+import java.io.*;
+
+public class Entry
+{
+	private Person person;
+	private Address address;
+	
+	/**
+	* Constructor to create an Entry using the specified information.
+	* 
+	* @param pers the personal details for the entry.
+	* @param addr the address details for the entry.
+	**/
+	public Entry (Person pers, Address addr)
+	{
+		person = pers;
+		address = addr;
+	}
+	
+	/**
+	* Get the personal details associated with this Entry. 
+	* This method returns a reference to the Person object stored in this Entry, 
+	* so any changes made to that object will be reflected in the entry.
+	*
+	* @return the Person object for this entry.
+	**/
+	public Person getPerson()
+	{
+		return person;
+	}
+	
+	/**
+	* Get the address details associated with this Entry. 
+	* This method returns a reference to the Address object stored in this Entry, 
+	* so any changes made to that object will be reflected in the entry.
+	*
+	* @return the Address object for this entry.
+	**/
+	public Address getAddress()
+	{
+		return address;
+	}
+	
+	/**
+	* Compare the specified family and given names with those of the Person 
+	* stored in this Entry to see if they are the same. 
+	* The comparison is case sensitive.
+	*
+	* @return true if familyName is exactly the same as 
+	* getPerson().getFamilyName() AND givenNames is exactly the same as 
+	* getPerson().getGivenNames(). If there are any differences (including case) 
+	* between the parameters and the stored values, then this method will 
+	* return false.
+	**/
+	public boolean matchesPerson(String familyName, String givenNames)
+	{
+		if (familyName.equalsIgnoreCase(getPerson().getFamilyName()))
+		{
+			if (givenNames.equalsIgnoreCase(getPerson().getGivenNames()))
+			{
+				return true;
+			}
+		}
+		
+		/*
+			else return false, if the above equalities are true then this statement
+			is never reached
+		*/ 
+		return false;
+	}
+	
+	/**
+	* Write the data for this Entry using the specified Writer. 
+	* The entry is written on a single line, with fields separated by commas. 
+	* A line separator is written at the end of the record. 
+	*
+	* The data for the written entry comes from the internally stored 
+	* Person and Address objects, and is written in the following order: 
+	* 
+	* family name,given names,home phone,work phone,mobile phone,e-mail,
+	* house name/number,street,town,region,country,post code
+	*
+	* @param writer the BufferedWriter used to write the data.
+	* @throws java.io.IOException if an error occurs while writing
+	**/
+	public void write(BufferedWriter writer) throws IOException
+	{
+		/*
+			The write method used to print each field has 3 parameters 
+			(String, offset, length)
+		  The next write method uses the ASCI code as a parameter, 
+			44 is the ASCI code for a comma(,)
+		*/
+		writer.write(getPerson().getFamilyName(), 0, 
+		getPerson().getFamilyName().length());
+		writer.write(44);
+		writer.write(getPerson().getGivenNames(), 0, 
+		getPerson().getGivenNames().length());
+		writer.write(44);
+		writer.write(getPerson().getHomePhone(), 0, 
+		getPerson().getHomePhone().length());
+		writer.write(44);
+		writer.write(getPerson().getWorkPhone(), 0, 
+		getPerson().getWorkPhone().length());
+		writer.write(44);
+		writer.write(getPerson().getMobilePhone(), 0, 
+		getPerson().getMobilePhone().length());
+		writer.write(44);
+		writer.write(getPerson().getEMail(), 0, 
+		getPerson().getEMail().length());
+		writer.write(44);
+		writer.write(getAddress().getHouse(), 0, 
+		getAddress().getHouse().length());
+		writer.write(44);
+		writer.write(getAddress().getStreet(), 0, 
+		getAddress().getStreet().length());
+		writer.write(44);
+		writer.write(getAddress().getTown(), 0, 
+		getAddress().getTown().length());
+		writer.write(44);
+		writer.write(getAddress().getRegion(), 0, 
+		getAddress().getRegion().length());
+		writer.write(44);
+		writer.write(getAddress().getCountry(), 0, 
+		getAddress().getCountry().length());
+		writer.write(44);
+		writer.write(getAddress().getPostCode(), 0, 
+		getAddress().getPostCode().length());
+		writer.newLine();
+	}
+	
+	/**
+	* Create a new Entry object by reading a record from the specified Reader, 
+	* and parsing it into the constituent fields.
+	*
+	* @param reader the BufferedReader from which to read the data. 
+  * @return an Entry object created from the next complete record available from the reader. 
+	* @throws BadRecordException if the record contains too few or too many fields. 
+	* @throws java.io.EOFException if the reader has no more data to read. 
+	* @throws java.io.IOException if any other i/o error occurs during reading.
+	**/
+	
+	public static Entry read(BufferedReader reader) throws BadRecordException, 
+	IOException
+	{
+		// initialise local variables
+		int noOfCommas = 0;
+		int i = 0;
+		String field = ""; String family = ""; String given = "";
+		String home = ""; String work = ""; String mobile = ""; String eMail = "";
+		String house = ""; String street = ""; String town = ""; 
+		String region = ""; String country = ""; String postCode = "";
+
+		//	read in a person's record from the file
+		String line = reader.readLine();
+		
+		do 
+		{
+				/* 
+					Look at the first character in the String line. If a comma is found 
+					then it is known that a field of information has been collected
+				*/
+				if (line.charAt(i) == ',')
+				{
+					// add 1 to the number of commas
+					noOfCommas += 1;
+					
+					/* 
+						when the number of commas equals 1..11 (12 fields, 11 commas)
+						save that field in a String variable
+					*/
+					switch (noOfCommas)
+					{
+						case 1: family = field;
+						break;
+						case 2: given = field;
+						break;
+						case 3: home = field;
+						break;
+						case 4: work = field;
+						break;
+						case 5: mobile = field;
+						break;
+						case 6: eMail = field;
+						break;
+						case 7: house = field;
+						break;
+						case 8: street = field;
+						break;
+						case 9: town = field;
+						break;
+						case 10: region = field;
+						break;
+						case 11: country = field;
+						break;
+						default : field = "";
+						break;
+					}
+					/*
+						initialise the String field to allow the next piece of data
+						to be fetched
+					*/ 
+					field = "";
+				}
+				
+				/* 
+					add the next character in "line" to a String called "field", 
+					if the next character is not a comma
+				*/
+				if (line.charAt(i) != ',')
+				{
+					// add a char to the String field
+					field = field + line.charAt(i);
+					
+					/*
+						when all the commas have been found, store the last field in an
+						address variable called postCode when the end of the String line
+						has been reached
+					*/
+					if (i == (line.length() - 1))
+					{
+						postCode = field;
+					}
+				}
+				i++;
+		}while (i < line.length());
+		
+		/*
+			create a new Person and Address object from the variables collected
+			in this method
+		*/
+		Person a = new Person(family, given, home, work, mobile, eMail); 
+		Address b = new Address(house, street, town, region, country, postCode);
+		
+		// create a new entry and return it to the program that called it
+		Entry thisEntry = new Entry(a, b);
+		return thisEntry; 
+
+	}
+		
+}

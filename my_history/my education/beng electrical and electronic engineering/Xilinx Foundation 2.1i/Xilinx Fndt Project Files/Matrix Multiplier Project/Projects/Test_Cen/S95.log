@@ -1,0 +1,702 @@
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L14/C0 : #0 Error: C:/fndtn/active/projects/test_cen/fdc0.vhd  line 14   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L2/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 2   STD_LOGIC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L3/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 3   STD_LOGIC_VECTOR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L4/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 4   STD_LOGIC_VECTOR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L5/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 5   STD_LOGIC_VECTOR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L8/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 8   The intermediate file for entity ANSWER_STORE is not in the library bound to WORK.  (VSS-1084) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L20/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 20   Syntax error.  (VSS-1081) 
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 29   Syntax error - keyword PROCESS expected.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 33   Syntax error - unexpected end of input.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 22   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 22   Syntax error.  (VSS-1081) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 22   Syntax error - string literal must designate operator symbol.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 21   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L27/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 27   All possible string values of selector type not covered by choices.  (VSS-1032) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 22   Range 'U' to '0' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 22   Range 'Z' to '-' not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 28   All possible string values of selector type not covered by choices.  (VSS-1032) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 30   Syntax error - keyword IF expected after keyword END.  (VSS-1081) 
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 32   Syntax error.  (VSS-1081) 
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 32   Syntax error - keyword PROCESS expected.  (VSS-1081) 
+CM:  Error   L34/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 34   Syntax error.  (VSS-1081) 
+CM:  Error   L36/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 36   Syntax error - unexpected end of input.  (VSS-1081) 
+CM:  7 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 29   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 30   Syntax error - keyword IF expected after keyword END.  (VSS-1081) 
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 32   Syntax error.  (VSS-1081) 
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 32   Syntax error - keyword PROCESS expected.  (VSS-1081) 
+CM:  Error   L34/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 34   Syntax error.  (VSS-1081) 
+CM:  Error   L36/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 36   Syntax error - unexpected end of input.  (VSS-1081) 
+CM:  7 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 29   Signal name must denote a guarded signal. (VSS-804)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L11/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 11   Syntax error.  (VSS-1081) 
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 33   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L9/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 9   Syntax error.  (VSS-1081) 
+CM:  Error   L11/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 11   Syntax error.  (VSS-1081) 
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 33   Syntax error.  (VSS-1081) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 24   Expression is not of the required type; expecting type STD_ULOGIC declared in PACKAGE IEEE.STD_LOGIC_1164. (VSS-791)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 25   Expression is not of the required type; expecting type STD_ULOGIC declared in PACKAGE IEEE.STD_LOGIC_1164. (VSS-791)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 10   Index constraint illegal with this type mark. (VSS-898)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 24   Expression is not of the required type; expecting type STD_ULOGIC declared in PACKAGE IEEE.STD_LOGIC_1164. (VSS-791)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 25   Expression is not of the required type; expecting type STD_ULOGIC declared in PACKAGE IEEE.STD_LOGIC_1164. (VSS-791)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 26   Expression is not of the required type; expecting type STD_ULOGIC declared in PACKAGE IEEE.STD_LOGIC_1164. (VSS-791)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L27/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 27   Expression is not of the required type; expecting type STD_ULOGIC declared in PACKAGE IEEE.STD_LOGIC_1164. (VSS-791)  (FPGA-dm-hdlc-unknown) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L27/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 27   All possible string values of selector type not covered by choices.  (VSS-1032) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L3/C0 : #0 Error: C:/fndtn/active/projects/test_cen/gsr_test.vhd  line 3   STD_LOGIC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L4/C0 : #0 Error: C:/fndtn/active/projects/test_cen/gsr_test.vhd  line 4   STD_LOGIC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L5/C0 : #0 Error: C:/fndtn/active/projects/test_cen/gsr_test.vhd  line 5   STD_LOGIC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L6/C0 : #0 Error: C:/fndtn/active/projects/test_cen/gsr_test.vhd  line 6   STD_LOGIC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L11/C0 : #0 Error: C:/fndtn/active/projects/test_cen/gsr_test.vhd  line 11   The intermediate file for entity GSR_TEST is not in the library bound to WORK.  (VSS-1084) 
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/test_cen/gsr_test.vhd  line 25   Syntax error.  (VSS-1081) 
+CM:  6 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/test_cen/gsr_test.vhd  line 28   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L36/C0 : #0 Error: C:/fndtn/active/projects/test_cen/asm_config_1.vhd  line 36   Syntax error.  (VSS-1081) 
+CM:  Error   L36/C0 : #0 Error: C:/fndtn/active/projects/test_cen/asm_config_1.vhd  line 36   Syntax error - keyword PROCESS expected.  (VSS-1081) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/test_cen/asm_config_1.vhd  line 39   Syntax error.  (VSS-1081) 
+CM:  Error   L54/C0 : #0 Error: C:/fndtn/active/projects/test_cen/asm_config_1.vhd  line 54   Process statement closing name is not allowed when there is no corresponding opening name. (VSS-1083)  (FPGA-dm-hdlc-unknown) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: 
+CM: Checking...
+CM:  Error   L14/C0 : #0 Error: C:/fndtn/active/projects/test_cen/mem_el_a0.vhd  line 14   The intermediate file for entity MEMEL_A0 is not in the library bound to WORK.  (VSS-1084) 
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/test_cen/mem_el_a0.vhd  line 19   Architecture closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L14/C0 : #0 Error: C:/fndtn/active/projects/test_cen/mem_el_a0.vhd  line 14   The intermediate file for entity MEMEL_A0 is not in the library bound to WORK.  (VSS-1084) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L15/C0 : #0 Error: C:/fndtn/active/projects/test_cen/mem_el_a0.vhd  line 15   Qualified expression argument can not be interpreted as the given type.  (VSS-576) 
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/projects/test_cen/mem_el_a0.vhd  line 18   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/test_cen/mem_el_a0.vhd  line 17   Qualified expression argument can not be interpreted as the given type.  (VSS-576) 
+CM:  Warning   L-1/C0 : #0 Warning: The package 'MATRIX_PACKAGE' is out of date with respect to its   source file 'C:/fndtn/active/projects/test_cen/matrix_package.vhd'.  (LBR-3) 
+CM:  1 error(s) 1 warning(s) found
+CM: 
+CM: Checking...
+CM:  Warning   L-1/C0 : #0 Warning: The package 'MATRIX_PACKAGE' is out of date with respect to its   source file 'C:/fndtn/active/projects/test_cen/matrix_package.vhd'.  (LBR-3) 
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/test_cen/mem_el_a0.vhd  line 17   Syntax error.  (VSS-1081) 
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/test_cen/mem_el_a0.vhd  line 19   Syntax error.  (VSS-1081) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_cen/mem_el_a0.vhd  line 21   Syntax error.  (VSS-1081) 
+CM:  3 error(s) 1 warning(s) found
+CM: 
+CM: Checking...
+CM:  Warning   L-1/C0 : #0 Warning: The package 'MATRIX_PACKAGE' is out of date with respect to its   source file 'C:/fndtn/active/projects/test_cen/matrix_package.vhd'.  (LBR-3) 
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/test_cen/mem_el_a0.vhd  line 17   Syntax error.  (VSS-1081) 
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/test_cen/mem_el_a0.vhd  line 19   Syntax error.  (VSS-1081) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_cen/mem_el_a0.vhd  line 21   Syntax error.  (VSS-1081) 
+CM:  3 error(s) 1 warning(s) found
+CM: 
+CM: Checking...
+CM:  Warning   L-1/C0 : #0 Warning: The package 'MATRIX_PACKAGE' is out of date with respect to its   source file 'C:/fndtn/active/projects/test_cen/matrix_package.vhd'.  (LBR-3) 
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/test_cen/mem_el_a0.vhd  line 17   Syntax error.  (VSS-1081) 
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/test_cen/mem_el_a0.vhd  line 19   Syntax error.  (VSS-1081) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_cen/mem_el_a0.vhd  line 21   Syntax error.  (VSS-1081) 
+CM:  3 error(s) 1 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/test_cen/mem_el_a0.vhd  line 17   Syntax error.  (VSS-1081) 
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/test_cen/mem_el_a0.vhd  line 19   Syntax error.  (VSS-1081) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_cen/mem_el_a0.vhd  line 21   Syntax error.  (VSS-1081) 
+CM:  3 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/test_cen/mem_el_a0.vhd  line 22   Signal name must denote a guarded signal. (VSS-804)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: 
+CM: 
+CM: 
+CM: Checking...
+CM:  Error   L6/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 6   Syntax error.  (VSS-1081) 
+CM:  Error   L11/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 11   The intermediate file for entity ELEMENT_STORE is not in the library bound to WORK.  (VSS-1084) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 16   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 17   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 18   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 19   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L20/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 20   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 21   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 22   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 23   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 24   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 25   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 26   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L27/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 27   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 28   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 29   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 30   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 31   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 32   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 33   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L34/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 34   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L35/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 35   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L36/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 36   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L37/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 37   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 38   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 39   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 40   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 41   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 42   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 43   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L44/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 44   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L45/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 45   B is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L46/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 46   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L47/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 47   B is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  32 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L7/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 7   Syntax error.  (VSS-1081) 
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 19   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L20/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 20   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 21   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 22   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 23   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 24   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 25   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 26   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L27/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 27   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 28   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 29   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 30   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 31   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 32   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 33   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L34/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 34   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L35/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 35   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L36/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 36   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L37/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 37   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 38   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 39   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 40   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 41   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 42   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 43   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L44/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 44   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L45/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 45   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L46/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 46   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L47/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 47   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L48/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 48   B is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L49/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 49   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L50/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 50   B is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  33 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L6/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 6   No selected element named STD_ARITH is defined for this prefix.  (VSS-573) 
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 19   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L20/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 20   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 21   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 22   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 23   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 24   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 25   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 26   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L27/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 27   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 28   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 29   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 30   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 31   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 32   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 33   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L34/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 34   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L35/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 35   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L36/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 36   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L37/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 37   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 38   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 39   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 40   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 41   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 42   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 43   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L44/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 44   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L45/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 45   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L46/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 46   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L47/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 47   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L48/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 48   B is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L49/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 49   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  Error   L50/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 50   B is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  33 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L48/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 48   B is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L50/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 50   B is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 23   Syntax error.  (VSS-1081) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 23   Syntax error - keyword IF expected after keyword END.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L88/C0 : #0 Error: C:/fndtn/active/projects/test_cen/element_store.vhd  line 88   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Warning   L17/C0 : #0 Warning: Only simple variables are checked in the sensitivity list. The variable in the sensitivity list   on line 17 will be ignored.  (HDL-178) 
+CM:  Warning   L26/C0 : #0 Warning: Only simple variables are checked in the sensitivity list. The variable in the sensitivity list   on line 26 will be ignored.  (HDL-178) 
+CM:  Warning   L35/C0 : #0 Warning: Only simple variables are checked in the sensitivity list. The variable in the sensitivity list   on line 35 will be ignored.  (HDL-178) 
+CM:  Warning   L44/C0 : #0 Warning: Only simple variables are checked in the sensitivity list. The variable in the sensitivity list   on line 44 will be ignored.  (HDL-178) 
+CM:  Warning   L53/C0 : #0 Warning: Only simple variables are checked in the sensitivity list. The variable in the sensitivity list   on line 53 will be ignored.  (HDL-178) 
+CM:  Warning   L62/C0 : #0 Warning: Only simple variables are checked in the sensitivity list. The variable in the sensitivity list   on line 62 will be ignored.  (HDL-178) 
+CM:  Warning   L71/C0 : #0 Warning: Only simple variables are checked in the sensitivity list. The variable in the sensitivity list   on line 71 will be ignored.  (HDL-178) 
+CM:  Warning   L80/C0 : #0 Warning: Only simple variables are checked in the sensitivity list. The variable in the sensitivity list   on line 80 will be ignored.  (HDL-178) 
+CM:  0 error(s) 8 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L5/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 5   No selected element named STD_LOGIC is defined for this prefix.  (VSS-573) 
+CM:  Error   L6/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 6   No selected element named STD_ARITH is defined for this prefix.  (VSS-573) 
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 13   The intermediate file for entity ADDER_4 is not in the library bound to WORK.  (VSS-1084) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 22   Architecture closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L5/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 5   No selected element named STD_LOGIC is defined for this prefix.  (VSS-573) 
+CM:  Error   L6/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 6   No selected element named STD_ARITH is defined for this prefix.  (VSS-573) 
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 13   The intermediate file for entity ADDER_4 is not in the library bound to WORK.  (VSS-1084) 
+CM:  3 error(s) 0 warning(s) found
+CM:  Error   L5/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 5   No selected element named STD_LOGIC is defined for this prefix.  (VSS-573) 
+CM:  Error   L6/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 6   No selected element named STD_ARITH is defined for this prefix.  (VSS-573) 
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 13   The intermediate file for entity ADDER_4 is not in the library bound to WORK.  (VSS-1084) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L20/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 20   C is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 21   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 21   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 21   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L20/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 20   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L15/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 15   U_ONE_BIT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 16   U_ONE_BIT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 17   U_ONE_BIT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 21   O is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 22   C0 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 24   C1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 25   C1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L27/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 27   C2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 28   C2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 30   C3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  10 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 21   O is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 30   C3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 31   C3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 10   Syntax error.  (VSS-1081) 
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 19   Syntax error.  (VSS-1081) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 10   Syntax error.  (VSS-1081) 
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 19   Syntax error.  (VSS-1081) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 10   Syntax error.  (VSS-1081) 
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 19   Syntax error.  (VSS-1081) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 10   Syntax error.  (VSS-1081) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/test_cen/adder_4.vhd  line 23   C1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/test_cen/add4.vhd  line 10   FOUR_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/test_cen/add4.vhd  line 13   The intermediate file for entity ADDER_4 is not in the library bound to WORK.  (VSS-1084) 
+CM:  3 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/test_cen/add4.vhd  line 10   FOUR_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/test_cen/add4.vhd  line 13   The intermediate file for entity ADDER_4 is not in the library bound to WORK.  (VSS-1084) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  Error   L11/C0 : #0 Error: C:/fndtn/active/projects/test_cen/mul2.vhd  line 11   FOUR_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L14/C0 : #0 Error: C:/fndtn/active/projects/test_cen/mul2.vhd  line 14   The intermediate file for entity MUL2 is not in the library bound to WORK.  (VSS-1084) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/test_cen/dsp_config_2.vhd  line 41   Syntax error.  (VSS-1081) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/test_cen/dsp_config_2.vhd  line 42   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/test_cen/dsp_config_2.vhd  line 41   Syntax error.  (VSS-1081) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/test_cen/dsp_config_2.vhd  line 42   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/test_cen/dsp_config_2.vhd  line 41   Syntax error.  (VSS-1081) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/test_cen/dsp_config_2.vhd  line 42   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/test_cen/dsp_config_2.vhd  line 41   Syntax error.  (VSS-1081) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/test_cen/dsp_config_2.vhd  line 42   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L20/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 20   CLK is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 24   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 23   Type mismatch over assignment operation (Target data type: TWENTY_BITS declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: STD_ULOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/test_cen/answer_store.vhd  line 23   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/test_cen/asm_config_2.vhd  line 24   Range S2 to S3 not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/test_cen/asm_config_2.vhd  line 40   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/test_cen/asm_config_2.vhd  line 43   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/test_cen/asm_config_2.vhd  line 42   Range S2 to S3 not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/test_cen/asm_config_2.vhd  line 24   Range S2 to S3 not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/test_cen/asm_config_2.vhd  line 40   Can not determine type of right hand side.  The following interpretations were considered for the right hand side:   (none). (VSS-1049)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/test_cen/asm_config_2.vhd  line 43   Can not determine type of right hand side.  The following interpretations were considered for the right hand side:   (none). (VSS-1049)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/test_cen/asm_config_2.vhd  line 42   Range S2 to S3 not covered by choices. (VSS-838)  (FPGA-dm-hdlc-unknown) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/test_cen/asm_config_2.vhd  line 40   Can not determine type of right hand side.  The following interpretations were considered for the right hand side:   (none). (VSS-1049)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/test_cen/asm_config_2.vhd  line 43   Can not determine type of right hand side.  The following interpretations were considered for the right hand side:   (none). (VSS-1049)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/test_cen/system_2.vhd  line 13   Entity closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L47/C0 : #0 Error: C:/fndtn/active/projects/test_cen/system_2.vhd  line 47   STARTUP is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L49/C0 : #0 Error: C:/fndtn/active/projects/test_cen/system_2.vhd  line 49   DSP_CONFIG_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L57/C0 : #0 Error: C:/fndtn/active/projects/test_cen/system_2.vhd  line 57   ASM_CONFIG_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L59/C0 : #0 Error: C:/fndtn/active/projects/test_cen/system_2.vhd  line 59   ASM_CONFIG_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/test_cen/data_store_1.vhd  line 17   ROM_TABLE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/test_cen/data_store_1.vhd  line 23   ROM is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/test_cen/dsp_config_1.vhd  line 19   FOUR_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/test_cen/dsp_config_1.vhd  line 23   FOUR_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/test_cen/dsp_config_1.vhd  line 24   FOUR_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L35/C0 : #0 Error: C:/fndtn/active/projects/test_cen/dsp_config_1.vhd  line 35   FOUR_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/test_cen/dsp_config_1.vhd  line 40   MUL2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/test_cen/dsp_config_1.vhd  line 41   MUL2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/test_cen/dsp_config_1.vhd  line 42   ADD4 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  7 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L54/C0 : #0 Error: C:/fndtn/active/projects/test_cen/system.vhd  line 54   DATA_STORE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found

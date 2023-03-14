@@ -1,0 +1,739 @@
+# Created by Xilinx Floorplanner Version 2.1i
+#  from FNF: C:\Fndtn\Active\Projects\CONS_INT\xproj\ver1\rev1\_fplan.fnf
+#  from NCD: C:\Fndtn\Active\Projects\CONS_INT\xproj\ver1\rev1\cons_int.ncd
+#  from NGD: C:\Fndtn\Active\Projects\CONS_INT\xproj\ver1\rev1\cons_int.ngd
+version 1
+begin device 4010xlpc84-09
+ family XC4000XL
+ rows 22 columns 22
+ long_line_breakers
+ bramcolumns 2  0 0
+end
+begin bonding
+ begin topiobs
+  iob 0 1 APAD PAD1 P10
+  iob 0 1 BPAD PAD2 P9
+  iob 0 2 APAD PAD3 unbonded
+  iob 0 2 BPAD PAD4 unbonded
+  iob 0 3 APAD PAD5 P8
+  iob 0 3 BPAD PAD6 P7
+  iob 0 4 APAD PAD7 unbonded
+  iob 0 4 BPAD PAD8 unbonded
+  iob 0 5 APAD PAD9 unbonded
+  iob 0 5 BPAD PAD10 unbonded
+  iob 0 6 APAD PAD11 unbonded
+  iob 0 6 BPAD PAD12 unbonded
+  iob 0 7 APAD PAD13 P6
+  iob 0 7 BPAD PAD14 P5
+  iob 0 8 APAD PAD15 unbonded
+  iob 0 8 BPAD PAD16 unbonded
+  iob 0 9 APAD PAD17 unbonded
+  iob 0 9 BPAD PAD18 unbonded
+  iob 0 10 APAD PAD19 P4
+  iob 0 10 BPAD PAD20 P3
+  iob 0 11 APAD PAD21 P84
+  iob 0 11 BPAD PAD22 P83
+  iob 0 12 APAD PAD23 unbonded
+  iob 0 12 BPAD PAD24 unbonded
+  iob 0 13 APAD PAD25 unbonded
+  iob 0 13 BPAD PAD26 unbonded
+  iob 0 14 APAD PAD27 P82
+  iob 0 14 BPAD PAD28 P81
+  iob 0 15 APAD PAD29 unbonded
+  iob 0 15 BPAD PAD30 unbonded
+  iob 0 16 APAD PAD31 unbonded
+  iob 0 16 BPAD PAD32 unbonded
+  iob 0 17 APAD PAD33 unbonded
+  iob 0 17 BPAD PAD34 unbonded
+  iob 0 18 APAD PAD35 P80
+  iob 0 18 BPAD PAD36 P79
+  iob 0 19 APAD PAD37 unbonded
+  iob 0 19 BPAD PAD38 unbonded
+  iob 0 20 APAD PAD39 P78
+  iob 0 20 BPAD PAD40 P77
+ end
+ begin leftiobs
+  iob 1 0 BPAD PAD160 P13
+  iob 1 0 APAD PAD159 P14
+  iob 2 0 BPAD PAD158 unbonded
+  iob 2 0 APAD PAD157 unbonded
+  iob 3 0 BPAD PAD156 P15
+  iob 3 0 APAD PAD155 P16
+  iob 4 0 BPAD PAD154 unbonded
+  iob 4 0 APAD PAD153 unbonded
+  iob 5 0 BPAD PAD152 unbonded
+  iob 5 0 APAD PAD151 unbonded
+  iob 6 0 BPAD PAD150 unbonded
+  iob 6 0 APAD PAD149 unbonded
+  iob 7 0 BPAD PAD148 P17
+  iob 7 0 APAD PAD147 P18
+  iob 8 0 BPAD PAD146 unbonded
+  iob 8 0 APAD PAD145 unbonded
+  iob 9 0 BPAD PAD144 unbonded
+  iob 9 0 APAD PAD143 unbonded
+  iob 10 0 BPAD PAD142 P19
+  iob 10 0 APAD PAD141 P20
+  iob 11 0 BPAD PAD140 P23
+  iob 11 0 APAD PAD139 P24
+  iob 12 0 BPAD PAD138 unbonded
+  iob 12 0 APAD PAD137 unbonded
+  iob 13 0 BPAD PAD136 unbonded
+  iob 13 0 APAD PAD135 unbonded
+  iob 14 0 BPAD PAD134 P25
+  iob 14 0 APAD PAD133 P26
+  iob 15 0 BPAD PAD132 unbonded
+  iob 15 0 APAD PAD131 unbonded
+  iob 16 0 BPAD PAD130 unbonded
+  iob 16 0 APAD PAD129 unbonded
+  iob 17 0 BPAD PAD128 unbonded
+  iob 17 0 APAD PAD127 unbonded
+  iob 18 0 BPAD PAD126 P27
+  iob 18 0 APAD PAD125 unbonded
+  iob 19 0 BPAD PAD124 unbonded
+  iob 19 0 APAD PAD123 unbonded
+  iob 20 0 BPAD PAD122 P28
+  iob 20 0 APAD PAD121 P29
+ end
+ begin bottomiobs
+  iob 21 1 APAD PAD120 P35
+  iob 21 1 BPAD PAD119 P36
+  iob 21 2 APAD PAD118 unbonded
+  iob 21 2 BPAD PAD117 unbonded
+  iob 21 3 APAD PAD116 unbonded
+  iob 21 3 BPAD PAD115 P37
+  iob 21 4 APAD PAD114 unbonded
+  iob 21 4 BPAD PAD113 unbonded
+  iob 21 5 APAD PAD112 unbonded
+  iob 21 5 BPAD PAD111 unbonded
+  iob 21 6 APAD PAD110 unbonded
+  iob 21 6 BPAD PAD109 unbonded
+  iob 21 7 APAD PAD108 P38
+  iob 21 7 BPAD PAD107 P39
+  iob 21 8 APAD PAD106 unbonded
+  iob 21 8 BPAD PAD105 unbonded
+  iob 21 9 APAD PAD104 unbonded
+  iob 21 9 BPAD PAD103 unbonded
+  iob 21 10 APAD PAD102 P40
+  iob 21 10 BPAD PAD101 P41
+  iob 21 11 APAD PAD100 P44
+  iob 21 11 BPAD PAD99 P45
+  iob 21 12 APAD PAD98 unbonded
+  iob 21 12 BPAD PAD97 unbonded
+  iob 21 13 APAD PAD96 unbonded
+  iob 21 13 BPAD PAD95 unbonded
+  iob 21 14 APAD PAD94 P46
+  iob 21 14 BPAD PAD93 P47
+  iob 21 15 APAD PAD92 unbonded
+  iob 21 15 BPAD PAD91 unbonded
+  iob 21 16 APAD PAD90 unbonded
+  iob 21 16 BPAD PAD89 unbonded
+  iob 21 17 APAD PAD88 unbonded
+  iob 21 17 BPAD PAD87 unbonded
+  iob 21 18 APAD PAD86 P48
+  iob 21 18 BPAD PAD85 P49
+  iob 21 19 APAD PAD84 unbonded
+  iob 21 19 BPAD PAD83 unbonded
+  iob 21 20 APAD PAD82 P50
+  iob 21 20 BPAD PAD81 P51
+ end
+ begin rightiobs
+  iob 1 21 BPAD PAD41 P72
+  iob 1 21 APAD PAD42 P71
+  iob 2 21 BPAD PAD43 unbonded
+  iob 2 21 APAD PAD44 unbonded
+  iob 3 21 BPAD PAD45 P70
+  iob 3 21 APAD PAD46 P69
+  iob 4 21 BPAD PAD47 unbonded
+  iob 4 21 APAD PAD48 unbonded
+  iob 5 21 BPAD PAD49 unbonded
+  iob 5 21 APAD PAD50 unbonded
+  iob 6 21 BPAD PAD51 unbonded
+  iob 6 21 APAD PAD52 unbonded
+  iob 7 21 BPAD PAD53 P68
+  iob 7 21 APAD PAD54 P67
+  iob 8 21 BPAD PAD55 unbonded
+  iob 8 21 APAD PAD56 unbonded
+  iob 9 21 BPAD PAD57 unbonded
+  iob 9 21 APAD PAD58 unbonded
+  iob 10 21 BPAD PAD59 P66
+  iob 10 21 APAD PAD60 P65
+  iob 11 21 BPAD PAD61 P62
+  iob 11 21 APAD PAD62 P61
+  iob 12 21 BPAD PAD63 unbonded
+  iob 12 21 APAD PAD64 unbonded
+  iob 13 21 BPAD PAD65 unbonded
+  iob 13 21 APAD PAD66 unbonded
+  iob 14 21 BPAD PAD67 P60
+  iob 14 21 APAD PAD68 P59
+  iob 15 21 BPAD PAD69 unbonded
+  iob 15 21 APAD PAD70 unbonded
+  iob 16 21 BPAD PAD71 unbonded
+  iob 16 21 APAD PAD72 unbonded
+  iob 17 21 BPAD PAD73 unbonded
+  iob 17 21 APAD PAD74 unbonded
+  iob 18 21 BPAD PAD75 unbonded
+  iob 18 21 APAD PAD76 P58
+  iob 19 21 BPAD PAD77 unbonded
+  iob 19 21 APAD PAD78 unbonded
+  iob 20 21 BPAD PAD79 P57
+  iob 20 21 APAD PAD80 P56
+ end
+end
+begin links
+ begin topleftgbufs
+  gbuf 0 0 BUFGLS_WNW BUFGLS_WNW
+  gbuf 0 0 BUFGLS_NNW BUFGLS_NNW
+  gbuf 0 0 BUFGE_WNW BUFGE_WNW
+  gbuf 0 0 BUFGE_NNW BUFGE_NNW
+ end
+ begin toprightgbufs
+  gbuf 0 21 BUFGLS_ENE BUFGLS_ENE
+  gbuf 0 21 BUFGLS_NNE BUFGLS_NNE
+  gbuf 0 21 BUFGE_ENE BUFGE_ENE
+  gbuf 0 21 BUFGE_NNE BUFGE_NNE
+ end
+ begin bottomleftgbufs
+  gbuf 21 0 BUFGLS_WSW BUFGLS_WSW
+  gbuf 21 0 BUFGLS_SSW BUFGLS_SSW
+  gbuf 21 0 BUFGE_WSW BUFGE_WSW
+  gbuf 21 0 BUFGE_SSW BUFGE_SSW
+ end
+ begin bottomrightgbufs
+  gbuf 21 21 BUFGLS_ESE BUFGLS_ESE
+  gbuf 21 21 BUFGLS_SSE BUFGLS_SSE
+  gbuf 21 21 BUFGE_ESE BUFGE_ESE
+  gbuf 21 21 BUFGE_SSE BUFGE_SSE
+ end
+end
+design C:\Fndtn\Active\Projects\CONS_INT\xproj\ver1\rev1\Cons_Int.fnf
+device 010XLPC84-09
+nets
+n 1 syn1195
+n 2 syn1179
+n 3 syn1171
+n 4 syn1166
+n 5 syn1165
+n 6 syn1162
+n 7 syn1150
+n 8 syn1147
+n 9 syn1122
+n 10 syn1118
+n 11 syn1111
+n 12 syn1103
+n 13 syn1076
+n 14 syn605
+n 15 syn363
+n 16 syn351
+n 17 syn337
+n 18 syn331
+n 19 syn325
+n 20 syn321
+n 21 syn318
+n 22 syn290
+n 23 syn289
+n 24 RESET
+n 25 N_RESET
+n 26 N_MODE_SEL<1>
+n 27 N_MODE_SEL<0>
+n 28 MODE_SEL<1>
+n 29 MODE_SEL<0>
+n 30 DSP_Three_MEM_C41_N56
+n 31 DSP_Three_MEM_C41_N31
+n 32 DSP_Three_MEM_C41_N6
+n 33 DSP_Three_MEM_C40_N75
+n 34 DSP_Three_MEM_C40_N40
+n 35 DSP_Three_MEM_C40_N20
+n 36 CLK_BUFGed
+n 37 CLK
+n 38 BEL_A2B1_A3B3<4>.LOGIC0.0
+n 39 BEL_A2B1_A3B3<3>.LOGIC0.0
+n 40 BEL_A2B1_A3B3<2>.LOGIC0.0
+n 41 BEL_A2B1_A3B3<1>.LOGIC0.0
+n 42 BEL_A2B1_A3B3<0>.LOGIC0.0
+n 43 BEL_A2B0_A3B2<4>.LOGIC0.0
+n 44 BEL_A2B0_A3B2<3>.LOGIC0.0
+n 45 BEL_A2B0_A3B2<2>.LOGIC0.0
+n 46 BEL_A2B0_A3B2<1>.LOGIC0.0
+n 47 BEL_A0B1_A1B3<4>.LOGIC0.0
+n 48 BEL_A0B1_A1B3<3>.LOGIC0.0
+n 49 BEL_A0B1_A1B3<1>.LOGIC0.0
+n 50 BEL_A0B1_A1B3<0>.LOGIC0.0
+n 51 BEL_A0B0_A1B2<4>.LOGIC0.0
+n 52 BEL_A0B0_A1B2<3>.LOGIC0.0
+n 53 BEL_A0B0_A1B2<2>.LOGIC0.0
+n 54 A2B1_A3B3<4>
+n 55 A2B1_A3B3<3>
+n 56 A2B1_A3B3<2>
+n 57 A2B1_A3B3<1>
+n 58 A2B1_A3B3<0>
+n 59 A2B0_A3B2<4>
+n 60 A2B0_A3B2<3>
+n 61 A2B0_A3B2<2>
+n 62 A2B0_A3B2<1>
+n 63 A2B0_A3B2<0>.OUTFF
+n 64 A2B0_A3B2<0>
+n 65 A0B1_A1B3<4>
+n 66 A0B1_A1B3<3>
+n 67 A0B1_A1B3<2>.OUTFF
+n 68 A0B1_A1B3<2>
+n 69 A0B1_A1B3<1>
+n 70 A0B1_A1B3<0>
+n 71 A0B0_A1B2<4>
+n 72 A0B0_A1B2<3>
+n 73 A0B0_A1B2<2>
+n 74 A0B0_A1B2<1>.OUTFF
+n 75 A0B0_A1B2<1>
+n 76 A0B0_A1B2<0>.OUTFF
+n 77 A0B0_A1B2<0>
+n 78 Asm_Config_Three_C2_N42
+n 79 Asm_Config_Three_C2_N35
+n 80 Asm_Config_Three_C2_N30
+n 81 Asm_Config_Three_C2_N25
+n 82 Asm_Config_Three_C2_N20
+n 83 Asm_Config_Three_C2_N15
+n 84 Asm_Config_Three_C2_N10
+n 85 Asm_Config_Three_C2_N5
+n 86 Asm_Config_Three_CURRENT_STATE<7>
+n 87 Asm_Config_Three_CURRENT_STATE<6>
+n 88 Asm_Config_Three_CURRENT_STATE<5>
+n 89 Asm_Config_Three_CURRENT_STATE<4>
+n 90 Asm_Config_Three_CURRENT_STATE<3>
+n 91 Asm_Config_Three_CURRENT_STATE<2>
+n 92 Asm_Config_Three_CURRENT_STATE<1>
+n 93 Asm_Config_Three_CURRENT_STATE<0>
+end
+hnode * _fplan c 4
+s C639 BUFGLS c 6
+ place BUFGLS_WNW
+ p O O 36
+ p I I 37
+s HMAP_44 FGH c 6
+ place CLB_R14C8
+ p O O 82
+ p I0 I 4
+ p I1 I 25
+s RESET IOB c 6
+ ext
+ place P39
+ p I1 O 25
+ p PAD X 24
+ p IBUFOUT X 25
+s CLK IOB c 6
+ ext
+ place P13
+ p CLKIN O 37
+ p PAD X 37
+hnode FMAP * c 7
+s FMAP_23 FGF c 1
+ place CLB_R15C10.F
+ p O O 1
+ p I0 I 86
+ p I3 I 87
+s FMAP_20 FGF c 1
+ place CLB_R13C11.F
+ p O O 2
+ p I0 I 10
+ p I1 I 11
+ p I2 I 25
+s FMAP_15 FGF c 1
+ place CLB_R14C10.F
+ p O O 3
+ p I0 I 6
+ p I1 I 25
+ p I2 I 10
+ p I3 I 1
+s FMAP_45 FGF c 1
+ place CLB_R14C8.F
+ p O O 4
+ p I2 I 89
+ p I3 I 90
+s FMAP_18 FGF c 1
+ place CLB_R15C9.F
+ p O O 5
+ p I0 I 91
+ p I3 I 93
+s FMAP_16 FGF c 1
+ place CLB_R14C9.F
+ p O O 6
+ p I0 I 89
+ p I1 I 90
+ p I2 I 88
+ p I3 I 93
+s FMAP_22 FGG c 1
+ place CLB_R14C10.G
+ p O O 7
+ p I0 I 11
+ p I1 I 25
+ p I2 I 1
+ p I3 I 8
+s FMAP_24 FGF c 1
+ place CLB_R13C10.F
+ p O O 8
+ p I0 I 91
+ p I1 I 93
+ p I2 I 89
+ p I3 I 88
+s FMAP_33 FGG c 1
+ place CLB_R14C11.G
+ p O O 9
+ p I0 I 10
+ p I1 I 11
+ p I2 I 20
+ p I3 I 12
+s FMAP_37 FGG c 1
+ place CLB_R15C9.G
+ p O O 10
+ p I0 I 93
+ p I1 I 91
+ p I2 I 87
+ p I3 I 89
+s FMAP_38 FGG c 1
+ place CLB_R14C9.G
+ p O O 11
+ p I0 I 89
+ p I1 I 86
+ p I2 I 90
+ p I3 I 93
+s FMAP_34 FGG c 1
+ place CLB_R13C9.G
+ p O O 12
+ p I0 I 88
+ p I1 I 93
+ p I2 I 87
+ p I3 I 86
+s FMAP_27 FGG c 1
+ place CLB_R13C10.G
+ p O O 13
+ p I0 I 91
+ p I1 I 88
+ p I2 I 89
+ p I3 I 86
+s FMAP_36 FGG c 1
+ place CLB_R15C11.G
+ p O O 14
+ p I0 I 10
+ p I1 I 20
+ p I3 I 11
+s FMAP_17 FGF c 1
+ place CLB_R15C11.F
+ p O O 15
+ p I0 I 20
+ p I1 I 1
+ p I2 I 4
+ p I3 I 5
+s FMAP_26 FGF c 1
+ place CLB_R12C12.F
+ p O O 16
+ p I0 I 87
+ p I1 I 13
+ p I3 I 18
+s FMAP_35 FGG c 1
+ place CLB_R13C11.G
+ p O O 17
+ p I0 I 10
+ p I1 I 11
+ p I2 I 20
+s FMAP_31 FGG c 1
+ place CLB_R12C10.G
+ p O O 18
+ p I0 I 90
+ p I1 I 86
+ p I2 I 89
+s FMAP_29 FGF c 1
+ place CLB_R13C9.F
+ p O O 19
+ p I0 I 89
+ p I1 I 87
+ p I3 I 91
+s FMAP_39 FGG c 1
+ place CLB_R15C10.G
+ p O O 20
+ p I0 I 86
+ p I1 I 87
+ p I2 I 93
+ p I3 I 88
+s FMAP_30 FGF c 1
+ place CLB_R12C10.F
+ p O O 21
+ p I0 I 86
+ p I1 I 87
+ p I2 I 88
+s FMAP_28 FGG c 1
+ place CLB_R12C12.G
+ p O O 22
+ p I0 I 19
+ p I1 I 21
+ p I3 I 18
+s FMAP_49 FGF c 1
+ place CLB_R14C6.F
+ p O O 23
+ p I1 I 93
+ p I2 I 27
+s FMAP_14 FGF c 1
+ place CLB_R14C12.F
+ p O O 30
+ p I0 I 17
+ p I1 I 14
+ p I2 I 15
+ p I3 I 3
+s FMAP_21 FGF c 1
+ place CLB_R14C11.F
+ p O O 31
+ p I0 I 10
+ p I1 I 11
+ p I2 I 20
+ p I3 I 7
+s FMAP_32 FGG c 1
+ place CLB_R14C12.G
+ p O O 32
+ p I0 I 25
+ p I1 I 14
+ p I2 I 9
+ p I3 I 17
+s FMAP_13 FGF c 1
+ place CLB_R12C11.F
+ p O O 33
+ p I0 I 18
+ p I1 I 21
+ p I2 I 19
+ p I3 I 2
+s FMAP_19 FGG c 1
+ place CLB_R12C11.G
+ p O O 34
+ p I0 I 18
+ p I1 I 21
+ p I2 I 19
+ p I3 I 2
+s FMAP_25 FGF c 1
+ place CLB_R13C13.F
+ p O O 35
+ p I0 I 25
+ p I1 I 16
+ p I2 I 14
+ p I3 I 22
+s FMAP_40 FGF c 1
+ place CLB_R14C7.F
+ p O O 78
+ p I0 I 27
+ p I1 I 93
+ p I2 I 25
+ p I3 I 26
+s FMAP_41 FGG c 1
+ place CLB_R14C7.G
+ p O O 79
+ p I1 I 23
+ p I2 I 25
+ p I3 I 26
+s FMAP_42 FGF c 1
+ place CLB_R13C8.F
+ p O O 80
+ p I0 I 25
+ p I1 I 92
+s FMAP_43 FGG c 1
+ place CLB_R13C8.G
+ p O O 81
+ p I0 I 25
+ p I2 I 91
+s FMAP_46 FGF c 1
+ place CLB_R13C7.F
+ p O O 83
+ p I0 I 26
+ p I1 I 93
+ p I2 I 25
+ p I3 I 27
+s FMAP_47 FGG c 1
+ place CLB_R13C7.G
+ p O O 84
+ p I1 I 87
+ p I2 I 25
+ p I3 I 88
+s FMAP_48 FGG c 1
+ place CLB_R14C8.G
+ p O O 85
+ p I0 I 25
+ p I1 I 86
+ p I2 I 23
+ p I3 I 26
+end
+hnode MODE/SEL * c 8
+s MODE_SEL<1> IOB c 1
+ ext
+ place P25
+ p I2 O 26
+ p PAD X 28
+ p IBUFOUT X 26
+s MODE_SEL<0> IOB c 1
+ ext
+ place P26
+ p I2 O 27
+ p PAD X 29
+ p IBUFOUT X 27
+end
+hnode A2B1/A3B3 * c 9
+s A2B1_A3B3<4> IOB c 1
+ ext
+ place P15
+ p PAD X 54
+ p XOUT X 38
+s A2B1_A3B3<3> IOB c 1
+ ext
+ place P57
+ p PAD X 55
+ p XOUT X 39
+s A2B1_A3B3<2> IOB c 1
+ ext
+ place P56
+ p PAD X 56
+ p XOUT X 40
+s A2B1_A3B3<1> IOB c 1
+ ext
+ place P84
+ p PAD X 57
+ p XOUT X 41
+s A2B1_A3B3<0> IOB c 1
+ ext
+ place P5
+ p PAD X 58
+ p XOUT X 42
+end
+hnode A2B0/A3B2 * c 10
+s A2B0_A3B2<4> IOB c 1
+ ext
+ place P48
+ p PAD X 59
+ p XOUT X 43
+s A2B0_A3B2<3> IOB c 1
+ ext
+ place P38
+ p PAD X 60
+ p XOUT X 44
+s A2B0_A3B2<2> IOB c 1
+ ext
+ place P61
+ p PAD X 61
+ p XOUT X 45
+s A2B0_A3B2<1> IOB c 1
+ ext
+ place P58
+ p PAD X 62
+ p XOUT X 46
+s A2B0_A3B2<0> IOB c 1
+ ext
+ place P44
+ p O I 33
+ p OK I 36
+ p EC I 30
+ p PAD X 64
+ p OBUFIN X 63
+ p XOUT X 63
+end
+hnode A0B1/A1B3 * c 11
+s A0B1_A1B3<4> IOB c 1
+ ext
+ place P40
+ p PAD X 65
+ p XOUT X 47
+s A0B1_A1B3<3> IOB c 1
+ ext
+ place P78
+ p PAD X 66
+ p XOUT X 48
+s A0B1_A1B3<2> IOB c 1
+ ext
+ place P41
+ p O I 34
+ p OK I 36
+ p EC I 31
+ p PAD X 68
+ p OBUFIN X 67
+ p XOUT X 67
+s A0B1_A1B3<1> IOB c 1
+ ext
+ place P77
+ p PAD X 69
+ p XOUT X 49
+s A0B1_A1B3<0> IOB c 1
+ ext
+ place P67
+ p PAD X 70
+ p XOUT X 50
+end
+hnode A0B0/A1B2 * c 12
+s A0B0_A1B2<4> IOB c 1
+ ext
+ place P66
+ p PAD X 71
+ p XOUT X 51
+s A0B0_A1B2<3> IOB c 1
+ ext
+ place P19
+ p PAD X 72
+ p XOUT X 52
+s A0B0_A1B2<2> IOB c 1
+ ext
+ place P62
+ p PAD X 73
+ p XOUT X 53
+s A0B0_A1B2<1> IOB c 1
+ ext
+ place P60
+ p O I 35
+ p OK I 36
+ p EC I 32
+ p PAD X 75
+ p OBUFIN X 74
+ p XOUT X 74
+s A0B0_A1B2<0> IOB c 1
+ ext
+ place P59
+ p O I 35
+ p OK I 36
+ p EC I 32
+ p PAD X 77
+ p OBUFIN X 76
+ p XOUT X 76
+end
+hnode Asm/Config/Three/CURRENT/STATE/reg * c 13
+s Asm_Config_Three_CURRENT_STATE_reg<7> FFX c 1
+ place CLB_R14C8.FFX
+ p Q O 86
+ p C I 36
+ p D I 85
+s Asm_Config_Three_CURRENT_STATE_reg<6> FFX c 1
+ place CLB_R13C7.FFX
+ p Q O 87
+ p C I 36
+ p D I 84
+s Asm_Config_Three_CURRENT_STATE_reg<5> FFY c 1
+ place CLB_R13C7.FFY
+ p Q O 88
+ p C I 36
+ p D I 83
+s Asm_Config_Three_CURRENT_STATE_reg<4> FFY c 1
+ place CLB_R14C8.FFY
+ p Q O 89
+ p C I 36
+ p D I 82
+s Asm_Config_Three_CURRENT_STATE_reg<3> FFX c 1
+ place CLB_R13C8.FFX
+ p Q O 90
+ p C I 36
+ p D I 81
+s Asm_Config_Three_CURRENT_STATE_reg<2> FFY c 1
+ place CLB_R13C8.FFY
+ p Q O 91
+ p C I 36
+ p D I 80
+s Asm_Config_Three_CURRENT_STATE_reg<1> FFY c 1
+ place CLB_R14C7.FFY
+ p Q O 92
+ p C I 36
+ p D I 79
+s Asm_Config_Three_CURRENT_STATE_reg<0> FFX c 1
+ place CLB_R14C7.FFX
+ p Q O 93
+ p C I 36
+ p D I 78
+end
+end
+end

@@ -1,0 +1,88 @@
+#VRML V2.0 utf8
+#Ian Whitehouse, 5/5/00.
+PROTO FlightModel[
+	eventIn SFBool set_landed #Sets the landed flag for the flight model
+	eventIn SFFloat systemStep #The trigger to perform 1/systemStep seconds of calculation, simulation time.
+	eventIn SFVec2f set_cyclicRotation #Set the cyclic control values.
+	eventIn SFVec2f set_rudderAndCollective #Set the rudder and collective control values.
+	eventIn SFVec3f set_position #Update the working position.
+	eventIn SFVec3f set_velocity #Set the velocity of the Apache.
+	eventOut SFRotation rotation_changed #The new rotation value.
+	eventOut SFVec3f position_changed #The new position value.
+	field SFVec3f initialPosition 0 0 0 #The initial Apache position.
+]
+{
+	DEF flightModelScript Script{
+		eventIn SFBool set_landed IS set_landed
+		eventIn SFFloat systemStep IS systemStep
+		eventIn SFVec2f set_cyclicRotation IS set_cyclicRotation
+		eventIn SFVec2f set_rudderAndCollective IS set_rudderAndCollective
+		eventIn SFVec3f set_position IS set_position
+		eventIn SFVec3f set_velocity IS set_velocity
+		eventOut SFRotation rotation_changed IS rotation_changed
+		eventOut SFVec3f position_changed IS position_changed
+		field SFBool hasLanded FALSE
+		field SFFloat heightVel 0 #The current height change per second.
+		field SFFloat rotationVel 0 #The current rotation change per second.
+		field SFRotation pathRotation 0 1 0 0 #The horizontal rotation of the apache, due to rudder changes.
+		field SFVec2f cyclicPosition 0 0 #The cyclic position.
+		field SFVec2f rAndCPos 0 0 #The rudder and colective positions.
+		field SFVec3f velocity 0 0 0 #The current velocity.
+		field SFVec3f initialPosition IS initialPosition
+		url "javascript:
+			function initialize(){
+				position_changed=initialPosition;
+			}
+
+			function systemStep(value,ts){//If the controls are out of the 'dead zone' add their values to the velocities.
+				difference=position_changed.add(velocity.multiply(2));
+                               	if(cyclicPosition.length()>.02) velocity=velocity.add(pathRotation.multVec(new SFVec3f(cyclicPosition.y,0,cyclicPosition.x)).multiply(10/value));
+                               	else velocity=velocity.multiply(1-1/(value*5));
+                               	if(Math.abs(rAndCPos.x)>=.03) rotationVel+=-rAndCPos.x*(1/value);
+                               	else rotationVel=rotationVel*(1-(1/value)/2);
+                               	if(Math.abs(rAndCPos.y)>=.03) heightVel+=rAndCPos.y*(1/value)*10;
+                               	else heightVel=heightVel*(1-(1/value)/2);
+                                pathRotation.angle=pathRotation.angle+rotationVel*(1/value);
+                              	if(hasLanded){//If the Apache has landed, stop it from accelerating down, and from moving sideways.
+					if(heightVel<0) heightVel=0;
+					if(velocity.y<0) velocity.y=0;
+					temp=pathRotation.inverse().multVec(velocity);
+					temp.z=0;
+					velocity=pathRotation.multVec(temp);
+ 				}//Update the position, and rotate the Apache vertically according to how fast it is going (the tilt).
+                                position_changed=position_changed.add(velocity.multiply(1/value)).add(new SFVec3f(0,heightVel/value,0));
+				difference=difference.subtract(position_changed);
+                                difference.y=75;
+                                tilt=new SFRotation(new SFVec3f(0,75,0),difference);
+                                rotation_changed=pathRotation.multiply(tilt);
+				hasLanded=false;
+			}
+
+			function set_cyclicRotation(value,ts){//Set the cyclic working values.
+                            	cyclicPosition=value;
+                            	if(Math.abs(cyclicPosition.x)<.03) cyclicPosition.x=0;
+                                if(Math.abs(cyclicPosition.y)<.03) cyclicPosition.y=0;
+			}
+
+			function set_rudderAndCollective(value,ts){//Set the rudder and collective working values.
+				rAndCPos=value;
+                            	if(Math.abs(rAndCPos.x)<.03) rAndCPos.x=0;
+                                if(Math.abs(rAndCPos.y)<.03) rAndCPos.y=0;
+			}
+
+			function set_landed(value,ts){
+				hasLanded=true;
+			}
+
+			function set_position(value,ts){
+				position_changed=value;
+			}
+
+			function set_velocity(value,ts){
+				velocity=value;
+			}
+
+		"
+	}
+}
+

@@ -1,0 +1,53 @@
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L66/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 66   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L92/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 92   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L24/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 24   UNSIGNED is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 25   ROM_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 27   ROM_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 31   ROM_TABLE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 39   ROM_TABLE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 45   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L51/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 51   ROM_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 56   ROM is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L92/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 92   Syntax error.  (VSS-1081) 
+CM:  9 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 31   ROM_TABLE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 39   ROM_TABLE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 45   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L51/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 51   ROM_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 56   ROM is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L92/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 92   Syntax error.  (VSS-1081) 
+CM:  6 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 32   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L40/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 40   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 45   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 56   ROM is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L92/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 92   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L40/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 40   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 45   Character in string literal is not of the required type. (VSS-715)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 56   ROM is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L92/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 92   Syntax error.  (VSS-1081) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 56   ROM is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L92/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 92   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\cons_int\data_store_three.vhd Error   L92/C0 : #0 Error: C:/fndtn/active/projects/cons_int/data_store_three.vhd  line 92   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful

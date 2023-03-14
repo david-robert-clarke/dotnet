@@ -1,0 +1,3 @@
+c:\fndtn\active\projects\cons_123\system_3.vhd 54 0:E:#0 Error: C:/fndtn/active/projects/cons_123/system_3.vhd  line 54   Not enough element associations - 23 expected. (VSS-538)  (FPGA-dm-hdlc-unknown) 
+c:\fndtn\active\projects\cons_123\system_3.vhd 66 0:E:#0 Error: C:/fndtn/active/projects/cons_123/system_3.vhd  line 66   Not enough element associations - 2 expected. (VSS-538)  (FPGA-dm-hdlc-unknown) 
+c:\fndtn\active\projects\cons_123\system_3.vhd 68 0:E:#0 Error: C:/fndtn/active/projects/cons_123/system_3.vhd  line 68   Actual designator not of the correct type - STD_LOGIC_VECTOR expected.  (VSS-543) 

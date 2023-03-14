@@ -1,0 +1,56 @@
+package I;
+import java.sql.*;
+
+
+/**
+   Used by DataInfo2, retrieves all existing customer order numbers in the 
+   Customer table.
+
+   @author Helen Loynes 
+ **/
+public class GetCustomerOrderNoQuery
+{
+  private Connection c;
+  private String[] cOrderNoData;
+
+  /**
+   * Constructor to create a get customer order number query
+   **/
+  public GetCustomerOrderNoQuery()
+  {
+    c = MyConnection.C;
+    cOrderNoData = new String[300];
+  }
+ 
+  /**
+   * Execute the Query
+   *
+   * @return an array that contains all the customer order numbers
+   **/
+  public String[] exeQuery()
+  {
+    try 
+    {
+      Statement stmt = c.createStatement();
+      ResultSet rs = stmt.executeQuery("SELECT corder_no FROM customer_order");
+
+      int i=0;
+      while (rs.next()) 
+      {
+	String corder_no = rs.getString("corder_no");      
+	cOrderNoData[i]= corder_no;
+	i++;
+      }
+    } 
+    catch (SQLException e) 
+    {
+      System.out.println( "An exception occurred in GetCustomerOrderNoQuery " 
+			  + e);
+    }
+        
+    return(cOrderNoData);
+    
+  }
+}
+
+  

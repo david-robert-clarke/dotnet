@@ -1,0 +1,30 @@
+-- Final Year Project
+-- Created by david clarke
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use work.matrix_package.all;
+
+entity many_mul is
+	port (input_A, Input_B : in unsigned (255 downto 0); output_z : out unsigned (255 downto 0));
+end entity many_mul;
+--
+architecture structural of many_mul is 
+
+component ADDER_4_BIT IS
+PORT (A, B : IN U_NIBBLE; Z : OUT U_NIBBLE);
+END component ADDER_4_BIT;
+
+
+begin	 
+	
+	U1 : for i in 0 to 255 generate
+	add4 : adder_4_bit port map (a => input_a(i), b => Input_b(i), z => output_z(i));
+	end generate;
+	
+end architecture structural;
+	
+	
+	
+
+

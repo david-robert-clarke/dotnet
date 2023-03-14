@@ -1,0 +1,11 @@
+Java Address Book File Thu Nov 28 20:13:34 GMT 2002.
+9
+clarke,dave,684 7454,0781 2062255,07812062255,david_r_clarke@hotmail.com,1,Poundley Close,Castle Bromwich,West Midlands,England,B36 9SZ
+clarke,alan,684 7454,07977538156,07812062255,alan_clarke@cinmech.co.uk,1,Poundley Close,Castle Bromwich,West Midlands,England,B36 9SZ
+clarke,jonathan,684 7454,,07812062255,jon@vodafone.co.uk,1,Poundley Close,Castle Bromwich,West Midlands,England,B36 9SZ
+clarke,frederick,684 7454,,07812062255,,1,Poundley Close,Castle Bromwich,West Midlands,England,B36 9SZ
+clarke,margaret,684 7454,,07812062255,,1,Poundley Close,Castle Bromwich,West Midlands,England,B36 9SZ
+smith,matthew,603 5858,,,rockerjedi@yahoo.com,123,Chester Road,KingsHurst,West Midlands,England,B38 8TR
+ryan,tony,748 2089,07759828734,07759828734,cainantor@yahoo.co.uk,23,Avenue,Castle Bromwich,West Midlands,England,B36 9TZ
+hodgkinson,robert,747 6709,07773036191,07773036191,rob_hodgkinson69@yahoo.co.uk,1,Avenue,Castle Bromwich,West Midlands,England,B36 9TZ
+baps,tim,,,,,2,Hym Grove,Castle Death,West Badlands,England,H89 NIG

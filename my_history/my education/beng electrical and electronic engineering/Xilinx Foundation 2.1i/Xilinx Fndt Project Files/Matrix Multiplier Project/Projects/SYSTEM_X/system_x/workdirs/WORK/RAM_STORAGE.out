@@ -1,0 +1,659 @@
+Reading in the Synopsys vhdl primitives.
+
+Inferred memory devices in process 
+	in routine RAM_STORAGE line 24 in file
+         'C:/fndtn/active/projects/system_x/ram_storage.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    DATA_MEM_reg     |   Latch   |  64   |  N  | N  | ?  | ?  | -  | -  | -  |
+|    DATA_OUT_reg     |   Latch   |  64   |  N  | N  | ?  | ?  | -  | -  | -  |
+===============================================================================
+
+DATA_MEM_reg<22><0>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<3><1>
+------------------
+    reset/set: none
+
+
+DATA_MEM_reg<27><1>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<6><0>
+------------------
+    reset/set: none
+
+
+DATA_MEM_reg<14><1>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<29><1>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<11><0>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<8><0>
+------------------
+    reset/set: none
+
+
+DATA_MEM_reg<15><0>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<9><1>
+------------------
+    reset/set: none
+
+
+DATA_MEM_reg<10><1>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<28><0>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<2><0>
+------------------
+    reset/set: none
+
+
+DATA_MEM_reg<23><1>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<7><1>
+------------------
+    reset/set: none
+
+
+DATA_MEM_reg<26><0>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<31><1>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<16><1>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<13><0>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<1><1>
+------------------
+    reset/set: none
+
+
+DATA_MEM_reg<18><1>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<20><0>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<4><0>
+------------------
+    reset/set: none
+
+
+DATA_MEM_reg<25><1>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<0><0>
+------------------
+    reset/set: none
+
+
+DATA_MEM_reg<21><1>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<19><0>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<24><0>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<5><1>
+------------------
+    reset/set: none
+
+
+DATA_MEM_reg<17><0>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<30><0>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<12><1>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<17><1>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<30><1>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<12><0>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<21><0>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<19><1>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<0><1>
+------------------
+    reset/set: none
+
+
+DATA_MEM_reg<24><1>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<1><0>
+------------------
+    reset/set: none
+
+
+DATA_MEM_reg<5><0>
+------------------
+    reset/set: none
+
+
+DATA_MEM_reg<18><0>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<20><1>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<4><1>
+------------------
+    reset/set: none
+
+
+DATA_MEM_reg<25><0>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<31><0>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<16><0>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<13><1>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<2><1>
+------------------
+    reset/set: none
+
+
+DATA_MEM_reg<23><0>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<7><0>
+------------------
+    reset/set: none
+
+
+DATA_MEM_reg<26><1>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<15><1>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<10><0>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<9><0>
+------------------
+    reset/set: none
+
+
+DATA_MEM_reg<28><1>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<14><0>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<29><0>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<8><1>
+------------------
+    reset/set: none
+
+
+DATA_MEM_reg<11><1>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<22><1>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<3><0>
+------------------
+    reset/set: none
+
+
+DATA_MEM_reg<27><0>
+-------------------
+    reset/set: none
+
+
+DATA_MEM_reg<6><1>
+------------------
+    reset/set: none
+
+
+DATA_OUT_reg<44>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<5>
+---------------
+    reset/set: none
+
+
+DATA_OUT_reg<54>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<40>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<59>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<8>
+---------------
+    reset/set: none
+
+
+DATA_OUT_reg<49>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<50>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<63>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<1>
+---------------
+    reset/set: none
+
+
+DATA_OUT_reg<52>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<3>
+---------------
+    reset/set: none
+
+
+DATA_OUT_reg<61>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<42>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<7>
+---------------
+    reset/set: none
+
+
+DATA_OUT_reg<56>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<46>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<10>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<23>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<19>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<33>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<14>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<27>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<37>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<35>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<16>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<25>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<28>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<31>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<12>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<21>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<38>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<29>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<30>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<13>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<20>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<39>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<34>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<17>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<24>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<15>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<26>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<36>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<11>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<22>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<18>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<32>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<6>
+---------------
+    reset/set: none
+
+
+DATA_OUT_reg<57>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<47>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<53>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<60>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<2>
+---------------
+    reset/set: none
+
+
+DATA_OUT_reg<43>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<41>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<58>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<9>
+---------------
+    reset/set: none
+
+
+DATA_OUT_reg<48>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<51>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<62>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<0>
+---------------
+    reset/set: none
+
+
+DATA_OUT_reg<45>
+----------------
+    reset/set: none
+
+
+DATA_OUT_reg<4>
+---------------
+    reset/set: none
+
+
+DATA_OUT_reg<55>
+----------------
+    reset/set: none
+
+
+Writing to hnl file 'c:\Fndtn\Active\Projects\SYSTEM_X\system_x/workdirs/WORK/RAM_STORAGE.hnl'
+Warning: Local variable 'DATA_MEM' is being read before its value is assigned,
+	
+	in routine RAM_STORAGE line 24 in file 'C:/fndtn/active/projects/system_x/ram_storage.vhd'.
+	This may cause simulation not to match synthesis.  (HDL-177)
+Warning: Latch inferred in design 'RAM_STORAGE' read with
+	'hdlin_check_no_latch'. (HDL-307)

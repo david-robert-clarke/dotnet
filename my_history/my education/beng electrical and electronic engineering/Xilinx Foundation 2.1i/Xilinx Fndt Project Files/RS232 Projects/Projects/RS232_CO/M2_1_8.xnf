@@ -1,0 +1,29 @@
+LCANET, 6
+PROG, Synopsys, UNKNOWN, v3.2, Build 3.2.0.4201
+PART, 4010XL-PC84-09
+SYM, c0_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c0_n0, , , INV
+PIN, I1, I, c0_n1, , , INV
+PIN, O, O, O, , , INV
+END
+SYM, c0_c1, AND, LIBVER=2.0.0
+PIN, I0, I, S0, , , INV
+PIN, I1, I, D0, , 
+PIN, O, O, c0_n0, , 
+END
+SYM, c0_c2, AND, LIBVER=2.0.0
+PIN, I0, I, S0, , 
+PIN, I1, I, D1, , 
+PIN, O, O, c0_n1, , 
+END
+SYM, FMAP_0, FMAP, LIBVER=2.0.0
+PIN, I1, I, S0, , 
+PIN, I2, I, D0, , 
+PIN, I3, I, D1, , 
+PIN, O, I, O, , 
+END
+SIG, S0, PIN=S0
+SIG, D0, PIN=D0
+SIG, O, PIN=O
+SIG, D1, PIN=D1
+EOF

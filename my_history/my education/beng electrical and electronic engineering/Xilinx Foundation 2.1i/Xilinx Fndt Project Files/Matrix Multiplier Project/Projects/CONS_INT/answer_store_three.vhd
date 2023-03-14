@@ -1,0 +1,47 @@
+-- 
+-- Final Year Project
+-- By David Clarke
+-- Created on 22_1_2000
+Library IEEE;
+Use IEEE.STD_LOGIC_1164.ALL;
+USE WORK.MATRIX_PACKAGE.ALL;
+--
+Entity Answer_Store IS
+     Port (CLK, RESET  : IN  ONE_BIT;	-- Entity Controlled by top level clk and reset signal
+     	   D           : IN  TWENTY_BITS;  
+           SEL         : IN  THREE_BITS;  -- The SEL input selects the correct set of latches	
+           Q           : OUT TWENTY_BITS);
+End Entity Answer_Store;
+--
+Architecture Behavioural OF Answer_Store IS
+     Begin
+          
+          Process(CLK, D, SEL, RESET) IS  
+               Begin
+                    IF rising_edge(CLK) THEN
+                    	IF RESET = '1' THEN
+                    	     Q <= X"00000";
+                    	ELSE
+                             IF    SEL = "000" THEN  
+                                  Q(4 downto 0) <= D(4 downto 0); 
+                             ELSIF SEL = "001" THEN
+                                  Q(9 downto 5) <= D(9 downto 5);
+                             ELSIF SEL = "010" THEN 
+                                  Q(14 downto 10) <= D(14 downto 10);
+                             ELSIF SEL = "011" THEN 
+                                  Q(19 downto 15) <= D(19 downto 15);
+                             ELSIF SEL = "100" THEN 
+                                  Q(9 downto 0)   <= D(9 downto 0); 
+                             ELSIF SEL = "101" THEN 
+                                  Q(19 downto 10) <= D(19 downto 10);
+                             ELSIF SEL = "110" THEN
+	       	                  Q(19 downto 0)   <= D; 
+                             ELSIF SEL = "111" THEN  
+                                  Q <= X"00000";
+                             END IF;
+	               END IF;
+	           END IF;
+	       End Process;
+     End Architecture Behavioural;
+	       
+		    

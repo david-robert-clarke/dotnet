@@ -1,0 +1,256 @@
+1. Java background
+
+Why is Java?
+
+  * Because people wanted a portable programming language for the Internet 
+  * They wanted it to be simpler than C++ 
+  * But at the same time they wanted it to be more object oriented than C++ 
+
+Thus, people at Sun Microsystems Inc. created a language which claims to be: 
+
+  * Simple (at least to C++ programmers) 
+  * Object-oriented 
+  * Distributed (i.e. network aware) 
+  * Architecture Neutral (runs in Java Virtual Machine) 
+  * Portable (JVM is provided for many architectures) 
+  * Interpreted (but also compiled) 
+  * Robust (no pointers, garbage collected, exceptions handled) 
+  * Secure (runs in web pages) 
+  * High-performance (when compiled to real machines) 
+  * Multi-threaded 
+  * Dynamic 
+
+Many of the above are the subject of a heated debate. Decide for yourself if it is really the case. Undoubtedly, Java has become very popular, and is indeed the language of the Internet.
+
+2. Variables, constants and literals
+
+Variable declaration
+
+    <type> <variable name>;
+
+    e.g.
+
+    int houseNumber; 
+
+Note: Every Java statement ends with a semicolon.
+
+Note: The convention in Java is to name variables by concatenating meaningful words and capitalising the first letter of each word, except for the first one. The first letter of the first word is capitalised only in type names.
+
+Assignment
+
+    houseNumber = 10; 
+
+Declaration with initialisation
+
+    int houseNumber = 10; 
+
+Constants
+
+    final float SPEED_OF_LIGHT = 2.997925e8; 
+
+Note: By convention names of constants are capitalised with the underscore used to separate words.
+
+Primitive types
+
+    byte, short, int, long, char, float, double, boolean 
+
+Note: Java does not support unsigned types.
+
+Literals
+
+     byte, short, int, long 
+                                e.g.
+                                       10, -23, 012, 0xD5 
+     char 
+                                e.g.
+                                       'a', '\n', '\141', '\u001E'
+     float, double 
+                                e.g.
+                                       0.6667, 314159E-05, 8.0f
+     boolean 
+                                e.g.
+                                       true, false 
+     String 
+                                e.g.
+                                       "some text" 
+
+
+Note: Floating point literals are double precision by default. In order to make it single precision, append f or F at the end of the literal.
+
+Type conversion
+
+    byte leanHouseNumber = (byte)houseNumber; 
+
+3. Operators
+
+  * Arithmetic:   +, -, *, /, %, ++, --
+  * Bitwise:      ~, &, |, ^, <<, >>, >>> 
+  * Relational:   ==, !=, >, <, >=, <= 
+  * Boolean:      &, |, ^, ||, &&, !, ==, != 
+  * Assignment operators. Arithmetic, bitwise and boolean operators can be
+    combined with the assignment operator '=' for shorter syntax, e.g. 
+
+        a *= 2; 
+
+    instead of 
+
+        a = a * 2; 
+
+    The assignment operator can be chained, e.g. 
+
+        a = b = c = 100; 
+
+  * The ? operator: e.g. 
+
+        c = a != 0 ? b / a : 0; 
+
+  * Operators + and += are also defined for Strings. In this context they
+    perform string concatenation. 
+
+4. Control structures
+
+Branching
+
+     if (choice == 'Q')
+        // quit
+     else
+     {
+        /* do something more complex here
+        ...
+        */
+     }
+
+If a branch contains more than one statement, you enclose it with curly braces.
+
+     switch (choice)
+     {
+        case 'a':
+           // do something here
+           break;
+        case 'Q':
+           // do something here
+           break;
+        default:
+           // do something here
+     }
+
+Iteration
+
+     for (int i = 0; i < 10; i++)
+        // do something 10 times here
+
+     while (expression)
+        // do something for as long as expression is true
+
+     do
+        // do something for as long as expression is true
+     while (expression);
+
+Note: If you've programmed in C, you'll find that in Java you cannot say e.g.
+
+   int counter = initialValue;
+   while (counter) ...
+
+Java requires a boolean value as the condition, so you have to say
+
+   while (counter != 0) ... 
+
+5. Objects and classes
+
+OO primer
+
+  * Objects are representations of what humans like to think of as whole
+    entities, physical or abstract: cars, documents, windows on the computer
+    screen, internet connections, etc. 
+  * Classes are what humans tend to classify objects into. E.g. John Smith's
+    Vauxhall Vectra and Sue Wilson's Ford Fiesta are both cars, i.e. they
+    belong to class Car. In other words, they are instances (objects) of class
+    Car. 
+  * In OO (object oriented) design classes provide the object's structure. This
+    is made up from data members (variables), e.g. car make, owner, current
+    speed, etc., and methods (subroutines) which are the actions a class
+    instance can perform, e.g. change owner, accelerate, etc. In other words,
+    objects package together actions and state. 
+
+OO design example
+
+Requirements: Design and implement a computer address book. The book will store a list of personal details of any number of people, in particular, their surname, first name, address, and telephone number. The user should be able to enter a new person's details, edit them, and remove from the address book. Retrieval of a person's details will be actioned upon supplying the required person's surname. The user should also be able to save the contents of the address book in a file, and retrieve it later.
+
+Class breakdown:
+
+   Class Address Book                  Class Person
+
+   Data members:                       Data members:
+
+      list of Person objects              first name
+      number of people in the list        surname
+                                          address
+                                          telephone number 
+
+   Methods:                            Methods:
+
+      add new person                      change first name
+      change person details               change surname
+      remove person                       change address
+      search for a person                 change telephone number
+                                          get first name
+                                          get surname
+                                          get address
+                                          get telephone number 
+
+Example implementation in Java
+
+   class Person
+   {
+      private String firstName, surname, address, telephoneNumber;
+
+      Person(String fn, String sn, String a, String t)
+      {
+         firstName = fn;
+         surname = sn;
+         address = a;
+         telephoneNumber = t;
+      }
+
+      Person()
+      {
+         firstName = "";
+         surname = "";
+         address = "";
+         telephoneNumber = "";
+      }
+
+      void setFirstName(String newFirstName)
+      {
+         firstName = newFirstName;
+      }
+
+      String getFirstName()
+      {
+         return firstName;
+      }
+
+      // other similar methods
+   }
+
+Note: Method names, like variable names start with a lower case letter. The class names start with upper case.
+
+The first two methods in the class declaration are its constructors. Constructors always have the same name as the class itself. They are called whenever a new instance of the class is created. Note that the ones shown
+here are overloaded i.e. they are two versions of essentially one constructor/method. The Java compiler decides which one to choose depending on the list of arguments in the method call.
+
+The following code fragment shows how objects are instantiated and referred to.
+
+   Person person = new Person();
+   person.setFirstName("Arkadius");
+
+Static members
+
+Static data members are variables or constants whose value is paramount to all instances of a class. Constants are often made static, since their value usually applies to all instances, e.g.
+
+   class AddressBook
+   {
+      static final int MAX_NUMBER_OF_RECORDS = 1000;
+      ...
+   }
+
+If a method is declared static, it can only operate on static variables and constants.

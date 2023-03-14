@@ -1,0 +1,40 @@
+package I;
+import java.sql.*;
+import java.util.ArrayList;
+
+/**
+ * SQL Query
+ *
+ * 
+ **/
+public class DeleteSupplierQuery
+{
+  //this class assumes that every supplier name is unique
+  private ArrayList supArrayList;
+  private Connection c;
+
+  public DeleteSupplierQuery(ArrayList supplier)
+  { 
+    c = MyConnection.C;
+    supArrayList = supplier;
+  }
+
+  public void exeQuery()
+  {
+    try 
+    { 
+      String supid = (String)supArrayList.get(0);
+      System.out.println(supid);
+
+      Statement stmt = c.createStatement();
+      int deleteCount = stmt.executeUpdate("DELETE FROM supplier WHERE supid ='"+supid+ "'");
+
+      
+      System.out.println("Number of suppliers removed = "+deleteCount);
+    } 
+    catch (SQLException e) 
+    {
+      System.out.println( "An exception occurred in DeleteSupplierQuery. " + e);
+    }
+  }
+}

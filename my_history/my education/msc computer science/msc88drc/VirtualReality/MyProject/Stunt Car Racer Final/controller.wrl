@@ -1,0 +1,241 @@
+#VRML V2.0 utf8
+#David Clarke 490973
+
+NavigationInfo{
+ type "FLY"
+}
+
+PROTO theController[
+eventIn SFVec3f set_controllerPosition  #sets the position of the controller in relation to the VRWorld
+eventIn SFRotation set_controllerOrientation #sets the orientation of the controller in relation to the VRWorld
+eventOut SFRotation frontWheelsTurnAngle #turning angle of wheels
+eventOut SFRotation carRotationAngle #the turning circle of the car
+eventOut SFVec3f frontWheelsAngularSpeed #the velocity of the car in the z and x plane
+]
+{
+DEF controller Transform{
+	#translation IS controllerPosition
+	children[
+		Collision{
+		collide FALSE
+		children[
+			Transform{
+			rotation 1 0 0 -0.78
+			translation 0 -.15 -.5 # Relative to view
+			children[
+				DEF TIMER TimeSensor {
+  				cycleInterval 1
+   				loop TRUE
+				}
+				DEF controlGuides Transform{#the x and y stick guides
+					children[
+						DEF yControlGuide Transform{#guide for the y-stick
+						translation -0.075 0 -0.025
+                                		rotation 0 0 1 1.57
+						children[
+				                	Shape{
+				                	geometry Box{
+				                	size 0.06 0.025 0.005
+				                	}
+				                	appearance DEF guideAppearance Appearance{
+				                	material Material{
+				                	diffuseColor 0.025 0.025 0.25
+				                	}
+				                	}
+                                                	}
+                                			]
+                                			}
+                                		DEF xControlGuide Transform{#guide for the x-stick
+                                		translation 0 0 -0.025
+                                		children[
+                                			Shape{
+                                			geometry Box{
+                                			size 0.06 0.025 0.005
+                                			}
+                                			appearance USE guideAppearance
+                                			}
+                                			]
+                                			}
+                		]
+                		}
+
+                		DEF controlBox Transform{# contains all the controllers parts, apart from the guides
+                		translation -0.025 0 -0.0625
+                		children[
+                			Shape{
+                			geometry Box{size 0.15 0.1 0.05}
+                			appearance Appearance{
+                			material Material{
+                			diffuseColor 0.125 0.125 0.125
+                			}
+                			}
+                			}
+                			]
+                			}
+                		DEF controlSticks Transform{
+                		children[
+                			DEF yStickController Transform{
+                			translation -0.025 0 0
+                			children[
+                				DEF ySensor PlaneSensor{#sensor allowing movement of the y-stick
+                							#in the y direction
+              					maxPosition -0.025 0.025
+              					minPosition -0.025 -0.025
+              					}
+              					DEF yknob Transform{
+           	                                translation -0.05 0 0.025
+              					children[
+                                                        Shape{
+                                                        geometry Sphere{
+                                                        radius 0.006
+                                                        }
+                                                        appearance DEF stickAppearance Appearance{
+                                                        material Material{
+                                                        diffuseColor 0 0 1
+                                                        shininess 0.8
+                                                        }
+                                                        }
+                                                        }
+                                                        ]
+                                                        }
+
+                				DEF yStick Transform{
+                				rotation 1 0 0 1.57
+                				translation -0.05 0 0
+                				children[
+                        				Shape{
+                        				geometry Cylinder{
+                        				radius 0.005
+                        				height 0.05
+                        				}
+                       					appearance USE stickAppearance
+                       					}
+                       					]
+                        				}
+              						]
+              						}
+              				DEF xStickController Transform{
+              				children[
+              					DEF xSensor PlaneSensor{#sensor allowing movement of the x-stick
+              								#in the x direction
+              					maxPosition 0.025 0
+              					minPosition -0.025 0
+              					}
+              					DEF xknob Transform{
+                         	                translation 0 0 0.025
+                  	                        children[
+                                                        Shape{
+                                                        geometry Sphere{
+                                                        radius 0.006
+                                                        }
+                                                        appearance USE stickAppearance
+                                                        }
+                                                        ]
+                                                        }
+              					DEF xStick Transform{
+              					rotation 1 0 0 1.57
+              					children[
+              	        				Shape{
+                        				geometry Cylinder{
+                        				radius 0.005
+                        				height 0.05
+                        				}
+                        				appearance USE stickAppearance
+                        				}
+              						]
+              						}
+              						]
+              						}
+				]
+                		}
+              			Viewpoint{position 0 0 1}#
+
+              			DEF myScript Script {
+              			eventIn SFVec3f set_controllerPosition IS set_controllerPosition
+              			eventIn SFRotation set_controllerOrientation IS set_controllerOrientation
+                		eventIn SFRotation directionChanged
+                		eventIn SFVec3f xStickTranslation
+                		eventIn SFVec3f yStickTranslation
+                		eventIn SFFloat theTime
+                		field SFFloat xStepSize 0.0 ##
+                		field SFFloat zStepSize 0.0  # Intermediate values used in the calculation of the cars next position
+               			field SFFloat axisAngle 0.0 ## and rotation
+               			eventOut SFVec3f controllerTranslation
+               			eventOut SFRotation controllerRotation
+             			eventOut SFRotation frontWheelsTurnAngle IS frontWheelsTurnAngle
+             			eventOut SFRotation carRotationAngle IS carRotationAngle
+                		eventOut SFVec3f frontWheelsAngularSpeed IS frontWheelsAngularSpeed
+
+   				url "javascript:
+
+      				function initialize()
+      				{
+      				carRotationAngle = new SFRotation(0,1,0,0);
+      				frontWheelsTurnAngle = new SFRotation(0,1,0,0);
+      				}
+
+				//sets the position of the controller
+				function set_controllerPosition(value,ts)
+				{
+				controllerTranslation = value;
+				}
+
+				//sets the orientation of the controller
+				function set_controllerOrientation(value, ts)
+				{
+				controllerRotation = value;
+                                }
+
+                		//function that updates the position of the car in the x and z direction
+				function theTime (value, ts)
+				{
+		 	 	frontWheelsAngularSpeed.z+= zStepSize;
+		  		frontWheelsAngularSpeed.x+= xStepSize;
+				}
+
+                		//function that calculates the new position of the car in the x direction
+                		//dependant on the position of the x controller stick
+      				function xStickTranslation (value, ts)
+      				{
+      					frontWheelsTurnAngle.angle = (xStickTranslation[0].x)*-15;
+
+					//only apply the angle of car rotation when the car is moving
+					if(zStepSize !=0)
+					{
+					carRotationAngle.angle = ((xStickTranslation[0].x)*-15);
+					}
+
+      					//changed from frontWheelsTurnAngle
+                			axisAngle = carRotationAngle.angle;
+
+                			//calculate the x step size, the z step size is calculated above, this will be used to modify the
+                			//direction of the wheels
+
+                 			 xStepSize = Math.tan(axisAngle) * zStepSize;
+
+      				}
+                		//function that calculates the new position of the car in the z direction
+                		//dependant on the position of the y controller stick
+      				function yStickTranslation (value, ts)
+      				{
+      				zStepSize = (-yStickTranslation[0].y)*20.0; //CHANGE TO 10
+      				}"
+      				}
+      			]
+      			}
+      	]
+      	}
+]
+}
+
+ROUTE TIMER.fraction_changed 		TO myScript.theTime
+ROUTE myScript.controllerTranslation	TO controller.translation   #locks position of controller
+ROUTE myScript.controllerRotation	TO controller.rotation      #locks rotation of controller
+ROUTE xSensor.translation_changed TO xStickController.translation
+ROUTE ySensor.translation_changed TO yStickController.translation
+ROUTE xSensor.translation_changed TO myScript.xStickTranslation
+ROUTE ySensor.translation_changed TO myScript.yStickTranslation
+}
+
+theController{}
+

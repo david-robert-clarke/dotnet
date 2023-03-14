@@ -1,0 +1,6 @@
+c:\fndtn\active\projects\test\wee.vhd 8 0:E:#0 Error: C:/fndtn/active/projects/test/wee.vhd  line 8   No selected element named MATRIX_PACKAGE is defined for this prefix.  (VSS-573) 
+c:\fndtn\active\projects\test\wee.vhd 11 0:E:#0 Error: C:/fndtn/active/projects/test/wee.vhd  line 11   NIBBLE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+c:\fndtn\active\projects\test\wee.vhd 17 0:E:#0 Error: C:/fndtn/active/projects/test/wee.vhd  line 17   TWO_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+c:\fndtn\active\projects\test\wee.vhd 22 0:E:#0 Error: C:/fndtn/active/projects/test/wee.vhd  line 22   The intermediate file for entity DATA_STORE is not in the library bound to WORK.  (VSS-1084) 
+c:\fndtn\active\projects\test\wee.vhd 59 0:E:#0 Error: C:/fndtn/active/projects/test/wee.vhd  line 59   Syntax error.  (VSS-1081) 
+c:\fndtn\active\projects\test\wee.vhd 59 0:E:#0 Error: C:/fndtn/active/projects/test/wee.vhd  line 59   Syntax error - keyword PROCESS expected.  (VSS-1081) 

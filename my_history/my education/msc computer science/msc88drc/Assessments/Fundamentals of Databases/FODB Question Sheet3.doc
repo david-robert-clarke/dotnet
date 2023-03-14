@@ -1,0 +1,118 @@
+{\rtf1\ansi\ansicpg1252\deff0
+{\fonttbl
+{\f0\fnil\fcharset0\fprq0\fttruetype Nimbus Roman;}
+{\f1\fnil\fcharset0\fprq0\fttruetype NULL;}
+{\f2\fnil\fcharset0\fprq0\fttruetype Nimbus Sans;}
+{\f3\fnil\fcharset0\fprq0\fttruetype Courier New;}
+{\f4\fnil\fcharset0\fprq0\fttruetype Times New Roman;}
+{\f5\fnil\fcharset0\fprq0\fttruetype Arial;}
+{\f6\fnil\fcharset0\fprq0\fttruetype Dingbats;}
+{\f7\fnil\fcharset0\fprq0\fttruetype Symbol;}
+{\f8\fnil\fcharset0\fprq0\fttruetype Nimbus Mono;}}
+{\colortbl
+\red0\green0\blue0;
+\red255\green255\blue255;}
+{\stylesheet
+{\s5\sl240\slmult1\fi-431\li720 Dashed List;}
+{\s2\sl240\slmult1\fi-431\li720 Box List;}
+{\s21\sl240\slmult1\tx1584\sbasedon16\snext15 Section Heading;}
+{\s17\sl240\slmult1\tx431\sbasedon9\snext15 Numbered Heading 2;}
+{\s20\sl240\slmult1\f8\sbasedon15 Plain Text;}
+{\s12\sl240\slmult1\fi-431\li720 Implies List;}
+{\s26\sl240\slmult1\fi-431\li720\sbasedon19 Upper Case List;}
+{\s7\sl240\slmult1\fi-431\li720 Hand List;}
+{\s27\sl240\slmult1\fi-431\li720\sbasedon19 Upper Roman List;}
+{\s15\sl240\slmult1\f0\fs24 Normal;}
+{\s1\sl240\slmult1\li1440\ri1440\sa119\sbasedon15 Block Text;}
+{\s14\sl240\slmult1\fi-431\li720\sbasedon15 Lower Roman List;}
+{\s11\sl240\slmult1\fi-431\li720 Heart List;}
+{\s13\sl240\slmult1\fi-431\li720\sbasedon19 Lower Case List;}
+{\s24\sl240\slmult1\fi-431\li720 Tick List;}
+{\s8\sl240\slmult1\sb440\sa60\f2\fs34\b\sbasedon15\snext15 Heading 1;}
+{\s9\sl240\slmult1\sb440\sa60\f2\fs28\b\sbasedon15\snext15 Heading 2;}
+{\s10\sl240\slmult1\sb440\sa60\f2\fs24\b\sbasedon15\snext15 Heading 3;}
+{\s19\sl240\slmult1\fi-431\li720 Numbered List;}
+{\s23\sl240\slmult1\fi-431\li720 Star List;}
+{\s16\sl240\slmult1\tx431\sbasedon8\snext15 Numbered Heading 1;}
+{\s6\sl240\slmult1\fi-431\li720 Diamond List;}
+{\s18\sl240\slmult1\tx431\sbasedon10\snext15 Numbered Heading 3;}
+{\s4\sl240\slmult1\tx1584\sbasedon16\snext15 Chapter Heading;}
+{\s22\sl240\slmult1\fi-431\li720 Square List;}
+{\s25\sl240\slmult1\fi-431\li720 Triangle List;}
+{\s3\sl240\slmult1\fi-431\li720 Bullet List;}}
+\kerning0\cf0\viewkind1\paperw12240\paperh15840\margl1440\margr1440\widowctl
+\sectd\sbknone\colsx360\marglsxn1800\margrsxn1800\pgncont\ltrsect
+\pard\plain\qc\ltrpar\sl240\slmult1{\f0\fs24\ul\lang1033{\*\listtag0}Handout 3 - Exercises}
+\par\pard\plain\sb440\ltrpar\sl240\slmult1{\f2\fs28\b\lang1033{\*\listtag0}Exercise 1}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs20\lang1033{\*\listtag0}SELECT c.name}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs20\lang1033{\*\listtag0}FROM courses AS c, lecturing as l}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs20\lang1033{\*\listtag0}WHERE l.cid = c.cid}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs20\lang1033{\*\listtag0}GROUP BY c.name}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs20\lang1033{\*\listtag0}HAVING min(year) = 2001;}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs20\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang1033{\*\listtag0}Answers: (8 rows)}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f2\fs28\b\lang1033{\*\listtag0}Exercise 2}
+\par\pard\plain\ltrpar\sl240\slmult1{\f3\fs20\lang1033{\*\listtag0}SELECT COUNT(*), AVG(mark), STDDEV(mark)}
+\par\pard\plain\ltrpar\sl240\slmult1{\f3\fs20\lang1033{\*\listtag0}FROM allmarks;}
+\par\pard\plain\ltrpar\sl240\slmult1{\f3\fs20\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f4\fs24\lang1033{\*\listtag0}Answer: (1 row)}
+\par\pard\plain\ltrpar\sl240\slmult1{\f4\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f2\fs28\b\lang1033{\*\listtag0}Exercise 3}
+\par\pard\plain\ltrpar\sl240\slmult1{\f3\fs20\lang2057{\*\listtag0}SELECT  c.name AS CName, COUNT(a.student) AS NoStu, AVG(a.mark) AS AVG,MAX(a.mark) AS Hi, MIN(a.mark) AS Lo, STDDEV(a.mark) AS STD }
+\par\pard\plain\ltrpar\sl240\slmult1{\f3\fs20\lang2057{\*\listtag0}FROM allmarks AS a, courses AS c}
+\par\pard\plain\ltrpar\sl240\slmult1{\f3\fs20\lang2057{\*\listtag0}WHERE c.bc = a.bc}
+\par\pard\plain\ltrpar\sl240\slmult1{\f3\fs20\lang2057{\*\listtag0}GROUP BY c.name;}
+\par\pard\plain\ltrpar\sl240\slmult1{\f3\fs20\lang2057{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f4\fs24\lang2057{\*\listtag0}Answer: (57 rows)}
+\par\pard\plain\ltrpar\sl240\slmult1{\f4\fs24\lang2057{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f2\fs28\b\lang1033{\*\listtag0}Exercise 4}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs20\lang1033{\*\listtag0}SELECT c.name, AVG(a.mark) AS average}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs20\lang1033{\*\listtag0}FROM courses AS c, allmarks AS a}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs20\lang1033{\*\listtag0}WHERE c.bc = a.bc}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs20\lang1033{\*\listtag0}GROUP BY c.name}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs20\lang1033{\*\listtag0}HAVING AVG(a.mark) > (SELECT AVG(mark) FROM allmarks);}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f0\fs20\lang1033{\*\listtag0}Answer:(38 rows)}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs24\b\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f2\fs28\b\lang1033{\*\listtag0}Exercise 5}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs20\lang1033{\*\listtag0}SELECT s.title, s.lastname}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs20\lang1033{\*\listtag0}FROM staff AS s}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs20\lang1033{\*\listtag0}WHERE s.title = 'Dr' OR s.title = 'Prof'}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs20\lang1033{\*\listtag0}EXCEPT}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs20\lang1033{\*\listtag0}SELECT s.title, s.lastname}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs20\lang1033{\*\listtag0}FROM staff AS s, lecturing AS l}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs20\lang1033{\*\listtag0}WHERE (s.title = 'Dr' OR s.title = 'Prof') AND l.sid = s.sid}
+\par\pard\plain\ltrpar\sl240\slmult1{\f0\fs20\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f0\fs20\lang1033{\*\listtag0}Answer:(14 rows)}{\f5\fs28\i\b\lang2057{\*\listtag0}\page Exercise 6}
+\par\pard\plain\ltrpar\sl240\slmult1{\f5\fs28\i\b\lang2057{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f3\fs20\lang2057{\*\listtag0}SELECT year AS YEAR, SUM(numbers)}
+\par\pard\plain\ltrpar\sl240\slmult1{\f3\fs20\lang2057{\*\listtag0}FROM lecturing}
+\par\pard\plain\ltrpar\sl240\slmult1{\f3\fs20\lang2057{\*\listtag0}GROUP BY year;}
+\par\pard\plain\ltrpar\sl240\slmult1{\f3\fs20\lang2057{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f4\fs24\lang2057{\*\listtag0}Answer: (4 rows)}
+\par\pard\plain\ltrpar\sl240\slmult1{\f4\fs24\lang2057{\*\listtag0}
+\par}\pard\plain\sb240\ltrpar\sl240\slmult1{\f5\fs28\i\b\lang2057{\*\listtag0}Exercise 7}
+\par\pard\plain\ltrpar\sl240\slmult1{\f5\fs28\i\b\lang2057{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f3\fs20\lang2057{\*\listtag0}SELECT c.name AS coursename, AVG(numbers) AS AVGStudentNos}
+\par\pard\plain\ltrpar\sl240\slmult1{\f3\fs20\lang2057{\*\listtag0}FROM lecturing AS l, courses AS c}
+\par\pard\plain\ltrpar\sl240\slmult1{\f3\fs20\lang2057{\*\listtag0}WHERE l.cid = c.cid}
+\par\pard\plain\ltrpar\sl240\slmult1{\f3\fs20\lang2057{\*\listtag0}GROUP BY c.name;}
+\par\pard\plain\ltrpar\sl240\slmult1{\f3\fs20\lang2057{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f4\fs24\lang2057{\*\listtag0}Answer: (58 rows)}
+\par\pard\plain\ltrpar\sl240\slmult1{\f4\fs24\lang2057{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f4\fs24\lang2057{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f5\fs28\i\b\lang2057{\*\listtag0}Exercise 8}
+\par\pard\plain\ltrpar\sl240\slmult1{\f5\fs28\i\b\lang2057{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f3\fs20\i\lang2057{\*\listtag0}-- staff who lectured}
+\par\pard\plain\ltrpar\sl240\slmult1{\f3\fs20\lang2057{\*\listtag0}SELECT l.sid AS staffID, s.firstname AS fname, s.lastname AS lname,}
+\par\pard\plain\ltrpar\sl240\slmult1{\f3\fs20\lang2057{\*\listtag0}       l.numbers AS numbers, l.year AS theyear}
+\par\pard\plain\ltrpar\sl240\slmult1{\f3\fs20\lang2057{\*\listtag0}FROM staff AS s, lecturing AS l, }
+\par\pard\plain\ltrpar\sl240\slmult1{\f3\fs20\i\lang2057{\*\listtag0}-- highest numbers of students across each year}
+\par\pard\plain\ltrpar\sl240\slmult1{\f3\fs20\lang2057{\*\listtag0}     (SELECT max(numbers) AS HighestNo, year AS year}
+\par\pard\plain\ltrpar\sl240\slmult1{\f3\fs20\lang2057{\*\listtag0}      FROM lecturing}
+\par\pard\plain\ltrpar\sl240\slmult1{\f3\fs20\lang2057{\*\listtag0}\tab   GROUP BY year) AS temp}
+\par\pard\plain\ltrpar\sl240\slmult1{\f3\fs20\lang2057{\*\listtag0}WHERE s.sid = l.sid AND temp.HighestNo = l.numbers AND }
+\par\pard\plain\ltrpar\sl240\slmult1{\f3\fs20\lang2057{\*\listtag0}      temp.year = l.year;}
+\par\pard\plain\ltrpar\sl240\slmult1{\f3\fs20\lang2057{\*\listtag0}
+\par}\pard\plain\ltrpar\sl240\slmult1{\f4\fs24\lang2057{\*\listtag0}Answer: 6 rows}}

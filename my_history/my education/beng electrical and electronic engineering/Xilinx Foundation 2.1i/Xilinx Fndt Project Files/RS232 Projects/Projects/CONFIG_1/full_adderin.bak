@@ -1,0 +1,21 @@
+-- Final Year Project MarkIII
+-- Created by David.R.Clarke
+-- Date: 9_12_2000
+Library IEEE;
+USE IEEE.std_logic_1164.all;
+USE WORK.MATRIX_PACKAGE.ALL;
+--
+Entity full_adderIN is
+Port (A, B : IN std_logic; 
+      SUM, C_OUT : OUT std_logic);
+END Entity full_adderIN;
+--
+Architecture Behavioural OF full_adderIN is
+Begin
+
+SUM <= A xor B;
+C_OUT <= (A and B); 
+	
+End architecture Behavioural;
+
+

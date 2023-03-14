@@ -1,0 +1,113 @@
+
+Inferred memory devices in process 
+	in routine Answer_Store line 18 in file
+         'C:/fndtn/active/projects/config_1/answer_store.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        Q_reg        |   Latch   |  20   |  N  | N  | ?  | ?  | -  | -  | -  |
+===============================================================================
+
+Q_reg<6>
+--------
+    reset/set: none
+
+
+Q_reg<13>
+---------
+    reset/set: none
+
+
+Q_reg<2>
+--------
+    reset/set: none
+
+
+Q_reg<17>
+---------
+    reset/set: none
+
+
+Q_reg<0>
+--------
+    reset/set: none
+
+
+Q_reg<9>
+--------
+    reset/set: none
+
+
+Q_reg<15>
+---------
+    reset/set: none
+
+
+Q_reg<4>
+--------
+    reset/set: none
+
+
+Q_reg<11>
+---------
+    reset/set: none
+
+
+Q_reg<18>
+---------
+    reset/set: none
+
+
+Q_reg<5>
+--------
+    reset/set: none
+
+
+Q_reg<10>
+---------
+    reset/set: none
+
+
+Q_reg<19>
+---------
+    reset/set: none
+
+
+Q_reg<1>
+--------
+    reset/set: none
+
+
+Q_reg<8>
+--------
+    reset/set: none
+
+
+Q_reg<14>
+---------
+    reset/set: none
+
+
+Q_reg<3>
+--------
+    reset/set: none
+
+
+Q_reg<16>
+---------
+    reset/set: none
+
+
+Q_reg<7>
+--------
+    reset/set: none
+
+
+Q_reg<12>
+---------
+    reset/set: none
+
+
+Warning: Latch inferred in design 'Answer_Store' read with
+	'hdlin_check_no_latch'. (HDL-307)
+Writing to hnl file 'c:\Fndtn\Active\Projects\CONFIG_1\config_1/workdirs/WORK/Answer_Store.hnl'

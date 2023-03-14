@@ -1,0 +1,90 @@
+-- FINAL YEAR PROJECT
+-- BY DAVID CLARKE
+-- CREATED: 17_12_2000
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_ARITH.ALL;
+USE WORK.MATRIX_PACKAGE.ALL;
+
+ENTITY ELEMENT_STORE IS
+PORT (ADDR_A3, ADDR_A2, ADDR_A1, ADDR_A0, ADDR_B3, ADDR_B2, ADDR_B1, ADDR_B0 : IN ONE_BIT;
+      A3, A2, A1, A0, B3, B2, B1, B0 : OUT U_TWO_BITS);
+END ENTITY ELEMENT_STORE;
+--
+ARCHITECTURE STRUCTURAL OF ELEMENT_STORE IS
+BEGIN
+-- WRITE SEPARATE PROCESSES FOR EACH MEMORY ELEMENT
+	A3CHEESE : PROCESS (ADDR_A3) IS
+	     BEGIN
+	          IF ADDR_A3 = '1' THEN
+	               A3 <= "01";
+	          ELSIF ADDR_A3 = '0' THEN
+	               A3 <= "00";
+	          END IF;
+	     END PROCESS A3CHEESE;
+	     
+	A2CHEESE : PROCESS (ADDR_A2) IS
+	     BEGIN
+	          IF ADDR_A2 = '1' THEN
+	               A2 <= "10";
+	          ELSIF ADDR_A2 = '0' THEN
+	               A2 <= "00";
+	          END IF;
+	     END PROCESS A2CHEESE;
+	     
+	A1CHEESE : PROCESS (ADDR_A1) IS
+	     BEGIN
+	          IF ADDR_A1 = '1' THEN
+	               A1 <= "11";
+	          ELSIF ADDR_A1 = '0' THEN
+	               A1 <= "00";
+	          END IF;
+	     END PROCESS A1CHEESE;
+	     
+	A0CHEESE : PROCESS (ADDR_A0) IS
+	     BEGIN
+	          IF ADDR_A0 = '1' THEN
+	               A0 <= "01";
+	          ELSIF ADDR_A0 = '0' THEN
+	               A0 <= "00";
+	          END IF;
+	     END PROCESS A0CHEESE;
+	                         
+	B3CHEESE : PROCESS (ADDR_B3) IS
+	     BEGIN
+	          IF ADDR_B3 = '1' THEN
+	               B3 <= "11";
+	          ELSIF ADDR_B3 = '0' THEN
+	               B3 <= "00";
+	          END IF;
+	     END PROCESS B3CHEESE;
+	     
+	B2CHEESE : PROCESS (ADDR_B2) IS
+	     BEGIN
+	          IF ADDR_B2 = '1' THEN
+	               B2 <= "01";
+	          ELSIF ADDR_B2 = '0' THEN
+	               B2 <= "00";
+	          END IF;
+	     END PROCESS B2CHEESE;
+	     
+	B1CHEESE : PROCESS (ADDR_B1) IS
+	     BEGIN
+	          IF ADDR_B1 = '1' THEN
+	                B1 <= "10";
+	          ELSIF ADDR_B1 = '0' THEN
+	                   B1 <= "00";
+	          END IF;
+	     END PROCESS B1CHEESE;
+	     
+	B0CHEESE : PROCESS (ADDR_B0) IS
+	     BEGIN
+	          IF ADDR_B0 = '1' THEN
+	               B0 <= "10";
+	          ELSIF ADDR_B0 = '0' THEN
+	               B0 <= "00";
+	          END IF;
+	END PROCESS B0CHEESE;
+	
+END ARCHITECTURE STRUCTURAL;
+	            

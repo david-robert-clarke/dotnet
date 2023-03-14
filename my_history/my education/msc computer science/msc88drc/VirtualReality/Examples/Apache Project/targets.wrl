@@ -1,0 +1,353 @@
+#VRML V2.0 utf8
+#Ian Whitehouse, 5/5/00.
+PROTO Target[
+	eventIn SFBool explode #Cause the explosion script to run.
+	exposedField SFInt32 strength 5 #The number of hits a target can take before exploding.
+	exposedField SFVec3f highBound 5 2 5 #The high bounding box corner for the target.
+	exposedField SFVec3f lowBound -5 0 -5 #The low bounding box corner for the target.
+	exposedField SFVec3f position 0 0 0 #The position of the target.
+	field SFNode geometry NULL #The geometry that the target comprises.
+]
+{
+	PROTO Properties[#This is needed to access an exposedField inside a script.
+		exposedField SFNode geometry NULL
+		exposedField SFVec3f highBound 0 0 0
+		exposedField SFVec3f lowBound 0 0 0
+		exposedField SFVec3f position 0 0 0
+	]
+	{
+		Group{}
+	}
+
+	Transform{
+		translation IS position
+		children[
+			Sound{#The explosion sound.
+				minFront 100
+				maxFront 200
+				minBack 100
+				maxBack 200
+				intensity 1
+				source DEF noise AudioClip{
+					pitch .3
+					url "media\longgrenade.wav"
+				}
+			}
+			DEF properties Properties{#The properties of the target.
+				position IS position
+				geometry IS geometry
+				lowBound IS lowBound
+				highBound IS highBound
+			}
+			DEF scale PositionInterpolator{#The scaler for the explosion cloud.
+				keyValue[.1 .1 .1,15 15 15,15 15 15,.001 .001 .001]
+				key[0,.495,.505,1]
+			}
+			DEF color ColorInterpolator{#The colour changer for the explosion cloud.
+				keyValue[.6 0 0,1 .38 .01,.6 0 0]
+				key[0,.5,1]
+			}
+			DEF switcher Switch{#Switch node containing various stages of explosion geometry.
+				whichChoice 0
+				choice[
+                                        DEF swZero Group{}#0. Target geometry only.
+					Group{
+						children[#1. Target geometry, and explosion cloud.
+							DEF swOne Group{}
+							DEF explosion Transform{
+								scale .1 .1 .1
+								children[
+									Shape{
+										appearance Appearance{
+											material DEF cloud Material{
+												diffuseColor .6 0 0
+											}
+										}
+										geometry Sphere{radius .5}
+									}
+								]
+							}
+						]
+					}
+					USE explosion #2. Explosion cloud only.
+					Group{} #3. Blank geometry.
+				]
+			}
+			DEF time TimeSensor{cycleInterval 6} #The timer that drives the explosion
+			DEF bunkerScript Script{
+				eventIn SFBool explode IS explode
+				field SFNode properties USE properties
+				eventIn SFFloat time #The percentage progress through the explosion
+				eventOut SFInt32 choice #The current Switch node choice.
+				eventOut SFTime startNoise #The start time of the explosion.
+				eventOut SFTime stopNoise #The stop time of the explosion noise.
+				eventOut MFNode switchGeometry #The target geometry.
+				eventOut MFVec3f explosionSize #The extent of the explosion.
+				eventOut SFVec3f explosionPos #The origin of the explosion.
+				url "javascript:
+					function initialize(){
+						switchGeometry=new MFNode(properties.geometry);//Feed the target geometry to the switch node, so it appears.
+						temp=properties.highBound.subtract(properties.lowBound).length()*1.1;
+						tempVec=new SFVec3f(temp,temp,temp);//Update the scale, so that the full explosion will cover the high and low bound points
+						explosionSize=new MFVec3f(new SFVec3f(.1,.1,.1),tempVec,tempVec,new SFVec3f(.001,.001,.001))
+						explosionPos=new SFVec3f(0,(properties.highBound.y+properties.lowBound.y)/2,0); //Set the explosion origin to the centre of the target.
+					}
+
+					function explode(value,ts){//Start the explosion.
+						startNoise=ts;
+						stopNoise=ts+6;
+					}
+
+					function time(value,ts){//Switch geometries at various points through the explosion.
+						if(value>.01) choice=1;
+						if(value>.5) choice=2;
+						if(value>.99) choice=3;
+					}
+				"
+			}
+		]
+	}
+	ROUTE bunkerScript.choice		TO switcher.whichChoice
+	ROUTE bunkerScript.startNoise		TO noise.startTime
+	ROUTE bunkerScript.startNoise		TO time.startTime
+	ROUTE bunkerScript.stopNoise		TO noise.stopTime
+	ROUTE bunkerScript.switchGeometry	TO swZero.addChildren
+	ROUTE bunkerScript.switchGeometry	TO swOne.addChildren
+	ROUTE bunkerScript.explosionSize	TO scale.keyValue
+	ROUTE bunkerScript.explosionPos		TO explosion.translation
+	ROUTE time.fraction_changed		TO scale.set_fraction
+	ROUTE time.fraction_changed		TO color.set_fraction
+	ROUTE time.fraction_changed		TO bunkerScript.time
+	ROUTE scale.value_changed		TO explosion.scale
+	ROUTE color.value_changed		TO cloud.diffuseColor
+}
+
+PROTO Bunker[]
+{#Bunker target.
+	Group{
+		children[
+			Shape{
+				appearance DEF Sand Appearance{
+					material Material{
+						diffuseColor .96 .87 .7
+					}
+				}
+				geometry IndexedFaceSet{
+					coord Coordinate{
+						point[
+							-5 0 -5,5 0 -5,5 0 5,-5 0 5,
+							-4 2 -4,4 2 -4,4 2 4,-4 2 4,
+							-1.25 0 5,-1.25 2 5,1.25 2 5,1.25 0 5,
+							-.75 0 5,-.75 1.5 5,.75 1.5 5,.75 0 5,
+							-1.25 0 4,-1.25 2 4,1.25 2 4,1.25 0 4,
+							-.75 0 4,-.75 1.5 4,.75 1.5 4,.75 0 4,
+						]
+					}
+					coordIndex[
+						0,4,5,1,-1,
+						1,5,6,2,-1,
+						2,6,7,3,-1,
+						0,3,7,4,-1,
+						7,6,5,4,-1,
+                                             	9,8,12,13,-1,
+                                             	9,13,14,10,-1,
+                                             	15,11,10,14,-1,
+                                                9,17,16,8,-1,
+                                                9,10,18,17,-1,
+                                                10,11,19,18,-1,
+                                                13,12,20,21,-1,
+                                                13,21,22,14,-1,
+                                                14,22,23,15,-1,
+					]
+				}
+			}
+		]
+	}
+}
+
+PROTO Tower[]
+{#Sentry tower target.
+	Transform{
+		translation 0 2 0
+		children[
+			Shape{
+				appearance DEF Concrete Appearance{
+					material Material{
+						diffuseColor .7 .7 .7
+					}
+				}
+				geometry Box{size 2 4 2}
+			}
+			Shape{
+				appearance USE Concrete
+				geometry IndexedFaceSet{
+					coord Coordinate{
+						point[
+							-1.5 2 -1.5,1.5 2 -1.5,1.5 2 1.5,-1.5 2 1.5,
+							-1.5 2.5 -1.5,1.5 2.5 -1.5,1.5 2.5 1.5,-1.5 2.5 1.5,
+						]
+					}
+					coordIndex[
+						0,1,2,3,-1,
+						0,1,5,4,-1,
+						5,6,2,1,-1,
+						6,2,3,7,-1,
+						4,0,3,7,-1,
+					]
+					solid FALSE
+				}
+			}
+		]
+	}
+}
+
+PROTO ControlTower[]
+{#Control tower target - a sentry tower with a glass box on top, and a roof.
+	Group{
+		children[
+			Tower{}
+			Transform{
+				translation 0 5 0
+				children[
+					Shape{
+						appearance Appearance{
+							material Material{diffuseColor .4 .4 .8 transparency .6}
+						}
+						geometry Box{size 2.99 1.99 2.99}
+					}
+					Shape{
+				        	appearance Appearance{
+							material Material{
+								diffuseColor .7 .7 .7
+							}
+						}
+						geometry IndexedFaceSet{
+							coord Coordinate{
+								point[
+									-1.5 1 -1.5,1.5 1 -1.5,1.5 1 1.5,-1.5 1 1.5,
+								]
+							}
+							coordIndex[
+								0,1,2,3,-1,
+							]
+							solid FALSE
+						}
+					}
+				]
+			}
+		]
+	}
+}
+
+PROTO Hangar[]
+{
+	Transform{
+		translation 0 4 0
+		children[
+			Shape{
+				appearance Appearance{
+					material Material{
+						diffuseColor .9 .9 .9 emissiveColor 0.2 0.2 0.2
+					}
+				}
+				geometry Box{size 30 8 30}
+			}
+			Transform{
+				translation 0 -0.5 15.5
+				children[
+					Shape{
+						appearance Appearance{
+							material Material{
+								diffuseColor 1 1 1 emissiveColor 0.2 0.2 0.2
+							}
+						}
+						geometry Box{size 16 7 1}
+					}
+				]
+			}
+			Transform{
+				translation 0 4 0
+				rotation 1 0 0 1.57
+				scale 15.1 15 4
+				children[
+					Shape{
+						appearance Appearance{
+							material Material{
+								diffuseColor .9 .9 .9 emissiveColor 0.2 0.2 0.2
+							}
+						}
+						geometry Cylinder{}
+					}
+				]
+			}
+
+		]
+	}
+}
+
+PROTO Truck[]
+{
+	Group{
+		children[
+			Transform{
+				translation 0 1.75 -0.5
+				children[
+					Shape{
+						appearance Appearance{material Material{diffuseColor 0 0.2 0}}
+						geometry Box{size 2.5 2.5 4}
+					}
+				]
+			}
+			Transform{
+				translation 0 1 2
+				children[
+					Shape{
+						appearance Appearance{material Material{diffuseColor 0 0.2 0}}
+						geometry Box{size 2.5 1 1}
+					}
+				]
+			}
+			Transform{
+				translation 1.15 0.5 -1.75
+				rotation 0 0 1 1.57
+				children[
+					DEF wheel Shape{
+						appearance Appearance{material Material{diffuseColor .1 .1 .1}}
+						geometry Cylinder{height 0.3 radius 0.5}
+					}
+				]
+			}
+			Transform{
+				translation -1.15 0.5 -1.75
+				rotation 0 0 1 1.57
+				children USE wheel
+			}
+			Transform{
+				translation -1.15 .5 1.75
+				rotation 0 0 1 1.57
+				children USE wheel
+			}
+			Transform{
+				translation 1.15 .5 1.75
+				rotation 0 0 1 1.57
+				children USE wheel
+			}
+
+			Transform{
+				translation 0 1.5 1.5
+				rotation 1 0 0 .78
+				children[
+					Shape{
+						appearance Appearance{material Material{transparency 0.7}}
+						geometry Box{size 2.4 1 1}
+					}
+				]
+			}
+		]
+	}
+}
+
+
+
+
+

@@ -1,0 +1,9 @@
+file {
+  .version = 1;
+  entity {
+    .name = "ROM_MATRIX_STORE";
+    .mra_file = "ROM_MATRIX_STORE.mra";
+    .arch = {"Behavioural"};
+    .syn_files = {"ROM_MATRIX_STORE.syn", "ROM_MATRIX_STORE__BEHAVIOURAL.syn"};
+   }
+}

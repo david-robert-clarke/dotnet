@@ -1,0 +1,1015 @@
+(edif p_fy_mk3
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap
+    (keywordLevel 0))
+  (status
+    (written
+      (timeStamp 100 12 13 15 20 23)
+      (author "ALDEC")
+      (program "Xnf2Edf - Aldec's Edif 2.0.0 Netlist Generator"
+        (version "2.0.3.28"))))
+  (library Active_lib
+    (edifLevel 0)
+    (technology
+      (numberDefinition
+        (scale 1 (e 1 -11)(unit TIME))))
+    (cell AND2
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I0
+            (direction INPUT))
+          (port I1
+            (direction INPUT))
+          (port O
+            (direction OUTPUT)))))
+    (cell AND4
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I0
+            (direction INPUT))
+          (port I1
+            (direction INPUT))
+          (port I2
+            (direction INPUT))
+          (port I3
+            (direction INPUT))
+          (port O
+            (direction OUTPUT)))))
+    (cell BUF
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I
+            (direction INPUT))
+          (port O
+            (direction OUTPUT)))))
+    (cell BUFG
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I
+            (direction INPUT))
+          (port O
+            (direction OUTPUT)))))
+    (cell FDCE
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port C
+            (direction INPUT))
+          (port CLR
+            (direction INPUT))
+          (port D
+            (direction INPUT))
+          (port GSR
+            (direction INPUT))
+          (port Q
+            (direction OUTPUT)))))
+    (cell FDPE
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port C
+            (direction INPUT))
+          (port D
+            (direction INPUT))
+          (port GSR
+            (direction INPUT))
+          (port PRE
+            (direction INPUT))
+          (port Q
+            (direction OUTPUT)))))
+    (cell FMAP
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I1
+            (direction INPUT))
+          (port I2
+            (direction INPUT))
+          (port I3
+            (direction INPUT))
+          (port I4
+            (direction INPUT))
+          (port O
+            (direction INPUT)))))
+    (cell GND
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port GROUND
+            (direction OUTPUT)))))
+    (cell IBUF
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port I
+            (direction INPUT))
+          (port O
+            (direction OUTPUT)))))
+    (cell OFDX
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port C
+            (direction INPUT))
+          (port CE
+            (direction INPUT))
+          (port D
+            (direction INPUT))
+          (port GSR
+            (direction INPUT))
+          (port Q
+            (direction OUTPUT)))))
+    (cell STARTUP
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port GSR
+            (direction INPUT)))))
+    (cell VCC
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port VCC
+            (direction OUTPUT)))))
+    (cell P_FY_MK3
+      (cellType generic)
+      (view net (viewType netlist)
+        (interface
+          (port (rename aldecPort_1 "A0B0_A1B2<0>")
+            (direction OUTPUT))
+          (port (rename aldecPort_2 "A0B0_A1B2<1>")
+            (direction OUTPUT))
+          (port (rename aldecPort_3 "A0B0_A1B2<2>")
+            (direction OUTPUT))
+          (port (rename aldecPort_4 "A0B0_A1B2<3>")
+            (direction OUTPUT))
+          (port (rename aldecPort_5 "A0B0_A1B2<4>")
+            (direction OUTPUT))
+          (port (rename aldecPort_6 "A0B1_A1B3<0>")
+            (direction OUTPUT))
+          (port (rename aldecPort_7 "A0B1_A1B3<1>")
+            (direction OUTPUT))
+          (port (rename aldecPort_8 "A0B1_A1B3<2>")
+            (direction OUTPUT))
+          (port (rename aldecPort_9 "A0B1_A1B3<3>")
+            (direction OUTPUT))
+          (port (rename aldecPort_10 "A0B1_A1B3<4>")
+            (direction OUTPUT))
+          (port (rename aldecPort_11 "A2B0_A3B2<0>")
+            (direction OUTPUT))
+          (port (rename aldecPort_12 "A2B0_A3B2<1>")
+            (direction OUTPUT))
+          (port (rename aldecPort_13 "A2B0_A3B2<2>")
+            (direction OUTPUT))
+          (port (rename aldecPort_14 "A2B0_A3B2<3>")
+            (direction OUTPUT))
+          (port (rename aldecPort_15 "A2B0_A3B2<4>")
+            (direction OUTPUT))
+          (port (rename aldecPort_16 "A2B1_A3B3<0>")
+            (direction OUTPUT))
+          (port (rename aldecPort_17 "A2B1_A3B3<1>")
+            (direction OUTPUT))
+          (port (rename aldecPort_18 "A2B1_A3B3<2>")
+            (direction OUTPUT))
+          (port (rename aldecPort_19 "A2B1_A3B3<3>")
+            (direction OUTPUT))
+          (port (rename aldecPort_20 "A2B1_A3B3<4>")
+            (direction OUTPUT))
+          (port CE
+            (direction INPUT))
+          (port CLK
+            (direction INPUT))
+          (port CLR
+            (direction INPUT)))
+        (contents
+          (instance (rename aldecInstance_1 "ASM_CONFIG_1_A_CURRENT_STATE_REG<0>")
+            (viewRef net
+              (cellRef FDPE))
+            (property INIT (string "S"))
+            (property LIBVER (string "2.0.0")))
+          (instance (rename aldecInstance_2 "ASM_CONFIG_1_A_CURRENT_STATE_REG<1>")
+            (viewRef net
+              (cellRef FDCE))
+            (property LIBVER (string "2.0.0")))
+          (instance (rename aldecInstance_3 "ASM_CONFIG_1_A_CURRENT_STATE_REG<2>")
+            (viewRef net
+              (cellRef FDCE))
+            (property LIBVER (string "2.0.0")))
+          (instance (rename aldecInstance_4 "ASM_CONFIG_1_A_CURRENT_STATE_REG<3>")
+            (viewRef net
+              (cellRef FDCE))
+            (property LIBVER (string "2.0.0")))
+          (instance (rename aldecInstance_5 "ASM_CONFIG_1_A_CURRENT_STATE_REG<4>")
+            (viewRef net
+              (cellRef FDCE))
+            (property LIBVER (string "2.0.0")))
+          (instance (rename aldecInstance_6 "ASM_CONFIG_1_A_CURRENT_STATE_REG<5>")
+            (viewRef net
+              (cellRef FDCE))
+            (property LIBVER (string "2.0.0")))
+          (instance (rename aldecInstance_7 "ASM_CONFIG_1_A_CURRENT_STATE_REG<6>")
+            (viewRef net
+              (cellRef FDCE))
+            (property LIBVER (string "2.0.0")))
+          (instance (rename aldecInstance_8 "ASM_CONFIG_1_A_CURRENT_STATE_REG<7>")
+            (viewRef net
+              (cellRef FDCE))
+            (property LIBVER (string "2.0.0")))
+          (instance C135
+            (viewRef net
+              (cellRef STARTUP))
+            (property LIBVER (string "2.0.0")))
+          (instance C136
+            (viewRef net
+              (cellRef IBUF))
+            (property LIBVER (string "2.0.0")))
+          (instance C138
+            (viewRef net
+              (cellRef IBUF))
+            (property LIBVER (string "2.0.0")))
+          (instance C205_C0
+            (viewRef net
+              (cellRef AND2))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C206_C0
+            (viewRef net
+              (cellRef BUF))
+            (portInstance I
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C206_C1
+            (viewRef net
+              (cellRef AND2))
+            (portInstance I0
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C207_C0
+            (viewRef net
+              (cellRef BUF))
+            (portInstance I
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C207_C1
+            (viewRef net
+              (cellRef AND4))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance I2
+              (property INV (string "")))
+            (portInstance I3
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C208_C0
+            (viewRef net
+              (cellRef BUF))
+            (portInstance I
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C208_C1
+            (viewRef net
+              (cellRef AND4))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance I2
+              (property INV (string "")))
+            (portInstance I3
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C209_C0
+            (viewRef net
+              (cellRef BUF))
+            (portInstance I
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C209_C1
+            (viewRef net
+              (cellRef AND2))
+            (portInstance I0
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C210_C0
+            (viewRef net
+              (cellRef AND2))
+            (portInstance I0
+              (property INV (string "")))
+            (portInstance I1
+              (property INV (string "")))
+            (portInstance O
+              (property INV (string "")))
+            (property LIBVER (string "2.0.0")))
+          (instance C213
+            (viewRef net
+              (cellRef BUFG))
+            (property LIBVER (string "2.0.0")))
+          (instance C214
+            (viewRef net
+              (cellRef BUFG))
+            (property LIBVER (string "2.0.0")))
+          (instance C215
+            (viewRef net
+              (cellRef BUFG))
+            (property LIBVER (string "2.0.0")))
+          (instance C216
+            (viewRef net
+              (cellRef BUFG))
+            (property LIBVER (string "2.0.0")))
+          (instance C217
+            (viewRef net
+              (cellRef BUFG))
+            (property LIBVER (string "2.0.0")))
+          (instance DSP_A_MEMORY_FDCE0_Q_REG
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance DSP_A_MEMORY_FDCE10_Q_REG
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance DSP_A_MEMORY_FDCE11_Q_REG
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance DSP_A_MEMORY_FDCE12_Q_REG
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance DSP_A_MEMORY_FDCE13_Q_REG
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance DSP_A_MEMORY_FDCE14_Q_REG
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance DSP_A_MEMORY_FDCE15_Q_REG
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance DSP_A_MEMORY_FDCE16_Q_REG
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance DSP_A_MEMORY_FDCE17_Q_REG
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance DSP_A_MEMORY_FDCE18_Q_REG
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance DSP_A_MEMORY_FDCE19_Q_REG
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance DSP_A_MEMORY_FDCE1_Q_REG
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance DSP_A_MEMORY_FDCE2_Q_REG
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance DSP_A_MEMORY_FDCE3_Q_REG
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance DSP_A_MEMORY_FDCE4_Q_REG
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance DSP_A_MEMORY_FDCE5_Q_REG
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance DSP_A_MEMORY_FDCE6_Q_REG
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance DSP_A_MEMORY_FDCE7_Q_REG
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance DSP_A_MEMORY_FDCE8_Q_REG
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance DSP_A_MEMORY_FDCE9_Q_REG
+            (viewRef net
+              (cellRef OFDX))
+            (property LIBVER (string "2.0.0"))
+            (property SLOW (string "")))
+          (instance FMAP_0
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_1
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_2
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_3
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_4
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance FMAP_5
+            (viewRef net
+              (cellRef FMAP))
+            (property LIBVER (string "2.0.0")))
+          (instance I0_FROM_NET_GND
+            (viewRef net
+              (cellRef GND)))
+          (instance I1_FROM_NET_VCC
+            (viewRef net
+              (cellRef VCC)))
+          (net (rename aldecNet_1 "A0B0_A1B2<0>")
+            (joined 
+              (portRef aldecPort_1)
+              (portRef Q
+                (instanceRef DSP_A_MEMORY_FDCE15_Q_reg))))
+          (net (rename aldecNet_2 "A0B0_A1B2<1>")
+            (joined 
+              (portRef aldecPort_2)
+              (portRef Q
+                (instanceRef DSP_A_MEMORY_FDCE16_Q_reg))))
+          (net (rename aldecNet_3 "A0B0_A1B2<2>")
+            (joined 
+              (portRef aldecPort_3)
+              (portRef Q
+                (instanceRef DSP_A_MEMORY_FDCE17_Q_reg))))
+          (net (rename aldecNet_4 "A0B0_A1B2<3>")
+            (joined 
+              (portRef aldecPort_4)
+              (portRef Q
+                (instanceRef DSP_A_MEMORY_FDCE18_Q_reg))))
+          (net (rename aldecNet_5 "A0B0_A1B2<4>")
+            (joined 
+              (portRef aldecPort_5)
+              (portRef Q
+                (instanceRef DSP_A_MEMORY_FDCE19_Q_reg))))
+          (net (rename aldecNet_6 "A0B1_A1B3<0>")
+            (joined 
+              (portRef aldecPort_6)
+              (portRef Q
+                (instanceRef DSP_A_MEMORY_FDCE10_Q_reg))))
+          (net (rename aldecNet_7 "A0B1_A1B3<1>")
+            (joined 
+              (portRef aldecPort_7)
+              (portRef Q
+                (instanceRef DSP_A_MEMORY_FDCE11_Q_reg))))
+          (net (rename aldecNet_8 "A0B1_A1B3<2>")
+            (joined 
+              (portRef aldecPort_8)
+              (portRef Q
+                (instanceRef DSP_A_MEMORY_FDCE12_Q_reg))))
+          (net (rename aldecNet_9 "A0B1_A1B3<3>")
+            (joined 
+              (portRef aldecPort_9)
+              (portRef Q
+                (instanceRef DSP_A_MEMORY_FDCE13_Q_reg))))
+          (net (rename aldecNet_10 "A0B1_A1B3<4>")
+            (joined 
+              (portRef aldecPort_10)
+              (portRef Q
+                (instanceRef DSP_A_MEMORY_FDCE14_Q_reg))))
+          (net (rename aldecNet_11 "A2B0_A3B2<0>")
+            (joined 
+              (portRef aldecPort_11)
+              (portRef Q
+                (instanceRef DSP_A_MEMORY_FDCE5_Q_reg))))
+          (net (rename aldecNet_12 "A2B0_A3B2<1>")
+            (joined 
+              (portRef aldecPort_12)
+              (portRef Q
+                (instanceRef DSP_A_MEMORY_FDCE6_Q_reg))))
+          (net (rename aldecNet_13 "A2B0_A3B2<2>")
+            (joined 
+              (portRef aldecPort_13)
+              (portRef Q
+                (instanceRef DSP_A_MEMORY_FDCE7_Q_reg))))
+          (net (rename aldecNet_14 "A2B0_A3B2<3>")
+            (joined 
+              (portRef aldecPort_14)
+              (portRef Q
+                (instanceRef DSP_A_MEMORY_FDCE8_Q_reg))))
+          (net (rename aldecNet_15 "A2B0_A3B2<4>")
+            (joined 
+              (portRef aldecPort_15)
+              (portRef Q
+                (instanceRef DSP_A_MEMORY_FDCE9_Q_reg))))
+          (net (rename aldecNet_16 "A2B1_A3B3<0>")
+            (joined 
+              (portRef aldecPort_16)
+              (portRef Q
+                (instanceRef DSP_A_MEMORY_FDCE0_Q_reg))))
+          (net (rename aldecNet_17 "A2B1_A3B3<1>")
+            (joined 
+              (portRef aldecPort_17)
+              (portRef Q
+                (instanceRef DSP_A_MEMORY_FDCE1_Q_reg))))
+          (net (rename aldecNet_18 "A2B1_A3B3<2>")
+            (joined 
+              (portRef aldecPort_18)
+              (portRef Q
+                (instanceRef DSP_A_MEMORY_FDCE2_Q_reg))))
+          (net (rename aldecNet_19 "A2B1_A3B3<3>")
+            (joined 
+              (portRef aldecPort_19)
+              (portRef Q
+                (instanceRef DSP_A_MEMORY_FDCE3_Q_reg))))
+          (net (rename aldecNet_20 "A2B1_A3B3<4>")
+            (joined 
+              (portRef aldecPort_20)
+              (portRef Q
+                (instanceRef DSP_A_MEMORY_FDCE4_Q_reg))))
+          (net (rename aldecNet_21 "ASM_CONFIG_1_A_CURRENT_STATE<0>")
+            (joined 
+              (portRef Q
+                (instanceRef aldecInstance_1))
+              (portRef D
+                (instanceRef aldecInstance_2))
+              (portRef I1
+                (instanceRef c207_c1))
+              (portRef I2
+                (instanceRef FMAP_2))
+              (portRef I1
+                (instanceRef c208_c1))
+              (portRef I2
+                (instanceRef FMAP_3))))
+          (net (rename aldecNet_22 "ASM_CONFIG_1_A_CURRENT_STATE<2>")
+            (joined 
+              (portRef Q
+                (instanceRef aldecInstance_3))
+              (portRef D
+                (instanceRef aldecInstance_4))
+              (portRef I3
+                (instanceRef c208_c1))
+              (portRef I4
+                (instanceRef FMAP_3))))
+          (net (rename aldecNet_23 "ASM_CONFIG_1_A_CURRENT_STATE<4>")
+            (joined 
+              (portRef Q
+                (instanceRef aldecInstance_5))
+              (portRef D
+                (instanceRef aldecInstance_6))
+              (portRef I3
+                (instanceRef c207_c1))
+              (portRef I4
+                (instanceRef FMAP_2))))
+          (net (rename aldecNet_24 "ASM_CONFIG_1_A_CURRENT_STATE<6>")
+            (joined 
+              (portRef Q
+                (instanceRef aldecInstance_7))
+              (portRef I1
+                (instanceRef c210_c0))
+              (portRef I2
+                (instanceRef FMAP_5))))
+          (net ASM_CONFIG_1_A_N24
+            (joined 
+              (portRef D
+                (instanceRef aldecInstance_8))
+              (portRef O
+                (instanceRef c210_c0))
+              (portRef O
+                (instanceRef FMAP_5))))
+          (net C206_N0
+            (joined 
+              (portRef I
+                (instanceRef c206_c0))
+              (portRef O
+                (instanceRef c206_c1))))
+          (net C207_N0
+            (joined 
+              (portRef I
+                (instanceRef c207_c0))
+              (portRef O
+                (instanceRef c207_c1))))
+          (net C208_N0
+            (joined 
+              (portRef I
+                (instanceRef c208_c0))
+              (portRef O
+                (instanceRef c208_c1))))
+          (net C209_N0
+            (joined 
+              (portRef I
+                (instanceRef c209_c0))
+              (portRef O
+                (instanceRef c209_c1))))
+          (net CE
+            (joined 
+              (portRef CE)
+              (portRef I
+                (instanceRef C136))))
+          (net CLK
+            (joined 
+              (portRef CLK)
+              (portRef I
+                (instanceRef C213))))
+          (net CLK_BUFGED
+            (joined 
+              (portRef C
+                (instanceRef aldecInstance_5))
+              (portRef C
+                (instanceRef aldecInstance_1))
+              (portRef C
+                (instanceRef aldecInstance_3))
+              (portRef C
+                (instanceRef aldecInstance_7))
+              (portRef C
+                (instanceRef aldecInstance_8))
+              (portRef C
+                (instanceRef aldecInstance_2))
+              (portRef C
+                (instanceRef aldecInstance_4))
+              (portRef C
+                (instanceRef aldecInstance_6))
+              (portRef O
+                (instanceRef C213))))
+          (net CLR
+            (joined 
+              (portRef CLR)
+              (portRef I
+                (instanceRef C138))))
+          (net DSP_A_ADDER_1_ADDERN02_N_1
+            (joined 
+              (portRef D
+                (instanceRef DSP_A_MEMORY_FDCE16_Q_reg))
+              (portRef D
+                (instanceRef DSP_A_MEMORY_FDCE11_Q_reg))
+              (portRef D
+                (instanceRef DSP_A_MEMORY_FDCE6_Q_reg))
+              (portRef D
+                (instanceRef DSP_A_MEMORY_FDCE1_Q_reg))
+              (portRef I1
+                (instanceRef c205_c0))
+              (portRef I2
+                (instanceRef FMAP_0))
+              (portRef I1
+                (instanceRef c206_c1))
+              (portRef I2
+                (instanceRef FMAP_1))
+              (portRef O
+                (instanceRef c207_c0))
+              (portRef O
+                (instanceRef FMAP_2))))
+          (net (rename aldecNet_35 "DSP_A_SOP_BUS<2>")
+            (joined 
+              (portRef D
+                (instanceRef DSP_A_MEMORY_FDCE17_Q_reg))
+              (portRef D
+                (instanceRef DSP_A_MEMORY_FDCE12_Q_reg))
+              (portRef D
+                (instanceRef DSP_A_MEMORY_FDCE7_Q_reg))
+              (portRef D
+                (instanceRef DSP_A_MEMORY_FDCE2_Q_reg))
+              (portRef O
+                (instanceRef c205_c0))
+              (portRef O
+                (instanceRef FMAP_0))))
+          (net (rename aldecNet_36 "DSP_A_SOP_BUS<3>")
+            (joined 
+              (portRef D
+                (instanceRef DSP_A_MEMORY_FDCE18_Q_reg))
+              (portRef D
+                (instanceRef DSP_A_MEMORY_FDCE13_Q_reg))
+              (portRef D
+                (instanceRef DSP_A_MEMORY_FDCE8_Q_reg))
+              (portRef D
+                (instanceRef DSP_A_MEMORY_FDCE3_Q_reg))
+              (portRef O
+                (instanceRef c206_c0))
+              (portRef O
+                (instanceRef FMAP_1))))
+          (net N3
+            (joined 
+              (portRef GSR
+                (instanceRef C135))
+              (portRef O
+                (instanceRef C138))
+              (portRef I0
+                (instanceRef c209_c1))
+              (portRef I1
+                (instanceRef FMAP_4))
+              (portRef GSR
+                (instanceRef aldecInstance_1))
+              (portRef GSR
+                (instanceRef aldecInstance_2))
+              (portRef GSR
+                (instanceRef aldecInstance_3))
+              (portRef GSR
+                (instanceRef aldecInstance_4))
+              (portRef GSR
+                (instanceRef aldecInstance_5))
+              (portRef GSR
+                (instanceRef aldecInstance_6))
+              (portRef GSR
+                (instanceRef aldecInstance_7))
+              (portRef GSR
+                (instanceRef aldecInstance_8))
+              (portRef GSR
+                (instanceRef DSP_A_MEMORY_FDCE0_Q_reg))
+              (portRef GSR
+                (instanceRef DSP_A_MEMORY_FDCE10_Q_reg))
+              (portRef GSR
+                (instanceRef DSP_A_MEMORY_FDCE11_Q_reg))
+              (portRef GSR
+                (instanceRef DSP_A_MEMORY_FDCE12_Q_reg))
+              (portRef GSR
+                (instanceRef DSP_A_MEMORY_FDCE13_Q_reg))
+              (portRef GSR
+                (instanceRef DSP_A_MEMORY_FDCE14_Q_reg))
+              (portRef GSR
+                (instanceRef DSP_A_MEMORY_FDCE15_Q_reg))
+              (portRef GSR
+                (instanceRef DSP_A_MEMORY_FDCE16_Q_reg))
+              (portRef GSR
+                (instanceRef DSP_A_MEMORY_FDCE17_Q_reg))
+              (portRef GSR
+                (instanceRef DSP_A_MEMORY_FDCE18_Q_reg))
+              (portRef GSR
+                (instanceRef DSP_A_MEMORY_FDCE19_Q_reg))
+              (portRef GSR
+                (instanceRef DSP_A_MEMORY_FDCE1_Q_reg))
+              (portRef GSR
+                (instanceRef DSP_A_MEMORY_FDCE2_Q_reg))
+              (portRef GSR
+                (instanceRef DSP_A_MEMORY_FDCE3_Q_reg))
+              (portRef GSR
+                (instanceRef DSP_A_MEMORY_FDCE4_Q_reg))
+              (portRef GSR
+                (instanceRef DSP_A_MEMORY_FDCE5_Q_reg))
+              (portRef GSR
+                (instanceRef DSP_A_MEMORY_FDCE6_Q_reg))
+              (portRef GSR
+                (instanceRef DSP_A_MEMORY_FDCE7_Q_reg))
+              (portRef GSR
+                (instanceRef DSP_A_MEMORY_FDCE8_Q_reg))
+              (portRef GSR
+                (instanceRef DSP_A_MEMORY_FDCE9_Q_reg))))
+          (net N32
+            (joined 
+              (portRef D
+                (instanceRef DSP_A_MEMORY_FDCE15_Q_reg))
+              (portRef D
+                (instanceRef DSP_A_MEMORY_FDCE10_Q_reg))
+              (portRef D
+                (instanceRef DSP_A_MEMORY_FDCE5_Q_reg))
+              (portRef D
+                (instanceRef DSP_A_MEMORY_FDCE0_Q_reg))
+              (portRef VCC
+                (instanceRef I1_from_net_VCC))))
+          (net N4
+            (joined 
+              (portRef CE
+                (instanceRef DSP_A_MEMORY_FDCE19_Q_reg))
+              (portRef CE
+                (instanceRef DSP_A_MEMORY_FDCE18_Q_reg))
+              (portRef CE
+                (instanceRef DSP_A_MEMORY_FDCE17_Q_reg))
+              (portRef CE
+                (instanceRef DSP_A_MEMORY_FDCE16_Q_reg))
+              (portRef CE
+                (instanceRef DSP_A_MEMORY_FDCE15_Q_reg))
+              (portRef CE
+                (instanceRef DSP_A_MEMORY_FDCE14_Q_reg))
+              (portRef CE
+                (instanceRef DSP_A_MEMORY_FDCE13_Q_reg))
+              (portRef CE
+                (instanceRef DSP_A_MEMORY_FDCE12_Q_reg))
+              (portRef CE
+                (instanceRef DSP_A_MEMORY_FDCE11_Q_reg))
+              (portRef CE
+                (instanceRef DSP_A_MEMORY_FDCE10_Q_reg))
+              (portRef CE
+                (instanceRef DSP_A_MEMORY_FDCE9_Q_reg))
+              (portRef CE
+                (instanceRef DSP_A_MEMORY_FDCE8_Q_reg))
+              (portRef CE
+                (instanceRef DSP_A_MEMORY_FDCE7_Q_reg))
+              (portRef CE
+                (instanceRef DSP_A_MEMORY_FDCE6_Q_reg))
+              (portRef CE
+                (instanceRef DSP_A_MEMORY_FDCE5_Q_reg))
+              (portRef CE
+                (instanceRef DSP_A_MEMORY_FDCE4_Q_reg))
+              (portRef CE
+                (instanceRef DSP_A_MEMORY_FDCE3_Q_reg))
+              (portRef CE
+                (instanceRef DSP_A_MEMORY_FDCE2_Q_reg))
+              (portRef CE
+                (instanceRef DSP_A_MEMORY_FDCE1_Q_reg))
+              (portRef CE
+                (instanceRef DSP_A_MEMORY_FDCE0_Q_reg))
+              (portRef O
+                (instanceRef c209_c0))
+              (portRef O
+                (instanceRef FMAP_4))))
+          (net N53
+            (joined 
+              (portRef Q
+                (instanceRef aldecInstance_2))
+              (portRef I
+                (instanceRef C214))))
+          (net N53_BUFGED
+            (joined 
+              (portRef D
+                (instanceRef aldecInstance_3))
+              (portRef C
+                (instanceRef DSP_A_MEMORY_FDCE19_Q_reg))
+              (portRef C
+                (instanceRef DSP_A_MEMORY_FDCE18_Q_reg))
+              (portRef C
+                (instanceRef DSP_A_MEMORY_FDCE17_Q_reg))
+              (portRef C
+                (instanceRef DSP_A_MEMORY_FDCE16_Q_reg))
+              (portRef C
+                (instanceRef DSP_A_MEMORY_FDCE15_Q_reg))
+              (portRef I0
+                (instanceRef c207_c1))
+              (portRef I1
+                (instanceRef FMAP_2))
+              (portRef I0
+                (instanceRef c208_c1))
+              (portRef I1
+                (instanceRef FMAP_3))
+              (portRef O
+                (instanceRef C214))))
+          (net N54
+            (joined 
+              (portRef Q
+                (instanceRef aldecInstance_4))
+              (portRef I
+                (instanceRef C215))))
+          (net N54_BUFGED
+            (joined 
+              (portRef D
+                (instanceRef aldecInstance_5))
+              (portRef C
+                (instanceRef DSP_A_MEMORY_FDCE14_Q_reg))
+              (portRef C
+                (instanceRef DSP_A_MEMORY_FDCE13_Q_reg))
+              (portRef C
+                (instanceRef DSP_A_MEMORY_FDCE12_Q_reg))
+              (portRef C
+                (instanceRef DSP_A_MEMORY_FDCE11_Q_reg))
+              (portRef C
+                (instanceRef DSP_A_MEMORY_FDCE10_Q_reg))
+              (portRef I2
+                (instanceRef c208_c1))
+              (portRef I3
+                (instanceRef FMAP_3))
+              (portRef O
+                (instanceRef C215))))
+          (net N55
+            (joined 
+              (portRef Q
+                (instanceRef aldecInstance_6))
+              (portRef I
+                (instanceRef C216))))
+          (net N55_BUFGED
+            (joined 
+              (portRef D
+                (instanceRef aldecInstance_7))
+              (portRef C
+                (instanceRef DSP_A_MEMORY_FDCE9_Q_reg))
+              (portRef C
+                (instanceRef DSP_A_MEMORY_FDCE8_Q_reg))
+              (portRef C
+                (instanceRef DSP_A_MEMORY_FDCE7_Q_reg))
+              (portRef C
+                (instanceRef DSP_A_MEMORY_FDCE6_Q_reg))
+              (portRef C
+                (instanceRef DSP_A_MEMORY_FDCE5_Q_reg))
+              (portRef I2
+                (instanceRef c207_c1))
+              (portRef I3
+                (instanceRef FMAP_2))
+              (portRef O
+                (instanceRef C216))))
+          (net N56
+            (joined 
+              (portRef Q
+                (instanceRef aldecInstance_8))
+              (portRef I
+                (instanceRef C217))))
+          (net N56_BUFGED
+            (joined 
+              (portRef C
+                (instanceRef DSP_A_MEMORY_FDCE4_Q_reg))
+              (portRef C
+                (instanceRef DSP_A_MEMORY_FDCE3_Q_reg))
+              (portRef C
+                (instanceRef DSP_A_MEMORY_FDCE2_Q_reg))
+              (portRef C
+                (instanceRef DSP_A_MEMORY_FDCE1_Q_reg))
+              (portRef C
+                (instanceRef DSP_A_MEMORY_FDCE0_Q_reg))
+              (portRef I0
+                (instanceRef c210_c0))
+              (portRef I1
+                (instanceRef FMAP_5))
+              (portRef O
+                (instanceRef C217))))
+          (net N_CE
+            (joined 
+              (portRef O
+                (instanceRef C136))
+              (portRef I1
+                (instanceRef c209_c1))
+              (portRef I2
+                (instanceRef FMAP_4))))
+          (net N_CLR
+            (joined 
+              (portRef CLR
+                (instanceRef aldecInstance_5))
+              (portRef D
+                (instanceRef aldecInstance_1))
+              (portRef PRE
+                (instanceRef aldecInstance_1))
+              (portRef CLR
+                (instanceRef aldecInstance_3))
+              (portRef CLR
+                (instanceRef aldecInstance_7))
+              (portRef CLR
+                (instanceRef aldecInstance_8))
+              (portRef CLR
+                (instanceRef aldecInstance_2))
+              (portRef CLR
+                (instanceRef aldecInstance_4))
+              (portRef CLR
+                (instanceRef aldecInstance_6))
+              (portRef D
+                (instanceRef DSP_A_MEMORY_FDCE19_Q_reg))
+              (portRef D
+                (instanceRef DSP_A_MEMORY_FDCE14_Q_reg))
+              (portRef D
+                (instanceRef DSP_A_MEMORY_FDCE9_Q_reg))
+              (portRef D
+                (instanceRef DSP_A_MEMORY_FDCE4_Q_reg))
+              (portRef GROUND
+                (instanceRef I0_from_net_GND))))
+          (net SYN241
+            (joined 
+              (portRef I0
+                (instanceRef c205_c0))
+              (portRef I1
+                (instanceRef FMAP_0))
+              (portRef I0
+                (instanceRef c206_c1))
+              (portRef I1
+                (instanceRef FMAP_1))
+              (portRef O
+                (instanceRef c208_c0))
+              (portRef O
+                (instanceRef FMAP_3))))))))
+  (design p_fy_mk3
+    (cellRef p_fy_mk3
+      (libraryRef Active_lib))
+    (property PART (string "4010XL-PC84-09"))))

@@ -1,0 +1,126 @@
+Thu Dec 21 14:57:39 2000
+
+File: cons_123.dly
+
+ The 20 Worst Net Delays are:
+-------------------------------
+| Max Delay (ns)  | Netname   |
+-------------------------------
+   0.000            CLK
+   0.000            CLK_BUFGed
+   0.000            N43
+   0.000            N63
+   0.000            N42
+   0.000            N68
+   0.000            N53
+   0.000            N73
+   0.000            CONFIG_2_Data_SelBus
+---------------------------------
+
+-------------------------------------------------------------------------------
+                               Net Delays
+-------------------------------------------------------------------------------
+
+CLK
+   CLK.CLKIN
+         UNR  C1029.I
+
+CLK_BUFGed
+   C1029.O
+         UNR  A0B0_A1B2_CONFIG_1<0>.OK
+         UNR  A0B0_A1B2_CONFIG_1<1>.OK
+         UNR  A0B0_A1B2_CONFIG_1<2>.OK
+         UNR  A0B0_A1B2_CONFIG_1<3>.OK
+         UNR  A0B0_A1B2_CONFIG_2<0>.OK
+         UNR  A0B0_A1B2_CONFIG_2<2>.OK
+         UNR  A0B0_A1B2_CONFIG_3<0>.OK
+         UNR  A0B0_A1B2_CONFIG_3<2>.OK
+         UNR  A0B1_A1B3_CONFIG_1<0>.OK
+         UNR  A0B1_A1B3_CONFIG_1<1>.OK
+         UNR  A0B1_A1B3_CONFIG_1<2>.OK
+         UNR  A0B1_A1B3_CONFIG_1<3>.OK
+         UNR  A0B1_A1B3_CONFIG_2<0>.OK
+         UNR  A0B1_A1B3_CONFIG_2<1>.OK
+         UNR  A0B1_A1B3_CONFIG_2<2>.OK
+         UNR  A0B1_A1B3_CONFIG_2<3>.OK
+         UNR  A0B1_A1B3_CONFIG_3<0>.OK
+         UNR  A0B1_A1B3_CONFIG_3<1>.OK
+         UNR  A0B1_A1B3_CONFIG_3<3>.OK
+         UNR  A2B0_A3B2_CONFIG_1<0>.OK
+         UNR  A2B0_A3B2_CONFIG_1<1>.OK
+         UNR  A2B0_A3B2_CONFIG_1<2>.OK
+         UNR  A2B0_A3B2_CONFIG_1<3>.OK
+         UNR  A2B0_A3B2_CONFIG_2<0>.OK
+         UNR  A2B0_A3B2_CONFIG_2<2>.OK
+         UNR  A2B0_A3B2_CONFIG_3<0>.OK
+         UNR  A2B0_A3B2_CONFIG_3<2>.OK
+         UNR  A2B1_A3B3_CONFIG_1<0>.OK
+         UNR  A2B1_A3B3_CONFIG_1<1>.OK
+         UNR  A2B1_A3B3_CONFIG_1<2>.OK
+         UNR  A2B1_A3B3_CONFIG_1<3>.OK
+         UNR  A2B1_A3B3_CONFIG_2<0>.OK
+         UNR  A2B1_A3B3_CONFIG_2<1>.OK
+         UNR  A2B1_A3B3_CONFIG_2<2>.OK
+         UNR  A2B1_A3B3_CONFIG_2<3>.OK
+         UNR  A2B1_A3B3_CONFIG_3<0>.OK
+         UNR  A2B1_A3B3_CONFIG_3<1>.OK
+         UNR  A2B1_A3B3_CONFIG_3<2>.OK
+         UNR  N73.K
+
+CONFIG_2_Data_SelBus
+   N73.XQ
+         UNR  N43.F2
+         UNR  A0B1_A1B3_CONFIG_2<2>.O
+         UNR  A0B1_A1B3_CONFIG_2<3>.O
+         UNR  A2B1_A3B3_CONFIG_2<2>.O
+         UNR  A2B1_A3B3_CONFIG_2<3>.O
+         UNR  N73.G2
+
+N42
+   RESET.I1
+         UNR  U1.GSR
+         UNR  N73.F1
+         UNR  N73.G1
+         UNR  N68.F1
+         UNR  N68.G2
+         UNR  N43.F1
+
+N43
+   N43.X
+         UNR  A0B0_A1B2_CONFIG_2<0>.EC
+         UNR  A0B0_A1B2_CONFIG_2<2>.EC
+         UNR  A0B1_A1B3_CONFIG_2<0>.EC
+         UNR  A0B1_A1B3_CONFIG_2<1>.EC
+         UNR  A0B1_A1B3_CONFIG_2<2>.EC
+         UNR  A0B1_A1B3_CONFIG_2<3>.EC
+
+N53
+   N73.Y
+         UNR  A2B0_A3B2_CONFIG_2<0>.EC
+         UNR  A2B0_A3B2_CONFIG_2<2>.EC
+         UNR  A2B1_A3B3_CONFIG_2<0>.EC
+         UNR  A2B1_A3B3_CONFIG_2<1>.EC
+         UNR  A2B1_A3B3_CONFIG_2<2>.EC
+         UNR  A2B1_A3B3_CONFIG_2<3>.EC
+
+N63
+   N68.Y
+         UNR  A0B0_A1B2_CONFIG_1<0>.EC
+         UNR  A0B0_A1B2_CONFIG_1<1>.EC
+         UNR  A0B0_A1B2_CONFIG_1<2>.EC
+         UNR  A0B0_A1B2_CONFIG_1<3>.EC
+
+N68
+   N68.X
+         UNR  A0B1_A1B3_CONFIG_1<0>.EC
+         UNR  A0B1_A1B3_CONFIG_1<1>.EC
+         UNR  A0B1_A1B3_CONFIG_1<2>.EC
+         UNR  A0B1_A1B3_CONFIG_1<3>.EC
+
+N73
+   N73.X
+         UNR  A2B0_A3B2_CONFIG_1<0>.EC
+         UNR  A2B0_A3B2_CONFIG_1<1>.EC
+         UNR  A2B0_A3B2_CONFIG_1<2>.EC
+         UNR  A2B0_A3B2_CONFIG_1<3>.EC
+

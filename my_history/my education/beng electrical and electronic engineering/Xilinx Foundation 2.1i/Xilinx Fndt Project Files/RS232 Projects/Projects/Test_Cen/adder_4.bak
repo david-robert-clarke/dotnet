@@ -1,0 +1,26 @@
+-- Final Year Project
+-- By David Clarke
+-- Created: 18_12_2000
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_ARITH.ALL;
+USE WORK.MATRIX_PACKAGE.ALL;
+--
+ENTITY ADDER_4 IS
+PORT (A, B  : IN U_FOUR_BITS;  S : OUT U_FOUR_BITS; C1 : OUT STD_LOGIC);
+END ENTITY ADDER_4;
+--
+ARCHITECTURE BEHAVIOURAL OF ADDER_4 IS
+
+SIGNAL C0 : std_logic;
+
+BEGIN
+
+       S(0) <= A(0) XOR B(0);
+       C0   <= A(0) AND B(0);
+       
+       S(1) <= A(1)  XOR B(1) XOR C0;
+       C1   <= (A(1) AND B(1)) OR (A(1) AND C0) OR (B(1) AND C0); 
+
+END ARCHITECTURE BEHAVIOURAL;
+  

@@ -1,0 +1,3 @@
+c:\fndtn\active\projects\cons_123\data_store.vhd 9 0:E:#0 Error: C:/fndtn/active/projects/cons_123/data_store.vhd  line 9   No selected element named MATRIX_PACKAGE is defined for this prefix.  (VSS-573) 
+c:\fndtn\active\projects\cons_123\data_store.vhd 12 0:E:#0 Error: C:/fndtn/active/projects/cons_123/data_store.vhd  line 12   U_LONG_WORD is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+c:\fndtn\active\projects\cons_123\data_store.vhd 15 0:E:#0 Error: C:/fndtn/active/projects/cons_123/data_store.vhd  line 15   The intermediate file for entity DATA_STORE is not in the library bound to WORK.  (VSS-1084) 

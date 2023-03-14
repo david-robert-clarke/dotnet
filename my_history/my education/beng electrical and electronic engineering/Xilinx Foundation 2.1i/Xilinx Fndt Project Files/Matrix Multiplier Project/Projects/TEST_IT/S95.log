@@ -1,0 +1,817 @@
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\lut_4_bit_adder.vhd Error   L5/C0 : #0 Error: C:/fndtn/active/projects/test_it/lut_4_bit_adder.vhd  line 5   STD_LOGIC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\lut_4_bit_adder.vhd Error   L9/C0 : #0 Error: C:/fndtn/active/projects/test_it/lut_4_bit_adder.vhd  line 9   The intermediate file for entity LUT_4_BIT_ADDER is not in the library bound to WORK.  (VSS-1084) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\lut_4_bit_adder.vhd Error   L5/C0 : #0 Error: C:/fndtn/active/projects/test_it/lut_4_bit_adder.vhd  line 5   IEEE_STD_LOGIC_1164 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\lut_4_bit_adder.vhd Error   L12/C0 : #0 Error: C:/fndtn/active/projects/test_it/lut_4_bit_adder.vhd  line 12   The intermediate file for entity LUT_4_BIT_ADDER is not in the library bound to WORK.  (VSS-1084) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\adder_4_bit.vhd Error   L12/C0 : #0 Error: C:/fndtn/active/projects/test_it/adder_4_bit.vhd  line 12   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\adder_4_bit.vhd Error   L8/C0 : #0 Error: C:/fndtn/active/projects/test_it/adder_4_bit.vhd  line 8   U_4_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\adder_4_bit.vhd Warning   L-1/C0 : #0 Warning: The entity 'ADDER_4_BIT' is out of date with respect to its   source file 'C:/fndtn/active/projects/test_it/adder_4_bit.vhd'.  (LBR-3) 
+CM:  2 error(s) 1 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 30   All possible string values of selector type not covered by choices.  (VSS-1032) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L7/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 7   UNSIGNED is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L10/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 10   The intermediate file for entity MANY_MUL is not in the library bound to WORK.  (VSS-1084) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L22/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 22   Syntax error - unexpected end of input.  (VSS-1081) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L23/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 23   Syntax error - unexpected end of input.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L8/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 8   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 39   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L8/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 8   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 39   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L15/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 15   Type mismatch over assignment operation (Target data type: Anonymous subtype of UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH, Source data type: STD_ULOGIC declared in PACKAGE IEEE.STD_LOGIC_1164).  (VSS-1023) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L17/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 17   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L17/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 17   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L18/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 18   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L18/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 18   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L19/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 19   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L19/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 19   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 20   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 20   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 21   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 21   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L22/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 22   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L22/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 22   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L23/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 23   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L23/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 23   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L24/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 24   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L24/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 24   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 25   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 25   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L26/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 26   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L26/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 26   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 27   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 27   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 28   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 28   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L29/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 29   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L29/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 29   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 30   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 30   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 31   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 31   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 32   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 32   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 33   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 33   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 34   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 34   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L35/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 35   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L35/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 35   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 36   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 36   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 36   All possible string values of selector type not covered by choices.  (VSS-1032) 
+CM:  42 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L15/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 15   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L17/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 17   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L17/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 17   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L18/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 18   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L18/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 18   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L19/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 19   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L19/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 19   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 20   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 20   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 21   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 21   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L22/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 22   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L22/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 22   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L23/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 23   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L23/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 23   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L24/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 24   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L24/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 24   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 25   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 25   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L26/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 26   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L26/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 26   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 27   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 27   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 28   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 28   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L29/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 29   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L29/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 29   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 30   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 30   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 31   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 31   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 32   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 32   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 33   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 33   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 34   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 34   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L35/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 35   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L35/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 35   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 36   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 36   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 36   All possible string values of selector type not covered by choices.  (VSS-1032) 
+CM:  41 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L17/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 17   Invalid character in bit string literal.  (VSS-964) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L18/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 18   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L18/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 18   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L19/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 19   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L19/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 19   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 20   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 20   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 21   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 21   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L22/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 22   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L22/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 22   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L23/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 23   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L23/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 23   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L24/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 24   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L24/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 24   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 25   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 25   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L26/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 26   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L26/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 26   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 27   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 27   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 28   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 28   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L29/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 29   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L29/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 29   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 30   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 30   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 31   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 31   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 32   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 32   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 33   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 33   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 34   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 34   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L35/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 35   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L35/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 35   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 36   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 36   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 36   All possible string values of selector type not covered by choices.  (VSS-1032) 
+CM:  46 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L17/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 17   Invalid character in string literal.  (VSS-964) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L17/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 17   Missing quote. (VSS-968)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L18/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 18   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 21   Invalid character in string literal.  (VSS-964) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 21   Missing quote. (VSS-968)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L23/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 23   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L24/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 24   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 25   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L26/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 26   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 27   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 28   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L29/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 29   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 30   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 31   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 32   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 33   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 34   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L35/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 35   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 36   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L37/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 37   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L38/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 38   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 39   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L40/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 40   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 41   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 41   Syntax error - keyword PROCESS expected.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L43/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 43   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L46/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 46   Syntax error - unexpected end of input.  (VSS-1081) 
+CM:  27 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L8/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 8   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 20   DAVE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 21   A is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 21   B is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 21   Z is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 20   Attribute is not defined for this prefix. (VSS-545)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 21   A is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 21   B is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 21   Z is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 20   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L22/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 22   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 21   A is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 21   B is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 21   Z is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 21   A is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 21   B is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 21   Z is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 21   A is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 21   B is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 21   Z is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 21   Mixed named and positional element association. (VSS-548)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 21   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L9/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 9   Index constraint illegal with this type mark. (VSS-898)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L15/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 15   Index constraint illegal with this type mark. (VSS-898)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 21   MUL_2BIT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 21   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 20   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 20   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L8/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 8   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L14/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 14   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L15/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 15   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L16/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 16   Syntax error.  (VSS-1081) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L14/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 14   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L15/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 15   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L16/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 16   Syntax error.  (VSS-1081) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L22/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 22   MUL_2BIT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\test_many_mul.vhd Error   L22/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_many_mul.vhd  line 22   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\multiplier_loads_of.vhd Error   L14/C0 : #0 Error: C:/fndtn/active/projects/test_it/multiplier_loads_of.vhd  line 14   Type mismatch over assignment operation (Target data type: STD_LOGIC declared in PACKAGE IEEE.STD_LOGIC_1164, Source data type: UNSIGNED declared in PACKAGE IEEE.STD_LOGIC_ARITH).  (VSS-1023) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\multiplier_loads_of.vhd Error   L14/C0 : #0 Error: C:/fndtn/active/projects/test_it/multiplier_loads_of.vhd  line 14   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\multiplier_loads_of.vhd Error   L8/C0 : #0 Error: C:/fndtn/active/projects/test_it/multiplier_loads_of.vhd  line 8   Index constraint illegal with this type mark. (VSS-898)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\multiplier_loads_of.vhd Error   L14/C0 : #0 Error: C:/fndtn/active/projects/test_it/multiplier_loads_of.vhd  line 14   CONV_STD_LOGIC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\multiplier_loads_of.vhd Error   L14/C0 : #0 Error: C:/fndtn/active/projects/test_it/multiplier_loads_of.vhd  line 14   CONV_STD_LOGIC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\multiplier_loads_of.vhd Error   L14/C0 : #0 Error: C:/fndtn/active/projects/test_it/multiplier_loads_of.vhd  line 14   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L17/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 17   Invalid character in string literal.  (VSS-964) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L17/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 17   Missing quote. (VSS-968)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L18/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 18   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 21   Invalid character in string literal.  (VSS-964) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 21   Missing quote. (VSS-968)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L23/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 23   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L24/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 24   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 25   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L26/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 26   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 27   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 28   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L29/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 29   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 30   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 31   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 32   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 33   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 34   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L35/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 35   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 36   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L37/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 37   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L38/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 38   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 39   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L40/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 40   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 41   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 41   Syntax error - keyword PROCESS expected.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L43/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 43   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L46/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 46   Syntax error - unexpected end of input.  (VSS-1081) 
+CM:  27 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L35/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 35   Array index range length mismatch (string literal too long). (VSS-737)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L35/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 35   Choice must be a locally static expression whose value is of the same length as that of the case expression. (VSS-1048)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L8/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 8   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L12/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 12   The intermediate file for entity MANY_MUL is not in the library bound to WORK.  (VSS-1084) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L29/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 29   Syntax error - unexpected end of input.  (VSS-1081) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L38/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 38   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 30   A is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L29/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 29   Actual designator not of the correct type - STD_LOGIC_VECTOR expected.  (VSS-543) 
+CM:  1 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L7/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 7   UNSIGNED is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 32   CONV_UNSIGNED is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 33   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L17/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 17   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L18/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 18   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L19/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 19   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 20   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 21   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L22/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 22   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L23/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 23   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L24/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 24   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 25   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L26/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 26   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 27   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 28   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L29/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 29   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 30   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 31   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 32   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 34   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  17 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L22/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 22   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L24/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 24   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L26/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 26   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 28   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 30   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 32   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 34   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 36   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L38/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 38   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L40/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 40   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L42/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 42   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L44/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 44   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L46/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 46   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L48/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 48   Syntax error.  (VSS-1081) 
+CM:  14 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L18/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 18   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 20   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L22/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 22   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L24/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 24   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L26/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 26   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 28   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 30   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 32   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 34   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 36   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L38/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 38   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L40/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 40   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L42/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 42   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L44/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 44   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L46/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 46   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L48/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 48   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L50/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 50   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  17 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L18/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 18   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L19/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 19   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 21   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L23/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 23   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 25   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 27   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L29/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 29   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 31   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 33   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L35/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 35   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L37/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 37   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 39   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 41   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L43/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 43   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 45   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L47/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 47   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L49/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 49   Signal name required. (VSS-803)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L51/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 51   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  18 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L16/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 16   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 33   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 33   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L10/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 10   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 36   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 41   Entity closing name mismatch. (VSS-1082)  (FPGA-dm-hdlc-unknown) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L8/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 8   IN_OUT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 36   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L14/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 14   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 39   Syntax error.  (VSS-1081) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 41   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L18/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 18   DATA is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L19/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 19   DATA is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 20   DATA is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L21/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 21   DATA is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L22/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 22   DATA is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L23/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 23   DATA is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L24/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 24   DATA is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 25   DATA is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L26/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 26   DATA is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L27/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 27   DATA is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 28   DATA is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L29/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 29   DATA is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L30/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 30   DATA is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 31   DATA is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 32   DATA is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\decoder.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/test_it/decoder.vhd  line 33   DATA is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  16 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\multiplier_loads_of.vhd Error   L14/C0 : #0 Error: C:/fndtn/active/projects/test_it/multiplier_loads_of.vhd  line 14   CONV_STD_LOGIC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\multiplier_loads_of.vhd Error   L14/C0 : #0 Error: C:/fndtn/active/projects/test_it/multiplier_loads_of.vhd  line 14   CONV_STD_LOGIC is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\multiplier_loads_of.vhd Error   L14/C0 : #0 Error: C:/fndtn/active/projects/test_it/multiplier_loads_of.vhd  line 14   Subprogram call, slice name, attribute name or indexed name argument error. (VSS-525)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L7/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 7   LONG_WORD_X2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Error   L7/C0 : #0 Error: C:/fndtn/active/projects/test_it/encoder.vhd  line 7   BYTE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM: c:\fndtn\active\projects\test_it\encoder.vhd Warning   L-1/C0 : #0 Warning: The entity 'Encoder' is out of date with respect to its   source file 'C:/fndtn/active/projects/test_it/encoder.vhd'.  (LBR-3) 
+CM:  2 error(s) 1 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 32   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 34   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L35/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 35   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L37/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 37   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L38/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 38   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L40/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 40   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 41   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L43/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 43   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L44/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 44   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L46/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 46   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L47/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 47   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L49/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 49   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L50/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 50   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L52/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 52   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L53/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 53   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L55/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 55   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 56   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L58/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 58   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L59/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 59   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L61/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 61   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L62/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 62   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L64/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 64   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L65/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 65   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L67/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 67   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L68/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 68   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L70/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 70   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L71/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 71   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L73/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 73   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L74/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 74   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L76/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 76   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L77/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 77   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L79/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 79   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L80/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 80   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L83/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 83   BO_SELECTA is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  50 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 34   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L35/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 35   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L37/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 37   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L38/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 38   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L40/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 40   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 41   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L43/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 43   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L44/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 44   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L46/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 46   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L47/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 47   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L49/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 49   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L50/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 50   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L52/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 52   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L53/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 53   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L55/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 55   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 56   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L58/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 58   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L59/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 59   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L61/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 61   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L62/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 62   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L64/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 64   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L65/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 65   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L67/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 67   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L68/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 68   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L70/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 70   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L71/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 71   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L73/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 73   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L74/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 74   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L76/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 76   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L77/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 77   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L79/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 79   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L80/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 80   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L83/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 83   BO_SELECTA is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  49 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 34   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L35/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 35   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L37/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 37   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L38/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 38   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L40/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 40   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L41/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 41   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L43/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 43   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L44/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 44   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L46/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 46   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L47/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 47   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L49/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 49   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L50/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 50   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L52/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 52   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L53/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 53   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L55/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 55   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L56/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 56   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L58/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 58   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L59/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 59   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L61/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 61   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L62/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 62   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L64/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 64   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L65/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 65   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L67/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 67   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L68/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 68   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L70/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 70   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L71/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 71   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L73/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 73   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L74/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 74   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L76/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 76   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L77/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 77   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L79/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 79   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L80/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 80   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  48 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L33/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 33   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L34/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 34   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 36   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L37/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 37   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L39/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 39   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L40/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 40   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L42/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 42   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L43/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 43   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L45/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 45   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L46/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 46   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L48/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 48   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L49/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 49   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L51/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 51   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L52/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 52   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L54/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 54   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L55/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 55   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L57/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 57   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L58/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 58   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L60/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 60   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L61/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 61   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L63/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 63   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L64/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 64   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L66/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 66   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L67/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 67   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L69/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 69   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L70/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 70   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L72/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 72   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L73/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 73   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L75/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 75   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L76/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 76   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L78/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 78   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L79/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 79   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  48 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L49/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 49   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\many_multipliers.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/test_it/many_multipliers.vhd  line 31   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\test_concat.vhd Error   L13/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_concat.vhd  line 13   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\test_concat.vhd Error   L15/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_concat.vhd  line 15   Prefix of name can not be interpreted as a subprogram or array.  (VSS-568) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\test_concat.vhd Error   L15/C0 : #0 Error: C:/fndtn/active/projects/test_it/test_concat.vhd  line 15   Prefix of name can not be interpreted as a subprogram or array.  (VSS-568) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: c:\fndtn\active\projects\test_it\mul_1.vhd Error   L11/C0 : #0 Error: C:/fndtn/active/projects/test_it/mul_1.vhd  line 11   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\mul_1_x64.vhd Error   L20/C0 : #0 Error: C:/fndtn/active/projects/test_it/mul_1_x64.vhd  line 20   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\mul_1_x64.vhd Error   L17/C0 : #0 Error: C:/fndtn/active/projects/test_it/mul_1_x64.vhd  line 17   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM:  3 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: c:\fndtn\active\projects\test_it\mul_1_x64.vhd Error   L17/C0 : #0 Error: C:/fndtn/active/projects/test_it/mul_1_x64.vhd  line 17   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 
+CM:  3 error(s) 0 warning(s) found

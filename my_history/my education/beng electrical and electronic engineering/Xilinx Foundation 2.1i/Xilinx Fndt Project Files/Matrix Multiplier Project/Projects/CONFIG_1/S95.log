@@ -1,0 +1,339 @@
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L9/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 9   Identifier is not visible because it is ambiguous (homographs were introduced by USE clauses).  (VSS-574) 
+CM:  Error   L15/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 15   STATE_TYPE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 19   CURRENT_STATE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 21   CURRENT_STATE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 29   NEXT_STATE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 32   RESET is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 32   CURRENT_STATE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 33   CURRENT_STATE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 38   CURRENT_STATE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 40   CURRENT_STATE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  10 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L9/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 9   Identifier is not visible because it is ambiguous (homographs were introduced by USE clauses).  (VSS-574) 
+CM:  Error   L15/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 15   STATE_TYPE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 19   CURRENT_STATE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 21   CURRENT_STATE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 29   NEXT_STATE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 32   RESET is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 32   CURRENT_STATE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 33   CURRENT_STATE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L38/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 38   CURRENT_STATE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 40   CURRENT_STATE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  10 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L29/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 29   CLR is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 42   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L45/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 45   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L48/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 48   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L51/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 51   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM:  5 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 42   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L45/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 45   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L48/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 48   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L51/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 51   Array index range length mismatch (string literal too short). (VSS-736)  (FPGA-dm-hdlc-unknown) 
+CM:  4 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L9/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 9   Identifier is not visible because it is ambiguous (homographs were introduced by USE clauses).  (VSS-574) 
+CM:  Warning   L-1/C0 : #0 Warning: The entity 'ASM_CONFIG_1' is out of date with respect to its   source file 'C:/fndtn/active/projects/config_1/asm_config_1.vhd'.  (LBR-3) 
+CM:  1 error(s) 1 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L9/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 9   Identifier is not visible because it is ambiguous (homographs were introduced by USE clauses).  (VSS-574) 
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 10   Identifier is not visible because it is ambiguous (homographs were introduced by USE clauses).  (VSS-574) 
+CM:  Warning   L-1/C0 : #0 Warning: The entity 'ASM_CONFIG_1' is out of date with respect to its   source file 'C:/fndtn/active/projects/config_1/asm_config_1.vhd'.  (LBR-3) 
+CM:  2 error(s) 1 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 32   Actual designator not of the correct type - STD_ULOGIC expected.  (VSS-543) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L12/C0 : #0 Error: C:/fndtn/active/projects/config_1/answer_store.vhd  line 12   TWENTY_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Warning   L-1/C0 : #0 Warning: The entity 'Answer_Store' is out of date with respect to its   source file 'C:/fndtn/active/projects/config_1/answer_store.vhd'.  (LBR-3) 
+CM:  1 error(s) 1 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/config_1/mul2.vhd  line 10   U_TWO_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/config_1/mul2.vhd  line 10   FOUR_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Warning   L-1/C0 : #0 Warning: The entity 'MUL2' is out of date with respect to its   source file 'C:/fndtn/active/projects/config_1/mul2.vhd'.  (LBR-3) 
+CM:  2 error(s) 1 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L11/C0 : #0 Error: C:/fndtn/active/projects/config_1/mul2.vhd  line 11   U_TWO_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Warning   L-1/C0 : #0 Warning: The entity 'MUL2' is out of date with respect to its   source file 'C:/fndtn/active/projects/config_1/mul2.vhd'.  (LBR-3) 
+CM:  1 error(s) 1 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Warning   L-1/C0 : #0 Warning: The package 'MATRIX_PACKAGE' is out of date with respect to its   source file 'C:/fndtn/active/projects/config_1/matrix_package.vhd'.  (LBR-3) 
+CM:  0 error(s) 1 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/config_1/dsp_config_1.vhd  line 43   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  Error   L44/C0 : #0 Error: C:/fndtn/active/projects/config_1/dsp_config_1.vhd  line 44   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  6 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/config_1/dsp_config_1.vhd  line 43   SEL is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/config_1/dsp_config_1.vhd  line 43   Q is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/config_1/dsp_config_1.vhd  line 43   SEL is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/config_1/dsp_config_1.vhd  line 43   Not enough element associations - 5 expected. (VSS-538)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/config_1/dsp_config_1.vhd  line 43   Array index range length mismatch. (VSS-4)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM:  Error   L3/C0 : #0 Error: C:/fndtn/active/projects/config_1/system.vhd  line 3   Syntax error - unexpected end of input.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L14/C0 : #0 Error: C:/fndtn/active/projects/config_1/system.vhd  line 14   The intermediate file for entity CONFIGURATION_1 is not in the library bound to WORK.  (VSS-1084) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L46/C0 : #0 Error: C:/fndtn/active/projects/config_1/system.vhd  line 46   RESET is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L50/C0 : #0 Error: C:/fndtn/active/projects/config_1/system.vhd  line 50   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L46/C0 : #0 Error: C:/fndtn/active/projects/config_1/system.vhd  line 46   RESET is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L50/C0 : #0 Error: C:/fndtn/active/projects/config_1/system.vhd  line 50   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L50/C0 : #0 Error: C:/fndtn/active/projects/config_1/system.vhd  line 50   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L46/C0 : #0 Error: C:/fndtn/active/projects/config_1/system.vhd  line 46   ARSE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L50/C0 : #0 Error: C:/fndtn/active/projects/config_1/system.vhd  line 50   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L50/C0 : #0 Error: C:/fndtn/active/projects/config_1/system.vhd  line 50   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L48/C0 : #0 Error: C:/fndtn/active/projects/config_1/system.vhd  line 48   Not enough element associations - 11 expected. (VSS-538)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L48/C0 : #0 Error: C:/fndtn/active/projects/config_1/system.vhd  line 48   Not enough element associations - 11 expected. (VSS-538)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L56/C0 : #0 Error: C:/fndtn/active/projects/config_1/system.vhd  line 56   MEM_LATCH_SELBUS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L56/C0 : #0 Error: C:/fndtn/active/projects/config_1/system.vhd  line 56   MEM_LATCH_SELBUS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L56/C0 : #0 Error: C:/fndtn/active/projects/config_1/system.vhd  line 56   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L32/C0 : #0 Error: C:/fndtn/active/projects/config_1/answer_store.vhd  line 32   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L48/C0 : #0 Error: C:/fndtn/active/projects/config_1/system.vhd  line 48   Bad formal part - port names in entity and component declarations do not match.  (VSS-580) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/projects/config_1/answer_store.vhd  line 18   RESET is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/config_1/asm_config_1.vhd  line 21   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found

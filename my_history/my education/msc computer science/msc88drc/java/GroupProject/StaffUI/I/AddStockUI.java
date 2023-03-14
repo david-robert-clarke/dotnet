@@ -1,0 +1,186 @@
+package I;
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.*;
+
+/**
+   The Add Stock Interface
+   
+   This allows a staff member to add a new CD entry, this class automatically
+   updates the CD and Stock Tables
+
+**/
+class AddStockUI extends JFrame
+{
+  //ArrayList
+  ArrayList cdEntry, suppliers;
+
+  //Labels
+  JLabel blankLabel0, blankLabel1;
+  JLabel titleLabel;
+  JLabel artistLabel;
+  JLabel cdLabel;
+  JLabel genreLabel;
+  JLabel rDateLabel;
+  JLabel typeLabel;
+  JLabel rPriceLabel;
+  JLabel supNameLabel;
+  JLabel stockLevelLabel;
+  JLabel wPriceLabel;
+  
+  //Text Fields
+  JTextField artistTextField;
+  JTextField cdTextField;
+  JTextField rDateTextField;
+  JTextField rPriceTextField;
+  JTextField stockLevelTextField;
+  JTextField wPriceTextField;
+
+  //Panels
+  JPanel editPanel;
+  JPanel buttonPanel;
+
+  //Strings
+  String cdText;
+  String artistText;
+  String genreText;
+  String typeText;
+  String rDateText; 
+  String rPriceText;
+
+  //Buttons
+  JButton cancelButton, okayButton;
+
+  //Combo Boxes  
+  JComboBox genreComboBox;
+  JComboBox typeComboBox;
+  JComboBox supNameComboBox;
+
+  //constructor
+  public AddStockUI()
+  {
+    cdEntry = new ArrayList();//always initialise these bloody arraylists
+    //editing fields
+    blankLabel0 = new JLabel();
+    blankLabel1 = new JLabel();
+    editPanel = new JPanel();
+    editPanel.setLayout(new GridLayout(21,1));
+    titleLabel = new JLabel("Enter details of CD to be added:");    
+    artistLabel = new JLabel("Artist");
+    artistTextField = new JTextField();    
+    cdLabel = new JLabel("CD name");   
+    cdTextField = new JTextField();
+    genreLabel = new JLabel("Genre");
+    genreComboBox = new JComboBox();
+    genreComboBox.addItem("Rock");
+    genreComboBox.addItem("Pop");
+    genreComboBox.addItem("Heavy Metal");
+    genreComboBox.addItem("R&B");
+    genreComboBox.addItem("Hip Hop");
+    genreComboBox.addItem("Soul");
+    genreComboBox.addItem("Dance");
+    genreComboBox.addItem("Garage");
+    genreComboBox.addItem("Alternative");
+    genreComboBox.addItem("Various");
+    typeLabel = new JLabel("Type");
+    typeComboBox = new JComboBox();
+    typeComboBox.addItem("Single");
+    typeComboBox.addItem("Album");
+    typeComboBox.setSelectedItem(typeText);
+    rDateLabel = new JLabel ("Release Date");
+    rDateTextField = new JTextField(rDateText);
+    rPriceLabel = new JLabel("Retail Price");
+    rPriceTextField = new JTextField(rPriceText);
+    supNameLabel = new JLabel("Supplier Name");
+    supNameComboBox = new JComboBox();
+    //add query that fetches an arraylist of suppliers
+    System.out.println("I'm here");
+    GetSupplierNameQuery thisQuery = new GetSupplierNameQuery();
+    suppliers = thisQuery.exeQuery();//query  
+    for (int i=0; i<suppliers.size(); i++)
+      {
+	supNameComboBox.addItem((String)suppliers.get(i));
+      }
+
+    stockLevelLabel = new JLabel("Stock Level");
+    stockLevelTextField = new JTextField();
+    wPriceLabel = new JLabel("Wholesale Price");
+    wPriceTextField = new JTextField();
+    editPanel.add(titleLabel);
+    editPanel.add(blankLabel0);
+    editPanel.add(cdLabel);
+    editPanel.add(cdTextField);
+    editPanel.add(artistLabel);
+    editPanel.add(artistTextField);
+    editPanel.add(genreLabel);
+    editPanel.add(genreComboBox);
+    editPanel.add(typeLabel);
+    editPanel.add(typeComboBox);
+    editPanel.add(rDateLabel);
+    editPanel.add(rDateTextField);
+    editPanel.add(rPriceLabel);
+    editPanel.add(rPriceTextField);
+    editPanel.add(supNameLabel);
+    editPanel.add(supNameComboBox);
+    editPanel.add(stockLevelLabel);
+    editPanel.add(stockLevelTextField);
+    editPanel.add(wPriceLabel);
+    editPanel.add(wPriceTextField);
+    editPanel.add(blankLabel1);
+
+    //confirmation buttons
+    buttonPanel = new JPanel();
+    buttonPanel.setLayout(new GridLayout(1,2));
+    cancelButton = new JButton("Cancel");
+    cancelButton.addActionListener(new ButtonListener());
+    okayButton = new JButton("OK");
+    okayButton.addActionListener(new ButtonListener());
+    buttonPanel.add(cancelButton);
+    buttonPanel.add(okayButton);
+
+    Container contentPane = getContentPane();
+    contentPane.add(editPanel,"Center");
+    contentPane.add(buttonPanel, "South");
+    
+  }
+
+  public class ButtonListener implements ActionListener
+  {
+    public void actionPerformed(ActionEvent event)
+    {
+      Object source = event.getSource();
+      
+      if(source == okayButton)
+      {
+	
+	//if the okay button has been pressed, take all information present
+	//on the Edit CD details page and overwrite the details present in the
+	//cdEntry ArrayList(excluding the iid),
+	cdEntry.add(cdTextField.getText());
+	cdEntry.add(artistTextField.getText());
+	cdEntry.add((String)genreComboBox.getSelectedItem());
+	cdEntry.add((String)typeComboBox.getSelectedItem());
+	cdEntry.add(rDateTextField.getText());
+	cdEntry.add(rPriceTextField.getText());
+	cdEntry.add((String)supNameComboBox.getSelectedItem());
+	cdEntry.add(stockLevelTextField.getText());
+	cdEntry.add(wPriceTextField.getText());
+
+	//pass this arrayList directly to the AddCDTupleQuery class
+	//new java query, which adds a tuple to the database      
+	AddCDTupleQuery addCD = new AddCDTupleQuery(cdEntry);
+	addCD.exeQuery();
+	
+	//Then exit this window
+	dispose();
+      }
+      else if(source == cancelButton)
+      {
+	dispose();
+      }
+      
+    }      
+  }
+}

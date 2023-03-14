@@ -1,0 +1,82 @@
+[project]
+name=matmul
+netlist=matmul
+contents=
+date=12/21/00
+time=17:53:30
+version=3.1.5.00.34e
+Type=F21i
+top_level=VHDL
+HDL netlist format=Auto
+generics=MAX
+sim_mode=FUNC
+pdf_dir=c:\fndtn\active\projects\
+lib_order=1018 133 155
+
+[libraries]
+1018=
+133=c:\fndtn\active\syslib\simprims
+155=c:\fndtn\active\syslib\xc4000x
+
+[OPEN32]
+nMaxFile=10000
+lpstrFile=
+lpstrFilter=HDL (*.VHD;*.VER;*.VE;*.V)|*.vhd;*.ver;*.ve;*.v|Schematic (*.SCH)|*.sch|FSM (*.ASF)|*.asf|Xnf Sources (*.XNF)|*.xnf|Edif Sources (*.EDF;*.EDN;*.EDO)|*.edf;*.edn;*.edo|All Files (*.*)|*.*||
+lpstrInitialDir=C:\FNDTN\ACTIVE\PROJECTS\MATMUL
+lpstrTitle=Add Document
+nFilterIndex=0
+Flags=530964
+HelpID=10380
+HelpFileName=C:\FNDTN\ACTIVE\EXE\PCM.HLP
+cmdLine=-h 1700 -hp 900 -m PCM_OPEN_32_MESSAGE -f C:\FNDTN\ACTIVE\PROJECTS\current.pdf
+
+[hdl_sheets]
+matrix_package.vhd=
+STORED_ANSWER.vhd=
+
+[Top Doc]
+matrix_package.vhd=21
+STORED_ANSWER.vhd=21
+
+[netlist]
+external=FALSE
+
+[Log]
+netlist.log=Simulator Netlist Log
+
+[timings]
+matmul=
+
+[APP_95]
+oid=0
+lid=0
+format=19
+source=c:\fndtn\active\projects\matmul\stored_answer.vhd
+server_hwnd=4028
+
+[OpenDoc]
+hde/STORED_ANSWER=0,0,-4,-4,1028,743,stored_answer.vhd
+hde/matrix_package=0,0,46,46,814,582,C:\Fndtn\Active\Projects\CONFIG_1\system.vhd
+
+[implement_HDL]
+family=2
+xfam=XC4000XL
+part=4010XLPC84-09
+xilinx=4010XLPC84-09
+functional=ver1
+optimized=ver1-Optimized
+design=STORED_ANSWER,c:\fndtn\active\projects\matmul\stored_answer.vhd
+
+[xilinx]
+family=2
+xfam=XC4000XL
+xact9=On
+
+[device]
+part=4010XLPC84-09
+xilinx=4010XLPC84-09
+
+[implement_XIE]
+version=ver1
+revision=rev1
+

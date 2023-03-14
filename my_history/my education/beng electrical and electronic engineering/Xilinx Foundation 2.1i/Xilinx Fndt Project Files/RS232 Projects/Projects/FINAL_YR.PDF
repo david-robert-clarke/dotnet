@@ -1,0 +1,96 @@
+[project]
+name=final_yr
+netlist=final_yr
+contents=final_yr
+date=11/25/00
+time=17:36:00
+version=3.1.5.00.34e
+Type=F21i
+top_level=VHDL
+HDL netlist format=Auto
+generics=MAX
+sim_mode=FUNC
+library_net=ON
+pdf_dir=c:\fndtn\active\projects\
+lib_order=1010 133 155
+
+[libraries]
+1010=
+133=c:\fndtn\active\syslib\simprims
+155=c:\fndtn\active\syslib\xc4000x
+
+[OpenDoc]
+hde/INTEGER_ENT=0,0,22,22,790,559,eraze.vhd
+hde/PI_SO_SR=0,0,-4,-4,1028,744,C:\Fndtn\Active\vhdl\MY_COMPONENTS\PI_SO_SR.vhd
+hde/partitioner_dec_2=0,0,-4,-4,1028,744,partitioner_dec_2.vhd
+hde/fdce=0,0,0,0,768,537,fdce.vhd
+
+[netlist]
+external=FALSE
+
+[Log]
+netlist.log=Simulator Netlist Log
+exp_net.log=Export netlist
+
+[timings]
+final_yr=
+size_com=
+
+[AVHDL Project]
+Size_Comparator.vhd=
+
+[AVHDL data]
+time=975399323
+
+[Schematic]
+Table01=Project
+Table02=Macro
+Table03=Date
+Table04=Date Last Modified
+
+[sheets]
+
+[APP_95]
+oid=0
+lid=0
+sheet=c:\fndtn\active\projects\final_yr\part1.sch
+format=19
+source=c:\fndtn\active\projects\final_yr\fdce.vhd
+server_hwnd=1592
+
+[hdl_sheets]
+fdce.vhd=
+
+[Top Doc]
+fdce.vhd=21
+
+[OPEN32]
+nMaxFile=10000
+lpstrFile=
+lpstrFilter=HDL (*.VHD;*.VER;*.VE;*.V)|*.vhd;*.ver;*.ve;*.v|Schematic (*.SCH)|*.sch|FSM (*.ASF)|*.asf|Xnf Sources (*.XNF)|*.xnf|Edif Sources (*.EDF;*.EDN;*.EDO)|*.edf;*.edn;*.edo|All Files (*.*)|*.*||
+lpstrInitialDir=C:\FNDTN\ACTIVE\PROJECTS\FINAL_YR
+lpstrTitle=Add Document
+nFilterIndex=0
+Flags=530964
+HelpID=10380
+HelpFileName=C:\FNDTN\ACTIVE\EXE\PCM.HLP
+cmdLine=-h 2524 -hp 952 -m PCM_OPEN_32_MESSAGE -f C:\FNDTN\ACTIVE\PROJECTS\current.pdf
+
+[implement_HDL]
+family=2
+xfam=XC4000XL
+part=4010XLPC84-09
+xilinx=4010XLPC84-09
+functional=ver1
+optimized=ver1-Optimized
+design=FDCE,c:\fndtn\active\projects\final_yr\fdce.vhd
+
+[xilinx]
+family=2
+xfam=XC4000XL
+xact9=On
+
+[device]
+part=4010XLPC84-09
+xilinx=4010XLPC84-09
+

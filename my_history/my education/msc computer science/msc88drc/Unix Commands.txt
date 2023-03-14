@@ -1,0 +1,31 @@
+			Useful Unix Commands
+File System
+
+mv file1 file2	Rename file
+mv dir1 dir2	Rename directory1 to directory2
+rm file 	Delete file
+rm *		Remove all files
+rm -r directory	Delete directory
+rm -f *		Remove all files without asking for confirmation
+rm -f *.lis 	Remove all the files with the lis extension, without asking for
+		confirmation.
+man command	Get help on command
+quota -v	See your quota
+finger username	Get users personal details
+
+Printing
+
+Printing .java files: a2ps - PprinterName filename
+Windows like print interface: xlp -d<printer> <file-to-print>
+java files print command: a2ps -P<printer> <file-to-print>
+Netscape print command: lp -d <file to print>
+
+Screen Print
+
+Screen dump program: xv
+Screen dump alternative: Script
+To end Screen Dump session type: Quit
+
+PostgreSQL
+
+Start up program: psql -h dbhost

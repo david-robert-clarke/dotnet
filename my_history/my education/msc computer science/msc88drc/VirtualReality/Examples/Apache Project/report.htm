@@ -1,0 +1,111 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<META NAME="Generator" CONTENT="Microsoft Word 97">
+<TITLE>Introduction</TITLE>
+</HEAD>
+<BODY LINK="#0000ff" VLINK="#800080">
+
+<FONT SIZE=4><P>Introduction</P>
+</FONT><FONT SIZE=2>
+<P>The criteria for this project was to model a VRML world exhibiting the following characteristics:</P>
+<P>&#9;Professional looking geometry.</P>
+<P>&#9;Multiple points of user interaction and/or a tracking interface.</P>
+<P>&#9;Object animation and/or emergent behaviour.</P>
+<P>Comprehensive prototyping and scripting.</P>
+<P>Innovative world design.</P>
+
+<P>To that end, the resultant world implements a working model of an AH-64A attack helicopter (also known as the Apache gunship) modelled in VRML with JavaScript behavioural scripting.</P>
+
+<P>This report provides a project summary, and is broken down into six sections:</P>
+<P>&#9;Introduction</P>
+<P>&#9;Specification</P>
+<P>&#9;Design and Implementation</P>
+<P>&#9;Results and Appraisal</P>
+<P>&#9;Conclusions</P>
+<P>&#9;References</P>
+
+<P>&nbsp;</P>
+</FONT><FONT SIZE=4><P>Specification</P>
+</FONT><FONT SIZE=2>
+<P>In order to fulfil the required properties for the project, the specification was for the world to:</P>
+
+<P>Contain a reasonably accurate model of the geometry of the AH-64A.</P>
+<P>Provide a flight model to enable the user to fly the AH-64A around the world.</P>
+<P>Provide a simple, intuitive, means of control to the user. (For controlling flight and other interactive elements.)</P>
+<P>Model interaction between the AH-64A and other components in the world – terrain and weaponry targets.</P>
+<P>Model weaponry fire by using appropriate physics and path-plotting behaviour.</P>
+
+<P>&nbsp;</P>
+</FONT><FONT SIZE=4><P>Design and Implementation</P>
+</FONT><FONT SIZE=2>
+<P>The project was implemented by defining major components as prototypes, and then instantiating them appropriately. The various eventIns and eventOuts for the prototype nodes are then routed appropriately to allow proper data transfer and control.</P>
+
+</FONT><P>Helicopter geometry</P>
+<FONT SIZE=2>
+<P>In order to provide professional-looking geometry for the AH-64A helicopter, it was necessary to find some kind of template to work off. This was achieved by using a 1/48<SUP>th</SUP> scale model kit, taking measurements from it, and scaling them up to create dimensions and co-ordinates for the model geometry. The geometry for the AH-64A was included in a PROTO, with events passed to it detailing the rotations and translations of various components. The events also include the trigger for the scripting of the helicopter explosion (triggered externally when the helicopter intersects a target object, or hits the ground too fast). </P>
+<P>Although the AH-64A was chosen as a subject due to its blocky shape, lending itself to modelling using primitives, it does contain some curved surfaces. These were produced using an extrusion with a semicircular cross-section, varying the spine to produce the Longbow mast sight above the rotors. The figures for the Longbow cross-section were taken from an extrusion example in the VRML sourcebook. The other geometry was mainly IndexedFaceSets, using co-ordinates created from the measurements of the model.</P>
+<P>The helicopter also instantiates the gun and nose sight prototypes.</P>
+
+</FONT><P>Gun and nose sight geometry.</P>
+<FONT SIZE=2>
+<P>Though they are in different prototypes, these two objects do essentially the same thing. A rotation is passed to the prototype, and this is decomposed to give two rotations. The first is about the y-axis and used to rotate the carriage of the gun/sight appropriately, and the second is to tilt the gun/sight vertically. The net effect is the same rotation as specified originally, but original rotation, if applied, causes the gun/sight to twist about its long axis. </P>
+<P>The differences between the two prototypes are the geometry, and the fact that the gun prototype passes back a vector containing the position of the tip of the gun, after rotation. This is used to calculate bullet trajectories in gunfire.</P>
+
+<P>Target </FONT>geometry</P>
+<FONT SIZE=2>
+<P>The target prototype contains the code to make any piece of geometry a target for weapon fire. This prototype takes vectors signifying the target’s position and bounding box, the geometry of the target, and maintains the information that the world needs to process collisions and create explosions. The explosion effect of a target is created by using a switch node, which has four states. The first is the passed geometry. The second is the geometry, and a sphere that becomes the explosion cloud. This sphere is expanded throughout the progress of the explosion by changing the scale of it. The sphere also changes colour over time, using an attached ColorInterpolator. Once the sphere has begun to contract, the switch changes to its third state. This contains only the sphere, so that when the sphere has contracted, the target is not visible – it has been destroyed. Once the sphere contraction has almost finished, the switch changes to its fourth state, which is empty. This is to minimise face count, and prevent many invisibly small spheres from cluttering the landscape. The target also contains the explosion sound node, which is played during the explosion process.</P>
+<P>The target prototype file also contains geometry definitions for various pre-defined target types in order to simplify world generation. Additionally, any geometry can be passed to a target node, and that will be used.</P>
+
+</FONT><P>Radio controller geometry</P>
+<FONT SIZE=2>
+<P>In order to provide a simple, intuitive interface for the user, it was decided to create the controls in the form of a radio control handset, as used to fly model aircraft. The handset has two sticks, the left controlling the rudder and collective (rotation and height), and the right controlling the cyclic (movement forwards, backwards, and sideways). The handset also has buttons controlling on/off functions. The red button starts and stops the engines. This can only be performed when the AH-64A is on the ground and moving <I>very</I> slowly. The yellow button turns on auto-targeting, and cycles through available targets. If a target is selected, and in front of the helicopter, the gun will rotate towards it, and a laser sight – made from an IndexedLineSet – will point to the target. The blue button fires the belly cannon – at a target if one is selected, directly forwards if not.</P>
+<P>The buttons are simple TouchSensors, while the joysticks are PlaneSensors, which track the movement of the tip of the joystick. This movement is routed out of the prototype, and also converted into a rotation for the cylinders representing the sticks.</P>
+<P>The prototype takes events from the world controlling highlighting of the buttons, and also whether the controller is active.</P>
+
+</FONT><P>Tracking viewpoint geometry</P>
+<FONT SIZE=2>
+<P>The tracking viewpoint consists of a viewpoint node, which is fed the positions of the user and the helicopter. It then, using the same calculations as the gun and nose sight prototypes, creates a rotation from the user to the helicopter, and passes it to the viewpoint node. The net result is that the user’s viewpoint will follow the AH-64A as it moves.</P>
+
+</FONT><P>Constraint model</P>
+<FONT SIZE=2>
+<P>The constraint model shows only one piece of geometry – the terrain for the world. This is passed to the node in the same form as an ElevationGrid, which is what it is, essentially. However, the terrain height values are used to perform collision detection with the helicopter and with any flying bullets that are active. The helicopter position is received from the flight model. If this position drops below the terrain height at any point, the helicopter height is modified so that it will run along the surface. If a bullet drops below ground level, an event is sent to the ballistic model telling it to remove that bullet. Additionally, the constraint model keeps account of the speed that the helicopter is moving, and if it moves along the ground too fast, or lands too fast, it is regarded as having crashed and sends an eventOut to make the apache geometry explode.</P>
+
+</FONT><P>Flight model</P>
+<FONT SIZE=2>
+<P>The flight model takes the control stick values passed to it, and translates them into meaningful accelerations, in order to simulate helicopter flight. The flight model keeps track of the current velocity, updates it with the accelerations, and adds it to the recorded position of the apache. This position is then passed out as an event.</P>
+
+</FONT><P>Ballistic model</P>
+<FONT SIZE=2>
+<P>The ballistic model maintains the positions, velocities and rotations of the bullets in the model. The bullet is simply a long, red box, as it moves fast enough that a more detailed geometry is not needed. The bullets undergo a ballistic trajectory – they begin moving at a pre-set speed, and from then on, the only velocity change is through gravity. The positions of the bullets are passed out of the prototype to the main world, where they are used to determine target damage and explosions. The ballistic model also plays the gunfire sound at the appropriate moment.</P>
+
+</FONT><P>The main VRML world</P>
+<FONT SIZE=2>
+<P>This VRML file contains the instantiation details for the prototypes detailed above, and includes lighting and background detailing nodes. Additionally, the main controlling script is in this file.</P>
+<P>This script controls target selection for the belly gun, the activation of the flight model, and the rotation of the rotor blades during warm up, warm down, and flight. The script also performs collision detection between targets and the helicopter and its bullets – if a bullet hits a target, its strength is reduced by one, and if the helicopter hits a target, both it and the target explode.</P>
+<P>Finally, this file provides all the major event routing for the various instantiated prototypes.</P>
+<P>The terrain values passed to the constraint model, which are included in this file, were automatically generated from a greymap image (256 greys, black being lowest, white being highest). This was converted to an ElevationGrid by the free <A NAME="_Hlk482121242"></FONT><A HREF="http://home.hiwaay.net/~crispen/src/"><FONT SIZE=2>pbm2wrl</FONT></A></A><FONT SIZE=2> utility from VRMLworks, as described in the comp.lang.vrml VRML FAQ.</P>
+<P> </P>
+</FONT><FONT SIZE=4><P>Results and Appraisal</P>
+</FONT><FONT SIZE=2>
+<P>The resultant project geometry produces a similar appearance to that of the AH-64A, within the limits of detail and face count, although the apache’s distinctive appearance might probably enable a face count reduction and still be recognisable. The world is mainly untextured, in order to maximise frame-rate, but this has no major effect on the helicopter appearance, as the standard colour is a dark camouflage green.</P>
+<P>The interface used is reasonably natural to use, however problems can occur on a small screen, due to the small size of the ‘dead zone’ in stick position where no accelerations are made. The interface follows the user, enabling a more natural interaction, as the user does not need to hunt for the controls. The main interfacing problem that exists, however, is that only one control can be operated at a time, so a complex movement, such as adjusting forward acceleration whilst adjusting the apache rotation, is impossible.</P>
+<P>The behaviour of the model is emergent, as it interacts with terrain and target objects, and the model itself contains high degrees of scripted animation. One fault that exists in the terrain interaction, however, is that only a single point on the apache – mid-way between the front wheels – is tested for terrain following. Initially, all three wheels where supposed to follow the terrain levels if the apache had landed, but the physics model was too complex to implement in the time available.</P>
+
+</FONT><FONT SIZE=4><P>Conclusions</P>
+</FONT><FONT SIZE=2>
+<P>In conclusion, the model should succeed on the aspects of the specification, as the criteria have been fulfilled. The apache, when flying, acts in a believable manner, and the weapons functions add to the realism of the model. The interaction with objects and terrain provides the user with an experience rather reminiscent of early flight simulations, and the model is configurable enough to allow many different set-ups for different environments.</P>
+
+<P>Future developments would include the implementation of terrain following for all three wheels of the apache, and, possibly, a way of interfacing with a control device – a joystick, for example – in order to allow more natural control, and greater freedom of movement. Another development could include enhanced target types, allowing them to fire at the user, for example, making the model into a full battlefield simulation.</P>
+<P>Finally, the scripting for this model could be implemented in Java, with the possibility of increased frame rate allowing smoother, more believable behaviour.</P>
+
+</FONT><FONT SIZE=4><P>References:</P>
+</FONT><FONT SIZE=2>
+<P>Bob Crispen et al. The comp.lang.vrml VRML FAQ. Published 22/06/1998. </FONT><A HREF="http://home.hiwaay.net/~crispen/vrmlworks/faq/index.html"><FONT SIZE=2>http://home.hiwaay.net/~crispen/vrmlworks/faq/index.html</FONT></A></P>
+<FONT SIZE=2>
+<P>A. L. Ames, D. R. Nadeau, J. L. Moreland. The VRML 2.0 Sourcebook (Second Edition). Published 1997, ISBN 0-471-16507-7.</P>
+
+<P>Academy Hobby Model Kits. 1/48<SUP>th</SUP> scale McDonnell-Douglas AH-64A Apache kit. N<SUP>o</SUP> 2115</P>
+
+<P>&nbsp;</P></FONT></BODY>
+</HTML>

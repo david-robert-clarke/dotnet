@@ -1,0 +1,32 @@
+# Xilinx CORE Generator 2.1i
+# User = David Clarke
+SETPROJECT C:\Fndtn\Active\Projects\P_FY_MK3
+# busformat=BusFormatAngleBracket
+# designflow=Schematic
+# expandedprojectpath=C:\Fndtn\Active\Projects\P_FY_MK3
+# flowvendor=Foundation
+# simulationoutputproducts=VHDL   Verilog
+# xilinxfamily=XC4000
+# expandedprojectpath=C:\Fndtn\Active\Projects\P_FY_MK3
+# Set current Project to C:\Fndtn\Active\Projects\P_FY_MK3
+# Xilinx CORE Generator
+SET FoundationPath = C:\Fndtn
+SET XilinxFamily = XC4000
+SET BusFormat = BusFormatAngleBracket
+SET DesignFlow = Schematic
+SET FlowVendor = Foundation
+SET SimulationOutputProducts = VHDL Verilog
+SET OverwriteFiles=True
+#SET LockProjectProps = true
+SELECT Register XC4000 Xilinx 1.0
+SELECT Register XC4000 Xilinx 1.0
+SELECT Register XC4000 Xilinx 1.0
+SELECT Register XC4000 Xilinx 1.0
+SELECT Register XC4000 Xilinx 1.0
+SELECT Dual_Port_Block_Memory Virtex Xilinx,_Inc. 1.0
+SELECT Registered_DualPort_RAM XC4000 Xilinx 1.0
+SELECT Registered_DualPort_RAM XC4000 Xilinx 1.0
+SELECT Registered_DualPort_RAM XC4000 Xilinx 1.0
+SELECT Synchronous_FIFO XC4000 Xilinx 1.0
+SELECT Synchronous_FIFO XC4000 Xilinx 1.0
+SELECT Synchronous_FIFO XC4000 Xilinx 1.0

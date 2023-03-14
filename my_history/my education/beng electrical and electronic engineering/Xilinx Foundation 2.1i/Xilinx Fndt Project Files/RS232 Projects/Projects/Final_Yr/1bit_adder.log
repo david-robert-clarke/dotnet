@@ -1,0 +1,3 @@
+Analyze of c:\fndtn\active\projects\final_yr\1bit_adder.vhd file started.
+Analyze of c:\fndtn\active\projects\final_yr\1bit_adder.vhd file finished.
+Error: C:/fndtn/active/projects/final_yr/1bit_adder.vhd  line 11   Type mismatch on left and/or right operand of binary operator.  (VSS-523) 

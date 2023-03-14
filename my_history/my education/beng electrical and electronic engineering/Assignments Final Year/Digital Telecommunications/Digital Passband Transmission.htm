@@ -1,0 +1,2606 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0064)http://benedick.aston.ac.uk:8080/tutorials/paths/dpt/entire_html -->
+<HTML><HEAD><TITLE>Digital Passband Transmission</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252"><LINK 
+href="Digital Passband Transmission_files/main.css" type=text/css 
+rel=stylesheet>
+<META content=INDEX,NOFOLLOW name=ROBOTS>
+<META content="" name=keywords>
+<META content="" name=description>
+<META content="" name=author>
+<META content="MSHTML 6.00.2462.0" name=GENERATOR></HEAD>
+<BODY class=seas text=#003366 vLink=#000080 aLink=#000080 link=#000080 
+bgColor=white>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD class=header colSpan=5 height=24>Aston University <B>School of 
+      Engineering &amp; Applied Science</B> <BR>Telecoms and Internet Tutorials 
+    </TD>
+    <TD class=header align=right><A title="Aston University Home" 
+      href="http://www.aston.ac.uk/"><IMG height=24 alt="Aston University Home" 
+      hspace=1 src="Digital Passband Transmission_files/corp-home_f01.gif" 
+      width=24 border=0 name=corphome></A> <A 
+      title="Aston University Information" 
+      href="http://www.aston.ac.uk/aston/info"><IMG height=24 
+      alt="Aston University Information" hspace=1 
+      src="Digital Passband Transmission_files/corp-info_f01.gif" width=24 
+      border=0 name=corpinfo></A> <A title="Aston University Web Search" 
+      href="http://www.aston.ac.uk/search/"><IMG height=24 
+      alt="Aston University Web Search" hspace=1 
+      src="Digital Passband Transmission_files/corp-map_f01.gif" width=24 
+      border=0 name=corpmap></A> <A 
+      title="Aston University Contact and Communications" 
+      href="http://www.aston.ac.uk/contact"><IMG height=24 
+      alt="Aston University Contact and Communications" hspace=1 
+      src="Digital Passband Transmission_files/corp-contact_f01.gif" width=24 
+      border=0 name=corpcontact></A> </TD></TR></TBODY></TABLE>
+<TABLE class=topmenu cellSpacing=1 cellPadding=2 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD class=navoff vAlign=top align=middle width="25%"><A 
+      title="Tutorial Home" 
+      href="http://benedick.aston.ac.uk:8080/tutorials">Home</A></TD>
+    <TD class=navoff vAlign=top align=middle width="25%"><A 
+      title="Learning Paths" 
+      href="http://benedick.aston.ac.uk:8080/tutorials/paths">Paths</A></TD>
+    <TD class=navoff vAlign=top align=middle width="25%"><A title="All Topics" 
+      href="http://benedick.aston.ac.uk:8080/tutorials/list">Topics</A></TD>
+    <TD class=navoff vAlign=top align=middle width="25%">
+      <FORM action=http://benedick.aston.ac.uk:8080/tutorials/search 
+      method=get>Search <INPUT size=15 name=PrincipiaSearchSource> 
+  </FORM></TD></TR></TBODY></TABLE>
+<H1 class=title>Digital Passband Transmission </H1>
+<P><A 
+href="http://benedick.aston.ac.uk:8080/tutorials/paths/dpt/index_html">View 
+Tutorial Path Index</A></P>
+<H2>Digital Passband Transmission</H2>
+<P>On completing this section you should be able to describe the basic forms of, 
+and the principles behind digital passband transmission</P>
+<HR>
+
+<DL>
+  <H3>Digital Passband Transmission Introduction</H3>
+  <P></P>
+  <P>
+  <P>In <STRONG>digital passband transmission</STRONG> the incoming data stream 
+  is modulated onto a (sinusoidal) carrier with fixed frequency limits imposed 
+  by a band-pass channel of interest. The major issue of concern is the optimum 
+  design of the receiver to minimise the average probability of symbol error in 
+  the presence of noise. The communications channel may be a microwave radio 
+  link, satellite channel etc. The modulation process involves switching 
+  (keying) the amplitude, phase or frequency in some way according to the 
+  incoming data. The three basic signalling schemes <STRONG>amplitude-shift 
+  keyin</STRONG><EM>g</EM> (ASK), <STRONG>frequency-shift keying</STRONG> (FSK) 
+  and <STRONG>phase-shift keying</STRONG> (PSK) are special cases of the 
+  analogue amplitude modulation, frequency modulation and phase modulation 
+  respectively and are studied in the laboratory experiments associated with 
+  this course.. Both PSK and FSK have constant envelope making them impervious 
+  to amplitude nonlinearities commonly found on microwave channels and they are 
+  therefore usually preferred to ASK signals.</P>
+  <P></P>
+  <P>
+  <P><IMG height=426 src="Digital Passband Transmission_files/Image594.gif" 
+  width=648></P>
+  <P><B><A name=_Ref368636109>Figure 2</A></B> Model of a Passband Transmission 
+  System</P>
+  <P></P>
+  <P>
+  <P>In our passband model we will assume a <STRONG>message source</STRONG> 
+  emits a <STRONG>symbol</STRONG> every <I>T</I> seconds with the symbols 
+  belonging to an alphabet (<I>m</I><SUB>1</SUB>,<I> m</I><SUB>2</SUB>,…,<I> 
+  m<SUB>M</SUB></I>) of <I>M</I> symbols Generally <I>M</I> is a power of two: 
+  <I>M</I>=2<SUP><I>k</I></SUP>, <I>k</I> is a integer. e.g. a quaternary PCM 
+  encoder has alphabet of 4 symbols (00,01,10,11). </P>
+  <P></P>
+  <P>
+  <P>Without prior information we assume that all symbols are equally likely so 
+  we have the symbol probabilities as</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=51 src="Digital Passband Transmission_files/Image595.gif" 
+        width=216>)</P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>The<EM> M-ary</EM> output of the message source is send to a <STRONG>signal 
+  transmission encoder</STRONG> which produces a corresponding vector <FONT 
+  size=2><B>s</B></FONT><SUB><I>i</I></SUB> made up of <I>N </I>real elements, 
+  one set for each of the <I>M</I> symbols of the source alphabet and <I>N<FONT 
+  face=Symbol>£</FONT>M</I>. With the vector <FONT 
+  size=2><B>s</B></FONT><SUB><I>i</I></SUB> the modulator constructs a 
+  <STRONG>distinct</STRONG> signal of duration <I>T</I> seconds as the 
+  representation of the message <I>m<SUB>i</SUB></I> produced by the message 
+  source. This signal <I>s<SUB>i</SUB></I>(<I>t</I>) must be of finite 
+  energy,</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=63 src="Digital Passband Transmission_files/Image596.gif" 
+        width=241></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>is real valued and one such signal is emitted every <I>T</I> seconds. The 
+  particular signal chosen depends on the message to be transmitted and possibly 
+  also on the signals transmitted in previous time slots. With a sinusoidal 
+  carrier the modulator will generally introduce a step change in the amplitude, 
+  phase, frequency or some combination thereof to distinguish the signals.</P>
+  <P></P>
+  <P>
+  <P>In our passband communication channel we will assume that it is linear, has 
+  a bandwidth large enough to support the modulated signal 
+  <I>s<SUB>i</SUB></I>(<I>t</I>) without distortion and that the transmitted 
+  signal is perturbed by an <STRONG>additive white Gaussian noise</STRONG> 
+  (AWGN) process <I>w</I>(<I>t</I>). The received signal will then be given 
+  by</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=61 src="Digital Passband Transmission_files/Image597.gif" 
+        width=276></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>The receiver observes the received signal <I>x</I>(<I>t</I>) for <I>T</I> 
+  seconds and makes a best estimate of the transmitted signal 
+  <I>s<SUB>i</SUB></I>(<I>t</I>) or message <I>m<SUB>i</SUB></I>. This is 
+  accomplished first by operating on the received signal <I>x</I>(<I>t</I>) to 
+  produce an observation <FONT size=2><B>x</B></FONT> which is then used 
+  together with prior knowledge of the modulation format used in the transmitter 
+  and the probabilities <I>p</I>(<I>m<SUB>i</SUB></I>) to produce an estimate of 
+  the message <IMG height=21 
+  src="Digital Passband Transmission_files/Image598.gif" width=20>. Noise from 
+  the channel makes the decision process statistical and prone to errors. The 
+  goal is to design a receiver to minimise the <STRONG>average probability of 
+  symbol error</STRONG><EM>:</P></EM>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=56 src="Digital Passband Transmission_files/Image599.gif" 
+        width=195></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>We assume that the receiver is time synchronised with the transmitter and 
+  knows the instant of time in which a particular signal is transmitted. In 
+  <STRONG>coherent detection</STRONG> we also assume that the detector is 
+  <STRONG>phase locked</STRONG> to the transmitter and knows the absolute phase 
+  of the signal. If this phase synchronism is not required then we have 
+  <STRONG>non-coherent detection</STRONG>.</P>
+  <P></P>
+  <P>
+  <P>We use the above construction as the basis of designing the optimum 
+  receiver exploiting a geometric representation of the known set of signals 
+  which gives insight and a simplification of detail.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:24.437 GMT+1</I></P>
+  <H3>Gram-Schmidt Orthogonalisation</H3>
+  <P>
+  <P>On completing this section you should be able to perform Gram-Schmidt 
+  Orthonogonalisation on an arbitrary set of signals to calculate a set of basis 
+  functions and express the signals geometrically in terms of those basis 
+  functions. </P>
+  <P></P>
+  <P>
+  <P>Any set of <I>M</I> energy signals {<I>s<SUB>i</SUB></I>(<I>t</I>)} may be 
+  represented as a linear combination of some <I>N</I> orthonormal basis 
+  functions <FONT face=Symbol>f</FONT><SUB><I>j</I></SUB>(t) where <I>N<FONT 
+  face=Symbol>£</FONT>M</I> in a process called <STRONG>Gram-Schmidt 
+  Orthogonalisation</STRONG> i.e. we represent our signals as</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=61 src="Digital Passband Transmission_files/Image600.gif" 
+        width=271></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>where the coefficients of the expansion are defined by</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=61 src="Digital Passband Transmission_files/Image601.gif" 
+        width=280>)</P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>This overlap integral may be thought of as determining a measure of how 
+  like basis function <FONT face=Symbol>f</FONT><SUB><I>j</I></SUB>(<I>t</I>) 
+  signal <I>s<SUB>i</SUB></I>(<I>t</I>) is. The basis functions are 
+  <STRONG>orthonormal</STRONG>:.</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=61 src="Digital Passband Transmission_files/Image602.gif" 
+        width=210></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P><IMG height=279 alt="wpe1.gif (2737 bytes)" 
+  src="Digital Passband Transmission_files/Gram-S1.gif" width=207 
+  align=left><IMG height=289 alt="wpe2.gif (3439 bytes)" 
+  src="Digital Passband Transmission_files/Gram-S2.gif" width=260 
+  align=right>that is they are each normalised to have unit energy and they are 
+  orthogonal to each other over the interval 0<FONT 
+  face=Symbol>£</FONT><I>t<FONT face=Symbol>£</FONT>T</I>. Orthogonality simply 
+  means that none of the basis functions can be represented by a linear 
+  superposition of others. The Fourier sine and cosine function sequences over a 
+  finite interval are one example of an orthogonal set of basis functions.</P>
+  <P></P>
+  <P>
+  <P>The coefficients <I>s<SUB>ij</SUB></I> are the coefficients of the 
+  <I>N</I>-dimensional vector <FONT size=2><B>s</B></FONT><SUB><I>i</I></SUB> 
+  which is used to generate the signal <I>s<SUB>i</SUB></I>(<I>t</I>) using a 
+  modulator which consists of <I>N</I> multipliers, each provided with its own 
+  basis function, followed by a summer.</P>
+  <P></P>
+  <P>
+  <P>Given a signal <I>s<SUB>i</SUB></I>(<I>t</I>) as an input we can use a bank 
+  of <I>N</I> <STRONG>product-integrators</STRONG> or 
+  <STRONG>correlators</STRONG> each with its own basis function input to 
+  determine the set of coefficients <I>s<SUB>ij</SUB></I> in the vector 
+  <I>s<SUB>i</SUB></I>(<I>t</I>) and this forms the first stage of a detector in 
+  the receiver.</P>
+  <P></P>
+  <P>
+  <P>To prove the Gram-Schmidt Orthogonalisation we begin by defining the first 
+  basis function as</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=60 src="Digital Passband Transmission_files/Image605.gif" 
+        width=103></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>where <I>E</I><SUB>1</SUB> is the energy of the signal 
+  <I>s</I><SUB>1</SUB>(<I>t</I>). The clearly we have <I>s</I><SUB>11</SUB>=<IMG 
+  height=33 src="Digital Passband Transmission_files/Image606.gif" width=41> and 
+  <FONT face=Symbol>f<SUB>1</SUB></FONT>(<I>t</I>) has unit energy as required. 
+  Given a second signal <I>s</I><SUB>2</SUB>(<I>t</I>) we can calculate the 
+  coefficient <I>s</I><SUB>21</SUB> as</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=43 src="Digital Passband Transmission_files/Image607.gif" 
+        width=155>)</P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>and we introduce a new intermediate function which is remainder of this 
+  second signal not represented by the first basis function</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=26 src="Digital Passband Transmission_files/Image608.gif" 
+        width=181></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>which is orthogonal to <FONT face=Symbol>f<SUB>1</SUB></FONT>(<I>t</I>) 
+  over the sampling interval. Normalising this gives us the second basis 
+  function</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=158 
+        src="Digital Passband Transmission_files/Image609.gif" 
+      width=185></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>where <I>E</I><SUB>2</SUB> is the energy of the signal 
+  <I>s</I><SUB>2</SUB>(<I>t</I>). The basis function form an orthonormal set as 
+  required. We may continue in this fashion and in general define</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=60 src="Digital Passband Transmission_files/Image610.gif" 
+        width=200></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>where the coefficients themselves are defined by</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=43 src="Digital Passband Transmission_files/Image611.gif" 
+        width=285></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>and from which we define a set of basis functions</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P align=center><IMG height=93 
+        src="Digital Passband Transmission_files/Image612.gif" 
+      width=258></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>which form an orthonormal set. If the set of signals are a linearly 
+  independent set then <I>N</I>=<I>M</I>, if not then we will have less basis 
+  functions than signals <I>N<FONT face=Symbol>£</FONT>M</I>.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:25.312 GMT+1</I></P>
+  <H3>The Geometric Interpretation of Signals</H3>
+  <P>
+  <P>On completing this section you should be able to apply geometric principles 
+  to the interpretation of signals </P>
+  <P></P>
+  <P>
+  <P>Once we have obtained a convenient set of basis functions {<FONT 
+  face=Symbol>f</FONT><SUB><I>j</I></SUB>(<I>t</I>)}, <I>j</I>=1,2,…,<I>N</I> 
+  then each signal in the set {<I>s<SUB>i</SUB></I>(<I>t</I>)}, 
+  <I>i</I>=1,2,…,<I>M</I> is determined by the vector of its coefficients</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=121 
+  src="Digital Passband Transmission_files/Image613.gif" width=213></P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 align=right border=0>
+    <TBODY>
+    <TR>
+      <TD>
+        <P align=center><IMG height=315 alt="wpe2.gif (2755 bytes)" 
+        src="Digital Passband Transmission_files/Geomet1.gif" 
+    width=351></P></TD></TR>
+    <TR>
+      <TD>Geometric representation of <BR><I>M</I>=3 signals on <I>N</I>=2 
+        basis functions</TD></TR></TBODY></TABLE></P>
+  <P>
+  <P>This vector <FONT size=2><B>s</B></FONT><SUB><I>i</I></SUB> is called the 
+  <STRONG>signal vector</STRONG> and we may conceptually think of our signals as 
+  a set of M points in <STRONG><EM>N</EM>-dimensional Euclidean space</STRONG> 
+  called <STRONG>signal space</STRONG> with the axis corresponding to the 
+  <I>N</I> orthonormal basis functions. This enables us to visualise our set of 
+  signals geometrically and as we will see simplifies the analysis when noise is 
+  introduced. The figure right illustrates this with the representation of 3 
+  signals, <I>S</I><SUB>1</SUB>, <I>S</I><SUB>2</SUB>,<I> S</I><SUB>3</SUB> on 2 
+  basis functions <FONT face=Symbol><I>f</I><SUB>1</SUB></FONT> and <FONT 
+  face=Symbol><I>f</I></FONT><SUB>2</SUB>.</P>
+  <P></P>
+  <P>
+  <P>In our geometric interpretation of signals we can introduce lengths of 
+  vectors and angles. The length of a signal vector <FONT 
+  size=2><B>s</B></FONT><SUB><I>i</I></SUB> is defined by the inner product of 
+  the signal with itself</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=100 
+  src="Digital Passband Transmission_files/Image615.gif" width=108></P>
+  <P></P>
+  <P>
+  <P>This is equal to the energy of the signal <I>E<SUB>i</SUB></I> which can be 
+  proved by expanding the signals in term of the basis functions and using the 
+  properties of basis function orthogonality as follows</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=191 
+  src="Digital Passband Transmission_files/Image616.gif" width=375></P>
+  <P></P>
+  <P>
+  <P>For two signal vectors we can calculate the Euclidean distance between them 
+  </P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=108 
+  src="Digital Passband Transmission_files/Image617.gif" width=243></P>
+  <P></P>
+  <P>
+  <P>We can also calculate the cosine of the angle between the two signal 
+  vectors defined by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=70 
+  src="Digital Passband Transmission_files/Image618.gif" width=126></P>
+  <P></P>
+  <P>
+  <P>Two vectors are thus orthogonal or perpendicular to each other if their 
+  inner produce is zero giving <FONT 
+  face=Symbol>q</FONT><SUB><I>ij</I></SUB>=90<FONT face=Symbol>°</FONT> .</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:25.171 GMT+1</I></P>
+  <H3>Signals and Noise</H3>
+  <P>
+  <P>On completing this section you should be able to describe a received signal 
+  with noise in terms of the Gaussian Probability density function and 
+  illustrate this on an signal-space diagram. </P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 align=right border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG height=232 alt="wpe6.gif (3554 bytes)" 
+        src="Digital Passband Transmission_files/Signal2.gif" width=322></TD></TR>
+    <TR>
+      <TD><B><A name=_Ref367502448>Figure 6</A></B> <A 
+        name=_Ref367502444>Correlation type 
+  demodulator</A></TD></TR></TBODY></TABLE></P>
+  <P>
+  <P>If instead of receiving in our bank of <I>N</I> product integrators the 
+  transmitted signal <I>s<SUB>i</SUB></I>(<I>t</I>) we receive signal received 
+  from an AWGN channel <I>x</I>(<I>t</I>) given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=61 
+  src="Digital Passband Transmission_files/Image620.gif" width=280></P>
+  <P></P>
+  <P>
+  <P>where <I>w</I>(<I>t</I>) is the sample function of a white Gaussian noise 
+  process of zero mean and power spectral density <I>N</I><SUB>0</SUB>/2 then 
+  the output of correlator <I>j</I> in the demodulator will be a sample value of 
+  a random variable given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=76 
+  src="Digital Passband Transmission_files/Image621.gif" width=148></P>
+  <P></P>
+  <P>
+  <P>The first component <I>s<SUB>ij</SUB></I> is a deterministic quantity 
+  contributed by the transmitted signal <I>s<SUB>i</SUB></I>(<I>t</I>) and the 
+  second component is a sample of a random variable that arises in the presence 
+  of noise at the receiver input</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=61 
+  src="Digital Passband Transmission_files/Image622.gif" width=156></P>
+  <P></P>
+  <P>
+  <P>Since <I>w</I>(<I>t</I>) is due to Gaussian white noise and the basis 
+  function has unit energy we can get the simple result (see standard texts e.g. 
+  Haykin p. 487) that the variance is given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=51 
+  src="Digital Passband Transmission_files/Image623.gif" width=83></P>
+  <P></P>
+  <P>
+  <P>The complete received signal vector may then be considered to be a vector 
+  of <I>N</I> Gaussian random variables with mean values <I>s<SUB>ij</SUB></I> 
+  and variances <I>N<SUB>0</SUB></I>/2 which can be written in the form</P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 align=right border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG height=278 alt="wpe8.gif (4005 bytes)" 
+        src="Digital Passband Transmission_files/Signal3.gif" width=378></TD></TR>
+    <TR>
+      <TD>A signal with a Gaussian distributed noise 
+  cloud.</TD></TR></TBODY></TABLE></P>
+  <P>
+  <P align=center><IMG height=26 
+  src="Digital Passband Transmission_files/Image624.gif" width=85></P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=31 
+  src="Digital Passband Transmission_files/Image625.gif" width=66></P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=51 
+  src="Digital Passband Transmission_files/Image626.gif" width=143> </P>
+  <P></P>
+  <P>
+  <P>This received signal point may lie anywhere inside an observation cloud 
+  which is a Gaussian-distributed cloud centred on the message point as 
+  illustrated right. </P>
+  <P></P>
+  <P>
+  <P>We may write a conditional probability density function which will be the 
+  product of the Gaussian probability density function of each of the elements. 
+  The likelihood functions of an AWGN channel will therefore be defined by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=65 
+  src="Digital Passband Transmission_files/Image627.gif" width=465></P>
+  <P></P>
+  <P>
+  <P>This is the probability after receiving observation vector <FONT 
+  size=2><B>x</B></FONT> that the message <I>m<SUB>i</SUB></I> was 
+  transmitted.</P>
+  <P></P>
+  <P>
+  <H2><A name=Demodulator_equiv>Equivalence of Matched Filter and Correlation 
+  Demodulator</A></H2>
+  <P></P>
+  <P>
+  <P><A name=Demodulator_equiv>Suppose we have a bank of <I>N</I> filters with 
+  their impulse responses matched to each of the <I>N </I>basis functions. The 
+  <I>N </I>matched filters are time reversed and delayed versions of inputs and 
+  will thus have impulse responses given by</A></P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=30 
+  src="Digital Passband Transmission_files/Image629.gif" width=138></P>
+  <P></P>
+  <P>
+  <P>The filter output will be the convolution of the input signal and filter 
+  responses</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=88 
+  src="Digital Passband Transmission_files/Image630.gif" width=256></P>
+  <P></P>
+  <P>
+  <P>S</P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 align=right border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG height=231 alt="wpe9.gif (3264 bytes)" 
+        src="Digital Passband Transmission_files/Signal4.gif" width=319></TD></TR>
+    <TR>
+      <TD><B><A name=_Ref367503859>Figure 8</A></B> Matched Filter 
+      Demodulator</TD></TR></TBODY></TABLE></P>
+  <P>
+  <P>uppose then that we sample the output of these filters at the time 
+  <I>t</I>=<I>T</I>. The outputs will then be given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=88 
+  src="Digital Passband Transmission_files/Image631.gif" width=203></P>
+  <P></P>
+  <P>
+  <P>Since by definition the basis signals are zero outside the bit 
+interval.</P>
+  <P></P>
+  <P>
+  <P>Thus we see that the matched filter demodulator shown in here produces the 
+  identical output to the correlation demodulator shown previously. The outputs 
+  of both these demodulators can then be interpreted by the minimum distance 
+  signal transmission decoder to determine the most likely transmitted message 
+  for a given received signal.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:27.359 GMT+1</I></P>
+  <H3>The Maximum Likelyhood Decoder</H3>
+  <P>
+  <P>On completing this section you should be able to demonstrate that for such 
+  a noise source the maximum likelyhood decision rule reduces to minimum 
+  distance detection if all signals are equi-probable. </P>
+  <P></P>
+  <P>
+  <P>At the receiver we wish to choose the most probable transmitted symbol 
+  given a particular received signal. We maximise the <STRONG>maximum a 
+  posteriori probability</STRONG> (MAP) criterion for the optimum detector: i.e. 
+  we </P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=58 src="Digital Passband Transmission_files/Image635.gif" 
+        width=330></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>Using Bayes theorem we can rewrite this in terms of transmitted symbol 
+  probabilities and likelihood functions getting</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=86 src="Digital Passband Transmission_files/Image636.gif" 
+        width=320></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>where <I>p<SUB>k</SUB></I> is the probability of occurance of the 
+  transmitted symbols which we will consider to be the same for all symbols and 
+  thus independent of the transmitted signal., <I>f</I><FONT 
+  size=2><SUB><B>X</B></SUB></FONT>(<FONT 
+  size=2><B>X</B></FONT><I>|m<SUB>k</SUB></I>) is the likelyhood function when 
+  <I>m<SUB>k</SUB></I> is transmitted and <I>f</I><FONT 
+  size=2><SUB><B>X</B></SUB></FONT>(<FONT size=2><B>X</B></FONT>) is the 
+  unconditional joint probability of random vector <FONT size=2><B>X</B></FONT> 
+  and is independent of the transmitted signal. The MAP rule can then become</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=63 src="Digital Passband Transmission_files/Image637.gif" 
+        width=318></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>Using natural logarithms simplifies the calculations. Subsituting in our 
+  probability density function from equation (27) we get</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=60 src="Digital Passband Transmission_files/Image638.gif" 
+        width=378></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>The first term in this is a constant and the second term is a constant 
+  times the Euclidean distance between the received vector and the signal 
+  vector. Clearly then if all signals are transmitted with equal probability the 
+  most likely transmitted signal vector is that whose signal point is nearest to 
+  the received vector. This is called <STRONG>minimum distance 
+  detection</STRONG>.</P>
+  <P></P>
+  <P>
+  <P>In practice the need for squarers in performing this decision rule is 
+  removed if we recognise that</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=60 
+  src="Digital Passband Transmission_files/Image640.gif" width=318></P>
+  <P></P>
+  <P>
+  <P><IMG height=269 alt="wpe1.gif (5747 bytes)" 
+  src="Digital Passband Transmission_files/Maximu1.gif" width=462 
+  align=right>The first term in this expansion is independent of <I>i</I> and 
+  can be ignored. The second term is the inner product of the observation vector 
+  <FONT size=2><B>x</B></FONT> and the signal vector <FONT 
+  size=2><B>s</B></FONT><SUB><I>i</I></SUB> an represents the projection of the 
+  received signal on each of the message signal vectors. The final term is the 
+  energy of the transmitted signal <I>s<SUB>i</SUB></I>(<I>t</I>) and may be 
+  viewed as a bias term serving as a bias term for signal sets that have unequal 
+  energies, such as PAM. The decoder based on this decision rule then takes on 
+  the form as shown in here.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:26.187 GMT+1</I></P>
+  <H3>Probability of Error for a passband system</H3>
+  <P>
+  <P>On completing this section you should be able to use signal space 
+  techniques to calculate the probability of error for a passband transmission 
+  system. </P>
+  <P></P>
+  <P>
+  <P><IMG height=286 alt="wpe2.gif (4394 bytes)" 
+  src="Digital Passband Transmission_files/Probab2.gif" width=387 
+  align=right>The minimum distance decision rule implies that we can divide the 
+  <I>N</I> dimensional observation space <I>Z</I> into a number of decision 
+  regions <I>Z<SUB>i</SUB></I> which are bounded by <I>N</I>-1 dimensional 
+  hyperplane boundaries. For received signals lying inside a particular decision 
+  region the most likely transmitted message is the one inside that region. 
+  Shown&nbsp; here is the example for <I>M</I>=4 signals and <I>N</I>=2 
+  dimensions assuming that the signals are transmitted with equal energy and 
+  probability.</P>
+  <P></P>
+  <P>
+  <P>An error will be deemed to have occurred if when a symbol 
+  <I>m<SUB>i</SUB></I> is sent and the received vector <B>x</B> does not lie in 
+  the associated decision region <I>Z<SUB>i</SUB></I>. Averaging over all 
+  possible transmitted symbols we obtain the average probability of symbol error 
+  <I>P<SUB>e</SUB></I>:</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=175 
+        src="Digital Passband Transmission_files/Image642.gif" 
+      width=398></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>which can be written in terms of the conditional probability function 
+as</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=63 src="Digital Passband Transmission_files/Image643.gif" 
+        width=228></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>The integral is <I>N</I>-dimensional. While this is conceptually 
+  straightforward it may be numerically impractical except for a few simple 
+  cases which we will now examine further. For more complicated systems that can 
+  be simplified to obtain a maximum upper bound called the union bound of on the 
+  probability of error (See the standard texts.)</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:26.796 GMT+1</I></P>
+  <H3>Coherent Binary Phase Shift Keying (PSK)</H3>
+  <P>
+  <P>On completing this section you should be able to calculate the probability 
+  of error for coherent binary phase shift keying. </P>
+  <P></P>
+  <P>
+  <P>In coherent binary phase shift keying (PSK) a phase shift of <FONT 
+  face=Symbol>p</FONT> in a carrier modulated signal is used to distinguish the 
+  binary symbols 0 and 1. The two signals are therefore given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=190 
+  src="Digital Passband Transmission_files/Image645.gif" width=230></P>
+  <P></P>
+  <P>
+  <P>where <I>f<SUB>c</SUB></I> is the carrier frequency This system may be 
+  represented using a single basis function </P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=61 
+  src="Digital Passband Transmission_files/Image646.gif" width=275></P>
+  <P></P>
+  <P>
+  <P>with the two signal vectors amplitude amplitudes given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=70 
+  src="Digital Passband Transmission_files/Image647.gif" width=90></P>
+  <P></P>
+  <P>
+  <P>where <I>E<SUB>b</SUB></I> is the signal energy which is also in this case 
+  the energy per bit</P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 align=right border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG src="Digital Passband Transmission_files/bpsk1.gif"></TD></TR>
+    <CAPTION><B>Signal Space Diagram for Binary PSK</B></CAPTION></TABLE></P>
+  <P>
+  <P>A coherent binary PSK system is therefore characterised by having a signal 
+  space that is one dimensional with a signal constellation consisting of two 
+  message points of equal and opposite amplitude Such signals with equal energy 
+  and a cross correlation coefficient of -1 are called <EM>antipodal</EM>. This 
+  signal space diagram is shown in Figure 11 If the symbols are equiprobable 
+  then the rule for deciding which symbol was transmitted is to choose the 
+  closest message point. There is therefore a decision threshold midway between 
+  the two signal points. As can be seen from the signal space diagram the 
+  probability of error of for a symbol will be given by the area under the 
+  probability density function lying at the wrong side of the decision boundary. 
+  For additive white Gaussian noise with a power spectral density of 
+  <I>N<SUB>0</SUB></I>/2 this will be given by </P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=66 
+  src="Digital Passband Transmission_files/Image648.gif" width=153></P>
+  <P></P>
+  <P>
+  <P>and if the symbols are equiprobable this will also be the average 
+  probability of error per symbol. If we set the carrier frequency 
+  <I>f<SUB>c</SUB></I> to zero we have a bipolar NRZ baseband transmission 
+  system and so not surprisingly we have the same average probability of symbol 
+  error as calculated for such a system.</P>
+  <DIV align=center>
+  <CENTER>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG alt="wpeA.gif (2245 bytes)" 
+        src="Digital Passband Transmission_files/bpsk2.gif"></TD>
+      <TD><IMG alt="wpe8.gif (2297 bytes)" 
+        src="Digital Passband Transmission_files/bpsk3.gif"></TD></TR>
+    <TR>
+      <TH>Binary PSK Transmitter</TH>
+      <TH>Binary PSK Receiver</TH></TR></TBODY></TABLE></CENTER></P></DIV>
+  <P></P>
+  <P>
+  <P>Generation of a coherent binary PSK may simply be done by encoding the 
+  binary data as a bipolar NRZ signal and multiplying the result by the carrier 
+  basis function as shown above. Detection is carried out by multiplying the 
+  received signal by a locally generated coherent reference signal <FONT 
+  face=Symbol><I>f<SUB>1</SUB></I></FONT>(<I>t</I>), integrating over the symbol 
+  period and comparing the output with a threshold amplitude of zero to 
+  determine if a 1 or 0 was sent (see ABOVE)</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:23.781 GMT+1</I></P>
+  <H3>Coherent Binary Amplitude Shift Keying (ASK)</H3>
+  <P>
+  <P>On completing this section you should be able to calculate the probability 
+  of error for coherent amplitude shift keying. </P>
+  <P></P>
+  <P>
+  <P>Amplitude shift keying, also called Pulse Amplitude Modulation (PAM) 
+  involves modulating the amplitude of a sinusoidal carrier to represent the 
+  signals. There is one (carrier) basis function given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=61 
+  src="Digital Passband Transmission_files/Image651.gif" width=278></P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 align=right border=0>
+    <CAPTION><B>Signal Space Diagram for Binary ASK</B></CAPTION>
+    <TBODY>
+    <TR>
+      <TD><IMG alt="wpe2.jpg (15300 bytes)" src=""></TD></TR></TBODY></TABLE></P>
+  <P>
+  <P>In the case of binary PAM an amplitude of zero represents binary zero and 
+  an amplitude of <IMG height=28 
+  src="Digital Passband Transmission_files/Image652.gif" width=35> represents a 
+  1. The signal space diagram is therefore one dimensional as shown, with signal 
+  vectors</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=63 
+  src="Digital Passband Transmission_files/Image653.gif" width=73></P>
+  <P></P>
+  <P>
+  <P>Note that with PAM the different signals are of different energies. We 
+  usually wish to work with the energy per bit which for binary PAM as described 
+  here will be given by.</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=51 src="Digital Passband Transmission_files/Image655.gif" 
+        width=65></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>From the signal space diagram it is obvious that the signal points are at 
+  half the distance of those for PSK and the probability of error per symbol 
+  will be given by</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=133 
+        src="Digital Passband Transmission_files/Image656.gif" 
+      width=170></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>i.e. such a binary amplitude shift keyed system requires twice the energy 
+  per bit to achieve the same probability of symbol error as the coherent binary 
+  phase shift keyed system.</P>
+  <P></P>
+  <P>
+  <H2>M-ary Amplitude Shift Keying</H2><I>
+  <P></P>
+  <P>
+  <P><IMG alt="wpe6.gif (2642 bytes)" 
+  src="Digital Passband Transmission_files/mask1.gif" align=left> </I></FONT>The 
+  amplitude shift keying system can obviously be extended to transmit 
+  <I>M</I>-ary data using <I>M</I> different signal levels. Generally we choose 
+  to transmit a power of 2, <I>M</I>=2<SUP><I>k</I></SUP> levels in an 
+  <I>M</I>-ary transmission system for compatibility with binary data systems. 
+  Shown iss the signal space diagram for some <I>M</I>-ary ASK systems. Note 
+  that in this figure the Gray coding is used for the binary codes. Such coding 
+  ensures that adjacent signals differ by only one bit. Since the most probable 
+  errors are for adjacent signal points Gray coding of the message signals 
+  ensures that signal bit errors are the most likely thus minimising the bit 
+  error rate for a particular symbol error rate.</P>
+  <P></P>
+  <P>
+  <P>There is one basis function representing the carrier with the signal 
+  vectors values are given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=26 
+  src="Digital Passband Transmission_files/Image658.gif" width=276></P>
+  <P></P>
+  <P>
+  <P>where <I>d</I> is half the distance between adjacent signal points.. The 
+  energy of the <I>M</I><SUP>th</SUP> signal point will be given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=30 
+  src="Digital Passband Transmission_files/Image659.gif" width=185></P>
+  <P></P>
+  <P>
+  <P>from which we calculate the average error per signal (assuming that all 
+  signals are equal probable) as follows</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=151 
+  src="Digital Passband Transmission_files/Image660.gif" width=313></P>
+  <P></P>
+  <P>
+  <P>Each <I>M</I>-ary signal carriers <IMG height=26 
+  src="Digital Passband Transmission_files/Image662.gif" width=65> bits of 
+  information so the average transmission energy per bit is given by.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=60 
+  src="Digital Passband Transmission_files/Image663.gif" width=140></P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 align=right border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG alt="wpe7.gif (3301 bytes)" 
+        src="Digital Passband Transmission_files/mask2.gif"></TD></TR>
+    <TR>
+      <TH>Calculation of symbol error rate for <I>M</I>-ary 
+  ASK</TH></TR></TBODY></TABLE></P>
+  <P>
+  <P>In order to calculate the symbol error rate for equiprobable symbols we see 
+  that the <I>M</I> signal points are separated by <I>m</I>-1 decision 
+  thresholds midway between adjacent points. Therefore for the outside levels 
+  the probability of symbol error will be given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=71 
+  src="Digital Passband Transmission_files/Image664.gif" width=155></P>
+  <P></P>
+  <P>
+  <P>The inside signal points, however, can have an error on either side and 
+  therefor have twice this probability of error. The total probability of symbol 
+  error per transmission will therefore be given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=140 
+  src="Digital Passband Transmission_files/Image665.gif" width=285></P>
+  <P></P>
+  <P>
+  <P>when substitution is made for the average energy per bit. The symbol error 
+  rate versus signal to noise ration for some different values of <I>M</I> is 
+  plotted below.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG alt="wpe8.gif (6217 bytes)" 
+  src="Digital Passband Transmission_files/mask3.gif"></P>
+  <P></P>
+  <P>
+  <P align=center>Probability of symbol error rate versus signal to noise ratio 
+  for <I>M</I>-ary ASK</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:23.359 GMT+1</I></P>
+  <H3>Coherent Binary Frequency Shift Keying (FSK)</H3>
+  <P>
+  <P>On completing this section you should be able to calculate the probability 
+  of error for coherent binary frequency shift keying. </P>
+  <P></P>
+  <P>
+  <P>In a binary frequency shift keyed system (FSK) the signals are 
+  distinguished from each other by having different frequencies and may be 
+  described by</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=63 src="Digital Passband Transmission_files/Image667.gif" 
+        width=185></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>where <I>i=</I>1,2 and the transmitted frequency is given by </P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=53 src="Digital Passband Transmission_files/Image668.gif" 
+        width=91></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>where <I>n<SUB>c</SUB></I> is some fixed integer. This form is an example 
+  of continuous-phase frequency shift keying (CPFSK) and is also called 
+  <STRONG>Sunde’s FSK</STRONG>. The condition expressed in equation (53) that 
+  the carrier frequencies must be an integral multiple of the symbol frequency 
+  ensures that the basis functions given by </P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=61 src="Digital Passband Transmission_files/Image669.gif" 
+        width=180></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>satisfy the orthogonality conditions. </P>
+  <P></P>
+  <P>
+  <P>The signal space diagram for binary FSK is therefore two dimensional with 
+  signal vectors given by</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=66 src="Digital Passband Transmission_files/Image670.gif" 
+        width=138></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>as shown. </P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 align=right border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG height=254 alt="wpe1.gif (3639 bytes)" 
+        src="Digital Passband Transmission_files/Cohere1.gif" width=351></TD></TR>
+    <TR>
+      <TH>Signal Space Diagram for coherent Binary FSK</TH></TR></TBODY></TABLE></P>
+  <P>
+  <P>Note that the number of frequencies to be transmitted can be increased to 
+  <I>M</I> for an <I>M</I>-ary transmission system producing an <I>M</I> 
+  dimensional signal space diagram.</P>
+  <P></P>
+  <P>
+  <P>The Euclidean distance between the two message points for binary FSK is 
+  equal to <IMG height=33 src="Digital Passband Transmission_files/Image672.gif" 
+  width=55> and the decision boundary for equiprobable symbols will lie as a 
+  diagonal line mid way between the two message points. The average probability 
+  of symbol error for equal energy binary signals depends only on the distance 
+  between the message points in signal space and so will be given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=66 
+  src="Digital Passband Transmission_files/Image673.gif" width=161></P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 align=right border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG height=227 alt="wpe2.gif (3792 bytes)" 
+        src="Digital Passband Transmission_files/Cohere2.gif" width=411></TD></TR>
+    <TR>
+      <TH>Transmitter for coherent Binary FSK</TH></TR>
+    <TR>
+      <TH><IMG height=191 alt="wpe6.gif (3692 bytes)" 
+        src="Digital Passband Transmission_files/Cohere3.gif" width=425></TH></TR>
+    <TR>
+      <TH>Receiver for coherent Binary FSK</TH></TR></TBODY></TABLE></P>
+  <P>
+  <P>We thus see that we have to double the bit signal-to-noise ratio in order 
+  to maintain the same bit error rate as a coherent binary PSK system.</P>
+  <P></P>
+  <P>
+  <P>Generation of coherent binary FSK simply requires an on-off level encoder 
+  alternatively switching the two frequency basis functions which are then 
+  transmitted as shown. In this case we are assuming that the two oscillators 
+  are synchronised appropriately to maintain the continuous phase condition. We 
+  could alternatively use a single voltage controlled oscillator whose frequency 
+  is shifted in accordance with the continuous phase requirement.</P>
+  <P></P>
+  <P>
+  <P>To detect the original binary sequence given a noisy received signal 
+  <I>x</I>(<I>t</I>) we use two correlators supplied with locally generated 
+  coherent reference versions of the basis signals <FONT 
+  face=Symbol>f</FONT><SUB><I>1</I></SUB>(<I>t</I>) and <FONT 
+  face=Symbol>f</FONT><SUB><I>2</I></SUB>(<I>t</I>). The correlator outputs are 
+  subtracted and the difference compared with a zero threshold to determine 
+  which symbol was most likely sent. </P>
+  <P></P>
+  <P>
+  <H2>Coherent Minimum Shift Keying (MSK)</H2>
+  <P></P>
+  <P>
+  <P>In the coherent detection of a binary FSK signal the phase information in 
+  the received signal was not fully exploited other than to synchronise the 
+  receiver with the transmitter. With proper utilisation of the phase 
+  information when performing detection the noise performance can be improved 
+  significantly at the expense of increased receiver complexity.</P>
+  <P></P>
+  <P>
+  <P>This is achieved by using a deviation ratio of a half as compared to one in 
+  FSK The signal space diagram for MSK has four signal points with two 
+  representing symbol 1 and two representing symbol 0. The average probability 
+  of is the same as for PSK however this improved performance is achieved by 
+  detector observation over two symbol periods for each symbol. MSK is an 
+  example of a modulation scheme with memory - there is a correlation from one 
+  symbol period to the next and as such is considered beyond the scope of this 
+  course. It is however an important technique used in practice.</P>
+  <P></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:23.562 GMT+1</I></P>
+  <H3>Non-coherent Modulation</H3>
+  <P>
+  <P>On completing this section you should be able to Describe the principles of 
+  non-coherent modulation and detection and the quadrature receiver. </P>
+  <P></P>
+  <P>
+  <P>Coherent detection requires knowledge of the carriers waves phase reference 
+  thus providing optimum error performance with the digital modulation format of 
+  interest. This knowledge may not be practicable in which case we resort to 
+  non-coherent detection. Here we will consider non-coherent orthogonal 
+  modulation including differential phase shift keying and non-coherent binary 
+  frequency shift keying as specific examples.</P>
+  <P></P>
+  <P>
+  <P>If we transmit a signal </P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=56 
+  src="Digital Passband Transmission_files/Image685.gif" width=275></P>
+  <P></P>
+  <P>
+  <P>Then the received signal, from an AWGN channel, with an unknown phase shift 
+  <FONT face=Symbol>q</FONT> will be given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=109 
+  src="Digital Passband Transmission_files/Image686.gif" width=499></P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 align=right border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG height=191 alt="wpe2.gif (3380 bytes)" 
+        src="Digital Passband Transmission_files/Non-co1.gif" width=406></TD></TR>
+    <TR>
+      <TH>Quadrature Receiver </TH></TR></TBODY></TABLE></P>
+  <P>
+  <P>where we have applied well a known trigonometric identity. If we apply this 
+  to a pair of correlators with reference signals <IMG height=56 
+  src="Digital Passband Transmission_files/Image687.gif" width=116 align=middle> 
+  and <IMG height=56 src="Digital Passband Transmission_files/Image688.gif" 
+  width=115 align=middle> we will get output signals <IMG height=28 
+  src="Digital Passband Transmission_files/Image689.gif" width=76> and <IMG 
+  height=28 src="Digital Passband Transmission_files/Image690.gif" width=90>. 
+  Squaring these , adding and taking the square root will remove the dependence 
+  on the unknown phase <FONT face=Symbol>q</FONT>. The <STRONG>quadrature 
+  receiver</STRONG> is thus as shown</P>
+  <P></P>
+  <P>
+  <P>We can then use this receiver to detect two orthogonal signals 
+  <I>s</I><SUB>1</SUB>(<I>t</I>) and <I>s</I><SUB>2</SUB>(<I>t</I>) which are 
+  sent over a noisy channel which shifts the carrier by an unknown amount. We 
+  assume that the phase shifted signals, denoted <I>g</I><SUB>1</SUB>(<I>t</I>) 
+  and <I>g</I><SUB>2</SUB>(<I>t</I>), remain orthogonal and have an energy 
+  <I>E</I> regardless of the phase shift and that the channel has additive white 
+  gaussian noise with power spectral density<I> N</I><SUB>0</SUB>/2. The 
+  received signal will the be</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=61 
+  src="Digital Passband Transmission_files/Image692.gif" width=251></P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 align=right border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG height=180 alt="wpe6.gif (3491 bytes)" 
+        src="Digital Passband Transmission_files/Non-co2.gif" width=427></TD></TR>
+    <TR>
+      <TH>Generalised non-coherent binary receiver</TH></TR></TBODY></TABLE></P>
+  <P>
+  <P>The generalised receiver, shown here will be used to distinguish between 
+  <I>s</I><SUB>1</SUB>(<I>t</I>) and <I>s</I><SUB>2</SUB>(<I>t</I>) regardless 
+  of carrier phase. This consists of a pair of non-coherent (quadrature) filters 
+  matched to the basis functions. The filter outputs are envelope detected, 
+  sampled and compared to product the output thus removing the need for a phase 
+  reference.</P>
+  <P></P>
+  <P>
+  <P>The average probability of error for such a non-coherent receiver can be 
+  shown to be</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=63 src="Digital Passband Transmission_files/Image694.gif" 
+        width=153></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>where <I>E</I> is the energy per symbol. Derivation of this is considered 
+  beyond this course.</P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 align=right border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG height=151 alt="wpe7.gif (4244 bytes)" 
+        src="Digital Passband Transmission_files/Non-co3.gif" width=560></TD></TR>
+    <TR>
+      <TH>Output of non-coherent matched filter for differing phase 
+      mismatches.</TH></TR></TBODY></TABLE></P>
+  <P>
+  <P>The need for the envelope detector in the non-coherent receiver is apparent 
+  if we consider the output of the quadrature receiver for signals with a phase 
+  of 0 and 180 degress.</P>
+  <P></P>
+  <P>
+  <P>In the first case there is a peak at the sampling instant while in the 
+  latter a trough. To avoid poor sampling that arises without prior knowledge of 
+  <FONT face=Symbol>q</FONT> we thus use an envelope detector as its output is 
+  completely independent of the phase mismatch.</P>
+  <P></P>
+  <P>
+  <H2><A name=NCFSK>Non-coherent FSK</H2></A>
+  <P></P>
+  <P>
+  <P>In binary FSK the signal is given as</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=63 src="Digital Passband Transmission_files/Image696.gif" 
+        width=185></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>where <I>i=</I>1,2 and the transmitted carrier frequency is given by </P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=53 src="Digital Passband Transmission_files/Image697.gif" 
+        width=91></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 align=right border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG height=153 alt="wpe8.gif (4238 bytes)" 
+        src="Digital Passband Transmission_files/Non-co4.gif" width=465></TD></TR>
+    <TR>
+      <TH>Non-coherent Binary FSK Receiver</TH></TR></TBODY></TABLE></P>
+  <P>
+  <P>The non-coherent receiver for this kind of signal consists of a pair of 
+  filters - one matched to each of the transmitted frequencies followed by an 
+  envelope detector. The output envelopes are sampled and compared to determine 
+  the most likely transmitted symbol as shown.</P>
+  <P></P>
+  <P>
+  <P>This form of non-coherent binary FSK is a special case of non-coherent 
+  orthogonal modulation for which we find the average probability of symbol 
+  error (and also the bit error rate) as</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=63 src="Digital Passband Transmission_files/Image699.gif" 
+        width=161></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <H2><A name=DPSK>Differential Phase Shift Keying</H2></A>
+  <P></P>
+  <P>
+  <P>Differential phase shift keying may be viewed as a non-coherent version of 
+  PSK. The transmitter eliminates the need for a coherent reference by 
+  differentially coding the input binary signal and then employing phase shift 
+  keying. Effectively to send a 0 we advance the phase by <FONT 
+  face=Symbol>p</FONT> and to send a 1 we leave the phase unchanged. The 
+  receiver measures the relative phase difference between the waveforms received 
+  during two successive symbol intervals. If the phase error changes 
+  sufficiently slowly it can be considered to be constant over the two bit 
+  intervals.</P>
+  <P></P>
+  <P>
+  <P>DPSK may be considered as an example of non-coherent orthogonal modulation 
+  when it is considered over two bit intervals. We can define then define the 
+  two signals representing symbols 1 and 0 respectively as</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=121 
+        src="Digital Passband Transmission_files/Image700.gif" 
+      width=316></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>for where the phase is unchanged between signal intervals and </P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=123 
+        src="Digital Passband Transmission_files/Image701.gif" 
+      width=350></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>where there is a <FONT face=Symbol>p</FONT> phase change across signal 
+  intervals.</P>
+  <P></P>
+  <P>
+  <P>These two signals are orthogonal over the interval 0<FONT 
+  face=Symbol>£</FONT><I>t<FONT face=Symbol>£</I>2</FONT><I>T<SUB>b</SUB></I> 
+  and the bit error rate for DPSK is thus given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=63 
+  src="Digital Passband Transmission_files/Image702.gif" width=151></P>
+  <DIV align=center>
+  <CENTER>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=0 cellPadding=2 border=0>
+    <TBODY>
+    <TR>
+      <TD vAlign=top>Message Sequence {<I>b<SUB>k</SUB></I>}</TD>
+      <TD vAlign=top width="5%"></TD>
+      <TD vAlign=top width="5%">1</TD>
+      <TD vAlign=top width="5%">0</TD>
+      <TD vAlign=top width="5%">0</TD>
+      <TD vAlign=top width="5%">1</TD>
+      <TD vAlign=top width="5%">1</TD>
+      <TD vAlign=top width="5%">1</TD>
+      <TD vAlign=top width="5%">0</TD>
+      <TD vAlign=top width="5%">0</TD>
+      <TD vAlign=top width="5%">0</TD></TR>
+    <TR>
+      <TD vAlign=top>Encoded Sequence {<I>d<SUB>k</SUB></I>}</TD>
+      <TD vAlign=top width="5%">1</TD>
+      <TD vAlign=top width="5%">1</TD>
+      <TD vAlign=top width="5%">0</TD>
+      <TD vAlign=top width="5%">1</TD>
+      <TD vAlign=top width="5%">1</TD>
+      <TD vAlign=top width="5%">1</TD>
+      <TD vAlign=top width="5%">1</TD>
+      <TD vAlign=top width="5%">0</TD>
+      <TD vAlign=top width="5%">1</TD>
+      <TD vAlign=top width="5%">0</TD></TR>
+    <TR>
+      <TD vAlign=top>Transmitted Phase</TD>
+      <TD vAlign=top width="5%">0</TD>
+      <TD vAlign=top width="5%">0</TD>
+      <TD vAlign=top width="5%"><FONT face=Symbol>p</FONT></TD>
+      <TD vAlign=top width="5%">0</TD>
+      <TD vAlign=top width="5%">0</TD>
+      <TD vAlign=top width="5%">0</TD>
+      <TD vAlign=top width="5%">0</TD>
+      <TD vAlign=top width="5%"><FONT face=Symbol>p</FONT></TD>
+      <TD vAlign=top width="5%">0</TD>
+      <TD vAlign=top width="5%"><FONT face=Symbol>p</FONT></TD></TR>
+    <TR>
+      <TH vAlign=top colSpan=11>Generation of a DPSK 
+  Signal</TH></TR></TBODY></TABLE></CENTER></P></DIV>
+  <P></P>
+  <P>
+  <P>Here&nbsp; we show an example illustrating the DPSK encoding of a binary 
+  signal. Note that the sequence starts with an (arbitrary) reference bit.</P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG height=130 alt="wpeA.gif (3087 bytes)" 
+        src="Digital Passband Transmission_files/Non-co5.gif" width=356></TD></TR>
+    <TR>
+      <TH>DPSK Transmitter</TH></TR></TBODY></TABLE></P>
+  <P>
+  <P>The transmitter consists of a logic network connected to a 1 bit delay 
+  element to generated the differentially encoded binary sequence. This sequence 
+  is amplitude encoded and used to modulate the carrier signal to generate the 
+  DPSK signal.</P>
+  <P></P>
+  <P>
+  <P>The optimum receiver for binary DPSK is shown. </P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 border=0>
+    <TBODY>
+    <TR>
+      <TH><IMG height=245 alt="wpeC.gif (5469 bytes)" 
+        src="Digital Passband Transmission_files/Non-co6.gif" width=487></TH></TR>
+    <TR>
+      <TH>DPSK Receiver</TH></TR></TBODY></TABLE></P>
+  <P>
+  <P>This receiver equipped with an in-phase and quadrature channel which 
+  measures the co-ordinates of the signal at time <I>t</I><FONT 
+  face=Symbol>=</FONT><I>T<SUB>b</SUB></I> and time <I>t</I><FONT 
+  face=Symbol>=</FONT>2<I>T<SUB>b</SUB></I> respectively. These two signal 
+  points are compared to determine if they map to the same signal point or they 
+  are <FONT face=Symbol>p</FONT> out of phase.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:26.453 GMT+1</I></P>
+  <H3>Coherent M-ary Phase Shift Keying (MPSK)</H3>
+  <P>
+  <P>On completing this section you should be able to Describe coherent M-ary 
+  phase shift keying in terms of its signal vectors, and calculate the 
+  probability of error for QPSK. </P>
+  <P></P>
+  <P>
+  <P>Digital phase shift keying can be extended from binary to an <I>M</I>-ary 
+  transmission system by using <I>M</I> different phases of the carrier to 
+  represent the signal. The set of signals will then take the form</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=58 src="Digital Passband Transmission_files/Image705.gif" 
+        width=298></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>where <I>E</I> is the signal energy, <I>f<SUB>c</SUB></I> the carrier 
+  frequency and <I>m</I>=1,2,…,<I>M</I>. Such a set of signals can be 
+  represented using two basis functions with the same carrier frequency but in 
+  quadrature (with a <FONT face=Symbol>p</FONT>/2 phase shift) as follows</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=116 
+        src="Digital Passband Transmission_files/Image706.gif" 
+      width=190></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>The <I>m</I> signal vectors will take the co-ordinates</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=105 
+        src="Digital Passband Transmission_files/Image708.gif" 
+      width=195></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 align=left border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG height=185 alt="wpe1.gif (2639 bytes)" 
+        src="Digital Passband Transmission_files/Cohere4.gif" width=322></TD></TR>
+    <TR>
+      <TH>Signal Space Diagrams for <I>M</I>-ary PSK</TH></TR></TBODY></TABLE></P>
+  <P>
+  <P>We therefore have a two-dimensional signal space map with the <I>M</I> 
+  signal points equally spaced around a circle of radius <I>E</I><SUP>1/2</SUP>. 
+  Shown are the cases for <I>M</I>=4 (called <STRONG>quadriphase-shift 
+  keying</STRONG> (QPSK)) and <I>M</I>=8. Note the use of Gray encoding again to 
+  minimise the bit error rate for a given symbol rate.</P>
+  <P></P>
+  <P>
+  <P>Shown below is a block diagram for a QPSK transmitter. The incoming binary 
+  sequence is transformed by a non-return to zero level encoder into a polar 
+  form which is then split into two channels off odd and even bits which are 
+  then used to modulate a pair of quadrature carriers. The result of a pair of 
+  PSK signals which may be detected independently due to their orthogonality. We 
+  will use this in determining the probability of error for QPSK The two PSK 
+  signals are added to produce the transmitted QPSK signal.</P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG height=191 alt="wpe6.gif (3178 bytes)" 
+        src="Digital Passband Transmission_files/Cohere5.gif" width=364></TD>
+      <TD><IMG height=211 alt="wpe7.gif (3791 bytes)" 
+        src="Digital Passband Transmission_files/Cohere6.gif" width=351></TD></TR>
+    <TR>
+      <TH>Transmitter for QPSK</TH>
+      <TH>Receiver for QPSK</TH></TR></TBODY></TABLE></P>
+  <P>
+  <P>The QPSK receiver has a pair of correlators provided with a locally 
+  generated pair of coherent synchronised quadrature reference signals. The 
+  output of these are compared with a threshold of zero to determine if a 1 or 0 
+  was sent and the two binary sequences are multiplexed together to generate the 
+  original binary sequence. The receiver is essentially two PSK receivers in 
+  parallel using quadrature frequency references and generating alternate odd 
+  and even bits.</P>
+  <P></P>
+  <P>
+  <P>Except for the cases of <I>M</I>=2 and <I>M</I>=4 the calculation of the 
+  probability of symbol error for <I>M</I>-ary PSK does not reduce to a simple 
+  form. We will perform this calculation for the case <I>M</I>=4 (QPSK).</P>
+  <P></P>
+  <P>
+  <H2><A name=QPSK>Calculation of Error Rate for QPSK</H2></A>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 align=left border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG height=268 alt="wpe8.gif (3301 bytes)" 
+        src="Digital Passband Transmission_files/Cohere7.gif" width=308></TD></TR>
+    <TR>
+      <TH>Signal space diagram for QPSK</TH></TR></TBODY></TABLE></P>
+  <P>
+  <P>We show here again the signal space diagram for QPSK indicating the 
+  decision regions and the distance between adjacent signal points which is 
+  given by</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P align=center><IMG height=31 
+        src="Digital Passband Transmission_files/Image713.gif" 
+      width=88></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>If we look at each point we see that we can consider it to have two 
+  orthogonal PSK systems with the distance between channels given by equation 
+  (70). The probability of error for each of these independent channels will be 
+  given by</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=66 src="Digital Passband Transmission_files/Image714.gif" 
+        width=175></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>From this we can determine the probability of there being a correct 
+  decision for this message point to be</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=33 
+  src="Digital Passband Transmission_files/Image715.gif" width=130></P>
+  <P></P>
+  <P>
+  <P>and thus the probability of symbol error for QPSK is given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=66 
+  src="Digital Passband Transmission_files/Image716.gif" width=291></P>
+  <P></P>
+  <P>
+  <P>Substituting for the average energy per bit <I>E<SUB>b</SUB></I>=<I>E</I>/2 
+  and taking the approximation that the signal to noise ratio is not small we 
+  find that for QPSK the probability of symbol error will be given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=66 
+  src="Digital Passband Transmission_files/Image717.gif" width=288></P>
+  <P></P>
+  <P>
+  <P>With Gray encoding of the incoming dibits (symbols) we find that the bit 
+  error rate of QPSK is exactly</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=65 src="Digital Passband Transmission_files/Image718.gif" 
+        width=173></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>which is the exactly the same as for PSK. This we expect since Gray encoded 
+  QPSK essentially consists of the transmission of two independent PSK channels. 
+  However QPSK achieves this bit error rate with half the bandwidth requirements 
+  of PSK.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:24.046 GMT+1</I></P>
+  <H3>Quadrature Amplitude Modulation (QAM)</H3>
+  <P>
+  <P>On completing this section you should be able to describe the principles 
+  behind quadrature amplitude modulation (QAM) and calculate the probability of 
+  symbol error in a rectangular constellation QAM system. </P>
+  <P></P>
+  <P>
+  <P><IMG height=249 alt="wpe1.gif (3864 bytes)" 
+  src="Digital Passband Transmission_files/Quadra1.gif" width=244 align=left> In 
+  <I>M</I>-ary PSK the signal amplitude is the same for all signals thus 
+  constraining the signal points to a circular constellation. If this constraint 
+  is removed and the in-phase and quadrature signal components are allowed to 
+  vary independently we have a scheme called quadrature amplitude modulation 
+  (QAM). In this case we can have any signal constellation we choose. QAM 
+  waveforms are a combination of PAM and PSK. The basis functions are as for 
+  PSK.</P>
+  <P></P>
+  <P>
+  <P><IMG height=214 alt="wpe2.gif (2643 bytes)" 
+  src="Digital Passband Transmission_files/Quadra2.gif" width=260 align=right>We 
+  may choose any combination of <I>M</I><SUB>1</SUB>-level PAM and 
+  <I>M</I><SUB>2</SUB>-level PSK to give an 
+  <I>M</I>=<I>M</I><SUB>1</SUB><I>M</I><SUB>2</SUB> level QAM signal 
+  constellation. Figure 32 shows some rectangular signal constellations for 
+  different values of <I>M</I>. The optimum signal constellation will be that 
+  which requires the least average power for a given minimum distance between 
+  signal points. For <I>M</I>=4 this will be when the four points lie on a 
+  circle and the resulting signal constellation is the same as that for QPSK. 
+  For <I>M</I>=8 the optimal signal constellation consists of the points lying 
+  on two circles as indicated in Figure 33 For <I>M<FONT face=Symbol>³</FONT> 
+  </I>16 there are many more ways of building up the signal constellation 
+  however rectangular signal constellations as shown in Figure 32 have the 
+  distinct advantage that they can be generate as two PAM signal impressed on 
+  the phase quadrature carriers and they are easily demodulated. Also for 
+  <I>M<FONT face=Symbol>³</FONT> </I>16 the average transmitter power required 
+  for the rectangular constellation is only slightly worse than the best 
+  <I>M</I>-ary QAM signal constellation.</P>
+  <P></P>
+  <P>
+  <H2>Calculation of symbol error rate for QAM</H2>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 align=right border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG height=255 alt="wpe6.gif (3309 bytes)" 
+        src="Digital Passband Transmission_files/Quadra3.gif" width=250></TD></TR>
+    <TR>
+      <TH>Square Signal space diagram for <I>M</I>=16, <BR>showing division 
+        into two 4-ary PAM channels</TH></TR></TBODY></TABLE></P>
+  <P>
+  <P>Since the two quadrature components are orthogonal they can be detected 
+  independently without interference. The rectangular QAM constellation can thus 
+  divided into two independent polar ASK signals, and the probability of error 
+  calculated separately for each before combining to find the overall 
+  probability of symbol error as was done for the example of QPSK. Here we will 
+  perform the calculation for a square QAM constellation as shown in Figure 34 
+  for <I>M</I>=16. When Gray encoded we see that this constellation consists of 
+  two independent <I>L</I>-ary PAM signals such that</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=28 
+  src="Digital Passband Transmission_files/Image722.gif" width=76></P>
+  <P></P>
+  <P>
+  <P>From our calculation for the probability of error for <I>M</I>-ary PAM we 
+  have the probability of error for each channel to be given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=71 
+  src="Digital Passband Transmission_files/Image723.gif" width=185></P>
+  <P></P>
+  <P>
+  <P>where 2<I>d</I> is the distance between adjacent signal points. From this 
+  we calculate the probability of a correct decision for each channel and thus 
+  find that the overall probability of error for the <I>M</I>-ary QAM signal is 
+  given by</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=61 
+  src="Digital Passband Transmission_files/Image724.gif" width=145></P>
+  <P></P>
+  <P>
+  <P>The average energy per transmission for each PAM channel is given 
+  previously, and since QAM has two PAM channels the average energy for the QAM 
+  will be twice that and thus given by</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=55 src="Digital Passband Transmission_files/Image725.gif" 
+        width=148></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>From this we can calculate the average energy per bit given that each 
+  signal transmits log<SUB>2</SUB><I>M</I> bits and substituting for <I>L</I> we 
+  get</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=60 src="Digital Passband Transmission_files/Image726.gif" 
+        width=143></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>Putting all these together we find for a square <I>M</I>-ary QAM 
+  constellation the probability of symbol energy as a function of bit energy to 
+  noise ratio to be given by</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=66 src="Digital Passband Transmission_files/Image727.gif" 
+        width=308></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>Substituting in <I>M</I>=4 gives the same probability of symbol error as 
+  was calculated for QPSK as expected.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:26.968 GMT+1</I></P>
+  <H3>Trellis Coded Modulation</H3>
+  <P>
+  <P>On completing this section you should be able to describe the principles 
+  behind soft decoding and trellis coded modulation, and use the Virterbi 
+  algorithm to decode a trellis coded modulaiton encoded stream. </P>
+  <P></P>
+  <P>
+  <P>So far we have considered the channel coding process as being performed 
+  separately from the modulation, and likewise for detection and decoding with 
+  error control being provided by additional redundant bits in the code thus 
+  lowering the information bit rate per channel bandwidth. By treating coding 
+  and modulation as a single process we can achieve a more effective utilisation 
+  of available bandwidth and power. The coding then involves imposing certain 
+  patterns on the transmitted signal. One way of combing modulation and error 
+  control is called <STRONG>Trellis-coded modulation</STRONG> (TCM) which has 
+  three features</P>
+  <P></P>
+  <P>
+  <OL>
+    <LI>The number of signal points in the constellation used is large than what 
+    is required for the modulation format of interest with the same data rate; 
+    the additional points allow redundancy for forward error-control coding 
+    without sacrificing bandwidth. 
+    <LI>Convolutional coding is used to introduce a dependency between 
+    successive signal points such that only certain patterns or sequences of 
+    signal points are permitted. 
+    <LI>Soft-decision decoding is performed in the receiver in which the 
+    permitted sequence of signals is modelled as a trellis structure. </LI></OL>
+  <P></P>
+  <P>
+  <P>By increasing the size of the constellation the probability of symbol error 
+  increases for a fixed signal-to-noise ratio and so with hard decision decoding 
+  we would gain nothing. Soft-decision decoding on the combined code and 
+  modulation ameliorates this problem. In soft decision decoding we maximise the 
+  Euclidean signal distance between code vectors as compared to maximising the 
+  hamming vectors between code words.</P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 align=right border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG height=267 alt="wpe7.gif (3930 bytes)" 
+        src="Digital Passband Transmission_files/Trelli4.gif" width=370></TD></TR>
+    <TR>
+      <TH>Partitioning of an 8-PSK constellation</TH></TR></TBODY></TABLE></P>
+  <P>
+  <P>The design of this type of code involves partitioning an <I>M</I>-ary 
+  constellation successively into 2,4,8 subsets with size <I>M</I>/2,<I> 
+  M</I>/4,<I> M</I>/8 having progressively larger increasing Euclidean distance 
+  between their respective signal points. Shown here is the partitioning of an 
+  8-PSK constellation into successive subsets having increase within subset 
+  Euclidean distances <I>d</I><SUB>0</SUB><FONT 
+  face=Symbol>£</FONT><I>d</I><SUB>1</SUB><FONT 
+  face=Symbol>£</FONT><I>d</I><SUB>2</SUB> . Similar partitioning can be done 
+  for QAM constellations.</P>
+  <P></P>
+  <P>
+  <P>Based on the subsets from the partitioning of the two-dimensional 
+  constellation we can devise simple efficient coding schemes. To send <I>n</I> 
+  bits/symbol with quadrature modulation we start with a two-dimensional 
+  constellation of 2<SUP><I>n</I>+1</SUP> signal points in the appropriate 
+  format. These are partitioned into 4 or 8 subsets and 1 or 2 incoming bits per 
+  symbol enter a rate-1/2 or rate-2/3 binary convolutional encoder respectively. 
+  The resulting 2 or 3 coded bits per symbol determine which subset is selected 
+  and the remaining uncoded data bits determine which particular point from the 
+  selected subset is to be signalled. This kind of Trellis code is called a 
+  <EM>Ungerboeck code.</EM> The Viterbi algorithm can be used to perform maximum 
+  likelihood sequence detection at the receiver with each branch in the trellis 
+  corresponding to a subset rather than a single signal point. The first step is 
+  to determine the signal point within each subset nearest to the received 
+  signal point. This signal point and its metric (distance from the received 
+  signal) are used thereafter for the branch in question and the Viterbi 
+  algorithm may proceed as normal.</P>
+  <P></P>
+  <P>
+  <P>Trellis coded modulation is used in the current generation of Vfast (V34) 
+  modems.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:27.937 GMT+1</I></P>
+  <H3>Comparison Of Modulation Techniques</H3>
+  <P>
+  <P>On completing this section you should be able to compare the various 
+  modulation techniques and comment on their suitability in various types of 
+  transmission systems. </P>
+  <P></P>
+  <P>
+  <P>We can compare the various modulation techniques on the basis of the SNR 
+  required to achieve a specified probability of error subject to some 
+  constraint such as a fixed data rate of transmission.</P>
+  <P></P>
+  <P>
+  <P>For multiple phase signals the channel bandwidth required is simply that of 
+  the equivalent low pass signal. We assume that our pulse has duration <I>T</I> 
+  and occupies a bandwidth <I>B</I>=1/<I>T</I>. Since 
+  <I>T</I>=(log<SUB>2</SUB><I>M</I>)/<I>R </I>so as <I>M</I> is increased the 
+  channel bandwidth required decreases and we have a bandwidth efficiency, 
+  defined as bit rate to bandwidth ratio of</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=51 src="Digital Passband Transmission_files/Image729.gif" 
+        width=101></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>For PAM the most efficient transmission is single-sideband (SSB) and we 
+  have approximately <I>B</I>=1/2<I>T</I> so the bandwidth efficiency is given 
+  by</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=51 src="Digital Passband Transmission_files/Image730.gif" 
+        width=113></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>In the case of QAM we have two orthogonal carriers each having a PAM signal 
+  however the signal must be transmitted via double sideband. Thus QAM and PAM 
+  have the same bandwidth efficiency when bandwidth is referenced to the 
+  bandpass signal.</P>
+  <P></P>
+  <P>
+  <P>Orthogonal signals (such as FSK) have completely different bandwidth 
+  requirements. If we use <I>M</I>=2<SUP><I>k</I></SUP> orthogonal carriers with 
+  a minimum frequency separation of 1/2<I>T</I> for orthogonality the bandwidth 
+  is given by <I>M</I>/2<I>T</I> giving a bandwidth efficiency of</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=51 src="Digital Passband Transmission_files/Image731.gif" 
+        width=116></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 align=left border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG height=382 alt="wpe8.gif (7644 bytes)" 
+        src="Digital Passband Transmission_files/Compar5.gif" width=392></TD></TR>
+    <TR>
+      <TH>Comparison of modulation techniques <BR>at 10<SUP>-5</SUP>symbol 
+        error probability</TH></TR></TBODY></TABLE></P>
+  <P>
+  <P>A meaningful comparison of these results is based on the normalised data 
+  rate <I>R</I>/<I>W</I> versus the SNR per bit required to achieve a given 
+  probability of error. This is plotted in here for 
+  <I>P<SUB>M</SUB></I>=10<SUP>-5</SUP>. We observe that in the case of PAM, QAM 
+  and PSK increasing <I>M</I> results in a higher bit rate to bandwidth ratio 
+  however this is achieved at the expense in the SNR per bit. Thus these 
+  modulation techniques are appropriate for bandwidth limited communication 
+  channels where there is sufficiently high SNR to support increases in 
+  <I>M</I>. Telephone channels and digital microwave channels are examples of 
+  such bandwidth limited channels.</P>
+  <P></P>
+  <P>
+  <P>In contrast <I>M</I>-ary orthogonal signals such as FSK have an increasing 
+  bandwidth requirement as <I>M</I> increases giving a decreasing channel 
+  bandwidth. However the SNR per bit required to achieve a given error 
+  probability decreases as <I>M</I> increases. Thus such signals are appropriate 
+  for power limited channels that have sufficiently large bandwidth to 
+  accommodate a large number of signals. As <I>M</I> increases the error 
+  probability can be made as small as required provided that the SNR is grater 
+  than the Shannon limit of -1.6dB.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:24.265 GMT+1</I></P>
+  <H3>Synchronisation in Passband Systems</H3>
+  <P>
+  <P>On completing this section you should be able to illustrate how carrier and 
+  symbol synchronisation can be carried out using the Mth power loop and 
+  early-late gate. </P>
+  <P></P>
+  <P>
+  <H2>Carrier Synchronisation</H2>
+  <P></P>
+  <P>
+  <P>When coherent detection is used knowledge of both the frequency and phase 
+  of the carrier is required. If the power spectrum of the signal contains a 
+  discrete component at the carrier frequency then a narrow-band phased locked 
+  loop could be used to provide the carrier reference however such a discrete 
+  reference component carries no information and its transmission represents a 
+  waste of power.</P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 align=right border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG height=345 alt="wpeB.gif (5699 bytes)" 
+        src="Digital Passband Transmission_files/Synchr6.gif" width=472></TD></TR>
+    <TR>
+      <TH><I>M</I>th Power loop</TH></TR></TBODY></TABLE></P>
+  <P>
+  <P>Without a d.c. component the receiver requires a <STRONG>suppressed 
+  carrier-tracking loop</STRONG> for providing a coherent subcarrier reference. 
+  One example of this, shown here, is the <I>M</I>th power loop for <I>M</I>-ary 
+  PSK. (For <I>M</I>=2 this is called a <STRONG>squaring loop</STRONG>). The 
+  problem with this type of loop is that there is are <I>M</I> phase ambiguities 
+  of in the generated reference. The <I>M</I>th order <STRONG>Costas 
+  Loop</STRONG> which may also be used for carrier recovery also has this phase 
+  ambiguity problem. One method of resolving this is to use differential 
+  encoding resulting in <STRONG>coherent detection of differentially encoded 
+  <EM>M</EM>-ary PSK</STRONG>. This has a small degradation in the noise 
+  performance.</P>
+  <P></P>
+  <P>
+  <H2>Symbol Synchronisation</H2>
+  <P></P>
+  <P>
+  <P>To perform demodulation the receiver has to know when symbols start and end 
+  so as to determine the correct time to sample and quench the product 
+  integrators. Estimation of the symbol timing is called <STRONG>clock 
+  recovery</STRONG> or <STRONG>symbol synchronisation</STRONG>. A clock could be 
+  transmitted along with the data signal. This minimises the time for clock 
+  recovery but results in a waste of transmitted power.</P>
+  <P></P>
+  <P>
+  <P><IMG height=253 alt="wpeE.gif (2719 bytes)" 
+  src="Digital Passband Transmission_files/Synchr7.gif" width=263 align=left> A 
+  good method for extracting the clock from the demodulated data signal is to 
+  use non-coherent detection. If we consider a rectangular pulse as shown left, 
+  we observe that the matched filter output is at a maximum at time <I>t=T</I> 
+  and that it is symmetric about that point. We obviously want to sample at that 
+  point. If we take an early sample at <I>T-</I><FONT 
+  face=Symbol>D</FONT><SUB>0</SUB><I>T</I> and a late sample at <I>T+</I><FONT 
+  face=Symbol>D</FONT><SUB>0</SUB><I>T</I> then obviously the two samples will 
+  be equal to each other and smaller than the peak value. The <STRONG>error 
+  signal</STRONG> or difference between these two values will be zero and the 
+  proper sampling time is mid-way between the early and late points. The figure 
+  below shows an example of symbol synchroniser which exploits this idea. Two 
+  correlators integrate the data signal integrated over the full time <I>T</I> 
+  with one starting early by <FONT face=Symbol>D</FONT><SUB>0</SUB><I>T</I> and 
+  the other late by <FONT face=Symbol>D</FONT><SUB>0</SUB><I>T</I>. The 
+  difference in the output of these two correlators generates an error signal 
+  which is low-pass filtered and used to drive a voltage controlled oscillator 
+  at the symbol rate. When this local clock is at the correct frequency we will 
+  be at the equilibrium point and the error signal will be zero.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=278 alt="wpeD.gif (5295 bytes)" 
+  src="Digital Passband Transmission_files/Synchr8.gif" width=392></P>
+  <P></P>
+  <P>
+  <P align=center><STRONG>Early-late gate type of symbol 
+  synchroniser</STRONG></P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:26.703 GMT+1</I></P>
+  <H3>Spread-spectrum Modulation</H3>
+  <P>
+  <P>On completing this section you should be able to describe the generation of 
+  pseudo-random sequences and their application to direct sequence and frequency 
+  hopping spread spectrum modulation and to code-division multiplexing. </P>
+  <P></P>
+  <P>
+  <P>So far we have been looking at the importance of providing efficient 
+  utilisation of bandwidth and power in digital transmission systems. Sometimes 
+  these requirements are sacrificed to enable other objectives to be met. For 
+  example we may wish to provide secure transmission in a hostile environment so 
+  that the signal is not easily detected by unauthorised listeners. One class of 
+  signalling techniques used to achieve this is called <STRONG>spread-spectrum 
+  modulation</STRONG>. The primary advantage of spread spectrum modulation is 
+  its ability to reject interference either unintentional or intentional from a 
+  hostile jamming transmitter.</P>
+  <P></P>
+  <P>
+  <P>Spread spectrum modulation may be defined by</P>
+  <P></P>
+  <P>
+  <OL>
+    <LI>Spread spectrum is a means of transmission in which the data sequence 
+    occupies a bandwidth in excess of the minimum bandwidth necessary to sent it 
+
+    <LI>The spectrum spreading is accomplished before transmission by use of a 
+    code that is independent of the data sequence. The same code is used in the 
+    receiver (in synchronism with the transmitter) to despread the received 
+    signal to recover the original data sequence. </LI></OL>
+  <P></P>
+  <P>
+  <P>Spread spectrum may be not only for its resistance to jamming or 
+  interference but may also be used to minimise multiple path effects in ground 
+  based mobile radio applications and to allow multiple access communications 
+  allowing a number of independent users to share a common channel without 
+  external synchronisation.</P>
+  <P></P>
+  <P>
+  <P>There are two main types of spread-spectrum modulation - 
+  <STRONG>direct-sequence spread spectrum</STRONG> where a narrow band code 
+  modulates a pseudo-random wideband code which is transmitted and 
+  <EM>f</EM><STRONG>requency-hopping spread-spectrum</STRONG> where the carrier 
+  frequency carrying the data is change in a pseudo-random manner. Both these 
+  rely on the frequency spreading properties of a noise-like spreading code 
+  called a <STRONG>pseudo-random</STRONG> or <STRONG>pseudo-noise 
+  sequence</STRONG>.</P>
+  <P></P>
+  <P>
+  <H2>Pseudo-random sequences</H2>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 align=right border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG height=90 alt="wpeF.gif (2130 bytes)" 
+        src="Digital Passband Transmission_files/Spread9.gif" width=260></TD></TR>
+    <TR>
+      <TH>Feedback shift register</TH></TR></TBODY></TABLE></P>
+  <P>
+  <P>A pseudo-noise (PN) sequence has a noise-like waveform and is usually 
+  generated using a <STRONG>feedback shift register</STRONG> shown schematically 
+  here. This consists of an shift register on <I>m</I> flip-flop stages and a 
+  logic circuit interconnected to form a multiple-loop feedback circuit. A 
+  single timing clock regulators the shift register stages and at each pulse the 
+  state of each flip-flop is shifted to the next one down the line. With each 
+  clock the logic computes a function of the Boolean state of the flip-flops 
+  which is fed back into the shift-register input. If the feedback logic 
+  consists only of modulo-2 adders then the feedback shift register is said to 
+  be linear. In this case the zero state (all flip-flops set to zero) is not 
+  permitted as the feedback logic output would the be zero and the output would 
+  be a train of zeros. Thus the period of a PN sequence produced by a linear 
+  feedback shift register with <I>m</I> flip-flops cannot exceed 
+  2<SUP><I>m</I></SUP>-1 and if the period is exactly 2<SUP><I>m</I></SUP>-1 it 
+  is called a <STRONG>maximum-length-sequence</STRONG> or 
+  <STRONG>m-sequenc</STRONG><EM>e</EM>.</P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 align=left border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG height=90 alt="wpe10.gif (2009 bytes)" 
+        src="Digital Passband Transmission_files/Spread10.gif" width=258></TD></TR>
+    <TR>
+      <TH>Maximum length <I>m</I>=3 sequence generator</TH></TR></TBODY></TABLE></P>
+  <P>
+  <P>Figure right shows an example of a maximum length <I>m</I>=3 sequence 
+  generator. The input is equal to the modulo sum of the first and third 
+  flip-flops. If the initial state of the shift register is 100 the succession 
+  of states will be as follows: 100, 110, 111, 011, 101, 010, 001, 110, 
+  generating the output binary sequence 00111010 which repeats with a period 
+  N=2<SUP>3</SUP>-1=7.</P>
+  <P></P>
+  <P>
+  <P>Maximum length sequences have many of the properties of a truly 
+  <STRONG>random binary sequence</STRONG> (one in which the probability of 1 and 
+  0 are equal)<EM>.</EM> The most useful property for spread spectrum 
+  communications is that they have similar envelopes for their power spectral 
+  densities - a sinc<SUP>2</SUP> function which is continuous for a random 
+  binary wave but which comprises a series of delta functions 1/<I>NT</I> apart 
+  for a pseudo-random sequence.</P>
+  <P></P>
+  <P>
+  <P>In general we want to find for a particular <I>m</I> the feedback logic to 
+  generate a maximum length sequence. This can be done by looking up extensive 
+  tables found in the literature.</P>
+  <P></P>
+  <P>
+  <H2>Direct-Sequence Spread Spectrum</H2>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 align=left border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG height=261 alt="wpe11.gif (3746 bytes)" 
+        src="Digital Passband Transmission_files/Spread11.gif" width=291></TD></TR>
+    <TR>
+      <TH>Waveforms illustrating <BR>direct-sequence spread 
+    spectrumr</TH></TR></TBODY></TABLE></P>
+  <P>
+  <P>One method of widening the bandwidth of a data sequence is to use 
+  modulation, multiplying the narrow band data sequence waveform 
+  <I>b</I>(<I>t</I>) by a broadband pseudo-noise sequence signal 
+  <I>c</I>(<I>t</I>) to generate the transmitted signal</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=26 src="Digital Passband Transmission_files/Image738.gif" 
+        width=123></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>The product signal will have a spectrum equal to the convolution of the two 
+  separate spectra and which will therefore be nearly the same as the wideband 
+  PN signal spectrum. Thus the PN sequence is called a spreading code. The 
+  process is illustrated here. We see that information bit is chopped into a 
+  number of small time increments (called <EM>chips</EM>).</P>
+  <P></P>
+  <P>
+  <P>The received signal <I>r</I>(<I>t</I>) consists of the transmitted signal 
+  plus some additive interference <I>i</I>(<I>t</I>) and will be thus be given 
+  by</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=56 src="Digital Passband Transmission_files/Image739.gif" 
+        width=165></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>To recover the original message signal the received signal is applied to a 
+  demodulator consisting of a multiplier followed by an integrator. The 
+  multiplier is supplied with a locally generated PN sequence which is an exact 
+  replica of that used in the transmitter and is in synchronism with it. The 
+  multiplier output will then be given by</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=60 src="Digital Passband Transmission_files/Image740.gif" 
+        width=206></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>where we have made use of the fact that <I>c<SUP>2</SUP></I>(<I>t</I>)=1 
+  for all <I>t</I>. The original signal is multiplied twice by the PN sequence 
+  and is recovered back to its narrowband form while the interference is 
+  multiplied once and is spread in spectrum at the multiplier output. An 
+  integrator after the multiplier can therefore filter out the original data 
+  sequence from the interference.</P>
+  <P></P>
+  <P>
+  <P>We thus see that use of the spreading code produces a wide-band transmitted 
+  signal which appears noise like to a receiver which has no knowledge of the 
+  spreading code. The longer the pseudo-random sequence used the more noise-like 
+  the transmitted signal appears and the harder it is to detect.</P>
+  <P></P>
+  <P>
+  <P>We have shown baseband direct-sequence spread spectrum for illustration 
+  however the technique may be incorporated into other passband modulation 
+  schemes such PSK (giving a direct-sequence spread binary phase-shift keyed 
+  (DS/BPSK) signal).</P>
+  <P></P>
+  <P>
+  <P>An important parameter in spread-spectrum modulation which we may want is 
+  the gain in SNR obtained. This is called the processing gain. On the simple 
+  argument that the noise is spread in spectrum by 1/<I>T<SUB>c</SUB></I> while 
+  the signal has a spectral width of 1/<I>T<SUB>b</SUB></I> we can see that</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=56 src="Digital Passband Transmission_files/Image742.gif" 
+        width=76></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>This expression is properly derived in Haykin p.592</P>
+  <P></P>
+  <P>
+  <H2>Synchronisation</H2>
+  <P></P>
+  <P>
+  <P>A spread spectrum sequence communication system relies on synchronisation 
+  between the locally generated PN sequence at the receiver and that used to 
+  transmit the sequence. This may be done in two parts: acquisition and 
+  tracking. The acquisition stage aligns the two PN codes quickly by measuring 
+  the correlation between the received signal and local PN code. Once aligned to 
+  within a fraction of a chip in this way a <STRONG>decision-rule and search 
+  strategy</STRONG> is used to determine whether the two codes are in 
+  synchronism and what to do if they are not. Once aligned tracking is performed 
+  using phased-lock loop techniques.</P>
+  <P></P>
+  <P>
+  <H2>Frequency-hop Spread Spectrum</H2>
+  <P></P>
+  <P>
+  <P>Another technique for accomplishing spread-spectrum communications is to 
+  use a PN sequence to randomly hop the data-modulated carrier from one 
+  frequency to the next. In this case the spectrum is spread sequentially rather 
+  than instantaneously as for direct-sequence spread spectrum. This is called 
+  <STRONG>frequency-hop (FH) spread spectrum</STRONG> and a common modulation 
+  format is to use <I>M</I>-ary FSK giving rise to the combination technique 
+  FH/MFSK</P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 align=left border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG height=223 alt="wpe12.gif (4017 bytes)" 
+        src="Digital Passband Transmission_files/Spread12.gif" width=364></TD></TR>
+    <TR>
+      <TH>(a) Transmitter</TH></TR>
+    <TR>
+      <TH><IMG height=223 alt="wpe13.gif (4204 bytes)" 
+        src="Digital Passband Transmission_files/Spread13.gif" width=424></TH></TR>
+    <TR>
+      <TH>(b) Receiver<BR>for frequency hop spread <I>M</I>-ary frequency 
+        shift keying.</TH></TR></TBODY></TABLE></P>
+  <P>
+  <P>In <STRONG>slow-frequency hopping</STRONG> the symbol rate <I>R</I> of the 
+  MFSK signal is an integer multiple of the hop rate <I>R<SUB>h</SUB></I> that 
+  is several symbols are transmitted per frequency hop. The Figure left shows an 
+  example of a transmitter an receiver for achieving this. It involves frequency 
+  modulation followed by mixing with a frequency generated by a frequency 
+  synthesiser controlled by the pseudo-random code generator. The output is 
+  filtered to select the sum term in the mixing signal. A successive <I>k</I> 
+  bits from the PN code generator control synthesiser allowing the frequency to 
+  hop over 2<SUP><I>k</I></SUP> distinct values. For a single hop the spectrum 
+  as the same as for the corresponding MFSK signal however over the complete 
+  range of 2<SUP><I>k</I></SUP> frequency hops the spectrum occupies a much 
+  larger bandwidth- up to several GHz with current synthesiser technologies 
+  which is an order of magnitude larger than with direct-spread spread spectrum. 
+  In the receiver the received signal is mixed down using a frequency 
+  synthesiser driven exactly as the one in the transmitter and the resultant 
+  output bandpass filter before normal MFSK detection is used.</P>
+  <P></P>
+  <P>
+  <P>In <STRONG>fast-frequency hopping</STRONG> the hop rate 
+  <I>R<SUB>h</SUB></I> is an integer multiple of the MFSK symbol rate <I>R</I> 
+  and the carrier frequency will change several times during the transmission of 
+  one symbol. This is used to defeat a smart jammer which might measure the 
+  spectral content of the transmitted signal and retune the jamming frequency to 
+  that portion of the frequency band. Non-coherent detection is used at the 
+  receiver with either a majority rule made on the frequency hop chips of the 
+  dehopped MFSK symbol or, optimally, likelihood functions are computed as 
+  functions over the total energy received over the <I>K</I> chips of a signal 
+  and the larger one selected.</P>
+  <P></P>
+  <P>
+  <H2>Code-division multiplexing</H2>
+  <P></P>
+  <P>
+  <P>This technique relies on using separate PN codes for individual users 
+  allowing a multitude of users on a common communication channel without 
+  frequency or time allocation. However an important concern in a code-division 
+  multiplex system is the partial cross-correlation of PN sequences which gives 
+  rise to cross-talk between any two users sharing a common communication 
+  channel. Maximum length sequences do not generally exhibit a good partial 
+  cross-correlation and for this reason so called <STRONG>Gold 
+  Sequences</STRONG> are used which exhibit a very low cross correlation.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:27.531 GMT+1</I></P>
+  <H3>Modems</H3>
+  <P>
+  <P>On completing this section you should be able to describe the modulation 
+  principles used by different types of voice-band modems. </P>
+  <P></P>
+  <P>
+  <P>The word "Modem" is derived from two words; "MODulator" and "DEModulator". 
+  From a data communications perspective, a modem is a device that converts the 
+  digital bit stream into analogue signals that are suitable for transport over 
+  standard voice circuits.</P>
+  <P></P>
+  <P>
+  <P>Typical modems operate using Frequency Shift Keying (FSK), Phase Shift 
+  Keying (PSK), Amplitude Shift Keying (ASK), or a combination of basic 
+  schemes.</P>
+  <P></P>
+  <P>
+  <H2>Frequency Shift Keying (FSK) </H2>
+  <P></P>
+  <P>
+  <H3>Bell 103 Modem </H3>
+  <P></P>
+  <P>
+  <P>This modem supports asynchronous rates up to 300 baud using Frequency Shift 
+  Keying (FSK) modulation. Different carrier frequencies are used at each end of 
+  a 103 modem link, allowing full-duplex operation on a 2-Wire switched voice 
+  circuit.</P>
+  <P></P>
+  <P>
+  <P>The Originating modem transmits signals of either 1070 Hz (Space) or 1270 
+  Hz (Mark). The Answering modem transmits signals of either 2025 Hz (Space) or 
+  2225 Hz (Mark).</P>
+  <P></P>
+  <P>
+  <P>This modem was predominant until the early 1980s, when the Bell 212 modems 
+  became available.</P>
+  <P></P>
+  <P>
+  <H3>V.21 Modem </H3>
+  <P></P>
+  <P>
+  <P>This modem supports asynchronous transmission at rates up to 300 baud. 
+  Modulation is Frequency Shift Keying (FSK). In this modulation scheme, 
+  different carrier frequencies are used between the Originating and Answering 
+  modems. A Space is transmitted by a change in carrier frequency of +100 Hz. A 
+  Mark is represented by a change in carrier frequency of -100 Hz. For the 
+  carrier frequency of 1080 Hz, a Space is represented by a 1180 Hz signal and a 
+  Mark is represented by a 980 Hz signal. For the carrier frequency of 1750 Hz, 
+  a Space is represented by a 1850 Hz signal and a Mark is represented by a 1650 
+  Hz signal.</P>
+  <P></P>
+  <P>
+  <P>This modem modulation scheme is specified in CCITT (now ITU-T) 
+  Recommendation V.21, naturally.</P>
+  <P></P>
+  <P>
+  <H3>Bell 202 Modem </H3>
+  <P></P>
+  <P>
+  <P>This Bell System modem was designed to support asynchronous data at rates 
+  of up to 1200 baud on 2-wire dial-up circuits, and up to 1800 baud on 
+  conditioned leased lines. Operation is half-duplex and the modem modulation 
+  scheme used is Frequency Shift Keying (FSK).</P>
+  <P></P>
+  <P>
+  <P>A Mark is represented by a frequency of 1200 Hz, while a Space is 
+  represented by a frequency of 2200 Hz.</P>
+  <P></P>
+  <P>
+  <P>This modem specification also describes an optional "Reverse" channel, for 
+  slow, general purpose use. While the specification calls for this "Reverse" 
+  channel to operate at 5 BPS, many modem manufacturers implement 75 to 150 baud 
+  versions.</P>
+  <P></P>
+  <P>
+  <H2>Phase Shift Keying (PSK) </H2>
+  <P></P>
+  <P>
+  <H3>201 Modem </H3>
+  <P></P>
+  <P>
+  <P>These Bell System modems support synchronous data rates up to 2400 BPS. 
+  Full-duplex is available, but the modem operates in a Half-Duplex mode when 
+  using a 2-Wire switched voice circuit. This modem uses a modulation scheme 
+  that encodes data by using four specific "phase shifts" of the transmitted 
+  carrier. This type of modulation is known as DPSK (Differential Phase Shift 
+  Keying), but is sometimes called QPSK (Quad Phase Shift Keying).</P>
+  <P></P>
+  <P>
+  <P>In this modulation scheme, two bits (called a "dibit") are represented with 
+  a single phase change: </P>
+  <P></P>
+  <P>
+  <P>00 = 45 degrees 10 = 135 degrees 11 = 225 degrees 01 = 315 degrees</P>
+  <P></P>
+  <P>
+  <P>The actual modem modulation rate is 1200 BAUDS, with each BAUD capable of 
+  supporting two data bits.</P>
+  <P></P>
+  <P>
+  <P>The CCITT (now "ITU-T") has specified a compatible modulation scheme in 
+  Recommendation V.26, Alternative "B".</P>
+  <P></P>
+  <P>
+  <H3>V.26 Modem </H3>
+  <P></P>
+  <P>
+  <P>CCITT Recommendation V.26, Alternative "A" describes a modulation type that 
+  is similar to the Bell 201 series of modems, except that different phase shift 
+  values are specified to encode the "dibit": </P>
+  <P></P>
+  <P>
+  <P>00 = 0 degrees 10 = 90 degrees 11 = 180 degrees 01 = 270 degrees</P>
+  <P></P>
+  <P>
+  <P>The actual modem modulation rate is 1200 baud, with each baud capable of 
+  supporting two data bits.</P>
+  <P></P>
+  <P>
+  <P>In the second release of the V.26 Recommendation (called "V.26bis"), 
+  fallback operation to 1200 BPS is defined. V.26bis also recommends that the 
+  modulation type used be "Alternative B", as described above (Bell 212). The 
+  third iteration of this Recommendation (called "V.26ter") incorporates echo 
+  cancellation techniques within the modem to delineate the Originating and 
+  Answering modem signals. V.26ter allows full-duplex operation on a 2-Wire, 
+  switched, voice circuit.</P>
+  <P></P>
+  <P>
+  <H3>Bell 212 Modem </H3>
+  <P></P>
+  <P>
+  <P>This Bell System modem supports either asynchronous or synchronous data 
+  rates up to 1200 BPS on switched 2-wire dial-up circuits. Operation is 
+  full-duplex with different carrier frequencies used between the Originating 
+  and Answering modems. The modulation method employed is DPSK, using "dibits" 
+  to represent up to four phase changes.</P>
+  <P></P>
+  <P>
+  <P>The actual modem modulation rate is 600 baud, with each baud consisting of 
+  two data bits.</P>
+  <P></P>
+  <P>
+  <P>The 212 modem series also incorporates a 300 baud, Type 103, modem for 
+  compatibility with pre-existing Bell 103 modems.</P>
+  <P></P>
+  <P>
+  <P>This modem type was widely used in the early to mid 1980s, and is still 
+  commonly found in use today.</P>
+  <P></P>
+  <P>
+  <H3>V.22 Modem </H3>
+  <P></P>
+  <P>
+  <P>This modulation is described in CCITT Recommendation V.22 and FED-STD-1008! 
+  It utilizes Differential Phase Shift Keying (DPSK) and is designed for 
+  synchronous or asynchronous operation at 1200 BPS. Operation is full-duplex 
+  with different carrier frequencies used between the Originating and Answering 
+  modems.</P>
+  <P></P>
+  <P>
+  <P>The modem modulation rate is 600 bauds, with each baud representing two 
+  data bits.</P>
+  <P></P>
+  <P>
+  <P>This modem modulation scheme supports a "fallback" rate of 600 BPS.</P>
+  <P></P>
+  <P>
+  <P>00 = 90 degrees 10 = 0 degrees 11 = 270 degrees 01 = 180 degrees</P>
+  <P></P>
+  <P>
+  <H3>V.22bis Modem </H3>
+  <P></P>
+  <P>
+  <P>The "bis" qualifier is a French (also, Latin) term for "duo" or "twice". 
+  Thus, as the name would suggest, this modulation scheme is described in the 
+  second release of CCITT’s V.22 Recommendation.</P>
+  <P></P>
+  <P>
+  <P>This modulation scheme supports transmission of full-duplex 2400 BPS 
+  synchronous or asynchronous data over a switched, 2-Wire, voice circuit. 
+  Alternatively, these modems may be employed on leased-lines as well. The 
+  modulation scheme used is QAM (Quadrature Amplitude Modulation). In this 
+  modulation scheme, the data stream is divided up into groups of four bits, 
+  known as "quadbits". The first two bits of each "quadbit" are encoded as a 
+  phase change, changing the "quadrant" (except in cases where the first two 
+  bits are "01"; in this case, the "quadrant" is not changed from its previous 
+  state). The second two bits of each "quadbit" define one of four signal states 
+  in the new "quadrant".</P>
+  <P></P>
+  <P>
+  <P>The modulation rate is 600 bauds, with each baud representing four data 
+  bits.</P>
+  <P></P>
+  <P>
+  <P>These modems support fallbacks to V.22 modulation schemes also. Most of the 
+  popular V.22bis PC modems support fallback operation to Bell 212 modulation 
+  also, depending upon the capabilities of both Originating and Answering 
+  modems.</P>
+  <P></P>
+  <P>
+  <P>Although the V.22bis specification was defined in 1984, practical 
+  deployment of these modems did not occur until the late 1980s.</P>
+  <P></P>
+  <P>
+  <H3>V.27 Modem </H3>
+  <P></P>
+  <P>
+  <P>CCITT Recommendation V.27 describes a modulation scheme that is capable of 
+  supporting 4800 BPS, full-duplex, synchronous data. Operation may be 
+  full-duplex on a 4-Wire leased line or half-duplex on a 2-Wire, switched, 
+  voice circuit. The modulation scheme is known as D8PSK (Differential 8 Phase 
+  Shift Keying) and operates by breaking the incoming data stream into groups of 
+  three bits ("tribit"). These "tribits" are represented by one of eight 
+  possible phase shifts: </P>
+  <P></P>
+  <P>
+  <P>001 = 0 degrees 000 = 45 degrees 010 = 90 degrees 011 = 135 degrees 111 = 
+  180 degrees 110 = 225 degrees 100 = 270 degrees 101 = 315 degrees</P>
+  <P></P>
+  <P>
+  <P>The modulation rate is 1600 bauds, with each baud representing three data 
+  bits.</P>
+  <P></P>
+  <P>
+  <P>The second and third releases of the V.27 Recommendation (V.27bis and 
+  V.27ter, respectively) added the ability to fallback to a 2400 BPS rate using 
+  V.26, Alternative "A" modulation. Also, the start-up/training times are 
+  reduced in the V.27bis Recommendation.</P>
+  <P></P>
+  <P>
+  <H3>V.29 Modem </H3>
+  <P></P>
+  <P>
+  <P>This modulation scheme was first standardised by the CCITT in 1976. It uses 
+  a form of Quadrature Amplitude Modulation (QAM), which transports data in 
+  groups of four bits ("quadbits"). The first bit determines the amplitude of 
+  the signal while the next three bits represent one of eight phase changes. The 
+  phase shifts are similar to the "tribit" modulation scheme described in 
+  Recommendation V.27: </P>
+  <P></P>
+  <P>
+  <P>001 = 0 degrees 000 = 45 degrees 010 = 90 degrees 011 = 135 degrees 111 = 
+  180 degrees 110 = 225 degrees 100 = 270 degrees 101 = 315 degrees</P>
+  <P></P>
+  <P>
+  <P>V.29 modulation is capable of transporting synchronous data at rates up to 
+  9600 BPS. It operates full-duplex on a 4-Wire leased line or half-duplex on a 
+  2-Wire, switched, voice line.</P>
+  <P></P>
+  <P>
+  <P>The V.29 modulation rate is 2400 bauds, with each baud representing four 
+  data bits.</P>
+  <P></P>
+  <P>
+  <P>V.29 modulation also incorporates fallback to 7200 BPS. In this mode, three 
+  bits ("tribit") are combined to represent one of eight possible phase changes. 
+  In this mode of operation, the modem’s modulation rate is still 2400 baud, but 
+  each baud now represents three data bits.</P>
+  <P></P>
+  <P>
+  <P>V.29 modulation also incorporates fallback to 4800 BPS. In this mode, two 
+  bits ("dibit") are combined to represent up to four phase changes (0, 90, 180, 
+  and 270 degrees). The modem’s modulation rate remains at 2400 baud, but each 
+  baud now represents only two data bits: </P>
+  <P></P>
+  <P>
+  <P>00 = 0 degrees 10 = 90 degrees 11 = 180 degrees 01 = 270 degrees</P>
+  <P></P>
+  <P>
+  <P>V.29 modems were highly popular in the 1970s and 1980s for use on 4-Wire 
+  leased lines and are still found in use today. The Group 3 FAX machines that 
+  are popular today operate in a half-duplex fashion using V.29 modulation.</P>
+  <P></P>
+  <P>
+  <H3>V.32 Modem </H3>
+  <P></P>
+  <P>
+  <P>First defined in 1984 by the CCITT, V.32 defines a modem that can support 
+  9600 BPS asynchronous or synchronous data. Operation is full-duplex over a 
+  2-Wire, switched, voice circuit. The modulation used may be Quadrature 
+  Amplitude Modulation (QAM), or QAM with Trellis coding. Trellis coding is 
+  actually a Forward Error Correcting (FEC) scheme.</P>
+  <P></P>
+  <P>
+  <P>The modulation rate is 2400 baud, in both "Nonredundant" and "Trellis" 
+  modes of operation. In the "Nonredundant" mode, each baud represents four 
+  bits. In the "Trellis" mode, each baud represents five bits; the four data 
+  bits, plus a coded, redundant bit that is the result of convolutional coding 
+  of the first two bits in the previous "quadbit" modulation process.</P>
+  <P></P>
+  <P>
+  <P>The use of echo cancellation techniques allows the same carrier frequency 
+  (1800 Hz) to be used at each end of a modem system.</P>
+  <P></P>
+  <P>
+  <P>Delays in the development of cost-effective echo cancellation techniques 
+  resulted in practical deployment of V.32 modems in the early 1990s.</P>
+  <P></P>
+  <P>
+  <H3>V.32bis Modem </H3>
+  <P></P>
+  <P>
+  <P>This standard modulation scheme was developed by the CCITT at the end of 
+  the 1980s (1988), although practical deployment of such systems did not occur 
+  until the early 1990s. This modulation method allows the transport of 
+  asynchronous or synchronous data at line rates up to 14400 BPS (14.4 KBPS). 
+  Operation is full-duplex over 2-Wire, switched, voice circuits, using echo 
+  cancellation techniques to differentiate between the Originating and Answering 
+  modem’s signals.</P>
+  <P></P>
+  <P>
+  <P>The modulation rate is 2400 bauds, and use the Forward Error Correcting 
+  (FEC) capabilities of Trellis coding. Quadrature Amplitude Modulation (QAM) is 
+  employed, using groupings of seven bits. Only six of these bits contain actual 
+  user data, the remaining bit is the convolutional coded, redundant bit 
+  generated from the previous bits.</P>
+  <P></P>
+  <P>
+  <H3>V.FC Modem </H3>
+  <P></P>
+  <P>
+  <P>V.FC (or "V.Fast Class") is a non-standard 28.8 KBPS modulation scheme 
+  developed by, and proprietary to, Rockwell. It was first released in 1993 and 
+  has enjoyed some success. As a mature product, most of the "bugs" have been 
+  worked out, thus improving reliability. However, the majority of the industry 
+  has been awaiting the recent release of the new CCITT V.34 Recommendation.</P>
+  <P></P>
+  <P>
+  <P>It is capable of supporting full-duplex synchronous or asynchronous data 
+  and supports either 4-Wire leased lines or 2-Wire switched voice circuits.</P>
+  <P></P>
+  <P>
+  <H3>V.34 Modem </H3>
+  <P></P>
+  <P>
+  <P>Approved in the summer of 1994 was the new 28.8 KBPS modulation scheme 
+  described in CCITT (ITU-T) Recommendation V.34. During the development of this 
+  modulation method, this scheme was known as "V.FAST".</P>
+  <P></P>
+  <P>
+  <P>It is capable of supporting full-duplex synchronous or asynchronous data 
+  over 4-Wire leased lines or 2-Wire circuits.</P>
+  <P></P>
+  <P>
+  <P>The modulation rate (baud or "symbol" rate) can vary. The carrier frequency 
+  can vary. The V.34 Recommendation also describes a "line probing" process that 
+  allows the modem to automatically setup optimally for any type of line 
+  connection. The training time has been reduced, but the modem will recover 
+  automatically from most line disturbances.</P>
+  <P></P>
+  <P>
+  <P>Multi-dimensional Trellis coding is employed for robust Forward Error 
+  Correcting. A "Reverse Channel" option is also described in V.34! </P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:26.265 GMT+1</I></P></DL>
+<HR>
+
+<P><I>Tutorial Path created by willijar at 2001/04/05 08:19:47.406 GMT+1</I></P>
+<TABLE width="100%" border=0>
+  <STYLE type=text/css>A {
+	TEXT-DECORATION: none
+}
+</STYLE>
+
+  <TBODY>
+  <TR>
+    <TD align=middle colSpan=3><BR><IMG height=2 alt=HR 
+      src="Digital Passband Transmission_files/hr.gif" width=500> </TD></TR>
+  <TR>
+    <TD vAlign=top width=120><A href="http://www.aston.ac.uk/"><IMG 
+      alt="Aston University - the real world university" 
+      src="Digital Passband Transmission_files/unilogomidsmall.gif" border=0> 
+      </A></TD>
+    <TD vAlign=top align=middle><A class=corporategreen 
+      href="http://www.aston.ac.uk/"><B>w w w . a s t o n . a c . u 
+      k</B></A><BR><SMALL class=blue>Aston University, Aston Triangle, 
+      Birmingham B4 7ET, United Kingdom</SMALL> <BR><SMALL>t: +44 (0) 121 359 
+      3611&nbsp;&nbsp;&nbsp;&nbsp;f: +44 (0) 121 359 0156 
+      &nbsp;&nbsp;&nbsp;&nbsp;<A style="COLOR: black" 
+      href="mailto:J.A.R.Williams@aston.ac.uk">mailto:J.A.R.Williams@aston.ac.uk</A> 
+      <BR>Last modified: Apr 22, 2001 1:41 pm</SMALL> <BR><SMALL 
+      class=copyright>Copyright © 2000,2001 Aston University.</SMALL><BR><A 
+      href="http://benedick.aston.ac.uk:8080/legalise">Legalise</A> | <A 
+      href="http://benedick.aston.ac.uk:8080/privacy">Privacy Statement</A> | <A 
+      href="http://benedick.aston.ac.uk:8080/tutorials/paths/dpt/entire_html?printable=1">Printable 
+      Version</A> </TD>
+    <TD vAlign=top width=120 rowSpan=2></TD></TR></TBODY></TABLE></BODY></HTML>

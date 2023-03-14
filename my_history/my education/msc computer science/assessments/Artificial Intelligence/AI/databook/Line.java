@@ -1,0 +1,133 @@
+package databook;
+import java.io.*;
+
+/**
+   class that reads ina line of data from a file
+**/
+
+public class Line
+{
+  private Patient p;
+        
+  public Line()
+  {
+  }
+
+  public static Patient read(BufferedReader reader) throws IOException
+  {
+    String field = "";
+    //String listNumber = "";
+    String identifier = "";
+    String age = "";
+    String sex = "";
+    String diameter = "";
+    String binDiag = "";
+    String collBin = "";
+    String bgBin = "";
+    String blDisp = "";
+    String blBlus = "";
+    String derMel = "";
+    String dmGlob = "";
+    String asym = "";
+    String sym1 = "";
+    String sym2 = "";
+    String melGlob = "";
+    String dispBlus = "";
+    String diam6 = "";
+    String noSym2 = "";
+    String size = "";
+    String shape = "";
+    String colour = "";
+    String inflamed = "";
+    String bleed = "";
+    String sens = "";
+    String diam7 = "";
+    String total = "";
+    String suspicious = "";
+
+    String line = reader.readLine();
+    int i = 0;
+    int noOfCommas = 0;
+    do 
+    {
+     
+      switch (noOfCommas)
+      {                                                       
+      case 0: identifier = field;
+	break;
+      case 1: age = field;
+	break;
+      case 2: sex = field;
+	break;
+      case 3: diameter = field;
+	break;
+      case 4: binDiag = field;
+	break;
+      case 5: collBin = field;
+	break;
+      case 6: bgBin = field;
+	break;
+      case 7: blDisp = field;
+	break;
+      case 8: blBlus = field;
+	break;
+      case 9: derMel = field;
+	break;
+      case 10: dmGlob = field;
+	break;
+      case 11: asym = field;
+	break;
+      case 12: sym1 = field;
+	break;
+      case 13: sym2 = field;
+	break;
+      case 14: melGlob = field;
+	break;
+      case 15: dispBlus = field;
+	break;
+      case 16: diam6 = field;
+	break;
+      case 17: noSym2 = field;
+          break;
+      case 18: size = field;
+	break;
+      case 19: shape = field;
+	break;
+      case 20: colour = field;
+          break;
+      case 21: inflamed = field;
+	break;
+      case 22: bleed = field;
+	break;
+      case 23: sens = field;
+	break;
+      case 24: diam7 = field;
+	break;
+      case 25: total = field;
+	break;
+      case 26: suspicious = field;
+	break;
+      }
+       if (line.charAt(i) == ',')
+      {
+		field = "";
+		noOfCommas += 1;
+      }
+      else 
+      {
+		field = field + line.charAt(i);
+		if (i == (line.length() - 1))
+	 	{
+	  		suspicious = field;
+		}
+      }
+      i++;
+    }while (i < line.length());
+    Patient a = new Patient(/*listNumber,*/ identifier, age, sex, diameter,
+			    binDiag, collBin, bgBin, blDisp, blBlus, derMel, 
+			    dmGlob, asym, sym1, sym2, melGlob, dispBlus, 
+			    diam6, noSym2, size, shape,colour,inflamed,
+			    bleed, sens,diam7,total,suspicious);
+    return a; 
+  }
+}

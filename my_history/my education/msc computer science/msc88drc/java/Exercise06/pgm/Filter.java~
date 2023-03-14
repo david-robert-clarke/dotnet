@@ -1,0 +1,222 @@
+package pgm;
+
+/**
+   Class representing filters used for image processing. A filter is made up of
+   a kernel (an array of doubles used to calculate new pixel values for an 
+   image),  and a bias factor, used to offset the result of the calcultion for 
+   effects such as embossing. 
+   <lp>
+   The kernel is stored as a one-dimensional array, but conceptually can be 
+   thought of as a square grid which is passed over the image and uses the 
+   pixels covered by the grid to calculate a new value for the pixel at the 
+   centre of the grid. Consequently, the length of the array must be the 
+   square of an odd number (typically, though not necessarily 3). 
+
+   @author David Clarke
+**/
+
+public class Filter
+{
+  // The following constants can be used to create filters for different 
+  // purposes
+
+  /**
+   * A simple mean filter for blurring
+   */
+  public static final double[] BLUR_1 = { 1/9.0, 1/9.0, 1/9.0,
+					  1/9.0, 1/9.0, 1/9.0,
+					  1/9.0, 1/9.0, 1/9.0 };
+  /**
+   * A less pronounced blurring filter
+   */                                       
+  public static final double[] BLUR_2 = { 1/10.0, 1/10.0, 1/10.0,
+					  1/10.0, 1/5.0,  1/10.0,
+					  1/10.0, 1/10.0, 1/10.0 };
+  /**
+   * A Gaussian blurring filter
+   */                                       
+  public static final double[] GAUSSIAN_BLUR = { 1/16.0, 1/8.0, 1/16.0,
+						 1/8.0,  1/4.0, 1/8.0,
+						 1/16.0, 1/8.0, 1/16.0 };
+  /**
+   * A string sharpening filter
+   */                                              
+  public static final double[] SHARPEN_1 = {-1, -1, -1, 
+					    -1,  9, -1,
+					    -1, -1, -1 };
+  /**
+   * A weak sharpening filter
+   */                                         
+  public static final double[] SHARPEN_2 = { 0, -1,  0,
+					     -1,  5, -1,
+					     0, -1,  0 };
+  /**
+   * A medium sharpening filter
+   */                                          
+  public static final double[] SHARPEN_3 = { 1, -2,  1,
+					     -2,  5, -2,
+					     1, -2,  1 };
+  /**
+   * Medium Laplace edge detector
+   */                                          
+  public static final double[] LAPLACE_1 = { 0, -1,  0,
+					     -1,  4, -1,
+					     0, -1,  0 };
+  /**
+   * Strong Laplace edge detector
+   */                                          
+  public static final double[] LAPLACE_2 = {-1, -1, -1, 
+					    -1,  8, -1,
+					    -1, -1, -1 };
+  /**
+   * Weak Laplace edge detector
+   */                                          
+  public static final double[] LAPLACE_3 = { 1, -2,  1,
+					     -2,  4, -2,
+					     1, -2,  1 };
+  /**
+   * Vertical edge detection filter
+   */                                            
+  public static final double[] SOBEL_X =   {-1,  0,  1,
+					    -2,  0,  2, 
+					    -1,  0,  1 };
+  /**
+   * Horizontal edge detection filter
+   */                                            
+  public static final double[] SOBEL_Y =   { 1,  2,  1,
+					     0,  0,  0, 
+					     -1, -2, -1 };
+  /**
+   * Filter used for embossing
+   */                                          
+  public static final double[] GRADIENT =  { 1,  0,  0,
+					     0,  0,  0, 
+					     0,  0, -1 };
+                                            
+  /**
+   * Identity filter (leaves the image unchanged)
+   */ 
+  public static final double[] IDENTITY =  { 0,  0,  0,
+					     0,  1,  0, 
+					     0,  0,  0 };
+   
+  // global private member variables
+  private double[] theKernel;
+  private int theBias;
+     
+  /**   
+   * Constructor which takes a grid, also known as a kernel, 
+   * and a bias factor as arguments. All legal kernels should be square, 
+   * and the length of their sides should be an odd number.If this is 
+   * not the case then the constructor should throw an exception
+   *
+   * @param kernel the array of values that will make up the filter
+   * @param bias the bias factor used for effects such as embossing
+   * @throws java.lang.IllegalArgumentException if the size of the kernel is 
+   * the square of an odd number
+   */   
+
+  public Filter(double[] kernel, int bias) throws IllegalArgumentException
+  {
+    // local variables
+    int kernelSize = (int)(Math.sqrt(kernel.length));
+
+    // if the kernel length divided by the kernel width is not equal to the
+    // kernel width then throw an Illegal Argument Exception
+    if ((kernel.length/kernelSize) != kernelSize)
+    {
+      throw new IllegalArgumentException();
+    }        
+    // if the kernel width is not odd, throw an Illegal Argument Exception
+    else if (((kernelSize+1)%2) != 0)
+    {
+      throw new IllegalArgumentException();
+    }
+    else
+    {  
+      theKernel = kernel;
+      theBias = bias;  
+    }
+  }
+    
+  /**
+   * Apply this Filter to the specified image. The filter is passed over all 
+   * the pixels in the image, and a new value is computed. The new pixel 
+   * values are then stored in the image.
+   *
+   * @param image the GreymapImage to be filtered
+   * @throws InvalidDataException if the resulting array contains invalid 
+   * pixel values
+   */   
+  public void apply(GreymapImage image) throws InvalidDataException
+  {
+    // initialise instance variables
+    double weightSum = 0; 
+    int source = 0;
+    int kSource = 0; 
+    int kernelSize = (int)(Math.sqrt(theKernel.length));
+    final int kBorder = ((kernelSize - 1)/2); 
+    short[] sourceData = image.getPixelData();
+    short[] destData = new short[sourceData.length];
+    int xOffset, yOffset = 0;
+            
+            
+    for(int y=0; y<image.getHeight(); y++)
+    {
+      for(int x=0; x<image.getWidth(); x++)
+      {
+	weightSum = 0;	    
+	for (int i=0; i<kernelSize; i++)
+	{
+	  for (int j=0; j<kernelSize; j++)
+	  {
+	    xOffset = ((x - kBorder) + i);
+	    yOffset = ((y - kBorder) + j);
+	        
+	    // 1-D position of the next value in the kernel
+	    kSource = ((kernelSize * j) + i);
+	        
+	    if (xOffset < 0 || yOffset < 0 || 
+		xOffset >= (image.getWidth() + kBorder)||
+		yOffset >= image.getHeight() - kBorder)
+	    {
+	      // the weighted sum of the pixel outside the border becomes 
+	      // equal to the value of the pixel at source position (x,y) 
+	      source = ((image.getWidth() * y) + x);
+		
+	    }
+	    else
+	    {
+	      source = ((image.getWidth() * yOffset) + xOffset);
+	    }
+	        
+	    // weighted sum becomes the value of the data at the kernel(i,j)
+	    // multiplied by the data from the source array     
+	    weightSum += (theKernel[kSource] * sourceData[source]);
+	        
+	  }
+	}
+	
+	// add bias to sum
+	weightSum += theBias;
+	
+	// check that the weightSum is not less than zero or greater than the
+	// the maximum grey value
+	if (weightSum < 0) 
+	{
+	  weightSum = 0;
+	}
+	else if ( weightSum > image.getMaxValue())
+	{
+	  weightSum = image.getMaxValue();
+	}
+	
+	// assign weighted sum to pixel x, y in the destination array	
+	destData[(image.getWidth() * y) + x] = (short) weightSum;
+      }
+    } 
+    // set the image array to that of the destination array
+    image.setData(destData, image.getMaxValue(), image.getWidth());
+        
+  } 
+}

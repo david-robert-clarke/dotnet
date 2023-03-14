@@ -1,0 +1,62 @@
+package I;
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.Calendar;
+
+
+/**
+   Used by EditStockUI, inputs an arraylist of stock data, updates the stock
+   entry, returns an arrayList of the updated stock entry details
+
+   @author David Clarke 
+ **/
+public class UpdateStockEntryQuery
+{
+  private ArrayList stockArrayList;
+  private Connection theConnection;
+
+  /**
+   * Constructor to create a new stock entry update query
+   *
+   * @param sOrderNo the artist name
+   **/
+  public UpdateStockEntryQuery(ArrayList stock)
+  {
+    theConnection = MyConnection.C;
+    stockArrayList = stock;
+  }
+
+  /**
+   * Execute the query
+   * 
+   * @return an arraylist of stock details
+   **/
+  public ArrayList exeQuery()
+  {
+    try 
+    {
+      // a loop that goes through the array splitting the individual entries
+      for(int i=0; i<stockArrayList.size(); i=i+5)
+      {
+	String supid = (String)stockArrayList.get(i+1);
+	String stock_level = (String)stockArrayList.get(i+2);
+	String w_price  = (String)stockArrayList.get(i+3);
+	String iid = (String)stockArrayList.get(i+4);    
+
+	// Create a result set containing all data from my_table
+	Statement stmt = theConnection.createStatement();
+      
+	String updateString = "UPDATE stock " +
+	  "SET stock_level ='" + stock_level + "', " +
+	  "w_price ='" + w_price + "' " + 
+	  "WHERE iid = '" + iid + "'AND " + "supid = '" + supid +  "'";
+	stmt.executeUpdate(updateString);
+      }
+    }
+    catch (SQLException e) 
+    {
+      System.out.println("An exception occurred in UpdateStockEntryQuery. "+e);
+    }        
+    return(stockArrayList);
+  }
+}

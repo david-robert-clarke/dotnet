@@ -1,0 +1,3 @@
+Analyze of c:\fndtn\active\projects\test_it\mul_1_x64.vhd file started.
+Analyze of c:\fndtn\active\projects\test_it\mul_1_x64.vhd file finished.
+Error: C:/fndtn/active/projects/test_it/mul_1_x64.vhd  line 17   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) Error: C:/fndtn/active/projects/test_it/mul_1_x64.vhd  line 17   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) Error: C:/fndtn/active/projects/test_it/mul_1_x64.vhd  line 17   Actual designator not of the correct type - UNSIGNED expected.  (VSS-543) 

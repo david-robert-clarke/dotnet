@@ -1,0 +1,86 @@
+[project]
+name=system_x
+netlist=system_x
+contents=
+date=01/30/01
+time=17:04:24
+version=3.1.5.00.33
+Type=F21i
+top_level=VHDL
+HDL netlist format=Auto
+generics=MAX
+sim_mode=TIM
+library_net=OFF
+pdf_dir=c:\fndtn\active\projects\
+lib_order=1015 133 155
+
+[libraries]
+1015=
+133=c:\fndtn\active\syslib\simprims
+155=c:\fndtn\active\syslib\xc4000x
+
+[APP_95]
+lid=0
+oid=0
+format=19
+source=c:\fndtn\active\projects\system_x\ram_storage.vhd
+server_hwnd=2252
+
+[OpenDoc]
+hde/Test_x64=0,0,-4,-4,1028,744,Test_x64.vhd
+hde/LUT_4_BIT_ADDER_x16=0,0,88,88,856,625,C:\Fndtn\Active\Projects\TEST_IT\LUT_4_BIT_ADDER_x16.vhd
+hde/Answer_Store=0,0,110,110,878,647,answer_store.vhd
+hde/DSP=0,0,110,110,878,647,dsp.vhd
+hde/RAM_STORAGE=0,0,-4,-4,1028,744,ram_storage.vhd
+
+[netlist]
+external=TRUE
+
+[Log]
+netlist.log=Simulator Netlist Log
+
+[timings]
+system_x=
+
+[OPEN32]
+nMaxFile=10000
+lpstrFile=
+lpstrFilter=HDL (*.VHD;*.VER;*.VE;*.V)|*.vhd;*.ver;*.ve;*.v|Schematic (*.SCH)|*.sch|FSM (*.ASF)|*.asf|Xnf Sources (*.XNF)|*.xnf|Edif Sources (*.EDF;*.EDN;*.EDO)|*.edf;*.edn;*.edo|All Files (*.*)|*.*||
+lpstrInitialDir=C:\FNDTN\ACTIVE\PROJECTS\ROW_COLS
+lpstrTitle=Add Document
+nFilterIndex=0
+Flags=530964
+HelpID=10380
+HelpFileName=C:\FNDTN\ACTIVE\EXE\PCM.HLP
+cmdLine=-h 932 -hp 520 -m PCM_OPEN_32_MESSAGE -f C:\FNDTN\ACTIVE\PROJECTS\current.pdf
+
+[hdl_sheets]
+matrix_package.vhd=
+RAM_STORAGE.vhd=
+
+[Top Doc]
+matrix_package.vhd=21
+RAM_STORAGE.vhd=21
+
+[implement_HDL]
+family=2
+xfam=XC4000XL
+part=4085XLPG559-09
+xilinx=4085XLPG559-09
+functional=ver1
+optimized=ver1-Optimized
+design=RAM_STORAGE,c:\fndtn\active\projects\system_x\ram_storage.vhd
+
+[xilinx]
+family=2
+xfam=XC4000XL
+xact9=On
+
+[device]
+part=4085XLPG559-09
+xilinx=4085XLPG559-09
+
+[implement_XIE]
+version=ver1
+revision=rev1
+

@@ -1,0 +1,74 @@
+EDIF netlist 'c:\FNDTN\ACTIVE\PROJECTS\PROJ_3X3\XPROJ\VER1\REV1\TIME_SIM.EDN' loading v.2.99.1.10
+EDIF parser completed successfully
+Loading - c:\fndtn\active\projects\proj_3x3\xproj\ver1\rev1\time_sim.edn
+Loading - ANSWER_reg_0_
+Loading - ANSWER_reg_10_
+Loading - ANSWER_reg_11_
+Loading - ANSWER_reg_12_
+Loading - ANSWER_reg_13_
+Loading - ANSWER_reg_14_
+Loading - ANSWER_reg_15_
+Loading - ANSWER_reg_16_
+Loading - ANSWER_reg_17_
+Loading - ANSWER_reg_18_
+Loading - ANSWER_reg_19_
+Loading - ANSWER_reg_1_
+Loading - ANSWER_reg_20_
+Loading - ANSWER_reg_21_
+Loading - ANSWER_reg_22_
+Loading - ANSWER_reg_23_
+Loading - ANSWER_reg_24_
+Loading - ANSWER_reg_25_
+Loading - ANSWER_reg_26_
+Loading - ANSWER_reg_27_
+Loading - ANSWER_reg_28_
+Loading - ANSWER_reg_29_
+Loading - ANSWER_reg_2_
+Loading - ANSWER_reg_30_
+Loading - ANSWER_reg_31_
+Loading - ANSWER_reg_32_
+Loading - ANSWER_reg_33_
+Loading - ANSWER_reg_34_
+Loading - ANSWER_reg_35_
+Loading - ANSWER_reg_36_
+Loading - ANSWER_reg_37_
+Loading - ANSWER_reg_38_
+Loading - ANSWER_reg_39_
+Loading - ANSWER_reg_3_
+Loading - ANSWER_reg_40_
+Loading - ANSWER_reg_41_
+Loading - ANSWER_reg_42_
+Loading - ANSWER_reg_43_
+Loading - ANSWER_reg_44_
+Loading - ANSWER_reg_4_
+Loading - ANSWER_reg_5_
+Loading - ANSWER_reg_6_
+Loading - ANSWER_reg_7_
+Loading - ANSWER_reg_8_
+Loading - ANSWER_reg_9_
+Loading - C148
+===============================
+EDIF Netlist Loading Statistics
+===============================
+Number of hierarchical blocks: 47
+Total number of cell types: 56
+Total number of cell instances: 416
+Total number of EDIF blocks: 46
+Total number of models taken from libraries: 6
+Total number of automatic/internal models: 3
+Total number of missing models: 0
+Total number of signals (block ports and labels): 559
+Total number of labels: 232
+Total number of nets: 554
+Total number of net elements: 1609
+Total number of generic values: 366
+Total number of port generic values: 227
+Memory usage statistics:
+    Total number of allocated memory blocks: 7213 (605)
+    Total number of memory reallocations: 1
+    Total length of memory used to load the netlist: 1036 kB (12)
+    Total length of memory used by EDIF parser: 512 kB
+    Number of system memory blocks (total/long): 3/0
+Netlist loaded in: 1 seconds
+Parsing time: 0 seconds
+===============================

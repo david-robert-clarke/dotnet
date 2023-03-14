@@ -1,0 +1,500 @@
+import java.applet.*;
+import java.awt.event.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.*;
+import java.net.*;
+import java.util.*;
+import javax.swing.*;
+import javax.swing.border.EtchedBorder;
+import javax.swing.border.TitledBorder;
+import javax.swing.AbstractButton;
+import javax.swing.ImageIcon;
+import java.io.*;
+
+public class BouncingBall extends JApplet implements ActionListener
+{
+    private JTextField xField,yField,aField,rField;  
+    private JPanel xyPanel,speedGroupPanel,radiusColorPanel;
+    private JPanel createPanel, controlPanel;
+    private JComboBox colorCombo;
+    private JButton createButton, pauseButton, playButton;
+    private JRadioButton slowButton, averageButton, fastButton;
+    private ArrayList balls;
+    private int numberOfBalls;
+    private boolean unPaused;
+    private MyPanel roomPanel;
+    public static int roomWidth = 500;
+    public static int roomHeight = 500; 
+    //Optional for the paddle1
+    private int p1XPos = 50;
+    private int p1YPos = 100;
+    private int p1Height = 150;
+    private int p1Width = 20;
+    //paddle2
+    private int p2XPos = 400;
+    private int p2YPos = 100;
+    private int p2Height = 150;
+    private int p2Width = 20;
+
+    public class MyPanel extends JPanel
+    {
+        public void paintComponent(Graphics g)
+        {
+            setSize(roomWidth, roomHeight);
+            super.paintComponent(g);
+            setBackground(Color.black);       
+        }
+    }
+
+  public void init()
+  {
+    roomPanel = new MyPanel();
+      
+    // Text Fields
+    xField = new JTextField("250");
+    xField.addActionListener(this); 
+    xField.setToolTipText("Choose the balls starting postion along the x-axis.");
+    yField = new JTextField("250");
+    yField.addActionListener(this);
+    yField.setToolTipText("Choose the balls starting postion along the y-axis.");
+    aField = new JTextField("15");
+    aField.addActionListener(this);
+    aField.setToolTipText("Choose the balls initial angle of projection.");
+    rField = new JTextField("20");
+    rField.addActionListener(this);
+    rField.setToolTipText("Choose the radius of the new ball.");
+       
+    // Combo Boxes
+    colorCombo = new JComboBox();
+    colorCombo.addItem("blue");
+    colorCombo.addItem("cyan");
+    colorCombo.addItem("gray");
+    colorCombo.addItem("darkGray");
+    colorCombo.addItem("lightGray");
+    colorCombo.addItem("green");
+    colorCombo.addItem("magenta");
+    colorCombo.addItem("orange");
+    colorCombo.addItem("pink");
+    colorCombo.addItem("red");
+    colorCombo.addItem("white");
+    colorCombo.addItem("yellow");
+    colorCombo.setToolTipText("Choose a colour for the new ball ");
+
+    // Buttons
+    createButton = new JButton("Create Ball");//, middleButtonIcon);
+    pauseButton = new JButton("Pause");
+    playButton = new JButton("Play");
+    createButton.addActionListener(this);
+    pauseButton.addActionListener(this);
+    playButton.addActionListener(this);
+    createButton.setToolTipText("Click this button to add a new ball.");
+    pauseButton.setToolTipText("Click this button to pause the action.");
+    playButton.setToolTipText("Click this button to re-animate the balls.");    
+    pauseButton.setEnabled(false);
+    playButton.setEnabled(false);
+    unPaused = true;
+
+    // Radio Buttons
+    slowButton = new JRadioButton("Slow");
+    slowButton.setSelected(true);
+    slowButton.addActionListener(this);
+    averageButton = new JRadioButton("Average");
+    averageButton.addActionListener(this);
+    fastButton = new JRadioButton("Fast");
+    fastButton.addActionListener(this);
+    ButtonGroup speedGroup = new ButtonGroup();
+    speedGroup.add(slowButton);
+    speedGroup.add(averageButton);
+    speedGroup.add(fastButton);
+
+    // Add components to Panels
+    xyPanel = new JPanel();
+    xyPanel.setLayout(new GridLayout(1,6));
+    xyPanel.add(new JLabel("  x:"));
+    xyPanel.add(xField);
+    xyPanel.add(new JLabel("  y:"));
+    xyPanel.add(yField);
+    xyPanel.add(new JLabel("Angle: "));
+    xyPanel.add(aField);
+
+    speedGroupPanel = new JPanel();
+    speedGroupPanel.setLayout(new GridLayout(1,2));
+    speedGroupPanel.add(new JLabel("Ball Velocity:"));
+    speedGroupPanel.add(slowButton);
+    speedGroupPanel.add(averageButton);
+    speedGroupPanel.add(fastButton);
+    //speedGroupPanel.setBorder(new TitledBorder(new EtchedBorder(), 
+    //"Ball Velocity"));
+
+    radiusColorPanel = new JPanel();
+    radiusColorPanel.setLayout(new GridLayout(1,4));
+    radiusColorPanel.add(new JLabel("Colour:"));
+    radiusColorPanel.add(colorCombo);
+    radiusColorPanel.add(new JLabel("Diameter: "));
+    radiusColorPanel.add(rField);
+
+    createPanel = new JPanel();
+    createPanel.setLayout(new GridLayout(1,4));
+    createPanel.add(new JLabel("Play/Pause:"));
+    createPanel.add(pauseButton);
+    createPanel.add(playButton); 
+    createPanel.add(createButton);
+
+    // Add components to new Ball panel 
+    controlPanel = new JPanel();
+    controlPanel.setSize(15,15);
+    controlPanel.setLayout(new GridLayout(4,1));
+    controlPanel.add(xyPanel);
+    controlPanel.add(speedGroupPanel);
+    controlPanel.add(radiusColorPanel);
+    controlPanel.add(createPanel);
+    controlPanel.setBorder(new TitledBorder(new EtchedBorder(), 
+		           "New Ball Properties"));
+
+    // Add panels to content pane
+    Container contentPane = getContentPane();
+    contentPane.add(controlPanel,"South");   
+    contentPane.add(roomPanel,"Center");
+
+    // Initialise the number of balls
+    balls = new ArrayList();
+    numberOfBalls = 0;
+
+    // Create to paddle and render them
+    PaddleThread paddle1 = new PaddleThread(p1XPos,p1YPos,p1Height,p1Width,this);
+    paddle1.block();
+    PaddleThread paddle2 = new PaddleThread(p2XPos,p2YPos,p2Height,p2Width,this);
+    paddle2.block();  
+  }
+    
+    public void actionPerformed (ActionEvent event)
+    { 
+        int xValue = 0;
+        int yValue = 0;
+        int aValue = 0;
+        int rValue = 0;
+        
+        try
+            {
+	xValue = Integer.parseInt(xField.getText());
+	yValue = Integer.parseInt(yField.getText());
+	aValue = Integer.parseInt(aField.getText());
+	rValue = Integer.parseInt(rField.getText());
+            }
+        catch  (NumberFormatException exception)
+            {
+               	System.out.println("Invalid entry " + exception.getMessage());
+            }   
+   
+        xValue.setText("Invalid");
+
+
+
+        String boxName = (String)colorCombo.getSelectedItem();
+        int vValue = 20;
+        Color ballColor = Color.white;
+        BallThread bThread;
+
+        //Color of Ball
+        if (boxName.equals("blue"))
+            {ballColor = Color.blue;}
+        else if (boxName.equals("cyan"))
+            {ballColor = Color.cyan;}
+        else if (boxName.equals("gray"))
+            {ballColor = Color.gray;}
+        else if (boxName.equals("darkGray"))
+            {ballColor = Color.darkGray;}
+        else if (boxName.equals("lightGray"))
+            {ballColor = Color.lightGray;}
+        else if (boxName.equals("green"))
+            {ballColor = Color.green;}
+        else if (boxName.equals("magenta"))
+            {ballColor = Color.magenta;}
+        else if (boxName.equals("orange"))
+            {ballColor = Color.orange;}
+        else if (boxName.equals("pink"))
+            {ballColor = Color.pink;}
+        else if (boxName.equals("red"))
+            {ballColor = Color.red;}
+        else if (boxName.equals("white"))
+            {ballColor = Color.white;}
+        else if (boxName.equals("yellow"))
+            {ballColor = Color.yellow;}
+
+        //Velocity of ball
+        if(slowButton.isSelected())
+            vValue = 20;
+        else if(averageButton.isSelected())
+            vValue = 10;
+        else if(fastButton.isSelected())
+            vValue = 5;
+
+        Object source = event.getSource();
+        if (source == createButton)
+            {
+	pauseButton.setEnabled(true);
+	playButton.setEnabled(true);
+	//create a new BallThread x, y, velocity, angle, radius, colour
+	bThread = new BallThread(xValue,yValue,vValue,aValue, rValue,
+		         ballColor,this);
+	balls.add(bThread);
+
+	//use BallThread memory allocation to get the current BallThread
+	bThread = (BallThread)(balls.get(numberOfBalls));
+	bThread.bounce();
+
+	numberOfBalls ++;
+
+	// if number of balls equals 3, disable create button
+	if(numberOfBalls == 3) {createButton.setEnabled(false);}
+            }
+        
+        if (source == playButton)
+            {unPaused = true;}
+        
+        if(source == pauseButton)
+            {unPaused = false;}
+    }
+
+    public void paddleCollide()
+    {
+      // local variables
+        BallThread temp;
+        int x1, y1;
+        int stepX,stepY;
+        int diam1;
+        int rad1;
+
+        if (balls.size() > 0)
+            {
+	for(int i=0; i < balls.size(); i++)
+	    {
+	
+	temp = (BallThread) balls.get(i);
+	stepX = temp.getXStep();
+	stepY = temp.getYStep();
+	x1 = temp.getX(); 
+	y1 = temp.getY();
+	diam1 = temp.getDiameter();
+	rad1 = diam1/2;
+
+	// if ball travelling from right to left
+	if((temp.getXStep())<0)
+	    {
+	        if((x1 <= (p1XPos + p1Width))&&(x1 >= p1XPos)|| 
+	           (x1 <= (p2XPos + p2Width))&&(x1 >= p2XPos))
+	            {
+		// if the ball is travelling from bottom to top
+		if((temp.getYStep())<0)
+		    {
+		        if((y1 <= (p1YPos + p1Height))&&(y1 >= p1YPos)|| 
+		           (y1 <= (p2YPos + p2Height))&&(y1 >= p2YPos))
+		            {
+			temp.setXStep(stepX * -1);
+		            }
+		    }
+		// if the ball is travelling from top to bottom
+		else
+		    {
+		        if((y1+diam1) >= p1YPos && ((y1+diam1) <= p1YPos+p1Height)|| 
+		           (y1+diam1 >= p2YPos) && (((y1+diam1) <= p2YPos+p2Height)))
+		            {
+			temp.setXStep(stepX * -1);
+		            }	        
+		    }
+	        
+	            }
+	    }
+	// else ball is travelling from left to right
+	else
+	    {
+	        // if the ball is travelling from bottom to top
+	        if((x1+diam1) >= p1XPos && ((x1+diam1) <= p1XPos+p1Width)|| 
+	           (x1+diam1 >= p2XPos) && (((x1+diam1) <= p2XPos+p2Width)))
+	            {
+		if((temp.getYStep())<0)
+		    {
+		        if((y1 <= (p1YPos + p1Height))&&(y1 >= p1YPos)|| 
+		           (y1 <= (p2YPos + p2Height))&&(y1 >= p2YPos))
+		            {
+			temp.setXStep(stepX * -1);
+		            }
+		    }
+		// if the ball is travelling from top to bottom
+		else
+		    {
+		        if((y1+diam1) >= p1YPos && ((y1+diam1) <= p1YPos+p1Height)|| 
+		           (y1+diam1 >= p2YPos) && (((y1+diam1) <= p2YPos+p2Height)))
+		            {
+			temp.setXStep(stepX * -1);
+		            }	        
+		    }
+	            }
+	        
+	    }
+
+	// if ball travelling from bottom to top
+	if((temp.getYStep())<0)
+	    {
+	        if((y1 <= (p1YPos + p1Height))&&(y1 >= p1YPos)|| 
+	           (y1 <= (p2YPos + p2Height))&&(y1 >= p2YPos))
+	            {
+		// if the ball is travelling from bottom to top
+		if((temp.getXStep())<0)
+		    {
+		        if((x1 <= (p1XPos + p1Width))&&(x1 >= p1XPos)|| 
+		           (x1 <= (p2XPos + p2Width))&&(x1 >= p2XPos))
+		            {
+			temp.setYStep(stepY * -1);
+		            }
+		    }
+		// if the ball is travelling from top to bottom
+		else
+		    {
+		        if((x1+rad1) >= p1XPos && ((x1+rad1) <= p1XPos+p1Width)|| 
+		           (x1+rad1 >= p2XPos) && (((x1+rad1) <= p2XPos+p2Width)))
+		            {
+			temp.setYStep(stepY * -1);
+		            }	        
+		    }
+	        
+	            }
+	    }
+	// else ball is travelling from bottom to top
+	else
+	    {
+	        // if the ball is travelling from left to right
+	        if((y1+rad1) >= p1YPos && ((y1+rad1) <= p1YPos+p1Height)|| 
+	           (y1+rad1 >= p2YPos) && (((y1+rad1) <= p2YPos+p2Height)))
+	            {
+		if((temp.getXStep())<0)
+		    {
+		        if((x1 <= (p1XPos + p1Width))&&(x1 >= p1XPos)|| 
+		           (x1 <= (p2XPos + p2Width))&&(x1 >= p2XPos))
+		            {
+			temp.setYStep(stepY * -1);
+		            }
+		    }
+		// if the ball is travelling from right to left
+		else
+		    {
+		        if((x1+rad1) >= p1XPos && ((x1+rad1) <= p1XPos+p1Width)|| 
+		           (x1+rad1 >= p2XPos) && (((x1+rad1) <= p2XPos+p2Width)))
+		            {
+			temp.setYStep(stepY * -1);
+		            }	        
+		    }
+	            }
+	        
+	    }
+	    }
+            }
+    
+    }
+  
+    
+    /*
+    public void collisionDetection()
+    {
+        // local variables
+        BallThread temp1,temp2;
+        int x1,x2;
+        int y1,y2;
+        int diam1,diam2;
+        int stepX, stepY;
+
+        if (balls.size() > 1)(BallThread)(balls.get(numberOfBalls));
+            {
+	//System.out.println("Now there's more than 1");
+	//for(int i=0;i<balls.size();i++)
+	//   {    
+	temp1 = (BallThread) balls.get(0);
+	temp2 = (BallThread) balls.get(1);
+	x1 = temp1.getX(); x2 = temp2.getX(); 
+	y1 = temp1.getY(); y2 = temp2.getY();
+	diam1 = temp1.getDiameter(); 
+	diam2 = temp2.getDiameter();
+	
+	//System.out.println(x2 + " " + y2 + " " + diam2);
+
+	if((x1+diam1)==x2 || (x2+diam2)==x1 || (y1+diam1)==y2 
+	   || (y2+diam2)==y1)
+	    {
+
+	        //   System.out.println(x1 + " " + y1 + "\t" + x2 + " " + y2);
+
+	        stepX = temp1.getXStep();
+	        stepY = temp1.getYStep();
+	        temp1.setXStep(stepX * -1);
+	        temp1.setYStep(stepY * -1);
+	        
+	        stepX = temp2.getXStep();
+	        stepY = temp2.getYStep();
+	        temp2.setXStep(stepX * -1);
+	        temp2.setYStep(stepY * -1);
+	            }
+	        //    }
+            }
+    
+    }
+    */
+
+    class BallThread extends Ball implements Runnable 
+    { 
+        int velocity;
+        
+        public BallThread(int x, int y, int vel, int angle, int radius,Color c,
+	          Applet a) 
+        {  
+            super(x,y,angle,radius,c,a);
+            velocity = vel;
+        } 
+        public void bounce()                                                  
+            // Start the thread 
+        {    new Thread(this).start(); 
+        } 
+        
+        public void run()
+            // Thread execution 
+        {  
+            while(true)
+	{
+	    while(unPaused)
+	        {  
+	            nextStep();
+	            paddleCollide(); //checkballposition for each ballthread
+	            //collisionDetection();
+	            try { Thread.sleep(velocity); } 
+	            catch(InterruptedException e) {}
+	        }
+	}
+        }
+    } 
+
+     class PaddleThread extends Paddle implements Runnable 
+     { 
+        public PaddleThread(int xP, int yP, int width, int height,Applet a) 
+         {  
+            super(xP,yP,width,height,a);
+         } 
+        public void block()                                                  
+            // Start the thread 
+         {    new Thread(this).start(); 
+         } 
+        
+         public void run()
+            // Thread execution 
+        {  
+            while(true)
+	{
+	    draw();
+	    try { Thread.sleep(1); } 
+	    catch(InterruptedException e) {}
+	}
+        }
+     } 
+} 
+
+
+

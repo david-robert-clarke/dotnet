@@ -1,0 +1,217 @@
+CM: 
+CM: Checking...
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/cons_123/data_store_1.vhd  line 17   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L52/C0 : #0 Error: C:/fndtn/active/projects/cons_123/dsp_config_3.vhd  line 52   ANSWER_STORE_3 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/cons_123/dsp_config_1.vhd  line 19   FOUR_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/cons_123/dsp_config_1.vhd  line 23   FOUR_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/cons_123/dsp_config_1.vhd  line 24   FOUR_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L35/C0 : #0 Error: C:/fndtn/active/projects/cons_123/dsp_config_1.vhd  line 35   FOUR_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/cons_123/dsp_config_1.vhd  line 40   MUL2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/cons_123/dsp_config_1.vhd  line 41   MUL2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/cons_123/dsp_config_1.vhd  line 42   ADD4 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  7 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L19/C0 : #0 Error: C:/fndtn/active/projects/cons_123/dsp_config_1.vhd  line 19   FOUR_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/cons_123/dsp_config_1.vhd  line 23   FOUR_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/cons_123/dsp_config_1.vhd  line 24   FOUR_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L35/C0 : #0 Error: C:/fndtn/active/projects/cons_123/dsp_config_1.vhd  line 35   FOUR_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/cons_123/dsp_config_1.vhd  line 40   MUL2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/cons_123/dsp_config_1.vhd  line 41   MUL2 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/cons_123/dsp_config_1.vhd  line 42   ADD4 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  7 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/cons_123/dsp_config_1.vhd  line 43   Trailing underscore in identifier. (VSS-972)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L35/C0 : #0 Error: C:/fndtn/active/projects/cons_123/dsp_config_1.vhd  line 35   FOUR_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/cons_123/dsp_config_1.vhd  line 40   P1_BUS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/cons_123/dsp_config_1.vhd  line 41   P2_BUS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/cons_123/dsp_config_1.vhd  line 42   P1_BUS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L42/C0 : #0 Error: C:/fndtn/active/projects/cons_123/dsp_config_1.vhd  line 42   P2_BUS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/cons_123/dsp_config_1.vhd  line 43   ANSWER_STORE_ is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  7 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/cons_123/dsp_config_1.vhd  line 43   Trailing underscore in identifier. (VSS-972)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L43/C0 : #0 Error: C:/fndtn/active/projects/cons_123/dsp_config_1.vhd  line 43   ANSWER_STORE_ is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/cons_123/asm_config_1.vhd  line 17   STATE_TYPE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L20/C0 : #0 Error: C:/fndtn/active/projects/cons_123/asm_config_1.vhd  line 20   CURRENT_STATE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/cons_123/asm_config_1.vhd  line 22   CURRENT_STATE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/cons_123/asm_config_1.vhd  line 30   NEXT_STATE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/cons_123/asm_config_1.vhd  line 33   CURRENT_STATE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L34/C0 : #0 Error: C:/fndtn/active/projects/cons_123/asm_config_1.vhd  line 34   CURRENT_STATE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/cons_123/asm_config_1.vhd  line 39   CURRENT_STATE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/cons_123/asm_config_1.vhd  line 41   CURRENT_STATE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  8 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/cons_123/asm_config_1.vhd  line 16   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/cons_123/asm_config_1.vhd  line 16   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: 
+CM: Checking...
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 10   Syntax error.  (VSS-1081) 
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 16   The intermediate file for entity SYSTEMS_123 is not in the library bound to WORK.  (VSS-1084) 
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 18   Syntax error.  (VSS-1081) 
+CM:  Error   L20/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 20   Syntax error.  (VSS-1081) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 21   Syntax error.  (VSS-1081) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 23   Syntax error.  (VSS-1081) 
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 25   Syntax error.  (VSS-1081) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 26   Syntax error.  (VSS-1081) 
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 28   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  11 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 18   Syntax error.  (VSS-1081) 
+CM:  Error   L20/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 20   Syntax error.  (VSS-1081) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 21   Syntax error.  (VSS-1081) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 23   Syntax error.  (VSS-1081) 
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 25   Syntax error.  (VSS-1081) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 26   Syntax error.  (VSS-1081) 
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 28   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  9 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 18   Syntax error.  (VSS-1081) 
+CM:  Error   L20/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 20   Syntax error.  (VSS-1081) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 21   Syntax error.  (VSS-1081) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 23   Syntax error.  (VSS-1081) 
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 25   Syntax error.  (VSS-1081) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 26   Syntax error.  (VSS-1081) 
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 28   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  9 error(s) 0 warning(s) found
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 18   Syntax error.  (VSS-1081) 
+CM:  Error   L20/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 20   Syntax error.  (VSS-1081) 
+CM:  Error   L21/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 21   Syntax error.  (VSS-1081) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 23   Syntax error.  (VSS-1081) 
+CM:  Error   L25/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 25   Syntax error.  (VSS-1081) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 26   Syntax error.  (VSS-1081) 
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 28   Syntax error.  (VSS-1081) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 30   Syntax error.  (VSS-1081) 
+CM:  Error   L31/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 31   Syntax error.  (VSS-1081) 
+CM:  9 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L40/C0 : #0 Error: C:/fndtn/active/projects/cons_123/systems_123.vhd  line 40   SYSTEM_1 is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful

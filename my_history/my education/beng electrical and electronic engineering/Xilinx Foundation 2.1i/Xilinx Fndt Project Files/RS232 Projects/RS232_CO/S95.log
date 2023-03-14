@@ -1,0 +1,18 @@
+CM: 
+CM: Checking...
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/rs232con/pinoutdecode.vhd  line 16   Syntax error.  (VSS-1081) 
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/projects/rs232con/pinoutdecode.vhd  line 18   Syntax error.  (VSS-1081) 
+CM:  Error   L20/C0 : #0 Error: C:/fndtn/active/projects/rs232con/pinoutdecode.vhd  line 20   Syntax error.  (VSS-1081) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/rs232con/pinoutdecode.vhd  line 22   Syntax error.  (VSS-1081) 
+CM:  Error   L24/C0 : #0 Error: C:/fndtn/active/projects/rs232con/pinoutdecode.vhd  line 24   Syntax error.  (VSS-1081) 
+CM:  Error   L26/C0 : #0 Error: C:/fndtn/active/projects/rs232con/pinoutdecode.vhd  line 26   Syntax error.  (VSS-1081) 
+CM:  Error   L28/C0 : #0 Error: C:/fndtn/active/projects/rs232con/pinoutdecode.vhd  line 28   Syntax error.  (VSS-1081) 
+CM:  21 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM: Synthesis successful (Warnings found)
+CM: Use Synthesis/View Report for detailed synthesis report
+CM: Symbol 'PINOUTDECODE' successfully created

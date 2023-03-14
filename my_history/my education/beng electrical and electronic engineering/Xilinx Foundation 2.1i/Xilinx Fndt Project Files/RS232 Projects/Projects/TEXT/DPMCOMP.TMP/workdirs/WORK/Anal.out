@@ -1,0 +1,4 @@
+Loading db file 'C:/Fndtn/Synth/lib/libraries/syn/gtech.db'
+Reading in the Synopsys vhdl primitives.
+C:/Fndtn/Active/Projects/TEXT/Fig_10_2.vhd:
+Error: Object LINE not found  on line 0  (VHDL-2234)

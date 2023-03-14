@@ -1,0 +1,208 @@
+#VRML V2.0 utf8
+#Ian Whitehouse, 5/5/00.
+PROTO RadioController[
+	eventIn SFBool set_running #Set the highlighting for the red 'running' button.
+	eventIn SFBool set_targetingActive #Set the highlighting for the yellow 'targeting' button.
+	eventIn SFBool set_validTarget #Set the highlighting for the blue 'fire' button.
+	eventIn SFRotation set_userOrientation #Set the user orientation for the tracking interface.
+        eventIn SFVec3f set_userPosition #Set the user position for the tracking interface.
+        eventOut SFBool startEngines_changed #The 'running' button has been pressed.
+	eventOut SFBool targetSelect_changed #The 'targeting' button has been pressed.
+	eventOut SFTime fireGun #The 'fire' button has been pressed.
+	eventOut SFVec2f cyclic_changed #The movement of the tip of the cyclic stick.
+        eventOut SFVec2f rudderAndCollective_changed #The movement of the tip of the rudder and collective stick.
+	exposedField SFBool enabled TRUE
+]
+{
+	DEF controller Transform{
+		children[
+			Collision{
+				collide FALSE
+				children[
+					Group{#Rudder and collective control - sensor and rotating geometry.
+						children[
+							DEF leftStickPosition PlaneSensor{maxPosition .15 .15 minPosition -.15 -.15 enabled IS enabled}
+							DEF leftStick Transform{
+								translation -.04 -.15 -.5
+								center 0 -.014 -.014
+								children[
+									Transform{
+										rotation 1 0 0 .78
+										children[
+											Shape{
+												appearance Appearance{
+													material Material{diffuseColor 0 .3 0 emissiveColor 0 .1 0}
+												}
+												geometry Cylinder{radius .005 height .04}
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+					Group{#Cyclic control - sensor and rotating geometry.
+						children[
+							DEF rightStickPosition PlaneSensor{maxPosition .15 .15 minPosition -.15 -.15 enabled IS enabled}
+							DEF rightStick Transform{
+								translation .04 -.15 -.5
+								center 0 -.014 -.014
+								children[
+									Transform{
+										rotation 1 0 0 .78
+										children[
+											Shape{
+												appearance Appearance{
+													material Material{diffuseColor 0 .3 0 emissiveColor 0 .1 0}
+												}
+												geometry Cylinder{radius .005 height .04}
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+					Transform{#The various buttons, their TouchSensors, and the materials for highlighting.
+						translation 0 -.164 -.514
+						rotation 1 0 0 .78
+						children[
+							Transform{
+								translation 0 .03 0
+								children[
+									DEF startEngines TouchSensor{ enabled IS enabled}
+									Shape{
+										appearance Appearance{material DEF engines Material{diffuseColor .4 0 0 emissiveColor 0.1 0 0}}
+										geometry Box{size .03 .01 .01}
+									}
+								]
+							}
+							Transform{
+								translation .01 .03 .02
+								children[
+									DEF gunFire TouchSensor{ enabled IS enabled}
+									Shape{
+										appearance Appearance{material DEF fire Material{diffuseColor 0 0 .4 emissiveColor 0 0 .1}}
+										geometry Box{size .01 .01 .01}
+									}
+								]
+							}
+							Transform{
+								translation -.01 .03 .02
+								children[
+									DEF targetSelect TouchSensor{ enabled IS enabled}
+									Shape{
+										appearance Appearance{material DEF target Material{diffuseColor .6 .6 0 emissiveColor .1 .1 0}}
+										geometry Box{size .01 .01 .01}
+									}
+								]
+							}
+							Shape{#The base of the control unit.
+								appearance Appearance{
+									material Material{diffuseColor .3 .3 .3 shininess 0.2 specularColor 1 1 1}
+								}
+								geometry Box{size .1 .01 .05}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+	DEF controllerScript Script{
+		eventIn SFVec3f set_userPosition IS set_userPosition
+		eventIn SFRotation set_userOrientation IS set_userOrientation
+		eventIn SFVec3f leftStickPosition #The updated movement of the left stick.
+		eventIn SFVec3f rightStickPosition #The updated movement of the right stick.
+		eventIn SFTime engineStart #The time the start button was pressed
+		eventIn SFBool set_running IS set_running
+		eventIn SFTime gunFire #The time the fire button was pressed.
+		eventIn SFBool set_targetingActive IS set_targetingActive
+		eventIn SFBool set_validTarget IS set_validTarget
+		eventIn SFTime target #The time the target button was pressed.
+		eventOut SFVec3f controllerPosition #The updated position of the controller.
+		eventOut SFRotation controllerRotation #The updated rotation of the controller.
+		eventOut SFRotation leftStickRotation #The updated rotation of the left stick.
+		eventOut SFRotation rightStickRotation #The updated rotation of the right stick.
+		eventOut SFVec2f rudderAndCollective_changed IS rudderAndCollective_changed
+		eventOut SFVec2f cyclic_changed IS cyclic_changed
+		eventOut SFBool startEngines_changed IS startEngines_changed
+		eventOut SFColor engineHighlight #The highlight colour for the 'running' button.
+		eventOut SFTime fireGun IS fireGun
+		eventOut SFBool targetSelect_changed IS targetSelect_changed
+		eventOut SFColor targetHighlight #The highlight colour for the 'target' button.
+		eventOut SFColor fireHighlight #The highlight colour for the 'fire' button.
+		url "javascript:
+			function initialize(){
+				startEngines_changed=false;
+				rudderAndCollective_changed=new SFVec2f();
+				cyclic_changed=new SFVec2f();
+			}
+
+			function set_userPosition(value,ts){
+				controllerPosition=value;
+			}
+
+			function set_userOrientation(value,ts){
+				controllerRotation=value;
+			}
+
+			function leftStickPosition(value,ts){//Create the stick rotation from the move values.
+				leftStickRotation=new SFRotation(new SFVec3f(0,.2,0),new SFVec3f(value.x,.2,-value.y));
+				rudderAndCollective_changed=new SFVec2f(value.x,value.y);
+			}
+
+			function rightStickPosition(value,ts){//Create the stick rotation from the move values.
+				rightStickRotation=new SFRotation(new SFVec3f(0,.2,0),new SFVec3f(value.x,.2,-value.y));
+				cyclic_changed=new SFVec2f(value.x,value.y)
+			}
+
+			function engineStart(value,ts){
+				startEngines_changed=!startEngines_changed;
+			}
+
+			function set_running(value,ts){//Highlight the button appropriately.
+				if(value) engineHighlight=new SFColor(.5,0,0);
+				else engineHighlight=new SFColor(.1,0,0);
+			}
+
+			function gunFire(value,ts){
+				fireGun=value;
+			}
+
+			function set_validTarget(value,ts){//Highlight the button appropriately.
+				if(value) fireHighlight=new SFColor(0,0,.6);
+				else fireHighlight=new SFColor(0,0,.1);
+			}
+
+			function set_targetingActive(value,ts){//Highlight the button appropriately.
+				if(value) targetHighlight=new SFColor(.4,.4,0);
+				else targetHighlight=new SFColor(.1,.1,0);
+			}
+
+			function target(value,ts){
+				targetSelect_changed=true
+			}
+
+		"
+	}
+	ROUTE controllerScript.controllerPosition	TO controller.translation
+	ROUTE controllerScript.controllerRotation	TO controller.rotation
+	ROUTE leftStickPosition.translation_changed	TO controllerScript.leftStickPosition
+	ROUTE rightStickPosition.translation_changed	TO controllerScript.rightStickPosition
+	ROUTE startEngines.touchTime			TO controllerScript.engineStart
+	ROUTE gunFire.touchTime				TO controllerScript.gunFire
+	ROUTE targetSelect.touchTime			TO controllerScript.target
+	ROUTE controllerScript.leftStickRotation	TO leftStick.rotation
+	ROUTE controllerScript.rightStickRotation	TO rightStick.rotation
+	ROUTE controllerScript.engineHighlight		TO engines.emissiveColor
+	ROUTE controllerScript.targetHighlight		TO target.emissiveColor
+	ROUTE controllerScript.fireHighlight		TO fire.emissiveColor
+}
+
+RadioController{}
+Viewpoint{position 0 0 0}
+
+
+
+

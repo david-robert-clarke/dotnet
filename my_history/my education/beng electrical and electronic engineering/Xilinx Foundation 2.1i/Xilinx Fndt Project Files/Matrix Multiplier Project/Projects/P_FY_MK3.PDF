@@ -1,0 +1,106 @@
+[project]
+name=p_fy_mk3
+netlist=p_fy_mk3
+contents=p_fy_mk3
+date=12/08/00
+time=12:26:48
+version=3.1.5.00.34e
+Type=F21i
+top_level=VHDL
+library_net=ON
+HDL netlist format=Auto
+generics=MAX
+sim_mode=FUNC
+pdf_dir=c:\fndtn\active\projects\
+lib_order=1014 133 155
+
+[libraries]
+1014=
+133=c:\fndtn\active\syslib\simprims
+155=c:\fndtn\active\syslib\xc4000x
+
+[APP_95]
+lid=0
+oid=0
+format=19
+source=C:\Fndtn\Active\Projects\P_FY_MK3\fdc0.vhd
+server_hwnd=1732
+
+[netlist]
+external=FALSE
+
+[Schematic]
+Table01=Project
+Table02=Macro
+Table03=Date
+Table04=Date Last Modified
+
+[OpenDoc]
+hde/FUNCTION_CONV_ARITH=0,0,-4,-4,1028,744,FUNCTION_CONV_ARITH.vhd
+hde/DSP=0,0,23,23,791,559,DSP.vhd
+
+[Log]
+netlist.log=Simulator Netlist Log
+imp_EDIF.log=Import EDIF netlist
+exp_net.log=Export netlist
+
+[timings]
+p_fy_mk3=
+add4_res=
+
+[sc_desk]
+desk00=C:\FNDTN\ACTIVE\PROJECTS\P_FY_MK3\P_FY_MK1.SCH, 0, 0, 800, 478, 1
+
+[hdl_sheets]
+CONFIGURATION_1.vhd=
+ASM_CONFIG_1.vhd=
+data_store.vhd=
+DSP.vhd=
+MUL2.vhd=
+ADD4.vhd=
+full_adder.vhd=
+full_adderin.vhd=
+
+[Top Doc]
+CONFIGURATION_1.vhd=21
+ASM_CONFIG_1.vhd=21
+data_store.vhd=21
+DSP.vhd=21
+MUL2.vhd=21
+ADD4.vhd=21
+full_adder.vhd=21
+full_adderin.vhd=21
+
+[implement_HDL]
+family=2
+xfam=XC4000XL
+part=4010XLPC84-09
+xilinx=4010XLPC84-09
+functional=ver1
+optimized=ver1-Optimized
+
+[xilinx]
+family=2
+xfam=XC4000XL
+xact9=On
+
+[device]
+part=4010XLPC84-09
+xilinx=4010XLPC84-09
+
+[implement_XIE]
+version=ver1
+revision=rev1
+
+[OPEN32]
+nMaxFile=10000
+lpstrFile=
+lpstrFilter=HDL (*.VHD;*.VER;*.VE;*.V)|*.vhd;*.ver;*.ve;*.v|Schematic (*.SCH)|*.sch|FSM (*.ASF)|*.asf|Xnf Sources (*.XNF)|*.xnf|Edif Sources (*.EDF;*.EDN;*.EDO)|*.edf;*.edn;*.edo|All Files (*.*)|*.*||
+lpstrInitialDir=C:\FNDTN\ACTIVE\PROJECTS\P_FY_MK3
+lpstrTitle=Add Document
+nFilterIndex=0
+Flags=530964
+HelpID=10380
+HelpFileName=C:\FNDTN\ACTIVE\EXE\PCM.HLP
+cmdLine=-h 956 -hp 1288 -m PCM_OPEN_32_MESSAGE -f C:\FNDTN\ACTIVE\PROJECTS\current.pdf
+

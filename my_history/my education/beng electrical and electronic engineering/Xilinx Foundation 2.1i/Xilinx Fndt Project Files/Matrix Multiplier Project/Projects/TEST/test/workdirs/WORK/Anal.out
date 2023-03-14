@@ -1,0 +1,26 @@
+Loading db file 'C:/Fndtn/Synth/lib/libraries/syn/gtech.db'
+Reading in the Synopsys vhdl primitives.
+USE WORK.MATRIX_PACKAGE.ALL;
+         ^
+**Error: C:/fndtn/active/projects/test/wee.vhd  line 8
+	No selected element named MATRIX_PACKAGE is defined for this prefix. (VSS-573)
+PORT (D_IN, LATCH_SEL : IN NIBBLE;
+                           ^
+**Error: C:/fndtn/active/projects/test/wee.vhd  line 11
+	NIBBLE is not declared. (VSS-575)
+      ERROR                        : OUT TWO_BITS);
+                                         ^
+**Error: C:/fndtn/active/projects/test/wee.vhd  line 17
+	TWO_BITS is not declared. (VSS-575)
+ARCHITECTURE BEHAVIOURAL OF DATA_STORE IS
+                            ^
+**Error: C:/fndtn/active/projects/test/wee.vhd  line 22
+	The intermediate file for entity DATA_STORE is not in the library bound to WORK. (VSS-1084)
+END ARCHITECTURE BEHAVIOURAL;
+    ^
+**Error: C:/fndtn/active/projects/test/wee.vhd  line 59
+	Syntax error. (VSS-1081)
+END ARCHITECTURE BEHAVIOURAL;
+^
+**Error: C:/fndtn/active/projects/test/wee.vhd  line 59
+	Syntax error - keyword PROCESS expected. (VSS-1081)

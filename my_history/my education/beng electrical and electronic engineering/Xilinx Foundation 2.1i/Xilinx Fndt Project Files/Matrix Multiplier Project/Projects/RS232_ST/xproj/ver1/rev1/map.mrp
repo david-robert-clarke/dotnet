@@ -1,0 +1,110 @@
+
+Xilinx Mapping Report File for Design 'rs232_st'
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Design Information
+------------------
+Command Line   : m1map -p xc4010xl-09-pc84 -o map.ncd rs232_st.ngd rs232_st.pcf
+Target Device  : x4010xl
+Target Package : pc84
+Target Speed   : -09
+Mapper Version : xc4000xl -- C.16
+
+Design Summary
+--------------
+   Number of errors:        0
+   Number of warnings:      1
+   Number of CLBs:             58 out of   400   14%
+      CLB Flip Flops:      19
+      CLB Latches:         30
+      4 input LUTs:       106
+      3 input LUTs:        18
+   Number of bonded IOBs:      12 out of    65   18%
+      IOB Flops:            0
+      IOB Latches:          0
+   Number of clock IOB pads:    1 out of    12    8%
+   Number of BUFGLSs:           8 out of     8  100%
+Total equivalent gate count for design: 981
+Additional JTAG gate count for IOBs:    576
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Design Attributes
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - Added Logic
+Section 7 - Expanded Logic
+Section 8 - Signal Cross-Reference
+Section 9 - Symbol Cross-Reference
+Section 10 - IOB Properties
+Section 11 - RPMs
+Section 12 - Guide Report
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:OldMap:78 - All of the external outputs in this design are using
+   slew-rate-limited output drivers.  The delay on speed critical outputs can be
+   dramatically reduced by designating them as fast outputs in the original
+   design.  Please see your vendor interface documentation for specific
+   information on how to do this within your design-entry tool.
+   Note: You should be careful not to designate too many outputs which switch
+   together as fast, because this can cause excessive ground bounce.  For more
+   information on this subject, please refer to the IOB switching characteristic
+   guidelines for the device you are using in the Programmable Logic Data Book.
+
+Section 3 - Design Attributes
+-----------------------------
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   5 block(s) optimized away
+
+Section 5 - Removed Logic
+-------------------------
+
+Optimized Block(s):
+TYPE 		BLOCK
+X_ZERO 		N51.ZERO
+LDCE_1 		TIME_ENCODER_CNT_reg<14>/$1I13
+AND2 		c337_c2
+LDCE_1 		TIME_ENCODER_CNT_reg<15>/$1I13
+AND2 		c325_c2
+
+Section 6 - Added Logic
+-----------------------
+
+Section 7 - Expanded Logic
+--------------------------
+To enable this section, set the detailed map report option and rerun map.
+
+Section 8 - Signal Cross-Reference
+----------------------------------
+To enable this section, set the detailed map report option and rerun map.
+
+Section 9 - Symbol Cross-Reference
+----------------------------------
+To enable this section, set the detailed map report option and rerun map.
+
+Section 10 - IOB Properties
+---------------------------
+"EVEN" (IOB) : SLEW=SLOW
+"ODD" (IOB) : SLEW=SLOW
+"S0" (IOB) : SLEW=SLOW
+"S1" (IOB) : SLEW=SLOW
+"S2" (IOB) : SLEW=SLOW
+"S3" (IOB) : SLEW=SLOW
+"S4" (IOB) : SLEW=SLOW
+"S5" (IOB) : SLEW=SLOW
+"S6" (IOB) : SLEW=SLOW
+
+Section 11 - RPMs
+-----------------
+
+Section 12 - Guide Report
+-------------------------
+Guide not run on this design.

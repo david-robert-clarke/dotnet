@@ -1,0 +1,19 @@
+Problem Description: 
+Keywords: F2.1i, Aldec, foundation, schematic, editor, color, scheme, settings 
+
+Urgency: Standard 
+
+General Description: Foundation Schematic Editor does not retain a saved 
+color scheme if a user defined color is specified. From within schematic editor, 
+View --> Preferences --> Colors will bring up the Color Setting dialog box. 
+If a custom color is selected from the slide bar and then saved to a color 
+scheme, upon re-entering Schematic Editor the user defined color will not 
+be applied to the schematic. 
+
+Solution 1:
+
+
+From within the Color Settings dialog box (Foundation Schematic Editor --> 
+View --> Preferences --> Colors) the user defined color scheme is remembered, 
+however, it is not applied to the schematic. Thus, if the Apply button is pressed, 
+then the defined color scheme will be applied to the schematic. 

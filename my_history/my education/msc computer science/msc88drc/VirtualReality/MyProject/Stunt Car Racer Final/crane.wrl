@@ -1,0 +1,559 @@
+#VRML V2.0 utf8
+#David Clarke 490973
+
+NavigationInfo {
+   type "EXAMINE"
+   avatarSize [1, 1.6, 0.75]
+
+}
+
+PROTO theCrane[
+field SFVec3f cranePosition 0 0 0            #the cranes position in the VRWorld
+field SFRotation craneOrientation 0 0 0 0    #the cranes orientation in the VRWorld
+]
+{
+DEF crane Transform{
+scale 2 2 2
+translation IS cranePosition
+rotation IS craneOrientation
+children[
+	DEF touch TouchSensor {} #touch sensor is active when any part of the crane is highlighted
+ DEF timer TimeSensor{
+	enabled FALSE
+	cycleInterval 10
+	loop TRUE
+	}
+	DEF cabin Transform{
+	translation 1.5 1 2.5
+        children[
+        	DEF craneArmConnector Transform{
+        	translation 0 4 0
+              	rotation 0 0 1 1.10
+        	children[
+                        DEF bottomSupport Transform{
+                        children[
+                        	Shape{
+                                geometry Box{
+                                size 0.5 0.1 0.5
+                                }
+                                appearance DEF metallic Appearance{
+                                material Material{
+                                diffuseColor 0.5 0.5 0.5
+                                shininess 0.8
+                                }
+                                }
+                                }
+                                ]
+                                }
+                      	DEF leftSupport Transform{
+                      	translation 0 0.1 0.2
+                      	children[
+                      		Shape{
+                      		geometry Box{
+                      		size 0.5 0.5 0.1
+                      		}
+                      		appearance USE metallic
+                      		}
+                      		]
+                      		}
+			DEF rightSupport Transform{
+			translation 0 0 -0.4
+			children USE leftSupport
+			}
+               		]
+               		}
+        	DEF hub Transform{
+        	children[
+        		Shape{
+   			appearance DEF yellow Appearance {
+      			material Material {
+         		diffuseColor 0.95 0.95 0.3
+      			}
+   			}
+   			geometry Extrusion {
+   			creaseAngle 1.57
+      			crossSection [1 1, 1 -1, -1 -1, -1 1, 1 1]
+     			spine [0 0 0, 2 1 0, 2.8 2 0, 2 3 0, 0 4 0]
+      			scale [1 1, 1 2, 1 2, 1 2, 1 1]
+   			}
+			}
+			]
+			}
+
+		DEF window Transform{
+		children[
+			Shape{
+			appearance Appearance {
+      			material Material {
+         		diffuseColor 1 1 1
+         		transparency 0.5
+      			}
+   			}
+   			geometry IndexedFaceSet {
+   			creaseAngle 1.57
+   			coord Coordinate {
+      			point [ 1.8 2 2, -0.5 3.1 1, -0.5 0.9 1, -0.5 3.1 -1, -0.5 0.9 -1,
+      				1.8 2 -2
+      				 ]
+   			}
+   			coordIndex [	0 1 2 0 -1    #leftWindow
+   				     	1 3 4 2 1 -1  #windScreen
+   				     	3 5 4 3 -1
+               				 ]
+   			solid FALSE
+			}
+			}
+			]
+			}
+		]
+		}
+		DEF caterpillarTracks Transform{
+		translation 0 -1 0
+                children[
+                	DEF leftTrack Transform{
+                	children[
+                		DEF wheels Transform{
+                		translation 0.05 -0.05 0
+                		children[
+                			DEF wheel Transform{ #one of six wheels
+                			rotation 1 0 0 1.57
+                			children[
+                				Shape{
+                				geometry Cylinder{
+                				radius 0.5
+                				height 0.25
+                				}
+                				appearance USE metallic
+                                                }
+                                                ]
+                                                }
+                                         	Transform{           #two of six wheels
+                                         	translation 1 0 0
+                                         	children USE wheel
+                                         	}
+                                         	Transform{           #three of six wheels
+                                         	translation 2 0 0
+                                         	children USE wheel
+                                         	}
+                                         	Transform{           #four of six wheels
+                                         	translation 3 0 0
+                                         	children USE wheel
+                                         	}
+                                         	Transform{           #five of six wheels
+                                         	translation 4 0 0
+                                         	children USE wheel
+                                         	}
+                                         	Transform{           #six of six wheels
+                                         	translation 5 0 0
+                                         	scale 1 1 0.9
+                                         	children USE wheel
+                                         	}
+                                	]
+                                    	}
+                               	DEF track Transform{ # top side of track
+                               	translation 0 0.5 0
+                               	children[
+                               		DEF trackBit Transform{
+                                        children[
+                                        	Shape{
+                                        	geometry Box{
+                                        	size 0.25 0.1 1
+                                        	}
+                                        	appearance USE metallic
+                                        	}
+                                        	]
+                                        	}
+
+                                	Transform{
+                                	translation 0.3 0 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 0.6 0 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 0.9 0 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 1.2 0 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 1.5 0 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 1.8 0 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 2.1 0 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 2.4 0 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 2.7 0 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 3.0 0 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 3.3 0 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 3.6 0 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 3.9 0 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 4.2 0 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 4.5 0 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 4.8 0 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 5.1 0 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{  # right side of track
+                                	translation 5.4 -0.1 0
+                                	rotation 0 0 1 -0.78
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 5.5 -0.4 0
+                                	rotation 0 0 1 -1.57
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 5.5 -0.7 0
+                                	rotation 0 0 1 -1.57
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 5.4 -1.0 0
+                                	rotation 0 0 1 -2.35
+                                	children USE trackBit
+                                	}
+
+                                        Transform{    # bottom track
+                                	translation 0 -1.1 0
+                                	children USE trackBit
+                                	}
+
+                                        Transform{
+                                	translation 0.3 -1.1 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 0.6 -1.1 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 0.9 -1.1 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 1.2 -1.1 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 1.5 -1.1 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 1.8 -1.1 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 2.1 -1.1 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 2.4 -1.1 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 2.7 -1.1 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 3.0 -1.1 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 3.3 -1.1 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 3.6 -1.1 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 3.9 -1.1 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 4.2 -1.1 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 4.5 -1.1 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 4.8 -1.1 0
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation 5.1 -1.1 0
+                                	children USE trackBit
+                                	}
+
+                                        Transform{ #left side of track
+                                	translation -0.3 -0.1 0
+                                	rotation 0 0 1 0.78
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation -0.4 -0.4 0
+                                	rotation 0 0 1 1.57
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation -0.4 -0.7 0
+                                	rotation 0 0 1 1.57
+                                	children USE trackBit
+                                	}
+
+                                	Transform{
+                                	translation -0.3 -1.0 0
+                                	rotation 0 0 1 2.35
+                                	children USE trackBit
+                                	}
+				]
+                             	}
+                    	]
+                     	}
+
+            		DEF rightTrack Transform{
+            		translation 0 0 5
+            		children USE leftTrack
+            		}
+            	]
+            	}
+
+            	DEF driveUnit Transform{
+            	translation 2.5 -1 2.5
+            	children[
+            		Shape{
+   			appearance Appearance {
+      			material Material {
+         		diffuseColor 0.95 0.95 0.3
+      			}
+   			}
+   			geometry Extrusion {
+   			creaseAngle 1.57
+      			crossSection [1 1, 1 -1, -1 -1, -1 1, 1 1]
+      			spine [0 0 0, 0 0.5 0, 0 1.0 0, 0 1.5 0]
+      			scale [1 1, 2 2, 2 2, 1 1]
+   			}
+			}
+			]
+			}
+                DEF craneArm Transform{
+                translation 0 0 2.5
+                children[
+                        DEF mainStrut Transform{
+                        center 1.2 5 0
+                        children[
+                        	Transform{
+                        	translation 1.25 8.5 0
+                		rotation 0 0 1 0.78
+                		center 0 -3.5 0
+                        	children[
+                        		Shape{
+                        	        geometry Cylinder{
+                        	        radius 0.15
+                        	        height 7
+                        	        }
+                        	        appearance Appearance{
+                        	        material Material{
+                        	        diffuseColor 0.5 0.5 0.5
+                        		        shininess 0.8
+                               	 	}
+                               		}
+                                	}
+                        		]
+                        		}
+                        	]
+                        	}
+                        DEF clawStrut Transform{
+                        children[
+                        	Transform{
+                        	translation -3.5 6.5 0
+                        	children[
+                        		Shape{
+                        		geometry Cylinder{
+                        		radius 0.15
+                        	        height 7
+                        	        }
+                        	        appearance Appearance{
+                        	        material Material{
+                        	        diffuseColor 0.5 0.5 0.5
+                        	        shininess 0.8
+                        	        }
+                        	        }
+                        	        }
+                        		]
+                        		}
+                        	]
+                        	}
+                        DEF claw Transform{
+                        children[
+                        	Transform{
+                       		translation -4.75 -0.5 0
+                        	children[
+                        		DEF clawHub Transform{
+                        		translation 1.25 3.5 0
+                                	children[
+                                		Shape{
+                                		geometry Cone{
+                                		bottomRadius 0.75
+                                		height 0.5
+                                		}
+                                	        appearance USE metallic
+                                	        }
+                                	        ]
+                                	        }
+                        		DEF claw1 Transform{
+                        		center 0 3 0
+                        		children[
+                                	        Shape{
+   						appearance USE yellow
+   						geometry Extrusion {
+   						creaseAngle 1.57
+      						crossSection [1 0.5, 1 -.5, 1.1 -.5, 1.1 .5, 1 .5]
+     							spine [0 0 0, -1 1 0, -1 2 0, -1 3 0, 0 4 0]
+   							}
+						}
+						]
+						}
+					DEF claw2 Transform{
+					translation  2 0 -1
+					rotation 0 1 0 3.92
+					children USE claw1
+					}
+					DEF claw3 Transform{
+					translation  2 0 1
+					rotation 0 1 0 -3.92
+					children USE claw1
+					}
+					]
+					}
+				]
+				}
+
+		]
+		}
+                Viewpoint{
+                position 3 3 2.5
+                orientation 0 1 0 1.57
+                description "Crane Inside Cabin"
+                }
+                Viewpoint{
+                position 0.5 10 20
+                orientation 1 0 0 -0.35
+                description "Crane Side View"
+                }
+
+	]
+        }
+
+   	DEF myScript Script{
+        eventIn SFFloat timeChange
+        eventOut SFRotation mainStrutAngle
+        eventOut SFVec3f clawTranslation
+   	url "javascript:
+
+      	function initialize()
+      	{
+      	}
+
+	//changes the position and angle of the crane struts
+	function timeChange(value,ts)
+	{
+  	mainStrutAngle = new SFRotation(0,0,1,(value*0.5));
+  	clawTranslation = new SFVec3f((-value*2),(-value*2.8),0)
+	}"
+        }
+
+
+
+ROUTE touch.isOver TO timer.enabled                       #Route touch sensor to enable the timer
+ROUTE timer.fraction_changed TO myScript.timeChange       #Route the timer to the java script that calculates rotation and position vectors
+ROUTE myScript.mainStrutAngle TO mainStrut.rotation       #Route java script main strut angle calculation to the rotation of the mainStrut DEF
+ROUTE myScript.mainStrutAngle TO claw1.rotation           #Route java script main strut angle calculation to the rotation of the crane claw DEF
+ROUTE myScript.clawTranslation TO clawStrut.translation   #Route java script claw translation calculation to the translation of the claw strut DEF
+ROUTE myScript.clawTranslation TO claw.translation        #Route java script claw translation calculation to the translation of the claw DEF
+}
+
+theCrane{}
+
+
+

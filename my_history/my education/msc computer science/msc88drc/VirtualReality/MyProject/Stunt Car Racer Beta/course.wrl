@@ -1,0 +1,675 @@
+#VRML V2.0 utf8
+
+NavigationInfo {
+   type "FLY"
+   avatarSize [1, 1.6, 0.75]
+
+}
+
+EXTERNPROTO theTrafficLight[
+field SFVec3f trafficLightPosition
+]"trafficlight.wrl"
+
+
+PROTO theCourse[
+field SFVec3f coursePosition 0 0 0
+]
+{
+DEF Course Transform{
+translation IS coursePosition
+children[
+	DEF lightSource DirectionalLight{
+   	ambientIntensity 0.75
+   	intensity 1
+   	color 1 1 1
+   	direction 0 -1 1
+	}
+
+	DEF rightSide Transform{ #THE RIGHT SIDE OF THE COURSE
+        children[
+		DEF hugeIncline Transform {#the huge incline
+   		translation 0 0 0
+   		children [
+      			Shape {
+         		appearance Appearance {
+         		texture ImageTexture {
+      			url "r2.jpg"
+   			}
+         		}
+         		geometry ElevationGrid {
+            		xDimension 8
+            		zDimension 2
+            		xSpacing 1.0
+            		zSpacing 100.0
+            		solid FALSE
+            		height [
+               		1.0, 0.75, 0.5, 0.5, 0.5, 0.5, 0.75, 1.0,
+               		51.0, 50.75, 50.5, 50.5, 50.5, 50.5, 50.75, 51.0
+            		]
+         		}
+      			}
+   			]
+			}
+
+		DEF sideWallLI Transform {#the side wall of the large incline
+		translation 0 0 0
+		children [
+			Shape {
+			appearance Appearance{
+			material Material{
+			diffuseColor 0.8 0.25 0.25
+			}
+			}
+			geometry IndexedFaceSet {
+			coord Coordinate {
+			point [0 1 0, 0 51 100.0, 0 -50 100.0, 0 -50 0]
+			}
+			coordIndex [ 0 1 2 3 0 -1]
+			solid FALSE
+			}
+			}
+			]
+			}
+		Transform{
+		translation 7 0 0
+		children USE sideWallLI
+		}
+		Transform{
+		translation -93 0 0
+		children USE sideWallLI
+		}
+		Transform{
+		translation -100 0 0
+		children USE sideWallLI
+		}
+
+		DEF straightTrackLI Transform {#the straight track at the top of the huge incline
+   		translation 0 50 100
+   		children [
+      			Shape {
+        		appearance Appearance {
+            		texture ImageTexture {
+      			url "r.jpg"
+   			}
+         		}
+         		geometry ElevationGrid {
+            		xDimension 8
+            		zDimension 2
+            		xSpacing 1.0
+            		zSpacing 20
+            		solid FALSE
+            		height [
+            		1.0, 0.75, 0.5, 0.5, 0.5, 0.5, 0.75, 1.0,
+               		1.0, 0.75, 0.5, 0.5, 0.5, 0.5, 0.75, 1.0
+            		]
+         		}
+      			}
+   			]
+			}
+
+		DEF sideWallLIS Transform { #the side wall of the large incline
+		children [
+			Shape {
+			appearance Appearance{
+			material Material{
+			diffuseColor 0.9 0.9 0.9
+			}
+			}
+			geometry IndexedFaceSet {
+			coord Coordinate {
+			point [0 51 100, 0 51 120, 0 -50 120, 0 -50 100]
+			}
+			coordIndex [ 0 1 2 3 0 -1]
+			solid FALSE
+			}
+			}
+			]
+			}
+		Transform{
+		translation 7 0 0
+		children USE sideWallLIS
+		}
+		Transform{
+		translation -93 0 0
+		children USE sideWallLIS
+		}
+		Transform{
+		translation -100 0 0
+		children USE sideWallLIS
+		}
+
+		DEF straightTrackBI Transform {#the straight track at the bottom of the incline
+   		translation 0 0 -50
+   		children [
+      			Shape {
+         		appearance Appearance {
+        		texture ImageTexture {
+      			url "r.jpg"
+   			}
+        		}
+         		geometry ElevationGrid {
+          		xDimension 8
+            		zDimension 2
+            		xSpacing 1.0
+            		zSpacing 50
+            		solid FALSE
+            		height [
+               		1.0, 0.75, 0.5, 0.5, 0.5, 0.5, 0.75, 1.0,
+               		1.0, 0.75, 0.5, 0.5, 0.5, 0.5, 0.75, 1.0
+            		]
+         		}
+      			}
+   			]
+			}
+
+		DEF sideWallSt Transform { #the side wall of the straight
+		children [
+			Shape {
+			appearance Appearance{
+			material Material{
+			diffuseColor 0.8 0.25 0.25
+			}
+			}
+		 	geometry IndexedFaceSet {
+			coord Coordinate {
+			point [0 1 0, 0 1 -50, 0 -50 -50, 0 -50 0]
+			}
+			coordIndex [ 0 1 2 3 0 -1]
+			solid FALSE
+			}
+			}
+			]
+			}
+		Transform{
+		translation 7 0 0
+		children USE sideWallSt
+		}
+
+		Transform{
+		translation -93 0 0
+		children USE sideWallSt
+		}
+
+		Transform{
+		translation -100 0 0
+		children USE sideWallSt
+		}
+
+		DEF decliningTrackBLI Transform { #the declining track behind the large incline
+   		translation 0 0 -150
+   		children [
+      			Shape {
+         		appearance Appearance {
+            		texture ImageTexture {
+      			url "r.jpg"
+   			}
+         		}
+         		geometry ElevationGrid {
+            		xDimension 8
+            		zDimension 2
+            		xSpacing 1.0
+            		zSpacing 100
+            		solid FALSE
+            		height [
+               		21.0, 20.75, 20.5, 20.5, 20.5, 20.5, 20.75, 21.0,
+               		1.0, 0.75, 0.5, 0.5, 0.5, 0.5, 0.75, 1.0
+            		]
+         		}
+      			}
+   			]
+			}
+
+		DEF sideWallD Transform {#the side wall of the decline
+		children [
+			Shape {
+			appearance Appearance{
+			material Material{
+			diffuseColor 0.9 0.9 0.9
+			}
+			}
+			geometry IndexedFaceSet {
+			coord Coordinate {
+			point [0 21 -150, 0 1 -50.0, 0 -50 -50, 0 -50 -150]
+			}
+			coordIndex [ 0 1 2 3 0 -1]
+			solid FALSE
+			}
+			}
+			]
+			}
+
+		Transform{
+		translation 7 0 0
+		children USE sideWallD
+		}
+
+		Transform{
+		translation -93 0 0
+		children USE sideWallD
+		}
+
+		Transform{
+		translation -100 0 0
+		children USE sideWallD
+		}
+
+
+		DEF smallStraightTSI Transform { #the small straight track at the top of the small incline
+   		translation 0 0 -200
+   		children [
+      			Shape {
+         		appearance Appearance {
+            		texture ImageTexture {
+      			url "r.jpg"
+   			}
+         		}
+         		geometry ElevationGrid {
+            		xDimension 8
+            		zDimension 2
+            		xSpacing 1.0
+            		zSpacing 50
+            		solid FALSE
+            		height [
+               		21.0, 20.75, 20.5, 20.5, 20.5, 20.5, 20.75, 21.0,
+               		21.0, 20.75, 20.5, 20.5, 20.5, 20.5, 20.75, 21.0
+            		]
+         		}
+      			}
+   			]
+			}
+
+			DEF sideWallSS Transform {#the wall for the small straight at the top of the small incline
+			children [
+				Shape {
+				appearance Appearance{
+				material Material{
+				diffuseColor 0.8 0.25 0.25
+				}
+				}
+		 		geometry IndexedFaceSet {
+				coord Coordinate {
+				point [0 21 -200, 0 21 -150.0, 0 -50 -150, 0 -50 -200]
+				}
+				coordIndex [ 0 1 2 3 0 -1]
+				solid FALSE
+				}
+				}
+				]
+				}
+			Transform{
+			translation 7 0 0
+			children USE sideWallSS
+			}
+                        Transform{
+                        translation -93 0 0
+                        children USE sideWallSS
+                        }
+                        Transform{
+                        translation -100 0 0
+                        children USE sideWallSS
+                        }
+
+			DEF inclineBSS Transform {#the inclined track before the small straight
+   			translation 0 0 -300
+   			children [
+      				Shape {
+         			appearance Appearance {
+            			texture ImageTexture {
+      				url "r.jpg"
+   				}
+         			}
+         			geometry ElevationGrid {
+            			xDimension 8
+            			zDimension 2
+            			xSpacing 1.0
+            			zSpacing 100
+            			solid FALSE
+            			height [
+               			1.0, 0.75, 0.5, 0.5, 0.5, 0.5, 0.75, 1.0,
+               			21.0, 20.75, 20.5, 20.5, 20.5, 20.5, 20.75, 21.0
+            			]
+         			}
+      				}
+   				]
+				}
+
+			DEF sideWallI Transform {#the wall for the incline before the small straight
+			children [
+				Shape {
+				appearance Appearance{
+				material Material{
+				diffuseColor 0.9 0.9 0.9
+				}
+				}
+				geometry IndexedFaceSet {
+				coord Coordinate {
+				point [0 1 -300, 0 21 -200, 0 -50 -200, 0 -50 -300]
+				}
+				coordIndex [ 0 1 2 3 0 -1]
+				solid FALSE
+				}
+				}
+				]
+				}
+
+			Transform{
+			translation 7 0 0
+			children USE sideWallI
+			}
+
+			Transform{
+			translation -93 0 0
+			children USE sideWallI
+			}
+
+                        Transform{
+                        translation -100 0 0
+                        children USE sideWallI
+                        }
+        ]
+        }
+
+	DEF leftSide Transform{#THE LEFT SIDE OF THE COURSE
+	children[
+		DEF hugeIncline Transform { #the huge incline
+   		translation -100 0 0
+   		children [
+      			Shape {
+        	 	appearance Appearance {
+        	 	texture ImageTexture {
+      			url "r.jpg"
+   			}
+        	 	}
+        	 	geometry ElevationGrid {
+        	    	xDimension 8
+        	    	zDimension 2
+        	    	xSpacing 1.0
+        	    	zSpacing 100.0
+        	    	solid FALSE
+        	    	height [
+        	       	1.0, 0.75, 0.5, 0.5, 0.5, 0.5, 0.75, 1.0,
+        	       	51.0, 50.75, 50.5, 50.5, 50.5, 50.5, 50.75, 51.
+        	    	]
+        	 	}
+      			}
+   			]
+			}
+
+		DEF straightTI Transform { #the straight at the top of the incline
+   		translation -100 50 100
+   		children [
+      			Shape {
+        		appearance Appearance {
+           		texture ImageTexture {
+      			url "r.jpg"
+   			}
+         		}
+         		geometry ElevationGrid {
+            		xDimension 8
+            		zDimension 2
+            		xSpacing 1.0
+            		zSpacing 20
+            		solid FALSE
+            		height [
+               		1.0, 0.75, 0.5, 0.5, 0.5, 0.5, 0.75, 1.0,
+               		1.0, 0.75, 0.5, 0.5, 0.5, 0.5, 0.75, 1.0
+            		]
+         		}
+      			}
+   			]
+			}
+
+		DEF straightBI Transform { #the straight at the bottom of the incline
+   		translation -100 0 -50
+   		children [
+      			Shape {
+        	 	appearance Appearance {
+        	    	texture ImageTexture {
+      			url "r.jpg"
+   			}
+        	 	}
+        	 	geometry ElevationGrid {
+        	    	xDimension 8
+        	    	zDimension 2
+        	    	xSpacing 1.0
+        	    	zSpacing 50
+        	    	solid FALSE
+        	    	height [
+        	       	1.0, 0.75, 0.5, 0.5, 0.5, 0.5, 0.75, 1.0,
+        	       	1.0, 0.75, 0.5, 0.5, 0.5, 0.5, 0.75, 1.0
+        	    	]
+        	 	}
+      			}
+   			]
+			}
+
+		DEF declineBehindLI Transform { #the decline behind the large incline
+   		translation -100 0 -150
+   		children [
+      			Shape {
+        	 	appearance Appearance {
+        	    	texture ImageTexture {
+      			url "r.jpg"
+   			}
+        	 	}
+        	 	geometry ElevationGrid {
+        	    	xDimension 8
+        	    	zDimension 2
+        	    	xSpacing 1.0
+        	    	zSpacing 100
+        	    	solid FALSE
+        	    	height [
+        	       	21.0, 20.75, 20.5, 20.5, 20.5, 20.5, 20.75, 21.0,
+        	       	1.0, 0.75, 0.5, 0.5, 0.5, 0.5, 0.75, 1.0
+        	    	]
+        	 	}
+      			}
+   			]
+			}
+
+		DEF smallStraightTSI Transform { #the small straight at the top of the small incline
+   		translation -100 0 -200
+   		children [
+      			Shape {
+        	 	appearance Appearance {
+        	    	texture ImageTexture {
+      			url "r.jpg"
+   			}
+        	 	}
+        	 	geometry ElevationGrid {
+        	    	xDimension 8
+        	    	zDimension 2
+        	    	xSpacing 1.0
+        	    	zSpacing 50
+        	    	solid FALSE
+        	    	height [
+        	       	21.0, 20.75, 20.5, 20.5, 20.5, 20.5, 20.75, 21.0,
+        	       	21.0, 20.75, 20.5, 20.5, 20.5, 20.5, 20.75, 21.0
+        	    	]
+        	 	}
+      			}
+   			]
+			}
+
+		DEF inclineBSS Transform {#the incline before the small straight
+   		translation -100 0 -300
+   		children [
+      			Shape {
+       		  	appearance Appearance {
+        	    	texture ImageTexture {
+      			url "r.jpg"
+   			}
+         		}
+         		geometry ElevationGrid {
+           		xDimension 8
+           		zDimension 2
+            		xSpacing 1.0
+            		zSpacing 100
+            		solid FALSE
+            		height [
+               		0.0, 0.75, 0.5, 0.5, 0.5, 0.5, 0.75, 1.0,
+               		20.0, 20.75, 20.5, 20.5, 20.5, 20.5, 20.75, 21.0
+            		]
+         		}
+      			}
+   			]
+			}
+	]
+	}
+
+	DEF bottomSide Transform{#BOTTOM SIDE OF THE COURSE
+	children[
+		Transform {
+   		translation 0 50 120
+   		rotation 0 1 0 -1.57
+   		children [
+      			Shape {
+         		appearance Appearance {
+            		texture ImageTexture {
+      			url "r.jpg"
+   			}
+        		}
+         		geometry ElevationGrid {
+            		xDimension 8
+            		zDimension 2
+            		xSpacing 1.0
+            		zSpacing 93
+            		solid FALSE
+            		height [
+               		1.0, 0.75, 0.5, 0.5, 0.5, 0.5, 0.75, 1.0,
+               		1.0, 0.75, 0.5, 0.5, 0.5, 0.5, 0.75, 1.0
+            		]
+         		}
+      			}
+   			]
+			}
+
+		DEF sideWallBS Transform {  #the wall for the bottom side of the course
+		children [
+			Shape {
+			appearance Appearance{
+			material Material{
+			diffuseColor 0.8 0.25 0.25
+			}
+			}
+		 	geometry IndexedFaceSet {
+			coord Coordinate {
+			point [-93 51 120, 0 51 120, 0 -50 120, -93 -50 120]
+			}
+			coordIndex [ 0 1 2 3 0 -1]
+			solid FALSE
+			}
+			}
+			]
+		}
+
+		Transform{
+		translation 0 0 7
+		children USE sideWallBS
+		}
+	]
+	}
+
+	DEF topSide Transform { #TOP SIDE OF THE COURSE
+   	children[
+   		Transform{
+   		translation -93 0 -300
+   		rotation 0 1 0 1.57
+   		children [
+      			Shape {
+         		appearance Appearance {
+            		texture ImageTexture {
+      			url "r.jpg"
+   			}
+         		}
+         		geometry ElevationGrid {
+            		xDimension 8
+            		zDimension 2
+            		xSpacing 1.0
+            		zSpacing 93
+            		solid FALSE
+            		height [
+               		1.0, 0.75, 0.5, 0.5, 0.5, 0.5, 0.75, 1.0,
+               		1.0, 0.75, 0.5, 0.5, 0.5, 0.5, 0.75, 1.0
+            		]
+         		}
+      			}
+   			]
+			}
+
+		DEF sideWallTS Transform { #the wall for the top side of the course
+		children [
+			Shape {
+			appearance Appearance{
+			material Material{
+			diffuseColor 0.8 0.25 0.25
+			}
+			}
+			geometry IndexedFaceSet {
+			coord Coordinate {
+			point [-93 1 -300, 0 1 -300.0, 0 -50 -300, -93 -50 -300]
+			}
+			coordIndex [ 0 1 2 3 0 -1]
+			solid FALSE
+			}
+			}
+			]
+			}
+
+                Transform{
+                translation 0 0 -7
+                children USE sideWallTS
+                }
+
+		Transform{
+		translation 0.05 4 -5
+		rotation 0 1 0 3.14
+		children[
+		DEF light theTrafficLight{}
+		]
+		}
+
+		#DEF cornerWall1 Transform { #the corners of the top right and bottom left sections of the course
+		#children [
+		#	Shape {
+		#	appearance Appearance{
+		#	material Material{
+		#	diffuseColor 0.8 0.25 0.25
+		#	}
+		#	}
+		#	geometry IndexedFaceSet {
+		#	coord Coordinate {
+		#	point [0 51 -307.0, 0 -50 -300, -93 -50 -300]
+		#	}
+		#	coordIndex [ 0 1 2 0 -1]
+		#	solid FALSE
+		#	}
+		#	}
+		#	]
+		#	}
+	]
+	}
+	Viewpoint{
+      	position 2.5 2 -25
+      	orientation 1 0 0 -0.35
+      	orientation 0 1 0 3.14
+      	description "StartLine"
+        }
+]
+}
+}
+
+theCourse{}
+
+#cornerWall1{}
+
+
+
+
+
+#Background{
+#	skyColor [0 1 1, 0 1 1, 1 1 1]
+#	skyAngle [0.78, 1.57]
+#	}
+
+

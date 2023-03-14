@@ -1,0 +1,24 @@
+
+Inferred memory devices in process 
+	in routine Parity_Test line 7 in file
+         'C:/fndtn/active/projects/rs232con/parity_test.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      EVEN_reg       |   Latch   |   1   |  -  | -  | N  | N  | -  | -  | -  |
+|       ODD_reg       |   Latch   |   1   |  -  | -  | N  | N  | -  | -  | -  |
+===============================================================================
+
+EVEN_reg
+--------
+    reset/set: none
+
+
+ODD_reg
+-------
+    reset/set: none
+
+
+Warning: Latch inferred in design 'Parity_Test' read with
+	'hdlin_check_no_latch'. (HDL-307)
+Writing to hnl file 'c:\Fndtn\Active\Projects\RS232CON\rs232con/workdirs/WORK/Parity_Test.hnl'

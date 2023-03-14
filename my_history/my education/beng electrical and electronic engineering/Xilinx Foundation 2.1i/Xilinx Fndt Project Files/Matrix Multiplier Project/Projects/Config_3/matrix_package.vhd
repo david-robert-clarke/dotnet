@@ -1,0 +1,50 @@
+-- Final Year Project
+-- By David Clarke
+-- Created on 13_12_2000
+-- Updated on 14_12_2000
+library IEEE;
+USE IEEE.std_logic_1164.ALL;
+USE IEEE.std_logic_arith.ALL;
+
+package MATRIX_PACKAGE IS
+ subtype One_Bit           is STD_LOGIC;
+ subtype Two_Bits          is STD_LOGIC_VECTOR (1 downto 0);
+ subtype Three_Bits        is STD_LOGIC_VECTOR (2 downto 0);
+ subtype NIBBLE            is STD_LOGIC_VECTOR (3 downto 0);
+ subtype Five_Bits         is STD_LOGIC_VECTOR (4 downto 0);
+ subtype Six_Bits          is STD_LOGIC_VECTOR (5 downto 0);
+ subtype Seven_Bits        is STD_LOGIC_VECTOR (6 downto 0);
+ subtype Byte              is STD_LOGIC_VECTOR (7 downto 0);
+ subtype Nine_Bits         is STD_LOGIC_VECTOR (8 downto 0);
+ subtype Ten_Bits          is STD_LOGIC_VECTOR (9 downto 0);
+ subtype Eleven_Bits       is STD_LOGIC_VECTOR (10 downto 0);
+ subtype Twelve_Bits       is STD_LOGIC_VECTOR (11 downto 0);
+ subtype Thirteen_Bits     is STD_LOGIC_VECTOR (12 downto 0);
+ subtype Fourteen_Bits     is STD_LOGIC_VECTOR (13 downto 0);
+ subtype Fifteen_Bits      is STD_LOGIC_VECTOR (14 downto 0);
+ subtype Word              is STD_LOGIC_VECTOR (15 downto 0);
+ subtype Twenty_Bits       is STD_LOGIC_VECTOR (19 downto 0);
+ subtype Long_Word         is STD_LOGIC_VECTOR (31 downto 0);
+-- 
+ subtype U_Two_Bits        is UNSIGNED (1 downto 0);
+ subtype U_Three_Bits      is UNSIGNED (2 downto 0);
+ subtype U_NIBBLE          is UNSIGNED (3 downto 0);
+ subtype U_Five_Bits       is UNSIGNED (4 downto 0);
+ subtype U_Six_Bits        is UNSIGNED (5 downto 0);
+ subtype U_Seven_Bits      is UNSIGNED (6 downto 0);
+ subtype U_Byte            is UNSIGNED (7 downto 0);
+ subtype U_Word            is UNSIGNED (15 downto 0);
+ subtype U_Long_Word       is UNSIGNED (31 downto 0);
+--
+ subtype S_Two_Bits        is SIGNED (1 downto 0);
+ subtype S_Three_Bits      is SIGNED (2 downto 0);
+ subtype S_NIBBLE          is SIGNED (3 downto 0);
+ subtype S_Five_Bits       is SIGNED (4 downto 0);
+ subtype S_Six_Bits        is SIGNED (5 downto 0);
+ subtype S_Seven_Bits      is SIGNED (6 downto 0);
+ subtype S_Byte            is SIGNED (7 downto 0);
+ subtype S_Word            is SIGNED (15 downto 0);
+ subtype S_Long_Word       is SIGNED (31 downto 0);
+--
+ 
+end package MATRIX_PACKAGE;

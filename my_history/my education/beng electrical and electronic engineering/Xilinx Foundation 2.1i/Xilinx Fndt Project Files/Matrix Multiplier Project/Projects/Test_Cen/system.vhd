@@ -1,0 +1,62 @@
+-- Final Year Project
+-- By David.R.Clarke
+-- Created 14_12_2000
+Library IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_ARITH.ALL;
+USE WORK.MATRIX_PACKAGE.ALL;
+--
+Entity SYSTEM is
+     Port (CLK, RESET : IN ONE_BIT;
+           A0B0_A1B2, A0B1_A1B3, A2B0_A3B2, A2B1_A3B3 : OUT FIVE_BITS);
+End Entity SYSTEM;
+
+Architecture STRUCTURAL of SYSTEM is
+-- Component Declarations
+
+-- component STARTUP
+--  port (GSR: in std_logic);
+-- end component;
+
+COMPONENT DSP_CONFIG_1 IS
+PORT (CLK, RESET : IN ONE_BIT;
+      MEM_SEL_IN : IN TWO_BITS; 
+      MAT_A_D_IN_1, MAT_A_D_IN_0, MAT_B_D_IN_1, MAT_B_D_IN_0 : IN U_TWO_BITS;
+      A0B0_A1B2, A0B1_A1B3, A2B0_A3B2, A2B1_A3B3 : OUT FIVE_BITS);
+End COMPONENT DSP_CONFIG_1;
+
+Component Data_Store_1 IS
+     Port (ADDR: in INTEGER range 3 downto 0;
+           DATA: out U_BYTE);
+End Component Data_Store_1;
+
+Component Asm_Config_1 IS
+     PORT (CLK, RESET      : IN ONE_BIT;
+           DATA_SELECT     : OUT INTEGER range 3 downto 0;
+           MEM_SEL_OUT     : OUT TWO_BITS);
+End Component Asm_Config_1;
+
+Signal Elem_DBUS        : U_BYTE;
+Signal Mem_SelBus       : TWO_BITS;
+Signal Data_SelBus      : INTEGER range 3 downto 0;
+SIGNAL GSR_NET          : ONE_BIT;
+Begin
+-- Component Instantiations
+
+-- U1: STARTUP  port map (GSR=>RESET);
+
+DSP_1 : DSP_CONFIG_1          PORT MAP (CLK => CLK, RESET => RESET,
+					MAT_A_D_IN_1 => Elem_DBUS(7 downto 6), 
+                                        MAT_A_D_IN_0 => Elem_DBUS(3 downto 2), MAT_B_D_IN_1 => Elem_DBUS(5 downto 4),
+                                        MAT_B_D_IN_0 => Elem_DBUS(1 downto 0), MEM_SEL_IN => Mem_SelBus, 
+                                        A0B0_A1B2 => A0B0_A1B2 , A0B1_A1B3 => A0B1_A1B3, A2B0_A3B2 => A2B0_A3B2, 
+                                        A2B1_A3B3 => A2B1_A3B3);
+
+Data_Store_1_A   : Data_Store_1   PORT MAP (ADDR => Data_SelBus, DATA => Elem_DBUS);
+
+Asm_Config_1_A : Asm_Config_1 PORT MAP (CLK => CLK, RESET => RESET, DATA_SELECT => Data_SelBus, MEM_SEL_OUT => Mem_SelBus);
+
+End Architecture STRUCTURAL;
+
+
+

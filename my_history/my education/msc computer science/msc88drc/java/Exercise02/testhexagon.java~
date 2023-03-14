@@ -1,0 +1,16 @@
+//TestHexagon.java
+//A program that tests the Hexagon.java methods
+//David Clarke
+//17_10_2002
+
+import java.io.*;
+
+class TestHexagon
+{
+		public static void main(String[] arguments) throws IO Exception
+		{
+				Hexagon myHexagon = new Hexagon();
+				Hexagon yourHexagon = new Hexagon();
+		}
+}
+

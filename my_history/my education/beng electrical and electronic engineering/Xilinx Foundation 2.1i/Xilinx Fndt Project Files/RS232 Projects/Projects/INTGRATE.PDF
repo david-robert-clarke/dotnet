@@ -1,0 +1,29 @@
+[project]
+name=intgrate
+netlist=intgrate
+contents=
+date=12/21/00
+time=16:10:43
+version=3.1.5.00.34e
+Type=F21i
+pdf_dir=c:\fndtn\active\projects\
+lib_order=1017 133
+
+[libraries]
+1017=
+133=c:\fndtn\active\syslib\simprims
+
+[xilinx]
+libraries=unified
+
+[OPEN32]
+nMaxFile=10000
+lpstrFile=
+lpstrFilter=Schematic (*.SCH)|*.sch|FSM (*.ASF)|*.asf|HDE (*.VHD;*.ABL)|*.vhd;*.abl|All Files (*.*)|*.*||
+lpstrInitialDir=C:\FNDTN\ACTIVE\PROJECTS\INTGRATE
+lpstrTitle=Add Document
+nFilterIndex=0
+Flags=530964
+HelpID=10380
+HelpFileName=C:\FNDTN\ACTIVE\EXE\PCM.HLP
+cmdLine=-h 1184 -hp 900 -m PCM_OPEN_32_MESSAGE -f C:\FNDTN\ACTIVE\PROJECTS\current.pdf

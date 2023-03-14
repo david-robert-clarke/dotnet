@@ -1,0 +1,120 @@
+#VRML V2.0 utf8
+#Ian Whitehouse, 5/5/00.
+PROTO BallisticModel[#Implements ballistic trajectory behavior, and deals with adding and removing bullets.
+        eventIn MFInt32 removeBullets #Index list of bullets to remove.
+        eventIn SFFloat systemStep #Fraction of a second value, passed to cause acceleration & velocity calculations.
+	eventIn SFTime addBullet #Adds a bullet to the model.
+	eventIn SFRotation set_orientation #The orientation that a new bullet will be fired at.
+	eventIn SFVec3f set_position #The position that a new bulet will be fired from.
+	eventOut MFVec3f bulletPositions_changed #The updated positions of the bullets.
+	field SFVec3f defaultVelocity 75 0 0 #The velocity that a bullet is fired at.
+	field SFFloat removeDistance 750 #How far away a bullet must be from the current postion to be removed.
+]
+{
+	Group{
+		children[
+			DEF bullets Group{} #Provides a container for the bullet geometry to go in.
+			Sound{ #The sound for the gunfire.
+				direction 1 0 0
+				location IS set_position
+				maxBack 100
+				minBack 30
+				maxFront 100
+				minFront 30
+				source DEF fire AudioClip{
+					url "media\30cal5.wav"
+				}
+			}
+		]
+        }
+	DEF ballisticModelScript Script{
+		eventIn SFFloat systemStep IS systemStep
+		eventIn SFTime addBullet IS addBullet
+		eventIn SFVec3f set_position IS set_position
+		eventIn SFRotation set_orientation IS set_orientation
+		eventIn SFBool soundActive #Whether or not the sound is currently playing.
+		eventIn MFInt32 removeBullets IS removeBullets
+		eventOut SFTime startSound #The sound start time.
+		eventOut SFTime stopSound #The sound stop time.
+		eventOut MFVec3f bulletPositions_changed IS bulletPositions_changed
+		field SFFloat removeDistance IS removeDistance
+		field SFInt32 numBullets 0 #The current number of bullets.
+		field SFNode bullets USE bullets #The bullet container.
+		field MFVec3f bulletPos [] #The current positions of the bullets.
+		field MFVec3f bulletVel [] #The current velocities of the bullets
+		field SFVec3f defaultVelocity IS defaultVelocity
+		field SFVec3f startPos 0 0 0 #The default position of a new bullet.
+		field SFRotation startOrientation 0 1 0 0 #The default orientation of an new bullet.
+		field SFBool activeSound FALSE #Whether or not the sound is currently playing.
+		url "javascript:
+			function systemStep(value,ts){//Called every fraction of a second. Simulates 1/value seconds.
+				bullets.children=new MFNode(); //Blank the existing bullets.
+				removeNum=0;
+				removeIndices=new MFInt32();
+				for(var i=0;i<numBullets;i++){
+                                        if(bulletPos[i].subtract(startPos).length()>removeDistance){ //Check if bullets are too far away.
+                                               	removeIndices[removeNum]=i; //If so, add it's index to those to be removed.
+                                               	removeNum++;
+                                        }else{  //Otherwise, curve it's path by applying gravity, and update the geometry.
+                                               	bulletVel[i]=bulletVel[i].add(new SFVec3f(0,-9.81*(1/value),0));
+						bulletPos[i]=bulletPos[i].add(bulletVel[i].multiply(1/value));
+						rot=new SFRotation(new SFVec3f(0,-1,0),bulletVel[i]);
+						bullets.children[i]=new SFNode('Transform{translation '+bulletPos[i]+' rotation '+rot+' children[Shape{appearance Appearance{material Material{diffuseColor 1 0 0}} geometry Box{size .03 2 .03}}]}');
+					}
+				}
+                                if(removeNum>0) removeBullets(removeIndices,ts) //Remove any bullets that need removing.
+                                bulletPositions_changed=bulletPos; //Return new bullet positions
+			}
+
+			function addBullet(value,ts){//Add a new bullet.
+				bulletVel[numBullets]=startOrientation.multVec(defaultVelocity);
+				bulletPos[numBullets]=startPos;
+				numBullets++;  //Add it onto the end of the list.
+				if(!activeSound){//If the sound is not being played, play it.
+					startSound=value;
+					stopSound=value+.25;
+				}
+			}
+
+			function removeBullets(value,ts){//Remove any bullets that need removing
+				removeIndices=value;
+				tempVels=new MFVec3f();
+				tempPos=new MFVec3f();
+				currentCount=0;
+				for(var i=0;i<bulletVel.length;i++){//If a bullet is to be kept, clone it into temporary storage;
+					drop=false;
+					for(var j=0;j<removeIndices.length;j++){
+						if(removeIndices[j]==i){
+							drop=true;
+							j=removeIndices.length;
+						}
+					}
+					if(!drop){
+						tempVels[currentCount]=bulletVel[i].add(new SFVec3f());
+						tempPos[currentCount]=bulletPos[i].add(new SFVec3f());
+						currentCount++;
+					}
+				}
+				bulletVel=tempVels;//Then update the values with the clones to keep.
+				bulletPos=tempPos;
+			        numBullets=bulletVel.length;
+			}
+
+			function set_position(value,ts){//Set the starting position.
+				startPos=value;
+			}
+
+			function set_orientation(value,ts){//Set the starting orientation.
+				startOrientation=value;
+			}
+
+			function soundActive(value,ts){//Set whether the sound is playing or not.
+				activeSound=value;
+			}
+		"
+	}
+	ROUTE ballisticModelScript.startSound	TO fire.startTime
+	ROUTE ballisticModelScript.stopSound	TO fire.stopTime
+	ROUTE fire.isActive			TO ballisticModelScript.soundActive
+}
+

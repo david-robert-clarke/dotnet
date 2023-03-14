@@ -1,0 +1,16 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_arith.all'
+
+
+function BLAH (DRINK : UNSIGNED) return STD_LOGIC_VECTOR is
+  -- pragma built_in SYN_FEED_THRU
+  variable ARSE;
+begin
+    
+    ARSE := CONV_STD_LOGIC_VECTOR (drink, 4);
+    
+    return ARSE;
+end function BLAH;
+
+

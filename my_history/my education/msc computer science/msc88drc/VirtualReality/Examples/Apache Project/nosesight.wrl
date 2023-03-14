@@ -1,0 +1,68 @@
+#VRML V2.0 utf8
+#Ian Whitehouse, 5/5/00.
+PROTO NoseSight[#Creates a nose-mounted sight for the Apache
+	eventIn SFRotation set_rotation #The rotation of the sight away from 0 0 -1
+	field SFNode appearance NULL #The Appearance node defining the colour of the geometry
+]
+{
+	DEF carriage Transform{
+		children[
+			DEF sight Transform{
+				children[
+					Transform{#Sight body
+						rotation 0 0 1 1.57
+						children[
+							Shape{
+								appearance IS appearance
+                                                                geometry Cylinder{height .72 radius .216}
+                                                        }
+                                                ]
+                                        }
+                                        Transform{#Sight window
+                                        	translation .192 0 -.13
+                                        	children[
+                                        		Shape{
+                                        			appearance Appearance{material Material{transparency .4}}
+                                        			geometry Box{size .144 .288 .2}
+                                        		}
+                                        	]
+                                        }
+				]
+			}
+			Transform{
+				children[
+					Transform{#Sight carriage
+						rotation 0 0 1 1.57
+						children[
+							Shape{
+								appearance IS appearance
+								geometry Cylinder{height .096 radius .264}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+	DEF dissectScript Script{#Splits the rotation into two; a carriage rotation and a vertical angle rotation.
+		eventIn SFRotation set_rotation IS set_rotation
+		eventOut SFRotation horizontalRotation
+		eventOut SFRotation verticalRotation
+		url "javascript:
+			function set_rotation(value,ts){
+				htemp=value.multVec(new SFVec3f(0,0,-1));
+				htemp.y=0;
+				horizontalRotation=new SFRotation(new SFVec3f(0,0,-1),htemp);
+				vtemp=value.multiply(horizontalRotation.inverse()).multVec(new SFVec3f(0,1,0));
+				vtemp.x=0;
+				verticalRotation=new SFRotation(new SFVec3f(0,1,0),vtemp);
+			}
+		"
+	}
+	ROUTE dissectScript.horizontalRotation	TO carriage.rotation
+	ROUTE dissectScript.verticalRotation	TO sight.rotation
+}
+
+NoseSight{}
+
+

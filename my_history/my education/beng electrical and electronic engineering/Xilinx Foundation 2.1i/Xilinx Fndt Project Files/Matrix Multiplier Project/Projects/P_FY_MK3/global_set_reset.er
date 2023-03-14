@@ -1,0 +1,5 @@
+c:\fndtn\active\projects\p_fy_mk3\global_set_reset.vhd -7 0:E:#0 Error: C:/fndtn/active/projects/p_fy_mk3/global_set_reset.vhd  line -7   Library logical name UNISIM is not mapped to a host directory. (VSS-1071)  (FPGA-dm-hdlc-unknown) 
+c:\fndtn\active\projects\p_fy_mk3\global_set_reset.vhd 19 0:E:#0 Error: C:/fndtn/active/projects/p_fy_mk3/global_set_reset.vhd  line 19   The intermediate file for entity USE_GSR is not in the library bound to WORK.  (VSS-1084) 
+c:\fndtn\active\projects\p_fy_mk3\global_set_reset.vhd 23 0:E:#0 Error: C:/fndtn/active/projects/p_fy_mk3/global_set_reset.vhd  line 23   Syntax error.  (VSS-1081) 
+c:\fndtn\active\projects\p_fy_mk3\global_set_reset.vhd 24 0:E:#0 Error: C:/fndtn/active/projects/p_fy_mk3/global_set_reset.vhd  line 24   Syntax error.  (VSS-1081) 
+c:\fndtn\active\projects\p_fy_mk3\global_set_reset.vhd 39 0:E:#0 Error: C:/fndtn/active/projects/p_fy_mk3/global_set_reset.vhd  line 39   Syntax error.  (VSS-1081) 

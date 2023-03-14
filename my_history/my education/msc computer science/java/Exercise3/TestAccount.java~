@@ -1,0 +1,10 @@
+import java.io.*;
+
+public class TestAccount
+{public static void main (String[] arguments) throws IOExceptions
+	{	Account myAccount = new Account(74189458);
+		Account yourAccount = new Account(0);
+		
+		
+	}
+}

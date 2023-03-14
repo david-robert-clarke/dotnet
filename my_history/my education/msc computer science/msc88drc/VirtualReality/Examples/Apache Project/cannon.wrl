@@ -1,0 +1,91 @@
+#VRML V2.0 utf8
+#Ian Whitehouse, 5/5/00.
+PROTO Cannon[#Creates a belly gun for the Apache.
+	eventIn SFRotation set_rotation #The rotation of the sight away from 0 0 -1.
+	eventOut SFVec3f tipPosition_changed #The current position of the gun tip relative to the gun base.
+]
+{
+	DEF carriage Transform{
+		children[
+			DEF gun Transform{
+				translation 0 -.3 0
+				children[
+					Transform{#Gun barrel.
+						translation 0 0 -.72
+						rotation 1 0 0 1.57
+						children[
+							Shape{
+								appearance DEF GunMetal Appearance{#Metallic-looking material
+									material Material{
+										diffuseColor .3 .3 .3
+										specularColor .3 .3 .3
+										shininess .2
+									}
+								}
+								geometry Cylinder{
+									height 1.44
+									radius .024
+									top FALSE
+								}
+							}
+						]
+					}
+					Shape{#Gun base.
+						appearance USE GunMetal
+						geometry Box{size .336 .192 .576}
+					}
+        	                        Transform{#Gun base.
+                	                	translation 0 0 -.336
+                        	        	children[
+                                			Shape{
+                                				appearance USE GunMetal
+                                				geometry Box{size .24 .072 .672}
+	                                		}
+        	                        	]
+                	                }
+				]
+			}
+			Transform{#Right carriage side.
+				translation .192 -.198 0
+				children[
+					Shape{
+						appearance USE GunMetal
+						geometry Box{size .048 .396 .192}
+					}
+				]
+			}
+                        Transform{#Left carriage side.
+				translation -.192 -.198 0
+				children[
+					Shape{
+						appearance USE GunMetal
+						geometry Box{size .048 .396 .192}
+					}
+				]
+			}
+
+		]
+	}
+
+	DEF dissectScript Script{#Splits the rotation into two; a carriage rotation and a vertical angle rotation.
+		eventIn SFRotation set_rotation IS set_rotation
+		eventOut SFRotation horizontalRotation
+		eventOut SFRotation verticalRotation
+		eventOut SFVec3f tipPosition_changed IS tipPosition_changed
+		url "javascript:
+			function set_rotation(value,ts){
+				hVec=value.multVec(new SFVec3f(0,0,-1));
+				verticalRotation=new SFRotation(1,0,0,Math.atan(hVec.y/(Math.sqrt(hVec.x*hVec.x+hVec.z*hVec.z))));
+				hVec.y=0;
+				horizontalRotation=new SFRotation(new SFVec3f(0,0,-1),hVec);
+				tipPosition_changed=value.multVec(new SFVec3f(0,0,-1.44)).add(new SFVec3f(0,-.3,0));
+			}
+		"
+	}
+	ROUTE dissectScript.horizontalRotation	TO carriage.rotation
+	ROUTE dissectScript.verticalRotation	TO gun.rotation
+}
+
+Cannon{}
+
+

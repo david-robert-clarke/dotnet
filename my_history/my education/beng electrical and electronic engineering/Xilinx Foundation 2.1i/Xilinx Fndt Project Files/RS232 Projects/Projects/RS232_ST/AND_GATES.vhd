@@ -1,0 +1,14 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+Entity AND2 IS
+Port (x,y : IN std_logic; z : OUT std_logic);
+End Entity AND2;
+
+Architecture Behavioural OF AND2 IS
+Begin
+   z <= x AND y;
+End Architecture Behavioural;
+
+
+

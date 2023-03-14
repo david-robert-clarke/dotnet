@@ -1,0 +1,29 @@
+EDIF netlist 'c:\FNDTN\ACTIVE\PROJECTS\RS232_ST\RS232_ST.EDF' loading v.2.99.1.10
+EDIF parser completed successfully
+Loading - c:\fndtn\active\projects\rs232_st\rs232_st.edf
+Loading - LD_1
+===============================
+EDIF Netlist Loading Statistics
+===============================
+Number of hierarchical blocks: 33
+Total number of cell types: 15
+Total number of cell instances: 596
+Total number of EDIF blocks: 1
+Total number of models taken from libraries: 10
+Total number of automatic/internal models: 3
+Total number of missing models: 0
+Total number of signals (block ports and labels): 539
+Total number of labels: 431
+Total number of nets: 539
+Total number of net elements: 2580
+Total number of generic values: 0
+Total number of port generic values: 0
+Memory usage statistics:
+    Total number of allocated memory blocks: 7104 (386)
+    Total number of memory reallocations: 3
+    Total length of memory used to load the netlist: 776 kB (8)
+    Total length of memory used by EDIF parser: 512 kB
+    Number of system memory blocks (total/long): 2/0
+Netlist loaded in: 1 seconds
+Parsing time: 0 seconds
+===============================

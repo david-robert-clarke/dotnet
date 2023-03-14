@@ -1,0 +1,43 @@
+import java.io.*;
+
+public class Diamond
+{	public static void main(String[] args) throws IOException
+		System.out.print("Please enter the width/height of the diamond: ");
+			BufferedReader reader =
+				new BufferedReader(new InputStreamReader (System.in));
+  int size = Integer.parseInt(reader.readLine());
+  int spacing;
+  int remain = size%2
+    
+    if (remain == 0) //the width of the diamond is an even number 
+  {
+    spacing = (size/2) - 1;
+  }
+  
+  else               
+  {
+    spacing = ((size + 1)/2) - 1;
+    
+  }
+  
+
+
+
+  	
+				for (int i = 0; i < size; size++)
+				{	
+					for (int arse = spacing; arse > 0; arse--)
+					{	System.out.print(" ");
+					}
+					
+						for (int j = 0; j < i; j++)
+						{	System.out.print("*");
+						}
+					
+					spacing = spacing - 1;
+					i = i + 1;
+					System.out.println();
+				}
+	}
+}
+						

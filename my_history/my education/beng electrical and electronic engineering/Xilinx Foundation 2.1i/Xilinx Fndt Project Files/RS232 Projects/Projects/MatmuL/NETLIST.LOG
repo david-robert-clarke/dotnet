@@ -1,0 +1,28 @@
+EDIF netlist 'c:\FNDTN\ACTIVE\PROJECTS\MATMUL\MATMUL.EDF' loading v.2.99.1.10
+EDIF parser completed successfully
+Loading - c:\fndtn\active\projects\matmul\matmul.edf
+===============================
+EDIF Netlist Loading Statistics
+===============================
+Number of hierarchical blocks: 1
+Total number of cell types: 10
+Total number of cell instances: 128
+Total number of EDIF blocks: 0
+Total number of models taken from libraries: 6
+Total number of automatic/internal models: 3
+Total number of missing models: 0
+Total number of signals (block ports and labels): 128
+Total number of labels: 83
+Total number of nets: 128
+Total number of net elements: 528
+Total number of generic values: 0
+Total number of port generic values: 0
+Memory usage statistics:
+    Total number of allocated memory blocks: 1707 (129)
+    Total number of memory reallocations: 3
+    Total length of memory used to load the netlist: 514 kB (2)
+    Total length of memory used by EDIF parser: 256 kB
+    Number of system memory blocks (total/long): 1/0
+Netlist loaded in: 1 seconds
+Parsing time: 1 seconds
+===============================

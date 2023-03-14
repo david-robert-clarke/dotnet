@@ -1,0 +1,22 @@
+-- Created by David Clarke for the RS232 assignment
+library IEEE;
+Use IEEE.std_logic_1164.all;
+
+Entity FDCE is
+Port (CE, D, C, CLR: IN STD_LOGIC; Q: OUT STD_LOGIC); 
+End Entity FDCE;
+
+Architecture Behavioural of FDCE is
+Begin
+	Tri : Process (CE, D, C, CLR) 
+	Begin
+	  IF CLR = '1' THEN
+	    Q <= '0';
+	  ELSIF CLR = '0' AND (CE = '1') THEN  
+	    if rising_edge(C) then
+	       Q <= D;
+	    end if;
+	  END IF;
+	End Process Tri;
+End Architecture Behavioural;
+

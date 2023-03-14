@@ -1,0 +1,28 @@
+EDIF netlist 'c:\FNDTN\ACTIVE\PROJECTS\USERCONF\USERCONF.EDF' loading v.2.99.1.10
+EDIF parser completed successfully
+Loading - c:\fndtn\active\projects\userconf\userconf.edf
+===============================
+EDIF Netlist Loading Statistics
+===============================
+Number of hierarchical blocks: 1
+Total number of cell types: 6
+Total number of cell instances: 56
+Total number of EDIF blocks: 0
+Total number of models taken from libraries: 3
+Total number of automatic/internal models: 2
+Total number of missing models: 0
+Total number of signals (block ports and labels): 60
+Total number of labels: 40
+Total number of nets: 60
+Total number of net elements: 224
+Total number of generic values: 0
+Total number of port generic values: 0
+Memory usage statistics:
+    Total number of allocated memory blocks: 844 (61)
+    Total number of memory reallocations: 3
+    Total length of memory used to load the netlist: 513 kB (1)
+    Total length of memory used by EDIF parser: 256 kB
+    Number of system memory blocks (total/long): 1/0
+Netlist loaded in: 1 seconds
+Parsing time: 1 seconds
+===============================

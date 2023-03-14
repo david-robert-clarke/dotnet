@@ -1,0 +1,54 @@
+package I;
+import java.sql.*;
+import java.util.ArrayList;
+
+
+/**
+   Used by DataInfo2, retrieves all existing item ID numbers in the 
+   CD table.
+
+   @author Helen Loynes
+ **/
+public class GetIIDQuery
+{
+  private Connection c;
+  private String[] iidData;
+
+  /**
+   * Constructor to create a new item ID number query
+   **/
+  public GetIIDQuery()
+  {
+    c = MyConnection.C;
+    iidData = new String[300];
+  }
+ 
+  /**
+   * Execute the Query
+   *
+   * @return an array that contains all the item ID numbers
+   **/
+  public String[] exeQuery()
+  {
+    try 
+    {
+      Statement stmt = c.createStatement();
+      ResultSet rs = stmt.executeQuery("SELECT iid FROM cd");
+
+      int i=0;
+      while (rs.next()) 
+      {
+	String iid = rs.getString("iid");      
+	iidData[i]= iid;
+	i++;
+      }
+    } 
+    catch (SQLException e) 
+    {
+      System.out.println( "An exception occurred in GetIIDQuery " + e);
+    }        
+    return(iidData);   
+  }
+}
+
+  

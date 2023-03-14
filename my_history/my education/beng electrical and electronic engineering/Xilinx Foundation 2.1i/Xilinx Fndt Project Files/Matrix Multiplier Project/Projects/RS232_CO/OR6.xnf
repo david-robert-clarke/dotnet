@@ -1,0 +1,45 @@
+LCANET, 6
+PROG, Synopsys, UNKNOWN, v3.2, Build 3.2.0.4201
+PART, 4010XL-PC84-09
+SYM, c0_c0, AND, LIBVER=2.0.0
+PIN, I0, I, syn79, , , INV
+PIN, I1, I, syn80, , , INV
+PIN, O, O, O, , , INV
+END
+SYM, HMAP_0, HMAP, LIBVER=2.0.0
+PIN, I1, I, syn79, , 
+PIN, I2, I, syn80, , 
+PIN, O, I, O, , 
+END
+SYM, c1_c0, AND, LIBVER=2.0.0
+PIN, I0, I, I1, , , INV
+PIN, I1, I, I0, , , INV
+PIN, O, O, syn80, , , INV
+END
+SYM, FMAP_1, FMAP, LIBVER=2.0.0
+PIN, I1, I, I1, , 
+PIN, I2, I, I0, , 
+PIN, O, I, syn80, , 
+END
+SYM, c2_c0, AND, LIBVER=2.0.0
+PIN, I0, I, I5, , , INV
+PIN, I1, I, I4, , , INV
+PIN, I2, I, I3, , , INV
+PIN, I3, I, I2, , , INV
+PIN, O, O, syn79, , , INV
+END
+SYM, FMAP_2, FMAP, LIBVER=2.0.0
+PIN, I1, I, I5, , 
+PIN, I2, I, I4, , 
+PIN, I3, I, I3, , 
+PIN, I4, I, I2, , 
+PIN, O, I, syn79, , 
+END
+SIG, I2, PIN=I2
+SIG, O, PIN=O
+SIG, I4, PIN=I4
+SIG, I1, PIN=I1
+SIG, I3, PIN=I3
+SIG, I0, PIN=I0
+SIG, I5, PIN=I5
+EOF

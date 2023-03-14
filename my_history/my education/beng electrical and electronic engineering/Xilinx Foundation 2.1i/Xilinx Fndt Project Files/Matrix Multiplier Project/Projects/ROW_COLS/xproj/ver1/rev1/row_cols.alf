@@ -1,0 +1,97 @@
+
+Loading device database for application ngdanno from file "row_cols.ncd".
+   "row_cols" is an NCD, version 2.28, device xc4085xl, package pg559, speed
+-09
+Loading device for application ngdanno from file '4085xl.nph' in environment
+C:/Fndtn.
+Reading .ngm file "map.ngm"...
+Building NGA image...
+Annotating NGA image...
+Distributing delays...
+WARNING:Anno:26 - NGDANNO found physical components for which 100 percent
+   back-annotation is not possible.  (These components are listed below.)  Some
+   reasons these components may not be fully back-annotatable include:
+   
+
+1. The logic was replicated during physical mapping.
+   
+
+2. MAP was directed to optimize the logic through use of the -oe or -os
+   option, or the OPTIMIZE or OPT_EFFORT design attribute.
+   
+
+3. The component's configuration implies a more complex delay model than can
+   be accurately represented in the original design logic.  An example of such a
+   configuration is an XC4000-family CLB containing both carry logic and
+   multiple flip-flops.
+   
+
+Simulation models for the following components will be constructed from the
+   NCD netlist.  Signal names buried within these components will be lost.
+   ADD6x16_N1007
+   ADD6x16_N1037
+   ADD6x16_N1067
+   ADD6x16_N1097
+   ADD6x16_N1162
+   ADD6x16_N117
+   ADD6x16_N1297
+   ADD6x16_N1327
+   ADD6x16_N1357
+   ADD6x16_N1422
+   ADD6x16_N1452
+   ADD6x16_N147
+   ADD6x16_N1517
+   ADD6x16_N177
+   ADD6x16_N27
+   ADD6x16_N347
+   ADD6x16_N377
+   ADD6x16_N407
+   ADD6x16_N437
+   ADD6x16_N57
+   ADD6x16_N572
+   ADD6x16_N602
+   ADD6x16_N632
+   ADD6x16_N767
+   ADD6x16_N797
+   ADD6x16_N827
+   ADD6x16_N857
+   ADD6x16_N87
+   ADD6x16_N887
+   ADD6x16_N917
+   ADD6x16_N947
+   ADD6x16_N977
+   SUMOFPROD<13>
+   SUMOFPROD<15>
+   SUMOFPROD<19>
+   SUMOFPROD<1>
+   SUMOFPROD<21>
+   SUMOFPROD<25>
+   SUMOFPROD<27>
+   SUMOFPROD<31>
+   SUMOFPROD<33>
+   SUMOFPROD<37>
+   SUMOFPROD<39>
+   SUMOFPROD<3>
+   SUMOFPROD<43>
+   SUMOFPROD<45>
+   SUMOFPROD<49>
+   SUMOFPROD<51>
+   SUMOFPROD<55>
+   SUMOFPROD<57>
+   SUMOFPROD<61>
+   SUMOFPROD<63>
+   SUMOFPROD<67>
+   SUMOFPROD<69>
+   SUMOFPROD<73>
+   SUMOFPROD<75>
+   SUMOFPROD<79>
+   SUMOFPROD<7>
+   SUMOFPROD<81>
+   SUMOFPROD<85>
+   SUMOFPROD<87>
+   SUMOFPROD<91>
+   SUMOFPROD<93>
+   SUMOFPROD<9>
+Writing .nga file "row_cols.nga"...
+   390 logical models annotated
+   64 physical models annotated

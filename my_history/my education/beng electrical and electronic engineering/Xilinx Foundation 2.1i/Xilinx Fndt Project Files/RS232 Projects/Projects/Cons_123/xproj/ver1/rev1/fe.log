@@ -1,0 +1,153 @@
+ngdbuild -p xc4010xl-09-pc84 -uc cons_123.ucf -dd .. c:\fndtn\active\projects\cons_123\cons_123.xnf cons_123.ngd
+ngdbuild:  version C.22
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -p xc4010xl-09-pc84 -uc cons_123.ucf -dd ..
+c:\fndtn\active\projects\cons_123\cons_123.xnf cons_123.ngd 
+
+Launcher: Executing xnf2ngd -p xc4000xl -u
+"c:\fndtn\active\projects\cons_123\cons_123.xnf"
+"C:\Fndtn\Active\Projects\Cons_123\xproj\ver1\cons_123.ngo"
+xnf2ngd:  version C.22
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+   using XNF gate model
+   reading XNF file "c:/fndtn/active/projects/cons_123/cons_123.xnf" ...
+   Writing NGO file "C:/Fndtn/Active/Projects/Cons_123/xproj/ver1/cons_123.ngo"
+...
+Reading NGO file "C:/Fndtn/Active/Projects/Cons_123/xproj/ver1/cons_123.ngo"
+...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "cons_123.ucf" ...
+
+Checking timing specifications ...
+
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "cons_123.ngd" ...
+
+Writing NGDBUILD log file "cons_123.bld"...
+
+NGDBUILD done.
+
+==================================================
+
+map -p xc4010xl-09-pc84 -o map.ncd cons_123.ngd cons_123.pcf
+map:  version C.22
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+Reading NGD file "cons_123.ngd"...
+Using target part "4010xlpc84-09".
+MAP xc4000xl directives:
+   Partname = "xc4010xl-09-pc84".
+   Covermode = "area".
+   Pack Unrelated Logic into CLBs targeting 100% of CLB resources.
+Processing logical timing constraints...
+Verifying F/HMAP validity based on pre-trimmed logic...
+Removing unused logic...
+Packing logic in CLBs...
+   Running cover...
+   Undirected packing...
+Running physical design DRC...
+
+Design Summary:
+   Number of errors:        0
+   Number of warnings:      2
+   Number of CLBs:              3 out of   400    1%
+      CLB Flip Flops:       1
+      CLB Latches:          0
+      4 input LUTs:         5
+      3 input LUTs:         0
+   Number of bonded IOBs:      62 out of    65   95%
+      IOB Flops:           38
+      IOB Latches:          0
+   Number of clock IOB pads:    1 out of    12    8%
+   Number of BUFGLSs:           1 out of     8   12%
+   Number of startup:           1 out of     1  100%
+Total equivalent gate count for design: 264
+Additional JTAG gate count for IOBs:    2976
+Writing design file "map.ncd"...
+
+Removed Logic Summary:
+  24 block(s) optimized away
+
+Mapping completed.
+See MAP report file "map.mrp" for details.
+
+==================================================
+
+par  -w -ol 2 -d 0 map.ncd cons_123.ncd cons_123.pcf
+PAR: Xilinx Place And Route C.22.
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+
+
+Constraints file: cons_123.pcf
+
+Loading device database for application par from file "map.ncd".
+   "cons_123" is an NCD, version 2.28, device xc4010xl, package pc84, speed -09
+Loading device for application par from file '4010xl.nph' in environment
+C:/Fndtn.
+Device speed data version:  C 1.1.2.2 PRELIMINARY.
+
+
+Resolving physical constraints.
+Finished resolving physical constraints.
+
+Device utilization summary:
+
+   Number of External IOBs            61 out of 61    100%
+      Flops:                          38
+      Latches:                         0
+   Number of Global Buffer IOBs        1 out of 8      12%
+      Flops:                           0
+      Latches:                         0
+
+   Number of CLBs                      3 out of 400     1%
+      Total Latches:                   0 out of 800     0%
+      Total CLB Flops:                 1 out of 800     1%
+      4 input LUTs:                    5 out of 800     1%
+      3 input LUTs:                    0 out of 400     0%
+
+   Number of BUFGLSs                   1 out of 8      12%
+   Number of STARTUPs                  1 out of 1     100%
+
+
+
+Overall effort level (-ol):   2 (set by user)
+Placer effort level (-pl):    2 (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    2 (set by user)
+
+Starting initial Placement phase.  REAL time: 7 secs 
+WARNING:Place:78 - The IOB component "A2B0_A3B2_CONFIG_1<1>" could not be
+   placed.
+ERROR:Place:79 - There were not enough sites to place all selected components. 
+   This is probably due either to lack of resources, preference conflicts, or
+   macro configuration placement requirements which can not be met.
+   If PAR has been run, please check the .par file for resource allocation and
+   utilization and verify that there are sufficient resources to place the
+   component(s).  Also ensure that all placement conflicts have been resolved. 
+   If neither of these seem to be a problem examine the size and shape of the
+   macros in the design to make sure they all may placed on the device at the
+   same time.
+Finished initial Placement phase.  REAL time: 7 secs 
+
+Total REAL time to Placer completion: 7 secs 
+Total CPU time to Placer completion: 7 secs 
+
+Generating PAR statistics.
+Writing design to file "cons_123.ncd".
+
+
+11 signals are not completely routed.
+
+WARNING:Par:100 - Design is not completely routed.
+
+Total REAL time to PAR completion: 8 secs 
+Total CPU time to PAR completion: 8 secs 
+
+PAR done.

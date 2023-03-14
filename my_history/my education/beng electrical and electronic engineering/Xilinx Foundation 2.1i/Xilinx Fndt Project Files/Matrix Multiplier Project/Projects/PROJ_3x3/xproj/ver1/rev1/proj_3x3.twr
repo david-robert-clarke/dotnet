@@ -1,0 +1,101 @@
+--------------------------------------------------------------------------------
+Xilinx TRACE, Version C.16
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Design file:              proj_3x3.ncd
+Physical constraint file: proj_3x3.pcf
+Device,speed:             xc4010xl,-09 (C 1.1.2.2 PRELIMINARY)
+Report level:             error report
+--------------------------------------------------------------------------------
+
+WARNING:Timing - No timing constraints found, doing default enumeration.
+
+================================================================================
+Timing constraint: Default period analysis
+ 180 items analyzed, 0 timing errors detected.
+ Minimum period is  22.257ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: Default net enumeration
+ 94 items analyzed, 0 timing errors detected.
+ Maximum net delay is  18.267ns.
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CLK
+---------------+------------+------------+
+               |  Setup to  |  Hold to   |
+Source Pad     | clk (edge) | clk (edge) |
+---------------+------------+------------+
+INPUT<0>       |    3.622(R)|    0.000(R)|
+EN             |   20.231(R)|    0.000(R)|
+INPUT<10>      |    1.320(R)|    0.000(R)|
+INPUT<11>      |    2.134(R)|    0.000(R)|
+INPUT<12>      |    3.083(R)|    0.000(R)|
+INPUT<13>      |    3.018(R)|    0.000(R)|
+INPUT<14>      |    2.282(R)|    0.000(R)|
+INPUT<15>      |    3.479(R)|    0.000(R)|
+INPUT<16>      |    3.134(R)|    0.000(R)|
+INPUT<17>      |    2.726(R)|    0.000(R)|
+INPUT<18>      |    3.002(R)|    0.000(R)|
+INPUT<19>      |    3.273(R)|    0.000(R)|
+INPUT<1>       |    2.726(R)|    0.000(R)|
+INPUT<20>      |    3.137(R)|    0.000(R)|
+INPUT<21>      |    1.910(R)|    0.000(R)|
+INPUT<22>      |    2.751(R)|    0.000(R)|
+INPUT<23>      |    3.565(R)|    0.000(R)|
+INPUT<24>      |    3.042(R)|    0.000(R)|
+INPUT<25>      |    1.934(R)|    0.000(R)|
+INPUT<26>      |    2.962(R)|    0.000(R)|
+INPUT<27>      |    3.598(R)|    0.000(R)|
+INPUT<28>      |    1.670(R)|    0.000(R)|
+INPUT<29>      |    3.086(R)|    0.000(R)|
+INPUT<2>       |    2.197(R)|    0.000(R)|
+INPUT<30>      |    3.048(R)|    0.000(R)|
+INPUT<31>      |    2.942(R)|    0.000(R)|
+INPUT<32>      |    3.134(R)|    0.000(R)|
+INPUT<33>      |    2.938(R)|    0.000(R)|
+INPUT<34>      |    3.007(R)|    0.000(R)|
+INPUT<35>      |    3.008(R)|    0.000(R)|
+INPUT<36>      |    2.573(R)|    0.000(R)|
+INPUT<37>      |    3.586(R)|    0.000(R)|
+INPUT<38>      |    2.869(R)|    0.000(R)|
+INPUT<39>      |    2.862(R)|    0.000(R)|
+INPUT<3>       |    3.056(R)|    0.000(R)|
+INPUT<40>      |    3.309(R)|    0.000(R)|
+INPUT<41>      |    1.927(R)|    0.000(R)|
+INPUT<42>      |    3.116(R)|    0.000(R)|
+INPUT<43>      |    3.235(R)|    0.000(R)|
+INPUT<44>      |    3.487(R)|    0.000(R)|
+INPUT<4>       |    3.809(R)|    0.000(R)|
+INPUT<5>       |    1.817(R)|    0.000(R)|
+INPUT<6>       |    2.815(R)|    0.000(R)|
+INPUT<7>       |    2.902(R)|    0.000(R)|
+INPUT<8>       |    3.155(R)|    0.000(R)|
+INPUT<9>       |    2.795(R)|    0.000(R)|
+---------------+------------+------------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 180 paths, 94 nets, and 182 connections (100.0% coverage)
+
+Design statistics:
+   Minimum period:  22.257ns (Maximum frequency:  44.930MHz)
+   Maximum net delay:  18.267ns
+
+
+Analysis completed Sat Feb 10 22:17:47 2001
+--------------------------------------------------------------------------------
+

@@ -1,0 +1,45 @@
+package I;
+import java.sql.*;
+import java.util.ArrayList;
+
+class StaffPWordUpdateQuery
+{
+    private Connection c;
+    private ArrayList staffDetails;
+    private String sid,sfirstname,slastname,staffaddr_1,staffaddr_2,staff_pcode,staff_mobphone;
+    private String staff_phone,position;
+
+    public StaffDetailsUpdateQuery(ArrayList staffD)
+    {
+        c = MyConnection.C;
+        staffDetails = staffD;
+        sid = (String)staffDetails.get(0);
+        sfirstname = (String)staffDetails.get(1);
+        slastname = (String)staffDetails.get(2);
+        staffaddr_1 = (String)staffDetails.get(3);
+        staffaddr_2 = (String)staffDetails.get(4);
+        staff_pcode = (String)staffDetails.get(5);
+        staff_mobphone = (String)staffDetails.get(6);
+        staff_phone = (String)staffDetails.get(7);
+        position = (String)staffDetails.get(8);
+        
+    }
+    public void exeQuery()
+    {   
+        try
+            {
+	Statement stmt = c.createStatement();
+	stmt.executeUpdate("UPDATE staff SET sfirstname ='" + sfirstname 
+		   + "', slastname = '" + slastname + "', staff_addr1= '"
+		   + staffaddr_1 + "', staff_addr2 = '" + staffaddr_2 
+		   + "', staff_pcode ='"+ staff_pcode 
+		   + "', staff_mobphone ='" + staff_mobphone 
+		   + "', staff_phone ='" + staff_phone 
+		   + "' WHERE sid ='" + sid + "'");
+            } 
+        catch (SQLException e) 
+            {
+	System.out.println( "An exception occurred in UpdateCDEntryQuery. " + e);
+            }
+    }
+}

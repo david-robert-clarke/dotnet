@@ -1,0 +1,9 @@
+file {
+  .version = 1;
+  entity {
+    .name = "wholesystem";
+    .mra_file = "wholesystem.mra";
+    .arch = {"SCHEMATIC"};
+    .syn_files = {"WHOLESYSTEM.syn", "WHOLESYSTEM__SCHEMATIC.syn"};
+   }
+}

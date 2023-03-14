@@ -1,0 +1,21 @@
+Library IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+Entity FD IS
+Port (D, CLK : IN STD_LOGIC; Q : OUT STD_LOGIC);
+END Entity FD;
+
+Architecture Behavioural of FD IS
+Begin
+
+	Latch_Action : Process (D,CLK) IS
+	Begin
+		IF rising_edge(CLK) THEN
+		Q <= D
+		END IF;
+	END Process Latch_Action;
+	
+END Architecture Behavioural;
+	
+
+

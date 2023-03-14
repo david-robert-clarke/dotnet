@@ -1,0 +1,151 @@
+$ Start of Compile
+#Fri Nov 03 18:38:54 2000
+
+Synplicity VHDL Compiler, version 6.0.0, built May 19 2000
+Copyright (C) 1994-2000, Synplicity Inc.  All Rights Reserved
+
+VHDL syntax check successful!
+Synthesizing work.cddecode.cddecode_arch
+Post processing for work.cddecode.cddecode_arch
+@W:"c:\fndtn\active\projects\rs232sch\decodecnt.vhd":10:2:10:3|All reachable assignments to cnt(14) assign '0', register removed by optimization
+@W:"c:\fndtn\active\projects\rs232sch\decodecnt.vhd":10:2:10:3|All reachable assignments to cnt(15) assign '0', register removed by optimization
+@W:"c:\fndtn\active\projects\rs232sch\decodecnt.vhd":10:2:10:3|Latch generated from process for signal cnt(15 downto 0), probably caused by a missing assignment in an if or case stmt
+@END
+Process took 0.33 seconds realtime, 0.33 seconds cputime
+Synplicity Xilinx Technology Mapper, version 6.0.0, built May 19 2000
+Copyright (C) 1994-2000, Synplicity Inc.  All Rights Reserved
+Setting fanout limit to 100
+List of partitions to map:
+   view:work.CDDECODE(cddecode_arch)
+
+Clock Buffers:
+  Inserting Clock buffer for port CDDEN,	TNM=CDDEN
+
+Net buffering Report for view:work.CDDECODE(cddecode_arch):
+No nets needed buffering.
+
+Made 0 timing clusters
+Found clock CDDEN with period 10ns
+
+		 ##### START TIMING REPORT #####
+
+		 Performance Summary 
+		*********************
+
+           Requested     Estimated     Requested     Estimated          
+Clock      Frequency     Frequency     Period        Period        Slack
+------------------------------------------------------------------------
+System     100.0 MHz     153.8 MHz     10.0          6.5           3.5  
+========================================================================
+
+		 Interface Information 
+		***********************
+
+Input Ports: 
+
+Port       Reference     User           Arrival     Required            
+Name       Clock         Constraint     Time        Time         Slack  
+------------------------------------------------------------------------
+CDDEN      System        0.0            0.0         6.8          NA     
+RESET      System        0.0            0.0         >2000.0      >2000.0
+S300       System        0.0            0.0         -4.7         -4.7   
+S600       System        0.0            0.0         -4.7         -4.7   
+S1200      System        0.0            0.0         -4.3         -4.3   
+S2400      System        0.0            0.0         -4.5         -4.5   
+S4800      System        0.0            0.0         -4.2         -4.2   
+S9600      System        0.0            0.0         -0.1         -0.1   
+S19200     System        0.0            0.0         0.1          0.1    
+========================================================================
+
+Output Ports: 
+
+Port        Reference     User           Arrival      Required            
+Name        Clock         Constraint     Time         Time         Slack  
+--------------------------------------------------------------------------
+CNT[0]      System        0.0            6.5          10.0         3.5    
+CNT[1]      System        0.0            6.5          10.0         3.5    
+CNT[2]      System        0.0            6.3          10.0         3.7    
+CNT[3]      System        0.0            6.3          10.0         3.7    
+CNT[4]      System        0.0            6.3          10.0         3.7    
+CNT[5]      System        0.0            6.5          10.0         3.5    
+CNT[6]      System        0.0            6.3          10.0         3.7    
+CNT[7]      System        0.0            6.5          10.0         3.5    
+CNT[8]      System        0.0            6.5          10.0         3.5    
+CNT[9]      System        0.0            6.5          10.0         3.5    
+CNT[10]     System        0.0            6.5          10.0         3.5    
+CNT[11]     System        0.0            6.5          10.0         3.5    
+CNT[12]     System        0.0            6.5          10.0         3.5    
+CNT[13]     System        0.0            6.5          10.0         3.5    
+CNT[14]     System        0.0            <-2000.0     10.0         >2000.0
+CNT[15]     System        0.0            <-2000.0     10.0         >2000.0
+==========================================================================
+
+		Detailed Timing Report for  clock : System 
+		*******************************************
+Requested Period 	  10.0 ns
+Estimated Period 	  6.5 ns
+Worst Slack 	 	 3.5 ns
+
+Start Points for Paths with Slack Worse than 5.7 ns : 
+
+                                            Arrival          
+Instance     Type     Pin        Net        Time        Slack
+-------------------------------------------------------------
+S600         Port     S600       S600       0.0         -4.7 
+S300         Port     S300       S300       0.0         -4.7 
+S2400        Port     S2400      S2400      0.0         -4.5 
+S1200        Port     S1200      S1200      0.0         -4.3 
+S4800        Port     S4800      S4800      0.0         -4.2 
+S9600        Port     S9600      S9600      0.0         -0.1 
+S19200       Port     S19200     S19200     0.0         0.1  
+=============================================================
+
+End Points for Paths with Slack Worse than 5.7 ns : 
+
+                                               Required          
+Instance      Type     Pin         Net         Time         Slack
+-----------------------------------------------------------------
+CNT[15:0]     Port     CNT[0]      CNT[0]      10.0         3.5  
+CNT[15:0]     Port     CNT[1]      CNT[1]      10.0         3.5  
+CNT[15:0]     Port     CNT[5]      CNT[5]      10.0         3.5  
+CNT[15:0]     Port     CNT[7]      CNT[7]      10.0         3.5  
+CNT[15:0]     Port     CNT[8]      CNT[8]      10.0         3.5  
+CNT[15:0]     Port     CNT[9]      CNT[9]      10.0         3.5  
+CNT[15:0]     Port     CNT[10]     CNT[10]     10.0         3.5  
+CNT[15:0]     Port     CNT[11]     CNT[11]     10.0         3.5  
+CNT[15:0]     Port     CNT[12]     CNT[12]     10.0         3.5  
+CNT[15:0]     Port     CNT[13]     CNT[13]     10.0         3.5  
+=================================================================
+
+
+		 ##### END TIMING REPORT #####
+
+---------------------------------------
+Resource Usage Report 
+
+Mapping to part: xc4002xlpc84-09
+Using STARTUP for Flip-Flop Resets
+
+Cell usage:
+LDCE_1          14 uses
+GND             1 use
+VCC             1 use
+
+I/O primitives:
+OBUF           16 uses
+IBUF           8 uses
+
+BUFG           1 use
+
+I/O Register bits:                  0
+Register bits not including I/Os:   0
+Logic Mapping Summary:
+FMAPs: 36 of 128 (29%)
+HMAPs: 13 of 64 (21%)
+Total packed CLBs: 18 of 64 (29%)
+(Packed CLBs is determined by the larger of three quantities:
+   Registers / 2, HMAPs, or FMAPs / 2.)
+
+Found clock CDDEN with period 10ns
+Mapper successful!
+Process took 2.36 seconds realtime, 2.36 seconds cputime

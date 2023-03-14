@@ -1,0 +1,87 @@
+#VRML V2.0 utf8
+
+DEF switchScript Script{
+   eventIn  SFBool  startSequence
+   eventOut SFFloat theShine
+   field SFString tempString ""
+
+   url "javascript:
+      function initialize() {
+      theShine = 0.0;
+      }
+      function startSequence(value, ts){
+         if(value){
+         	if(theShine==0)
+         	{
+         	  theShine = 1.0;
+         	  tempString = 'theShine: ' + theShine.toString();
+         	}
+         	else
+         	{
+         	  theShine = 0.0;
+         	  tempString = 'theShine: ' + theShine.toString();
+ 	      	}
+         }"
+}
+
+#### buttons
+Transform{
+   scale 0.1 0.1 0.1
+   translation -5 3.5 0
+   children[
+      Shape{
+         geometry Box{}
+         appearance Appearance{
+            material Material{
+               diffuseColor 1 0 0
+            }
+         }
+      }
+      DEF startButton TouchSensor{}
+   ]
+}
+
+
+### shapes
+
+DEF spherical Transform{
+   translation 0 0 0
+   children[
+      Shape{
+         geometry Sphere{}
+         appearance Appearance{
+            material DEF sphereMaterial Material{
+              diffuseColor 1 0.5 0.5
+            }
+        }
+    }
+    ]
+}
+
+NavigationInfo{
+   type "NONE"
+}
+
+Shape {
+   geometry DEF TEXT Text {
+      fontStyle FontStyle {
+         justify "MIDDLE"
+         family "TYPEWRITER"
+      }
+   }
+}
+
+
+
+ROUTE startButton.isActive TO switchScript.startSequence
+ROUTE switchScript.tempString TO TEXT.string
+ROUTE switchScript.theShine TO sphereMaterial.transparency
+
+#### add the background
+Background {
+  skyAngle [0.0, 1.1, 1.57]
+  skyColor [0 0 1, 0 0 0.5, 0.8 0.8 1, 0.9 0.9 0.9 ]
+  groundAngle [0.0, 1.1, 1.57]
+  groundColor [0.8 0.8 0.4, 0.8 0.8 0.4, 0.8 0.8 0.7, 0.8 0.8 0.8 ]
+}
+

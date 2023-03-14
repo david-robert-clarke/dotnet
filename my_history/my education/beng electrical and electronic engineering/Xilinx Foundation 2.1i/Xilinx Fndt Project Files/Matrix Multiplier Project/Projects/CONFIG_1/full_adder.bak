@@ -1,0 +1,21 @@
+-- Final Year Project MarkIII
+-- Created by David.R.Clarke
+-- Date: 8_12_2000
+Library IEEE;
+USE IEEE.std_logic_1164.all;
+USE WORK.MATRIX_PACKAGE.ALL;
+--
+Entity full_adder is
+Port (A, B, C_IN : IN ONE_BIT; 
+      SUM, C_OUT : OUT ONE_BIT);
+END Entity full_adder;
+--
+Architecture Structural OF full_adder is
+Begin
+
+SUM <= A xor B xor C_IN;
+C_OUT <= (A and B) or (A and C_IN) or (B and C_IN); 
+	
+End architecture Structural;
+
+

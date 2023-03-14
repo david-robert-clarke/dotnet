@@ -1,0 +1,9 @@
+file {
+  .version = 1;
+  entity {
+    .name = "Answer_Store";
+    .mra_file = "Answer_Store.mra";
+    .arch = {"Behavioural"};
+    .syn_files = {"ANSWER_STORE.syn", "ANSWER_STORE__BEHAVIOURAL.syn"};
+   }
+}

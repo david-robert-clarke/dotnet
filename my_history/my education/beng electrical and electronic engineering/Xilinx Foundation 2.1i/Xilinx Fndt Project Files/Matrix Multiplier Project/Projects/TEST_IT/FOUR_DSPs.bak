@@ -1,0 +1,9 @@
+-- Messaround
+-- connecting up n DSP's
+-- see how much of the FPGA is taken up
+library IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE WORK.MATRIX_PACKAGE.ALL;
+
+ENTITY FILLUP_FPGA IS
+PORT (DATA : IN 

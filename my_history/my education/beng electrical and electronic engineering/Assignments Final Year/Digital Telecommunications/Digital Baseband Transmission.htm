@@ -1,0 +1,1759 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0064)http://benedick.aston.ac.uk:8080/tutorials/paths/dbt/entire_html -->
+<HTML><HEAD><TITLE>Digital Baseband Transmission</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252"><LINK 
+href="Digital Baseband Transmission_files/main.css" type=text/css 
+rel=stylesheet>
+<META content=INDEX,NOFOLLOW name=ROBOTS>
+<META content="" name=keywords>
+<META content="" name=description>
+<META content="" name=author>
+<META content="MSHTML 6.00.2462.0" name=GENERATOR></HEAD>
+<BODY class=seas text=#003366 vLink=#000080 aLink=#000080 link=#000080 
+bgColor=white>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD class=header colSpan=5 height=24>Aston University <B>School of 
+      Engineering &amp; Applied Science</B> <BR>Telecoms and Internet Tutorials 
+    </TD>
+    <TD class=header align=right><A title="Aston University Home" 
+      href="http://www.aston.ac.uk/"><IMG height=24 alt="Aston University Home" 
+      hspace=1 src="Digital Baseband Transmission_files/corp-home_f01.gif" 
+      width=24 border=0 name=corphome></A> <A 
+      title="Aston University Information" 
+      href="http://www.aston.ac.uk/aston/info"><IMG height=24 
+      alt="Aston University Information" hspace=1 
+      src="Digital Baseband Transmission_files/corp-info_f01.gif" width=24 
+      border=0 name=corpinfo></A> <A title="Aston University Web Search" 
+      href="http://www.aston.ac.uk/search/"><IMG height=24 
+      alt="Aston University Web Search" hspace=1 
+      src="Digital Baseband Transmission_files/corp-map_f01.gif" width=24 
+      border=0 name=corpmap></A> <A 
+      title="Aston University Contact and Communications" 
+      href="http://www.aston.ac.uk/contact"><IMG height=24 
+      alt="Aston University Contact and Communications" hspace=1 
+      src="Digital Baseband Transmission_files/corp-contact_f01.gif" width=24 
+      border=0 name=corpcontact></A> </TD></TR></TBODY></TABLE>
+<TABLE class=topmenu cellSpacing=1 cellPadding=2 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD class=navoff vAlign=top align=middle width="25%"><A 
+      title="Tutorial Home" 
+      href="http://benedick.aston.ac.uk:8080/tutorials">Home</A></TD>
+    <TD class=navoff vAlign=top align=middle width="25%"><A 
+      title="Learning Paths" 
+      href="http://benedick.aston.ac.uk:8080/tutorials/paths">Paths</A></TD>
+    <TD class=navoff vAlign=top align=middle width="25%"><A title="All Topics" 
+      href="http://benedick.aston.ac.uk:8080/tutorials/list">Topics</A></TD>
+    <TD class=navoff vAlign=top align=middle width="25%">
+      <FORM action=http://benedick.aston.ac.uk:8080/tutorials/search 
+      method=get>Search <INPUT size=15 name=PrincipiaSearchSource> 
+  </FORM></TD></TR></TBODY></TABLE>
+<H1 class=title>Digital Baseband Transmission </H1>
+<P><A 
+href="http://benedick.aston.ac.uk:8080/tutorials/paths/dbt/index_html">View 
+Tutorial Path Index</A></P>
+<H2>Digital Baseband Transmission</H2>
+<P>Digital transmission over a baseband channel. Baseband transmission of 
+digital data requires the use of a low-pass channel with a bandwidth sufficient 
+to accommodate the essential frequency content of the data stream.</P>
+<HR>
+
+<DL>
+  <H3>The Matched Filter</H3>
+  <P>
+  <P>On completing this section you should be able to calculate the expression 
+  for the peak pulse signal-to-noise for a baseband transmission system and 
+  hence, by applying Schwartz’s inequality, determine the impulse of the optimum 
+  matched filter, the peak signal-to-noise ratio for the matched filter, 
+  describe the properties of the matched filter and the principle of operation 
+  of the integrate and dump filter </P>
+  <P></P>
+  <P>
+  <P><IMG height=148 alt="wpe1.gif (4267 bytes)" 
+  src="Digital Baseband Transmission_files/Matche1.gif" width=686></P>
+  <P><B><A name=_Ref375556023>Figure 2</A></B> Model of a matched filter 
+  baseband transmission system</P>
+  <P></P>
+  <P>
+  <P align=justify>Our problem is to design a receiver response to minimise the 
+  effects of noise. We model the receiver as a linear time-invariant filter of 
+  impulse response <I>h</I>(<I>t</I>) followed by a sampler taking samples at 
+  intervals <I>T<SUB>b</SUB></I> as shown in Figure 2. The known original pulse 
+  signal is <I>s</I>(<I>t</I>) and the output of the channel is 
+  <I>x</I>(<I>t</I>)=<I>s</I>(<I>t</I>)+<I>n</I>(<I>t</I>) where 
+  <I>n</I>(<I>t</I>) is the additive noise of zero mean and power spectral 
+  density <I>N<SUB>0</SUB></I>/2. We wish to determine the optimum filter 
+  response. Since the filter is linear its output may be represented as 
+  <I>y</I>(<I>t</I>)=<I>s</I><SUB>0</SUB>(<I>t</I>)+<I>n</I>(<I>t</I>) where 
+  <I>s</I><SUB>0</SUB>(<I>t</I>) and <I>n</I>(<I>t</I>) are the signal and noise 
+  components respectively. We wish to maximise the instantaneous output signal 
+  component measured at time <I>t</I>=<I>T</I> compared with the average power 
+  of the output noise <I>n</I>(<I>t</I>). Assuming we can synchronise the 
+  receiver with the incoming data and take the samples at the optimum moment we 
+  chose the filter response to maximise the <STRONG>peak pulse signal-to-noise 
+  ratio</STRONG> defined as</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=70 src="Digital Baseband Transmission_files/Image465.gif" 
+        width=110></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <H4 align=justify>Signal Component</H4>
+  <P></P>
+  <P>
+  <P align=justify>We denote the Fourier transforms of the known signal and 
+  filter as <I>S</I>(<I>f</I>) and <I>H</I>(<I>f</I>) respectively. The Fourier 
+  Transform of the output signal from the filter <I>s</I><SUB>0</SUB>(<I>t</I>) 
+  will be <I>S</I>(<I>f</I>)<I>H</I>(<I>f</I>) so we have</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=61 src="Digital Baseband Transmission_files/Image466.gif" 
+        width=238></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>Hence when the output is sampled at <I>t</I>=<I>T</I> we have 
+  for the signal component</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=68 src="Digital Baseband Transmission_files/Image467.gif" 
+        width=266></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <H4 align=justify>Noise Component</H4>
+  <P></P>
+  <P>
+  <P align=justify>The power spectral density of the output noise from the 
+  filter is the power spectral density of the input noise <I>N<SUB>0</SUB></I>/2 
+  times the squared magnitude of the filter transfer function 
+  <I>H</I>(<I>f</I>)</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=51 src="Digital Baseband Transmission_files/Image468.gif" 
+        width=166></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>The average power is therefore</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=61 src="Digital Baseband Transmission_files/Image469.gif" 
+        width=228></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>We thus have for the peak pulse signal-to-noise</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=130 
+        src="Digital Baseband Transmission_files/Image470.gif" 
+      width=231></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>To find the particular form of <I>H</I>(<I>f</I>) which 
+  maximises this expression we apply<A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/paths/dbt/SchwarzsInequality"><STRONG>Schwarz’s 
+  Inequality</STRONG></A> to the numerator of (6) which may then be rewritten 
+  as</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=68 src="Digital Baseband Transmission_files/Image471.gif" 
+        width=410></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>We may thus redefine the peak pulse signal to noise as</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=63 src="Digital Baseband Transmission_files/Image472.gif" 
+        width=165></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>This depends only on the signal energy and noise power and 
+  not on the filter transfer function. Thus <FONT face=Symbol>h</FONT> will be a 
+  maximum when the filter transfer function is chosen so that the equality holds 
+  and we have</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=33 src="Digital Baseband Transmission_files/Image473.gif" 
+        width=196></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>Taking Fourier transforms of this equation gives the time 
+  domain relation</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=30 src="Digital Baseband Transmission_files/Image474.gif" 
+        width=150></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>i.e. The impulse of the optimum <STRONG>matched 
+  filter</STRONG> is a time reversed and delayed version of the input signal 
+  except for an arbitrary scaling factor.</P>
+  <P></P>
+  <P>
+  <P align=justify>We have for the optimum impulse response of a matched filter 
+  the expression <IMG height=30 
+  src="Digital Baseband Transmission_files/Image478.gif" width=151>i.e. it is 
+  uniquely defined except for an arbitrary delay and scaling factor by the 
+  waveform of the pulse signal <I>s</I>(t). The most important result we wish to 
+  know is what the peak pulse signal-to-noise ratio is in this case. To 
+  calculate this we consider a filter matched to a known signal 
+  <I>s</I>(<I>t</I>). The Fourier transform of the matched filter signal output 
+  is given by</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=71 src="Digital Baseband Transmission_files/Image479.gif" 
+        width=363></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>Taking the Fourier transform of this we get</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=93 src="Digital Baseband Transmission_files/Image480.gif" 
+        width=341></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>where <I>E</I> is the energy of the pulse signal. Similarly 
+  we may substitute out matched filter result into the expression for the noise 
+  power to get</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=118 
+        src="Digital Baseband Transmission_files/Image481.gif" 
+      width=400></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>and hence the peak pulse signal-to-noise ratio becomes</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=60 src="Digital Baseband Transmission_files/Image482.gif" 
+        width=203></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify><IMG height=282 alt="wpe2.gif (3711 bytes)" 
+  src="Digital Baseband Transmission_files/Matche2.gif" width=349 
+  align=right>The peak pulse signal-to-noise ratio of a matched filter depends 
+  only on the ratio of the signal energy to the power spectral density of the 
+  white noise at the filter input i.e. <STRONG>all signals with equal energy are 
+  equally effective to combat additive white gaussian noise with a matched 
+  filter</STRONG>.</P>
+  <P></P>
+  <P>
+  <P align=justify>As an example we show (Figure 3) the matched filter response 
+  for a rectangular pulse of amplitude <I>A</I> and duration <I>T</I>. In this 
+  case the impulse response of the filter is exactly that of the waveform itself 
+  and the output is a triangle wave of amplitude <I>kAT</I>. With a maximum at 
+  <I>t</I>=<I>T</I>. This special case can be implemented using the 
+  <EM>i</EM><STRONG>ntegrate-and-dump</STRONG> circuit (Figure 4) which for 
+  0<FONT face=Symbol>£</FONT> <I>t<FONT face=Symbol>£</FONT> T</I> has the same 
+  waveform at the output as the ideal matched filter. </P>
+  <P></P>
+  <P>
+  <P><IMG height=84 alt="wpe6.gif (2165 bytes)" 
+  src="Digital Baseband Transmission_files/Matche3.gif" width=351></P>
+  <P><B><A name=_Ref375557764>Figure 4</A></B> An integrate and dump filter</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:25.906 GMT+1</I></P>
+  <H3>Gaussian Noise Processes</H3>
+  <P>
+  <P>On completing this section you should be able to plot the gaussian 
+  probability function and describe the properties of additive white gaussian 
+  noise. </P>
+  <P></P>
+  <P>
+  <P><IMG height=116 hspace=15 
+  src="Digital Baseband Transmission_files/Image485.gif" width=281 align=right> 
+  The simplest mathematical model for a communication system is the additive 
+  noise channel where the transmitted signal <I>s</I>(<I>t</I>) is corrupted by 
+  an additive random noise process <I>n</I>(<I>t</I>) (Figure 5). This is the 
+  most random noise process in that there is no correlation between samples. 
+  Physically the noise may arise from electronic components and amplifiers at 
+  the receiver of the communication system or from interference encountered in 
+  transmission (e.g. radio interference). If the noise primarily arises from 
+  electronic components it may be characterised as thermal noise which 
+  statistically is characterised as a <STRONG>Gaussian noise process</STRONG>. 
+  Hence the resulting model is called the <STRONG>additive Gaussian noise 
+  channel</STRONG>. </P>
+  <P></P>
+  <P>
+  <P align=justify>This may be viewed as the result of the statistical central 
+  limit theorem which states that the distribution of a large number of 
+  identical random variables (i.e. electrons under the influence of thermal 
+  vibrations) will tend to Gaussian as the number of variables tends to 
+  infinity. </P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=1 align=right border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG height=305 alt="wpe6.gif (4916 bytes)" 
+        src="Digital Baseband Transmission_files/Gaussi1.gif" width=456 
+        align=right></TD></TR>
+    <TR>
+      <TD>The Gaussian Probability Distribution Functio</TD></TR>
+    <TR>
+      <TD><IMG height=285 alt="wpe7.gif (3322 bytes)" 
+        src="Digital Baseband Transmission_files/Gaussi2.gif" width=394></TD></TR>
+    <TR>
+      <TD>Cumulative Distribution Function</TD></TR></TBODY></TABLE></P>
+  <P>
+  <P align=justify>The probability distribution function of a Gaussian or 
+  normally distributed random variable is</P>
+  <P></P>
+  <P>
+  <P><IMG height=63 src="Digital Baseband Transmission_files/Image486.gif" 
+  width=276></P>
+  <P></P>
+  <P>
+  <P align=justify>where <FONT face=Symbol>m</FONT><SUB><I>x</I></SUB> is the 
+  mean and <FONT face=Symbol>s</FONT><SUB><I>x</I></SUB><SUP>2</SUP> the 
+  variance of the random variable. The cumulative distribution function is 
+  therefore given by</P>
+  <P></P>
+  <P>
+  <P><IMG height=171 src="Digital Baseband Transmission_files/Image487.gif" 
+  width=228></P>
+  <P></P>
+  <P>
+  <P>It is common to use the <I>Q</I> function, as defined above, when dealing 
+  with communications systems, and this is plotted below.</P>
+  <P></P>
+  <P>
+  <P align=justify>Other random distributions may be used to model other 
+  processes for example the Raleigh and Rice distributions are used to model the 
+  fluctuations of signals received from a multiple path fading channel.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=281 alt="wpe8.gif (4139 bytes)" 
+  src="Digital Baseband Transmission_files/Gaussi3.gif" width=414></P>
+  <P></P>
+  <P>
+  <P align=center>Plot of Q(x) versus SNR</P>
+  <P></P>
+  <P>
+  <H3>White Noise</H3>
+  <P></P>
+  <P>
+  <P align=justify>White noise is noise in which the power spectral density is 
+  independent of the operating frequency This is commonly used in the noise 
+  analysis of communication systems. The power spectral density of white noise 
+  is expressed as </P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=51 src="Digital Baseband Transmission_files/Image490.gif" 
+        width=106></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>The parameter <I>N<SUB>0</SUB></I> (W/Hz) is usually 
+  referenced to the input stage of a receiver and may be expressed as</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=26 src="Digital Baseband Transmission_files/Image491.gif" 
+        width=75></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>where <I>k</I> is Boltzmann’s constant and 
+  <I>T<SUB>e</SUB></I> is the equivalent noise temperature of the receiver. The 
+  equivalent noise temperature of a system is defined as the temperature at 
+  which a noisy resistor has to be maintained such that, by connecting the 
+  resistor to the input of a noiseless version of the system, it produces the 
+  same available noise power at the output of the system as that produced by all 
+  the sources of noise in the actual system. It depends only on the parameters 
+  of the system.</P>
+  <P></P>
+  <P>
+  <P align=justify>Since the autocorrelation function is the inverse Fourier 
+  transform of the power spectral density then for white noise</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=51 src="Digital Baseband Transmission_files/Image492.gif" 
+        width=143></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>Note that since this is zero for <FONT face=Symbol>t<FONT 
+  face=Symbol>¹</FONT> </FONT>0 any two samples of white noise no matter how 
+  closely together in time they are taken are uncorrelated. If the white noise 
+  is also Gaussian then the two samples are also statistically independent. 
+  Gaussian white noise may therefore considered to be the most random 
+  distribution.</P>
+  <P></P>
+  <P>
+  <P align=justify>Since white noise has infinite bandwidth it also has infinite 
+  average power and is therefore not physically realisable. However provided the 
+  bandwidth of the noise at the input of a system is significantly larger than 
+  that of the system itself we may model the noise process as white noise. 
+  Calibrated white noise may be used to characterise the spectral response of a 
+  system.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:25.046 GMT+1</I></P>
+  <H3>The Error Rate Due To Noise</H3>
+  <P>
+  <P>On completing this section you should be able to calculate the error rate 
+  for a bipolar NRZ system. </P>
+  <P></P>
+  <P>
+  <P align=justify>We seek to determine the probability of error in a binary PCM 
+  system based on <STRONG>non-return-to-zero (NRZ) signalling</STRONG> due to 
+  additive white Gaussian noise of zero mean and power spectral density 
+  <I>N<SUB>0</SUB>/2</I>. For this analysis the transmitted signal consists of 
+  pulses of constant <I>A</I> or -<I>A</I> amplitude units and 
+  <I>T<SUB>b</SUB></I> seconds in duration. </P>
+  <P></P>
+  <P>
+  <P align=justify>The receiver used consists of a matched (integrate and dump) 
+  filter and a threshold decision device as shown in Figure 8. <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/dbt/MatchedFilter">The 
+  matched filter</A> output is sampled at the end of each signalling interval. 
+  Over the sampling interval <I>T<SUB>b</SUB></I> the signal is integrated so 
+  that the signal accumulates while the variance of the random noise <FONT 
+  face=Symbol>s</FONT><SUB>Y</SUB><SUP>2</SUP> will decrease. This effect is 
+  illustrated in Figure 9.</P>
+  <P></P>
+  <P>
+  <P><IMG height=111 alt="wpe1.gif (3277 bytes)" 
+  src="Digital Baseband Transmission_files/Error%201.gif" 
+  width=530>&nbsp;&nbsp;&nbsp; </P>
+  <P><B><A name=_Ref392228720>Figure 8</A></B> Baseband receiver using an 
+  integrate and dump filter.</P>
+  <P></P>
+  <P>
+  <P><IMG height=342 alt="wpe2.gif (7552 bytes)" 
+  src="Digital Baseband Transmission_files/Error%202.gif" width=454></P>
+  <P><B><A name=_Ref375649657>Figure 9</A> </B>The effect of the integrate and 
+  dump filter on signal and noise.</P>
+  <P></P>
+  <P>
+  <P align=justify>The variance is then given by</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=56 src="Digital Baseband Transmission_files/Image495.gif" 
+        width=123></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>See Haykin p. 420 for the proof of this.</P>
+  <P></P>
+  <P>
+  <P align=justify>In Figure 10 we can plot a graph showing the probability 
+  distribution function versus amplitude for the two signals. We can see that it 
+  consists of two Gaussian distributions separate by 2<I>A</I> and with 
+  variances as given above.</P>
+  <P></P>
+  <P>
+  <P><IMG height=279 src="Digital Baseband Transmission_files/Image496.gif" 
+  width=488></P>
+  <P><B><A name=_Ref375649847>Figure 10</A> </B>Signal space diagram for the 
+  bipolar NRZ system</P>
+  <P></P>
+  <P>
+  <P align=justify>We denote the conditional probability of error given that 
+  symbol 0 was sent as <I>P<SUB>e0</SUB></I> and given that we set the decision 
+  threshold midway between the two levels at zero this is given by the labelled 
+  shaded area under that tail of the Gaussian distribution above</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=65 src="Digital Baseband Transmission_files/Image497.gif" 
+        width=306></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>By defining a new variable <IMG height=60 
+  src="Digital Baseband Transmission_files/Image498.gif" width=105> this may be 
+  rewritten as</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=66 src="Digital Baseband Transmission_files/Image499.gif" 
+        width=215></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>where <I>E<SUB>b</SUB></I> is the transmitted energy per bit 
+  given by</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=30 src="Digital Baseband Transmission_files/Image500.gif" 
+        width=88></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>Thus <I>P<SUB>e0</SUB></I> may be given in terms of the 
+  complementary error function as</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=66 src="Digital Baseband Transmission_files/Image501.gif" 
+        width=163></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>We may perform exactly the same calculation for the 
+  conditional probability of error provided a 1 is sent <I>P<SUB>e1</SUB></I>. 
+  In this case of a binary symmetric channel with the threshold exactly half way 
+  between the two signal levels it will be identical to <I>P<SUB>e0</SUB></I>. 
+  <IMG height=363 alt="wpe7.gif (4601 bytes)" 
+  src="Digital Baseband Transmission_files/Error%203.gif" width=351 
+  align=right>The average probability of symbol error <I>P<SUB>e</SUB></I> for 
+  the channel will depend on the a priori probabilities of binary symbols 0 and 
+  1, <I>p</I><SUB>0</SUB> and <I>p</I><SUB>1</SUB> which if we assume are 
+  equiprobable (<I>p</I><SUB>0</SUB> = <I>p</I><SUB>1 </SUB>= ½) we get </P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=96 src="Digital Baseband Transmission_files/Image503.gif" 
+        width=153></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>or in terms of the more usually used <I>Q</I> function</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=66 src="Digital Baseband Transmission_files/Image504.gif" 
+        width=130></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <H4>
+  <P align=justify>This is plotted in the figure right.</P></H4>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:24.781 GMT+1</I></P>
+  <H3>Intersymbol Interference</H3>
+  <P></P>
+  <P>
+  <P align=justify>The main source of errors in most baseband communication 
+  systems is intersymbol interference arising from the <EM>dispersive</EM> 
+  nature of the communications channel i.e. pulse distortion arising from the 
+  non-ideal filtering characteristics of the transmission channel leading to 
+  interference between symbols. In baseband transmission discrete 
+  pulse-amplitude modulation (PAM) is the most efficient modulation scheme and 
+  for the analysis carried out here we will be looking at binary systems. The 
+  analysis can easily be generalised for M-ary data transmission.</P>
+  <P></P>
+  <P>
+  <P align=justify>Shown Figure 12 is the generic model of the system which we 
+  will be considering.. An incoming binary sequence {<I>b<SUB>k</SUB></I>} of 
+  symbols 0 and 1 each of duration <I>T<SUB>b</SUB></I> is transformed by the 
+  pulse amplitude modulator into a sequence of short pulses 
+  {<I>a<SUB>k</SUB></I>} of amplitudes +1 and -1. These short pulses are applied 
+  to a <EM>transmit filter</EM> of impulse response <I>g</I>(<I>t</I>) producing 
+  the transmitted signal</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=37 src="Digital Baseband Transmission_files/Image234.gif" 
+        width=140></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P><IMG height=352 alt="wpe1.gif (6149 bytes)" 
+  src="Digital Baseband Transmission_files/Inters1.gif" width=528></P>
+  <P><B><A name=_Ref375649995>Figure 12</A></B> Generic model of a baseband 
+  transmission system</P>
+  <P></P>
+  <P>
+  <P align=justify>The signal <I>s</I>(<I>t</I>) is modified by transmission 
+  through a channel of impulse response <I>h</I>(<I>t</I>) and also has some 
+  noise <I>n</I>(<I>t</I>) added to it. At the receiver the noisy signal 
+  <I>x</I>(<I>t</I>) is passed through a receiver filter <I>c</I>(<I>t</I>) and 
+  the resulting filtered output <I>y</I>(<I>t</I>) is synchronously sampled at 
+  intervals of <I>T<SUB>b</SUB></I> and the samples are passed to a threshold 
+  device which outputs a 1 if the sample is greater than the threshold <FONT 
+  face=Symbol>l</FONT> and 0 of less than.</P>
+  <P></P>
+  <P>
+  <P align=justify>The receive filter output can be written in the form</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=36 src="Digital Baseband Transmission_files/Image236.gif" 
+        width=194></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>where <FONT face=Symbol>m</FONT> is an arbitrary scaling 
+  factor taking account of amplitude changes through the transmission process 
+  and <I>p</I>(<I>t</I>) the received pulse will be given by </P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=20 src="Digital Baseband Transmission_files/Image237.gif" 
+        width=145></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>where we can normalise <I>p</I>(<I>t</I>) such that 
+  <I>p</I>(<I>t</I>)=1.</P>
+  <P></P>
+  <P>
+  <P align=justify>The receive filter output is sampled at time intervals 
+  <I>t<SUB>i</SUB>=iT<SUB>b</SUB></I> giving</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=105 
+        src="Digital Baseband Transmission_files/Image238.gif" 
+      width=260></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>where <FONT face=Symbol>m</FONT><I>a<SUB>i</SUB></I> 
+  represents the contributed of the <I>i</I>th transmitted bit. The second term 
+  represents the residual effect of all the other transmitted bits on decoding 
+  the <I>i</I>th bit - the <EM>intersymbol interference</EM>. The last term 
+  represents the noise signal at time <I>t<SUB>i</SUB></I>. </P>
+  <P></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:25.64 GMT+1</I></P>
+  <H3>The Ideal Nyquist Channel</H3>
+  <P>
+  <P>On completing this section you should be able to determine the Nyquist 
+  criterion for distortionless baseband transmission in the absence of noise. 
+  </P>
+  <P></P>
+  <P>
+  <P align=justify>Recalling our equation for the output of the transmission 
+  system (32) we see that to eliminate the effects of <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/dbt/IntersymbolInterference">intersymbol 
+  interference</A> and ensure perfect reception in the absence of noise we must 
+  control the received pulse shape such that</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=61 src="Digital Baseband Transmission_files/Image510.gif" 
+        width=201></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>in which case <I>y</I>(<I>t<SUB>i</SUB></I>)=<FONT 
+  face=Symbol>m</FONT><I>a<SUB>i</SUB></I> for all <I>m</I>. For analysis we 
+  wish to transform this into the frequency domain. Since this is periodically 
+  sampled at time intervals <I>T<SUB>b</SUB> </I>the Fourier transform will be 
+  periodic in frequency intervals <I>R<SUB>b</SUB></I>=1/<I>T<SUB>b</SUB></I> 
+  and may be written in the form</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=61 src="Digital Baseband Transmission_files/Image511.gif" 
+        width=560></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>Imposing our condition for zero <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/dbt/IntersymbolInterference">intersymbol 
+  interference</A> gives</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=93 src="Digital Baseband Transmission_files/Image512.gif" 
+        width=276></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>and we get</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=56 src="Digital Baseband Transmission_files/Image513.gif" 
+        width=161></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>This is the <STRONG>Nyquist criterion for distortionless 
+  baseband transmission in the absence of noise</STRONG><EM>.</EM></P>
+  <P></P>
+  <P>
+  <P align=justify>Note <I>P</I>(<I>f</I>) is the filter characteristic of the 
+  whole system including transmit, channel and receive filters.</P>
+  <P></P>
+  <P>
+  <P align=justify>As an illustration of the Nyquist criterion we plot in Figure 
+  13 the filter response for the three cases of increasing sample period 
+  <I>T</I>&lt;1/(2<I>W)</I> , <I>T=</I>1/(2<I>W) </I>and 
+  <I>T</I>&gt;1/(2<I>W)</I>. We see that for <I>T</I>&lt;1/(2<I>W) </I>we cannot 
+  achieve the Nyquist criterion as specified in (36) in that the filter response 
+  falls to zero for some frequencies. For <I>T=</I>1/(2<I>W) </I>we can only 
+  achieve the Nyquist condition for a rectangular filter which gives a constant 
+  response across all frequencies. </P>
+  <P></P>
+  <P>
+  <P><IMG height=289 alt="wpe2.gif (4988 bytes)" 
+  src="Digital Baseband Transmission_files/Ideal%202.gif" width=506></P>
+  <P><B><A name=_Ref375733671>Figure 13</A></B> Illustration of the Nyquist 
+  criterion showing how the spectra vary with sample rate.</P>
+  <P></P>
+  <P>
+  <P align=justify>The simplest solution to the Nyquist condition is therefore a 
+  <STRONG>rectangular</STRONG> filter function having a constant value between 
+  -<I>W</I> and <I>W</I></P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=141 
+        src="Digital Baseband Transmission_files/Image515.gif" 
+      width=233></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify><IMG height=189 alt="wpe6.gif (2338 bytes)" 
+  src="Digital Baseband Transmission_files/Ideal%203.gif" width=285 
+  align=left>where the over-all system bandwidth <I>W</I> is defined by</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=56 src="Digital Baseband Transmission_files/Image517.gif" 
+        width=120></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>i.e. no frequencies exceeding half the bit-rate are needed. 
+  This is shown in Figure 14.</P>
+  <P></P>
+  <P>
+  <P align=justify>Taking the Fourier transform of this thus gives one signal 
+  waveform which produces zero intersymbol interference.</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=25 src="Digital Baseband Transmission_files/Image518.gif" 
+        width=136></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>This is shown in Figure 15.</P>
+  <P></P>
+  <P>
+  <P align=justify><IMG height=202 alt="wpe7.gif (2810 bytes)" 
+  src="Digital Baseband Transmission_files/Ideal%204.gif" width=276 
+  align=left>The bit rate <I>R<SUB>b</SUB></I>=2<I>W</I> is called the 
+  <STRONG>Nyquist rate</STRONG> and <I>W</I> is the <STRONG>Nyquist 
+  bandwidth</STRONG> corresponding to the <EM>i</EM><STRONG>deal Nyquist 
+  channel</STRONG> given by (37)and (39).</P>
+  <P></P>
+  <P>
+  <P align=justify>Examining the function <I>p</I>(<I>t</I>) we see that it has 
+  a maximum at <I>t</I>=0 and goes through zero at integer multiples of 
+  <I>T<SUB>b</SUB></I> so that when the received waveform is sampled at 
+  intervals of <I>T<SUB>b</SUB></I> there is zero interference between symbols. 
+  This effect is shown for the sequence {1011010}.</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=280 alt="wpe8.gif (5737 bytes)" 
+  src="Digital Baseband Transmission_files/Ideal%205.gif" width=360></P>
+  <P><B><A name=_Ref375702158>Figure 16</A></B> Zero interchannel interference 
+  for the ideal Nyquist Channel with the sequence {1011010}.</P>
+  <P></P>
+  <P>
+  <P align=justify>The ideal Nyquist channel solves the problem of zero 
+  intersymbol interference with the minimum bandwidth possible but has serious 
+  practical difficulties. First of all the filter function has abrupt 
+  transitions at the band edges <FONT face=Symbol>±</FONT> <I>W</I> which is 
+  physically unrealisable. Secondly the sidelobes in the function 
+  <I>p</I>(<I>t</I>) decrease only as 1/|<I>t</I>| for large <I>t</I> which 
+  means that there is little margin of error in the sampling times at the 
+  receiver. Indeed the sum of the contributions from successive bits where there 
+  is timing error may diverge causing erroneous decisions in the receiver.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:25.484 GMT+1</I></P>
+  <H3>The Raised Cosine Filter</H3>
+  <P>
+  <P>On completing this section you should be able to describe and compare how 
+  the ideal Nyquist (rectangular) filter and the raised cosine filter 
+  characteristic meet the Nyquist criterion. </P>
+  <P></P>
+  <P>
+  <P align=justify>The practical difficulties of <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/dbt/IdealNyquistChannel">the 
+  ideal Nyquist channel</A> may be overcome using a filter function with an 
+  extendible bandwidth between <I>W</I> and 2<I>W</I> and without the sharp 
+  transitions. One such frequency characteristic is the <STRONG>raised cosine 
+  spectrum</STRONG> given by</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=176 
+        src="Digital Baseband Transmission_files/Image521.gif" 
+      width=456></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>or taking the inverse Fourier transform, in the time 
+  domain</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=53 src="Digital Baseband Transmission_files/Image522.gif" 
+        width=255></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>where <IMG height=26 src="Digital Baseband Transmission_files/Image523.gif" 
+  width=110> is called the <STRONG>rolloff factor</STRONG> and represents the 
+  <STRONG>excess bandwidth</STRONG> over the ideal solution <I>W</I>. The 
+  frequency and time response for this frequency characteristic are given in 
+  Figure 17 and Figure 18 for values of <FONT face=Symbol>a</FONT>=0, 0.5 and 
+  1</P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=3 cellPadding=0 border=0>
+    <TBODY>
+    <TR>
+      <TD><IMG height=189 alt="wpe1.gif (3044 bytes)" 
+        src="Digital Baseband Transmission_files/Raised1.gif" width=302></TD>
+      <TD><IMG height=202 alt="wpe2.gif (3461 bytes)" 
+        src="Digital Baseband Transmission_files/Raised2.gif" width=277></TD></TR>
+    <TR>
+      <TD>The raised Cosine Filter Characteristics</TD>
+      <TD>The corresponding raised cosine waveforms</TD></TR></TBODY></TABLE></P>
+  <P>
+  <P align=justify>Looking at the impulse response we see that it has a part 
+  sinc(2<I>Wt</I>) which ensures that zero crossings of <I>p</I>(<I>t</I>) occur 
+  at the desired sampling intervals <I>t</I>=<I>iT<SUB>b</SUB></I> and a second 
+  factor decreasing as 1/<I>t<SUP>2</SUP></I> which attenuates the tails 
+  considerably reducing the sensitivity of the receiver to sampling time errors. 
+  The <STRONG>full cosine-rolloff </STRONG>with <FONT face=Symbol>a</FONT>=1 has 
+  the most gradual rolloff and the smallest tails in <I>p</I>(<I>t</I>). 
+  Additionally its pulse width at half amplitude is equal to the bit duration 
+  <I>T<SUB>b</SUB></I> and their are zero crossings at half integer intervals of 
+  <I>T<SUB>b</SUB></I> as well as at the sampling times which aid timing signal 
+  extraction for synchronisation purposes. However these desirable properties 
+  are at the expense of a channel bandwidth double that required by the ideal 
+  Nyquist channel. The effect of the raised cosine filter on the waveform 
+  corresponding to binary sequence is shown in Figure 19. This clearly 
+  demonstrated the superior properties of the raised cosine filter compared to 
+  that of the ideal Nyquist channel (Figure 16).</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=281 alt="wpeB.gif (4806 bytes)" 
+  src="Digital Baseband Transmission_files/Raised8.gif" width=362></P>
+  <P><B><A name=_Ref375702029>Figure 19</A> </B>Zero interchannel interference 
+  for the raised cosine filter with the sequence {1011010}.</P>
+  <P></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:27.125 GMT+1</I></P>
+  <H3>Duobinary Coding</H3>
+  <P>
+  <P>On completing this section you should be able to describe the principles of 
+  correlative coding and the operation of duobinary coding with and without 
+  precoding. </P>
+  <P></P>
+  <P>
+  <P align=justify><STRONG>Correlative-level coding or partial-response 
+  signalling</STRONG> schemes involve adding <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/dbt/IntersymbolInterference">intersymbol 
+  interference</A> to a transmitted signal in a controlled way so as to achieve 
+  a signalling rate closer to the Nyquist rate of 2W symbols per second in a 
+  channel of bandwidth W using realisable filters. Since the <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/dbt/IntersymbolInterference">intersymbol 
+  interference</A> is known its effect can be interpreted at the receiver in a 
+  deterministic way. The simplest such scheme is <STRONG>duobinary 
+  signalling</STRONG> also known as <STRONG>class I partial 
+  response</STRONG>.</P>
+  <P></P>
+  <P>
+  <P align=justify>In duobinary signalling we apply the incoming sequence of 
+  uncorrelated binary symbols {<I>b<SUB>k</SUB></I>} of duration 
+  <I>T<SUB>b</SUB></I> to a pulse amplitude modulator to produce a two-level 
+  sequence of short pulses {<I>a<SUB>k</SUB></I>} of corresponding amplitudes 
+  <FONT face=Symbol>±</FONT> 1. This two-level pulse sequence is passed to a 
+  <STRONG>duobinary encoder</STRONG> which transforms it to a sequence of 
+  three-level correlated pulses {<I>c<SUB>k</SUB></I>} consisting of the sum of 
+  the present input value <I>a<SUB>k</SUB></I> and the previous value 
+  <I>a<SUB>k</I>-1</SUB>.</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=26 src="Digital Baseband Transmission_files/Image527.gif" 
+        width=113></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>It does this by adding a (<I>T<SUB>b</SUB></I>) delayed 
+  version of the signal to itself. This is the introduction of <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/dbt/IntersymbolInterference">intersymbol 
+  interference</A> under the designers control, the basis of correlative level 
+  coding.</P>
+  <P></P>
+  <P>
+  <P align=justify>The overall transfer function of the duobinary signalling 
+  scheme is given by the simple delay line filter cascaded with <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/dbt/IdealNyquistChannel">the 
+  ideal Nyquist channel</A> given by</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=133 
+        src="Digital Baseband Transmission_files/Image528.gif" 
+      width=376></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>This function can easily be approximated in practice as there 
+  is continuity at the band edges i.e. this is a realisable filter..</P>
+  <P></P>
+  <P>
+  <P align=justify>In the time domain it will be two sinc pulses time displaced 
+  by <I>T<SUB>b</SUB></I> seconds and given by</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=130 
+        src="Digital Baseband Transmission_files/Image529.gif" 
+      width=301></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P><IMG height=400 hspace=15 
+  src="Digital Baseband Transmission_files/Image530.gif" width=343 
+  align=left></P>
+  <P></P>
+  <P>
+  <P align=justify>We see that the impulse response has only two distinguishable 
+  values at the sampling intervals. It is called partial-response signalling 
+  because the response in any single signalling interval is only partial. Note 
+  also that the tails in the response decay as <IMG height=33 
+  src="Digital Baseband Transmission_files/Image531.gif" width=43>, faster than 
+  in the ideal Nyquist channel. An estimate from the original pulse in the two 
+  level sequence <IMG height=26 
+  src="Digital Baseband Transmission_files/Image532.gif" width=23> can be 
+  obtained from <IMG height=26 
+  src="Digital Baseband Transmission_files/Image533.gif" width=111> so if the 
+  previous estimate was stored estimate was correct the current estimate will be 
+  correct too. This is called <STRONG>decision feedback</STRONG>. A drawback of 
+  this technique is that the output estimate depends on previous output 
+  estimates and therefore errors will tend to propagate through the output. This 
+  may be overcome by <STRONG>precoding </STRONG>before the duobinary coding 
+  converting the original binary sequence {<I>b<SUB>k</SUB></I>} into another 
+  {<I>d<SUB>k</SUB></I>} via</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=26 src="Digital Baseband Transmission_files/Image534.gif" 
+        width=116></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>which is the applied to the pulse modulator. Figure 22 shows 
+  a schematic of a duobinary encoder with precoding.</P>
+  <P></P>
+  <P>
+  <P><IMG height=161 alt="wpeD.gif (4957 bytes)" 
+  src="Digital Baseband Transmission_files/Duobin9.gif" width=609></P>
+  <P><B><A name=_Ref375702330>Figure 22</A></B> Duobinary coder with 
+  precoding</P>
+  <P></P>
+  <P>
+  <P align=justify>The combined use of this non-linear operation with the 
+  duobinary coding yields</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=61 src="Digital Baseband Transmission_files/Image536.gif" 
+        width=165></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P><IMG height=45 alt="wpeE.gif (1958 bytes)" 
+  src="Digital Baseband Transmission_files/Duobin10.gif" width=360 
+  align=right>and so a simple threshold decision rule may be used for detecting 
+  the original binary sequence from the duobinary sequence and there is no 
+  propagation of errors. </P>
+  <P></P>
+  <P>
+  <P align=justify>A table illustrating all the different signals for duobinary 
+  coding with precoding is given.</P>
+  <P></P>
+  <P>
+  <P align=right>&nbsp;</P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=0 cellPadding=2 border=1>
+    <TBODY>
+    <TR>
+      <TD vAlign=top>Binary Sequence {<I>b<SUB>l</SUB></I>}</TD>
+      <TD vAlign=top width="7%">&nbsp;</TD>
+      <TD vAlign=top width="7%">0</TD>
+      <TD vAlign=top width="7%">0</TD>
+      <TD vAlign=top width="7%">1</TD>
+      <TD vAlign=top width="7%">0</TD>
+      <TD vAlign=top width="7%">1</TD>
+      <TD vAlign=top width="7%">1</TD>
+      <TD vAlign=top width="7%">0</TD></TR>
+    <TR>
+      <TD vAlign=top>Precoded Sequence {<I>d<SUB>l</SUB></I>}</TD>
+      <TD vAlign=top width="7%">1</TD>
+      <TD vAlign=top width="7%">1</TD>
+      <TD vAlign=top width="7%">1</TD>
+      <TD vAlign=top width="7%">0</TD>
+      <TD vAlign=top width="7%">0</TD>
+      <TD vAlign=top width="7%">1</TD>
+      <TD vAlign=top width="7%">0</TD>
+      <TD vAlign=top width="7%">0</TD></TR>
+    <TR>
+      <TD vAlign=top>Two-Level sequence {<I>a<SUB>l</SUB></I>}</TD>
+      <TD vAlign=top width="7%">+1</TD>
+      <TD vAlign=top width="7%">+1</TD>
+      <TD vAlign=top width="7%">+1</TD>
+      <TD vAlign=top width="7%">-1</TD>
+      <TD vAlign=top width="7%">-1</TD>
+      <TD vAlign=top width="7%">+1</TD>
+      <TD vAlign=top width="7%">-1</TD>
+      <TD vAlign=top width="7%">-1</TD></TR>
+    <TR>
+      <TD vAlign=top>Duobinary Coder output {<I>c<SUB>l</SUB></I>}</TD>
+      <TD vAlign=top width="7%">&nbsp;</TD>
+      <TD vAlign=top width="7%">+2</TD>
+      <TD vAlign=top width="7%">+2</TD>
+      <TD vAlign=top width="7%">0</TD>
+      <TD vAlign=top width="7%">-2</TD>
+      <TD vAlign=top width="7%">0</TD>
+      <TD vAlign=top width="7%">0</TD>
+      <TD vAlign=top width="7%">-2</TD></TR>
+    <TR>
+      <TD vAlign=top>Decoded Sequence</TD>
+      <TD vAlign=top width="7%">&nbsp;</TD>
+      <TD vAlign=top width="7%">0</TD>
+      <TD vAlign=top width="7%">0</TD>
+      <TD vAlign=top width="7%">1</TD>
+      <TD vAlign=top width="7%">0</TD>
+      <TD vAlign=top width="7%">1</TD>
+      <TD vAlign=top width="7%">1</TD>
+      <TD vAlign=top width="7%">0</TD></TR></TBODY></TABLE>
+  <P><B>Figure 24</B> Table of signals for duobinary coding</P>
+  <P></P>
+  <P>
+  <P>The benefit of duobinary encoding arises because the pulse representing 1 
+  bit extends over two periods therefore reducing its bandwidth. However there 
+  is an overlap, one symbol with the next, so that the symbol rate is maintained 
+  at one bit per interval.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:24.578 GMT+1</I></P>
+  <H3>General correlative-level coding</H3>
+  <P>
+  <P>n completing this section you should be able to describe the principles of 
+  correlative coding in general. </P>
+  <P></P>
+  <P>
+  <P align=justify>General correlative level or partial response schemes use a 
+  tapped-delay-line filter with tap-weights <I>w</I><SUB>0</SUB>,<I> 
+  w</I><SUB>1</SUB>, …<I> w</I><SUB>n-1</SUB> to use a weighted linear 
+  combination of <I>N</I> ideal Nyquist pulses given by</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=63 src="Digital Baseband Transmission_files/Image538.gif" 
+        width=206></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P>This is illustrated in Figure 25.An appropriate choice of tap-weights 
+  results in a variety of spectral shapes. Given in Figure 26 is a table of 
+  tap-weights for different classes of partial response signalling schemes.</P>
+  <P></P>
+  <P>
+  <P><IMG height=351 alt="wpeF.gif (4943 bytes)" 
+  src="Digital Baseband Transmission_files/Genera11.gif" width=487></P>
+  <P><B><A name=_Ref375702780>Figure 25</A></B> General Correlative Coder</P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=0 cellPadding=2 border=1>
+    <TBODY>
+    <TR>
+      <TD vAlign=top>Type of class</TD>
+      <TD vAlign=top width="7%"><I>N</I></TD>
+      <TD vAlign=top width="8%"><I>w</I><SUB>0</SUB></TD>
+      <TD vAlign=top width="8%"><I>w</I><SUB>1</SUB></TD>
+      <TD vAlign=top width="8%"><I>w</I><SUB>2</SUB></TD>
+      <TD vAlign=top width="8%"><I>w</I><SUB>3</SUB></TD>
+      <TD vAlign=top width="8%"><I>w</I><SUB>4</SUB></TD>
+      <TD vAlign=top>&nbsp;</TD></TR>
+    <TR>
+      <TD vAlign=top>I</TD>
+      <TD vAlign=top width="7%">2</TD>
+      <TD vAlign=top width="8%">1</TD>
+      <TD vAlign=top width="8%">1</TD>
+      <TD vAlign=top width="8%">&nbsp;</TD>
+      <TD vAlign=top width="8%">&nbsp;</TD>
+      <TD vAlign=top width="8%">&nbsp;</TD>
+      <TD vAlign=top>Duobinary</TD></TR>
+    <TR>
+      <TD vAlign=top>II</TD>
+      <TD vAlign=top width="7%">3</TD>
+      <TD vAlign=top width="8%">1</TD>
+      <TD vAlign=top width="8%">2</TD>
+      <TD vAlign=top width="8%">1</TD>
+      <TD vAlign=top width="8%">&nbsp;</TD>
+      <TD vAlign=top width="8%">&nbsp;</TD>
+      <TD vAlign=top>&nbsp;</TD></TR>
+    <TR>
+      <TD vAlign=top>III</TD>
+      <TD vAlign=top width="7%">3</TD>
+      <TD vAlign=top width="8%">2</TD>
+      <TD vAlign=top width="8%">1</TD>
+      <TD vAlign=top width="8%">-1</TD>
+      <TD vAlign=top width="8%">&nbsp;</TD>
+      <TD vAlign=top width="8%">&nbsp;</TD>
+      <TD vAlign=top>&nbsp;</TD></TR>
+    <TR>
+      <TD vAlign=top>IV</TD>
+      <TD vAlign=top width="7%">3</TD>
+      <TD vAlign=top width="8%">1</TD>
+      <TD vAlign=top width="8%">0</TD>
+      <TD vAlign=top width="8%">-1</TD>
+      <TD vAlign=top width="8%">&nbsp;</TD>
+      <TD vAlign=top width="8%">&nbsp;</TD>
+      <TD vAlign=top>Modified Duobinary</TD></TR>
+    <TR>
+      <TD vAlign=top>V</TD>
+      <TD vAlign=top width="7%">5</TD>
+      <TD vAlign=top width="8%">-1</TD>
+      <TD vAlign=top width="8%">0</TD>
+      <TD vAlign=top width="8%">2</TD>
+      <TD vAlign=top width="8%">0</TD>
+      <TD vAlign=top width="8%">-1</TD>
+      <TD vAlign=top>&nbsp;</TD></TR></TBODY></TABLE>
+  <P><B><A name=_Ref375702948>Figure 26</A></B> Table of tap weights for 
+  different partial response signalling schemes</P>
+  <P></P>
+  <P>
+  <P align=justify>The duobinary signalling scheme has a power spectral density 
+  which is nonzero at the zero frequency i.e., has a d.c. component which is 
+  undesirable in many applications. Another common example is the so called 
+  <STRONG>modified duobinary signalling</STRONG> scheme which has the weighting 
+  factors <I>w</I><SUB>0</SUB>=+1, <I>w</I><SUB>1</SUB>=0, 
+  <I>w</I><SUB>2</SUB>=-1. Its transfer characteristics are shown in Figure 27 . 
+  As can be seen it has no d.c. component. As with <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/dbt/DuobinaryCoding">duobinary 
+  coding</A> precoding is used to remove error propagation.</P>
+  <P></P>
+  <P>
+  <P align=justify><IMG height=400 
+  src="Digital Baseband Transmission_files/Image540.gif" width=343></P>
+  <P><B><A name=_Ref375703318>Figure 27</A> </B>Frequency response of the 
+  modified duobinary conversion filter</P>
+  <P></P>
+  <P>
+  <P><IMG height=230 src="Digital Baseband Transmission_files/Image541.gif" 
+  width=409></P>
+  <P><B>Figure 28 </B>Impulse Response of the modified duobinary conversion 
+  filter</P>
+  <P></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:24.359 GMT+1</I></P>
+  <H3>Tapped-delay-line equalisation</H3>
+  <P>
+  <P>On completing this section you should be able to describe the principles 
+  behind equalisation, the tapped delay-line equaliser and adaptive 
+  equalisation. Determine the coefficients for a zero-forcing equaliser. </P>
+  <P></P>
+  <P>
+  <P><IMG height=80 alt="wpe2.gif (2296 bytes)" 
+  src="Digital Baseband Transmission_files/Tapped1.gif" width=323 align=left>In 
+  the characteristics of a communication channel are known precisely it is 
+  possible to choose transmit and receive filters to make the <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/dbt/IntersymbolInterference">intersymbol 
+  interference</A> at the sampling instants arbitrarily small. In practice 
+  however the communicational channel may not be known precisely and there may 
+  be limitations in the precision to which the filters can be manufactured. In 
+  this case there will be residual distortion and this can be compensated or 
+  equalised using an <STRONG>equaliser</STRONG> which is placed after the 
+  receive filter as shown in </P>
+  <P></P>
+  <P>
+  <P align=justify><IMG height=424 alt="wpe1.gif (5472 bytes)" 
+  src="Digital Baseband Transmission_files/Tapped2.gif" width=443 align=right>A 
+  common of equaliser, illustrated right, is the tapped-delay-line filter 
+  consisting of a symmetric arrangement of (2<I>N</I>+1) taps with weights 
+  <I>w</I><SUB>-N</SUB>,…,<I>w</I><SUB>-1</SUB>,<I>w</I><SUB>0</SUB>,<I>w</I><SUB>1</SUB>,…,<I>w<SUB>N</SUB></I> 
+  giving an impulse response</P>
+  <P></P>
+  <P>
+  <P><IMG height=45 src="Digital Baseband Transmission_files/Image239.gif" 
+  width=145></P>
+  <P></P>
+  <P>
+  <P align=justify>For a linear system of impulse <I>c</I>(<I>t</I>) followed by 
+  the equaliser we have the total impulse function</P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=205 
+  src="Digital Baseband Transmission_files/Image545.gif" width=226></P>
+  <P></P>
+  <P>
+  <P align=justify>Evaluating at sampling times <I>t</I>=<I>nT</I> we get the 
+  <STRONG>discrete convolution sum</STRONG></P>
+  <P></P>
+  <P>
+  <P align=center><IMG height=56 
+  src="Digital Baseband Transmission_files/Image546.gif" width=218></P>
+  <P></P>
+  <P>
+  <P align=justify>To eliminate <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/dbt/IntersymbolInterference">intersymbol 
+  interference</A> completely we require that there be no contributions from the 
+  current pulse signal at the sampling time from all other pulse signals. We 
+  note that here we have only 2<I>N</I>+1 coefficients and can only satisfy the 
+  ideal condition for the 2<I>N</I> nearest neighbouring pulses. To achieve this 
+  we have (2<I>N</I>+1) simultaneous equations relating the filter weighting 
+  factors to the signal contributions at discrete time intervals</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=61 src="Digital Baseband Transmission_files/Image547.gif" 
+        width=345></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>or in matrix form</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=211 
+        src="Digital Baseband Transmission_files/Image548.gif" 
+      width=455></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>A tapped delay line equaliser described by this equation is 
+  referred to as a <STRONG>zero-forcing equaliser</STRONG>. It is optimum in the 
+  sense that it minimises the peak distortion and is relatively easy to 
+  implement. The longer we make the equaliser (the larger <I>N</I> is) the more 
+  closely the equalised system approaches the ideal of the Nyquist condition for 
+  distortionless transmission.</P><FONT size=3><I>
+  <P></P>
+  <P>
+  <H3>Adaptive Equalisation.</I></FONT></H3>
+  <P></P>
+  <P>
+  <P align=justify>In a telecommunications environment the channel is usually 
+  time varying. For example in a switched telephone network there may be 
+  differences between individual transmission links and in the number of 
+  transmission links switched in a connection. A fixed equaliser may not 
+  therefore be adequate to eliminate intersymbol interference and there is need 
+  for <STRONG>adaptive equalisation </STRONG>where the equaliser adjusts the 
+  weighting coefficients continuously and automatically. Generally the equaliser 
+  is used at the receiving end of the transmission system (<STRONG>postchannel 
+  equalisation</STRONG>). Prior to data transmission a suitable <STRONG>training 
+  sequence</STRONG> is transmitted through the channel allowing the filter to 
+  adjust its parameters. This is called precall equalisation and is usually 
+  sufficient as the average telephone channel changes little during a call. 
+  Generally the tapped delay line filter is synchronous in that the tap delay 
+  spacing is the same as the symbol duration of the transmitted signal.</P>
+  <P></P>
+  <P>
+  <P align=justify>The adaptation may be achieved by observing the error between 
+  the desired pulse shape and the actual pulse shape at the filter output 
+  measured at the sampling instants, and using this error to estimate the 
+  direction in which the tap-weights need to be changed to approach the optimum. 
+  We may use a <STRONG>peak distortion criterion</STRONG> minimising the 
+  worst-case <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/dbt/IntersymbolInterference">intersymbol 
+  interference</A> at the equaliser output similar to the zero-forcing concept 
+  described previously. Such an equaliser is optimum only when the peak 
+  distortion is not too severe and suffers from sensitivity to timing 
+  perturbations. More commonly a <STRONG>mean-square error criterion</STRONG> is 
+  used that is for minimum mean-square error, the cross-correlation between the 
+  output error sequence and the input sequence must have zeros for the 
+  (2<I>N</I>+1) components with integer lags corresponding to the index values 
+  of the available tap-weights of the filter. The algorithm used to achieve this 
+  is the <STRONG>least-mean-square (LMS) algorithm</STRONG> (see Haykin p. 455). 
+  During the training mode a known sequence, usually a pseudo-noise sequence 
+  i.e. deterministic with noise like characteristics, is transmitted. A 
+  synchronised version of this is generated at the receiver and compared with 
+  the received data to adjust the equaliser according to the LMS algorithm. The 
+  equaliser is then switched to decision directed mode. In this mode the 
+  decisions made by the equaliser are correct with high probability and the 
+  equaliser can use its estimate of the symbols to determine the error signal. 
+  The equaliser can therefore track relatively slow changes in channel 
+  characteristics.</P>
+  <P></P>
+  <P>
+  <P align=justify>Implementations of the LMS algorithm may be carried out using 
+  hardwired digital electronics, using programmable digital electronics or where 
+  the symbol weight is too high for digital implementation using 
+  <STRONG>charge-coupled device</STRONG> (CCD) technology.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:27.796 GMT+1</I></P>
+  <H3>Baseband M-ary PAM Transmission</H3>
+  <P>
+  <P>On completing this section you should be able to describe baseband M-ary 
+  transmission and compare with binary transmission. </P>
+  <P></P>
+  <P>
+  <P><IMG height=220 alt="wpe1.gif (2825 bytes)" 
+  src="Digital Baseband Transmission_files/Baseba1.gif" width=312 align=right>In 
+  a <STRONG>baseband M-ary PAM system</STRONG> the pulse amplitude modulator is 
+  used to produce of one of <I>M</I> possible amplitude levels. Illustrated in 
+  Figure 31 is the quaternary case with <I>M</I>=4 and the binary sequence 00 10 
+  11 01 11. In an <I>M</I>-ary system the information source emits an alphabet 
+  with <I>M</I> symbols and each amplitude at the modulator output corresponds 
+  to a distinct symbol so there are <I>M</I> distinct amplitude levels to be 
+  transmitted. Figure 32 shows the amplitude mapping used in the example 
+  quaternary system.</P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=0 cellPadding=2 align=left border=1 HSPACE="15">
+    <TBODY>
+    <TR>
+      <TD vAlign=top width="43%">Dibit</TD>
+      <TD vAlign=top width="57%">Amplitude</TD></TR>
+    <TR>
+      <TD vAlign=top width="43%">00</TD>
+      <TD vAlign=top width="57%">-1.5</TD></TR>
+    <TR>
+      <TD vAlign=top width="43%">01</TD>
+      <TD vAlign=top width="57%">-0.5</TD></TR>
+    <TR>
+      <TD vAlign=top width="43%">10</TD>
+      <TD vAlign=top width="57%">+0.5</TD></TR>
+    <TR>
+      <TD vAlign=top width="43%">11</TD>
+      <TD vAlign=top width="57%">+1.5</TD></TR></TBODY></TABLE></P>
+  <P>
+  <P align=justify>The symbol duration is denoted by <I>T</I> and we refer to 
+  1/<I>T</I> as the signalling rate in symbols per second or <EM>baud</EM>. In 
+  general in an <I>M</I>-ary system each baud is equal to log<SUB>2 
+  </SUB><I>M</I> bits per second and the symbol duration may be related to the 
+  bit duration <I>T<SUB>b</SUB></I> of an equivalent binary PAM system as</P>
+  <P></P>
+  <P>
+  <BLOCKQUOTE>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <P><IMG height=26 src="Digital Baseband Transmission_files/Image550.gif" 
+        width=120></P></BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE>
+  <P></P>
+  <P>
+  <P align=justify>Therefore in a given channel bandwidth we find that by using 
+  an <I>M</I>-ary PAM we are able to transmit information at a rate that is 
+  log<SUB>2 </SUB><I>M</I> times faster than the corresponding binary system. 
+  However to realise the same average probability of error an <I>M</I>-ary PAM 
+  system requires more transmitted power. For <I>M<FONT 
+  face="Lucida Bright Math Symbol">@</FONT> </I>2 and the average probability of 
+  error much less than 1 the transmitted power must be increased by a factor 
+  <IMG height=30 src="Digital Baseband Transmission_files/Image551.gif" 
+  width=101>compared to a binary PAM system.</P>
+  <P></P>
+  <P>
+  <P align=justify>The transmitter and receiver for an <I>M</I>-ary PAM system 
+  are necessarily more complex than the equivalent binary PAM system. In 
+  particular at the receiver the signal must be compared to a number of 
+  <STRONG>threshold</STRONG> or <STRONG>slicing</STRONG> levels. The procedures 
+  used in designing the transmission and receive filters and for calculating <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/dbt/ErrorRateDueToNoise">the 
+  error rate due to noise</A> are similar to those used for baseband binary PAM. 
+  Not that such modulation schemes involve an energy variation i.e. symbols have 
+  varying energies. They are therefore generally not suitable for transmission 
+  channels which contain a non-linear response.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:25.796 GMT+1</I></P>
+  <H3>Line code requirements</H3>
+  <P>
+  <P>On completing this section you should be able to state and discuss the 
+  requirements for linecodes. </P>
+  <P></P>
+  <P>
+  <P align=justify>After information has been source coded to remove redundancy 
+  and error-correct coded the signal may require further encoding to be give 
+  good baseband transmission characteristics. In particular the frequency 
+  spectrum should ‘match’ the channel spectrum.</P>
+  <P></P>
+  <P>
+  <P><IMG height=212 hspace=15 
+  src="Digital Baseband Transmission_files/Image552.gif" width=342 align=right> 
+  PCM signals are often carried over cables originally installed for analogue 
+  telephony. In order to minimise distortion in such cables they are 
+  artificially loaded with inductive coils at ~2km intervals which introduces 
+  high losses at frequencies above ~4kHz. The inductors must be removed to 
+  improve the high frequency response.</P>
+  <P></P>
+  <P>
+  <P><IMG height=98 hspace=15 
+  src="Digital Baseband Transmission_files/Image553.gif" width=347 align=left> 
+  Another serious problem for PCM is that ~2km sections of the analogue cable 
+  are coupled together using transformers meaning that there is no dc path 
+  through the transmission system. The effect of this is to introduce ‘droop’ of 
+  the signal level when long sequences of a constant amplitude occur resulting 
+  in drop below the decision threshold and errors. Appropriate line coding would 
+  generate a signal with no d.c. component.</P>
+  <P></P>
+  <P>
+  <P align=justify>It is often also important that the spectrum of the 
+  transmitted waveform have a component at the bit rate frequency to enable 
+  bit-rate clock recovery at the receiver. A summary of the requirements on a 
+  line code are given below.</P>
+  <P></P>
+  <P>
+  <UL>
+    <LI><STRONG>Transparency</STRONG>: The code must be independent of bit 
+    sequence to impose no restrictions on message content 
+    <LI><STRONG>Efficiency</STRONG>: Each symbol of the code should contribute 
+    to information transmission 
+    <LI><STRONG>Unique Decodability</STRONG>: Each symbol must be able to be 
+    decoded without ambiguity to yield the original bit sequence 
+    <LI><STRONG>Suitable Energy Spectrum</STRONG>: Zero dc component and small 
+    low frequency content to avoid baseline wandering; small high frequency 
+    content to minimise effects of inter-channel interference 
+    <LI><STRONG>Timing Information Content</STRONG>: For ease of clock 
+    extraction, coded signal should have high energy content at clock frequency 
+    </LI></UL>
+  <P></P>
+  <P>
+  <P align=justify>In a <STRONG>binary code</STRONG> each binary symbol may be 
+  either of two distinct values, normally denoted as 0 and 1. In a 
+  <STRONG>ternary code</STRONG> each symbol may be one of three distinct values 
+  or kinds. <STRONG>Pseudo-ternary</STRONG> codes also use three levels but 
+  carry no more information per bit than a binary code.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:25.718 GMT+1</I></P>
+  <H3>Binary Signalling Formats</H3>
+  <P>
+  <P>On completing this section you should be able to describe the various 
+  binary signalling formats. </P>
+  <P></P>
+  <P>
+  <P><IMG height=446 alt="wpe2.gif (7516 bytes)" 
+  src="Digital Baseband Transmission_files/Binary2.gif" width=525></P>
+  <P><B>Figure 35</B> Binary Signalling Formats</P>
+  <P></P>
+  <P>
+  <P align=justify>Shown above are examples of the different binary signalling 
+  formats. Computer experiment 3 demonstrates many of the properties of the 
+  different binary signalling formats.</P>
+  <P></P>
+  <P>
+  <H3>Of-Off Signalling</H3>
+  <P></P>
+  <P>
+  <P align=justify>Each Symbol 1 is represented by transmitting a pulse of 
+  constant amplitude for the duration of the symbol and each 0 is represented by 
+  turning off the symbol.</P>
+  <P></P>
+  <P>
+  <H3>Nonreturn-to-zero (NRZ) Signalling</H3>
+  <P></P>
+  <P>
+  <P align=justify>Symbols 1 and 0 are represented by pulses of equal positive 
+  and negative amplitudes.</P>
+  <P></P>
+  <P>
+  <H3>Return-to-zero (RZ) Signalling</H3>
+  <P></P>
+  <P>
+  <P align=justify>Each signal 1 is represented by a positive pulse of width 
+  less than the symbol width (here a rectangular pulse of half symbol width) and 
+  each symbol 0 is represented by transmitting no pulse.</P>
+  <P></P>
+  <P>
+  <H3>Bipolar Return-to-zero (BRZ) signalling</H3>
+  <P></P>
+  <P>
+  <P align=justify>It uses three levels (a pseudo-ternary code). Positive and 
+  negative pulses of equal amplitude are use alternately for symbol 1 and no 
+  pulse is used for symbol 0. This is also known as alternate mark inversion 
+  (AMI) encoding. On average this coding scheme produces a signal with no d.c. 
+  component allowing transmission through lengths of line that are transformer 
+  coupled and therefore have no d.c. signal path. The symbol rate does not 
+  increase and decoding is achieved by rectification. In regenerators the 
+  positive marks and the negative marks have to be handled separately. The 
+  efficiency is rather low, each ternary symbol being capable of transmitting 
+  1.6 bits, and as the code carries 1 bit per symbol the redundancy is 60%. It 
+  has an error detecting capability since errors can violate the simple coding 
+  rule. The pulses may be of width less than the symbol width. This is also 
+  called alternate mark inversion.</P>
+  <P></P>
+  <P>
+  <H3>Split-phase (Manchester code)</H3>
+  <P></P>
+  <P>
+  <P align=justify>Each symbol 1 is represented by a positive pulse followed by 
+  a negative pulse with both pulses being of equal amplitude and half symbol 
+  width. For symbol 0 the polarities of the two pulses are reversed. The d.c. 
+  component is suppressed and the Manchester code has relatively insignificant 
+  low-frequency components independent of signal statistics.</P>
+  <P></P>
+  <P>
+  <H3>Differential Encoding</H3>
+  <P></P>
+  <P>
+  <P align=justify>The information is encoded in terms of signal transitions. In 
+  the example shown a transition represents a symbol 0 and no transition 
+  represents a 1. The coded signal may be inverted without loss of information. 
+  Recovery is performed by comparing the polarity of adjacent symbols to 
+  establish whether or not a transition has occurred.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:23.234 GMT+1</I></P>
+  <H3>Runlength Limited Codes</H3>
+  <P>
+  <P>On completing this section you should be able to describe the HDB3 
+  run-length limited code. </P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=0 cellPadding=2 align=right border=1 HSPACE="15">
+    <TBODY>
+    <TR>
+      <TD vAlign=top width="38%">Input Data Bits</TD>
+      <TD vAlign=top width="62%">Output Coded Sequence</TD></TR>
+    <TR>
+      <TD vAlign=top width="38%">0</TD>
+      <TD vAlign=top width="62%"><I>x</I> 0</TD></TR>
+    <TR>
+      <TD vAlign=top width="38%">1</TD>
+      <TD vAlign=top width="62%">0 1</TD></TR>
+    <TR>
+      <TD vAlign=top colSpan=2><I>x</I>=0, if preceding input bit is 1</TD></TR>
+    <TR>
+      <TD vAlign=top colSpan=2>x=1, if preceding input bit is 
+  0</TD></TR></TBODY></TABLE></P>
+  <P>
+  <P align=justify>Codes that have a restriction on the number of consecutive 1s 
+  or 0s in a sequence are generally called <STRONG>runlength-limited 
+  codes</STRONG>. These codes are generally described by two parameters, say 
+  <I>d</I> and <FONT face=Symbol><I>k</I></FONT> where <I>d</I> denotes the 
+  minimum number of 0s between 2 1s in a sequence and <FONT 
+  face=Symbol><I>k</I></FONT> denotes the maximum number of 0s between 2 1s in a 
+  sequence. When used with NRZI modulation, the effect of placing <I>d</I> 0s 
+  between successive 1s is to spread the transitions farther apart, thus 
+  reducing the overlap in the channel response due to successive transitions and 
+  thus reducing of inter-symbol interference. Setting an upper limit <FONT 
+  face=Symbol><I>k</I></FONT> on the runlength of 0s occurs that transitions 
+  occur frequently enough so that symbol timing information can be recovered 
+  from the received modulated signal.</P>
+  <P></P>
+  <P>
+  <P align=justify>Runlength limited codes are commonly denoted (<I>d</I>,<FONT 
+  face=Symbol><I>k</I></FONT>). Such codes may be represented by a finite state 
+  sequence machine with <FONT face=Symbol><I>k</I></FONT>+1 states. A code 
+  commonly used in magnetic recording is the Miller code which is coded as shown 
+  in table Figure 36 which ensures appropriate transitions for the magnetic 
+  pick-up head.</P>
+  <P></P>
+  <P>
+  <H3>High Density Bipolar 3</H3>
+  <P></P>
+  <P>
+  <P align=justify>This code is a variant on alternate mark inversion (AMI) 
+  which ensures that no more than 3 zeros are transmitted together. It is so 
+  called because it has higher density of marks than AMI, it is bipolar like 
+  AMI, i.e. has both +1 and -1 as well as zero, while the "3" in its name is the 
+  maximum number of zeros.</P>
+  <P></P>
+  <P>
+  <TABLE cellSpacing=0 cellPadding=2 border=1 HSPACE="4">
+    <TBODY>
+    <TR>
+      <TD vAlign=top width="41%"><A name=_Ref353450632>Polarity of Preceding 
+        Pulse</A></TD>
+      <TD vAlign=top width="59%" colSpan=2>Number of pulses since last bipolar 
+        violation</TD></TR>
+    <TR>
+      <TD vAlign=top width="41%">&nbsp;</TD>
+      <TD vAlign=top width="31%">ODD</TD>
+      <TD vAlign=top width="28%">EVEN</TD></TR>
+    <TR>
+      <TD vAlign=top width="41%">+</TD>
+      <TD vAlign=top width="31%"><FONT 
+        face="Lucida Sans Typewriter">000+</FONT></TD>
+      <TD vAlign=top width="28%"><FONT 
+        face="Lucida Sans Typewriter">-00-</FONT></TD></TR>
+    <TR>
+      <TD vAlign=top width="41%">-</TD>
+      <TD vAlign=top width="31%"><FONT 
+        face="Lucida Sans Typewriter">000-</FONT></TD>
+      <TD vAlign=top width="28%"><FONT 
+        face="Lucida Sans Typewriter">+00+</FONT></TD></TR></TBODY></TABLE></P>
+  <P>
+  <P align=justify>The coding is as follows. When four zeros occur in the binary 
+  (NRZ) signal the AMI waveforms, which should be entirely zero is replaced by a 
+  code which violates the AMI polarity rule to distinguish it from a real mark 
+  representing a 1. The actual code transmitted depends on the polarity of the 
+  preceding binary 1 and on whether the number of binary 1s transmitted since 
+  the last HDB3 code (bipolar violation) is odd or even as shown in Table 1 
+  below. Figure 37 is an example showing HDB3 coding of a waveform and comparing 
+  it with AMI, RZ and NRZ waveforms. </P>
+  <P></P>
+  <P>
+  <P align=justify>Error detection is still available with this code, because 
+  violations of the code rules will be observed, albeit after a few digits have 
+  been transmitted beyond the violation because decoding cannot be done 
+  instantaneously.</P>
+  <P></P>
+  <P>
+  <P><IMG height=422 alt="wpe6.gif (10933 bytes)" 
+  src="Digital Baseband Transmission_files/Runlen3.gif" width=711></P></A>
+  <P><B><A name=_Ref353500202>Figure 37</A></B> HDB3 Coding</P>
+  <P></P>
+  <P>
+  <TABLE cellPadding=2 border=1>
+    <TBODY></TBODY></TABLE></P>
+  <P><I>willijar, 2001/04/05 08:19:27.218 GMT+1</I></P>
+  <H3>The Eye Diagram</H3>
+  <P>
+  <P>On completing this section you should be able to describe the eye diagram 
+  and how it can be used to determine the performance of a digital 
+  communications system. </P>
+  <P></P>
+  <P>
+  <P><IMG height=359 alt="wpe1.gif (14048 bytes)" 
+  src="Digital Baseband Transmission_files/Eye%20Di1.gif" width=437 
+  align=right>An important diagnostic technique used in the operational 
+  environment for evaluating the performance of communication system is the eye 
+  pattern or eye diagram. It is the synchronised superposition of all possible 
+  realisations of the signal of interest viewed within a particular signalling 
+  interval and is recorded by superimposing multiple sweeps in a storage 
+  oscilloscope. The interior region of the eye diagram is called the eye 
+  opening.</P>
+  <P></P>
+  <P>
+  <P align=justify>The eye pattern provides a good deal of information about the 
+  performance of a data transmission system.</P>
+  <P></P>
+  <P>
+  <UL>
+    <LI>The width of the eye opening (A) defines the time interval over which 
+    the received signal can be sampled without error from intersymbol 
+    interference, it is apparent that the optimum sampling time is the instant 
+    where the eye is open the widest (t*). 
+    <LI>The sensitivity of the system to timing errors is determined by the rate 
+    of closure of the eye as the sampling time is varied (slope D above). 
+    <LI>The height of the eye opening, (B), at a specified sampling time, 
+    defines the noise margin of the system. 
+    <LI>The distortion of zero crossings (c) 
+    <LI>The maximum distortion (E) </LI></UL>
+  <P></P>
+  <P>
+  <P align=justify>When the effect of <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/dbt/IntersymbolInterference">intersymbol 
+  interference</A> is severe the upper traces cross the lower traces resulting 
+  in a closed eye. In such a situation it is impossible to avoid errors will 
+  occur due to the combined effects of noise and <A 
+  href="http://benedick.aston.ac.uk:8080/tutorials/dbt/IntersymbolInterference">intersymbol 
+  interference</A> in the system.</P>
+  <P></P>
+  <P>
+  <P align=justify>In the case of an M-ary system the eye pattern contains (M-1) 
+  eye openings vertically above each other. In linear systems with random data 
+  all eye openings should be identical however in practice nonlinearities in the 
+  communication channel will lead to asymmetries in the eye pattern.</P>
+  <P></P>
+  <P><I>willijar, 2001/04/05 08:19:24.968 GMT+1</I></P></DL>
+<HR>
+
+<P><I>Tutorial Path created by willijar at 2001/04/05 08:19:46.984 GMT+1</I></P>
+<TABLE width="100%" border=0>
+  <STYLE type=text/css>A {
+	TEXT-DECORATION: none
+}
+</STYLE>
+
+  <TBODY>
+  <TR>
+    <TD align=middle colSpan=3><BR><IMG height=2 alt=HR 
+      src="Digital Baseband Transmission_files/hr.gif" width=500> </TD></TR>
+  <TR>
+    <TD vAlign=top width=120><A href="http://www.aston.ac.uk/"><IMG 
+      alt="Aston University - the real world university" 
+      src="Digital Baseband Transmission_files/unilogomidsmall.gif" border=0> 
+      </A></TD>
+    <TD vAlign=top align=middle><A class=corporategreen 
+      href="http://www.aston.ac.uk/"><B>w w w . a s t o n . a c . u 
+      k</B></A><BR><SMALL class=blue>Aston University, Aston Triangle, 
+      Birmingham B4 7ET, United Kingdom</SMALL> <BR><SMALL>t: +44 (0) 121 359 
+      3611&nbsp;&nbsp;&nbsp;&nbsp;f: +44 (0) 121 359 0156 
+      &nbsp;&nbsp;&nbsp;&nbsp;<A style="COLOR: black" 
+      href="mailto:J.A.R.Williams@aston.ac.uk">mailto:J.A.R.Williams@aston.ac.uk</A> 
+      <BR>Last modified: Apr 22, 2001 1:41 pm</SMALL> <BR><SMALL 
+      class=copyright>Copyright © 2000,2001 Aston University.</SMALL><BR><A 
+      href="http://benedick.aston.ac.uk:8080/legalise">Legalise</A> | <A 
+      href="http://benedick.aston.ac.uk:8080/privacy">Privacy Statement</A> | <A 
+      href="http://benedick.aston.ac.uk:8080/tutorials/paths/dbt/entire_html?printable=1">Printable 
+      Version</A> </TD>
+    <TD vAlign=top width=120 rowSpan=2></TD></TR></TBODY></TABLE></BODY></HTML>

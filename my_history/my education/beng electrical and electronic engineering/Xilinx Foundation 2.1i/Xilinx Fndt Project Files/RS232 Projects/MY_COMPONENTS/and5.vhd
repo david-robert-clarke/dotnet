@@ -1,0 +1,12 @@
+-- Created by David Clarke for the RS232 assignment
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+Entity AND5 IS
+Port (a, b, c, d, e : IN std_logic; z : OUT std_logic);
+End Entity AND5;
+
+Architecture Behavioural OF AND5 IS
+Begin
+   z <= a AND b AND c AND d AND e;
+End Architecture Behavioural;

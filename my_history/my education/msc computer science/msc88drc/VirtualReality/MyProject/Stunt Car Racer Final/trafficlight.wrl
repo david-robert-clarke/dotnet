@@ -1,0 +1,136 @@
+#VRML V2.0 utf8
+
+
+PROTO theTrafficLight[
+field SFVec3f trafficLightPosition 0 0 0  #the current position of the traffic light
+]
+{
+Transform{
+children[
+DEF trafficLight Transform{
+          	translation IS trafficLightPosition
+          	children[
+          		DEF headUnit Transform{
+         	 	translation 0 0 0
+         	 	children[
+          			Shape {
+          			geometry Box{
+          			size 0.5 1 0.5
+          			}
+          			appearance DEF darkAppearance Appearance {
+          			material Material{
+          			diffuseColor 0.25 0.25 0.25
+          			}
+        			}
+        			}
+        			]
+        		}
+        		DEF redLight Transform{
+        		translation 0 0 0.2
+        		children[
+        			Shape{
+        			geometry Sphere{radius 0.15}
+        			appearance Appearance{
+        			material DEF lightColor Material{
+        			emissiveColor 0.73 0.34 0.44
+        			}
+        			}
+        			}
+        			]
+        		}
+        		DEF amberLight Transform{
+        		translation 0 0.3 0
+        		children USE redLight
+        		}
+
+                        DEF greenLight Transform{
+                        translation 0 -0.3 0
+                        children USE redLight
+                        }
+
+                        DEF trafficLightPole Transform{
+                        translation 0 -1.75 0
+                        children[
+                        	Shape{
+                        	geometry Cylinder{radius 0.1
+                        			 height 2.5}
+                        	appearance USE darkAppearance
+                        	}
+                        	]
+                        }
+        ]
+        }
+
+DEF button Transform{
+        translation IS trafficLightPosition
+	children[
+		DEF buttonText Transform{
+		translation 0 1 5
+		children[
+			Shape{
+			geometry Text {
+   			string ["Click Here And Hold To Start"]
+   			fontStyle FontStyle{
+                	size 0.8
+                	justify "MIDDLE"
+                	style "BOLDITALIC"
+            		}
+  			maxExtent 10
+   			length 6
+			}
+			appearance Appearance{
+			material Material{
+			emissiveColor 0 0 1
+			}
+			}
+		}
+		DEF touch TouchSensor{}
+		]
+	}
+]
+}
+
+DEF TIMER TimeSensor {
+   cycleInterval 5
+   enabled FALSE
+   loop TRUE
+}
+
+DEF myScript Script{
+         ## function declaration
+         eventIn  SFFloat theFractionChange
+         eventOut SFColor theNewColor
+         url "javascript:
+            function initialize() {
+               theNewColor[0] = 1;
+               theNewColor[1] = 0;
+               theNewColor[2] = 0;
+            }
+            // function definition
+            function theFractionChange(value, ts){
+                if(value < 0.1)
+                {
+
+                	theNewColor[0] = 0;
+                	theNewColor[1] = 1;
+                	theNewColor[2] = 0;
+                }
+                else if(value < 0)
+                {
+                	theNewColor[0] = 1;
+              	 	theNewColor[1] = 0;
+               		theNewColor[2] = 0;
+                }
+
+        	}"
+}
+]
+}
+ROUTE touch.isActive TO TIMER.enabled                          #Route the touch sensor to the enable the timer
+ROUTE TIMER.fraction_changed TO myScript.theFractionChange     #Route the timer to the java sript
+ROUTE myScript.theNewColor TO lightColor.set_emissiveColor     #Route java script control to traffic light colour change
+
+}
+
+theTrafficLight{}
+

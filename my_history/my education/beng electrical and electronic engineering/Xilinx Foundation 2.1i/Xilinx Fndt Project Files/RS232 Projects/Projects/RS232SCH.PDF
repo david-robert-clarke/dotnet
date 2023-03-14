@@ -1,0 +1,91 @@
+[project]
+name=rs232sch
+netlist=rs232sch
+contents=rs232sch
+date=10/31/100
+time=19:03:48
+version=3.1.5.00.34e
+generics=MAX
+Type=F21i
+top_level=schematic
+library_net=ON
+sim_mode=FUNC
+pdf_dir=c:\fndtn\active\projects\
+lib_order=1004 133 155
+
+[libraries]
+1004=
+133=c:\fndtn\active\syslib\simprims
+155=c:\fndtn\active\syslib\xc4000x
+
+[xilinx]
+libraries=unified
+family=2
+xact9=On
+xfam=XC4000XL
+
+[device]
+xilinx=4002XLPC84-09
+part=4002XLPC84-09
+
+[netlist]
+external=FALSE
+
+[Schematic]
+Table01=Project
+Table02=Macro
+Table03=Date
+Table04=Date Last Modified
+
+[sheets]
+rs232s15=
+
+[Log]
+netlist.log=Simulator Netlist Log
+exp_EDIF.log=Export netlist to EDIF 200
+
+[timings]
+rs232sch=
+
+[sc_config]
+Firm Name=David Clarke
+Table Data 1=Aston University
+Table Data 2=RS232ASM_CNTR_COMBO
+Table Data 3=
+
+[OpenDoc]
+hde/Decode=0,0,-4,-4,1028,744,Decode.vhd
+hde/Parity_Test=0,0,3000,3000,3000,3000,Parity_Test.vhd
+
+[implement_XIE]
+version=ver1
+revision=rev1
+
+[implement_HDL]
+family=2
+xfam=XC4000XL
+part=4002XLPC84-09
+xilinx=4002XLPC84-09
+
+[OPEN32]
+nMaxFile=261
+lpstrFile=
+lpstrFilter=Project Files (*.PDF)|*.pdf||
+lpstrInitialDir=c:\fndtn\active\projects\
+lpstrTitle=Select file
+nFilterIndex=0
+Flags=530436
+cmdLine=-h 2920 -hp 3992 -m PCM_OPEN_32_MESSAGE -f C:\FNDTN\ACTIVE\PROJECTS\current.pdf
+
+[APP_95]
+lid=0
+oid=0
+source=C:\FNDTN\ACTIVE\PROJECTS\RS232SCH\RS232S15.SCH
+full_path=C:\Fndtn\Active\Projects\RS232CON.zip
+
+[FILE7]
+scan_time=975054415
+
+[sc_desk]
+desk00=C:\FNDTN\ACTIVE\PROJECTS\RS232SCH\RS232S15.SCH, 22, 22, 815, 448, 1
+

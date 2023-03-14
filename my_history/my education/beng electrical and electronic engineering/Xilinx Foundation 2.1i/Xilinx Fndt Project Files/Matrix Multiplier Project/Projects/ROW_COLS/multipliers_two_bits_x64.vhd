@@ -1,0 +1,113 @@
+-- Final Year Project
+-- By David Clarke
+-- Created 30_1_2001
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_ARITH.ALL;
+USE WORK.MATRIX_PACKAGE.ALL;
+
+ENTITY Multipliers_two_bits_x64 IS
+PORT (A11, A12, A13, A14, B11, B12, B13, B14, 
+      A21, A22, A23, A24, B21, B22, B23, B24,
+      A31, A32, A33, A34, B31, B32, B33, B34,
+      A41, A42, A43, A44, B41, B42, B43, B44 : IN UNSIGNED (1 downto 0);
+
+      MUL63, MUL62, MUL61, MUL60, MUL59, MUL58, MUL57, MUL56,
+      MUL55, MUL54, MUL53, MUL52, MUL51, MUL50, MUL49, MUL48,
+      MUL47, MUL46, MUL45, MUL44, MUL43, MUL42, MUL41, MUL40,
+      MUL39, MUL38, MUL37, MUL36, MUL35, MUL34, MUL33, MUL32,
+      MUL31, MUL30, MUL29, MUL28, MUL27, MUL26, MUL25, MUL24,
+      MUL23, MUL22, MUL21, MUL20, MUL19, MUL18, MUL17, MUL16,
+      MUL15, MUL14, MUL13, MUL12, MUL11, MUL10, MUL9, MUL8,
+      MUL7, MUL6, MUL5, MUL4, MUL3, MUL2, MUL1, MUL0: OUT UNSIGNED (3 downto 0));
+     
+END ENTITY Multipliers_two_bits_x64;
+
+ARCHITECTURE Structural of Multipliers_two_bits_x64 is
+
+Begin
+
+	MUL63 <= A11 * B11;
+	MUL62 <= A12 * B21;
+	MUL61 <= A13 * B31;
+	MUL60 <= A14 * B41;
+	
+	MUL59 <= A21 * B11;
+	MUL58 <= A22 * B21;
+	MUL57 <= A23 * B31;
+	MUL56 <= A24 * B41;
+	
+	MUL55 <= A31 * B11;
+	MUL54 <= A32 * B21;
+	MUL53 <= A33 * B31;
+	MUL52 <= A34 * B41;
+	
+	MUL51 <= A41 * B11;
+	MUL50 <= A42 * B21;
+	MUL49 <= A43 * B31;
+	MUL48 <= A44 * B41;
+	-- first
+	MUL47 <= A11 * B12;
+	MUL46 <= A12 * B22;
+	MUL45 <= A13 * B32;
+	MUL44 <= A14 * B42;
+	
+	MUL43 <= A21 * B12;
+	MUL42 <= A22 * B22;
+	MUL41 <= A23 * B32;
+	MUL40 <= A24 * B42;
+	
+	MUL39 <= A31 * B12;
+	MUL38 <= A32 * B22;
+	MUL37 <= A33 * B32;
+	MUL36 <= A34 * B42;
+	
+	MUL35 <= A41 * B12;
+	MUL34 <= A42 * B22;
+	MUL33 <= A43 * B32;
+	MUL32 <= A44 * B42;
+	--second
+	MUL31 <= A11 * B13;
+	MUL30 <= A12 * B23;
+	MUL29 <= A13 * B33;
+	MUL28 <= A14 * B43;
+	
+	MUL27 <= A21 * B13;
+	MUL26 <= A22 * B23;
+	MUL25 <= A23 * B33;
+	MUL24 <= A24 * B43;
+	
+	MUL23 <= A31 * B13;
+	MUL22 <= A32 * B23;
+	MUL21 <= A33 * B33;
+	MUL20 <= A34 * B43;
+	
+	MUL19 <= A41 * B13;
+	MUL18 <= A42 * B23;
+	MUL17 <= A43 * B33;
+	MUL16 <= A44 * B43;
+	--third
+	
+	MUL15 <= A11 * B14;
+	MUL14 <= A12 * B24;
+	MUL13 <= A13 * B34;
+	MUL12 <= A14 * B44;
+	
+	MUL11 <= A21 * B14;
+	MUL10 <= A22 * B24;
+	MUL9 <= A23 * B34;
+	MUL8 <= A24 * B44;
+	
+	MUL7 <= A31 * B14;
+	MUL6 <= A32 * B24;
+	MUL5 <= A33 * B34;
+	MUL4 <= A34 * B44;
+	
+	MUL3 <= A41 * B14;
+	MUL2 <= A42 * B24;
+	MUL1 <= A43 * B34;
+	MUL0 <= A44 * B44;
+	-- fourth
+
+END ARCHITECTURE Structural;
+

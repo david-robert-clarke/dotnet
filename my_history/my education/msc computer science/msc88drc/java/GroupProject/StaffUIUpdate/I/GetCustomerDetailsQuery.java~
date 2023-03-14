@@ -1,0 +1,63 @@
+package I;
+import java.sql.*;
+import java.util.ArrayList;
+
+
+/**
+ * Get all staff names
+ *
+ * 
+ * 
+ **/
+public class GetStaffDetailsQuery
+{
+  private Connection c;
+  private String staffLastName;
+  private ArrayList staffDetails;
+
+  public GetStaffDetailsQuery(String sLastName)
+  {
+    c = MyConnection.C;
+    staffLastName = sLastName;
+  }
+
+  /**
+   * Return an arraylist of staff names
+   **/
+  public ArrayList exeQuery()
+  {
+    try 
+    {
+      staffDetails = new ArrayList();
+      // Create a result set containing all data from my_table
+      Statement stmt = c.createStatement();
+      ResultSet rs = stmt.executeQuery("SELECT * FROM staff WHERE "+
+				       "slastname = '" + staffLastName + "'");
+
+      while (rs.next())
+      {
+	staffDetails.add(rs.getString("sid"));
+	staffDetails.add(rs.getString("sfirstname"));
+	staffDetails.add(rs.getString("slastname")); 
+	staffDetails.add(rs.getString("staff_addr1"));
+	staffDetails.add(rs.getString("staff_addr2")); 
+	staffDetails.add(rs.getString("staff_pcode"));
+	staffDetails.add(rs.getString("staff_phone"));
+	staffDetails.add(rs.getString("staff_mobphone"));
+	staffDetails.add(rs.getString("position"));
+	staffDetails.add(rs.getString("password"));
+      }
+      
+      for(int i=0;i<staffDetails.size();i++)
+      {
+	System.out.println((String)staffDetails.get(i));
+      }
+    } 
+    catch (SQLException e) 
+    {
+      System.out.println( "An exception occurred in GetStaffNames. " + e);
+    }
+        
+    return(staffDetails);
+  }
+}

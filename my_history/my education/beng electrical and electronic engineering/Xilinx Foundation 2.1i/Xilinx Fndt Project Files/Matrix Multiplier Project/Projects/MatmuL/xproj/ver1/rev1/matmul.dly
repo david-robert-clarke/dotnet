@@ -1,0 +1,306 @@
+Thu Dec 21 19:17:31 2000
+
+File: matmul.dly
+
+ The 20 Worst Net Delays are:
+-------------------------------
+| Max Delay (ns)  | Netname   |
+-------------------------------
+  14.756            N_MEMORY_SEL<1>
+   8.143            N312
+   6.539            N317
+   5.877            N307
+   5.568            N322
+   4.667            N_MEMORY_SEL<2>
+   4.604            N_MEMORY_SEL<0>
+   4.322            N306
+   3.902            N_SOP_IN<8>
+   2.717            C36_N3
+   2.278            C32_N3
+   2.034            CLK_BUFGed
+   2.033            C8_N3
+   1.989            C34_N3
+   1.877            C6_N3
+   1.788            C38_N3
+   1.742            N_SOP_IN<15>
+   1.694            C14_N3
+   1.680            C10_N3
+   1.672            C12_N3
+---------------------------------
+
+-------------------------------------------------------------------------------
+                               Net Delays
+-------------------------------------------------------------------------------
+
+C0_N3
+   N317.Y
+         1.155  MATRIX_PROD<19>.O
+
+C10_N3
+   C20_N3.Y
+         1.680  MATRIX_PROD<14>.O
+
+C12_N3
+   C18_N3.Y
+         1.672  MATRIX_PROD<13>.O
+
+C14_N3
+   C16_N3.Y
+         1.694  MATRIX_PROD<12>.O
+
+C16_N3
+   C16_N3.X
+         0.924  MATRIX_PROD<11>.O
+
+C18_N3
+   C18_N3.X
+         1.291  MATRIX_PROD<10>.O
+
+C20_N3
+   C20_N3.X
+         1.213  MATRIX_PROD<9>.O
+
+C22_N3
+   C38_N3.Y
+         1.314  MATRIX_PROD<8>.O
+
+C24_N3
+   C36_N3.Y
+         1.204  MATRIX_PROD<7>.O
+
+C26_N3
+   C34_N3.Y
+         1.149  MATRIX_PROD<6>.O
+
+C28_N3
+   C32_N3.Y
+         1.081  MATRIX_PROD<5>.O
+
+C2_N3
+   C8_N3.Y
+         1.066  MATRIX_PROD<18>.O
+
+C30_N3
+   C30_N3.X
+         1.500  MATRIX_PROD<4>.O
+
+C32_N3
+   C32_N3.X
+         2.278  MATRIX_PROD<3>.O
+
+C34_N3
+   C34_N3.X
+         1.989  MATRIX_PROD<2>.O
+
+C36_N3
+   C36_N3.X
+         2.717  MATRIX_PROD<1>.O
+
+C38_N3
+   C38_N3.X
+         1.788  MATRIX_PROD<0>.O
+
+C4_N3
+   C6_N3.Y
+         1.011  MATRIX_PROD<17>.O
+
+C6_N3
+   C6_N3.X
+         1.877  MATRIX_PROD<16>.O
+
+C8_N3
+   C8_N3.X
+         2.033  MATRIX_PROD<15>.O
+
+CLK
+   CLK.CLKIN
+         0.010  C634.I
+
+CLK_BUFGed
+   C634.O
+         1.966  MATRIX_PROD<0>.OK
+         1.952  MATRIX_PROD<10>.OK
+         1.952  MATRIX_PROD<11>.OK
+         2.030  MATRIX_PROD<12>.OK
+         1.949  MATRIX_PROD<13>.OK
+         2.031  MATRIX_PROD<14>.OK
+         1.946  MATRIX_PROD<15>.OK
+         2.021  MATRIX_PROD<16>.OK
+         2.021  MATRIX_PROD<17>.OK
+         1.944  MATRIX_PROD<18>.OK
+         2.034  MATRIX_PROD<19>.OK
+         1.967  MATRIX_PROD<1>.OK
+         1.977  MATRIX_PROD<2>.OK
+         1.948  MATRIX_PROD<3>.OK
+         1.956  MATRIX_PROD<4>.OK
+         1.954  MATRIX_PROD<5>.OK
+         1.959  MATRIX_PROD<6>.OK
+         2.034  MATRIX_PROD<7>.OK
+         1.976  MATRIX_PROD<8>.OK
+         2.031  MATRIX_PROD<9>.OK
+
+N306
+   RESET.I2
+         1.985  FIREDUP.GSR
+         4.277  N322.F3
+         4.309  N322.G3
+         4.322  N317.F3
+         2.887  C30_N3.G4
+
+N307
+   N322.Y
+         4.744  MATRIX_PROD<15>.EC
+         5.877  MATRIX_PROD<16>.EC
+         5.877  MATRIX_PROD<17>.EC
+         3.817  MATRIX_PROD<18>.EC
+         2.660  MATRIX_PROD<19>.EC
+
+N312
+   C30_N3.Y
+         6.545  MATRIX_PROD<10>.EC
+         7.459  MATRIX_PROD<11>.EC
+         8.143  MATRIX_PROD<12>.EC
+         7.704  MATRIX_PROD<13>.EC
+         5.349  MATRIX_PROD<14>.EC
+
+N317
+   N317.X
+         6.539  MATRIX_PROD<5>.EC
+         4.023  MATRIX_PROD<6>.EC
+         2.075  MATRIX_PROD<7>.EC
+         2.407  MATRIX_PROD<8>.EC
+         5.094  MATRIX_PROD<9>.EC
+
+N322
+   N322.X
+         1.953  MATRIX_PROD<0>.EC
+         5.568  MATRIX_PROD<1>.EC
+         4.698  MATRIX_PROD<2>.EC
+         3.624  MATRIX_PROD<3>.EC
+         4.646  MATRIX_PROD<4>.EC
+
+N_MEMORY_SEL<0>
+   MEMORY_SEL<0>.I2
+         2.143  C30_N3.F1
+         2.143  C30_N3.G1
+         4.438  N322.F4
+         4.438  N322.G4
+         1.345  C32_N3.F1
+         1.345  C32_N3.G1
+         2.874  C34_N3.F1
+         2.874  C34_N3.G1
+         1.144  C20_N3.F2
+         4.006  N317.F1
+         4.006  C36_N3.F3
+         4.604  C36_N3.G2
+         3.988  C38_N3.F1
+         4.505  C38_N3.G4
+
+N_MEMORY_SEL<1>
+   MEMORY_SEL<1>.I2
+        10.118  N322.F1
+        10.118  N322.G1
+         1.166  C16_N3.F2
+         1.166  C16_N3.G2
+         4.098  C18_N3.F1
+         4.098  C18_N3.G1
+        14.756  C20_N3.F3
+        14.756  C20_N3.G3
+        10.343  C38_N3.G3
+        10.061  C36_N3.G3
+        11.220  C34_N3.G3
+        12.961  C32_N3.G3
+        12.048  C30_N3.G3
+
+N_MEMORY_SEL<2>
+   MEMORY_SEL<2>.I1
+         3.796  N322.F2
+         3.796  N322.G2
+         4.144  C6_N3.F4
+         4.144  C6_N3.G4
+         3.112  C8_N3.F4
+         3.108  C8_N3.G3
+         3.314  N317.F4
+         3.314  N317.G4
+         4.667  C30_N3.G2
+
+N_SOP_IN<0>
+   SOP_IN<0>.I1
+         1.245  C38_N3.F2
+
+N_SOP_IN<10>
+   SOP_IN<10>.I2
+         1.224  C18_N3.F2
+
+N_SOP_IN<11>
+   SOP_IN<11>.I1
+         0.856  C16_N3.F1
+
+N_SOP_IN<12>
+   SOP_IN<12>.I2
+         0.159  C16_N3.G1
+
+N_SOP_IN<13>
+   SOP_IN<13>.I1
+         0.848  C18_N3.G3
+
+N_SOP_IN<14>
+   SOP_IN<14>.I2
+         1.215  C20_N3.G2
+
+N_SOP_IN<15>
+   SOP_IN<15>.I2
+         1.742  C8_N3.F3
+
+N_SOP_IN<16>
+   SOP_IN<16>.I1
+         1.283  C6_N3.F2
+
+N_SOP_IN<17>
+   SOP_IN<17>.I1
+         1.243  C6_N3.G2
+
+N_SOP_IN<18>
+   SOP_IN<18>.I2
+         0.175  C8_N3.G4
+
+N_SOP_IN<19>
+   SOP_IN<19>.I2
+         1.189  N317.G3
+
+N_SOP_IN<1>
+   SOP_IN<1>.I1
+         1.201  C36_N3.F1
+
+N_SOP_IN<2>
+   SOP_IN<2>.I1
+         1.318  C34_N3.F2
+
+N_SOP_IN<3>
+   SOP_IN<3>.I1
+         1.245  C32_N3.F2
+
+N_SOP_IN<4>
+   SOP_IN<4>.I2
+         1.259  C30_N3.F3
+
+N_SOP_IN<5>
+   SOP_IN<5>.I2
+         1.493  C32_N3.G2
+
+N_SOP_IN<6>
+   SOP_IN<6>.I1
+         1.159  C34_N3.G4
+
+N_SOP_IN<7>
+   SOP_IN<7>.I2
+         1.102  C36_N3.G4
+
+N_SOP_IN<8>
+   SOP_IN<8>.I2
+         3.902  C38_N3.G2
+
+N_SOP_IN<9>
+   SOP_IN<9>.I2
+         1.433  C20_N3.F1
+

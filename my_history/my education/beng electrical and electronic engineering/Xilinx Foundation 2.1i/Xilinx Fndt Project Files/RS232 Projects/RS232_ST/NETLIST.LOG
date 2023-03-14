@@ -1,0 +1,66 @@
+EDIF netlist 'c:\FNDTN\ACTIVE\PROJECTS\RS232_ST\XPROJ\VER1\REV1\TIME_SIM.EDN' loading v.2.99.1.10
+EDIF parser completed successfully
+Loading - c:\fndtn\active\projects\rs232_st\xproj\ver1\rev1\time_sim.edn
+Info 9240: The following node is sourceless:
+   NODE: LED_DISPLAY_S6_reg.GSR, PT_ODD_reg.GSR, PT_EVEN_reg.GSR, BAUDRATE_DECODE_S19200_reg.GSR, BAUDRATE_DECODE_S9600_reg.GSR, BAUDRATE_DECODE_S1200_reg.GSR, BAUDRATE_DECODE_S600_reg.GSR, BAUDRATE_DECODE_S4800_reg.GSR, BAUDRATE_DECODE_S2400_reg.GSR, BAUDRATE_DECODE_S300_reg.GSR, TIME_ENCODER_CNT_reg<0>.GSR, TIME_ENCODER_CNT_reg<1>.GSR, TIME_ENCODER_CNT_reg<2>.GSR, TIME_ENCODER_CNT_reg<3>.GSR, TIME_ENCODER_CNT_reg<4>.GSR, TIME_ENCODER_CNT_reg<5>.GSR...
+Info 9240: The following node is sourceless:
+   NODE: C264.GTS.TRI_2_INV.IN, C256.GTS.TRI_2_INV.IN, C257.GTS.TRI_2_INV.IN, C258.GTS.TRI_2_INV.IN, C259.GTS.TRI_2_INV.IN, C260.GTS.TRI_2_INV.IN, C261.GTS.TRI_2_INV.IN, C262.GTS.TRI_2_INV.IN, C263.GTS.TRI_2_INV.IN, GTS.
+Loading - BAUDRATE_DECODE_S1200_reg
+Loading - BAUDRATE_DECODE_S19200_reg
+Loading - BAUDRATE_DECODE_S2400_reg
+Loading - BAUDRATE_DECODE_S300_reg
+Loading - BAUDRATE_DECODE_S4800_reg
+Loading - BAUDRATE_DECODE_S600_reg
+Loading - BAUDRATE_DECODE_S9600_reg
+Loading - LED_DISPLAY_S0_reg
+Loading - LED_DISPLAY_S1_reg
+Loading - LED_DISPLAY_S2_reg
+Loading - LED_DISPLAY_S3_reg
+Loading - LED_DISPLAY_S4_reg
+Loading - LED_DISPLAY_S5_reg
+Loading - LED_DISPLAY_S6_reg
+Loading - PT_EVEN_reg
+Loading - PT_ODD_reg
+Loading - TIME_ENCODER_CNT_reg_0_
+Loading - TIME_ENCODER_CNT_reg_10_
+Loading - TIME_ENCODER_CNT_reg_11_
+Loading - TIME_ENCODER_CNT_reg_12_
+Loading - TIME_ENCODER_CNT_reg_13_
+Loading - TIME_ENCODER_CNT_reg_14_
+Loading - TIME_ENCODER_CNT_reg_15_
+Loading - TIME_ENCODER_CNT_reg_1_
+Loading - TIME_ENCODER_CNT_reg_2_
+Loading - TIME_ENCODER_CNT_reg_3_
+Loading - TIME_ENCODER_CNT_reg_4_
+Loading - TIME_ENCODER_CNT_reg_5_
+Loading - TIME_ENCODER_CNT_reg_6_
+Loading - TIME_ENCODER_CNT_reg_7_
+Loading - TIME_ENCODER_CNT_reg_8_
+Loading - TIME_ENCODER_CNT_reg_9_
+Info 9240: The following node is sourceless:
+   NODE: 
+===============================
+EDIF Netlist Loading Statistics
+===============================
+Number of hierarchical blocks: 33
+Total number of cell types: 46
+Total number of cell instances: 1399
+Total number of EDIF blocks: 32
+Total number of models taken from libraries: 8
+Total number of automatic/internal models: 5
+Total number of missing models: 0
+Total number of signals (block ports and labels): 1552
+Total number of labels: 1348
+Total number of nets: 1552
+Total number of net elements: 5246
+Total number of generic values: 900
+Total number of port generic values: 676
+Memory usage statistics:
+    Total number of allocated memory blocks: 19159 (1584)
+    Total number of memory reallocations: 1
+    Total length of memory used to load the netlist: 1876 kB (33)
+    Total length of memory used by EDIF parser: 1024 kB
+    Number of system memory blocks (total/long): 5/1
+Netlist loaded in: 4 seconds
+Parsing time: 1 seconds
+===============================

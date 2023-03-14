@@ -1,0 +1,498 @@
+Sat Feb 10 22:17:45 2001
+
+File: proj_3x3.dly
+
+ The 20 Worst Net Delays are:
+-------------------------------
+| Max Delay (ns)  | Netname   |
+-------------------------------
+  18.267            N_EN
+   2.090            CLK_BUFGed
+   2.033            C0_N204
+   1.984            C0_N224
+   1.972            C0_N39
+   1.893            C0_N44
+   1.858            C0_N109
+   1.790            C0_N89
+   1.781            C0_N64
+   1.766            C0_N184
+   1.735            C0_N3
+   1.734            C0_N24
+   1.692            C0_N149
+   1.681            C0_N74
+   1.581            C0_N129
+   1.563            C0_N189
+   1.563            N6
+   1.500            C0_N79
+   1.500            N_INPUT<1>
+   1.494            C0_N144
+---------------------------------
+
+-------------------------------------------------------------------------------
+                               Net Delays
+-------------------------------------------------------------------------------
+
+C0_N104
+   C0_N104.X
+         1.308  ANSWER<24>.O
+
+C0_N109
+   C0_N109.X
+         1.858  ANSWER<23>.O
+
+C0_N114
+   C0_N114.X
+         1.237  ANSWER<22>.O
+
+C0_N119
+   C0_N119.X
+         1.205  ANSWER<21>.O
+
+C0_N124
+   C0_N124.X
+         1.408  ANSWER<20>.O
+
+C0_N129
+   C0_N129.X
+         1.581  ANSWER<19>.O
+
+C0_N134
+   C0_N134.X
+         1.225  ANSWER<18>.O
+
+C0_N139
+   C0_N139.X
+         1.037  ANSWER<17>.O
+
+C0_N14
+   C0_N164.Y
+         1.411  ANSWER<42>.O
+
+C0_N144
+   C0_N144.X
+         1.494  ANSWER<16>.O
+
+C0_N149
+   C0_N149.X
+         1.692  ANSWER<15>.O
+
+C0_N154
+   C0_N154.X
+         0.693  ANSWER<14>.O
+
+C0_N159
+   C0_N159.X
+         1.218  ANSWER<13>.O
+
+C0_N164
+   C0_N164.X
+         1.454  ANSWER<12>.O
+
+C0_N169
+   C0_N169.X
+         1.474  ANSWER<11>.O
+
+C0_N174
+   C0_N174.X
+         0.693  ANSWER<10>.O
+
+C0_N179
+   C0_N224.Y
+         1.078  ANSWER<9>.O
+
+C0_N184
+   C0_N219.Y
+         1.766  ANSWER<8>.O
+
+C0_N189
+   C0_N214.Y
+         1.563  ANSWER<7>.O
+
+C0_N19
+   C0_N159.Y
+         1.214  ANSWER<41>.O
+
+C0_N194
+   C0_N209.Y
+         1.156  ANSWER<6>.O
+
+C0_N199
+   C0_N204.Y
+         1.066  ANSWER<5>.O
+
+C0_N204
+   C0_N204.X
+         2.033  ANSWER<4>.O
+
+C0_N209
+   C0_N209.X
+         1.371  ANSWER<3>.O
+
+C0_N214
+   C0_N214.X
+         0.693  ANSWER<2>.O
+
+C0_N219
+   C0_N219.X
+         0.693  ANSWER<1>.O
+
+C0_N224
+   C0_N224.X
+         1.984  ANSWER<0>.O
+
+C0_N24
+   C0_N154.Y
+         1.734  ANSWER<40>.O
+
+C0_N29
+   C0_N149.Y
+         1.153  ANSWER<39>.O
+
+C0_N3
+   C0_N174.Y
+         1.735  ANSWER<44>.O
+
+C0_N34
+   C0_N144.Y
+         1.086  ANSWER<38>.O
+
+C0_N39
+   C0_N139.Y
+         1.972  ANSWER<37>.O
+
+C0_N44
+   C0_N134.Y
+         1.893  ANSWER<36>.O
+
+C0_N49
+   C0_N129.Y
+         1.149  ANSWER<35>.O
+
+C0_N54
+   C0_N124.Y
+         1.314  ANSWER<34>.O
+
+C0_N59
+   C0_N119.Y
+         1.301  ANSWER<33>.O
+
+C0_N64
+   C0_N114.Y
+         1.781  ANSWER<32>.O
+
+C0_N69
+   C0_N109.Y
+         1.263  ANSWER<31>.O
+
+C0_N74
+   C0_N104.Y
+         1.681  ANSWER<30>.O
+
+C0_N79
+   C0_N99.Y
+         1.500  ANSWER<29>.O
+
+C0_N84
+   C0_N94.Y
+         1.010  ANSWER<28>.O
+
+C0_N89
+   C0_N89.X
+         1.790  ANSWER<27>.O
+
+C0_N9
+   C0_N169.Y
+         1.390  ANSWER<43>.O
+
+C0_N94
+   C0_N94.X
+         1.171  ANSWER<26>.O
+
+C0_N99
+   C0_N99.X
+         1.228  ANSWER<25>.O
+
+CLK
+   CLK.CLKIN
+         0.010  C377.I
+
+CLK_BUFGed
+   C377.O
+         2.043  ANSWER<0>.OK
+         2.090  ANSWER<10>.OK
+         2.074  ANSWER<11>.OK
+         2.017  ANSWER<12>.OK
+         2.012  ANSWER<13>.OK
+         1.991  ANSWER<14>.OK
+         2.017  ANSWER<15>.OK
+         2.006  ANSWER<16>.OK
+         2.003  ANSWER<17>.OK
+         2.035  ANSWER<18>.OK
+         2.027  ANSWER<19>.OK
+         2.026  ANSWER<1>.OK
+         2.075  ANSWER<20>.OK
+         2.013  ANSWER<21>.OK
+         2.072  ANSWER<22>.OK
+         2.053  ANSWER<23>.OK
+         2.029  ANSWER<24>.OK
+         2.012  ANSWER<25>.OK
+         2.021  ANSWER<26>.OK
+         1.996  ANSWER<27>.OK
+         2.074  ANSWER<28>.OK
+         2.031  ANSWER<29>.OK
+         2.076  ANSWER<2>.OK
+         2.040  ANSWER<30>.OK
+         2.053  ANSWER<31>.OK
+         2.062  ANSWER<32>.OK
+         2.004  ANSWER<33>.OK
+         2.025  ANSWER<34>.OK
+         2.018  ANSWER<35>.OK
+         2.038  ANSWER<36>.OK
+         2.003  ANSWER<37>.OK
+         2.021  ANSWER<38>.OK
+         2.009  ANSWER<39>.OK
+         2.075  ANSWER<3>.OK
+         2.005  ANSWER<40>.OK
+         2.005  ANSWER<41>.OK
+         2.006  ANSWER<42>.OK
+         2.041  ANSWER<43>.OK
+         2.090  ANSWER<44>.OK
+         1.984  ANSWER<4>.OK
+         1.983  ANSWER<5>.OK
+         2.069  ANSWER<6>.OK
+         2.076  ANSWER<7>.OK
+         2.026  ANSWER<8>.OK
+         2.043  ANSWER<9>.OK
+
+N6
+   RESET.I1
+         1.563  C148.GSR
+
+N_EN
+   EN.I1
+        12.158  C0_N204.F2
+        12.197  C0_N204.G2
+         3.052  C0_N209.F4
+         2.972  C0_N209.G3
+         3.927  C0_N89.F3
+         9.540  C0_N94.F3
+         9.540  C0_N94.G3
+        12.628  C0_N99.F2
+        12.628  C0_N99.G2
+        15.834  C0_N104.F2
+        15.857  C0_N104.G2
+         4.807  C0_N109.F4
+         4.807  C0_N109.G4
+        13.759  C0_N114.F2
+        13.759  C0_N114.G2
+        13.601  C0_N119.F2
+        13.601  C0_N119.G2
+         3.142  C0_N124.F3
+         3.163  C0_N124.G3
+        16.672  C0_N214.F2
+        16.672  C0_N214.G2
+         4.020  C0_N129.F3
+         4.053  C0_N129.G3
+        12.604  C0_N134.F2
+        12.604  C0_N134.G2
+         9.615  C0_N139.F3
+         9.615  C0_N139.G3
+         3.168  C0_N144.F3
+         3.189  C0_N144.G3
+        17.839  C0_N149.F4
+        18.239  C0_N149.G2
+        15.522  C0_N154.F2
+        15.522  C0_N154.G2
+        11.717  C0_N159.F4
+        11.717  C0_N159.G4
+        17.832  C0_N164.F4
+        18.267  C0_N164.G2
+        11.189  C0_N169.F2
+        10.708  C0_N169.G4
+        13.674  C0_N174.F2
+        13.674  C0_N174.G2
+        14.614  C0_N219.F2
+        14.614  C0_N219.G2
+        11.404  C0_N224.F2
+        11.436  C0_N224.G2
+
+N_INPUT<0>
+   INPUT<0>.I2
+         1.122  C0_N224.F1
+
+N_INPUT<10>
+   INPUT<10>.I2
+         0.158  C0_N174.F1
+
+N_INPUT<11>
+   INPUT<11>.I2
+         0.175  C0_N169.F4
+
+N_INPUT<12>
+   INPUT<12>.I1
+         1.087  C0_N164.F2
+
+N_INPUT<13>
+   INPUT<13>.I1
+         1.253  C0_N159.F2
+
+N_INPUT<14>
+   INPUT<14>.I1
+         1.021  C0_N154.F1
+
+N_INPUT<15>
+   INPUT<15>.I1
+         1.245  C0_N149.F2
+
+N_INPUT<16>
+   INPUT<16>.I1
+         1.087  C0_N144.F2
+
+N_INPUT<17>
+   INPUT<17>.I2
+         1.133  C0_N139.F1
+
+N_INPUT<18>
+   INPUT<18>.I1
+         1.253  C0_N134.F4
+
+N_INPUT<19>
+   INPUT<19>.I1
+         1.160  C0_N129.F2
+
+N_INPUT<1>
+   INPUT<1>.I2
+         1.500  C0_N219.F3
+
+N_INPUT<20>
+   INPUT<20>.I1
+         1.245  C0_N124.F2
+
+N_INPUT<21>
+   INPUT<21>.I2
+         0.159  C0_N119.F1
+
+N_INPUT<22>
+   INPUT<22>.I1
+         1.027  C0_N114.F1
+
+N_INPUT<23>
+   INPUT<23>.I1
+         1.201  C0_N109.F1
+
+N_INPUT<24>
+   INPUT<24>.I1
+         1.204  C0_N104.F4
+
+N_INPUT<25>
+   INPUT<25>.I2
+         0.159  C0_N99.F1
+
+N_INPUT<26>
+   INPUT<26>.I1
+         1.253  C0_N94.F2
+
+N_INPUT<27>
+   INPUT<27>.I1
+         1.245  C0_N89.F2
+
+N_INPUT<28>
+   INPUT<28>.I2
+         0.175  C0_N94.G4
+
+N_INPUT<29>
+   INPUT<29>.I1
+         1.058  C0_N99.G4
+
+N_INPUT<2>
+   INPUT<2>.I1
+         1.021  C0_N214.F1
+
+N_INPUT<30>
+   INPUT<30>.I1
+         0.848  C0_N104.G3
+
+N_INPUT<31>
+   INPUT<31>.I1
+         1.173  C0_N109.G3
+
+N_INPUT<32>
+   INPUT<32>.I1
+         0.856  C0_N114.G3
+
+N_INPUT<33>
+   INPUT<33>.I2
+         1.082  C0_N119.G1
+
+N_INPUT<34>
+   INPUT<34>.I1
+         1.159  C0_N124.G4
+
+N_INPUT<35>
+   INPUT<35>.I1
+         1.318  C0_N129.G2
+
+N_INPUT<36>
+   INPUT<36>.I2
+         0.159  C0_N134.G1
+
+N_INPUT<37>
+   INPUT<37>.I1
+         1.058  C0_N139.G4
+
+N_INPUT<38>
+   INPUT<38>.I1
+         1.245  C0_N144.G2
+
+N_INPUT<39>
+   INPUT<39>.I1
+         1.159  C0_N149.G4
+
+N_INPUT<3>
+   INPUT<3>.I1
+         1.201  C0_N209.F1
+
+N_INPUT<40>
+   INPUT<40>.I1
+         1.021  C0_N154.G3
+
+N_INPUT<41>
+   INPUT<41>.I2
+         0.159  C0_N159.G1
+
+N_INPUT<42>
+   INPUT<42>.I1
+         1.152  C0_N164.G4
+
+N_INPUT<43>
+   INPUT<43>.I1
+         1.327  C0_N169.G2
+
+N_INPUT<44>
+   INPUT<44>.I1
+         1.283  C0_N174.G4
+
+N_INPUT<4>
+   INPUT<4>.I1
+         1.201  C0_N204.F1
+
+N_INPUT<5>
+   INPUT<5>.I2
+         0.175  C0_N204.G4
+
+N_INPUT<6>
+   INPUT<6>.I2
+         1.169  C0_N209.G4
+
+N_INPUT<7>
+   INPUT<7>.I1
+         0.856  C0_N214.G3
+
+N_INPUT<8>
+   INPUT<8>.I1
+         0.856  C0_N219.G3
+
+N_INPUT<9>
+   INPUT<9>.I1
+         1.201  C0_N224.G1
+

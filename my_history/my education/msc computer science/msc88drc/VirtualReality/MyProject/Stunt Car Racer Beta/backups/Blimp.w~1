@@ -1,0 +1,101 @@
+#VRML V2.0 utf8
+
+NavigationInfo{
+ type "EXAMINE"
+}
+
+PROTO theBlimp [
+field SFVec3f blimpPosition 0 0 0
+]
+{
+
+Transform{
+translation IS blimpPosition
+children[
+
+        DEF TIMER TimeSensor {
+	   cycleInterval 100
+	   loop TRUE
+	}
+
+	DEF POSINT PositionInterpolator {
+	key [0, 0.25, 0.5, 0.75, 1]
+	keyValue [   	-250 200 -250,
+	               	250  200 -250,
+	               	250 200 250,
+        	       	-250 200 250,
+        	       	-250 200 -250]
+	}
+
+        DEF ORIINT OrientationInterpolator {
+         key [0, 0.25, 0.5, 0.75, 1]
+         keyValue [   	0 1 0 0,
+               	      	0 1 0 -1.57,
+              		0 1 0 -3.14,
+              		0 1 0 -4.71,
+               		0 1 0 -6.28 ]
+      	}
+
+	DEF blimp Transform{
+		translation 0 0 0
+		children[
+
+		DirectionalLight {
+   		ambientIntensity 0.75
+   		intensity 1
+  		color 0 1 0
+  		direction 0 -1 1
+		}
+
+
+	        DEF baloon Transform{
+        		scale 1.5 1 1
+        		children[
+        		Shape{
+        		geometry Sphere{
+        		radius 25
+        		}
+       			appearance DEF blimpAppearance Appearance{
+        		material Material{
+        		diffuseColor 0.9 0.9 0.9
+        		shininess 0.9
+        		}
+        		}
+        		}
+       			]
+        		}
+        	DEF viewingChamber Transform{
+        		translation 0 -25 0
+        		children[
+        		Shape{
+        		geometry Box{size 10 3 5}
+        		appearance USE blimpAppearance
+        	        }
+        	        ]
+        	        }
+
+		Viewpoint{
+       		description "Side of Blimp"
+       		position 0 0 100
+       		orientation 0 1 0 0
+       		}
+
+       		Viewpoint{
+       		description "Blimp View"
+       		position 0 0 0
+       		orientation 0 1 0 2.46
+       		}
+	]
+	}
+]
+}
+
+ROUTE TIMER.fraction_changed TO POSINT.set_fraction
+ROUTE TIMER.fraction_changed TO ORIINT.set_fraction
+ROUTE POSINT.value_changed TO blimp.set_translation
+ROUTE ORIINT.value_changed TO blimp.set_rotation
+
+
+}#end of proto
+
+theBlimp{}

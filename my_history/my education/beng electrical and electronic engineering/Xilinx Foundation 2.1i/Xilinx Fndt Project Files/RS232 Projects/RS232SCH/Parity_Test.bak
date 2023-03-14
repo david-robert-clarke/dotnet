@@ -1,0 +1,21 @@
+Entity Parity_Test IS
+PORT (RESET, PTEN, S : IN BIT; EVEN, ODD : OUT BIT);
+END Parity_Test;
+--
+Architecture Parity_Test_Arch OF Parity_Test IS
+Begin
+     Process (RESET, PTEN, S)
+     Begin
+     IF RESET = '1' THEN 
+     EVEN <= '0'; ODD <= '0';
+     ELSIF PTEN = '1' THEN
+     	IF S = '0' THEN
+     	   ODD <= '1';
+     	ELSIF S = '1' THEN
+     	   EVEN <= '1';
+     	END IF;
+     END IF;
+     END Process;
+End Architecture Parity_Test_Arch;
+     	
+     	

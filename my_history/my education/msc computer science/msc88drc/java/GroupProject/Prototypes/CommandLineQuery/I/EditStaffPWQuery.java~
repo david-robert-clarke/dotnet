@@ -1,0 +1,57 @@
+package I;
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.Calendar;
+
+
+/**
+ * SQL Query
+ *
+ * 
+ **/
+public class EditStaffPWQuery();
+{
+  private ArrayList cdArrayList;
+  private Connection theConnection;
+
+  public EditStaffPWQuery();
+  {      
+
+    theConnection = MyConnection.C;
+    cdArrayList = cd;
+  }
+
+  public ArrayList exeQuery()
+  {
+    try 
+    {
+      String itemID = (String)cdArrayList.get(0);
+      String cdName = (String)cdArrayList.get(1);
+      String artist = (String)cdArrayList.get(2);
+      String genre  = (String)cdArrayList.get(3);
+      String type = (String)cdArrayList.get(4);
+      String releaseDate = (String)cdArrayList.get(5);
+      String rPrice = (String)cdArrayList.get(6);
+
+      // Create a result set containing all data from my_table
+      Statement stmt = theConnection.createStatement();
+      
+      String updateString = "UPDATE cd " +
+	"SET cd_name = '" + cdName + "', " +
+	"artist = '" + artist + "', " +
+	"genre ='" + genre + "', " +
+	"type ='" + type + "', " +
+	"release_date ='" + releaseDate + "', " +
+	"r_Price ='" + rPrice + "' " +
+	"WHERE iid = '" + itemID + "'";
+
+      stmt.executeUpdate(updateString);
+    } 
+    catch (SQLException e) 
+    {
+      System.out.println( "An exception occurred in UpdateCDEntryQuery. " + e);
+    }
+        
+    return(cdArrayList);
+  }
+}

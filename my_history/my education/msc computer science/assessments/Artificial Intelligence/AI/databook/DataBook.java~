@@ -1,0 +1,169 @@
+package databook;
+import java.util.*;
+import java.io.*;
+
+
+public class DataBook
+{
+  private Vector vector;
+  private int cost;
+  private String feature;
+  private Patient patient;
+  private String[] features;
+  
+  
+  public DataBook()
+  {
+    vector = new Vector();
+    cost = 0;
+    feature = "";
+    features = new String[6];
+  }
+
+  public void setFeatures(String f, int pos)
+  {
+    features[pos] = f;
+  }
+  
+  public String getFeatures(int pos)
+  {
+    return features[pos];
+  }
+  
+  public boolean containsFeature(String f)
+  {
+    int i = 0;
+    do
+    {
+      if (f.equals(features[i]))
+      {
+	return true;
+      }
+      else
+      {
+      	i++;
+      }
+    } while(i < features.length);
+    return false;
+  }
+  
+  public int dataBookSize()
+  {
+    return vector.size();
+  }
+  
+  public void setCost(int c)
+  {
+    cost = c;
+  }
+  
+  public void setFeature(String f)
+  {
+    feature = f;
+  }
+  
+  public int getCost()
+  {
+    return cost;
+  }
+  
+  public String getFeature()
+  {
+    return feature;
+  }
+
+
+  public void addPatient(Patient p) throws EntryExistsException
+  {
+    if (findPatient(p, vector))
+    {
+      throw new EntryExistsException("A patient has been added twice.");
+    }
+    else
+    {
+      vector.add(p);
+    }
+  }
+  
+  public Patient getPatient(int number) throws NoSuchEntryException
+  {
+    if (number < vector.size())
+    {
+      Patient p = (Patient)vector.get(number);
+      return p;
+    }
+    else
+    {
+      throw new NoSuchEntryException("Patient not found.");
+    }
+    /*Patient p = new Patient(number);
+    if (findPatient(p, vector))
+    {
+      return patient;
+    }
+    else
+    {
+      throw new NoSuchEntryException("Patient not found.");
+      }*/
+  }
+  
+  public Vector load(String filename) throws IOException
+  {
+    FileReader r = new FileReader(filename);
+    BufferedReader reader = new BufferedReader(r);
+    String error;
+    reader.readLine();
+    int size = 100; //REMEMBER TO CHANGE THIS TO 100
+    Vector v = new Vector();
+    for (int i = 0; i < size; i++)
+    {
+      Patient p = Line.read(reader);
+      v.add(p);
+    }
+    vector = v;
+    reader.close();
+    return vector;
+  }
+
+  private boolean findPatient(Patient p, Vector vec)
+  {
+    if (vec.isEmpty())
+    {
+      return false;
+    }   
+    
+    int i = 0;
+    do
+    {
+      patient = (Patient)vec.get(i);
+      if (patient.getIdentifier().equals(p.getIdentifier()))
+      {
+	return true;
+      }
+      else
+      {
+      	i++;
+      }
+    } while(i < vec.size());
+    return false;
+  }
+  
+  public Vector listPatients()
+  {
+    Vector v = new Vector();
+    if (vector.isEmpty())
+    {
+      return v;
+    } 
+
+    int i = 0;
+    do
+    {
+      patient = (Patient)vector.get(i);
+      String identifier = patient.getIdentifier();
+      v.add(identifier);
+      i++;
+    } while(i < vector.size());
+    return v;
+  }
+}

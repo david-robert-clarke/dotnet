@@ -1,0 +1,83 @@
+EDIF netlist 'c:\FNDTN\ACTIVE\PROJECTS\RS232CON\RS232CON.EDF' loading v.2.99.1.10
+EDIF parser completed successfully
+Loading - c:\fndtn\active\projects\rs232con\rs232con.edf
+Loading - LD_1
+Loading - CONTROLBEAST
+Loading - FDC_0
+Loading - OR6
+Loading - FDC_1
+Loading - FDC_2
+Loading - CB16CLED
+Loading - FTCLEX_0
+Loading - M2_1_0
+Loading - FTCLEX_1
+Loading - M2_1_0_0
+Loading - FTCLEX_2
+Loading - M2_1_0_1
+Loading - FTCLEX_3
+Loading - M2_1_0_2
+Loading - FTCLEX_4
+Loading - M2_1_0_3
+Loading - FTCLEX_5
+Loading - M2_1_0_4
+Loading - FTCLEX_6
+Loading - M2_1_0_5
+Loading - FTCLEX_7
+Loading - M2_1_0_6
+Loading - FTCLEX_8
+Loading - M2_1_0_7
+Loading - FTCLEX_9
+Loading - M2_1_0_8
+Loading - FTCLEX_10
+Loading - M2_1_0_9
+Loading - FTCLEX_11
+Loading - M2_1_0_10
+Loading - FTCLEX_12
+Loading - M2_1_0_11
+Loading - FTCLEX_13
+Loading - M2_1_0_12
+Loading - FTCLEX_14
+Loading - M2_1_0_13
+Loading - FTCLEX_15
+Loading - M2_1_0_14
+Loading - M2_1B1_0
+Loading - M2_1_1
+Loading - M2_1_2
+Loading - M2_1_3
+Loading - M2_1_4
+Loading - M2_1_5
+Loading - M2_1_6
+Loading - M2_1_7
+Loading - M2_1_8
+Loading - M2_1_9
+Loading - M2_1_10
+Loading - M2_1_11
+Loading - M2_1_12
+Loading - M2_1_13
+Loading - M2_1_14
+Loading - M2_1_15
+===============================
+EDIF Netlist Loading Statistics
+===============================
+Number of hierarchical blocks: 83
+Total number of cell types: 69
+Total number of cell instances: 753
+Total number of EDIF blocks: 55
+Total number of models taken from libraries: 10
+Total number of automatic/internal models: 3
+Total number of missing models: 0
+Total number of signals (block ports and labels): 904
+Total number of labels: 490
+Total number of nets: 904
+Total number of net elements: 3425
+Total number of generic values: 0
+Total number of port generic values: 0
+Memory usage statistics:
+    Total number of allocated memory blocks: 11030 (825)
+    Total number of memory reallocations: 3
+    Total length of memory used to load the netlist: 1041 kB (17)
+    Total length of memory used by EDIF parser: 512 kB
+    Number of system memory blocks (total/long): 3/0
+Netlist loaded in: 2 seconds
+Parsing time: 1 seconds
+===============================

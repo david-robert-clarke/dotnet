@@ -1,0 +1,45 @@
+ngdbuild -p xc4010xl-09-bg256 -uc rss_vhdl.ucf -dd .. c:\fndtn\active\projects\rss_vhdl\rss_vhdl.xnf rss_vhdl.ngd
+ngdbuild:  version C.22
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -p xc4010xl-09-bg256 -uc rss_vhdl.ucf -dd ..
+c:\fndtn\active\projects\rss_vhdl\rss_vhdl.xnf rss_vhdl.ngd 
+
+Launcher: Executing xnf2ngd -p xc4000xl -u
+"c:\fndtn\active\projects\rss_vhdl\rss_vhdl.xnf"
+"C:\Fndtn\Active\Projects\RSS_VHDL\xproj\ver1\rss_vhdl.ngo"
+xnf2ngd:  version C.22
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+   using XNF gate model
+   reading XNF file "c:/fndtn/active/projects/rss_vhdl/rss_vhdl.xnf" ...
+   Writing NGO file "C:/Fndtn/Active/Projects/RSS_VHDL/xproj/ver1/rss_vhdl.ngo"
+...
+Reading NGO file "C:/Fndtn/Active/Projects/RSS_VHDL/xproj/ver1/rss_vhdl.ngo"
+...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "rss_vhdl.ucf" ...
+
+Checking timing specifications ...
+
+Checking expanded design ...
+ERROR:NgdHelpers:312 - logical block "B" of type "rs232_asm_cb_pt2" is
+   unexpanded.
+ERROR:NgdHelpers:312 - logical block "C" of type "rs232_baudrate_decode" is
+   unexpanded.
+ERROR:NgdHelpers:312 - logical block "D" of type "rs232_led_decode" is
+   unexpanded.
+ERROR:NgdHelpers:312 - logical block "E" of type "rs232_parity_tester" is
+   unexpanded.
+ERROR:NgdHelpers:312 - logical block "G" of type "cb16cled" is unexpanded.
+ERROR:NgdHelpers:312 - logical block "F" of type "rs232_precntdwntmr_decode" is
+   unexpanded.
+
+NGDBUILD Design Results Summary:
+  Number of errors:     6
+  Number of warnings:   0
+
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "rss_vhdl.bld"...

@@ -1,0 +1,174 @@
+BODY {
+	
+}
+BODY {
+	FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: Arial, Helvetica
+}
+DIV {
+	FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: Arial, Helvetica
+}
+TD {
+	FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: Arial, Helvetica
+}
+TH {
+	FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: Arial, Helvetica
+}
+H1 {
+	COLOR: #000099
+}
+H2 {
+	COLOR: #000099
+}
+H3 {
+	COLOR: #000099
+}
+H1 {
+	MARGIN-TOP: 0px; FONT-SIZE: 18pt; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; COLOR: #000099
+}
+H2 {
+	FONT-SIZE: 12pt; TEXT-TRANSFORM: uppercase
+}
+H3 {
+	FONT-SIZE: 10pt; TEXT-TRANSFORM: uppercase
+}
+H4 {
+	FONT-SIZE: 8pt; TEXT-TRANSFORM: uppercase
+}
+SMALL {
+	FONT-SIZE: 8pt
+}
+CITE {
+	FONT-SIZE: 16pt; COLOR: #999999; FONT-FAMILY: serif, times; TEXT-ALIGN: center
+}
+UL {
+	LIST-STYLE-TYPE: square
+}
+TD.navon {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: white; TEXT-ALIGN: center
+}
+TD.navoff {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: white; TEXT-ALIGN: center
+}
+TD.header {
+	COLOR: white; BACKGROUND-COLOR: #000099
+}
+BODY.top TD.navon {
+	BACKGROUND-COLOR: #000070
+}
+BODY.top TD.navoff {
+	BACKGROUND-COLOR: #000099
+}
+BODY.seas TD.navon {
+	BACKGROUND-COLOR: #990099
+}
+BODY.seas TD.navoff {
+	BACKGROUND-COLOR: #cc00cc
+}
+BODY.sles TD.navon {
+	BACKGROUND-COLOR: #ff6600
+}
+BODY.sles TD.navoff {
+	BACKGROUND-COLOR: #ff9900
+}
+BODY.abs TD.navon {
+	BACKGROUND-COLOR: #cc0000
+}
+BODY.abs TD.navoff {
+	BACKGROUND-COLOR: #ff0000
+}
+BODY.slhs TD.navon {
+	BACKGROUND-COLOR: #006600
+}
+BODY.slhs TD.navoff {
+	BACKGROUND-COLOR: #009900
+}
+BODY.resource TD.navon {
+	BACKGROUND-COLOR: #333366
+}
+BODY.resource TD.navoff {
+	BACKGROUND-COLOR: #000000
+}
+TABLE TR.light {
+	FONT-SIZE: 10pt; BACKGROUND-COLOR: #eeccee
+}
+TABLE TR.dark {
+	FONT-SIZE: 10pt; BACKGROUND-COLOR: #ccaacc
+}
+TD.navoff A {
+	COLOR: white; TEXT-DECORATION: none
+}
+TD.navon A {
+	COLOR: white; TEXT-DECORATION: none
+}
+.blue {
+	COLOR: #000099
+}
+.blue A {
+	COLOR: #000099
+}
+.purple {
+	COLOR: #cc00cc
+}
+.purple A {
+	COLOR: #cc00cc
+}
+.gold {
+	COLOR: #ff9900
+}
+.gold A {
+	COLOR: #ff9900
+}
+.red {
+	COLOR: #ff0000
+}
+.red A {
+	COLOR: #ff0000
+}
+.green {
+	COLOR: #009900
+}
+.green A {
+	COLOR: #009900
+}
+.corporategreen {
+	COLOR: #00cc00
+}
+BODY.top A:hover {
+	COLOR: #9999ff
+}
+BODY.top A:hover FONT {
+	COLOR: #9999ff
+}
+BODY.seas A:hover {
+	COLOR: #ffccff
+}
+BODY.seas A:hover FONT {
+	COLOR: #ffccff
+}
+BODY.sles A:hover {
+	COLOR: #ffcc99
+}
+BODY.sles A:hover FONT {
+	COLOR: #ffcc99
+}
+BODY.abs A:hover {
+	COLOR: #ffcccc
+}
+BODY.abs A:hover FONT {
+	COLOR: #ffcccc
+}
+BODY.slhs A:hover {
+	COLOR: #99ff99
+}
+BODY.slhs A:hover FONT {
+	COLOR: #99ff99
+}
+BODY.resource A:hover {
+	COLOR: #cccccc
+}
+BODY.resource A:hover FONT {
+	COLOR: #cccccc
+}
+.copyright {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #666666; FONT-FAMILY: Arial,Helvetica
+}

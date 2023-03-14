@@ -1,0 +1,165 @@
+-- Final Year Project
+-- By David Clarke
+-- Created on 8_2_2001
+library IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_ARITH.ALL;
+
+entity RAM_STORAGE is
+   port (R_W  : IN BIT;
+         SEL_IN   : IN BIT_VECTOR (2 downto 0); -- SELECTS WHERE IN THE SIGNAL INT_STORAGE 
+                                                -- THE BYTE OF INPUT DATA IS REQUIRED TO BE 	
+   	 DATA_IN  : IN BIT_VECTOR (7 downto 0); 
+         ADDRESS  : IN BIT_VECTOR (1 DOWNTO 0);
+         DATA_OUT : OUT BIT_VECTOR (63 downto 0));
+end RAM_STORAGE;
+--
+architecture behavioural of RAM_STORAGE is
+TYPE MEM_ARRAY IS ARRAY(31 DOWNTO 0) OF BIT_VECTOR(1 DOWNTO 0);
+-- THERE ARE 32 DATA ELEMENTS WHICH ARE 2 BITS WIDE
+
+begin
+
+
+	PROCESS (RESET, R_W, SEL_IN, DATA_IN, ADDRESS)
+	-- PROCESS NESTED WITHIN ARCHITECTURE BEHAVIOURAL
+	VARIABLE DATA_MEM : MEM_ARRAY;
+	
+	BEGIN
+
+	    DAVE: CASE R_W IS
+	    WHEN '1' =>
+	        CLARKE:CASE SEL_IN IS
+	        WHEN "111"  => DATA_MEM(31) := DATA_IN(7 DOWNTO 6);
+	                       DATA_MEM(30) := DATA_IN(5 DOWNTO 4);
+	                       DATA_MEM(29) := DATA_IN(3 DOWNTO 2); 
+	                       DATA_MEM(28) := DATA_IN(1 DOWNTO 0);
+	        
+	        WHEN "110"  => DATA_MEM(27) := DATA_IN(7 DOWNTO 6);
+	                       DATA_MEM(26) := DATA_IN(5 DOWNTO 4);
+	                       DATA_MEM(25) := DATA_IN(3 DOWNTO 2); 
+	                       DATA_MEM(24) := DATA_IN(1 DOWNTO 0);
+	        
+	        WHEN "101"  => DATA_MEM(23) := DATA_IN(7 DOWNTO 6);
+	                       DATA_MEM(22) := DATA_IN(5 DOWNTO 4);
+	                       DATA_MEM(21) := DATA_IN(3 DOWNTO 2); 
+	                       DATA_MEM(20) := DATA_IN(1 DOWNTO 0);
+	        
+	        WHEN "100"  => DATA_MEM(19) := DATA_IN(7 DOWNTO 6);
+	                       DATA_MEM(18) := DATA_IN(5 DOWNTO 4);
+	                       DATA_MEM(17) := DATA_IN(3 DOWNTO 2); 
+	                       DATA_MEM(16) := DATA_IN(1 DOWNTO 0);
+	                       
+	        WHEN "011"  => DATA_MEM(15) := DATA_IN(7 DOWNTO 6);	-- DATA (DATA_IN) ENTERS THE RAM IN BYTE SEG'S, 
+	                       DATA_MEM(14) := DATA_IN(5 DOWNTO 4);     -- THE VARIABLE DATA_MEM IS A TWO BIT VARIABLE
+	                       DATA_MEM(13) := DATA_IN(3 DOWNTO 2);     -- THE DATA_IN BYTE IS SEGMENTED INTO FOUR 
+	                       DATA_MEM(12) := DATA_IN(1 DOWNTO 0);     -- SETS OF TWO BITS WHICH CAN THEN BE STORED
+	                                                                -- IN THE VARIABLE DATA_MEM
+	        WHEN "010"  => DATA_MEM(11) := DATA_IN(7 DOWNTO 6);
+	                       DATA_MEM(10) := DATA_IN(5 DOWNTO 4);
+	                       DATA_MEM(9)  := DATA_IN(3 DOWNTO 2); 
+	                       DATA_MEM(8)  := DATA_IN(1 DOWNTO 0);
+	                       
+	        WHEN "001"  => DATA_MEM(7)  := DATA_IN(7 DOWNTO 6);
+	                       DATA_MEM(6)  := DATA_IN(5 DOWNTO 4);
+	                       DATA_MEM(5)  := DATA_IN(3 DOWNTO 2); 
+	                       DATA_MEM(4)  := DATA_IN(1 DOWNTO 0);
+	                       
+	        WHEN "000"  => DATA_MEM(3)  := DATA_IN(7 DOWNTO 6);
+	                       DATA_MEM(2)  := DATA_IN(5 DOWNTO 4);
+	                       DATA_MEM(1)  := DATA_IN(3 DOWNTO 2); 
+	                       DATA_MEM(0)  := DATA_IN(1 DOWNTO 0);
+	                       
+	        WHEN OTHERS =>  For i in 31 downto 0 loop
+	        		DATA_MEM(i) := "00";
+	        		end loop;
+	        END CASE CLARKE;
+	        
+	    WHEN '0' =>
+	        NO2 : CASE ADDRESS IS
+	        WHEN  "11" => -- 4X4 PARALLEL MODE
+	        		   DATA_OUT(63 DOWNTO 62) <= DATA_MEM(31);
+	                           DATA_OUT(61 DOWNTO 60) <= DATA_MEM(30);
+	                           DATA_OUT(59 DOWNTO 58) <= DATA_MEM(29);
+	                           DATA_OUT(57 DOWNTO 56) <= DATA_MEM(28);
+	                           DATA_OUT(55 DOWNTO 54) <= DATA_MEM(27);
+	                           DATA_OUT(53 DOWNTO 52) <= DATA_MEM(26);
+	                           DATA_OUT(51 DOWNTO 50) <= DATA_MEM(25);
+	                           DATA_OUT(49 DOWNTO 48) <= DATA_MEM(24);
+	                           DATA_OUT(47 DOWNTO 46) <= DATA_MEM(23);
+	                           DATA_OUT(45 DOWNTO 44) <= DATA_MEM(22);
+	                           DATA_OUT(43 DOWNTO 42) <= DATA_MEM(21);
+	                           DATA_OUT(41 DOWNTO 40) <= DATA_MEM(20);
+	                           DATA_OUT(39 DOWNTO 38) <= DATA_MEM(19);
+	                           DATA_OUT(37 DOWNTO 36) <= DATA_MEM(18);
+	                           DATA_OUT(35 DOWNTO 34) <= DATA_MEM(17);
+	                           DATA_OUT(33 DOWNTO 32) <= DATA_MEM(16);
+	                           DATA_OUT(31 DOWNTO 30) <= DATA_MEM(15);
+	                           DATA_OUT(29 DOWNTO 28) <= DATA_MEM(14);
+	                           DATA_OUT(27 DOWNTO 26) <= DATA_MEM(13);
+	                           DATA_OUT(25 DOWNTO 24) <= DATA_MEM(12);
+	                           DATA_OUT(23 DOWNTO 22) <= DATA_MEM(11);
+	                           DATA_OUT(21 DOWNTO 20) <= DATA_MEM(10);
+	                           DATA_OUT(19 DOWNTO 18) <= DATA_MEM(9);
+	                           DATA_OUT(17 DOWNTO 16) <= DATA_MEM(8);
+	                           DATA_OUT(15 DOWNTO 14) <= DATA_MEM(7);
+	                           DATA_OUT(13 DOWNTO 12) <= DATA_MEM(6);
+	                           DATA_OUT(11 DOWNTO 10) <= DATA_MEM(5);
+	                           DATA_OUT(9 DOWNTO 8)   <= DATA_MEM(4);
+	                           DATA_OUT(7 DOWNTO 6)   <= DATA_MEM(3);
+	                           DATA_OUT(5 DOWNTO 4)   <= DATA_MEM(2);
+	                           DATA_OUT(3 DOWNTO 2)   <= DATA_MEM(1);
+	                           DATA_OUT(1 DOWNTO 0)   <= DATA_MEM(0);
+	                           
+	                            
+	        WHEN "10" => -- 3X3 PARALLEL MODE
+	                           DATA_OUT(63 DOWNTO 62) <= DATA_MEM(31);
+	                           DATA_OUT(61 DOWNTO 60) <= DATA_MEM(30);
+	                           DATA_OUT(59 DOWNTO 58) <= DATA_MEM(29);
+	               
+	                           DATA_OUT(55 DOWNTO 54) <= DATA_MEM(27); 
+	                           DATA_OUT(53 DOWNTO 52) <= DATA_MEM(26);
+	                           DATA_OUT(51 DOWNTO 50) <= DATA_MEM(25);
+	                         
+	                           DATA_OUT(47 DOWNTO 46) <= DATA_MEM(23); 
+	                           DATA_OUT(45 DOWNTO 44) <= DATA_MEM(22);
+	                           DATA_OUT(43 DOWNTO 42) <= DATA_MEM(21);
+	                         
+	                           DATA_OUT(31 DOWNTO 30) <= DATA_MEM(15); 
+	                           DATA_OUT(29 DOWNTO 28) <= DATA_MEM(14);
+	                           DATA_OUT(27 DOWNTO 26) <= DATA_MEM(13);
+	                       
+	                           DATA_OUT(23 DOWNTO 22) <= DATA_MEM(11); 
+	                           DATA_OUT(21 DOWNTO 20) <= DATA_MEM(10);
+	                           DATA_OUT(19 DOWNTO 18) <= DATA_MEM(9);
+	                       
+	                           DATA_OUT(15 DOWNTO 14) <= DATA_MEM(7);  
+	                           DATA_OUT(13 DOWNTO 12) <= DATA_MEM(6);
+	                           DATA_OUT(11 DOWNTO 10) <= DATA_MEM(5);
+	                           
+	        WHEN "01" => -- 2X2 PARALLEL MODE
+	                           DATA_OUT(63 DOWNTO 62) <= DATA_MEM(31);
+	                           DATA_OUT(61 DOWNTO 60) <= DATA_MEM(30);
+	           
+	                           DATA_OUT(55 DOWNTO 54) <= DATA_MEM(27); 
+	                           DATA_OUT(53 DOWNTO 52) <= DATA_MEM(26);
+	                         
+	                           DATA_OUT(31 DOWNTO 30) <= DATA_MEM(15); 
+	                           DATA_OUT(29 DOWNTO 28) <= DATA_MEM(14);
+	            
+	                           DATA_OUT(23 DOWNTO 22) <= DATA_MEM(11); 
+	                           DATA_OUT(21 DOWNTO 20) <= DATA_MEM(10);
+	        
+	        WHEN OTHERS => DATA_OUT <= X"0000000000000000";
+	        END CASE NO2;
+	    
+	    WHEN OTHERS => DATA_OUT <= X"0000000000000000";   
+	    END CASE DAVE;
+
+	END PROCESS;
+	
+	-- wondering how the data will be read at the output of the DSP, well an enable signal will be produced
+	-- by the FSM which will enable the data to be outputted, after a set amount of clock ticks, when the data
+	-- is stable.
+END ARCHITECTURE BEHAVIOURAL;
+

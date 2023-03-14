@@ -1,0 +1,10 @@
+Loading - C:\FNDTN\ACTIVE\PROJECTS\TESTICLE\testicle.alb
+   Loading library default timing values
+===============================
+Memory usage statistics:
+    Total number of allocated memory blocks: 15 (0)
+    Total number of memory reallocations: 3
+    Total length of memory used to load the netlist: 256 kB (0)
+    Number of system memory blocks (total/long): 1/0
+Netlist loaded in: 1 seconds
+===============================

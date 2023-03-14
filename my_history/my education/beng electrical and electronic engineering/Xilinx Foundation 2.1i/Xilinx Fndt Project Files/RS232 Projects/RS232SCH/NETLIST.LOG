@@ -1,0 +1,24 @@
+Loading - C:\FNDTN\ACTIVE\PROJECTS\RS232SCH\rs232sch.alb
+   Loading library default timing values
+Loading - RS232ASM
+   Loading library default timing values
+Warning 9204: Cannot find corresponding block pin for terminal NS2. Terminal will be changed to label
+Warning 9204: Cannot find corresponding block pin for terminal NS1. Terminal will be changed to label
+Warning 9204: Cannot find corresponding block pin for terminal NS0. Terminal will be changed to label
+Warning 9204: Cannot find corresponding block pin for terminal CS0. Terminal will be changed to label
+Warning 9204: Cannot find corresponding block pin for terminal CS1. Terminal will be changed to label
+Warning 9204: Cannot find corresponding block pin for terminal CS2. Terminal will be changed to label
+Loading - OR6
+   Loading library default timing values
+Loading - FDR
+   Loading library default timing values
+Loading - FD
+   Loading library default timing values
+===============================
+Memory usage statistics:
+    Total number of allocated memory blocks: 109 (0)
+    Total number of memory reallocations: 3
+    Total length of memory used to load the netlist: 256 kB (0)
+    Number of system memory blocks (total/long): 1/0
+Netlist loaded in: 1 seconds
+===============================

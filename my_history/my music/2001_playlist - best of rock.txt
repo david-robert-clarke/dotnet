@@ -1,0 +1,17 @@
+Address ID	Band/Artist Name	Title	Length
+1	Nirvana	Smells Like Teen Spirit	00:05:03
+2	Pearl Jam	Once	00:03:53
+3	Sound Garden	Jesus Christ Pose	
+4	Alice In Chains	Down In a Hole	
+5	Stone Temple Pilots	Sour Girl	
+6	Pearl Jam	Even Flow	
+7	Sound Garden	Black Hole Sun	
+8	Alice In Chains	Them Bones	
+9	Stone Temple Pilots	Down	
+10	Nirvana	Come As You Are	
+11	Sound Garden	Fell On Black Days	
+12	Alice In Chains	Would	
+13	Stone Temple Pilots	MC5	
+14	Nirvana	Heart Shaped Box	
+15	Pearl Jam	Dissident	
+16	Star Wars Jazz	Mos Eisely Cantina Theme	

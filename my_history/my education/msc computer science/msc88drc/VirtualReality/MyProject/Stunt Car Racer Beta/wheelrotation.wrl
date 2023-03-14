@@ -1,0 +1,341 @@
+#VRML V2.0 utf8
+
+NavigationInfo{
+ type "EXAMINE"
+}
+
+PROTO theController[]
+{
+DEF controller Transform{
+	translation -0.05 0 0
+		children[
+
+		DEF TIMER TimeSensor {
+  		cycleInterval 1
+   		loop TRUE
+		}
+
+		DEF controlGuides Transform{
+				children[
+				DEF yControlGuide Transform{
+						translation -0.15 0 -0.05
+                                		rotation 0 0 1 1.57
+						children[
+				                Shape{
+				                geometry Box{
+				                size 0.12 0.05 0.01
+				                }
+				                appearance DEF guideAppearance Appearance{
+				                material Material{
+				                diffuseColor 0.05 0.05 0.5
+				                }
+				                }
+                                                }
+                                ]
+                                }
+                                DEF xControlGuide Transform{
+                                		translation 0 0 -0.05
+                                		children[
+                                		Shape{
+                                		geometry Box{
+                                		size 0.12 0.05 0.01
+                                		}
+                                		appearance USE guideAppearance
+                                		}
+                                ]
+                                }
+                ]
+                }
+
+                DEF controlBox Transform{
+                		translation -0.05 0 -0.1
+                		children[
+                		Shape{
+                		geometry Box{size 0.3 0.2 0.1}
+                		appearance Appearance{
+                		material Material{
+                		diffuseColor 0.25 0.25 0.25
+                		}
+                		}
+                		}
+                ]
+                }
+                DEF controlSticks Transform{
+                		children[
+                		DEF yStickController Transform{
+                					children[
+                					DEF ySensor PlaneSensor{
+              						maxPosition 0 0.05
+              						minPosition 0 -0.05
+              						}
+              						DEF yknob Transform{
+                                                        translation -0.15 0 0.05
+                                                        children[
+                                                        Shape{
+                                                        geometry Sphere{
+                                                        radius 0.012
+                                                        }
+                                                        appearance DEF stickAppearance Appearance{
+                                                        material Material{
+                                                        diffuseColor 0 0 1
+                                                        shininess 0.8
+                                                        }
+                                                        }
+                                                        }
+                                                        ]
+                                                        }
+
+                					DEF yStick Transform{
+                					rotation 1 0 0 1.57
+                					translation -0.15 0 0
+                					children[
+                        				Shape{
+                        				geometry Cylinder{
+                        				radius 0.01
+                        				height 0.1
+                        				}
+                        				appearance USE stickAppearance
+                        				}
+                        				]
+                        				}
+              				]
+              				}
+              		DEF xStickController Transform{
+              					children[
+              					DEF xSensor PlaneSensor{
+              					maxPosition 0.05 0
+              					minPosition -0.05 0
+              					}
+              					DEF xknob Transform{
+                                                        translation 0 0 0.05
+                                                        children[
+                                                        Shape{
+                                                        geometry Sphere{
+                                                        radius 0.012
+                                                        }
+                                                        appearance USE stickAppearance
+                                                        }
+                                                        ]
+                                                        }
+              					DEF xStick Transform{
+              					rotation 1 0 0 1.57
+              					children[
+              	        			Shape{
+                        			geometry Cylinder{
+                        			radius 0.01
+                        			height 0.1
+                        			}
+                        			appearance USE stickAppearance
+                        			}
+              					]
+              					}
+              		]
+              		}
+		]
+                }
+
+
+        	DEF wheels Transform{
+        	translation 5 4 -15
+        	children[
+
+
+
+        		DEF leftWheelA Transform{
+        		center 0 4 0
+        		children[
+        		DEF leftWheel Transform{
+        		rotation 0 0 1 1.57
+        		children[
+        		Shape{
+        		geometry Cylinder{
+        		radius 0.5
+        		height 0.1
+        		}
+        		appearance Appearance{
+        		material Material{
+        		diffuseColor 0.2 0.6 0.8
+        		}
+        		}
+        		}
+        		]
+        		}
+        		]
+        		}
+        		DEF rightWheelA Transform{
+        		center 5 4 0
+        		children[
+        		DEF rightWheel Transform{
+        		translation 5 0 0
+        		rotation 0 0 1 1.57
+        		children[
+        		Shape{
+        		geometry Cylinder{
+                        radius 0.5
+        		height 0.1
+        		}
+        		appearance Appearance{
+        		material Material{
+        		diffuseColor 0.2 0.6 0.8
+        		}
+        		}
+        		}
+        		]
+        		}
+        		]
+        		}
+        	]
+        	}
+
+               	DEF myCheeks Transform{
+               	translation 0 5 -15
+               	children[
+               	Shape {
+   		geometry DEF xTEXT Text {
+      		fontStyle FontStyle {
+         	justify "MIDDLE"
+         	family "TYPEWRITER"
+      				}
+   			}
+		}
+		]
+		}
+		DEF myyCheeks Transform{
+		translation 0 10 -30
+		children[
+		Shape {
+   		geometry DEF yTEXT Text {
+      		fontStyle FontStyle {
+         	justify "MIDDLE"
+         	family "TYPEWRITER"
+      				}
+   			}
+		}
+   		]
+   		}
+
+   		DEF angularCheeks Transform{
+		translation 0 15 -30
+		children[
+		Shape {
+   		geometry DEF angleTEXT Text {
+      		fontStyle FontStyle {
+         	justify "MIDDLE"
+         	family "TYPEWRITER"
+      				}
+   			}
+		}
+   		]
+   		}
+
+
+   		DEF timeIt Transform{
+		translation 0 10 -50
+		children[
+		Shape {
+   		geometry DEF timerTEXT Text {
+      		fontStyle FontStyle {
+         	justify "MIDDLE"
+         	family "TYPEWRITER"
+      				}
+   			}
+		}
+   		]
+   		}
+
+              	Viewpoint{
+              	position 0 0 1
+              	}
+
+              	DEF myScript Script {
+                eventIn SFVec3f xTranslation
+                eventIn SFVec3f yTranslation
+                eventIn SFFloat theTime
+                field MFString stringTranslation ""
+                field SFFloat myStuff 0.001
+                field MFString strongTranslation ""
+                field SFInt32 i 0
+                field SFFloat zStepSize 0.0
+                #field SFInt32 cheese 0
+                eventOut MFString outputString
+                eventOut MFString jesusString
+                eventOut MFString timeString
+                eventOut SFRotation xRotation
+                eventOut SFVec3f zVelocity
+                #rotation strings
+                eventIn SFRotation directionChanged
+                field SFFloat axisAngle 0.0
+                field SFFloat xStepSize 0.0
+                eventOut MFString angleString
+
+
+   		url "javascript:
+
+      		function initialize()
+      		{
+         	//eventOuts are initialised here
+      		stringTranslation = new MFString('');
+      		outputString = new MFString('');
+      		myStuff = 200;
+      		zStepSize = 0
+      		}
+
+		function theTime (value, ts)
+		{
+		  zVelocity.z+= zStepSize;
+		  zVelocity.x+= xStepSize;
+                  timeString[0] = 'the time interval ' + theTime[0].toString();
+		}
+
+      		function xTranslation (value, ts) {
+      		xRotation = new SFRotation(0, 1, 0, ((xTranslation[0].x)*-15));
+      		//extra watch out
+                axisAngle = xRotation.angle;
+                //calculate the x step size, the z step size is calculated above, this will be used to modify the
+                //direction of the wheels
+                if(zStepSize < 0) //the vehicle is moving forward
+                {
+                	xStepSize = Math.tan(axisAngle) * zStepSize;
+                }
+                else //the vehicle is moving backwards
+                {
+                	xStepSize = Math.tan(-axisAngle) * zStepSize;
+		}
+
+      		angleString[0] = 'the angle of wheel rotation is ' + axisAngle.toString();
+         	stringTranslation[0] = 'xPosition= ' + xTranslation[0].x.toString();
+      		}
+
+      		function yTranslation (value, ts) {
+      		zStepSize = (-yTranslation[0].y)*0.2;
+      		strongTranslation[0] = 'yPosition= ' + yTranslation[0].y.toString();
+
+      		}
+
+      		function eventsProcessed() {
+         	outputString = stringTranslation;
+         	jesusString = strongTranslation;
+      		}"
+
+      		}
+
+        ]
+	}
+	ROUTE ySensor.translation_changed TO yStickController.translation
+	ROUTE xSensor.translation_changed TO xStickController.translation
+	ROUTE xSensor.translation_changed TO myScript.xTranslation
+	ROUTE ySensor.translation_changed TO myScript.yTranslation
+	ROUTE myScript.xRotation TO rightWheelA.rotation
+	ROUTE myScript.xRotation TO leftWheelA.rotation
+	#ROUTE rightWheelA.rotation_changed TO myScript.directionChanged #
+	ROUTE myScript.angleString TO angleTEXT.string      #
+	ROUTE myScript.outputString TO xTEXT.string
+	ROUTE myScript.jesusString TO yTEXT.string
+	ROUTE TIMER.fraction_changed TO myScript.theTime
+	ROUTE myScript.zVelocity TO wheels.translation
+	ROUTE myScript.timeString TO timerTEXT.string
+}
+
+
+
+theController{}

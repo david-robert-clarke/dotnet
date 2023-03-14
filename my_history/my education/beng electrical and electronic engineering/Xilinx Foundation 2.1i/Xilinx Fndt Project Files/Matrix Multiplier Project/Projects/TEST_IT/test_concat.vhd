@@ -1,0 +1,21 @@
+-- Final Year Project
+-- David Clarke
+Library IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_ARITH.ALL;
+
+ENTITY DAVE IS
+PORT (A, B : IN UNSIGNED (1 downto 0); Z : OUT UNSIGNED (1 downto 0));
+END ENTITY DAVE;
+
+ARCHITECTURE BEHAVIOURAL OF DAVE IS
+
+type array8x8 is array (0 to 7) of unsigned(7 downto 0);
+signal dave : array8x8;
+
+BEGIN
+        
+   
+     
+     END ARCHITECTURE;
+     

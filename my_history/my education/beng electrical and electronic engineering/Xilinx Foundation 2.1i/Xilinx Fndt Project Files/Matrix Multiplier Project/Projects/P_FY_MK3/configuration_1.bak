@@ -1,0 +1,52 @@
+-- Final Year Project
+-- By David Clarke
+-- Created 12_12_2000
+Library IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_ARITH.ALL;
+--
+Entity CONFIGURATION_1 is
+     Port (CE, CLK, CLR : IN STD_LOGIC;
+           A0B0_A1B2, A0B1_A1B3, A2B0_A3B2, A2B1_A3B3 : OUT STD_LOGIC_VECTOR (4 downto 0));
+End Entity CONFIGURATION_1;
+
+Architecture STRUCTURAL of CONFIGURATION_1 is
+-- Component Declarations
+Component DSP IS
+     Port (CE, CLR : IN STD_LOGIC;
+           MAT_A_D_IN_1, MAT_A_D_IN_0, MAT_B_D_IN_1, MAT_B_D_IN_0 : IN UNSIGNED (1 downto 0);
+           LATCH_MEM : IN STD_LOGIC_VECTOR (3 downto 0); 
+           A0B0_A1B2, A0B1_A1B3, A2B0_A3B2, A2B1_A3B3 : OUT STD_LOGIC_VECTOR (4 downto 0));
+End Component DSP;
+
+Component Data_Store IS
+     Port (ADDR: in INTEGER range 3 downto 0;
+           DATA: out unsigned (7 downto 0));
+End Component Data_Store;
+
+Component Asm_Config_1 IS
+     PORT (CLK, CLR        : IN STD_LOGIC;
+           DATA_SELECT     : OUT INTEGER range 3 downto 0;
+           LATCH_MEM       : OUT STD_LOGIC_VECTOR (3 downto 0));
+End Component Asm_Config_1;
+
+Signal Elem_DBUS        : UNSIGNED (7 downto 0);
+Signal Mem_Latch_SelBus : STD_LOGIC_VECTOR (3 downto 0);
+Signal Data_SelBus      : INTEGER range 3 downto 0;
+
+Begin
+
+CE <= '0';
+
+-- Component Instantiations
+DSP_A          : DSP          PORT MAP (CE => CE, CLR => CLR, MAT_A_D_IN_1 => Elem_DBUS(7 downto 6), 
+                                        MAT_A_D_IN_0 => Elem_DBUS(3 downto 2), MAT_B_D_IN_1 => Elem_DBUS(5 downto 4),
+                                        MAT_B_D_IN_0 => Elem_DBUS(1 downto 0), LATCH_MEM => Mem_Latch_SelBus, 
+                                        A0B0_A1B2 => A0B0_A1B2 , A0B1_A1B3 => A0B1_A1B3, A2B0_A3B2 => A2B0_A3B2, 
+                                        A2B1_A3B3 => A2B1_A3B3);
+
+Data_Store_A   : Data_Store   PORT MAP (ADDR => Data_SelBus, DATA => Elem_DBUS);
+
+Asm_Config_1_A : Asm_Config_1 PORT MAP (CLK => CLK, CLR => CLR, DATA_SELECT => Data_SelBus, LATCH_MEM => Mem_Latch_SelBus);
+
+End Architecture STRUCTURAL;

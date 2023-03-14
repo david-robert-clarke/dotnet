@@ -1,0 +1,26 @@
+CM: 
+CM: Checking...
+CM:  Error   L8/C0 : #0 Error: C:/fndtn/active/projects/intgrate/stored_answer.vhd  line 8   Syntax error.  (VSS-1081) 
+CM:  Error   L18/C0 : #0 Error: C:/fndtn/active/projects/intgrate/stored_answer.vhd  line 18   The intermediate file for entity STORED_ANSWER is not in the library bound to WORK.  (VSS-1084) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L8/C0 : #0 Error: C:/fndtn/active/projects/intgrate/stored_answer.vhd  line 8   Syntax error.  (VSS-1081) 
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/intgrate/stored_answer.vhd  line 17   The intermediate file for entity STORED_ANSWER is not in the library bound to WORK.  (VSS-1084) 
+CM:  2 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Error   L8/C0 : #0 Error: C:/fndtn/active/projects/intgrate/stored_answer.vhd  line 8   No selected element named MATRIX_PACKAGE is defined for this prefix.  (VSS-573) 
+CM:  Error   L11/C0 : #0 Error: C:/fndtn/active/projects/intgrate/stored_answer.vhd  line 11   ONE_BIT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L12/C0 : #0 Error: C:/fndtn/active/projects/intgrate/stored_answer.vhd  line 12   THREE_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/intgrate/stored_answer.vhd  line 13   TWENTY_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L14/C0 : #0 Error: C:/fndtn/active/projects/intgrate/stored_answer.vhd  line 14   TWENTY_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/intgrate/stored_answer.vhd  line 17   The intermediate file for entity STORED_ANSWER is not in the library bound to WORK.  (VSS-1084) 
+CM:  6 error(s) 0 warning(s) found
+CM: 
+CM: Checking...
+CM:  Warning   L19/C0 : #0 Warning: C:/fndtn/active/projects/intgrate/stored_answer.vhd  line 19   This process statement will never execute a wait statement (no other processes will ever get a chance to run).  (VSS-876) 
+CM:  0 error(s) 1 warning(s) found
+CM: 
+CM: Checking...
+CM: Check Successful

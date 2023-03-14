@@ -1,0 +1,611 @@
+<HTML>
+<HEAD>
+<TITLE>ShellyLibV2.2: Using the Shell Laboratory</TITLE>
+</HEAD>
+<BODY>
+<A HREF="sl-3.html">Previous</A>
+<A HREF="sl-5.html">Next</A>
+<A HREF="sl.html#toc4">Table of Contents</A>
+<HR>
+<H2><A NAME="sec-ushl"></A> <A NAME="s4">4. Using the Shell Laboratory</A></H2>
+
+<P>The <CODE>"Shell Laboratory"</CODE> is a GUI for <CODE>"libshelly"</CODE>. 
+It is mainly a Tcl/Tk script and some C-code to interface to
+OpenGL (via Togl) and <CODE>"libshelly"</CODE>.</P>
+<P>The main goal of this GUI is to ease the process of parameterization
+through immediate display of the results.</P>
+
+<H2><A NAME="ss4.1">4.1 The Main Window</A></H2>
+
+<P>Each parameter of the shell generator is represented as a line,
+containing
+<UL>
+<LI> an entry (showing the value of that parameter)</LI>
+<LI> a configurable slider (it's minimum and maximum values are
+displayed in two labels to the right and left)</LI>
+<LI> a button to start the calibration of the slider.</LI>
+</UL>
+</P>
+<P>Since all those parameter-lines fit hardly on any screen, I put
+them into a scroll-able canvas.
+You might want to maximize the window size to your full 
+screen height.
+You can cycle through the entries and sliders with <CODE>&lt;TAB&gt;</CODE> and
+<CODE>&lt;Shift+TAB&gt;</CODE>.</P>
+<P>Each change of a sliders value results in the following internal actions.
+At first, a new shell is generated via <CODE>"libshelly"</CODE> in the mode selected
+in the <CODE>"Preferences/SL-Mode"</CODE> sub menu. Then, the shell is displayed as
+wireframe, shaded polygonal or smooth NURBS model in the second window called
+<CODE>"3D-View"</CODE>. If you enter a value for a parameter directly
+in the associated entry, the update process starts when
+the focus leaves the entry (the <CODE>&lt;TAB&gt;</CODE>-key is pressed
+or another entry is selected with the mouse).</P>
+<P>The initial configuration of the sliders has been choosen to protect you
+from potentially dangerous parameter values, that may crash the lab,
+and to ensure greatest possible freedom in setting any parameter.
+From time to time it may be necessary to reconfigure a slider, so that
+other values than allowed by its initial configuration may be set.
+Each slider may be configured using the associated <CODE>"Cal."</CODE> button.
+This will open a modal dialog, where you can change minimum
+and maximum value and, important, the step-size or resolution of the slider.
+Note, that you cannot set any other value than 
+<CODE>x = min + (n * step-size), (x <= max)</CODE> with the slider.</P>
+
+
+<H2><A NAME="ss4.2">4.2 The Menu</A></H2>
+
+<P>
+<UL>
+<LI><CODE>File</CODE>
+<UL>
+<LI><CODE>New</CODE>: reset the lab </LI>
+<LI><CODE>Load</CODE>: loads a set of parameters </LI>
+<LI><CODE>Save</CODE>: saves a set of parameters</LI>
+<LI><CODE>Import</CODE>
+<UL>
+<LI><CODE>Texture (PPM)</CODE>: import an image file in the
+PPM format to map on the shell</LI>
+</UL>
+</LI>
+<LI><CODE>Export</CODE>
+<UL>
+<LI><CODE>Shell</CODE>: export the calculated shell as object
+in various formats  (see section 
+<A HREF="sl-8.html#sec-outp">Output Formats</A> for more information)
+<UL>
+<LI>POV</LI>
+<LI>DXF</LI>
+<LI>. . .</LI>
+</UL>
+</LI>
+<LI><CODE>Scene</CODE>: export the calculated shell and all transformations
+of the 3D-View in RIB format</LI>
+<LI><CODE>Texture (PPM)</CODE>: export the current texture
+as image file in the PPM format</LI>
+<LI><CODE>3D-View Image (PPM)</CODE>: export the rendered shell
+as image file in the PPM format; Note, that the front buffer
+will be used for this, make sure that no other window destroys
+the content of this buffer. The resulting image files are usually
+very large, because the ASCII version of PPM is used, convert them!</LI>
+</UL>
+</LI>
+<LI><CODE>Exit</CODE>: quits the application</LI>
+</UL>
+
+</LI>
+<LI><CODE>Preferences</CODE>: (Configuring miscellaneous things)
+<UL>
+<LI><CODE>Mode</CODE>:
+<UL>
+<LI><CODE>Wireframe</CODE>: switches to wireframe display (default)</LI>
+<LI><CODE>FlatShaded</CODE>: switches to a flat (constant) shaded representation</LI>
+<LI><CODE>NURBS</CODE>: switches to a NURBS rendered representation</LI>
+<LI><CODE>NURBS+Wire</CODE>: NURBS + control polygon</LI>
+</UL>
+</LI>
+<LI><CODE>Projection</CODE>:
+<UL>
+<LI><CODE>Perspective</CODE>: Perspective projection (default)</LI>
+<LI><CODE>Orthographic</CODE>: Orthographic projection</LI>
+</UL>
+</LI>
+<LI><CODE>Color</CODE>: Change color and material properties of the shell
+<UL>
+<LI><CODE>Set Ambient Color</CODE> </LI>
+<LI><CODE>Set Diffuse Color</CODE></LI>
+<LI><CODE>Set Specular Color</CODE>: color of the highlights</LI>
+<LI><CODE>Set Shininess</CODE>: specularity (0 - 128)</LI>
+<LI><CODE>Set Background Color</CODE></LI>
+</UL>
+</LI>
+<LI><CODE>Antialiasing</CODE>:
+<UL>
+<LI><CODE>None</CODE>: disables antialiasing (default)</LI>
+<LI><CODE>4 Passes</CODE>: enables antialiasing using 4 rendering passes</LI>
+<LI><CODE>8 Passes</CODE>: enables antialiasing using 8 rendering passes</LI>
+</UL>
+</LI>
+<LI><CODE>DrawCoordsys</CODE>: switches display of the small coordinate system
+on or off (default: on)</LI>
+<LI><CODE>AutoUpdate</CODE>: If this is enabled, every change of a parameter
+results in an immediate update of the display.
+Toggling the checkbox from <CODE>"off"</CODE> to <CODE>"on"</CODE> will not result in an
+updated display. (default: on)</LI>
+<LI><CODE>Set NURBS Quality</CODE>: allows to change <CODE>"GLU_SAMPLING_TOLERANCE"</CODE></LI>
+<LI><CODE>SL-Mode</CODE>:
+<UL>
+<LI><CODE>Normal</CODE>: (default)</LI>
+<LI><CODE>Nodule</CODE>: </LI>
+<LI><CODE>GenCurve</CODE>: see section 
+<A HREF="sl-6.html#sec-calc">Calculation Modi</A> for more information on these modes</LI>
+</UL>
+</LI>
+</UL>
+</LI>
+<LI><CODE>Windows</CODE>: 
+<UL>
+<LI><CODE>GenCurve-Editor</CODE>: opens the generation curve editor</LI>
+<LI><CODE>Texture-Editor</CODE>: opens the texture editor</LI>
+</UL>
+</LI>
+<LI><CODE>Help</CODE>: (A small online help)
+<UL>
+<LI><CODE>Shell Laboratory</CODE>: Just a pointer to the original docs.</LI>
+<LI><CODE>About Shell Laboratory</CODE></LI>
+</UL>
+</LI>
+</UL>
+</P>
+<P>Shortcuts (accelerators) exist for some of these menu entries, see
+the menu entries for more information.</P>
+
+
+<H2><A NAME="ss4.3">4.3 The 3D-View</A></H2>
+
+<P>This window uses OpenGL to draw the shell.
+The shell may be displayed as wireframe model or rendered using 
+constant shading or as a NURBS-surface.
+You may configure this with the <CODE>"Mode"</CODE> sub-menu in the
+<CODE>"Preferences"</CODE> menu.</P>
+<P>You may rotate, zoom and move the shell (moving along z-axis only) 
+with your mouse and keyboard. See the listing of key and mouse bindings
+to learn how to.</P>
+<P>A coordinate system is drawn to help you to navigate. It might be
+helpful to estimate the size of the object, as each axis is exactly
+1 (whatever) long.  
+It can be switched off with the <CODE>"DrawCoordsys"</CODE> check-button in the
+<CODE>"Preferences"</CODE> menu.</P>
+<P>The view is updated every time you change the value of a parameter.
+You may change this behavior with the <CODE>"AutoUpdate"</CODE> check-button.
+Note, that changing <CODE>"AutoUpdate"</CODE> from off to on state does
+not result in an updated display.</P>
+<P>If you get annoyed by the perspective distortions that may occur
+when viewing large objects, use the new orthographic projection mode
+(submenu <CODE>"Projection"</CODE> in the <CODE>"Preferences"</CODE> menu).</P>
+<P>If you are lost in space use <CODE>&lt;r&gt;</CODE> to reset to the default
+settings.</P>
+
+
+<H3>NURBS</H3>
+
+<P>Some notes about the NURBS rendering mode.
+Be warned, that NURBS rendering may be a very lengthy process, especially
+if texturing is enabled. Under certain conditions it may last too long,
+even for the most patient.
+A simple rule to avoid long rendering times:</P>
+<P>Do not render shells that do not fit
+completely into the view.</P>
+<P>Especially if you zoomed the view a lot,
+or if you have the impression that the viewer is inside or very near
+the shell (after a rotation or parameter change) do not activate NURBS!</P>
+<P>Setting too small values for the <CODE>"NURBS Quality"</CODE>
+(which is actually <CODE>"GLU_SAMPLING_TOLERANCE"</CODE>) is dangerous too,
+I recommend not to set values smaller than 10. However, I have to admit
+that you need to set it to 5 to correctly render some
+example .shy-files (namely, the rippled Cockle and Rapa).</P>
+<P>Even though NURBS represent very smooth surfaces, occasional
+cracks might be visible on the surfaces, dependig on the OpenGL
+implementation.
+The NURBS rendered with Mesa usually do not suffer from this problem.
+On an SGI decreasing <CODE>"NURBS Quality"</CODE> or sometimes simply
+rotating the shell a bit helps.</P>
+<P>Even the NURBS rendering speed of normal sized shells might not
+be enough for interactive displays on nowadays commodity workstations
+(Pentium class), thats why the representation is automatically
+switched from NURBS to flat shaded, while rotating and changing
+parameters with the sliders.</P>
+
+<H3>Antialiasing</H3>
+
+<P>Antialiasing improves the rendering quality using a technique called
+viewing-volume-jittering. The scene is rendered multiple times with
+slightly different camera settings. All passes are accumulated to
+the resulting image. 
+Note, that the rendering times do not increase linearly with the
+number of rendering passes because of the buffer operations (the
+accumulation process). This means, if you get 10 frames per second in
+wireframe rendering mode, you will not get a fourth (2 fps) with 
+4 pass antialiasing, this depends on the speed of the buffer operations.
+In practice, expect something near 0.75 frames per second in wireframe mode! 
+You see that antialiasing is very slow and therefore it is switched off
+temporarily while rotating and changing parameters with the sliders.</P>
+<P>Two levels of antialiasing are available. The 4 passes mode
+increases the quality considerably, while 8 passes give not
+much more quality (compared to the increased effort). Your
+mileage may vary, however.</P>
+<P>You may toggle antialiasing directly with the <CODE>&lt;a&gt;</CODE> hotkey in
+the 3D-View.</P>
+
+<H3>Texturing</H3>
+
+<P>Texturing can be enabled or disabled with the <CODE>&lt;t&gt;</CODE> hotkey.
+You may use imported textures or textures generated in the
+<CODE>"Shell Laboratory"</CODE> by the built-in texture generator.</P>
+<P>Textures should be sized properly in order to be used with
+OpenGL. Use powers of two, otherwise the texture image will
+get scaled, which is something you might not want.</P>
+<P>The <CODE>"Shell Laboratory"</CODE> uses mipmaps and bilinear filtering
+in order to achieve the highest possible texture mapped rendering
+quality (depending on the OpenGL implementation). Some strange
+blurry artifacts occurred lately using very large (2048x512)
+textures, I am still investigating this...</P>
+<P>Note, that the white highlight on the shell is not rendered correctly
+if texturing is enabled. This is a limitation of OpenGL, which can be
+circumvented by a multi pass rendering approach
+(like most limitations of OpenGL),
+but I guess antialiasing is multi pass enough...</P>
+
+<H3>Key and Mouse bindings</H3>
+
+<P>Here are all the key and mouse bindings:</P>
+<P><CODE>&lt;Mouse-Button-1&gt;</CODE> (the left one) click and drag: rotate
+around x- and y-axis</P>
+<P><CODE>&lt;Cursor-Left&gt;</CODE>, <CODE>&lt;Cursor-Right&gt;</CODE>: rotate around z-axis </P>
+<P><CODE>&lt;Cursor-Up&gt;</CODE>, <CODE>&lt;Cursor-Down&gt;</CODE>: move along z-axis</P>
+<P><CODE>&lt;Shift+Cursor-Up/Down/Left/Right&gt;</CODE>: move view</P>
+<P><CODE>&lt;x/X/y/Y/z/Z&gt;</CODE>: view along x (y z) axis</P>
+<P><CODE>&lt;+&gt;</CODE>: zoom in</P>
+<P><CODE>&lt;-&gt;</CODE>: zoom out</P>
+<P><CODE>&lt;r&gt;</CODE>: reset all transformations</P>
+<P><CODE>&lt;a&gt;</CODE>: toggle antialiasing</P>
+<P><CODE>&lt;t&gt;</CODE>: toggle texturing</P>
+<P>Other useful keybindings are <CODE>&lt;w&gt;</CODE> (switch to wireframe),
+<CODE>&lt;f&gt;</CODE> (switch to flat shading), <CODE>&lt;n&gt;</CODE> (switch
+to NURBS) and <CODE>&lt;c&gt;</CODE> (switch to NURBS + control polygon).</P>
+<P>Note, that these key and mouse bindings are available in the
+3D-View window only!</P>
+
+
+<H2><A NAME="sec-gce"></A> <A NAME="ss4.4">4.4 The Generation Curve Editor</A></H2>
+
+<P>The generation curve editor (GCE) offers a facility to easily create or modify
+a generation curve, used in the GenCurve-mode of <CODE>"libshelly"</CODE>.</P>
+<P>Some basics:
+<UL>
+<LI>The GCE always works on a local copy of the generation curve
+which is used by the main part of the Shell Laboratory.
+The original generation curve, which is used for generating shells,
+is updated only when you want it. (Check the <CODE>"Update"</CODE> menu.)</LI>
+<LI>Changes to the generation curve will only have an effect on the
+shell displayed in the 3D-View, if <CODE>"libshelly"</CODE> is in the
+<CODE>"GenCurve"</CODE> mode.
+The GCE will ask you to enable this mode on startup,
+in case you did not activate it by yourself.</LI>
+<LI>You may zoom and move the view of the generation curve with
+your mouse or keyboard, see keybindings.</LI>
+<LI>You may move, delete and insert points of the generation curve.</LI>
+<LI>Atleast two points are needed in a generation curve!</LI>
+</UL>
+</P>
+
+<H3>The Menu</H3>
+
+<P>The menu-items should be self explanatory.
+<UL>
+<LI><CODE>Window</CODE>
+<UL>
+<LI><CODE>Close</CODE></LI>
+</UL>
+</LI>
+<LI><CODE>Update</CODE>
+<UL>
+<LI><CODE>No automatic Update</CODE></LI>
+<LI><CODE>Update after move</CODE></LI>
+<LI><CODE>Update while moving</CODE></LI>
+<LI><CODE>Update now!</CODE></LI>
+</UL>
+</LI>
+<LI><CODE>Curve</CODE>
+<UL>
+<LI><CODE>Insert Point</CODE></LI>
+<LI><CODE>Delete Point</CODE></LI>
+<LI><CODE>Fetch from Normal-Mode</CODE></LI>
+</UL>
+</LI>
+<LI><CODE>Help</CODE>
+<UL>
+<LI><CODE>Help</CODE></LI>
+</UL>
+</LI>
+</UL>
+</P>
+
+<H3>Key and mouse bindings</H3>
+
+<P>Some accelerators exist for the menu:</P>
+<P><CODE>&lt;Ctrl+w&gt;</CODE>: close window</P>
+<P><CODE>&lt;Ctrl+i&gt;</CODE>: insert point</P>
+<P><CODE>&lt;Ctrl+d&gt;</CODE>: delete point</P>
+<P><CODE>&lt;Ctrl+f&gt;</CODE>: fetch curve from Normal-Mode</P>
+<P><CODE>&lt;Ctrl+u&gt;</CODE>: update generation curve of the main window</P>
+<P>Key bindings for zooming and moving are:</P>
+<P><CODE>&lt;Mouse-Button-3&gt;</CODE>: (the right one) click and drag: move the view</P>
+<P><CODE>&lt;Up,Down,Left,Right&gt;</CODE>: move the view</P>
+<P><CODE>&lt;r&gt;</CODE>: reset all moves</P>
+<P><CODE>&lt;+,Add&gt;</CODE>: zoom into the view x2 (works upto a factor of 8)</P>
+<P><CODE>&lt;-,Sub&gt;</CODE>: zoom out of the view x0.5 (works upto a factor of 0.125)</P>
+
+<H3>Inserting and deleting points</H3>
+
+<P>To insert a new point simply select the <CODE>"Insert Point"</CODE> menu entry,
+then click on a point of the generation curve. Do not release
+the mouse button, but simply drag the new point to it's position.
+Deleting points is even more simple, use the <CODE>"Delete Point"</CODE> menu entry
+and select the point to delete with your mouse. Note, that you cannot
+delete any points if there are only two left.</P>
+
+<H3>Fetching the curve from Normal-Mode</H3>
+
+<P>The fetched curve is the first curve,
+generated in Normal-Mode. This means that certain
+transformations are applied to the original centered
+ellipsoid curve before fetching!</P>
+<P>You may preview the curve you will get, setting the following
+parameters: <CODE>"omin"</CODE> 0 and <CODE>"omax"</CODE> 1.</P>
+<P>If you want to start your work on the generating curve with
+the same shell as would be generated in the Normal-Mode set
+temporarily the following parameters:</P>
+<P><CODE>"beta"</CODE> to 90.0;</P>
+<P><CODE>"phi"</CODE>,<CODE>"my"</CODE>,<CODE>"omega"</CODE>, <CODE>"A"</CODE> to 0.0;</P>
+<P><CODE>"a"</CODE>, <CODE>"b"</CODE>, <CODE>"scale"</CODE> to 1.0.</P>
+<P>Now fetch the generating curve, and restore the original values.
+This does not give you exactly the same shell, but the changes should
+be minimal.</P>
+
+
+<H2><A NAME="sec-te"></A> <A NAME="ss4.5">4.5 The Texture Editor</A></H2>
+
+<P>The texture editor (TE) offers a facility to easily create textures
+to be mapped onto the shell shapes generated by <CODE>"libshelly"</CODE>.
+It utilizes the algorithms published in "The Algorithmic Beauty of Sea
+Shells" by H. Meinhardt (see section 
+<A HREF="sl-9.html#sec-poin">Addresses, Pointers, Literature</A>
+for a complete reference).
+This section is not intended to explain these algorithms and their
+parameters in depth. If you are interested read the book. </P>
+<P>Some basics:
+<UL>
+<LI>The TE always works on a local copy of the texture which is used by
+the main part of the Shell Laboratory.
+The original texture, which is used for rendering shells and
+texture export, is updated only when you want it.
+(Check the <CODE>"Update"</CODE> menu.)</LI>
+<LI>Changes to the texture will only have an effect on the
+shell displayed in the 3D-View, if texturing is enabled.
+The TE will automatically activate texturing when you update the texture.</LI>
+</UL>
+</P>
+
+<H3>The Menu</H3>
+
+<P>The menu-items should be self explanatory.
+<UL>
+<LI><CODE>Window</CODE>
+<UL>
+<LI><CODE>Close</CODE></LI>
+</UL>
+</LI>
+<LI><CODE>Update</CODE>
+<UL>
+<LI><CODE>No automatic Update</CODE></LI>
+<LI><CODE>Update after generate</CODE></LI>
+<LI><CODE>Update now!</CODE></LI>
+</UL>
+</LI>
+<LI><CODE>Help</CODE>
+<UL>
+<LI><CODE>Help</CODE></LI>
+</UL>
+</LI>
+</UL>
+</P>
+<P>The following hot-keys are defined:</P>
+<P><CODE>&lt;Ctrl+w&gt;</CODE>: close window</P>
+<P><CODE>&lt;Ctrl+u&gt;</CODE>: update texture</P>
+<P><CODE>&lt;Ctrl+g&gt;</CODE>,<CODE>&lt;g&gt;</CODE>: generate texture</P>
+<P><CODE>&lt;Ctrl+s&gt;</CODE>,<CODE>&lt;s&gt;</CODE>: stop generator</P>
+<P><CODE>&lt;Ctrl+z&gt;</CODE>: Undo </P>
+
+
+<H3>Generating a texture</H3>
+
+<P>For your first experiments just select a texture type using the
+<CODE>"Select type:"</CODE> listbox and use the <CODE>"Generate"</CODE> button.</P>
+<P>Follow these steps to create a texture:
+<OL>
+<LI>At first, set the desired size of the texture.
+If you plan to map the generated texture onto a shape in the Shell
+Laboratory, you should stick to sizes that are powers of two
+(64, 128, 256 etc.), as OpenGL demands this. GLU does scale
+the texture to the next power of two, but this might not deliver
+best results. This scaling does not affect the size of the exported
+textures. Note, that some OpenGL implementations impose even
+more constraints (a maximum texture size of 256x256 for instance).
+Also note, that some texture type specific parameters may need to
+be adjusted, if you select a different height than the default
+height of 128.</LI>
+<LI>Now select the type of the texture, with the <CODE>"Select type:"</CODE>
+listbox. Selecting a type will fill the next two sections of adjustable
+parameters with default values.</LI>
+<LI>You may alter the type specific settings now. Set colors and
+adjust parameters of the texture generator, more information about these
+settings can be found in the next section: 
+<A HREF="#sec-tepa">Parameters of the texture generator</A>.</LI>
+<LI>Choose an image operation now. The default (Overwrite)
+simply destroys the old texture.</LI>
+<LI>Now you can generate the texture, using the <CODE>"Generate"</CODE>
+button. If you find that the created texture does not come out right, you
+might stop the generator with the <CODE>"Stop!"</CODE> button. Note, that while
+generating a texture, the GUI might respond a little slower than usual.</LI>
+<LI>The generated texture can be mapped onto a shell now.
+Simply press <CODE>"Ctrl+u"</CODE>, then change to a Flat-shaded or
+NURBS display. Texture mapping may reduce performance drastically
+on software-only OpenGL implementations; switch to the wireframe
+display before rotating or changing parameters!</LI>
+</OL>
+</P>
+
+<H3><A NAME="sec-tepa"></A> Parameters of the texture generator</H3>
+
+<P>How does the texture generator work?</P>
+<P>It simulates the
+distribution of substances (e.g. pigments) in the cells of
+a shell over it's lifetime. Several different
+effects may influence the distribution of substances like
+diffusion.
+All these different effects are put together in sets of
+equations. Each set allows for the simulation of a specific
+type of shell pattern. There is no general set of equations
+available that could simulate all possible patterns of shells.</P>
+<P>It is clearly beyond the scope of this documentation to explain
+all the equations and their parameters, as they are really
+complex. I can only point you to Meinhardt's book.</P>
+<P>The texture generator implements many (not all!) equations
+from Meinhardt's book "The Algorithmic Beauty of Sea
+Shells".
+The parameter names were taken from the example implementation
+given in the book.</P>
+<P>Some features of Meinhardt's software are not implemented in the
+texture generator. It
+is not able to plot concentrations of different substances,
+but just one (substance A). And the type of the plot is always
+a continuous mapping of the concentration of substance A
+to color values. This mapping can be adjusted with the <CODE>"Set Color:"</CODE>
+parameters.
+They define an interval of concentration values (the two entries)
+and the accompanying interval in color (the two colored buttons). 
+Two more things are important about this mapping: if the concentration
+of substance A is smaller than the value in the first entry, the
+resulting color is white; if the concentration is bigger than the
+value in the second entry the resulting color will be that of
+the second button.</P>
+<P>Now on to the other parameters. You may select different
+parameter sets with the pop-up-menu that comes up if you press the
+<CODE>"Set Parameter:"</CODE> button.</P>
+<P>Up to seven substances (named A to G) may be used for the simulations.
+That's why there are seven numbers in each
+parameter list (except for the <CODE>"Misc."</CODE>-section).
+The first number in the list (if
+<CODE>"Initial Concentration (A)"</CODE> is selected) is 
+the initial concentration of substance A, consequently.
+The second number is the initial concentration of substance B and so on.
+Do not confuse the names of substances (A to G) with the names of
+parameters (A, B, C, D, G, R, S).</P>
+<P>An important section of parameters is the <CODE>"Misc."</CODE>-section.
+The parameter names from this list (except for <CODE>"RS"</CODE>) have been taken
+from the example implementation by Meinhardt as well.</P>
+<P>Some simulations depend on random numbers. You can set the
+amount of randomness with the <CODE>"KR"</CODE> parameter. The <CODE>"RS"</CODE>
+parameter controls the initialization of the random number
+generator. If <CODE>"RS"</CODE> has a value other than zero, this
+value will be used to initialize the random number generator.
+This is done before each simulation run, this way the results of
+random simulations become predictable.
+If you set <CODE>"RS"</CODE> to zero, the random number
+generator will not be initialized at all. The resulting
+pattern is not predictable anymore, and you may generate
+different patterns just by pressing the <CODE>"Generate"</CODE>
+button again and again.</P>
+<P>For the other parameters, consult the book.
+I probably will extend the documentation here, but I stop writing
+now to get the new version out as quickly as possible.</P>
+<P>Note, that not every set of equations uses all seven substances.
+Nevertheless, you must have seven numbers in each parameter section
+(except for the <CODE>"Misc."</CODE>-section of course).</P>
+<P>Here is a short survival-guide to help you to get certain
+things done:
+<UL>
+<LI>Problem; Solution</LI>
+<LI>The pattern is to small/big in O-direction;
+Increase/decrease <CODE>"KP"</CODE> (might not work
+for all texture types, as this actually controls the number of
+iterations used to calculate a single row)</LI>
+<LI>The pattern is to small/big in S-direction;
+Increase/decrease the <CODE>"Height"</CODE>-value.</LI>
+<LI>The texture generator seems to stop before the end, leaving a lot
+of white space; If the <CODE>"wall"</CODE>-parameter
+has a value higher than <CODE>"0.0"</CODE> the texture generator will
+smoothly fade generated textures to white on the texture position that
+corresponds to the beginning of the aperture of the shell.
+This way the interior of the shell is not textured at all.
+If you change <CODE>"wall"</CODE> to <CODE>"0.0"</CODE> this will not happen.</LI>
+<LI>Texture comes out distorted or noisy; Sometimes simply
+generating a new texture will help (if you did not fiddle with any
+parameters it will), otherwise try to decrease <CODE>"KR"</CODE> (randomness)
+or the diffusion-constants, which should not be higher than <CODE>"0.4"</CODE>
+to avoid numeric instabilities.</LI>
+</UL>
+</P>
+
+<H3>Image operations</H3>
+
+
+<P>Image operations may be used to combine generated images,
+this boasts the number of possible patterns.
+You may choose between three effects, mix, add and sub; they should
+be self explanatory, if not: simply try them out.
+Press <CODE>&lt;Ctrl+z&gt;</CODE> (single step undo) if you are not satisfied
+with the results.</P>
+<P>Use the associated entry to determine the strength of the effect.</P>
+<P>The two source images should have the same dimensions, unless you
+want funny results.</P>
+
+<H3><A NAME="sec-textut"></A> Sundial Tutorial</H3>
+
+
+<P>As you can see, a complete reference/documentation of all the
+parameters is still missing in the V2.2-documentation.
+I added this small tutorial instead.</P>
+<P>How was the texture for the Sundial shell on the
+ShellyLib Home Page done?</P>
+<P>
+<OL>
+<LI>Load the <CODE>"Sundial.shy"</CODE> from the shy archive.</LI>
+<LI>Open the texture editor.</LI>
+<LI>Set the texture width to 1024.</LI>
+<LI>Choose the <CODE>"IrregularStripes"</CODE> texture, generate it.</LI>
+<LI>Now we want to add the perpendicular white stripes to the
+texture. Choose the <CODE>"Stripes3"</CODE> texture.</LI>
+<LI>Set the  the start value to 0.0, start color to black (0, 0, 0).
+Set the end value to 0.5 and the end color to a middle gray (128, 128, 128).
+This makes the stripes a bit broader(start - end values) and limits
+the generated color values to 128. For sharper white perpendicular
+stripes experiment with higher end values. Use <CODE>"Ctrl+z"</CODE> to undo
+the last change to the generated texture, if you are unsatisfied with
+the result!</LI>
+<LI>Set <CODE>"KP"</CODE> from 20 to 30 (<CODE>"Set parameter:/Misc"</CODE>). This
+increases the number of stripes.</LI>
+<LI>Switch to image operation <CODE>"Brighten"</CODE>, change the
+strength of the effect to about 80 percent.</LI>
+<LI>Hit generate. Wait. We are done! Update, then render with NURBS.</LI>
+</OL>
+</P>
+
+
+
+<HR>
+<A HREF="sl-3.html">Previous</A>
+<A HREF="sl-5.html">Next</A>
+<A HREF="sl.html#toc4">Table of Contents</A>
+</BODY>
+</HTML>

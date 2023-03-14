@@ -1,0 +1,30 @@
+ngdbuild:  version C.22
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -p xc4010xl-09-pc84 -uc matmul.ucf -dd ..
+c:\fndtn\active\projects\matmul\matmul.xnf matmul.ngd 
+
+Launcher: Executing xnf2ngd -p xc4000xl -u
+"c:\fndtn\active\projects\matmul\matmul.xnf"
+"C:\Fndtn\Active\Projects\MatmuL\xproj\ver1\matmul.ngo"
+xnf2ngd:  version C.22
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+   using XNF gate model
+   reading XNF file "c:/fndtn/active/projects/matmul/matmul.xnf" ...
+   Writing NGO file "C:/Fndtn/Active/Projects/MatmuL/xproj/ver1/matmul.ngo" ...
+Reading NGO file "C:/Fndtn/Active/Projects/MatmuL/xproj/ver1/matmul.ngo" ...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "matmul.ucf" ...
+
+Checking timing specifications ...
+
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "matmul.ngd" ...
+
+Writing NGDBUILD log file "matmul.bld"...

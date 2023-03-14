@@ -1,0 +1,19 @@
+BITGEN: Xilinx Bitstream Generator C.16
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Loading device database for application Bitgen from file "proj_3x3.ncd".
+   "proj_3x3" is an NCD, version 2.28, device xc4010xl, package pq208, speed
+-09
+Loading device for application Bitgen from file '4010xl.nph' in environment
+C:/Fndtn.
+Opened constraints file proj_3x3.pcf.
+
+Sat Feb 10 22:17:56 2001
+
+bitgen -l -w -g ConfigRate:SLOW -g TdoPin:PULLNONE -g M1Pin:PULLNONE -g DonePin:PULLUP -g CRC:enable -g StartUpClk:CCLK -g SyncToDone:no -g DoneActive:C1 -g OutputsActive:C2 -g GSRInactive:C3 -g ReadClk:CCLK -g ReadCapture:enable -g ReadAbort:disable -g M0Pin:PULLNONE -g M2Pin:PULLNONE -g AddressLines:18 proj_3x3.ncd 
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Saving ll file in "proj_3x3.ll".
+Creating bit map...
+Saving bit stream in "proj_3x3.bit".

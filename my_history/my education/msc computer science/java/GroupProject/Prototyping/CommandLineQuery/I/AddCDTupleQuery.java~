@@ -1,0 +1,83 @@
+package I;
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.Calendar;
+
+
+/**
+ * SQL Query
+ *
+ * 
+ **/
+public class AddCDTupleQuery
+{
+    private Connection c;
+    private String cdName,artist,genre,type,releaseDate,rPrice;
+
+    public AddCDTupleQuery(ArrayList cdInformation)
+    {      
+        c = MyConnection.C;
+        cdName = (String)cdInformation.get(0);
+        artist = (String)cdInformation.get(1);
+        genre = (String)cdInformation.get(2);
+        type = (String)cdInformation.get(3);
+        releaseDate = (String)cdInformation.get(4);
+        rPrice = (String)cdInformation.get(5);
+    }
+
+    public void exeQuery()
+    {
+        try 
+            {
+	Statement stmt = c.createStatement();
+	ResultSet rs = stmt.executeQuery("SELECT MAX(iid) FROM cd;");
+	String sIID ="";
+	    
+	while (rs.next()) 
+	    {
+	        sIID = rs.getString("max");//string item id
+	    }
+	
+	//calculates next iid       
+	int iIID = Integer.parseInt(sIID);//interger item id
+	int niIID = iIID + 1; //new item ID 
+	String iid = "";
+	if(niIID < 10)
+	    {
+	        iid = "00000" + niIID;
+	    }
+	else if(niIID < 99)
+	    {
+	        iid = "0000" + niIID;
+	    }
+	else if(niIID < 999)
+	    {
+	        iid = "000" + niIID;	
+	    }
+	else if(niIID < 9999)
+	    {
+	        iid = "00" + niIID;
+	    }
+	else if(niIID < 99999)
+	    {
+	        iid = "0" + niIID;	
+	    }
+	else
+	    {
+	        iid = "" + niIID;
+	    }
+
+	//System.out.println("Integer item ID is: " + iid);
+	//new query, add new cd item to the cd table  
+	stmt.executeUpdate("INSERT INTO cd " + 
+	"VALUES ('" + iid + "'," + "'" + cdName + "','" +
+	artist + "'," + "'" + genre + "'," + "'" + type + "'," +
+	"DATE '" + releaseDate + "'," + "'" +  rPrice + "')");
+	
+            } 
+        catch (SQLException e) 
+            {
+	System.out.println( "An exception occurred in CDSearch. " + e);
+            }
+    }
+}

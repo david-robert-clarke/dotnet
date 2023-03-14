@@ -1,0 +1,58 @@
+LCANET, 6
+PROG, Synopsys, UNKNOWN, v3.2, Build 3.2.0.4201
+PART, 4010XL-PC84-09
+SYM, C6, IBUF, LIBVER=2.0.0
+PIN, O, O, N_A, , 
+PIN, I, I, A, , 
+END
+SYM, C7, IBUF, LIBVER=2.0.0
+PIN, O, O, N_B, , 
+PIN, I, I, B, , 
+END
+SYM, C8, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, Z<1>, , 
+PIN, I, I, C2_C0_N7, , 
+END
+SYM, C9, OBUF, LIBVER=2.0.0, SLOW
+PIN, O, O, Z<0>, , 
+PIN, I, I, C2_C0_N3, , 
+END
+SYM, c10_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c10_n0, , , INV
+PIN, I1, I, c10_n1, , , INV
+PIN, O, O, C2_C0_N3, , , INV
+END
+SYM, c10_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_A, , , INV
+PIN, I1, I, N_B, , 
+PIN, O, O, c10_n0, , 
+END
+SYM, c10_c2, AND, LIBVER=2.0.0
+PIN, I0, I, N_A, , 
+PIN, I1, I, N_B, , , INV
+PIN, O, O, c10_n1, , 
+END
+SYM, FMAP_0, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_A, , 
+PIN, I2, I, N_B, , 
+PIN, O, I, C2_C0_N3, , 
+END
+SYM, c11_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c11_n0, , , INV
+PIN, O, O, C2_C0_N7, , , INV
+END
+SYM, c11_c1, AND, LIBVER=2.0.0
+PIN, I0, I, N_A, , 
+PIN, I1, I, N_B, , 
+PIN, O, O, c11_n0, , 
+END
+SYM, FMAP_1, FMAP, LIBVER=2.0.0
+PIN, I1, I, N_A, , 
+PIN, I2, I, N_B, , 
+PIN, O, I, C2_C0_N7, , 
+END
+EXT, A, I, 
+EXT, B, I, 
+EXT, Z<1>, O, 
+EXT, Z<0>, O, 
+EOF

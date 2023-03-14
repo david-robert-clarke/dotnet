@@ -1,0 +1,66 @@
+package I;
+import java.awt.*;
+import javax.swing.*;
+
+class EditStockUI extends JFrame
+{    
+  //constructor
+  public EditStockUI()
+  {
+    //editing fields
+    JLabel blankLabel0 = new JLabel();
+    JLabel blankLabel1 = new JLabel();
+    JPanel editPanel = new JPanel();
+    editPanel.setLayout(new GridLayout(13,1));
+    JLabel titleLabel = new JLabel("Enter your new CD details below");
+    JLabel cdLabel = new JLabel("CD name");   
+    JTextField cdTextField = new JTextField();    
+    JLabel artistLabel = new JLabel("Artist");
+    JTextField artistTextField = new JTextField();
+    JLabel genreLabel = new JLabel("Genre");
+    JComboBox genreComboBox = new JComboBox();
+    genreComboBox.addItem("Rock & Pop");
+    genreComboBox.addItem("Heavy Metal");
+    genreComboBox.addItem("R&B");
+    genreComboBox.addItem("Hip Hop");
+    genreComboBox.addItem("Soul");
+    genreComboBox.addItem("Dance");
+    genreComboBox.addItem("Garage");
+    genreComboBox.addItem("Alternative");  
+    JLabel typeLabel = new JLabel("Type");
+    JComboBox typeComboBox = new JComboBox();
+    typeComboBox.addItem("Single");
+    typeComboBox.addItem("Album");
+    JLabel rPriceLabel = new JLabel("Retail Price");
+    JTextField rPriceTextField = new JTextField();
+
+    editPanel.add(titleLabel);
+    editPanel.add(blankLabel0);
+    editPanel.add(cdLabel);
+    editPanel.add(cdTextField);
+    editPanel.add(artistLabel);
+    editPanel.add(artistTextField);
+    editPanel.add(genreLabel);
+    editPanel.add(genreComboBox);
+    editPanel.add(typeLabel);
+    editPanel.add(typeComboBox);
+    editPanel.add(rPriceLabel);
+    editPanel.add(rPriceTextField);
+    editPanel.add(blankLabel1);
+
+    //confirmation buttons
+    JPanel buttonPanel = new JPanel();
+    buttonPanel.setLayout(new GridLayout(1,2));
+    JButton cdChangeButton = new JButton("Cancel");
+    JButton artistChangeButton = new JButton("OK");
+    buttonPanel.add(cdChangeButton);
+    buttonPanel.add(artistChangeButton);
+
+
+    Container contentPane = getContentPane();
+    contentPane.add(editPanel,"Center");
+    contentPane.add(buttonPanel, "South");
+    
+  } 
+}
+

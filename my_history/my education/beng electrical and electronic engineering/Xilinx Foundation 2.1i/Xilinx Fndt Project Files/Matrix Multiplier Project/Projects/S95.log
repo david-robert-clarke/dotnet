@@ -1,0 +1,222 @@
+CM: 
+CM: 
+CM: 
+CM: 
+CM: 
+CM: 
+CM: 
+CM: 
+CM: 
+CM: 
+CM: 
+CM: 
+CM: 
+CM: 
+CM: 
+CM: 
+CM: 
+CM: 
+CM: 
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: 
+CM: 
+CM: 
+CM: 
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM:  Error   L7/C0 : #0 Error: C:/fndtn/active/projects/test_cen/asm_config_1.vhd  line 7   No selected element named MATRIX_PACKAGE is defined for this prefix.  (VSS-573) 
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/test_cen/asm_config_1.vhd  line 10   ONE_BIT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L12/C0 : #0 Error: C:/fndtn/active/projects/test_cen/asm_config_1.vhd  line 12   TWO_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L15/C0 : #0 Error: C:/fndtn/active/projects/test_cen/asm_config_1.vhd  line 15   The intermediate file for entity ASM_CONFIG_1 is not in the library bound to WORK.  (VSS-1084) 
+CM:  4 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  Error   L7/C0 : #0 Error: C:/fndtn/active/projects/config_2/answer_store.vhd  line 7   No selected element named MATRIX_PACKAGE is defined for this prefix.  (VSS-573) 
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/config_2/answer_store.vhd  line 10   ONE_BIT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L11/C0 : #0 Error: C:/fndtn/active/projects/config_2/answer_store.vhd  line 11   TEN_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L12/C0 : #0 Error: C:/fndtn/active/projects/config_2/answer_store.vhd  line 12   ONE_BIT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/config_2/answer_store.vhd  line 13   TWENTY_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L16/C0 : #0 Error: C:/fndtn/active/projects/config_2/answer_store.vhd  line 16   The intermediate file for entity ANSWER_STORE is not in the library bound to WORK.  (VSS-1084) 
+CM:  6 error(s) 0 warning(s) found
+CM:  Error   L7/C0 : #0 Error: C:/fndtn/active/projects/config_2/asm_config_2.vhd  line 7   No selected element named MATRIX_PACKAGE is defined for this prefix.  (VSS-573) 
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/config_2/asm_config_2.vhd  line 10   ONE_BIT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L12/C0 : #0 Error: C:/fndtn/active/projects/config_2/asm_config_2.vhd  line 12   ONE_BIT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L15/C0 : #0 Error: C:/fndtn/active/projects/config_2/asm_config_2.vhd  line 15   The intermediate file for entity ASM_CONFIG_2 is not in the library bound to WORK.  (VSS-1084) 
+CM:  4 error(s) 0 warning(s) found
+CM:  Error   L8/C0 : #0 Error: C:/fndtn/active/projects/config_2/mul2.vhd  line 8   No selected element named MATRIX_PACKAGE is defined for this prefix.  (VSS-573) 
+CM:  Error   L11/C0 : #0 Error: C:/fndtn/active/projects/config_2/mul2.vhd  line 11   U_TWO_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L11/C0 : #0 Error: C:/fndtn/active/projects/config_2/mul2.vhd  line 11   NIBBLE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L14/C0 : #0 Error: C:/fndtn/active/projects/config_2/mul2.vhd  line 14   The intermediate file for entity MUL2 is not in the library bound to WORK.  (VSS-1084) 
+CM:  4 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  Error   L7/C0 : #0 Error: C:/fndtn/active/projects/config_3/dsp_config_2.vhd  line 7   No selected element named MATRIX_PACKAGE is defined for this prefix.  (VSS-573) 
+CM:  Error   L10/C0 : #0 Error: C:/fndtn/active/projects/config_3/dsp_config_2.vhd  line 10   ONE_BIT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L12/C0 : #0 Error: C:/fndtn/active/projects/config_3/dsp_config_2.vhd  line 12   U_TWO_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L13/C0 : #0 Error: C:/fndtn/active/projects/config_3/dsp_config_2.vhd  line 13   ONE_BIT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L14/C0 : #0 Error: C:/fndtn/active/projects/config_3/dsp_config_2.vhd  line 14   FIVE_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/config_3/dsp_config_2.vhd  line 17   The intermediate file for entity DSP_CONFIG_2 is not in the library bound to WORK.  (VSS-1084) 
+CM:  6 error(s) 0 warning(s) found
+CM:  Error   L8/C0 : #0 Error: C:/fndtn/active/projects/cons_123/system_2.vhd  line 8   No selected element named MATRIX_PACKAGE is defined for this prefix.  (VSS-573) 
+CM:  Error   L11/C0 : #0 Error: C:/fndtn/active/projects/cons_123/system_2.vhd  line 11   ONE_BIT is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L12/C0 : #0 Error: C:/fndtn/active/projects/cons_123/system_2.vhd  line 12   FIVE_BITS is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L15/C0 : #0 Error: C:/fndtn/active/projects/cons_123/system_2.vhd  line 15   The intermediate file for entity SYSTEM_2 is not in the library bound to WORK.  (VSS-1084) 
+CM:  4 error(s) 0 warning(s) found
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/cons_123/asm_config_1.vhd  line 17   STATE_TYPE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L20/C0 : #0 Error: C:/fndtn/active/projects/cons_123/asm_config_1.vhd  line 20   CURRENT_STATE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L22/C0 : #0 Error: C:/fndtn/active/projects/cons_123/asm_config_1.vhd  line 22   CURRENT_STATE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L30/C0 : #0 Error: C:/fndtn/active/projects/cons_123/asm_config_1.vhd  line 30   NEXT_STATE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L33/C0 : #0 Error: C:/fndtn/active/projects/cons_123/asm_config_1.vhd  line 33   CURRENT_STATE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L34/C0 : #0 Error: C:/fndtn/active/projects/cons_123/asm_config_1.vhd  line 34   CURRENT_STATE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L39/C0 : #0 Error: C:/fndtn/active/projects/cons_123/asm_config_1.vhd  line 39   CURRENT_STATE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L41/C0 : #0 Error: C:/fndtn/active/projects/cons_123/asm_config_1.vhd  line 41   CURRENT_STATE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  8 error(s) 0 warning(s) found
+CM:  Error   L17/C0 : #0 Error: C:/fndtn/active/projects/cons_123/data_store_1.vhd  line 17   ROM_TABLE is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  Error   L23/C0 : #0 Error: C:/fndtn/active/projects/cons_123/data_store_1.vhd  line 23   ROM is not declared. (VSS-575)  (FPGA-dm-hdlc-unknown) 
+CM:  2 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: 
+CM: 
+CM: 
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: 
+CM: c:\fndtn\active\projects\userconf\rom_matrix_store.vhd Error   L9/C0 : #0 Error: C:/fndtn/active/projects/userconf/rom_matrix_store.vhd  line 9   No selected element named MATRIX_PACKAGE is defined for this prefix.  (VSS-573) 
+CM: c:\fndtn\active\projects\userconf\rom_matrix_store.vhd Error   L16/C0 : #0 Error: C:/fndtn/active/projects/userconf/rom_matrix_store.vhd  line 16   The intermediate file for entity DATA_STORE is not in the library bound to WORK.  (VSS-1084) 
+CM:  2 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: 
+CM: c:\fndtn\active\projects\cons_123\system_3.vhd Error   L29/C0 : #0 Error: C:/fndtn/active/projects/cons_123/system_3.vhd  line 29   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\cons_123\system_3.vhd Error   L31/C0 : #0 Error: C:/fndtn/active/projects/cons_123/system_3.vhd  line 31   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\cons_123\system_3.vhd Error   L32/C0 : #0 Error: C:/fndtn/active/projects/cons_123/system_3.vhd  line 32   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\cons_123\system_3.vhd Error   L36/C0 : #0 Error: C:/fndtn/active/projects/cons_123/system_3.vhd  line 36   Syntax error.  (VSS-1081) 
+CM: c:\fndtn\active\projects\cons_123\system_3.vhd Error   L37/C0 : #0 Error: C:/fndtn/active/projects/cons_123/system_3.vhd  line 37   Syntax error.  (VSS-1081) 
+CM:  5 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: 
+CM: 
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM: c:\fndtn\active\projects\system_x\data_storage_x.vhd Error   L25/C0 : #0 Error: C:/fndtn/active/projects/system_x/data_storage_x.vhd  line 25   Syntax error.  (VSS-1081) 
+CM:  1 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: 
+CM:  0 error(s) 0 warning(s) found
+CM:  0 error(s) 0 warning(s) found
+CM: c:\fndtn\active\projects\proj_3x3\data_store_dec.vhd Error   L28/C0 : #0 Error: C:/fndtn/active/projects/proj_3x3/data_store_dec.vhd  line 28   Name must denote a procedure call. (VSS-1039)  (FPGA-dm-hdlc-unknown) 
+CM:  1 error(s) 0 warning(s) found

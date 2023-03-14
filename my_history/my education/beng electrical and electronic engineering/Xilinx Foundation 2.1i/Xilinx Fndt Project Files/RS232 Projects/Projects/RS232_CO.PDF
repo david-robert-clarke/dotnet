@@ -1,0 +1,74 @@
+[project]
+name=rs232_co
+netlist=rs232_co
+contents=rs232_co
+date=11/22/00
+time=00:58:08
+lib_order=1008 155
+version=3.1.5.00.34e
+Type=F21i
+pdf_dir=c:\fndtn\active\projects\
+top_level=VHDL
+library_net=ON
+HDL netlist format=Auto
+
+[libraries]
+1008=
+155=c:\fndtn\active\syslib\xc4000x
+
+[xilinx]
+libraries=unified
+
+[Top Doc]
+Decode.vhd=21
+Decodecnt.vhd=21
+Parity_Test.vhd=21
+Pinoutdecode.vhd=21
+
+[hdl_sheets]
+Decode.vhd=
+Decodecnt.vhd=
+Parity_Test.vhd=
+Pinoutdecode.vhd=
+
+[netlist]
+external=FALSE
+
+[Schematic]
+Table01=Project
+Table02=Macro
+Table03=Date
+Table04=Date Last Modified
+
+[sheets]
+
+[device]
+part=4010XLBG256-09
+xilinx=4010XLBG256-09
+
+[Log]
+exp_net.log=Export netlist
+
+[APP_95]
+oid=0
+lid=0
+
+[OpenDoc]
+hde/Decode=0,0,22,22,790,559,decode.vhd
+
+[OPEN32]
+nMaxFile=255
+lpstrFile=
+lpstrFilter=Schematic (*.SCH)|*.sch|All Files (*.*)|*.*||
+lpstrInitialDir=C:\FNDTN\ACTIVE\PROJECTS\RS232_CO\
+lpstrTitle=Select Schematic Sheet
+nFilterIndex=1
+Flags=6148
+cmdLine=-h 3332 -hp 2812 -m PCM_OPEN_32_MESSAGE -f C:\FNDTN\ACTIVE\PROJECTS\current.pdf
+
+[sc_desk]
+desk00=C:\FNDTN\ACTIVE\PROJECTS\RS232_CO\CONTROLBEAST.SCH, 66, 66, 859, 492, 1
+desk01=C:\FNDTN\ACTIVE\PROJECTS\RS232_CO\DELETE.SCH, 44, 44, 837, 470, 0
+desk02=C:\FNDTN\ACTIVE\PROJECTS\RS232_CO\JOINIT.SCH, 22, 22, 815, 448, 0
+desk03=C:\FNDTN\ACTIVE\PROJECTS\RS232_CO\RS232_C1.SCH, 198, 198, 998, 676, 0
+

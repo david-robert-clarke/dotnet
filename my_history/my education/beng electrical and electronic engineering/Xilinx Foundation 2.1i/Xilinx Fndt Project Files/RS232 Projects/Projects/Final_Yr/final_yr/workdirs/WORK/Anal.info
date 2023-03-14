@@ -1,0 +1,9 @@
+file {
+  .version = 1;
+  entity {
+    .name = "FDCE";
+    .mra_file = "FDCE.mra";
+    .arch = {"Behavioural"};
+    .syn_files = {"FDCE.syn", "FDCE__BEHAVIOURAL.syn"};
+   }
+}

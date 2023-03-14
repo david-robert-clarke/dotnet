@@ -1,0 +1,61 @@
+LCANET, 6
+PROG, Synopsys, UNKNOWN, v3.2, Build 3.2.0.4201
+PART, 4002XL-PC84-09
+SYM, ODD_reg, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, ODD, , 
+PIN, D, I, C2_N5, , 
+PIN, G, I, N16, , 
+END
+SYM, EVEN_reg, LD_1, FILE=./ld_1.xnf, LIBVER=2.0.0
+PIN, Q, O, EVEN, , 
+PIN, D, I, C0_N5, , 
+PIN, G, I, N16, , 
+END
+SYM, c60_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c60_n0, , , INV
+PIN, O, O, C0_N5, , , INV
+END
+SYM, c60_c1, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, S, , 
+PIN, O, O, c60_n0, , 
+END
+SYM, FMAP_0, FMAP, LIBVER=2.0.0
+PIN, I1, I, RESET, , 
+PIN, I2, I, S, , 
+PIN, O, I, C0_N5, , 
+END
+SYM, c61_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c61_n0, , , INV
+PIN, O, O, C2_N5, , , INV
+END
+SYM, c61_c1, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, S, , , INV
+PIN, O, O, c61_n0, , 
+END
+SYM, FMAP_1, FMAP, LIBVER=2.0.0
+PIN, I1, I, RESET, , 
+PIN, I2, I, S, , 
+PIN, O, I, C2_N5, , 
+END
+SYM, c62_c0, BUF, LIBVER=2.0.0
+PIN, I, I, c62_n0, , , INV
+PIN, O, O, N16, , , INV
+END
+SYM, c62_c1, AND, LIBVER=2.0.0
+PIN, I0, I, RESET, , , INV
+PIN, I1, I, PTEN, , , INV
+PIN, O, O, c62_n0, , 
+END
+SYM, FMAP_2, FMAP, LIBVER=2.0.0
+PIN, I1, I, RESET, , 
+PIN, I2, I, PTEN, , 
+PIN, O, I, N16, , 
+END
+SIG, RESET, PIN=RESET
+SIG, PTEN, PIN=PTEN
+SIG, S, PIN=S
+SIG, EVEN, PIN=EVEN
+SIG, ODD, PIN=ODD
+EOF

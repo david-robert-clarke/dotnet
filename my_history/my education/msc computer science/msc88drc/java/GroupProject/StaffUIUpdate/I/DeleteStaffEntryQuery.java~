@@ -1,0 +1,65 @@
+package I;
+
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.Calendar;
+
+
+/**
+ * SQL Query
+ *
+ * 
+ **/
+public class UpdateStaffEntryQuery
+{
+  private ArrayList staffArrayList;
+  private Connection c;
+
+  public UpdateStaffEntryQuery(ArrayList staff)
+  {      
+
+    c = MyConnection.C;
+    staffArrayList = staff;
+  }
+
+  public void exeQuery()
+  {
+    try 
+    {
+      
+      String sid = (String)staffArrayList.get(0);
+      String sfirstname = (String)staffArrayList.get(1);
+      String slastname = (String)staffArrayList.get(2);
+      String staff_addr1= (String)staffArrayList.get(3);
+      String staff_addr2= (String)staffArrayList.get(4);
+      String staff_pcode= (String)staffArrayList.get(5);
+      String staff_phone= (String)staffArrayList.get(6);
+      String staff_mobphone= (String)staffArrayList.get(7);
+      String position= (String)staffArrayList.get(8);
+      String password= (String)staffArrayList.get(9);
+
+      System.out.println(sid+" "+sfirstname+" "+slastname+" "+staff_addr1+" "+ 
+			 staff_addr2+" "+ staff_pcode+" "+ staff_phone+" "+
+			 staff_mobphone+" "+ position+" "+ password);
+
+      // Create a result set containing all data from my_table
+      Statement stmt = c.createStatement();
+      int number = stmt.executeUpdate("UPDATE staff SET sfirstname ='" + 
+			 sfirstname + "', slastname ='" +
+				      slastname + "', staff_addr1 ='" +
+				      staff_addr1 + "', staff_addr2 ='" + 
+				      staff_addr2 + "', staff_pcode ='" + 
+				      staff_pcode + "', staff_phone ='" + 
+				      staff_phone + "', staff_mobphone ='" + 
+				      staff_mobphone + "', position ='" + 
+				      position + "', password = '" +
+				      password +  "' WHERE sid = '" + sid + "'");
+      
+      System.out.println("Number of tuples changed = " + number);
+    } 
+    catch (SQLException e) 
+    {
+      System.out.println( "An exception occurred in UpdateStaffEntryQuery. " + e);
+    }
+  }
+}

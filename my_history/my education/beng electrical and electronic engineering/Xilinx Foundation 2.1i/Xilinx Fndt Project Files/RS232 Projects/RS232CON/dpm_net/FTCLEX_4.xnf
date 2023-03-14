@@ -1,0 +1,44 @@
+LCANET, 6
+PROG, Synopsys, UNKNOWN, v3.2, Build 3.2.0.4201
+PART, 4010XL-PC84-09
+SYM, $1I30, m2_1_0_3, FILE=./M2_1_0_3.xnf, LIBVER=2.0.0, SCHNM=M2_1, SYSTEM=XMACRO
+PIN, D0, B, TQ, , 
+PIN, O, B, MD, , 
+PIN, S0, B, L, , 
+PIN, D1, B, D, , 
+END
+SYM, $1I35, DFF, LIBVER=2.0.0, RLOC=R0C0, SCHNM=FDCE
+PIN, D, I, MD, , 
+PIN, C, I, C, , 
+PIN, CLR, I, CLR, , 
+PIN, CE, I, CE, , 
+PIN, Q, O, Q, , 
+END
+SYM, c0_c0, AND, LIBVER=2.0.0
+PIN, I0, I, c0_n0, , , INV
+PIN, I1, I, c0_n1, , , INV
+PIN, O, O, TQ, , , INV
+END
+SYM, c0_c1, AND, LIBVER=2.0.0
+PIN, I0, I, T, , , INV
+PIN, I1, I, Q, , 
+PIN, O, O, c0_n0, , 
+END
+SYM, c0_c2, AND, LIBVER=2.0.0
+PIN, I0, I, T, , 
+PIN, I1, I, Q, , , INV
+PIN, O, O, c0_n1, , 
+END
+SYM, FMAP_0, FMAP, LIBVER=2.0.0
+PIN, I1, I, T, , 
+PIN, I2, I, Q, , 
+PIN, O, I, TQ, , 
+END
+SIG, T, PIN=T
+SIG, Q, PIN=Q
+SIG, CE, PIN=CE
+SIG, L, PIN=L
+SIG, C, PIN=C
+SIG, D, PIN=D
+SIG, CLR, PIN=CLR
+EOF

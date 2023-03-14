@@ -1,0 +1,30 @@
+-- Created by David Clarke
+-- Final Year Project
+-- Exploiting Parallelism in FPGA design
+-- Date : 4_12_2000
+Library IEEE;
+Use IEEE.STD_LOGIC_1164.ALL;
+
+Entity MUX_SEL2 IS
+PORT (D_LATCH : IN STD_LOGIC; EXT_DATA : IN STD_LOGIC;
+      SEL : IN STD_LOGIC_VECTOR (1 downto 0); Q : OUT STD_LOGIC);
+End Entity MUX_SEL2;
+
+ARCHITECTURE Behavioural OF MUX_SEL2 IS
+BEGIN
+
+	Process (SEL)
+	Begin
+	IF SEL = "01" THEN
+	   Q <= EXT_DATA;
+	ELSIF SEL = "10" THEN
+	   Q <= EXT_DATA;
+	ELSIF SEL = "11" THEN
+	   Q <= EXT_DATA;
+	ELSE 
+	   Q <= D_LATCH;
+	END IF;
+	END Process;
+	
+END ARCHITECTURE Behavioural;  
+

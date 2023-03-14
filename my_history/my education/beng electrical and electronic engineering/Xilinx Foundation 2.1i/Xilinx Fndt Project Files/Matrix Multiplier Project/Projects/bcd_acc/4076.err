@@ -1,0 +1,6 @@
+error# 3.229    line   25    file d:\fndtn\active\projects\bcd_acc\4076t.v
+always #10 clk = ~clk;
+     ^ expecting ";"
+error# 2.188
+sim to 0
+        ^ errors are too severe to simulate

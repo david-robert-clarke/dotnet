@@ -1,0 +1,48 @@
+Created by PCM: 12/20/100
+Empty design C:\FNDTN\ACTIVE\PROJECTS\CONFIG_3\config_3.XNF created: 12/20/100 [15.57.9].
+Document c:\fndtn\active\projects\config_3\add4.vhd added: 12/20/100 [15.57.42].
+Document c:\fndtn\active\projects\config_3\answer_store.vhd added: 12/20/100 [15.57.44].
+Document c:\fndtn\active\projects\config_3\asm_config_2.vhd added: 12/20/100 [15.57.46].
+Document c:\fndtn\active\projects\config_3\data_store.vhd added: 12/20/100 [15.57.48].
+Document c:\fndtn\active\projects\config_3\dsp_config_2.vhd added: 12/20/100 [15.57.50].
+Document c:\fndtn\active\projects\config_3\matrix_package.vhd added: 12/20/100 [15.57.53].
+Document c:\fndtn\active\projects\config_3\mul2.vhd added: 12/20/100 [15.57.57].
+Document c:\fndtn\active\projects\config_3\system_2.vhd added: 12/20/100 [15.58.1].
+'c:\fndtn\active\projects\config_3\answer_store.vhd' saved on 00/12/20 16:25
+'c:\fndtn\active\projects\config_3\answer_store.vhd' saved on 00/12/20 16:26
+'c:\fndtn\active\projects\config_3\dsp_config_2.vhd' saved on 00/12/20 16:29
+'c:\fndtn\active\projects\config_3\dsp_config_2.vhd' saved on 00/12/20 16:32
+'c:\fndtn\active\projects\config_3\data_store.vhd' saved on 00/12/20 16:32
+'c:\fndtn\active\projects\config_3\data_store.vhd' saved on 00/12/20 16:37
+'c:\fndtn\active\projects\config_3\data_store.vhd' saved on 00/12/20 16:37
+'c:\fndtn\active\projects\config_3\data_store.vhd' saved on 00/12/20 16:38
+'C:\Fndtn\Active\Projects\Config_3\dsp_config_2.vhd' saved on 00/12/20 16:41
+'C:\Fndtn\Active\Projects\Config_3\dsp_config_2.vhd' saved on 00/12/20 16:43
+'C:\Fndtn\Active\Projects\Config_3\dsp_config_2.vhd' saved on 00/12/20 16:45
+'C:\Fndtn\Active\Projects\Config_3\dsp_config_2.vhd' saved on 00/12/20 16:45
+Document c:\fndtn\active\projects\config_3\dsp_config_3.vhd added: 12/20/100 [16.45.40].
+Document c:\fndtn\active\projects\config_3\dsp_config_2.vhd removed: 12/20/100 [16.46.1].
+'C:\Fndtn\Active\Projects\Config_3\dsp_config_3.vhd' saved on 00/12/20 16:46
+'c:\fndtn\active\projects\config_3\asm_config_2.vhd' saved on 00/12/20 16:47
+Document c:\fndtn\active\projects\config_3\asm_config_3.vhd added: 12/20/100 [16.47.56].
+Document c:\fndtn\active\projects\config_3\asm_config_2.vhd removed: 12/20/100 [16.48.8].
+'c:\fndtn\active\projects\config_3\asm_config_3.vhd' saved on 00/12/20 16:48
+'c:\fndtn\active\projects\config_3\system_2.vhd' saved on 00/12/20 16:49
+Document c:\fndtn\active\projects\config_3\system_3.vhd added: 12/20/100 [16.49.17].
+Document c:\fndtn\active\projects\config_3\system_2.vhd removed: 12/20/100 [16.49.24].
+'c:\fndtn\active\projects\config_3\system_3.vhd' saved on 00/12/20 17:21
+'c:\fndtn\active\projects\config_3\system_3.vhd' saved on 00/12/20 17:23
+Implementation ver1 updated: 12/20/100 [17.24.16].
+Entity SYSTEM_3, non optimized chip, file c:\fndtn\active\projects\config_3\system_3.vhd.Implementation ver1 updated: 12/20/100 [17.24.17].
+Entity SYSTEM_3, optimized chip ver1-Optimized, file c:\fndtn\active\projects\config_3\system_3.vhd.Implementation ver1 updated: 12/20/100 [17.24.18].
+Entity SYSTEM_3, optimized chip ver1-Optimized, file c:\fndtn\active\projects\config_3\system_3.vhd.'c:\fndtn\active\projects\config_3\dsp_config_3.vhd' saved on 00/12/20 17:24
+Implementation ver1 updated: 12/20/100 [17.26.39].
+Entity SYSTEM_3, non optimized chip, file c:\fndtn\active\projects\config_3\system_3.vhd.'c:\fndtn\active\projects\config_3\dsp_config_3.vhd' saved on 00/12/20 17:27
+Implementation ver1 updated: 12/20/100 [17.28.11].
+Entity SYSTEM_3, non optimized chip, file c:\fndtn\active\projects\config_3\system_3.vhd.Implementation ver1 updated: 12/20/100 [17.28.13].
+Entity SYSTEM_3, optimized chip ver1-Optimized, file c:\fndtn\active\projects\config_3\system_3.vhd.Implementation ver1 updated: 12/20/100 [17.28.14].
+Entity SYSTEM_3, optimized chip ver1-Optimized, file c:\fndtn\active\projects\config_3\system_3.vhd.'c:\fndtn\active\projects\config_3\asm_config_3.vhd' saved on 00/12/20 17:28
+Implementation ver1 updated: 12/20/100 [17.30.8].
+Entity SYSTEM_3, non optimized chip, file c:\fndtn\active\projects\config_3\system_3.vhd.Implementation ver1 updated: 12/20/100 [17.30.10].
+Entity SYSTEM_3, optimized chip ver1-Optimized, file c:\fndtn\active\projects\config_3\system_3.vhd.Implementation ver1 updated: 12/20/100 [17.30.11].
+Entity SYSTEM_3, optimized chip ver1-Optimized, file c:\fndtn\active\projects\config_3\system_3.vhd.

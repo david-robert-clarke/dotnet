@@ -1,0 +1,9 @@
+/**
+program that tests each method in the Person class to see if everything behaves
+correctly
+
+@author David Clarke
+**/
+
+Class TestPerson
+{

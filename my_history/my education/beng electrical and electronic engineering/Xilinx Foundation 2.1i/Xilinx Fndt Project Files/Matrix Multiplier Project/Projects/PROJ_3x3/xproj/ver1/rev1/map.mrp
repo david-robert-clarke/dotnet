@@ -1,0 +1,139 @@
+
+Xilinx Mapping Report File for Design 'proj_3x3'
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Design Information
+------------------
+Command Line   : m1map -p xc4010xl-09-pq208 -o map.ncd proj_3x3.ngd
+proj_3x3.pcf 
+Target Device  : x4010xl
+Target Package : pq208
+Target Speed   : -09
+Mapper Version : xc4000xl -- C.16
+
+Design Summary
+--------------
+   Number of errors:        0
+   Number of warnings:      1
+   Number of CLBs:             23 out of   400    5%
+      CLB Flip Flops:       0
+      CLB Latches:          0
+      4 input LUTs:        45
+      3 input LUTs:         0
+   Number of bonded IOBs:      93 out of   160   58%
+      IOB Flops:           45
+      IOB Latches:          0
+   Number of clock IOB pads:    1 out of    12    8%
+   Number of BUFGLSs:           1 out of     8   12%
+   Number of startup:           1 out of     1  100%
+Total equivalent gate count for design: 540
+Additional JTAG gate count for IOBs:    4464
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Design Attributes
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - Added Logic
+Section 7 - Expanded Logic
+Section 8 - Signal Cross-Reference
+Section 9 - Symbol Cross-Reference
+Section 10 - IOB Properties
+Section 11 - RPMs
+Section 12 - Guide Report
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:OldMap:78 - All of the external outputs in this design are using
+   slew-rate-limited output drivers.  The delay on speed critical outputs can be
+   dramatically reduced by designating them as fast outputs in the original
+   design.  Please see your vendor interface documentation for specific
+   information on how to do this within your design-entry tool.
+   Note: You should be careful not to designate too many outputs which switch
+   together as fast, because this can cause excessive ground bounce.  For more
+   information on this subject, please refer to the IOB switching characteristic
+   guidelines for the device you are using in the Programmable Logic Data Book.
+
+Section 3 - Design Attributes
+-----------------------------
+
+Section 4 - Removed Logic Summary
+---------------------------------
+
+Section 5 - Removed Logic
+-------------------------
+
+Section 6 - Added Logic
+-----------------------
+
+Section 7 - Expanded Logic
+--------------------------
+To enable this section, set the detailed map report option and rerun map.
+
+Section 8 - Signal Cross-Reference
+----------------------------------
+To enable this section, set the detailed map report option and rerun map.
+
+Section 9 - Symbol Cross-Reference
+----------------------------------
+To enable this section, set the detailed map report option and rerun map.
+
+Section 10 - IOB Properties
+---------------------------
+"ANSWER<0>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<10>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<11>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<12>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<13>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<14>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<15>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<16>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<17>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<18>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<19>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<1>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<20>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<21>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<22>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<23>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<24>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<25>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<26>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<27>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<28>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<29>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<2>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<30>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<31>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<32>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<33>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<34>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<35>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<36>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<37>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<38>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<39>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<3>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<40>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<41>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<42>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<43>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<44>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<4>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<5>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<6>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<7>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<8>" (IOB) : SLEW=SLOW OUTFF
+"ANSWER<9>" (IOB) : SLEW=SLOW OUTFF
+
+Section 11 - RPMs
+-----------------
+
+Section 12 - Guide Report
+-------------------------
+Guide not run on this design.

@@ -1,0 +1,32 @@
+ngdbuild:  version C.16
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -p xc4085xl-09-pg559 -uc row_cols.ucf -dd ..
+c:\fndtn\active\projects\row_cols\row_cols.xnf row_cols.ngd 
+
+Launcher: Executing xnf2ngd -p xc4000xl -u
+"c:\fndtn\active\projects\row_cols\row_cols.xnf"
+"C:\Fndtn\Active\Projects\ROW_COLS\xproj\ver1\row_cols.ngo"
+xnf2ngd:  version C.16
+Copyright (c) 1995-1999 Xilinx, Inc.  All rights reserved.
+   using XNF gate model
+   reading XNF file "c:/fndtn/active/projects/row_cols/row_cols.xnf" ...
+   Writing NGO file "C:/Fndtn/Active/Projects/ROW_COLS/xproj/ver1/row_cols.ngo"
+...
+Reading NGO file "C:/Fndtn/Active/Projects/ROW_COLS/xproj/ver1/row_cols.ngo"
+...
+Reading component libraries for design expansion...
+
+Annotating constraints to design from file "row_cols.ucf" ...
+
+Checking timing specifications ...
+
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "row_cols.ngd" ...
+
+Writing NGDBUILD log file "row_cols.bld"...

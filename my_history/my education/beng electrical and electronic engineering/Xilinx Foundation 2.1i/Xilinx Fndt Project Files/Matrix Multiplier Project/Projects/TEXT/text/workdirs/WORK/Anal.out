@@ -1,0 +1,5 @@
+C:/fndtn/active/projects/text/fig_10_2.vhd:
+      transport 16 after 55000 ps,
+      ^
+**Error: C:/fndtn/active/projects/text/fig_10_2.vhd  line 39
+	Syntax error. (VSS-1081)

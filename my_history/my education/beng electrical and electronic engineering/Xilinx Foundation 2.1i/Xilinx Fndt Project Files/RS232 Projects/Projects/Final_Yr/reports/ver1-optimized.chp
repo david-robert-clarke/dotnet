@@ -1,0 +1,111 @@
+
+===================
+Chip ver1-Optimized
+===================
+
+Summary Information:
+--------------------
+Type: Optimized implementation
+Source: ver1, up to date
+Status: 0 errors, 3 warnings, 0 messages
+Export: exported after last optimization
+
+Target Information:
+-------------------
+Vendor: Xilinx
+Family: XC4000XL
+Device: 4010XLPC84
+Speed: xl-09
+
+Chip Parameters:
+----------------
+Optimize for: Speed
+Optimization effort: Low
+Frequency: 50 MHz
+Is module: No
+Keep io pads: No
+Number of flip-flops: 0
+Number of latches: 2
+
+Chip Design Hierarchy:
+----------------------
+Size_Comparator: defined in c:\fndtn\active\projects\final_yr\size_comparator.vhd
+
+Primitive reference count:
+--------------------------
+FMAP        119
+HMAP         23
+IBUF         16
+LD_1          2
+OBUF          2
+
+Clocks:
+-------
+                           Required  Estimated                       
+Period   Rise     Fall     Freq      Freq       Signal               
+(ns)     (ns)     (ns)     (MHz)     (MHz)                           
+...............................................................
+ 20        0       10       50.00     -1.00     default              
+ -1       -1       -1      -1000.00  100.00     N96                  
+
+Timing Groups:
+--------------
+                                                              
+                                                              
+Name                 Description                              
+............................................................
+(I)                  Input ports                              
+(O)                  Output ports                             
+(LL,N96)             Latched by low-value of N96              
+
+Timing Path Groups:
+-------------------
+                                          Required   Estimated  
+                                          Delay      Delay      
+From                 To                   (ns)       (ns)       
+............................................................
+(LL,N96)             (O)                   20.00       8.02     
+
+Input Port Timing:
+------------------
+                     Required   Estimated                       
+Port                 Delay      Slack                           
+Name                 (ns)       (ns)       To-Group             
+............................................................
+Next_byte<15>           n/a        n/a     (O)                  
+Next_byte<14>           n/a        n/a     (O)                  
+Next_byte<13>           n/a        n/a     (O)                  
+Next_byte<12>           n/a        n/a     (O)                  
+Next_byte<11>           n/a        n/a     (O)                  
+Next_byte<10>           n/a        n/a     (O)                  
+Next_byte<9>            n/a        n/a     (O)                  
+Next_byte<8>            n/a        n/a     (O)                  
+Next_byte<7>            n/a        n/a     (O)                  
+Next_byte<6>            n/a        n/a     (O)                  
+Next_byte<5>            n/a        n/a     (O)                  
+Next_byte<4>            n/a        n/a     (O)                  
+Next_byte<3>            n/a        n/a     (O)                  
+Next_byte<2>            n/a        n/a     (O)                  
+Next_byte<1>            n/a        n/a     (O)                  
+Next_byte<0>            n/a        n/a     (O)                  
+
+Output Port Timing:
+-------------------
+                     Required   Estimated                       
+Port                 Delay      Slack                           
+Name                 (ns)       (ns)       From-Group           
+............................................................
+Error_Output          20.00      11.98     (LL,N96)             
+FSMCON_EN             20.00      11.98     (LL,N96)             
+
+Critical Path Timing:
+---------------------
+           Arrival    Required                                
+Cell       Time       Time       Fanout                       
+Type       (ns)       (ns)       Count   Pin-Name             
+.........................................................
+port         8.02      20.00       0     /ver1-Optimized/Error
+OBUF         8.02      20.00       0     /ver1-Optimized/C1600
+OBUF         3.32      15.30       1     /ver1-Optimized/C1600
+LD_1         1.20      13.18       1     /ver1-Optimized/Error
+LD_1         0.00      11.98       2     /ver1-Optimized/Error
