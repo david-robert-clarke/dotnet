@@ -1,0 +1,15 @@
+C:\Users\david\repos\personal\dev\csharp\SinglyLinkedList\obj\Debug\net7.0\SinglyLinkedList.csproj.AssemblyReference.cache
+C:\Users\david\repos\personal\dev\csharp\SinglyLinkedList\obj\Debug\net7.0\SinglyLinkedList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\repos\personal\dev\csharp\SinglyLinkedList\obj\Debug\net7.0\SinglyLinkedList.AssemblyInfoInputs.cache
+C:\Users\david\repos\personal\dev\csharp\SinglyLinkedList\obj\Debug\net7.0\SinglyLinkedList.AssemblyInfo.cs
+C:\Users\david\repos\personal\dev\csharp\SinglyLinkedList\obj\Debug\net7.0\SinglyLinkedList.csproj.CoreCompileInputs.cache
+C:\Users\david\repos\personal\dev\csharp\SinglyLinkedList\bin\Debug\net7.0\SinglyLinkedList.exe
+C:\Users\david\repos\personal\dev\csharp\SinglyLinkedList\bin\Debug\net7.0\SinglyLinkedList.deps.json
+C:\Users\david\repos\personal\dev\csharp\SinglyLinkedList\bin\Debug\net7.0\SinglyLinkedList.runtimeconfig.json
+C:\Users\david\repos\personal\dev\csharp\SinglyLinkedList\bin\Debug\net7.0\SinglyLinkedList.dll
+C:\Users\david\repos\personal\dev\csharp\SinglyLinkedList\bin\Debug\net7.0\SinglyLinkedList.pdb
+C:\Users\david\repos\personal\dev\csharp\SinglyLinkedList\obj\Debug\net7.0\SinglyLinkedList.dll
+C:\Users\david\repos\personal\dev\csharp\SinglyLinkedList\obj\Debug\net7.0\refint\SinglyLinkedList.dll
+C:\Users\david\repos\personal\dev\csharp\SinglyLinkedList\obj\Debug\net7.0\SinglyLinkedList.pdb
+C:\Users\david\repos\personal\dev\csharp\SinglyLinkedList\obj\Debug\net7.0\SinglyLinkedList.genruntimeconfig.cache
+C:\Users\david\repos\personal\dev\csharp\SinglyLinkedList\obj\Debug\net7.0\ref\SinglyLinkedList.dll

@@ -1,0 +1,12 @@
+C:\Users\david\repos\personal\dev\csharp\C_Sharp_Test_Driven_Development\03_08_Before\HPlusSportTDD.Core\bin\Debug\net7.0\HPlusSportTDD.Core.deps.json
+C:\Users\david\repos\personal\dev\csharp\C_Sharp_Test_Driven_Development\03_08_Before\HPlusSportTDD.Core\bin\Debug\net7.0\HPlusSportTDD.Core.dll
+C:\Users\david\repos\personal\dev\csharp\C_Sharp_Test_Driven_Development\03_08_Before\HPlusSportTDD.Core\bin\Debug\net7.0\HPlusSportTDD.Core.pdb
+C:\Users\david\repos\personal\dev\csharp\C_Sharp_Test_Driven_Development\03_08_Before\HPlusSportTDD.Core\obj\Debug\net7.0\HPlusSportTDD.Core.csproj.AssemblyReference.cache
+C:\Users\david\repos\personal\dev\csharp\C_Sharp_Test_Driven_Development\03_08_Before\HPlusSportTDD.Core\obj\Debug\net7.0\HPlusSportTDD.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\repos\personal\dev\csharp\C_Sharp_Test_Driven_Development\03_08_Before\HPlusSportTDD.Core\obj\Debug\net7.0\HPlusSportTDD.Core.AssemblyInfoInputs.cache
+C:\Users\david\repos\personal\dev\csharp\C_Sharp_Test_Driven_Development\03_08_Before\HPlusSportTDD.Core\obj\Debug\net7.0\HPlusSportTDD.Core.AssemblyInfo.cs
+C:\Users\david\repos\personal\dev\csharp\C_Sharp_Test_Driven_Development\03_08_Before\HPlusSportTDD.Core\obj\Debug\net7.0\HPlusSportTDD.Core.csproj.CoreCompileInputs.cache
+C:\Users\david\repos\personal\dev\csharp\C_Sharp_Test_Driven_Development\03_08_Before\HPlusSportTDD.Core\obj\Debug\net7.0\HPlusSportTDD.Core.dll
+C:\Users\david\repos\personal\dev\csharp\C_Sharp_Test_Driven_Development\03_08_Before\HPlusSportTDD.Core\obj\Debug\net7.0\refint\HPlusSportTDD.Core.dll
+C:\Users\david\repos\personal\dev\csharp\C_Sharp_Test_Driven_Development\03_08_Before\HPlusSportTDD.Core\obj\Debug\net7.0\HPlusSportTDD.Core.pdb
+C:\Users\david\repos\personal\dev\csharp\C_Sharp_Test_Driven_Development\03_08_Before\HPlusSportTDD.Core\obj\Debug\net7.0\ref\HPlusSportTDD.Core.dll
