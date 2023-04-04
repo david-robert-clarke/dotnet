@@ -1,0 +1,30 @@
+{
+  "name": "node_graphql",
+  "version": "0.1",
+  "description": "node graphql tutorial",
+  "main": "index.js",
+  "author": "David Clarke",
+  "license": "N",
+  "private": true,
+  "dependencies": {
+    "apollo-server": "^3.6.3",
+    "graphql": "^16.3.0",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1",
+    "node-fetch": "2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  }
+}

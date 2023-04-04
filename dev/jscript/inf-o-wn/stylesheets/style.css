@@ -1,0 +1,391 @@
+/* 
+ * GLOBAL 
+ */
+ body
+ {
+ 	font-family: "Helvetica Neue", "Arial", "Helvetica";
+ 	font-size: 12px;
+ 	color: #222222;
+ 	text-align: left;
+ 	margin: auto;
+ }
+ body a
+ {
+ 	color: #000000;
+ }
+ body a:hover
+ {
+ 	color: #777777;
+ }
+ body blockquote
+ {
+ 	color: #111111;
+ 	font-style:italic;
+  margin-left: 0;
+ }
+ body h1
+ {
+ 	font-size: 24px;
+ 	line-height: 24px;
+ 	color: #000000;
+ 	text-transform: uppercase;
+ 	text-shadow:#F2E2D2 0px 0px 15px;
+ 	padding: 5px 5px 5px 0px;
+ }
+ body h2
+ {
+ 	font-size: 18px;
+ 	line-height: 18px;
+ 	color: #000000;
+    text-transform: uppercase;
+    /*text-shadow:#3399FF 0px 0px 15px;*/
+    padding: 5px 5px 5px 0px;
+}
+body h3
+{
+  font-size: 14px;
+  line-height: 14px;
+  color: #222222;
+  text-transform: uppercase;
+  /*text-shadow:#3399FF 0px 0px 15px;*/
+  padding: 5px 5px 5px 0px;
+}
+body h4
+{
+  font-size: 12px;
+  line-height: 12px;
+  color: #000000;
+  /*text-shadow:#3399FF 0px 0px 15px;*/
+  padding: 5px 5px 5px 0px;
+}
+table th
+{
+  background-color:#D2E2F2;
+  color:black;
+  font-weight:bold;
+  text-align:center;
+}
+
+table td
+{
+	background-color:#F2E2D2;
+	color:black;
+	text-align:center;
+}
+
+
+/* 
+ * LAYOUT
+ */
+ div#container
+ {
+ 	background-color: #FFFFFF;
+ 	overflow: auto;
+ 	width: 100%;
+ }
+
+ div#header
+ {
+ 	left:0px;
+ 	top:0px;
+ }
+
+ div#header_title
+ {
+ 	color: #000000;
+ 	float: left;
+ 	text-shadow:5px 5px 50px #DDDDDD;
+ 	text-transform: uppercase;
+ 	font-weight: bold;
+ 	font-size: 60px;
+ 	line-height: 40px;
+ 	/*padding: 20px 30px 30px 10px;*/
+    padding: 20px 50px 20px 10px;
+}
+div#breadcrumbs
+{
+    clear: both;
+    float: left;
+    padding: 10px 0px 0px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    overflow: auto; 
+    width: 100%;
+}
+
+/* Primary Menu
+------------------------------------------*/
+#header_menu,
+#header_menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+#header_menu {
+    float: left;
+    text-transform:uppercase;
+}
+#header_menu > li {
+    float: left;
+}
+#header_menu li a {
+    display: block;
+    height: 2em;
+    line-height: 2em;
+    padding: 0 1.5em;
+    text-decoration: none;
+}
+#header_menu li a.current {
+    background:#ffc97c;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+#header_menu ul {
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+#header_menu ul li a {
+    width: 80px;
+}
+#header_menu li:hover ul {
+    display: block;
+}
+
+#header_menu {
+    background: #D2E2F2;
+}
+#header_menu > li > a {
+    color: #000000;
+    font-weight: bold;
+}
+#header_menu > li:hover > a {
+    background: #ffc97c;
+    color: #000000;
+}
+#header_menu > li:hover > a.current {
+    background:#ffc97c;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+/* Submenu
+------------------------------------------*/
+#header_menu ul {
+    background: #F2E2D2;
+}
+#header_menu ul li a {
+    color: #0000000;
+}
+#header_menu ul li:hover a {
+    background: #ffc97c;
+}
+
+/* Secondary Menu
+------------------------------------------*/
+#secondary_menu,
+#secondary_menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+#secondary_menu {
+    float: left;
+    text-transform:uppercase;
+}
+#secondary_menu > li {
+    float: left;
+}
+#secondary_menu li a {
+    display: block;
+    height: 2em;
+    line-height: 2em;
+    padding: 0 1.5em;
+    text-decoration: none;
+}
+#secondary_menu li a.current {
+    background:#ffc97c;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+#secondary_menu ul {
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+#secondary_menu ul li a {
+    width: 80px;
+}
+#secondary_menu li:hover ul {
+    display: block;
+}
+
+#secondary_menu {
+    background: #FFFFFF;
+}
+#secondary_menu > li > a {
+    color: #777777;
+    font-weight: bold;
+}
+#secondary_menu > li:hover > a {
+    background: #ffc97c;
+    color: #000000;
+}
+#secondary_menu > li:hover > a.current {
+    background:#ffc97c;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+
+/* Main Contents
+------------------------------------------*/
+
+/* Home Page Details Panel */
+ div#date_panel
+ {
+  color: #000000;
+  float: left;
+  text-shadow:5px 5px 50px #DDDDDD;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  padding: 10px 50px 10px 10px;
+  background-color: #FFFFFF;
+  width: 100%;
+}
+ div#result_panel
+ {
+  color: #000000;
+  float: left;
+  text-shadow:5px 5px 50px #DDDDDD;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 11px;
+  padding: 2px 50px 2px 10px;
+  background-color: #FFFFFF;
+  width: 100%;
+}
+
+/* 1 Column Layout */
+div#column1of1
+{
+    clear: both;
+    float: left;
+    width: 95%;
+    margin: 0px;
+    padding-left: 10px;
+}
+/* 2 Column Layout */
+div#column1of2
+{
+    clear: both;
+    float: left;
+    width: 45%;
+    margin: 0px;
+    padding-left: 10px;
+}
+div#column2of2
+{
+    width: 45%;
+    float: left;
+    margin: 0px;
+    padding-left: 10px;
+}
+
+/* 3 Column Layout */
+div#column1of3
+{
+  clear: both;
+  float: left;
+  width: 30%;
+  margin: 0px;
+  padding-left: 10px;
+}
+div#column2of3
+{
+  width: 30%;
+  float: left;
+  margin: 0px;
+  padding-left: 10px;
+}
+div#column3of3
+{
+  width: 30%;
+  float: left;
+  margin: 0px;
+  padding-left: 10px;
+}
+
+/* 4 Column Layout */
+div#column1of4
+{
+    clear: both;
+    float: left;
+    width: 24%;
+    margin: 0px;
+    padding-left: 10px;
+}
+div#column2of4
+{
+    float: left;
+    width: 22%;
+    margin: 0px;
+    padding-left: 10px;
+}
+div#column3of4
+{
+    float: left;
+    width: 22%;
+    margin: 0px;
+    padding-left: 10px;
+}
+div#column4of4
+{
+    float: left;
+    width: 22%;
+    margin: 0px;
+    padding-left: 10px;
+}
+
+/* Footer
+------------------------------------------*/
+div#footer_divider_upper
+{
+  width: 100%;
+  background-color: #FFFFFF;
+  clear: both;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 10px;
+  padding: 0px;
+  text-align: left;
+}
+div#footer
+{
+  width: 100%;
+  background-color: #D2E2F2;
+  clear: both;
+  text-transform: capitalize;
+  font-weight: normal;
+  color: #555555;
+  margin: 10px;
+  padding: 0px;
+  text-align: left;
+}
+div#footer_divider_lower
+{
+  width: 100%;
+  background-color: #F2E2D2;
+  clear: both;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 10px;
+  padding: 0px;
+  text-align: left;
+}
