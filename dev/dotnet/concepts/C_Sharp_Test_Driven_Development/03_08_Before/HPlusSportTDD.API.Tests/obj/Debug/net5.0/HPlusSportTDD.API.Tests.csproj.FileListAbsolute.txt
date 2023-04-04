@@ -1,6 +1,0 @@
-C:\Users\david\repos\personal\dev\csharp\C_Sharp_Test_Driven_Development\03_08_Before\HPlusSportTDD.API.Tests\bin\Debug\net5.0\CoverletSourceRootsMapping
-C:\Users\david\repos\personal\dev\csharp\C_Sharp_Test_Driven_Development\03_08_Before\HPlusSportTDD.API.Tests\obj\Debug\net5.0\HPlusSportTDD.API.Tests.csproj.AssemblyReference.cache
-C:\Users\david\repos\personal\dev\csharp\C_Sharp_Test_Driven_Development\03_08_Before\HPlusSportTDD.API.Tests\obj\Debug\net5.0\HPlusSportTDD.API.Tests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\david\repos\personal\dev\csharp\C_Sharp_Test_Driven_Development\03_08_Before\HPlusSportTDD.API.Tests\obj\Debug\net5.0\HPlusSportTDD.API.Tests.AssemblyInfoInputs.cache
-C:\Users\david\repos\personal\dev\csharp\C_Sharp_Test_Driven_Development\03_08_Before\HPlusSportTDD.API.Tests\obj\Debug\net5.0\HPlusSportTDD.API.Tests.AssemblyInfo.cs
-C:\Users\david\repos\personal\dev\csharp\C_Sharp_Test_Driven_Development\03_08_Before\HPlusSportTDD.API.Tests\obj\Debug\net5.0\HPlusSportTDD.API.Tests.csproj.CoreCompileInputs.cache
